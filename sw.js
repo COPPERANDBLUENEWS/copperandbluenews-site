@@ -5,10 +5,10 @@
 //   so bumping the version fetches fresh copies. Bump VERSION below when the precache list changes.
 // - Offline: navigations fall back to the cached page, then offline.html.
 // - Web push: shows Game alerts and opens the payload URL (default /tracker.html) on click.
-const VERSION = "cbn-v17";
+const VERSION = "cbn-v18";
 const STATIC = `${VERSION}-static`, PAGES = `${VERSION}-pages`, DATA = `${VERSION}-data`;
 const PRECACHE = [
-  "/offline.html", "/css/style.css?v=17", "/js/main.js?v=17", "/js/pwa.js?v=17",
+  "/offline.html", "/css/style.css?v=18", "/js/main.js?v=18", "/js/pwa.js?v=18",
   "/logo.jpg", "/icons/icon-192.png", "/icons/badge-96.png", "/favicon-32.png"
 ];
 const DATA_MAX = 60;
@@ -76,6 +76,9 @@ self.addEventListener("fetch", event => {
     return; // anything else: plain network
   }
   if (FONT_HOSTS.includes(u.hostname)) return event.respondWith(cacheFirst(event));
+  // Everything else cross-origin is NOT handled here, so it always goes straight to the network and is never
+  // cached by this worker: the Instagram feed (feeds.behold.so), its images (behold.pictures, *.cdninstagram.com),
+  // the alerts Worker (*.workers.dev) and NHL assets.
 });
 
 // ---------- web push ----------
