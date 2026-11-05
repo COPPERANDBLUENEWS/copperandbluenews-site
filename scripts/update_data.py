@@ -143,7 +143,7 @@ def main():
     (ROOT / "data.json").write_text(json.dumps({"updated": stamp, "next": todo[0] if todo else None,
                                                 "last": done[-1] if done else None,
                                                 "standings": standings()}, indent=2))
-    is_live = bool(live_game)
+    is_live = bool(live_game) or os.environ.get("FORCE_LIVE") == "1"
     print("LIVE" if is_live else "no live game", live_game and live_game["id"])
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as fh:

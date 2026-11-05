@@ -8,7 +8,12 @@ name: Live game updates
 on:
   schedule:
     - cron: "*/10 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Test: deploy once even if no game is live (no re-dispatch)"
+        type: boolean
+        default: false
 permissions:
   contents: read
   pages: write
@@ -29,6 +34,8 @@ jobs:
         with: { python-version: "3.12" }
       - id: data
         run: python3 scripts/update_data.py
+        env:
+          FORCE_LIVE: ${{ inputs.force && '1' || '0' }}
       - if: steps.data.outputs.live == '1'
         run: rsync -a --exclude .git --exclude .github --exclude scripts --exclude screenshots --exclude README.md ./ _site/
       - if: steps.data.outputs.live == '1'
@@ -46,6 +53,7 @@ jobs:
     steps:
       - uses: actions/deploy-pages@v4
       - name: Keep going while the game is on
+        if: ${{ !inputs.force }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
