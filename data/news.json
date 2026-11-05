@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-05T22:26:13Z",
+ "updated": "2026-11-05T23:25:51Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (3)",
-  "Google News (88)"
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Mike Babcock takes playful jab at Edmonton Oilers reporter",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcHo5Zi1lOEhDNmZ0OU1fS1BGWmZQTWNTeklvNG1MVE82UTd1VXhBbnRIa2VMOWZJaXg2SWdNem8tTER3eVRyLTRNeHE5WnBPQ3RjNHRpdi1Ecmdpb244Uk8xTWNJRzFOT0hhTzBHOTJ5Sm9LVEFHbE9PY05HQU5lUWdPVUxwQkU?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-05T22:38:46Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Mike Babcock goes off on TSN's Ryan Rishaug in Edmonton today",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYW5sMXktdi1wcHVGa1RBLVM1TUg2UHNRLU5lejdibGYyUmZUVWVBM1VNUXVSem1EcnItWlB2TnY4bzRtYXlnemR1WXNZYWdDWklvM0RzeERkSEw5LWhENEMxbTQzY0w2TkMzNTh2Y2Nzek1QanpyVlV0UVNYa0pzRQ?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-05T22:14:54Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers notebook: Babcock and Quenneville reunite; Gauthier on hat-trick heater",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSzZhM0ZtMjZpVEJ5LVVkMjVCLXVIR1dOTTFKUkFkTDJ3dE5ZRENoY3lIUVNTTVZaZWJQbWt2cVlxUm5mblIzVGZOY1ZmdnlsQzJDTFdxTjFnZm9JS1ZzdXFlQ1hRVDE1T3pRR05TQ3RYMGg3QVFEX3FHMkwyQTRZWHVIdzkwNHFLNFdxaU5ybHVJR2tiOXhLMWlIRjdteHdCU2xUVHVRbw?oc=5",
@@ -27,6 +43,14 @@
   {
    "title": "GDB 17.0: Oilers need to keep pounding the Pacific Division against Ducks (7 PM, SNW)",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN3hsZVotczNPX0FscTBQU1djSnNzeUlsUnNscHR6RHpMRklLY1VlQlluS040R2d4SnJwRk55ekRTdUVFdF9waXNQWEJKUlo5bVFqU2Vla3hHSHFEQmFOSlktOUhIcnZsT2pWejhjVU9mUGpCNFhVN0JqVklETlp0TnBpaElOOFQ4LXpGUlJlU0Jtcms?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-05T21:31:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers injury update: Jarry sick; Levi, Hyman look ‘ready,’ according to Babcock",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeDl2dGRfcHM1OTVFYnYzYVVnQXlNRm5vU1VSTXROOGJZR1JRaVZvYjN6d2gwNTEyaVk1cVJCNi12QjVnMG9YV3FnY0FhcVlOaXdmN2FlRlZOLXMxYUVBNnlfTThPUnp4djA2YTZUQTVLSWhzNlNYcVJvd1FnQng3QlNvZGEtUUtZOUptX1ZsSXJFTi1iY1gzVVNqN09LeUF4NHotQjJ0dEJINjg4aVotMF9uMV9kNHFoeEF6S1BOWnAtR2lfOGc?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-05T21:17:00Z",
    "snippet": "",
@@ -120,10 +144,10 @@
    "via": "google"
   },
   {
-   "title": "Oilers injury update: Jarry sick; Levi, Hyman look ‘ready,’ according to Babcock",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeDl2dGRfcHM1OTVFYnYzYVVnQXlNRm5vU1VSTXROOGJZR1JRaVZvYjN6d2gwNTEyaVk1cVJCNi12QjVnMG9YV3FnY0FhcVlOaXdmN2FlRlZOLXMxYUVBNnlfTThPUnp4djA2YTZUQTVLSWhzNlNYcVJvd1FnQng3QlNvZGEtUUtZOUptX1ZsSXJFTi1iY1gzVVNqN09LeUF4NHotQjJ0dEJINjg4aVotMF9uMV9kNHFoeEF6S1BOWnAtR2lfOGc?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-05T18:23:00Z",
+   "title": "Oilers, Canucks game highlights annual Hockey Fights Cancer night",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYmtkVGtnOXlPdldPb0tESURCMERvWEFMUVgtOGZOTU0zNUZMRkIzY3oxZnNTMjJLeXBSUGI4aU41bWoyZVlubUQxNEVycnlTWE1pb3YwWmpnM25WeWFQeW1RSldpWU81ZFJUWk9HSVNKTTZicGV1UWVuLXhFQlVjM3ByaEgtcHlhbjFpalJYN0NYOGdyVC03cm1wSWdmeTJyU183LXdRWTRuUVZ1NXVYcXZB?oc=5",
+   "source": "CTV News",
+   "published": "2026-11-05T18:21:16Z",
    "snippet": "",
    "via": "google"
   },
@@ -144,27 +168,10 @@
   },
   {
    "title": "RELEASE: EOCF & Alberta Cancer Foundation bring 'The Time Store' to Rogers Place",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTElseEdvTUVEZ0lmb3hyV2ctelExeFhWSkg3Y2hYMzREVUI5aUVCWmo5N0IzZmxIRERWZDBBMTdBMmdxWjlUWF90aXo3ZFBDRnROVXZTdmZHV1hiOGNDYjRSQVpHV3hwb3FGYzdqNzRmSVpnM0VrbXF1b3k2ZldmVHVqUHVtZlZSM0JSS2RMNmJhbHh4anNOQjI1dE81X3FXZE4zM1JUUVZURkE?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-05T17:34:35Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers NHL Line Combinations",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-05T17:14:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Ducks vs Oilers Prediction, Pick, NHL Odds for Thursday, November 5",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd3NBYzVDUllfSjRrdGw4aGdZNFNCOHJMNDF5dmQzdjU1SzJfcENOQXNpSWMtMHdHbnlPTm9aanJRd2ZiV2xZLWEwQ1VLbkNDSjg1UFlwbXIwSUhPQlcyUHpTb3VmZzVMRDkzYmpmeDFwUFFyU1kzWks0T01mT3lWS3czSzVSSGs?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-05T17:01:18Z",
-   "snippet": "",
-   "via": "google"
+   "url": "https://www.nhl.com/oilers/news/release-eocf-alberta-cancer-foundation-bring-the-time-store-to-rogers-place",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-05T17:25:26.84Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) has announced an initiative with the Alberta Cancer Foundation to bring The Time Store to Rogers Place for two upcoming…"
   },
   {
    "title": "Why you should lean Ducks for upset over Oilers, Flyers over Rangers",
@@ -270,13 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-03T17:25:23.187Z",
    "snippet": "OILERS (11-2-2) at DEVILS (9-5-0) 7:30 p.m. ET; Disney+, HULU, ESPN+, SNW, SNO, SNE Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Colton Dach -- Ryan…"
-  },
-  {
-   "title": "NU93 RECORD",
-   "url": "https://www.nhl.com/oilers/news/nu93-record-11-03-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-03T05:29:34.311Z",
-   "snippet": "EDMONTON, AB – When Ryan Nugent-Hopkins, the first-overall pick of the Edmonton Oilers in 2011, walked onto the stage at the Xcel Energy Center in Saint Paul, Minnesota and pulled on the…"
   }
  ]
 }
