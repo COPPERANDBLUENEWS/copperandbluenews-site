@@ -1,0 +1,53 @@
+# Live game updates. A cron run every 10 minutes checks whether an Oilers game is
+# live (or starts within 30 min). If so it refreshes the data, deploys the site
+# to Pages (no commits), waits briefly and re-dispatches itself, so updates keep
+# flowing about every 2 minutes until the game is final. Off game days each run
+# exits in ~20 seconds. Public repos get free Actions minutes; every run is short,
+# far under the 6-hour job limit.
+name: Live game updates
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  actions: write
+concurrency:
+  group: live
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      live: ${{ steps.data.outputs.live }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - id: data
+        run: python3 scripts/update_data.py
+      - if: steps.data.outputs.live == '1'
+        run: rsync -a --exclude .git --exclude .github --exclude scripts --exclude screenshots --exclude README.md ./ _site/
+      - if: steps.data.outputs.live == '1'
+        uses: actions/upload-pages-artifact@v3
+  deploy:
+    needs: check
+    if: needs.check.outputs.live == '1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: site
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/deploy-pages@v4
+      - name: Keep going while the game is on
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 30
+          gh workflow run live.yml --repo "$GITHUB_REPOSITORY" --ref main
