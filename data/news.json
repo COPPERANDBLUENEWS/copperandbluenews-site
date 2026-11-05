@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-05T18:55:22Z",
+ "updated": "2026-11-05T19:05:47Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (87)"
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
@@ -13,6 +13,14 @@
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOTd6R2p5bDlkbWRsYl9hUVFVRlVYSDBOVlRfTE9XUnV4MjZLbTlaMUlnN3d6NU4zbGlnLUtiMXVZUHhIbndRdkFzZ29xZmdSYkJaSzJSdXZyN1JPSnBMMEpZR01DV2xEX1pvd1ZCRkNYdGd4LXBHeDZwS3ptOU9RcnZuaGFEUVVMWHBqQ2lDY290VENvcnFELXlxWlc3SnpoTG9WcnA0bWhLMXpSSkljajAzbw?oc=5",
    "source": "Telegraph-Journal",
    "published": "2026-11-05T18:52:36Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "How to watch Ducks vs. Oilers: TV channel and streaming options for November 5",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV1ktOE8yR09oMVI0aEdlT0VoVWt0elJuYjRCdTdaU1lyd205QlNJTnZCc21zcWd3Qk9mNFM2Y0NTRTNhVWRDdk5WZlJQTUZoV0dfTXBuaVFDaTJxWVhsaGl2WTBEaHBjcjJHWUt5b20xRGFtbjlxT2RJZTg3R3kxTTRfQmlGdms3V2ppZVNpd0VPZjhvQVF6dVZ3?oc=5",
+   "source": "The New York Times",
+   "published": "2026-11-05T18:45:41Z",
    "snippet": "",
    "via": "google"
   },
@@ -52,14 +60,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTElseEdvTUVEZ0lmb3hyV2ctelExeFhWSkg3Y2hYMzREVUI5aUVCWmo5N0IzZmxIRERWZDBBMTdBMmdxWjlUWF90aXo3ZFBDRnROVXZTdmZHV1hiOGNDYjRSQVpHV3hwb3FGYzdqNzRmSVpnM0VrbXF1b3k2ZldmVHVqUHVtZlZSM0JSS2RMNmJhbHh4anNOQjI1dE81X3FXZE4zM1JUUVZURkE?oc=5",
    "source": "NHL.com",
    "published": "2026-11-05T17:34:35Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers NHL Line Combinations",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-05T17:14:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -142,17 +142,17 @@
    "via": "google"
   },
   {
-   "title": "How to buy Edmonton Oilers NHL Hometown Remix jerseys",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdTA0V0YyUEZvWHRHdkNyaVRnSnVCbUh0SDJsb1hkNjZoUlNFc1pSbTAyTTNJVUw5MTFwOUI2NHUxTXZCSjc2WEhwYUVnQXBhbE5fdDl0TWxFZDNfcUp4bnljSHZLRGw4MU5OMXhRazZIcTZwYWxSRUNQME9EcFFYY1ExXzNKLTk4?oc=5",
-   "source": "The Big Lead",
-   "published": "2026-11-05T12:01:24Z",
+   "title": "Pre-Scout: Oilers begin homestand against quack-tastic Ducks power play",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX0N3bkltU2J3TGhJT1BOOGN3ZjRwazgwb0k2YVhrNmI4dEs1WTVPUng2VzBVLTJudGdaQmYwaEdteWFvX1h6bGFhQ3NYd25KZ25aVjRsTTdCTTBhcFZ3Zjg4bkRtYjdnUEYzVHFoTWFVYVJjOXYwQnkzUUJSWC1xWTRUT2lIem9Kb0Zz?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-05T12:00:00Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Pre-Scout: Oilers begin homestand against quack-tastic Ducks power play",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX0N3bkltU2J3TGhJT1BOOGN3ZjRwazgwb0k2YVhrNmI4dEs1WTVPUng2VzBVLTJudGdaQmYwaEdteWFvX1h6bGFhQ3NYd25KZ25aVjRsTTdCTTBhcFZ3Zjg4bkRtYjdnUEYzVHFoTWFVYVJjOXYwQnkzUUJSWC1xWTRUT2lIem9Kb0Zz?oc=5",
-   "source": "Oilers Nation",
+   "title": "How to buy Edmonton Oilers NHL Hometown Remix jerseys",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaDBfRHk4LUJHZ0pzT1BURmpHclViRWJTYUlLQ0pESnBzVTItVk1BamN0aGllMVhqa215OFZlV05UZkFBcDZwaUNka0VNQTdhdjJQdTRsUlJxc19MVE5NUmZFeGlFZWxSaUdBM0Nmd0hwVS1qOHcxVFNUQTZucDdZcXBadkVPZ0FJOWtUMF8ybnh1NHB3NWc0QXFPbHMtRVE?oc=5",
+   "source": "Yahoo",
    "published": "2026-11-05T12:00:00Z",
    "snippet": "",
    "via": "google"
