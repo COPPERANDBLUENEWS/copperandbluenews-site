@@ -274,19 +274,19 @@
  ],
  "goalie": {
   "starter": {
-   "id": 8477465,
-   "name": "Tristan Jarry",
-   "num": 35,
-   "pos": "G"
-  },
-  "status": "Unconfirmed",
-  "backup": {
    "id": 8477035,
    "name": "Matt Tomkins",
    "num": 90,
    "pos": "G"
   },
-  "note": null
+  "status": "Likely",
+  "backup": {
+   "id": 8477465,
+   "name": "Tristan Jarry",
+   "num": 35,
+   "pos": "G"
+  },
+  "note": "Tomkins is expected to start vs. Anaheim on Thursday. "
  },
  "scratches": [
   {
@@ -302,5 +302,5 @@
    "pos": "D"
   }
  ],
- "updated": "2026-11-05T17:30:39Z"
+ "updated": "2026-11-05T18:19:44Z"
 }
