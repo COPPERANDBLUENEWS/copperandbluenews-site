@@ -1,0 +1,36 @@
+:root{--navy:#0b1a33;--navy2:#12264a;--line:#1f3866;--copper:#c8763a;--orange:#FF4C00;--text:#eef2f8;--muted:#9fb0cc}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--navy);color:var(--text);font:16px/1.55 Inter,system-ui,sans-serif}
+a{color:var(--copper)}img{max-width:100%;display:block}
+h1,h2,h3{font-family:Oswald,"Bebas Neue",Impact,sans-serif;text-transform:uppercase;letter-spacing:.02em;line-height:1.1;margin:0 0 .5em}
+.nav{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 16px;background:rgba(11,26,51,.94);backdrop-filter:blur(8px);border-bottom:2px solid var(--orange)}
+.brand{display:flex;align-items:center;gap:8px;color:var(--text);text-decoration:none;font:700 15px Oswald,sans-serif;text-transform:uppercase;white-space:nowrap}
+.brand img{border-radius:50%}.brand b{color:var(--orange)}
+.nav nav{display:flex;gap:14px}.nav nav a{color:var(--text);text-decoration:none;font:500 14px Oswald,sans-serif;text-transform:uppercase}
+.nav nav a:hover{color:var(--orange)}
+main{max-width:1100px;margin:0 auto;padding:0 16px 32px}
+.hero{text-align:center;padding:36px 0 28px}
+.hero-logo{width:150px;height:150px;margin:0 auto 16px;border-radius:50%;border:3px solid var(--copper);box-shadow:0 0 40px rgba(255,76,0,.25);object-fit:cover}
+.hero h1{font-size:clamp(2rem,8vw,3.6rem)}.tag{color:var(--muted);font-size:1.05rem;margin:0 0 20px}
+.btn{display:inline-block;background:var(--orange);color:#fff;text-decoration:none;font:700 15px Inter,sans-serif;padding:13px 22px;border-radius:999px}
+.btn:hover{background:var(--copper)}
+.cards{display:grid;gap:14px}
+.card{background:var(--navy2);border:1px solid var(--line);border-top:3px solid var(--copper);border-radius:12px;padding:16px}
+.card h2{font-size:1rem;color:var(--orange);margin-bottom:10px}
+.match{font:700 1.5rem Oswald,sans-serif;text-transform:uppercase}.match .vs{color:var(--muted);font-size:1rem;padding:0 6px}
+.meta{color:var(--muted);font-size:.92rem}.big{font:700 2rem Oswald,sans-serif}.w{color:#4ade80}.l{color:#f87171}
+.updated{color:var(--muted);font-size:.75rem;text-align:right;margin:6px 0 24px}
+.sec-head{display:flex;justify-content:space-between;align-items:baseline}.sec-head a{font-weight:600;text-decoration:none}
+.page-title{font-size:2.4rem;margin-top:28px}
+.feed{display:grid;gap:18px}
+.post{background:var(--navy2);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.post img{width:100%;height:auto}.post .pb{padding:14px 16px 18px}.post h3{font-size:1.3rem}
+.post p{margin:.4em 0 0;color:#d6deeb}
+.badge{display:inline-block;font:700 11px Inter,sans-serif;text-transform:uppercase;letter-spacing:.08em;padding:3px 8px;border-radius:4px;background:var(--orange);color:#fff;margin-right:8px}
+.badge.final{background:var(--copper)}.badge.recap{background:#3b5ba5}
+.about{max-width:680px}.notice{border-left:4px solid var(--orange);padding:10px 14px;background:var(--navy2);font-weight:600}
+footer{border-top:1px solid var(--line);text-align:center;padding:24px 16px 40px;font-size:.9rem}
+.disc{color:var(--muted);font-size:.8rem;margin:.3em 0}
+@media(min-width:760px){.cards{grid-template-columns:repeat(3,1fr)}.feed{grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}.hero{padding:56px 0 40px}.hero-logo{width:190px;height:190px}}
+@media(max-width:380px){.brand span{display:none}}
+body{min-height:100vh;display:flex;flex-direction:column}main{flex:1;width:100%}

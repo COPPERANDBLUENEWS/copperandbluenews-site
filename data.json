@@ -1,0 +1,58 @@
+{
+  "updated": "2026-11-04T23:52:45+00:00",
+  "next": {
+    "id": 2026020260,
+    "startTimeUTC": "2026-11-06T01:00:00Z",
+    "dateMT": "Thu Nov 5",
+    "timeMT": "7 PM MT",
+    "timePT": "6 PM PT",
+    "venue": "Rogers Place",
+    "state": "FUT",
+    "lastPeriod": null,
+    "away": {
+      "abbrev": "ANA",
+      "name": "Ducks",
+      "place": "Anaheim",
+      "score": null
+    },
+    "home": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "place": "Edmonton",
+      "score": null
+    }
+  },
+  "last": {
+    "id": 2026020239,
+    "startTimeUTC": "2026-11-04T00:30:00Z",
+    "dateMT": "Tue Nov 3",
+    "timeMT": "6:30 PM MT",
+    "timePT": "5:30 PM PT",
+    "venue": "Prudential Center",
+    "state": "OFF",
+    "lastPeriod": "SO",
+    "away": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "place": "Edmonton",
+      "score": 3
+    },
+    "home": {
+      "abbrev": "NJD",
+      "name": "Devils",
+      "place": "New Jersey",
+      "score": 4
+    }
+  },
+  "standings": {
+    "wins": 11,
+    "losses": 2,
+    "otLosses": 3,
+    "points": 25,
+    "gamesPlayed": 16,
+    "divisionSequence": 1,
+    "divisionName": "Pacific",
+    "streakCode": "OT",
+    "streakCount": 1
+  }
+}
