@@ -8,6 +8,8 @@ Writes:
   data/live.json         today's/current Oilers game status (live score)
   data/games/<id>.json   box score per played game (finished games are cached
                          and never refetched; live games refresh every run)
+  data/pbp/<id>.json     slim play-by-play (events + x/y coords + rosters) for the
+                         Live rink tracker (tracker.html); same caching rules
 Prints LIVE=1 to $GITHUB_OUTPUT when an Oilers game is live or about to start.
 """
 import json, os, pathlib, sys, urllib.request
@@ -18,7 +20,7 @@ API = "https://api-web.nhle.com/v1"
 SEASON = os.environ.get("SEASON", "20262027")
 MT, PT = ZoneInfo("America/Edmonton"), ZoneInfo("America/Vancouver")
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-DATA, GAMES = ROOT / "data", ROOT / "data" / "games"
+DATA, GAMES, PBP = ROOT / "data", ROOT / "data" / "games", ROOT / "data" / "pbp"
 FINAL = ("OFF", "FINAL")
 LIVE = ("LIVE", "CRIT")
 
@@ -67,6 +69,26 @@ def boxscore(gid):
     return {"box": box,
             "summary": {k: summ.get(k) for k in ("scoring", "shootout", "threeStars", "penalties")},
             "rail": {k: rail.get(k) for k in ("linescore", "shotsByPeriod", "teamGameStats", "gameInfo")},
+            "fetched": datetime.now(timezone.utc).isoformat(timespec="seconds")}
+
+
+def pbp(gid):
+    """Slim play-by-play for tracker.html: plays (with coords), score, clock, SOG, rosters (names only)."""
+    d = get(f"gamecenter/{gid}/play-by-play")
+    team = lambda t: {k: t.get(k) for k in ("id", "abbrev", "score", "sog", "commonName", "placeName")}
+    plays = []
+    for x in d.get("plays", []):
+        x.pop("pptReplayUrl", None)
+        det = x.get("details")
+        if det:
+            for k in [k for k in det if k.startswith(("highlightClip", "discreteClip"))]:
+                det.pop(k)
+        plays.append(x)
+    return {**{k: d.get(k) for k in ("id", "season", "gameType", "gameDate", "venue", "startTimeUTC", "gameState",
+                                      "gameScheduleState", "periodDescriptor", "clock", "gameOutcome", "regPeriods")},
+            "awayTeam": team(d["awayTeam"]), "homeTeam": team(d["homeTeam"]), "plays": plays,
+            "rosterSpots": [{k: r.get(k) for k in ("teamId", "playerId", "firstName", "lastName", "sweaterNumber", "positionCode")}
+                            for r in d.get("rosterSpots", [])],
             "fetched": datetime.now(timezone.utc).isoformat(timespec="seconds")}
 
 
@@ -146,6 +168,21 @@ def main():
             print("box", g["id"], g["state"])
         except Exception as e:
             print("box failed", g["id"], e, file=sys.stderr)
+
+    # Play-by-play for the rink tracker: same rules (finished = cached once, live = every run).
+    for g in sched:
+        f = PBP / f'{g["id"]}.json'
+        started = utc(g["startTimeUTC"]) <= now
+        if g["state"] in FINAL:
+            if f.exists() and json.loads(f.read_text()).get("gameState") in FINAL:
+                continue
+        elif not (g["state"] in LIVE or started) or g["scheduleState"] != "OK":
+            continue
+        try:
+            write(f, pbp(g["id"]))
+            print("pbp", g["id"], g["state"])
+        except Exception as e:
+            print("pbp failed", g["id"], e, file=sys.stderr)
 
     # Live window: from 30 min before puck drop until the game is final.
     for g in sched:

@@ -4,7 +4,7 @@ Static fan site for [@thecopperandbluenews](https://www.instagram.com/thecoppera
 Fan run. Not affiliated with the Edmonton Oilers or the NHL. Don't add official NHL/Oilers logos.
 
 ## Files
-- `index.html`, `schedule.html`, `scores.html`, `players.html`, `cap.html`, `player.html?id=PLAYERID`, `game.html?id=GAMEID` (box score), `stats.html`, `posts.html`, `history.html` (timeline from `data/history.json`, hand-curated with a source link per entry), `about.html`: pages
+- `index.html`, `schedule.html`, `scores.html`, `players.html`, `cap.html`, `player.html?id=PLAYERID`, `game.html?id=GAMEID` (box score), `tracker.html` (Live rink tracker, see below), `stats.html`, `posts.html`, `history.html` (timeline from `data/history.json`, hand-curated with a source link per entry), `about.html`: pages
 - `css/style.css`, `js/main.js`: styles and scripts
 - `posts.json`: the posts feed (newest first by `date`)
 - `data.json`: next game, latest result and standings (generated)
@@ -58,6 +58,27 @@ Times are shown in MT (America/Edmonton) and PT (America/Vancouver), converted f
   the last good file is kept. The file is only rewritten when content changes.
 - Schedule: hourly at :41 (news.yml) + 3:11-8:11 PM PT game-day runs (lineup.yml, exits early on non-game days) +
   every live-loop deploy (live.yml) + site.yml runs.
+
+## Live rink tracker (`tracker.html`, the "Live" tab)
+Animated SVG rink (200 x 85 ft) that plots every NHL play-by-play event with x/y coordinates: goals (copper burst +
+goal banner with scorer/assists), shots on goal, missed and blocked shots, hits, faceoffs, penalties, takeaways and
+giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) and a newest-first play-by-play feed.
+- **Data:** `data/pbp/<gameId>.json`, a slim copy of `api-web.nhle.com/v1/gamecenter/<id>/play-by-play` written by
+  `scripts/update_data.py` (finished games cached in the repo once; live games refreshed every live-loop run).
+- **Why not fetch the NHL API in the browser:** it sends no `Access-Control-Allow-Origin` header. Free public CORS
+  relays were tested on Nov 4, 2026: corsproxy.io now needs an API key, cors-anywhere needs a manual unlock, cors.eu.org /
+  cors.lol / everyorigin were rate-limited (429), and allorigins.win / codetabs mostly timed out (522 after ~20 s; one
+  success took 14 s). None is reliable enough, so the page only reads same-origin JSON (no new accounts or services).
+- **Real latency:** the page re-checks every 20 s during a live game (ETag revalidation, cheap 304s), but the JSON only
+  changes when the live Actions loop redeploys, roughly every 2-3 min, so the rink runs about 2-4 min behind the
+  broadcast. The loop starts from a `*/10` cron that GitHub often delays 5-15+ min, so the first update after puck
+  drop can lag more. The footer of the page shows how old the last NHL fetch is.
+- **Ends:** in the default "EDM →" view coordinates are rotated per period (using `homeTeamDefendingSide`) so the
+  Oilers always attack the right-hand net; "Arena" shows the raw NHL coordinates (teams switch ends each period).
+- **Modes:** current game if live, otherwise next game (pre-game, puck drop in PT) with "Replay last game" and a picker
+  for any finished game. Replay runs in game time (10x-600x), with play/pause, restart and a timeline scrubber (goal
+  ticks). URL: `tracker.html?mode=replay&id=GAMEID&t=SECONDS&speed=60&autoplay=0`.
+- Team abbreviations and CSS colours only, no logos. Credits "Data: NHL".
 
 ## Cap & contracts (manual, sources: public reports)
 The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:

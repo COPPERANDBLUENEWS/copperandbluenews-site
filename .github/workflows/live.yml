@@ -1,7 +1,8 @@
 # Live game updates. A cron run every 10 minutes checks whether an Oilers game is
 # live (or starts within 30 min). If so it refreshes the data, deploys the site
 # to Pages (no commits), waits briefly and re-dispatches itself, so updates keep
-# flowing about every 2 minutes until the game is final. Off game days each run
+# flowing about every 2 minutes until the game is final. Each cycle also refreshes
+# data/pbp/<id>.json (play-by-play) for the Live rink tracker (tracker.html). Off game days each run
 # exits in ~20 seconds. Public repos get free Actions minutes; every run is short,
 # far under the 6-hour job limit.
 name: Live game updates
@@ -61,5 +62,5 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          sleep 30
+          sleep 5
           gh workflow run live.yml --repo "$GITHUB_REPOSITORY" --ref main

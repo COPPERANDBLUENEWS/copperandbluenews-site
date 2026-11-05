@@ -90,3 +90,7 @@ CBN.wt = p => p && p.weightInPounds ? `${p.weightInPounds} lbs${p.weightInKilogr
 CBN.injuries = (() => { let pr; return () => pr || (pr = getJSON("data/injuries.json").then(d => Object.fromEntries(d.players.filter(p => p.id).map(p => [p.id, p]))).catch(() => ({}))); })();
 CBN.injBadge = r => r ? `<span class="ibadge ${({IR: "ir", LTIR: "ltir", "Day-to-day": "dtd"})[r.status] || "out"}" title="${esc((r.injury || "injury") + " · " + r.status)}">${esc(r.status)}${r.injury && r.injury !== "undisclosed" ? " · " + esc(r.injury) : ""}</span>` : "";
 document.querySelector(".nav nav a.on")?.scrollIntoView({inline: "center", block: "nearest"});
+// Live tracker tab: add it to any page whose static nav doesn't have it yet (keeps the tab bar consistent).
+(() => { const nav = document.querySelector(".nav nav"); if (!nav || nav.querySelector('a[href="tracker.html"]')) return;
+  const a = document.createElement("a"); a.href = "tracker.html"; a.textContent = "Live";
+  const after = nav.querySelector('a[href="scores.html"]'); after ? after.after(a) : nav.appendChild(a); })();
