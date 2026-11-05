@@ -107,7 +107,8 @@ def players(extra_ids=()):
     for key, label in (("forwards", "Forwards"), ("defensemen", "Defence"), ("goalies", "Goalies")):
         groups[label] = [{"id": p["id"], "name": f'{p["firstName"]["default"]} {p["lastName"]["default"]}',
                           "num": p.get("sweaterNumber"), "pos": p["positionCode"], "shoots": p.get("shootsCatches"),
-                          "headshot": p.get("headshot")} for p in sorted(ro.get(key, []), key=lambda x: x.get("sweaterNumber") or 999)]
+                          "headshot": p.get("headshot"),
+                          **{k: p.get(k) for k in ("heightInInches", "heightInCentimeters", "weightInPounds", "weightInKilograms")}} for p in sorted(ro.get(key, []), key=lambda x: x.get("sweaterNumber") or 999)]
     write(DATA / "roster.json", {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "groups": groups})
     ids = {p["id"] for g in groups.values() for p in g} | set(extra_ids)
     for pid in sorted(ids):

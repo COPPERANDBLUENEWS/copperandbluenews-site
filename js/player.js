@@ -10,8 +10,7 @@
   const born = new Date(p.birthDate + "T12:00:00"), now = new Date();
   const age = now.getFullYear() - born.getFullYear() - (now < new Date(now.getFullYear(), born.getMonth(), born.getDate()) ? 1 : 0);
   const place = [p.birthCity?.default, p.birthStateProvince?.default, COUNTRY[p.birthCountry] || p.birthCountry].filter(Boolean).join(", ");
-  const ht = p.heightInInches ? `${Math.floor(p.heightInInches / 12)}'${p.heightInInches % 12}" (${p.heightInCentimeters} cm)` : "-";
-  const wt = p.weightInPounds ? `${p.weightInPounds} lb (${p.weightInKilograms} kg)` : "-";
+  const ht = CBN.ht(p), wt = CBN.wt(p);
   const dd = p.draftDetails, ord = n => n + (["th","st","nd","rd"][(n % 100 > 10 && n % 100 < 14) ? 0 : n % 10] || "th");
   const draft = dd ? `${dd.year} ${esc(dd.teamAbbrev)}, round ${dd.round}, pick ${dd.pickInRound} (${ord(dd.overallPick)} overall)` : "Undrafted";
   const seasonFmt = s => `${String(s).slice(0, 4)}-${String(s).slice(6)}`;

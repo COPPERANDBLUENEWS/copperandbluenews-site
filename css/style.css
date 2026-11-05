@@ -113,3 +113,5 @@ a.game-row:hover{border-color:var(--copper)}
 .cap-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.cap-cards .card:first-child{grid-column:1/-1}
 @media(min-width:760px){.cap-cards{grid-template-columns:repeat(4,1fr)}.cap-cards .card:first-child{grid-column:auto}}
 .capc .big{font-size:1.5rem}
+
+.pcard .hw{display:block;font-size:.72rem;opacity:.85}.pcard .hw small,.facts dd small{font-size:.75em;opacity:.75}

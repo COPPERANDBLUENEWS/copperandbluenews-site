@@ -83,3 +83,6 @@ async function loadPosts() {
 $("yr").textContent = new Date().getFullYear();
 document.querySelectorAll(".nav nav a").forEach(a => { if (a.getAttribute("href") === (location.pathname.split("/").pop() || "./")) a.classList.add("on"); });
 loadGames(); loadPosts();
+// Height/weight exactly as the NHL API reports them (imperial and metric both come from the API; nothing derived).
+CBN.ht = p => p && p.heightInInches ? `${Math.floor(p.heightInInches / 12)}'${p.heightInInches % 12}"${p.heightInCentimeters ? ` <small>(${p.heightInCentimeters} cm)</small>` : ""}` : "—";
+CBN.wt = p => p && p.weightInPounds ? `${p.weightInPounds} lbs${p.weightInKilograms ? ` <small>(${p.weightInKilograms} kg)</small>` : ""}` : "—";
