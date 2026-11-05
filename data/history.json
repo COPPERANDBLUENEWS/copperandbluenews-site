@@ -1,0 +1,653 @@
+{
+ "updated": "2026-11-04",
+ "note": "Key moments in Edmonton Oilers history. Every entry links to its source.",
+ "eras": [
+  {
+   "id": "wha",
+   "name": "WHA Roots & NHL Arrival",
+   "years": "1978–1983"
+  },
+  {
+   "id": "dynasty",
+   "name": "The Dynasty",
+   "years": "1983–1990"
+  },
+  {
+   "id": "nineties",
+   "name": "The 1990s & Early 2000s",
+   "years": "1991–2005"
+  },
+  {
+   "id": "run2006",
+   "name": "The 2006 Cup Run",
+   "years": "2006"
+  },
+  {
+   "id": "darkness",
+   "name": "Decade of Darkness & the Lottery Years",
+   "years": "2006–2015"
+  },
+  {
+   "id": "mcdavid",
+   "name": "McDavid, Draisaitl & Rogers Place",
+   "years": "2015–2023"
+  },
+  {
+   "id": "finals",
+   "name": "Back-to-Back Cup Finals",
+   "years": "2023–2025"
+  },
+  {
+   "id": "recent",
+   "name": "2025-26 & Today",
+   "years": "2025–2026"
+  }
+ ],
+ "entries": [
+  {
+   "date": "1978-11-02",
+   "when": "Nov 2, 1978",
+   "era": "wha",
+   "tag": "Trade",
+   "title": "Gretzky arrives in Edmonton",
+   "text": "The WHA Oilers acquire teenager Wayne Gretzky from the Indianapolis Racers in a deal that also brings Peter Driscoll and Eddie Mio to Edmonton.",
+   "source": {
+    "url": "https://www.nhl.com/news/this-date-in-nhl-history-november-2-283219396",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "1979-03-30",
+   "when": "Mar 30, 1979",
+   "era": "wha",
+   "tag": "Milestone",
+   "title": "Into the NHL",
+   "text": "The NHL votes to admit four WHA clubs (Edmonton, Winnipeg, Quebec and Hartford) for the 1979-80 season, growing the league to 21 teams.",
+   "source": {
+    "url": "https://www.nhl.com/news/merger-38-years-ago-helped-nhl-take-shape-288232682",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "1979-08-01",
+   "when": "1979 NHL Draft",
+   "era": "wha",
+   "tag": "Draft",
+   "title": "A franchise-making first draft",
+   "text": "Edmonton's first NHL draft class includes Kevin Lowe (21st overall), Mark Messier (48th) and Glenn Anderson (69th), all future Hall of Famers.",
+   "source": {
+    "url": "https://www.hockey-reference.com/teams/EDM/draft.html",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "1979-10-10",
+   "when": "Oct 10, 1979",
+   "era": "wha",
+   "tag": "Milestone",
+   "title": "First NHL game",
+   "text": "The Oilers open their NHL life with a 4-2 loss at Chicago. Kevin Lowe scores the first goal in franchise NHL history.",
+   "source": {
+    "url": "https://www.hockey-reference.com/teams/EDM/1980_games.html",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "1981-04-11",
+   "when": "Apr 11, 1981",
+   "era": "wha",
+   "tag": "Playoffs",
+   "title": "Stunning the Canadiens",
+   "text": "The young Oilers sweep Montreal 3-0 in the preliminary round (6-3, 3-1, 6-2) for their first NHL playoff series win.",
+   "source": {
+    "url": "https://www.hockey-reference.com/playoffs/1981-edmonton-oilers-vs-montreal-canadiens-preliminary-round.html",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "1981-12-30",
+   "when": "Dec 30, 1981",
+   "era": "wha",
+   "tag": "Record",
+   "title": "50 goals in 39 games",
+   "text": "Gretzky scores five times in a 7-5 win over Philadelphia, reaching 50 goals in the Oilers' 39th game of the season.",
+   "source": {
+    "url": "https://www.hockey-reference.com/players/g/gretzwa01/gamelog/1982",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "1982-04-04",
+   "when": "1981-82 season",
+   "era": "wha",
+   "tag": "Record",
+   "title": "92 goals, 212 points",
+   "text": "Gretzky finishes with an NHL-record 92 goals and 212 points, and wins the Hart Trophy unanimously with all 63 first-place votes.",
+   "source": {
+    "url": "https://www.nhl.com/news/edmonton-oilers-connor-mcdavid-wins-hart-trophy-nhl-mvp-award-325520532",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "1984-04-01",
+   "when": "1983-84 season",
+   "era": "dynasty",
+   "tag": "Record",
+   "title": "446 goals",
+   "text": "The Oilers score 446 goals in 80 games (5.58 per game), the most by any team in a single NHL season.",
+   "source": {
+    "url": "https://records.nhl.com/records/team-records/goals/team-most-goals-one-season",
+    "name": "NHL Records"
+   }
+  },
+  {
+   "date": "1984-05-19",
+   "when": "May 19, 1984",
+   "era": "dynasty",
+   "tag": "Stanley Cup",
+   "title": "Cup No. 1",
+   "text": "Edmonton beats the Islanders 5-2 in Game 5 at Northlands Coliseum to win its first Stanley Cup. Mark Messier wins the Conn Smythe Trophy.",
+   "source": {
+    "url": "https://www.hockey-reference.com/playoffs/1984-edmonton-oilers-vs-new-york-islanders-stanley-cup-final.html",
+    "name": "Hockey-Reference"
+   },
+   "cup": true
+  },
+  {
+   "date": "1985-05-30",
+   "when": "May 30, 1985",
+   "era": "dynasty",
+   "tag": "Stanley Cup",
+   "title": "Cup No. 2",
+   "text": "An 8-3 win over Philadelphia in Game 5 makes it back-to-back championships. Gretzky wins the Conn Smythe.",
+   "source": {
+    "url": "https://www.hockey-reference.com/playoffs/1985-edmonton-oilers-vs-philadelphia-flyers-stanley-cup-final.html",
+    "name": "Hockey-Reference"
+   },
+   "cup": true
+  },
+  {
+   "date": "1986-04-02",
+   "when": "Apr 2, 1986",
+   "era": "dynasty",
+   "tag": "Record",
+   "title": "Coffey passes Orr",
+   "text": "Paul Coffey breaks Bobby Orr's record of 46 goals by a defenceman and finishes 1985-86 with 48, still the NHL single-season mark.",
+   "source": {
+    "url": "https://www.nhl.com/news/this-date-in-nhl-history-april-2-280027628",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "1986-04-06",
+   "when": "1985-86 season",
+   "era": "dynasty",
+   "tag": "Record",
+   "title": "215 points",
+   "text": "Gretzky sets NHL single-season records that still stand: 163 assists and 215 points (52 goals) in 80 games.",
+   "source": {
+    "url": "https://www.hockey-reference.com/players/g/gretzwa01.html",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "1987-05-31",
+   "when": "May 31, 1987",
+   "era": "dynasty",
+   "tag": "Stanley Cup",
+   "title": "Cup No. 3",
+   "text": "The Oilers win Game 7 of the Final 3-1 over Philadelphia in Edmonton.",
+   "source": {
+    "url": "https://www.hockey-reference.com/playoffs/1987-edmonton-oilers-vs-philadelphia-flyers-stanley-cup-final.html",
+    "name": "Hockey-Reference"
+   },
+   "cup": true
+  },
+  {
+   "date": "1988-05-26",
+   "when": "May 26, 1988",
+   "era": "dynasty",
+   "tag": "Stanley Cup",
+   "title": "Cup No. 4",
+   "text": "After Game 4 in Boston is suspended at 3-3 by a power failure, Edmonton beats the Bruins 6-3 at home to finish a sweep. Gretzky wins his second Conn Smythe.",
+   "source": {
+    "url": "https://www.hockey-reference.com/playoffs/1988-boston-bruins-vs-edmonton-oilers-stanley-cup-final.html",
+    "name": "Hockey-Reference"
+   },
+   "cup": true
+  },
+  {
+   "date": "1988-08-09",
+   "when": "Aug 9, 1988",
+   "era": "dynasty",
+   "tag": "Trade",
+   "title": "The Trade",
+   "text": "Gretzky, Marty McSorley and Mike Krushelnyski go to Los Angeles for Jimmy Carson, Martin Gelinas, three first-round picks and $15 million.",
+   "source": {
+    "url": "https://www.nhl.com/news/this-date-in-nhl-history-august-9-281288850",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "1989-10-15",
+   "when": "Oct 15, 1989",
+   "era": "dynasty",
+   "tag": "Record",
+   "title": "Gretzky passes Howe, in Edmonton",
+   "text": "Playing for the Kings at Northlands Coliseum, Gretzky ties the game with 53 seconds left for point No. 1,851, passing Gordie Howe as the NHL's all-time scoring leader.",
+   "source": {
+    "url": "https://www.nhl.com/news/this-date-in-nhl-history-october-15-282628084",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "1990-05-24",
+   "when": "May 24, 1990",
+   "era": "dynasty",
+   "tag": "Stanley Cup",
+   "title": "Cup No. 5",
+   "text": "A 4-1 win in Game 5 at Boston brings a fifth Cup in seven seasons, the first without Gretzky. Goalie Bill Ranford wins the Conn Smythe.",
+   "source": {
+    "url": "https://www.hockey-reference.com/playoffs/1990-boston-bruins-vs-edmonton-oilers-stanley-cup-final.html",
+    "name": "Hockey-Reference"
+   },
+   "cup": true
+  },
+  {
+   "date": "1991-10-04",
+   "when": "Oct 4, 1991",
+   "era": "nineties",
+   "tag": "Trade",
+   "title": "Messier traded",
+   "text": "Captain Mark Messier is traded to the New York Rangers for Bernie Nicholls, Steven Rice and Louie DeBrusk.",
+   "source": {
+    "url": "https://www.nhl.com/news/this-date-in-nhl-history-october-4-282333990",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "1997-04-29",
+   "when": "Apr 29, 1997",
+   "era": "nineties",
+   "tag": "Playoffs",
+   "title": "Marchant's Game 7 winner",
+   "text": "Todd Marchant scores at 12:26 of overtime in Game 7 as Edmonton upsets the Dallas Stars 4-3.",
+   "source": {
+    "url": "https://www.nhl.com/news/todd-marchant-revisits-1997-game-7-ot-goal-for-oilers",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "1999-06-23",
+   "when": "Jun 23, 1999",
+   "era": "nineties",
+   "tag": "Hall of Fame",
+   "title": "Gretzky elected to the Hall",
+   "text": "Wayne Gretzky is unanimously elected to the Hockey Hall of Fame in the player category.",
+   "source": {
+    "url": "https://hhof.com/induction_archives/induct99.shtml",
+    "name": "Hockey Hall of Fame"
+   }
+  },
+  {
+   "date": "1999-10-01",
+   "when": "Oct 1, 1999",
+   "era": "nineties",
+   "tag": "Retired Number",
+   "title": "No. 99 to the rafters",
+   "text": "The Oilers retire Gretzky's No. 99 before their season opener against the Rangers.",
+   "source": {
+    "url": "https://www.nhl.com/news/this-date-in-nhl-history-october-1-282234720",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2003-11-22",
+   "when": "Nov 22, 2003",
+   "era": "nineties",
+   "tag": "Milestone",
+   "title": "The Heritage Classic",
+   "text": "The NHL's first regular-season outdoor game draws a record 57,167 to Commonwealth Stadium. Montreal edges Edmonton 4-3.",
+   "source": {
+    "url": "https://www.nhl.com/news/this-date-in-nhl-history-november-22-283919732",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2006-05-01",
+   "when": "May 1, 2006",
+   "era": "run2006",
+   "tag": "Playoffs",
+   "title": "Eighth seed topples Detroit",
+   "text": "Edmonton, the West's No. 8 seed, beats the top-seeded Red Wings 4-3 in Game 6 to win the series 4-2.",
+   "source": {
+    "url": "https://www.hockey-reference.com/playoffs/2006-detroit-red-wings-vs-edmonton-oilers-western-conference-quarter-finals.html",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "2006-06-14",
+   "when": "Jun 14, 2006",
+   "era": "run2006",
+   "tag": "Record",
+   "title": "Pisani's shorthanded OT winner",
+   "text": "Fernando Pisani scores the first shorthanded overtime goal in Final history, 3:31 into OT, as Edmonton wins Game 5 4-3 at Carolina.",
+   "source": {
+    "url": "https://www.nhl.com/news/this-date-in-nhl-history-june-14-280942244",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2006-06-19",
+   "when": "Jun 19, 2006",
+   "era": "run2006",
+   "tag": "Stanley Cup Final",
+   "title": "So close in Game 7",
+   "text": "The Oilers' run ends with a 3-1 loss to the Hurricanes in Game 7 of the Stanley Cup Final in Raleigh.",
+   "source": {
+    "url": "https://www.hockey-reference.com/playoffs/2006-carolina-hurricanes-vs-edmonton-oilers-stanley-cup-final.html",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "2007-04-01",
+   "when": "2006-07 to 2015-16",
+   "era": "darkness",
+   "tag": "Milestone",
+   "title": "Ten years without playoffs",
+   "text": "The Oilers miss the playoffs for 10 straight seasons, the stretch fans call the Decade of Darkness.",
+   "source": {
+    "url": "https://www.hockey-reference.com/teams/EDM/history.html",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "2012-06-22",
+   "when": "2010-2012 Drafts",
+   "era": "darkness",
+   "tag": "Draft",
+   "title": "Three straight No. 1 picks",
+   "text": "Edmonton picks first overall three years running: Taylor Hall (2010), Ryan Nugent-Hopkins (2011) and Nail Yakupov (2012).",
+   "source": {
+    "url": "https://www.hockey-reference.com/teams/EDM/draft.html",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "2015-06-26",
+   "when": "Jun 26, 2015",
+   "era": "darkness",
+   "tag": "Draft",
+   "title": "Lottery luck: McDavid",
+   "text": "Two months after jumping from third to first in the draft lottery, Edmonton selects Connor McDavid first overall from the Erie Otters.",
+   "source": {
+    "url": "https://www.hockey-reference.com/teams/EDM/draft.html",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "2016-04-06",
+   "when": "Apr 6, 2016",
+   "era": "mcdavid",
+   "tag": "Arena",
+   "title": "Farewell to the Coliseum",
+   "text": "The Oilers play their final game at Rexall Place, the old Northlands Coliseum, beating Vancouver 6-2.",
+   "source": {
+    "url": "https://www.hockey-reference.com/teams/EDM/2016_games.html",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "2016-10-05",
+   "when": "Oct 5, 2016",
+   "era": "mcdavid",
+   "tag": "Milestone",
+   "title": "Youngest captain ever",
+   "text": "McDavid, 19 years and 266 days old, is named captain, the youngest in NHL history.",
+   "source": {
+    "url": "https://www.nhl.com/news/connor-mcdavid-named-oilers-captain-282401230",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2016-10-12",
+   "when": "Oct 12, 2016",
+   "era": "mcdavid",
+   "tag": "Arena",
+   "title": "Rogers Place opens",
+   "text": "The first regular-season game downtown is a 7-4 win over Calgary, with McDavid scoring twice.",
+   "source": {
+    "url": "https://www.hockey-reference.com/boxscores/201610120EDM.html",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "2017-06-21",
+   "when": "2016-17 season",
+   "era": "mcdavid",
+   "tag": "Award",
+   "title": "McDavid's first Hart",
+   "text": "McDavid wins the Art Ross Trophy with 100 points, plus the Hart Trophy and Ted Lindsay Award, as the Oilers return to the playoffs for the first time since 2006.",
+   "source": {
+    "url": "https://www.nhl.com/news/connor-mcdavid-wins-hart-trophy-mvp-290050176",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2020-06-24",
+   "when": "Jun 24, 2020",
+   "era": "mcdavid",
+   "tag": "Hall of Fame",
+   "title": "Lowe makes seven",
+   "text": "Kevin Lowe is elected to the Hockey Hall of Fame, the seventh dynasty player inducted, joining Gretzky, Messier, Kurri, Coffey, Anderson and Fuhr.",
+   "source": {
+    "url": "https://www.nhl.com/oilers/news/blog-lowe-holland-headed-to-hockey-hall-of-fame-317253128",
+    "name": "Oilers.com"
+   }
+  },
+  {
+   "date": "2020-09-21",
+   "when": "2019-20 season",
+   "era": "mcdavid",
+   "tag": "Award",
+   "title": "Draisaitl's Hart",
+   "text": "Leon Draisaitl leads the NHL with 110 points to win the Art Ross, Ted Lindsay and Hart, the first Germany-born Hart Trophy winner.",
+   "source": {
+    "url": "https://www.nhl.com/news/edmonton-oilers-forward-leon-draisaitl-wins-hart-trophy-319122878",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2021-06-29",
+   "when": "2020-21 season",
+   "era": "mcdavid",
+   "tag": "Award",
+   "title": "A unanimous MVP",
+   "text": "McDavid scores 105 points in 56 games and wins the Hart with all 100 first-place votes, joining Gretzky as the only unanimous winners.",
+   "source": {
+    "url": "https://www.nhl.com/news/edmonton-oilers-connor-mcdavid-wins-hart-trophy-nhl-mvp-award-325520532",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2021-11-05",
+   "when": "Nov 5, 2021",
+   "era": "mcdavid",
+   "tag": "Retired Number",
+   "title": "Lowe's No. 4 retired",
+   "text": "Kevin Lowe's No. 4 joins Anderson, Coffey, Fuhr, Gretzky, Kurri and Messier in the rafters of Rogers Place.",
+   "source": {
+    "url": "https://www.nhl.com/oilers/news/in-depth-lowe-and-behold-327606566",
+    "name": "Oilers.com"
+   }
+  },
+  {
+   "date": "2022-05-26",
+   "when": "May 26, 2022",
+   "era": "mcdavid",
+   "tag": "Playoffs",
+   "title": "McDavid ends the Battle of Alberta",
+   "text": "McDavid scores in overtime of Game 5 for a 5-4 win that eliminates Calgary and sends Edmonton to the conference final for the first time since 2006.",
+   "source": {
+    "url": "https://www.nhl.com/news/edmonton-oilers-calgary-flames-game-5-recap-334130016",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2023-06-26",
+   "when": "2022-23 season",
+   "era": "mcdavid",
+   "tag": "Record",
+   "title": "64 goals, 153 points",
+   "text": "McDavid wins the Art Ross, Rocket Richard and Hart, with 64 goals and 153 points, the most points in a season since 1995-96.",
+   "source": {
+    "url": "https://www.nhl.com/news/connor-mcdavid-wins-hart-trophy-as-nhl-mvp-345018096",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2024-02-06",
+   "when": "Feb 6, 2024",
+   "era": "finals",
+   "tag": "Record",
+   "title": "16 straight wins",
+   "text": "Under new coach Kris Knoblauch (hired Nov 12, 2023), a 16-game winning streak ends in Vegas. It ties for the second-longest in NHL history, one short of Pittsburgh's record of 17.",
+   "source": {
+    "url": "https://www.nhl.com/news/topic/nhl-insider/edmonton-oilers-winning-streak-ends-at-16",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2024-04-15",
+   "when": "Apr 15, 2024",
+   "era": "finals",
+   "tag": "Record",
+   "title": "McDavid's 100 assists",
+   "text": "McDavid sets up Zach Hyman in a 9-2 win over San Jose to become the fourth player with 100 assists in a season, after Gretzky, Lemieux and Orr.",
+   "source": {
+    "url": "https://www.nhl.com/news/connor-mcdavid-gets-100-assists-in-season-for-edmonton-oilers",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2024-06-24",
+   "when": "Jun 24, 2024",
+   "era": "finals",
+   "tag": "Stanley Cup Final",
+   "title": "Game 7 heartbreak",
+   "text": "After coming back from 3-0 down to force Game 7, the Oilers lose 2-1 in Florida. McDavid wins the Conn Smythe with 42 points, including a record 34 assists.",
+   "source": {
+    "url": "https://www.nhl.com/news/connor-mcdavid-wins-conn-smythe-trophy-for-oilers-as-playoff-mvp",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2024-11-14",
+   "when": "Nov 14, 2024",
+   "era": "finals",
+   "tag": "Milestone",
+   "title": "McDavid's 1,000th point",
+   "text": "McDavid scores against Nashville to reach 1,000 points in his 659th game. Only Gretzky, Lemieux and Bossy got there faster.",
+   "source": {
+    "url": "https://www.nhl.com/news/oilers-connor-mcdavid-scores-1000th-nhl-point",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2025-06-17",
+   "when": "Jun 17, 2025",
+   "era": "finals",
+   "tag": "Stanley Cup Final",
+   "title": "Rematch falls short",
+   "text": "After beating Dallas in five games to return to the Final, Edmonton falls 5-1 to Florida in Game 6, losing the Cup rematch.",
+   "source": {
+    "url": "https://www.hockey-reference.com/playoffs/2025-edmonton-oilers-vs-florida-panthers-stanley-cup-final.html",
+    "name": "Hockey-Reference"
+   }
+  },
+  {
+   "date": "2025-10-06",
+   "when": "Oct 6, 2025",
+   "era": "recent",
+   "tag": "Contract",
+   "title": "McDavid re-signs",
+   "text": "The captain signs a two-year extension with an average annual value of $12.5 million.",
+   "source": {
+    "url": "https://www.nhl.com/oilers/news/release-oilers-sign-mcdavid-to-two-year-extension",
+    "name": "Oilers.com"
+   }
+  },
+  {
+   "date": "2025-12-16",
+   "when": "Dec 16, 2025",
+   "era": "recent",
+   "tag": "Milestone",
+   "title": "Draisaitl hits 1,000",
+   "text": "Draisaitl becomes the first German player to reach 1,000 NHL points, in a 6-4 win over Pittsburgh.",
+   "source": {
+    "url": "https://www.nhl.com/news/edmonton-oilers-leon-draisaitl-1000-points-milestone",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2026-01-18",
+   "when": "Jan 18, 2026",
+   "era": "recent",
+   "tag": "Milestone",
+   "title": "RNH's 1,000th game",
+   "text": "Ryan Nugent-Hopkins scores in his 1,000th NHL game, all with Edmonton, in a 5-0 win over St. Louis.",
+   "source": {
+    "url": "https://www.nhl.com/news/st-louis-blues-edmonton-oilers-game-recap-january-18-2026",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2026-03-24",
+   "when": "Mar 24, 2026",
+   "era": "recent",
+   "tag": "Milestone",
+   "title": "McDavid's 400th goal",
+   "text": "McDavid scores twice at Utah for his 400th goal and 1,200th point, becoming the third-fastest player to 1,200 points.",
+   "source": {
+    "url": "https://www.nhl.com/news/edmonton-oilers-utah-mammoth-game-recap-march-24-2026",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2026-04-16",
+   "when": "Apr 16, 2026",
+   "era": "recent",
+   "tag": "Award",
+   "title": "A sixth Art Ross",
+   "text": "McDavid wins the scoring title with 48 goals and 138 points, and has a point in all 41 Oilers wins.",
+   "source": {
+    "url": "https://www.nhl.com/news/connor-mcdavid-art-ross-nathan-mackinnon-rocket-richard-avalanche-jennings-trophy",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2026-04-30",
+   "when": "Apr 30, 2026",
+   "era": "recent",
+   "tag": "Playoffs",
+   "title": "Out in Round 1",
+   "text": "Anaheim wins Game 6 5-2 to eliminate Edmonton 4-2 in the first round, the Oilers' earliest exit since 2021.",
+   "source": {
+    "url": "https://www.nhl.com/news/topic/playoffs/why-edmonton-oilers-are-eliminated-from-2025-2026-postseason",
+    "name": "NHL.com"
+   }
+  },
+  {
+   "date": "2026-06-23",
+   "when": "Jun 23, 2026",
+   "era": "recent",
+   "tag": "Coaching",
+   "title": "Babcock takes over",
+   "text": "Six weeks after Kris Knoblauch is fired following three seasons and two Cup Final trips, Mike Babcock is hired as head coach.",
+   "source": {
+    "url": "https://www.nhl.com/news/mike-babcock-hired-as-edmonton-oilers-coach",
+    "name": "NHL.com"
+   }
+  }
+ ]
+}
