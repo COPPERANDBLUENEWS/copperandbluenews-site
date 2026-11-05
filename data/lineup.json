@@ -279,14 +279,14 @@
    "num": 90,
    "pos": "G"
   },
-  "status": "Likely",
+  "status": "Confirmed",
   "backup": {
    "id": 8477465,
    "name": "Tristan Jarry",
    "num": 35,
    "pos": "G"
   },
-  "note": "Tomkins is expected to start vs. Anaheim on Thursday. "
+  "note": "Tomkins will start vs. Anaheim on Thursday. "
  },
  "scratches": [
   {
@@ -302,5 +302,5 @@
    "pos": "D"
   }
  ],
- "updated": "2026-11-05T18:19:44Z"
+ "updated": "2026-11-05T20:19:23Z"
 }
