@@ -5,14 +5,17 @@
 //   evt:<id>  an event id that was already fanned out (dedupe), kept 45 days.
 // KV is eventually consistent (a write can take up to ~60 s to show everywhere). Dedupe retries from
 // GitHub Actions come minutes apart, and the pipeline keeps its own sent-id state too.
-export const TYPES = ["puck_drop", "goal", "period_end", "final", "lineup"];
+export const TYPES = ["puck_drop", "goal", "period_end", "final", "lineup", "odds", "gameday"];
+// Defaults when a sign-up doesn't say: betting odds are opt-in (off), everything else on.
+export const DEFAULTS = {puck_drop: true, goal: true, period_end: true, final: true, lineup: true, odds: false, gameday: true};
 const SUB = "sub:", EVT = "evt:";
 const META_MAX = 1000;
 
 const toMask = prefs => TYPES.reduce((m, t, i) => m | (prefs[t] ? 1 << i : 0), 0);
-const fromMask = m => Object.fromEntries(TYPES.map((t, i) => [t, !!(m & (1 << i))]));
-const compact = r => ({e: r.endpoint, k: r.p256dh, a: r.auth, m: toMask(r.prefs), n: r.email || "", c: r.created_at, u: r.updated_at});
-const expand = (id, x) => ({id, endpoint: x.e, p256dh: x.k, auth: x.a, prefs: fromMask(x.m), email: x.n || null, created_at: x.c, updated_at: x.u});
+// v1 records (before Nov 5, 2026) only had the first 5 bits: they get gameday ON (core game alert) and odds OFF.
+const fromMask = (m, v) => Object.fromEntries(TYPES.map((t, i) => [t, !v && t === "gameday" ? true : !!(m & (1 << i))]));
+const compact = r => ({v: 2, e: r.endpoint, k: r.p256dh, a: r.auth, m: toMask(r.prefs), n: r.email || "", c: r.created_at, u: r.updated_at});
+const expand = (id, x) => ({id, endpoint: x.e, p256dh: x.k, auth: x.a, prefs: fromMask(x.m, x.v), email: x.n || null, created_at: x.c, updated_at: x.u});
 
 export async function putSub(env, id, rec, now) {
   const old = await getSub(env, id);

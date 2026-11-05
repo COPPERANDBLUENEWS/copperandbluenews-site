@@ -7,11 +7,13 @@ Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this f
 |---|---|---|---|
 | `POST /subscribe` | the site (bell panel) | CORS: `https://copperandbluenews.com`, `https://www.copperandbluenews.com` | `{subscription, prefs, email?}` → upsert |
 | `POST /unsubscribe` | the site | same CORS | `{endpoint}` → row deleted |
-| `POST /notify` | GitHub Actions (`scripts/notify_alerts.py`) | `Authorization: Bearer NOTIFY_SECRET` | `{id?, type, title, body, url, to?}` → web push to everyone who opted into `type` (or only subscriber `to`, an id from `/export`, for a test) |
+| `POST /notify` | GitHub Actions (`scripts/notify_alerts.py`) | `Authorization: Bearer NOTIFY_SECRET` | `{id?, type, title, body, url, to?, alt?}` → web push to everyone who opted into `type` (or only subscriber `to`, an id from `/export`, for a test). `alt: {pref, body}` swaps in `body` for subscribers who also opted into `pref` (used for the live moneyline on period ends, odds subscribers only) |
 | `GET /export` | Mac | `Authorization: Bearer ADMIN_SECRET` | all sign-ups as CSV |
 | `GET /health` | anyone | none | `{"ok":true}` |
 
-- `type` is one of `puck_drop`, `goal`, `period_end`, `final`, `lineup` (same keys as the panel's checkboxes).
+- `type` is one of `puck_drop`, `goal`, `period_end`, `final`, `lineup`, `odds`, `gameday` (same keys as the panel's checkboxes).
+- Defaults when a sign-up leaves a key out: `odds` **off** (betting odds are opt-in, 19+), everything else on.
+  Records saved before Nov 5, 2026 (no `v` field) read as `gameday` on and `odds` off; they're rewritten as `v: 2` on the next save.
 - `id` (e.g. `2026020260:goal:211`) is stored in KV as `evt:<id>` for 45 days; a repeated id returns `{"duplicate":true}`
   and nothing is sent, so an event never goes out twice.
 - Push: `src/webpush.js` implements RFC 8291 (aes128gcm) + RFC 8292 (VAPID, ES256) with WebCrypto only, no npm
@@ -75,7 +77,7 @@ curl -X POST $W/notify -H "Authorization: Bearer $NOTIFY_SECRET" -H "Content-Typ
    The bell switches from "Alerts coming soon" to the real sign-up.
 2. GitHub repo **Settings > Secrets and variables > Actions**: add `WORKER_URL` (same URL) and `NOTIFY_SECRET`
    (same value as the Worker secret). Or: `gh secret set WORKER_URL` / `gh secret set NOTIFY_SECRET`.
-   Until both exist the alert steps in `live.yml` / `lineup.yml` are skipped.
+   Until both exist the alert steps in `live.yml` / `lineup.yml` / `news.yml` are skipped.
 
 Optional: if copperandbluenews.com's DNS is on Cloudflare, add a Custom Domain (Workers > cbn-alerts > Settings >
 Domains & Routes), e.g. `alerts.copperandbluenews.com`, and use that as `WORKER_URL`.
@@ -86,7 +88,7 @@ Domains & Routes), e.g. `alerts.copperandbluenews.com`, and use that as `WORKER_
 curl -H "Authorization: Bearer $ADMIN_SECRET" $W/export -o cbn-alerts-signups.csv
 ```
 
-Columns: `id, email, puck_drop, goal, period_end, final, lineup, created_at, updated_at, endpoint, p256dh, auth`
+Columns: `id, email, puck_drop, goal, period_end, final, lineup, odds, gameday, created_at, updated_at, endpoint, p256dh, auth`
 (the last three let you move the subscriptions to another push sender with the same VAPID keys).
 
 ## Local testing
@@ -106,5 +108,11 @@ npm run test:integration                    # subscribe/CORS/notify/dedupe/410 c
   `update_data.py`: puck drop, every goal (both teams; scorer, season total, assists, score, PP/SH/EN), each period
   end with the score, and the final (shootout attempts are not sent; the final says "(SO)").
 - `live.yml` + `lineup.yml`, after `update_lineup.py`: starting goalie confirmed and official lineup confirmed.
+- `--morning` (`lineup.yml` 16:00 UTC = 9 AM PT; `news.yml` hourly as backup): `gameday`, once per game, 8:50-11:30 AM PT.
+- `--pregame` (`live.yml` every 10 min, `lineup.yml` :11): `odds`, once per game, 20-75 min before puck drop, from
+  `https://api-web.nhle.com/v1/partner-game/CA/now` (FanDuel). Skipped silently if the feed fails or the game isn't listed.
+  The puck-drop alert gets a short moneyline for everyone when odds exist; period ends get the live moneyline for
+  odds subscribers only if the feed is seen updating after puck drop. Every odds text ends with `19+ · Play responsibly`.
+- Test without sending: `python3 scripts/notify_alerts.py --pregame --dry-run --now 2026-11-06T00:00:00Z` prints the payloads.
 Sent ids are kept in the Actions cache and again in KV, so nothing is sent twice. Alerts follow the site's data, so
 they arrive about 2-4 minutes after the moment on the ice.

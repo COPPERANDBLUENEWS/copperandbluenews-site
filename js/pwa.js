@@ -54,7 +54,10 @@
   if (isIOS && !standalone()) setTimeout(() => showBanner(inApp ? "inapp" : "ios"), 1500);
 
   // ---------- game alerts ----------
-  const PREFS = [["puck_drop", "Puck drop"], ["goal", "Goals (both teams)"], ["period_end", "Period ends"], ["final", "Final score"], ["lineup", "Lineup confirmed"]];
+  // [key, label, default]. Betting odds are opt-in (off by default).
+  const PREFS = [["gameday", "Game day morning (9 AM PT)", true], ["lineup", "Lineup confirmed", true], ["puck_drop", "Puck drop", true],
+    ["goal", "Goals (both teams)", true], ["period_end", "Period ends", true], ["final", "Final score", true],
+    ["odds", "Betting odds <small>(pre-game, 19+ · Play responsibly)</small>", false]];
   const STORE = "cbn-alerts";
   const saved = () => ls.get(STORE) || {};
   let panel = null;
@@ -75,7 +78,7 @@
   }
 
   function buildPanel() {
-    const s = saved(), prefs = s.prefs || Object.fromEntries(PREFS.map(([k]) => [k, true]));
+    const s = saved(), prefs = {...Object.fromEntries(PREFS.map(([k, , d]) => [k, d])), ...(s.prefs || {})};
     const iosBlocked = isIOS && !standalone();
     panel = el("div", {class: "cbn-sheet", id: "alerts-panel", role: "dialog", "aria-modal": "true", "aria-labelledby": "alerts-title", hidden: ""},
       `<div class="cbn-sheet-box">
@@ -84,7 +87,7 @@
         ${!WORKER ? `<p class="cs-soon"><b>Alerts coming soon.</b> Sign-up isn't open yet. Check back here shortly.</p>` : ""}
         ${isIOS ? `<p class="cs-ios${iosBlocked ? " warn" : ""}">On iPhone and iPad, alerts only work after you add this site to your Home Screen (iOS 16.4 or newer): tap Share then Add to Home Screen, open the app from your Home Screen, then turn alerts on here.</p>` : ""}
         <fieldset><legend>Alert me for</legend>
-          ${PREFS.map(([k, label]) => `<label class="cs-chk"><input type="checkbox" name="${k}" ${prefs[k] !== false ? "checked" : ""}> ${label}</label>`).join("")}
+          ${PREFS.map(([k, label]) => `<label class="cs-chk"><input type="checkbox" name="${k}" ${prefs[k] ? "checked" : ""}> <span>${label}</span></label>`).join("")}
         </fieldset>
         <label class="cs-email">Name or email <small>(optional)</small>
           <input type="text" name="email" maxlength="120" autocomplete="email" placeholder="e.g. Connor or you@example.com" value="${(s.email || "").replace(/"/g, "&quot;")}"></label>

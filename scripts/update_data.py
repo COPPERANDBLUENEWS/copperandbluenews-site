@@ -8,6 +8,7 @@ Writes:
   data/live.json         today's/current Oilers game status (live score)
   data/games/<id>.json   box score per played game (finished games are cached
                          and never refetched; live games refresh every run)
+  data/odds.json         today's Oilers betting odds (NHL partner feed, FanDuel CA) or game null
   data/pbp/<id>.json     slim play-by-play (events + x/y coords + rosters) for the
                          Live rink tracker (tracker.html); same caching rules
 Prints LIVE=1 to $GITHUB_OUTPUT when an Oilers game is live or about to start.
@@ -199,6 +200,14 @@ def main():
     elif live_game:
         live["game"] = live_game
     write(DATA / "live.json", live)
+
+    # Betting odds for today's Oilers game (shown pre-game with "19+. Please play responsibly."). Fails soft.
+    try:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        import odds as _odds
+        write(DATA / "odds.json", _odds.site_json(_odds.edm_game(_odds.fetch()), stamp))
+    except Exception as e:
+        print("odds failed:", e, file=sys.stderr)
 
     st = None
     try:

@@ -277,6 +277,7 @@
       <div class="bug" id="bug"></div>
       <div class="rink-wrap">${rinkSVG()}<div class="banner" id="banner"></div><div class="rink-msg" id="rmsg" hidden></div></div>
       <div class="info" id="info">Tap a marker for details.</div>
+      ${replay ? "" : `<div class="odds-slot trk-odds" data-odds hidden></div>`}
       ${replay ? `<div class="ctl"><button class="sec" id="rst" aria-label="Restart">⏮</button><button id="play" aria-label="Play">▶</button>
         <div class="scrub"><input type="range" id="scrub" min="0" max="3600" step="1" value="0" aria-label="Timeline"><div class="ticks" id="ticks"></div></div>
         <select id="speed" aria-label="Replay speed">${[10, 30, 60, 120, 300, 600].map(v => `<option value="${v}"${v === S.speed ? " selected" : ""}>${v}×</option>`).join("")}</select>

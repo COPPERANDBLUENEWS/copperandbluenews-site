@@ -11,6 +11,17 @@ Cloudflare Worker (worker/, see worker/README.md):  POST $WORKER_URL/notify
             after the period), final score. Shootout attempts are not sent; the final covers it.
   --lineup  (live.yml / lineup.yml, after update_lineup.py) reads data/lineup.json:
             starting goalie confirmed (pre-game) and official dressed lineup confirmed.
+  --pregame (live.yml every run, lineup.yml): "odds" alert 20-75 min before puck drop (aim ~60 min) with
+            moneyline, puck line and over/under from the NHL partner feed (FanDuel CA). Opt-in type.
+  --morning (lineup.yml 16:00 UTC = 9 AM PT, news.yml :41 as backup): "gameday" alert between 8:50 and
+            11:30 AM PT on game days: matchup, time, records, likely goalie, McDavid line, moneyline.
+  Odds (scripts/odds.py) are optional everywhere: if the feed fails or the game isn't listed, the odds
+  part is skipped silently. Every odds text carries "19+ · Play responsibly". No sportsbook links.
+  The puck-drop alert gets a short moneyline for everyone when odds are available. If the feed is seen
+  updating during the game (listed after puck drop with a changed moneyline), period-end alerts carry the
+  current moneyline for odds subscribers only (Worker "alt" body).
+  Test flags: --dry-run (print payloads, send nothing, keep state), --now <ISO time> (pretend clock),
+  --to <subscriber id> (send only to that subscriber; state is not saved).
 
 No-op (exit 0, nothing sent) if WORKER_URL or NOTIFY_SECRET is missing.
 No duplicates: every event has a stable id (<gameId>:goal:<eventId> etc). Ids that were sent
@@ -22,13 +33,15 @@ of each kind is sent and the rest are marked as seen. Always exits 0 so the pipe
 Prints changed=1|0 to $GITHUB_OUTPUT (1 = state file changed, save the cache).
 """
 import json, os, pathlib, sys, urllib.request, urllib.error
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import odds as O
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 STATE = pathlib.Path(os.environ.get("ALERTS_STATE") or pathlib.Path.home() / ".cbn-alerts" / "sent.json")
-PT = ZoneInfo("America/Vancouver")
+PT, MT = ZoneInfo("America/Vancouver"), ZoneInfo("America/Edmonton")
 FINAL, LIVE = ("OFF", "FINAL"), ("LIVE", "CRIT")
 EDM = "EDM"
 
@@ -213,57 +226,194 @@ def lineup_events(now):
     return evs
 
 
+def load_json(path, default=None):
+    try:
+        return json.loads(path.read_text())
+    except Exception:
+        return default
+
+
+def schedule():
+    return (load_json(DATA / "schedule.json", {}) or {}).get("games", [])
+
+
+def fmt_time(t, tz, label):
+    return t.astimezone(tz).strftime("%-I:%M %p").replace(":00", "") + f" {label}"
+
+
+class OddsCache:
+    """One feed fetch per run, only when something needs it."""
+    def __init__(self):
+        self.feed, self.done = None, False
+
+    def get(self, gid):
+        if not self.done:
+            self.feed, self.done = O.fetch(), True
+        return O.edm_game(self.feed, int(gid))
+
+
+def matchup_names(s):
+    return f"{s['away']['name']} @ {s['home']['name']}"
+
+
+def pregame_events(now, oc, state):
+    evs = []
+    for s in schedule():
+        t = utc(s["startTimeUTC"])
+        if s.get("state") in FINAL or not (timedelta(minutes=20) <= t - now <= timedelta(minutes=75)):
+            continue
+        o = oc.get(s["id"])
+        if not o:
+            print(f"pregame {s['id']}: no odds listed, skipping")
+            continue
+        state["games"].setdefault(str(s["id"]), {"sent": [], "seen": now.isoformat()})["odds0"] = O.moneyline(o)
+        evs.append({"id": f"{s['id']}:odds:pregame", "type": "odds",
+                    "title": f"Odds: {matchup_names(s)}, {fmt_time(t, PT, 'PT')}",
+                    "body": f"{O.full_line(o)} · {O.RG}", "url": "/tracker.html"})
+    return evs
+
+
+def standings_records():
+    try:
+        req = urllib.request.Request("https://api-web.nhle.com/v1/standings/now", headers={"User-Agent": "copperandbluenews"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            st = json.load(r)["standings"]
+        return {x["teamAbbrev"]["default"]: f"{x['wins']}-{x['losses']}-{x['otLosses']}" for x in st}
+    except Exception:
+        return {}
+
+
+def morning_events(now, oc):
+    local = now.astimezone(PT)
+    if not (local.replace(hour=8, minute=50, second=0) <= local <= local.replace(hour=11, minute=30, second=0)):
+        return []
+    evs = []
+    for s in schedule():
+        t = utc(s["startTimeUTC"])
+        if t.astimezone(PT).date() != local.date() or s.get("state") in FINAL or s.get("scheduleState", "OK") != "OK":
+            continue
+        rec = standings_records()
+        us, them = (s["home"], s["away"]) if s["home"]["abbrev"] == EDM else (s["away"], s["home"])
+        bits = []
+        if rec.get(us["abbrev"]) and rec.get(them["abbrev"]):
+            bits.append(f"{us['name']} {rec[us['abbrev']]} · {them['name']} {rec[them['abbrev']]}.")
+        lu = load_json(DATA / "lineup.json", {}) or {}
+        gl = lu.get("goalie") or {}
+        if (lu.get("game") or {}).get("id") == s["id"] and (gl.get("starter") or {}).get("name"):
+            word = "Confirmed" if gl.get("status") == "Confirmed" else "Likely"
+            bits.append(f"{word} in goal: {gl['starter']['name']}.")
+        st = load_json(DATA / "stats.json", {}) or {}
+        mc = next((p for p in st.get("skaters", []) if p.get("id") == 8478402), None)
+        if mc:
+            bits.append(f"McDavid: {mc['g']} G, {mc['a']} A in {mc['gp']} GP.")
+        o = oc.get(s["id"])
+        if o:
+            bits.append(f"Moneyline: {O.moneyline(o)} ({o['partner']}) · {O.RG}")
+        venue = f" at {s['venue']}" if s.get("venue") else ""
+        evs.append({"id": f"{s['id']}:gameday", "type": "gameday",
+                    "title": f"GAME DAY: {matchup_names(s)} tonight, {fmt_time(t, MT, 'MT')} / {fmt_time(t, PT, 'PT')}{venue}",
+                    "body": " ".join(bits) or "Game day! Follow it live on the rink tracker.", "url": "/tracker.html"})
+    return evs
+
+
+def add_odds(evs, gid, gs, oc, now):
+    """Puck drop: moneyline for everyone. Period ends: live moneyline for odds subscribers, only if the feed updates in-game."""
+    sent = set(gs.get("sent", []))
+    for e in evs:
+        if e["id"] in sent:
+            continue
+        if e["type"] == "puck_drop":
+            o = oc.get(gid)
+            if o:
+                gs["odds0"] = O.moneyline(o)  # closing line at puck drop: later changes mean live in-game odds
+                e["body"] += f" Odds: {O.moneyline(o)} ({o['partner']}) · {O.RG}"
+        elif e["type"] == "period_end":
+            o = oc.get(gid)
+            if not o:
+                continue
+            started = o.get("startTimeUTC") and o.get("lastUpdatedUTC") and utc(o["lastUpdatedUTC"]) > utc(o["startTimeUTC"])
+            if started and gs.get("odds0") and O.moneyline(o) != gs["odds0"]:
+                gs["odds_live"] = True
+            if gs.get("odds_live"):
+                e["alt"] = {"pref": "odds", "body": f"{e['body']} Live moneyline: {O.moneyline(o)} ({o['partner']}) · {O.RG}"}
+
+
 def main():
-    mode = sys.argv[1] if len(sys.argv) > 1 else "--game"
+    args = sys.argv[1:]
+    modes = [a for a in args if a in ("--game", "--lineup", "--pregame", "--morning")] or ["--game"]
+    dry = "--dry-run" in args
+    to = args[args.index("--to") + 1] if "--to" in args else None
     worker, secret = os.environ.get("WORKER_URL", "").strip(), os.environ.get("NOTIFY_SECRET", "").strip()
     changed = False
     try:
-        if not worker or not secret:
+        if not dry and (not worker or not secret):
             print("Game alerts: WORKER_URL / NOTIFY_SECRET not set, skipping (no-op).")
             return
-        now = datetime.now(timezone.utc)
+        now = utc(args[args.index("--now") + 1]) if "--now" in args else datetime.now(timezone.utc)
         state = load_state()
-        groups = {}
-        if mode == "--lineup":
-            for ev in lineup_events(now):
+        sig = lambda st: json.dumps({k: {a: b for a, b in v.items() if a != "seen"} for k, v in st["games"].items()}, sort_keys=True)
+        before = sig(state)
+        oc = OddsCache()
+        for mode in modes:
+            groups = {}
+            if mode == "--lineup":
+                evlist = lineup_events(now)
+            elif mode == "--pregame":
+                evlist = pregame_events(now, oc, state)
+            elif mode == "--morning":
+                evlist = morning_events(now, oc)
+            else:
+                evlist = None
+                for g in recent_games(now):
+                    groups[str(g["id"])] = game_events(g)
+            for ev in evlist or []:
                 groups.setdefault(ev["id"].split(":")[0], []).append(ev)
-        else:
-            for g in recent_games(now):
-                groups[str(g["id"])] = game_events(g)
-        for gid, evs in groups.items():
-            gs = state["games"].get(gid)
-            first = gs is None
-            gs = gs or {"sent": [], "seen": now.isoformat()}
-            sent = set(gs["sent"])
-            new = [e for e in evs if e["id"] not in sent]
-            if first and mode == "--game" and len(new) > 2:
-                # Backlog on first sight: send only the newest of each kind, mark the rest as seen.
-                keep = {}
+            for gid, evs in groups.items():
+                gs = state["games"].get(gid)
+                first = gs is None
+                gs = gs or {"sent": [], "seen": now.isoformat()}
+                if mode == "--game":
+                    add_odds(evs, gid, gs, oc, now)
+                sent = set(gs["sent"])
+                new = [e for e in evs if e["id"] not in sent]
+                if first and mode == "--game" and len(new) > 2:
+                    # Backlog on first sight: send only the newest of each kind, mark the rest as seen.
+                    keep = {}
+                    for e in new:
+                        keep[e["type"]] = e
+                    if "period_end" in keep or "final" in keep:
+                        keep.pop("puck_drop", None)
+                    if "final" in keep:
+                        keep = {"final": keep["final"]}
+                    skip = [e for e in new if e not in keep.values()]
+                    for e in skip:
+                        sent.add(e["id"])
+                    if skip:
+                        print(f"game {gid}: first sighting, {len(skip)} older event(s) marked seen without sending")
+                        changed = True
+                    new = list(keep.values())
                 for e in new:
-                    keep[e["type"]] = e
-                if "period_end" in keep or "final" in keep:
-                    keep.pop("puck_drop", None)
-                if "final" in keep:
-                    keep = {"final": keep["final"]}
-                skip = [e for e in new if e not in keep.values()]
-                for e in skip:
-                    sent.add(e["id"])
-                if skip:
-                    print(f"game {gid}: first sighting, {len(skip)} older event(s) marked seen without sending")
+                    payload = {k: v for k, v in e.items() if k != "order"}
+                    if to:
+                        payload["to"] = to
+                        payload.pop("id", None)  # a test must not consume the real event id in the Worker
+                    if dry:
+                        print("DRY RUN payload:", json.dumps(payload, ensure_ascii=False))
+                        continue
+                    if post(worker, secret, payload):
+                        if not to:
+                            sent.add(e["id"])
+                            changed = True
+                gs["sent"], gs["seen"] = sorted(sent), now.isoformat()
+                if first:
                     changed = True
-                new = list(keep.values())
-            for e in new:
-                payload = {k: v for k, v in e.items() if k != "order"}
-                if post(worker, secret, payload):
-                    sent.add(e["id"])
-                    changed = True
-            gs["sent"], gs["seen"] = sorted(sent), now.isoformat()
-            if first:
-                changed = True
-            state["games"][gid] = gs
-        if changed:
+                state["games"][gid] = gs
+            print(f"Game alerts ({mode[2:]}): {sum(len(v) for v in groups.values())} event(s) checked.")
+        if dry or to:
+            changed = False
+        elif changed or sig(state) != before:
             save_state(state)
-        print(f"Game alerts ({mode[2:]}): {sum(len(v) for v in groups.values())} event(s) checked, state {'updated' if changed else 'unchanged'}.")
+            changed = True
     except Exception as e:  # never break the live pipeline
         print("Game alerts error:", e, file=sys.stderr)
     finally:

@@ -2,10 +2,13 @@
 # this adds runs at :11 from 3 PM to 8 PM PT (22:00-03:00 UTC; BC is on UTC-7 year-round),
 # so on game days the lineup updates every ~30 min around morning skate -> puck drop -> final.
 # Off game days the script exits right away (GAMEDAY_ONLY=1) and nothing is deployed.
+# The 16:00 UTC run (9 AM PT) also sends the "Game day morning" alert, and the :11 runs catch the
+# pre-game odds alert (~1 h before puck drop) if the 10-minute live loop is late.
 name: Game-day lineup
 on:
   schedule:
     - cron: "11 22,23,0,1,2,3 * * *"
+    - cron: "0 16 * * *"
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -39,11 +42,11 @@ jobs:
           path: ~/.cbn-alerts
           key: cbn-alerts-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: cbn-alerts-
-      # starting goalie confirmed / official lineup confirmed
-      - name: Game alerts (lineup)
+      # game day morning (9 AM PT) / pre-game odds (~1 h out) / starting goalie + official lineup confirmed
+      - name: Game alerts (morning, odds, lineup)
         id: lineup_alerts
         if: env.ALERTS_ON == 'true'
-        run: python3 scripts/notify_alerts.py --lineup || true
+        run: python3 scripts/notify_alerts.py --morning --pregame --lineup || true
         env:
           WORKER_URL: ${{ secrets.WORKER_URL }}
           NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}

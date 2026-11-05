@@ -206,7 +206,7 @@ html.cbn-lock{overflow:hidden}
 .cs-ios{font-size:.85rem;color:var(--muted);margin:0 0 10px}.cs-ios.warn{color:var(--text);background:#0f2142;border:1px solid var(--line);padding:8px 10px;border-radius:8px}
 .cbn-sheet fieldset{border:0;padding:0;margin:0 0 12px}.cbn-sheet legend{font:600 .8rem Inter,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:4px}
 .cs-chk{display:flex;align-items:center;gap:10px;padding:8px 2px;border-bottom:1px solid var(--line);font-size:.98rem;cursor:pointer}
-.cs-chk input{width:20px;height:20px;accent-color:rgb(230,120,50)}
+.cs-chk input{width:20px;height:20px;flex:0 0 auto;accent-color:rgb(230,120,50)}.cs-chk small{color:var(--muted);font-size:.78rem}
 .cs-email{display:block;font-size:.9rem;font-weight:600;margin-bottom:8px}.cs-email small{color:var(--muted);font-weight:400}
 .cs-email input{display:block;width:100%;margin-top:6px;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:#0b1a33;color:var(--text);font:16px Inter,sans-serif}
 .cs-consent{font-size:.85rem;color:var(--muted);margin:6px 0 12px}
@@ -240,3 +240,12 @@ html.cbn-lock{overflow:hidden}
 .ig-follow{background:rgb(230,120,50)}.ig-follow:hover{background:var(--orange)}
 .ig-home .ig-card:nth-child(n+4){display:none}
 @media(max-width:619px){.ig-home .ig-grid{grid-template-columns:repeat(3,1fr);gap:8px}.ig-home .ig-cap{display:none}.ig-home .ig-body{padding:6px 7px 7px}.ig-home .ig-date{margin:0;font-size:.66rem}}
+/* ---------- Pre-game odds box ---------- */
+.odds-slot[hidden]{display:none}
+.odds-box{margin-top:12px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:#0f2142}
+.ob-h{display:flex;justify-content:space-between;align-items:center;gap:8px;font:700 .82rem Oswald,sans-serif;text-transform:uppercase;letter-spacing:.05em;color:rgb(230,120,50);margin-bottom:6px}
+.ob-tag{font:600 .66rem Inter,sans-serif;letter-spacing:.02em;text-transform:none;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:2px 7px}
+.ob-row{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:8px;align-items:baseline;padding:5px 0;border-top:1px solid var(--line);font-size:.86rem}
+.ob-row:first-of-type{border-top:0}.ob-row span{color:var(--muted);white-space:nowrap}.ob-row b{font:600 .84rem Inter,sans-serif;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.ob-rg{margin:6px 0 0;font-size:.72rem;color:var(--muted)}
+.trk-odds{margin:10px 0 4px}.trk-odds .odds-box{margin-top:0}

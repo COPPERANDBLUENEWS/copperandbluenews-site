@@ -1,7 +1,7 @@
 // The Copper & Blue News: Game alerts Worker (Cloudflare Workers + Workers KV [+ Queues]).
 //   POST /subscribe    {subscription, prefs, email?}            (browser, CORS: copperandbluenews.com + www)
 //   POST /unsubscribe  {endpoint}                               (browser, CORS)
-//   POST /notify       {id?, type, title, body, url, to?}       Authorization: Bearer NOTIFY_SECRET (GitHub Actions; to = one subscriber id)
+//   POST /notify       {id?, type, title, body, url, to?, alt?}       Authorization: Bearer NOTIFY_SECRET (GitHub Actions; to = one subscriber id)
 //   GET  /export       sign-up list as CSV                      Authorization: Bearer ADMIN_SECRET (Mac)
 //   GET  /health
 // Fan-out: with the PUSH_QUEUE binding, /notify enqueues batches of subscribers and the queue consumer
@@ -10,7 +10,7 @@
 import {sendPush} from "./webpush.js";
 import * as store from "./store.js";
 
-const TYPES = store.TYPES; // puck_drop, goal, period_end, final, lineup
+const TYPES = store.TYPES; // puck_drop, goal, period_end, final, lineup, odds, gameday
 const ORIGINS = ["https://copperandbluenews.com", "https://www.copperandbluenews.com"];
 // Known browser push services. Anything else is refused so the Worker can't be used to POST to arbitrary URLs.
 const PUSH_HOSTS = [/(^|\.)fcm\.googleapis\.com$/, /(^|\.)android\.googleapis\.com$/, /(^|\.)push\.services\.mozilla\.com$/,
@@ -65,7 +65,7 @@ async function subscribe(req, env) {
   const endpoint = s.endpoint, keys = s.keys || {};
   if (typeof endpoint !== "string" || !validEndpoint(endpoint, env)) throw new HttpError(400, "unsupported push endpoint");
   if (!isB64u(keys.p256dh, 86) || !isB64u(keys.auth, 22)) throw new HttpError(400, "bad subscription keys");
-  const prefs = Object.fromEntries(TYPES.map(t => [t, b.prefs && typeof b.prefs[t] === "boolean" ? b.prefs[t] : true]));
+  const prefs = Object.fromEntries(TYPES.map(t => [t, b.prefs && typeof b.prefs[t] === "boolean" ? b.prefs[t] : store.DEFAULTS[t]]));
   let email = typeof b.email === "string" ? b.email.replace(/[\u0000-\u001f\u007f<>]/g, "").trim().slice(0, 120) : "";
   await store.putSub(env, await subId(endpoint), {endpoint, p256dh: keys.p256dh, auth: keys.auth, email: email || null, prefs}, nowIso());
   return {ok: true, prefs};
@@ -91,7 +91,8 @@ async function deliver(env, subs, payload) {
   for (let i = 0; i < subs.length; i += 6) {
     await Promise.all(subs.slice(i, i + 6).map(async s => {
       try {
-        const r = await sendPush(s, payload, v, {ttl: payload.type === "lineup" ? 3 * 3600 : 1800, urgency: "high"});
+        const p = s.altBody ? {...payload, body: s.altBody} : payload;
+        const r = await sendPush(s, p, v, {ttl: ["lineup", "gameday", "odds"].includes(payload.type) ? 3 * 3600 : 1800, urgency: "high"});
         if (r.ok) stats.sent++;
         else if (r.gone) { stats.gone++; dead.push(s.id); }
         else { stats.failed++; console.log("push failed", r.status, new URL(s.endpoint).host); }
@@ -110,6 +111,8 @@ async function notify(req, env, ctx) {
   const id = typeof b.id === "string" && b.id ? b.id.slice(0, 120) : null;
   const url = typeof b.url === "string" && b.url.startsWith("/") && !b.url.startsWith("//") ? b.url.slice(0, 300) : "/tracker.html";
   const payload = {type: b.type, title: b.title.slice(0, 120), body: typeof b.body === "string" ? b.body.slice(0, 300) : "", url, id, ts: Date.now()};
+  // Optional per-subscriber variant: {alt: {pref, body}} -> subscribers who also opted into "pref" get that body.
+  const alt = b.alt && TYPES.includes(b.alt.pref) && typeof b.alt.body === "string" ? {pref: b.alt.pref, body: b.alt.body.slice(0, 300)} : null;
   if (id) { // never fan out the same event twice
     if (await store.eventSeen(env, id)) return {ok: true, duplicate: true};
     await store.markEvent(env, id, {type: b.type, title: payload.title, at: nowIso()});
@@ -117,7 +120,8 @@ async function notify(req, env, ctx) {
   // Optional "to": one subscriber id (from /export) gets the alert, e.g. a test to your own device.
   const only = typeof b.to === "string" && b.to ? b.to : null;
   const pool = only ? [await store.getSub(env, only)].filter(Boolean) : await store.listSubs(env);
-  const subs = pool.filter(s => only || s.prefs[b.type]).map(({id, endpoint, p256dh, auth}) => ({id, endpoint, p256dh, auth}));
+  const subs = pool.filter(s => only || s.prefs[b.type])
+    .map(({id, endpoint, p256dh, auth, prefs}) => ({id, endpoint, p256dh, auth, ...(alt && prefs[alt.pref] ? {altBody: alt.body} : {})}));
   let out;
   if (env.PUSH_QUEUE && subs.length) {
     const msgs = [];

@@ -53,7 +53,7 @@ jobs:
       - name: Game alerts (game)
         id: game_alerts
         if: env.ALERTS_ON == 'true'
-        run: python3 scripts/notify_alerts.py --game || true
+        run: python3 scripts/notify_alerts.py --pregame --game || true  # pre-game odds ~1 h out, then game events
         env:
           WORKER_URL: ${{ secrets.WORKER_URL }}
           NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}

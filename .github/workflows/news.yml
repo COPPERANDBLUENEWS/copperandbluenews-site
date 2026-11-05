@@ -2,6 +2,7 @@
 # fantasy news + Fantasy Outlook (data/fantasy.json, scripts/update_fantasy.py),
 # plus the game-day lineup (data/lineup.json, scripts/update_lineup.py; see also lineup.yml).
 # The 15:05 UTC run (~8 AM PT) is the "daily" injury refresh; every hourly run refreshes it too.
+# The hourly run is also the backup trigger for the "Game day morning" alert (lineup.yml 16:00 UTC is primary).
 name: News and injuries
 on:
   schedule:
@@ -19,6 +20,8 @@ jobs:
   news:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    env:
+      ALERTS_ON: ${{ secrets.WORKER_URL != '' && secrets.NOTIFY_SECRET != '' }}
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -29,6 +32,26 @@ jobs:
       - run: python3 scripts/update_news.py
       - run: python3 scripts/update_lineup.py || true
       - run: python3 scripts/update_fantasy.py || true  # fantasy news + outlook (data/fantasy.json)
+      - name: Restore sent-alerts state
+        if: env.ALERTS_ON == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cbn-alerts
+          key: cbn-alerts-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: cbn-alerts-
+      - name: Game alerts (game day morning backup)
+        id: morning_alerts
+        if: env.ALERTS_ON == 'true'
+        run: python3 scripts/notify_alerts.py --morning || true
+        env:
+          WORKER_URL: ${{ secrets.WORKER_URL }}
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
+      - name: Save sent-alerts state
+        if: always() && env.ALERTS_ON == 'true' && steps.morning_alerts.outputs.changed == '1'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/.cbn-alerts
+          key: cbn-alerts-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Commit if changed
         run: |
           git add data/news.json data/injuries.json data/lineup.json data/fantasy.json

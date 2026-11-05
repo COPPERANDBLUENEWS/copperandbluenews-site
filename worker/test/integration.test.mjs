@@ -26,7 +26,7 @@ const exportCsv = async () => (await fetch(W + "/export", {headers: {Authorizati
 const wait = ms => new Promise(r => setTimeout(r, ms));
 const tag = Date.now();
 
-const all = {puck_drop: true, goal: true, period_end: true, final: true, lineup: true};
+const all = {puck_drop: true, goal: true, period_end: true, final: true, lineup: true}; // no odds/gameday keys: defaults apply
 let r = await post("/subscribe", {subscription: {endpoint: `http://127.0.0.1:9911/alive-${tag}`, keys: keys()}, prefs: all, email: "=Test Fan"});
 assert.equal(r.status, 200); assert.equal(r.headers.get("access-control-allow-origin"), "https://copperandbluenews.com");
 r = await post("/subscribe", {subscription: {endpoint: `http://127.0.0.1:9911/dead-${tag}`, keys: keys()}, prefs: all});
@@ -48,10 +48,22 @@ await wait(4000);
 const mine = hits.filter(h => h.path.endsWith(String(tag)));
 assert.equal(mine.length, 2, JSON.stringify(mine)); assert.ok(mine.every(h => h.enc === "aes128gcm" && h.auth === "vapid t="));
 let csv = await exportCsv();
-assert.ok(csv.startsWith("id,email,puck_drop,goal,period_end,final,lineup,created_at,updated_at,endpoint,p256dh,auth"));
 assert.ok(!csv.includes(`dead-${tag}`), "dead sub should be deleted after 410");
 assert.ok(csv.includes(`alive-${tag}`) && csv.includes("'=Test Fan"));
-console.log("push delivery + 410 cleanup + CSV export: ok");
+assert.ok(csv.startsWith("id,email,puck_drop,goal,period_end,final,lineup,odds,gameday,"), csv.split("\n")[0]);
+const aliveRow = csv.split("\r\n").find(l => l.includes(`alive-${tag}`)).split(",");
+assert.deepEqual(aliveRow.slice(2, 9), ["1", "1", "1", "1", "1", "0", "1"]); // prefs without odds/gameday: odds OFF, gameday ON
+console.log("push delivery + 410 cleanup + CSV export + new-type defaults: ok");
+r = await post("/subscribe", {subscription: {endpoint: `http://127.0.0.1:9911/odds-${tag}`, keys: keys()}, prefs: {...all, odds: true}});
+assert.equal(r.status, 200);
+n = await (await notify({id: `t${tag}:odds:pregame`, type: "odds", title: "Odds", body: "Oilers -192 | Ducks +158 · 19+ · Play responsibly"})).json();
+assert.equal(n.recipients, 1, JSON.stringify(n)); // only the odds opt-in
+n = await (await notify({id: `t${tag}:period_end:1`, type: "period_end", title: "End of 1st", body: "b", alt: {pref: "odds", body: "b + live moneyline"}})).json();
+assert.equal(n.recipients, 3, JSON.stringify(n)); // alive, nogoals, odds (alt body only for the odds one)
+await wait(4000);
+assert.equal(hits.filter(h => h.path.endsWith(`odds-${tag}`)).length, 2);
+console.log("odds opt-in + alt body fan-out: ok");
+await post("/unsubscribe", {endpoint: `http://127.0.0.1:9911/odds-${tag}`});
 
 await post("/unsubscribe", {endpoint: `http://127.0.0.1:9911/alive-${tag}`});
 await post("/unsubscribe", {endpoint: `http://127.0.0.1:9911/nogoals-${tag}`});
