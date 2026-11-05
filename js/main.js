@@ -86,3 +86,7 @@ loadGames(); loadPosts();
 // Height/weight exactly as the NHL API reports them (imperial and metric both come from the API; nothing derived).
 CBN.ht = p => p && p.heightInInches ? `${Math.floor(p.heightInInches / 12)}'${p.heightInInches % 12}"${p.heightInCentimeters ? ` <small>(${p.heightInCentimeters} cm)</small>` : ""}` : "—";
 CBN.wt = p => p && p.weightInPounds ? `${p.weightInPounds} lbs${p.weightInKilograms ? ` <small>(${p.weightInKilograms} kg)</small>` : ""}` : "—";
+
+CBN.injuries = (() => { let pr; return () => pr || (pr = getJSON("data/injuries.json").then(d => Object.fromEntries(d.players.filter(p => p.id).map(p => [p.id, p]))).catch(() => ({}))); })();
+CBN.injBadge = r => r ? `<span class="ibadge ${({IR: "ir", LTIR: "ltir", "Day-to-day": "dtd"})[r.status] || "out"}" title="${esc((r.injury || "injury") + " · " + r.status)}">${esc(r.status)}${r.injury && r.injury !== "undisclosed" ? " · " + esc(r.injury) : ""}</span>` : "";
+document.querySelector(".nav nav a.on")?.scrollIntoView({inline: "center", block: "nearest"});

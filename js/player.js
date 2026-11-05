@@ -2,6 +2,7 @@
   const {$, esc, getJSON} = CBN;
   const root = $("player"), id = new URLSearchParams(location.search).get("id");
   if (!/^\d+$/.test(id || "")) { root.innerHTML = '<p>No player selected. <a href="players.html">See the roster.</a></p>'; return; }
+  const inj = (await CBN.injuries())[+id];
   let p; try { p = await getJSON(`data/players/${id}.json`); } catch { root.innerHTML = '<p>Profile not available. <a href="players.html">Back to Players</a></p>'; return; }
   const name = `${p.firstName.default} ${p.lastName.default}`, G = p.position === "G";
   document.title = `${name} | The Copper & Blue News`;
@@ -50,7 +51,7 @@
   } catch {}
   root.innerHTML = `<p class="crumb"><a href="players.html">← Players</a></p>
     <div class="phero">${p.heroImage ? `<img class="action" src="${esc(p.heroImage)}" alt="${esc(name)} action shot" onerror="this.remove()">` : ""}
-      <div class="pid"><img class="head" src="${esc(p.headshot)}" alt="${esc(name)}" width="96" height="96"><div><span class="num">#${p.sweaterNumber ?? ""} · ${esc(POS[p.position] || p.position)}</span><h1>${esc(name)}</h1></div></div></div>
+      <div class="pid"><img class="head" src="${esc(p.headshot)}" alt="${esc(name)}" width="96" height="96"><div><span class="num">#${p.sweaterNumber ?? ""} · ${esc(POS[p.position] || p.position)}</span><h1>${esc(name)}</h1>${inj ? `<a href="injuries.html" style="text-decoration:none">${CBN.injBadge(inj)}</a>` : ""}</div></div></div>
     <dl class="facts"><div><dt>${G ? "Catches" : "Shoots"}</dt><dd>${esc(p.shootsCatches || "-")}</dd></div><div><dt>Height</dt><dd>${ht}</dd></div><div><dt>Weight</dt><dd>${wt}</dd></div>
       <div><dt>Born</dt><dd>${born.toLocaleDateString("en-US", {month: "short", day: "numeric", year: "numeric"})} (age ${age})</dd></div><div><dt>Birthplace</dt><dd>${esc(place)}</dd></div><div><dt>Draft</dt><dd>${draft}</dd></div></dl>
     <p class="bio">${bio}</p>

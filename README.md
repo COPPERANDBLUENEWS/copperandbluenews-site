@@ -92,3 +92,11 @@ Optional: verify the domain under GitHub **Settings > Pages > Verified domains**
    An apex domain on Cloudflare Pages requires Cloudflare nameservers. Without them only `www` (CNAME) works.
 
 Live (temporary) URL: https://copperandbluenews.github.io/copperandbluenews-site/
+
+## News & injuries (automatic)
+`scripts/update_news.py` runs hourly (`.github/workflows/news.yml`, :41 past each hour, plus a 15:05 UTC ≈ 8 AM PT daily run) and on every site build.
+- **News** (`data/news.json`, 36 newest, deduped by URL and similar title): NHL.com/EdmontonOilers.com (NHL's public content API, Oilers tag),
+  Edmonton Journal Oilers RSS, Sportsnet RSS (Oilers-filtered), Google News RSS for "Edmonton Oilers". Headline + ≤2-line snippet + link only.
+- **Injuries** (`data/injuries.json`): who is injured and the injury come from the "Injured:" line of the latest NHL.com projected-lineups preview
+  (auto). IR/LTIR status, expected return and extra sources come from `data/injuries_manual.json`, entered by hand from cited reports;
+  a manual entry only shows while NHL.com still lists that player. Remove stale entries when a player returns.

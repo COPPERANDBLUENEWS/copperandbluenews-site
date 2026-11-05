@@ -1,0 +1,163 @@
+{
+ "updated": "2026-11-05T03:22:23Z",
+ "basis": {
+  "name": "NHL.com projected lineups",
+  "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-preview-november-3-2026",
+  "date": "2026-11-03",
+  "title": "Oilers at Devils projected lineups"
+ },
+ "players": [
+  {
+   "name": "Isaac Howard",
+   "id": 8483455,
+   "injury": "knee",
+   "status": "Out",
+   "expectedReturn": "\"A couple weeks\" (Babcock, Nov 3)",
+   "updated": "2026-11-03",
+   "sources": [
+    {
+     "name": "NHL.com",
+     "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-preview-november-3-2026",
+     "date": "2026-11-03"
+    },
+    {
+     "name": "Sportsnet",
+     "url": "https://www.sportsnet.ca/nhl/article/oilers-forward-isaac-howard-out-a-couple-weeks-per-babcock/",
+     "date": "2026-11-03"
+    }
+   ],
+   "note": "Howard, a forward injured in a 4-0 win at the New York Islanders on Saturday, will miss his second straight game. \"He's good, but he'll be out a couple weeks,\" Edmonton coach Mike Babcock said."
+  },
+  {
+   "name": "Frederik Andersen",
+   "id": 8475883,
+   "injury": "undisclosed",
+   "status": "Out",
+   "expectedReturn": "\"Maybe December\" (Babcock, Sep 29)",
+   "updated": "2026-11-03",
+   "sources": [
+    {
+     "name": "NHL.com",
+     "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-preview-november-3-2026",
+     "date": "2026-11-03"
+    },
+    {
+     "name": "Edmonton Journal",
+     "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-injury-list-goes-from-bad-to-worse-with-rnh-now-out-other-injuries-worse-than-expected",
+     "date": "2026-09-29"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Zach Hyman",
+   "id": 8475786,
+   "injury": "neck",
+   "status": "IR",
+   "expectedReturn": null,
+   "updated": "2026-11-03",
+   "sources": [
+    {
+     "name": "NHL.com",
+     "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-preview-november-3-2026",
+     "date": "2026-11-03"
+    },
+    {
+     "name": "EdmontonOilers.com",
+     "url": "https://www.nhl.com/oilers/news/release-hyman-placed-on-ir-dickinson-activated",
+     "date": "2026-10-28"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Mattias Janmark",
+   "id": 8477406,
+   "injury": "undisclosed",
+   "status": "Out",
+   "expectedReturn": "\"A ways away\", no date (Babcock, Sep 29)",
+   "updated": "2026-11-03",
+   "sources": [
+    {
+     "name": "NHL.com",
+     "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-preview-november-3-2026",
+     "date": "2026-11-03"
+    },
+    {
+     "name": "Edmonton Journal",
+     "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-injury-list-goes-from-bad-to-worse-with-rnh-now-out-other-injuries-worse-than-expected",
+     "date": "2026-09-29"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Devon Levi",
+   "id": 8482221,
+   "injury": "undisclosed",
+   "status": "IR",
+   "expectedReturn": "No timetable (NHL.com, Nov 3)",
+   "updated": "2026-11-03",
+   "sources": [
+    {
+     "name": "NHL.com",
+     "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-preview-november-3-2026",
+     "date": "2026-11-03"
+    },
+    {
+     "name": "EdmontonOilers.com",
+     "url": "https://www.nhl.com/oilers/news/release-oilers-place-levi-on-ir-tomkins-recalled-on-emergency-basis",
+     "date": "2026-10-23"
+    }
+   ],
+   "note": "Levi, a goalie, participated in the morning skate, but there's no timetable on his return."
+  },
+  {
+   "name": "Alec Regula",
+   "id": 8480831,
+   "injury": "undisclosed",
+   "status": "LTIR",
+   "expectedReturn": null,
+   "updated": "2026-11-03",
+   "sources": [
+    {
+     "name": "NHL.com",
+     "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-preview-november-3-2026",
+     "date": "2026-11-03"
+    },
+    {
+     "name": "EdmontonOilers.com",
+     "url": "https://www.nhl.com/oilers/news/release-oilers-place-nugent-hopkins-on-ir",
+     "date": "2026-10-01"
+    }
+   ],
+   "note": null
+  },
+  {
+   "name": "Matt Savoie",
+   "id": 8483512,
+   "injury": "undisclosed",
+   "status": "LTIR",
+   "expectedReturn": "About eight weeks (Babcock, Sep 29)",
+   "updated": "2026-11-03",
+   "sources": [
+    {
+     "name": "NHL.com",
+     "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-preview-november-3-2026",
+     "date": "2026-11-03"
+    },
+    {
+     "name": "EdmontonOilers.com",
+     "url": "https://www.nhl.com/oilers/news/release-oilers-place-nugent-hopkins-on-ir",
+     "date": "2026-10-01"
+    },
+    {
+     "name": "Edmonton Journal",
+     "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-injury-list-goes-from-bad-to-worse-with-rnh-now-out-other-injuries-worse-than-expected",
+     "date": "2026-09-29"
+    }
+   ],
+   "note": null
+  }
+ ]
+}
