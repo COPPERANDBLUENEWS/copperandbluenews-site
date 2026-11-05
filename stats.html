@@ -16,13 +16,19 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="C&amp;B News">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="application-name" content="C&amp;B News">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=15">
+<link rel="stylesheet" href="css/style.css?v=16">
 </head>
 <body>
-<header class="nav"><a class="brand" href="./"><img src="logo.jpg" alt="" width="36" height="36"><span>Copper &amp; Blue <b>News</b></span></a>
+<header class="nav"><a class="brand" href="./"><img src="logo.jpg" alt="" width="36" height="36"><span>Copper &amp; Blue <b>News</b></span></a><button type="button" class="bell" id="cbn-bell" aria-label="Game alerts" title="Game alerts"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22Zm7-6V11a7 7 0 0 0-5.5-6.84V3.5a1.5 1.5 0 0 0-3 0v.66A7 7 0 0 0 5 11v5l-2 2v1h18v-1l-2-2Z"/></svg><span class="bell-t">Alerts</span></button>
 <nav><a href="./">Home</a><a href="news.html">News</a><a href="schedule.html">Schedule</a><a href="scores.html">Scores</a><a href="tracker.html">Live</a><a href="stats.html">Stats</a><a href="players.html">Players</a><a href="injuries.html">Injuries</a><a href="posts.html">Posts</a><a href="history.html">History</a></nav></header>
 <main>
 <section><h1 class="page-title">Player Stats</h1><p class="meta">Tap a column to sort.</p>
@@ -33,10 +39,12 @@
 <h3 class="fp-h">Goalies</h3><div class="tbl-wrap" id="fpGoalies"></div><p class="updated" id="fpUpdated"></p>
 <p class="meta">Same scoring as the <a href="news.html#fantasy">Fantasy</a> section. L10 = last 10 games played. Tap a column to sort.</p></section>
 </main>
-<footer><p class="flinks"><a href="about.html">About</a> · <a href="schedule.html">Schedule</a> · <a href="scores.html">Scores</a></p>
+<footer><p class="flinks"><a href="about.html">About</a> · <a href="schedule.html">Schedule</a> · <a href="scores.html">Scores</a> · <a href="privacy.html">Privacy</a></p>
 <p><a href="https://www.instagram.com/thecopperandbluenews/" target="_blank" rel="noopener">@thecopperandbluenews on Instagram</a></p>
 <p class="disc">The Copper &amp; Blue News is a fan-run page. Not affiliated with the Edmonton Oilers or the NHL. Schedule data via the public NHL API.</p>
 <p class="disc">&copy; <span id="yr">2026</span> The Copper &amp; Blue News</p></footer>
-<script src="js/main.js?v=15"></script>
-<script src="js/stats.js?v=15"></script><script src="js/fantasy.js?v=15"></script>
+<script src="js/main.js?v=16"></script>
+<script src="js/config.js?v=16"></script>
+<script src="js/pwa.js?v=16"></script>
+<script src="js/stats.js?v=16"></script><script src="js/fantasy.js?v=16"></script>
 </body></html>

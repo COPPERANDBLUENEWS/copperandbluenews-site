@@ -1,0 +1,112 @@
+// Service worker for The Copper & Blue News app.
+// - HTML pages and data JSON (data/, data.json, posts.json): network-first, so scores, the Live
+//   tracker and news are never served stale while online; the cached copy is only an offline fallback.
+// - Static assets (css, js, images, icons, fonts): cache-first. CSS/JS are versioned (?v=NN),
+//   so bumping the version fetches fresh copies. Bump VERSION below when the precache list changes.
+// - Offline: navigations fall back to the cached page, then offline.html.
+// - Web push: shows Game alerts and opens the payload URL (default /tracker.html) on click.
+const VERSION = "cbn-v16";
+const STATIC = `${VERSION}-static`, PAGES = `${VERSION}-pages`, DATA = `${VERSION}-data`;
+const PRECACHE = [
+  "/offline.html", "/css/style.css?v=16", "/js/main.js?v=16", "/js/pwa.js?v=16",
+  "/logo.jpg", "/icons/icon-192.png", "/icons/badge-96.png", "/favicon-32.png"
+];
+const DATA_MAX = 60;
+
+self.addEventListener("install", e => {
+  e.waitUntil(caches.open(STATIC).then(c => c.addAll(PRECACHE)).then(() => self.skipWaiting()));
+});
+self.addEventListener("activate", e => {
+  e.waitUntil((async () => {
+    for (const k of await caches.keys()) if (!k.startsWith(VERSION)) await caches.delete(k);
+    if (self.registration.navigationPreload) await self.registration.navigationPreload.enable().catch(() => {});
+    await self.clients.claim();
+  })());
+});
+
+const isData = u => u.pathname.startsWith("/data/") || /^\/(data|posts)\.json$/.test(u.pathname) || u.pathname.endsWith(".webmanifest");
+const isStatic = u => /\.(css|js|png|jpe?g|gif|webp|svg|ico|woff2?|ttf)$/.test(u.pathname) && u.pathname !== "/sw.js" && !u.pathname.startsWith("/js/config.js");
+const FONT_HOSTS = ["fonts.googleapis.com", "fonts.gstatic.com"];
+
+async function trim(cacheName, max) {
+  const c = await caches.open(cacheName), keys = await c.keys();
+  for (let i = 0; i < keys.length - max; i++) await c.delete(keys[i]);
+}
+// Cache key without the cache-busting query (?t=...), so polling doesn't fill the cache.
+const dataKey = u => u.origin + u.pathname;
+
+async function networkFirst(event, cacheName, key, isNav) {
+  const req = event.request;
+  try {
+    const res = (isNav && await event.preloadResponse) || await fetch(req);
+    if (res && res.status === 200 && res.type === "basic") {
+      const copy = res.clone();
+      event.waitUntil(caches.open(cacheName).then(c => c.put(key, copy)).then(() => cacheName === DATA && trim(DATA, DATA_MAX)));
+    }
+    return res;
+  } catch (err) {
+    const hit = await caches.match(key, {ignoreSearch: true});
+    if (hit) return hit;
+    if (isNav) return (await caches.match("/offline.html")) || Response.error();
+    throw err;
+  }
+}
+async function cacheFirst(event) {
+  const req = event.request, hit = await caches.match(req);
+  if (hit) return hit;
+  const res = await fetch(req);
+  if (res && (res.status === 200 || res.type === "opaque")) {
+    const copy = res.clone();
+    event.waitUntil(caches.open(STATIC).then(c => c.put(req, copy)));
+  }
+  return res;
+}
+
+self.addEventListener("fetch", event => {
+  const req = event.request;
+  if (req.method !== "GET") return;
+  const u = new URL(req.url);
+  if (u.origin === location.origin) {
+    if (u.pathname === "/sw.js") return;
+    if (req.mode === "navigate" || (req.headers.get("accept") || "").includes("text/html")) {
+      return event.respondWith(networkFirst(event, PAGES, u.origin + (u.pathname === "/" ? "/" : u.pathname), req.mode === "navigate"));
+    }
+    if (isData(u) || u.pathname === "/js/config.js") return event.respondWith(networkFirst(event, DATA, dataKey(u), false));
+    if (isStatic(u)) return event.respondWith(cacheFirst(event));
+    return; // anything else: plain network
+  }
+  if (FONT_HOSTS.includes(u.hostname)) return event.respondWith(cacheFirst(event));
+});
+
+// ---------- web push ----------
+const sameOriginUrl = raw => {
+  try { const u = new URL(raw || "/tracker.html", self.location.origin); return u.origin === self.location.origin ? u.href : null; } catch { return null; }
+};
+self.addEventListener("push", event => {
+  let d = {};
+  try { d = event.data ? event.data.json() : {}; } catch { d = {body: event.data && event.data.text()}; }
+  const title = d.title || "The Copper & Blue News";
+  const opts = {
+    body: d.body || "",
+    icon: "/icons/icon-192.png",
+    badge: "/icons/badge-96.png",
+    tag: d.tag || d.id || undefined,
+    renotify: !!(d.tag || d.id),
+    timestamp: d.ts || Date.now(),
+    data: {url: sameOriginUrl(d.url) || new URL("/tracker.html", self.location.origin).href, type: d.type || null}
+  };
+  event.waitUntil(self.registration.showNotification(title, opts));
+});
+self.addEventListener("notificationclick", event => {
+  event.notification.close();
+  const url = (event.notification.data && event.notification.data.url) || new URL("/tracker.html", self.location.origin).href;
+  event.waitUntil((async () => {
+    const wins = await self.clients.matchAll({type: "window", includeUncontrolled: true});
+    for (const w of wins) {
+      if (new URL(w.url).pathname === new URL(url).pathname && "focus" in w) { if ("navigate" in w && w.url !== url) await w.navigate(url).catch(() => {}); return w.focus(); }
+    }
+    for (const w of wins) if ("focus" in w && "navigate" in w) { await w.navigate(url).catch(() => {}); return w.focus(); }
+    return self.clients.openWindow(url);
+  })());
+});
+// If the browser rotates the push subscription, the next visit to the alerts panel re-registers it.

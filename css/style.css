@@ -187,3 +187,38 @@ a.lchip:hover{border-color:var(--copper)}.lchip.empty{color:var(--muted)}
 .fgrid div{background:#0f2142}
 .fp-h{font-size:1rem;color:var(--muted);margin:14px 0 8px}
 .btn.fmore{border:0;cursor:pointer;margin-top:10px;padding:10px 18px;font-size:14px}
+/* ---------- App (PWA): alerts bell, Game alerts panel, install banner ---------- */
+.bell{order:3;display:inline-flex;align-items:center;gap:6px;background:transparent;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:6px 12px;font:500 13px Oswald,sans-serif;text-transform:uppercase;letter-spacing:.03em;cursor:pointer}
+.bell svg{width:17px;height:17px;fill:currentColor}.bell:hover{border-color:var(--copper);color:var(--copper)}
+.bell.on{background:var(--copper);border-color:var(--copper);color:#fff}
+@media(max-width:560px){.bell{position:absolute;right:8px;top:7px;padding:6px 8px}.bell .bell-t{display:none}}
+.btn-ghost{background:transparent;border:2px solid var(--copper);color:var(--text);padding:11px 20px;margin-left:6px}.btn-ghost:hover{background:var(--copper)}
+@media(max-width:420px){.btn-ghost{margin:10px 0 0}}
+@media(display-mode:standalone){.nav{padding-top:calc(8px + env(safe-area-inset-top,0px))}.bell{top:calc(7px + env(safe-area-inset-top,0px))}}
+html.cbn-lock{overflow:hidden}
+.cbn-sheet{position:fixed;inset:0;z-index:50;background:rgba(3,10,22,.72);display:flex;align-items:flex-end;justify-content:center}
+.cbn-sheet[hidden]{display:none}
+.cbn-sheet-box{position:relative;width:100%;max-width:440px;max-height:92vh;overflow:auto;background:var(--navy2);border:1px solid var(--line);border-top:3px solid var(--copper);border-radius:16px 16px 0 0;padding:18px 18px calc(18px + env(safe-area-inset-bottom,0px));box-shadow:0 -10px 40px rgba(0,0,0,.5)}
+@media(min-width:561px){.cbn-sheet{align-items:center}.cbn-sheet-box{border-radius:16px}}
+.cbn-sheet h2{display:flex;align-items:center;gap:8px;font-size:1.35rem;color:var(--text);margin:0 34px 10px 0}.cbn-sheet h2 svg{width:22px;height:22px;fill:rgb(230,120,50)}
+.cs-x{position:absolute;top:10px;right:10px;width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:transparent;color:var(--text);font-size:22px;line-height:1;cursor:pointer}
+.cs-soon{background:rgba(230,120,50,.14);border-left:4px solid rgb(230,120,50);padding:8px 12px;border-radius:6px;font-size:.9rem;margin:0 0 10px}
+.cs-ios{font-size:.85rem;color:var(--muted);margin:0 0 10px}.cs-ios.warn{color:var(--text);background:#0f2142;border:1px solid var(--line);padding:8px 10px;border-radius:8px}
+.cbn-sheet fieldset{border:0;padding:0;margin:0 0 12px}.cbn-sheet legend{font:600 .8rem Inter,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:4px}
+.cs-chk{display:flex;align-items:center;gap:10px;padding:8px 2px;border-bottom:1px solid var(--line);font-size:.98rem;cursor:pointer}
+.cs-chk input{width:20px;height:20px;accent-color:rgb(230,120,50)}
+.cs-email{display:block;font-size:.9rem;font-weight:600;margin-bottom:8px}.cs-email small{color:var(--muted);font-weight:400}
+.cs-email input{display:block;width:100%;margin-top:6px;padding:10px 12px;border-radius:8px;border:1px solid var(--line);background:#0b1a33;color:var(--text);font:16px Inter,sans-serif}
+.cs-consent{font-size:.85rem;color:var(--muted);margin:6px 0 12px}
+.cs-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.cs-on{border:0;cursor:pointer;background:rgb(230,120,50)}.cs-on:disabled{opacity:.6;cursor:default;background:#5a4a40}
+.cs-off,.cs-install{background:transparent;border:1px solid var(--line);color:var(--text);border-radius:999px;padding:11px 16px;font:600 14px Inter,sans-serif;cursor:pointer}
+.cs-install{margin-top:10px;width:100%}
+.cs-status{min-height:1.2em;font-size:.88rem;margin:10px 0 0;color:#4ade80}.cs-status.bad{color:#fca5a5}
+.cbn-install{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom,0px));z-index:40;display:flex;align-items:center;gap:10px;max-width:520px;margin:0 auto;background:var(--navy2);border:1px solid var(--line);border-left:4px solid rgb(230,120,50);border-radius:12px;padding:10px 10px 10px 12px;box-shadow:0 10px 30px rgba(0,0,0,.45);transform:translateY(140%);transition:transform .3s ease}
+.cbn-install.show{transform:none}
+.cbn-install img{border-radius:50%;flex:0 0 auto}
+.ci-text{flex:1;font-size:.86rem;line-height:1.35}.ci-text b{display:block;font:700 .98rem Oswald,sans-serif;text-transform:uppercase;letter-spacing:.03em}.ci-text span{color:#d6deeb}
+.share-ic{width:16px;height:16px;vertical-align:-3px;color:rgb(230,120,50)}
+.ci-go{background:rgb(230,120,50);color:#fff;border:0;border-radius:999px;padding:9px 14px;font:700 14px Inter,sans-serif;cursor:pointer}
+.ci-x{background:transparent;border:0;color:var(--muted);font-size:24px;line-height:1;padding:4px 6px;cursor:pointer}

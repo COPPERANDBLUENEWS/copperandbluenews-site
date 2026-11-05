@@ -82,6 +82,22 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
 - `news.yml` and `lineup.yml` run `update_data.py` (LIVE_RUN=1, ~15 s) right before they deploy, so their
   deploys never put older live score / box score / play-by-play back on the site mid-game.
 
+## App (PWA) and Game alerts
+- `manifest.webmanifest` (name "The Copper & Blue News", short name "C&B News", standalone, navy theme) with icons in
+  `icons/` generated from `logo.jpg` with PIL: `icon-192/512.png` (any), `maskable-192/512.png` (logo at 80% on navy,
+  inside the maskable safe zone), `badge-96.png` (monochrome drop for Android's status bar) and the root
+  `apple-touch-icon.png` (180). Every page links the manifest plus the `apple-mobile-web-app-*` meta tags.
+- `sw.js` (root scope): network-first for pages and data JSON (`data/`, `data.json`, `posts.json`, `js/config.js`),
+  so live scores and the tracker are never stale online; cache-first for versioned CSS/JS, images and fonts;
+  `offline.html` fallback. Bump `VERSION` in `sw.js` when the precache list changes (old caches are deleted).
+  Push + notificationclick handlers open the payload `url` (same-origin only, default `/tracker.html`).
+- `js/pwa.js`: registers the SW, shows the "Install the app" banner (Android/desktop `beforeinstallprompt`; iOS one-time
+  "Tap Share then Add to Home Screen" tip; dismissal is remembered in localStorage), and the bell / Game alerts panel.
+- `js/config.js`: `WORKER_URL` (empty = "Alerts coming soon", nothing is sent) and the public `VAPID_PUBLIC_KEY`.
+  The VAPID private key is never in this repo; it goes into the Worker as a secret (see `worker/README.md`).
+- `privacy.html`: what alerts collect (push subscription, alert prefs, optional name/email) and how to unsubscribe/delete.
+- Cache-bust: CSS/JS URLs use `?v=16`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+
 ## Cap & contracts (manual, sources: public reports)
 The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:
 official NHL.com / EdmontonOilers.com signing releases first, then TSN, Sportsnet, Edmonton Journal, The Athletic, CBC or AP.
