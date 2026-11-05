@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-05T07:25:29Z",
+ "updated": "2026-11-05T07:57:35Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (89)"
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
@@ -168,8 +168,8 @@
   },
   {
    "title": "Jack Hughes scores twice for Devils, Hellebuyck wins home debut against Oilers",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026-x6095",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026",
+   "source": "NHL.com",
    "published": "2026-11-04T05:05:00Z",
    "snippet": "NEWARK, N.J. -- Jack Hughes had two goals and an assist for the New Jersey Devils in a 4-3 shootout win against the Edmonton Oilers at Prudential Center on Tuesday."
   },
