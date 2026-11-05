@@ -42,9 +42,12 @@
   try {
     const c = await getJSON("data/contracts.json"), r = c.players.find(x => String(x.id) === String(id));
     const $$ = v => v == null || v === "" ? "—" : "$" + Number(v).toLocaleString("en-US");
-    if (r) contract = `<h2 class="sub">Contract</h2><dl class="facts"><div><dt>Cap hit (AAV)</dt><dd>${$$(r.capHit)}</dd></div><div><dt>2026-27 salary</dt><dd>${$$(r.salary)}</dd></div>
-      <div><dt>Years left</dt><dd>${esc(r.yearsLeft ?? "—")}</dd></div><div><dt>Expires</dt><dd>${esc(r.expiry ?? "—")}${r.status ? " · " + esc(r.status) : ""}</dd></div><div style="grid-column:1/-1"><dt>Clauses</dt><dd>${esc(r.clauses ?? "—")}</dd></div></dl>
-      <p class="meta">Contract data: <a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener">${esc(c.source)}</a>${c.asOf && r.capHit != null ? `, as of ${esc(c.asOf)}` : " (not entered yet)"}. Entered by hand, not updated automatically. <a href="${esc(r.link)}" target="_blank" rel="noopener">Oilers contracts on PuckPedia ↗</a> · <a href="cap.html">Oilers cap →</a></p>`;
+    if (r) contract = `<h2 class="sub">Contract</h2><dl class="facts"><div><dt>2026-27 cap hit</dt><dd>${$$(r.capHit)}</dd></div><div><dt>AAV</dt><dd>${$$(r.aav)}</dd></div>
+      <div><dt>Total value</dt><dd>${$$(r.total)}</dd></div><div><dt>Term</dt><dd>${r.years ? r.years + (r.years > 1 ? " years" : " year") : "—"}</dd></div>
+      <div><dt>Seasons</dt><dd>${r.firstSeason || r.lastSeason ? esc((r.firstSeason || "?") + " to " + (r.lastSeason || "?")) : "—"}</dd></div><div><dt>Signed</dt><dd>${esc(r.signed ?? "—")}</dd></div>
+      <div><dt>Expiry status</dt><dd>${esc(r.status ?? "—")}</dd></div><div><dt>Clauses</dt><dd>${esc(r.clauses ?? "—")}</dd></div></dl>
+      ${r.note ? `<p class="notice">${esc(r.note)}</p>` : ""}
+      <p class="meta">Sources: public reports. This contract: <a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener">${esc(r.sourceName)} ↗</a>, as of ${esc(c.asOf)}. Blank (—) means not verified. Entered by hand, not updated automatically.${c.seeAlso ? ` See also: <a href="${esc(c.seeAlso.url)}" target="_blank" rel="noopener">${esc(c.seeAlso.name)} ↗</a>` : ""} · <a href="cap.html">Oilers cap →</a></p>`;
   } catch {}
   root.innerHTML = `<p class="crumb"><a href="players.html">← Players</a></p>
     <div class="phero">${p.heroImage ? `<img class="action" src="${esc(p.heroImage)}" alt="${esc(name)} action shot" onerror="this.remove()">` : ""}

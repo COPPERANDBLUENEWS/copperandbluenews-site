@@ -46,27 +46,21 @@ Refresh locally: `python3 scripts/update_data.py`
 Times are shown in MT (America/Edmonton) and PT (America/Vancouver), converted from the API's UTC
 `startTimeUTC`. Check: the Nov 5 Ducks game is `2026-11-06T01:00Z` = 7 PM MT = 6 PM PT.
 
-## Cap & contracts (manual, source: PuckPedia)
-The NHL API has no contract data. Mac chose **PuckPedia** (https://puckpedia.com/team/edmonton-oilers) as the source.
-Its robots.txt (checked Nov 4, 2026) blocks this site's bot (`Grokbot` / `xai-crawler`: `Disallow: /`), and its
-terms page returned 403. So nothing is fetched automatically, and the figures are **entered by hand**.
-The site credits "Contract data: PuckPedia" with a link and the as-of date.
+## Cap & contracts (manual, sources: public reports)
+The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:
+official NHL.com / EdmontonOilers.com signing releases first, then TSN, Sportsnet, Edmonton Journal, The Athletic, CBC or AP.
+Wikipedia is only a pointer; cite the original article. Do **not** copy from PuckPedia, CapWages or Spotrac
+(the site shows "See also: PuckPedia" as a link only). It is **not auto-updated**.
 
-`data/contracts.json` holds:
-- **League figures:** the 2026-27 cap ceiling of $104.0M, the $76.9M floor and the $20.8M max salary, from the
-  [NHL.com announcement](https://www.nhl.com/news/nhl-nhlpa-announce-team-payroll-range-for-2026-27-season).
-- **Team and player contract fields:** left blank (`null`) until entered.
+Per player: `capHit` (2026-27), `aav`, `total`, `years`, `signed`, `firstSeason`, `lastSeason`, `status` (UFA/RFA, only if
+reported), `clauses` (only if reported), `sourceName`, `sourceUrl`, `note`. Leave anything unverified as `null`; never estimate.
 
-To refresh:
-1. `python3 scripts/update_data.py && python3 scripts/make_contracts_template.py`. This adds new roster players
-   and keeps the numbers you already entered.
-2. Open the Oilers page on PuckPedia in your browser. In `data/contracts.json`, fill per player: `capHit`,
-   `salary` (this season), `yearsLeft`, `expiry` (e.g. 2028), `status` (UFA/RFA), `clauses` (e.g. "NMC").
-   For the team, fill `team.capHit`, `team.capSpace`, `team.ltir`, and `team.deadCap` entries
-   (`{"name","type","capHit","through"}`). Then set `asOf` (YYYY-MM-DD). Numbers are plain integers
-   (e.g. 12500000). Leave unknown values as `null`.
-   Check PuckPedia's terms allow showing this data on your site first.
-3. Commit and push. The site redeploys on push.
+Refresh:
+1. `python3 scripts/update_data.py && python3 scripts/make_contracts_template.py` (adds new roster players, keeps entered data).
+2. Fill new or changed rows from a cited report; set `asOf` to today's date.
+3. `team.capHit`/`capSpace` are only set when every roster player has a verified `capHit`; otherwise set
+   `coveredCapHit`, `coveredCount`, `rosterCount` and `missing` (the Cap page then shows a "covered so far" total).
+4. Commit and push.
 
 ## Run locally
 `python3 -m http.server 8000` then open http://localhost:8000

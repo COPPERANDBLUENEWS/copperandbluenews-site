@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Create/refresh data/contracts.json rows for the current roster WITHOUT touching
 numbers already entered. Contract figures are entered by hand (see README "Cap &
-contracts"): PuckPedia (the chosen source) disallows this bot in robots.txt, so nothing is fetched automatically."""
+contracts"): sourced by hand from public reports (NHL.com/Oilers.com releases, TSN, Sportsnet, Edmonton Journal...). Not copied from PuckPedia, CapWages or Spotrac."""
 import json, pathlib, re, unicodedata
 from datetime import date
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -11,19 +11,18 @@ cur = json.loads(P.read_text()) if P.exists() else {}
 old = {p["id"]: p for p in cur.get("players", [])}
 slug = lambda n: re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", n).encode("ascii", "ignore").decode().lower()).strip("-")
 TEAM_URL = "https://puckpedia.com/team/edmonton-oilers"
-FIELDS = ("capHit", "salary", "yearsLeft", "expiry", "status", "clauses")
+FIELDS = ("capHit", "aav", "total", "years", "signed", "firstSeason", "lastSeason", "status", "clauses", "sourceName", "sourceUrl", "note", "complete")
 players = []
 for grp, lst in roster["groups"].items():
     for p in lst:
-        row = {"id": p["id"], "name": p["name"], "pos": p["pos"], **{f: None for f in FIELDS},
-               "link": TEAM_URL}
+        row = {"id": p["id"], "name": p["name"], "pos": p["pos"], **{f: None for f in FIELDS}}
         row.update({k: v for k, v in old.get(p["id"], {}).items() if k in FIELDS})
         players.append(row)
 out = {
     "season": "2026-27",
     "asOf": cur.get("asOf"),
-    "source": cur.get("source") or "PuckPedia",
-    "sourceUrl": cur.get("sourceUrl") or TEAM_URL,
+    "source": cur.get("source") or "Public reports", "seeAlso": cur.get("seeAlso") or {"name": "PuckPedia", "url": TEAM_URL},
+    "sourceUrl": cur.get("sourceUrl"),
     "league": cur.get("league") or {"upperLimit": 104000000, "midpoint": 90400000, "lowerLimit": 76900000,
                "maxPlayerSalary": 20800000, "asOf": "2026-05-06",
                "source": "NHL Public Relations", "sourceUrl": "https://www.nhl.com/news/nhl-nhlpa-announce-team-payroll-range-for-2026-27-season"},
