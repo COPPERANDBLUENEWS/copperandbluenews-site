@@ -94,6 +94,35 @@ def stats():
     return {"season": cs.get("season"), "skaters": sk, "goalies": go}
 
 
+PLAYER_KEYS = ("playerId", "isActive", "currentTeamAbbrev", "firstName", "lastName", "sweaterNumber", "position",
+               "headshot", "heroImage", "heightInInches", "heightInCentimeters", "weightInPounds", "weightInKilograms",
+               "birthDate", "birthCity", "birthStateProvince", "birthCountry", "shootsCatches", "draftDetails",
+               "featuredStats", "careerTotals", "last5Games", "awards", "inHHOF", "inTop100AllTime")
+
+
+def players(extra_ids=()):
+    """data/roster.json + data/players/<id>.json (player landing, NHL seasons only)."""
+    ro = get("roster/EDM/current")
+    groups = {}
+    for key, label in (("forwards", "Forwards"), ("defensemen", "Defence"), ("goalies", "Goalies")):
+        groups[label] = [{"id": p["id"], "name": f'{p["firstName"]["default"]} {p["lastName"]["default"]}',
+                          "num": p.get("sweaterNumber"), "pos": p["positionCode"], "shoots": p.get("shootsCatches"),
+                          "headshot": p.get("headshot")} for p in sorted(ro.get(key, []), key=lambda x: x.get("sweaterNumber") or 999)]
+    write(DATA / "roster.json", {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "groups": groups})
+    ids = {p["id"] for g in groups.values() for p in g} | set(extra_ids)
+    for pid in sorted(ids):
+        try:
+            d = get(f"player/{pid}/landing")
+        except Exception as e:
+            print("player failed", pid, e, file=sys.stderr)
+            continue
+        out = {k: d.get(k) for k in PLAYER_KEYS}
+        out["nhlSeasons"] = [{k: v for k, v in x.items() if k not in ("teamPlaceNameWithPreposition", "teamCommonName")}
+                             for x in d.get("seasonTotals", []) if x.get("leagueAbbrev") == "NHL"]
+        write(DATA / "players" / f"{pid}.json", out)
+    print("players", len(ids))
+
+
 def main():
     now = datetime.now(timezone.utc)
     games = get(f"club-schedule-season/EDM/{SEASON}")["games"]
@@ -133,10 +162,17 @@ def main():
         live["game"] = live_game
     write(DATA / "live.json", live)
 
+    st = None
     try:
-        write(DATA / "stats.json", {"updated": stamp, **stats()})
+        st = stats()
+        write(DATA / "stats.json", {"updated": stamp, **st})
     except Exception as e:
         print("stats failed:", e, file=sys.stderr)
+    if os.environ.get("LIVE_RUN") != "1":  # live loop skips the ~30 player requests
+        try:
+            players([p["id"] for p in (st["skaters"] + st["goalies"])] if st else ())
+        except Exception as e:
+            print("players failed:", e, file=sys.stderr)
 
     done = [g for g in sched if g["state"] in FINAL]
     todo = [g for g in sched if g["state"] not in FINAL]

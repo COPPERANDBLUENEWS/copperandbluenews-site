@@ -7,7 +7,7 @@
   function table(el, rows, cols, key, desc) {
     const sorted = [...rows].sort((a, b) => { const x = a[key], y = b[key]; const c = typeof x === "string" ? x.localeCompare(y) : x - y; return desc ? -c : c; });
     el.innerHTML = `<table class="tbl sortable"><thead><tr>${cols.map(([k, l]) => `<th data-k="${k}" class="${k === key ? (desc ? "desc" : "asc") : ""}">${l}</th>`).join("")}</tr></thead>
-      <tbody>${sorted.map(r => `<tr>${cols.map(([k, , , f]) => `<td>${esc(f ? f(r[k]) : r[k])}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
+      <tbody>${sorted.map(r => `<tr>${cols.map(([k, , , f]) => `<td>${k === "name" ? `<a class="plink" href="player.html?id=${r.id}">${esc(r[k])}</a>` : esc(f ? f(r[k]) : r[k])}</td>`).join("")}</tr>`).join("")}</tbody></table>`;
     el.querySelector("thead").onclick = e => { const k = e.target.dataset.k; if (!k) return;
       table(el, rows, cols, k, k === key ? !desc : !(["name", "pos"].includes(k) || k === "gaa")); };
   }

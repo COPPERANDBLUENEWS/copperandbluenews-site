@@ -35,6 +35,7 @@ jobs:
       - id: data
         run: python3 scripts/update_data.py
         env:
+          LIVE_RUN: "1"
           FORCE_LIVE: ${{ inputs.force && '1' || '0' }}
       - if: steps.data.outputs.live == '1'
         run: rsync -a --exclude .git --exclude .github --exclude scripts --exclude screenshots --exclude README.md ./ _site/

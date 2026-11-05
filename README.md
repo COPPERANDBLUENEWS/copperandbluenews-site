@@ -4,7 +4,7 @@ Static fan site for [@thecopperandbluenews](https://www.instagram.com/thecoppera
 Fan run. Not affiliated with the Edmonton Oilers or the NHL. Don't add official NHL/Oilers logos.
 
 ## Files
-- `index.html`, `schedule.html`, `scores.html`, `game.html?id=GAMEID` (box score), `stats.html`, `posts.html`, `about.html`: pages
+- `index.html`, `schedule.html`, `scores.html`, `players.html`, `player.html?id=PLAYERID`, `game.html?id=GAMEID` (box score), `stats.html`, `posts.html`, `about.html`: pages
 - `css/style.css`, `js/main.js`: styles and scripts
 - `posts.json`: the posts feed (newest first by `date`)
 - `data.json`: next game, latest result and standings (generated)
@@ -25,7 +25,7 @@ Put the graphic in `images/`, then add an entry to `posts.json`:
 ## Game data (CORS)
 The NHL API (`api-web.nhle.com`) sends **no `Access-Control-Allow-Origin` header** (tested Nov 4, 2026), so
 browsers can't call it. `scripts/update_data.py` (standard library only) fetches it and writes static JSON:
-`data.json` (home cards), `data/schedule.json`, `data/stats.json`, `data/live.json` and `data/games/<id>.json`
+`data.json` (home cards), `data/schedule.json`, `data/stats.json`, `data/roster.json`, `data/players/<id>.json`, `data/live.json` and `data/games/<id>.json`
 (box scores: boxscore + landing + right-rail). Finished games are cached in the repo and not refetched.
 
 Pages are deployed by GitHub Actions (Settings > Pages > Source: **GitHub Actions**):
