@@ -91,7 +91,7 @@ Optional: verify the domain under GitHub **Settings > Pages > Verified domains**
    - `CNAME www -> <project>.pages.dev` (proxied)
    An apex domain on Cloudflare Pages requires Cloudflare nameservers. Without them only `www` (CNAME) works.
 
-Live (temporary) URL: https://copperandbluenews.github.io/copperandbluenews-site/
+Live URL: https://copperandbluenews.com/
 
 ## News & injuries (automatic)
 `scripts/update_news.py` runs hourly (`.github/workflows/news.yml`, :41 past each hour, plus a 15:05 UTC ≈ 8 AM PT daily run) and on every site build.

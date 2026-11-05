@@ -18,7 +18,7 @@ from datetime import datetime, timezone
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
-UA = {"User-Agent": "Mozilla/5.0 (compatible; copperandbluenews-site; +https://copperandbluenews.github.io/copperandbluenews-site/)"}
+UA = {"User-Agent": "Mozilla/5.0 (compatible; copperandbluenews-site; +https://copperandbluenews.com/)"}
 FORGE = "https://forge-dapi.d3.nhle.com/v2/content/en-us/stories"
 KEEP = 36
 OIL = re.compile(r"\boilers?\b|edmonton|mcdavid|draisaitl|bouchard|nugent-hopkins|hyman|rogers place", re.I)
