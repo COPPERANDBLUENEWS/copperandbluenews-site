@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T21:55:19Z",
+ "updated": "2026-11-05T22:20:22Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,14 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers notebook: Babcock and Quenneville reunite; Gauthier on hat-trick heater",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSzZhM0ZtMjZpVEJ5LVVkMjVCLXVIR1dOTTFKUkFkTDJ3dE5ZRENoY3lIUVNTTVZaZWJQbWt2cVlxUm5mblIzVGZOY1ZmdnlsQzJDTFdxTjFnZm9JS1ZzdXFlQ1hRVDE1T3pRR05TQ3RYMGg3QVFEX3FHMkwyQTRZWHVIdzkwNHFLNFdxaU5ybHVJR2tiOXhLMWlIRjdteHdCU2xUVHVRbw?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-05T22:08:34Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "And then there were none: All three Edmonton Oilers starting goalies now knocked out of action",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZEJEVnVqM3N6MlJVZjBEUE9CM1dqWkw4cy1RTDc5aEZ5YUwwYUNFX3lIT01lbWxFemcyLTlxcmtyNl8zcHhRSXlKdFpYSFpWTzVFaDRaX09qcjhtRm5jcWZBVDBuUzBDYk5QQXl6VkJzSldTWUE5MGs5R1dRUEV1bDcxcXY3ZVFrY1BFOVgwV0lQcjdDSFhiYVB2TVhJVFk3bFp1M01hQXc5V2U5aW9pQUlSWG5tSktpdjVNQ081OUVzaGc?oc=5",
@@ -70,14 +78,6 @@
    "source": "Sportsnet",
    "published": "2026-11-05T19:34:49Z",
    "snippet": "Edmonton Oilers head coach Mike Babcock meets with the media ahead of his team’s game vs. the Anaheim Ducks and discusses coming back home from a road trip, why Ryan Nugent-Hopkins is so…"
-  },
-  {
-   "title": "Ex-Oilers Evander Kane leaves NHL behind for opportunity in Russia",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTzNEZU1fZkxKdzdGMlZDalRObFlvRnRjWGV1a1M0NWlXV2Naa1QybENlU2g3UlZNS2V1R3RSOWF2T3Z5V0tJVTVQdENCUWxQSVk2TGNaYmNJSkxGdXQ2UVRjdjNlcDBhU3NRSU45bWZ1T1hrckxJeVhUMERUeFZBMC1NMTk?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-05T19:34:25Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "PROJECTED LINEUP: Oilers vs. Ducks",
@@ -272,11 +272,11 @@
    "snippet": "OILERS (11-2-2) at DEVILS (9-5-0) 7:30 p.m. ET; Disney+, HULU, ESPN+, SNW, SNO, SNE Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Colton Dach -- Ryan…"
   },
   {
-   "title": "Oilers vets moved in and out of Babcock's dog house, one benched, one promoted for tonight's game",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-new-jersey-devils-jake-walman-trent-frederic-mike-babcock-dog-house",
-   "source": "Edmonton Journal",
-   "published": "2026-11-03T16:39:45Z",
-   "snippet": ""
+   "title": "NU93 RECORD",
+   "url": "https://www.nhl.com/oilers/news/nu93-record-11-03-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-03T05:29:34.311Z",
+   "snippet": "EDMONTON, AB – When Ryan Nugent-Hopkins, the first-overall pick of the Edmonton Oilers in 2011, walked onto the stage at the Xcel Energy Center in Saint Paul, Minnesota and pulled on the…"
   }
  ]
 }
