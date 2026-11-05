@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-05T21:23:55Z",
+ "updated": "2026-11-05T21:53:03Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (3)",
-  "Google News (88)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "And then there were none: All three Edmonton Oilers starting goalies now knocked out of action",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZEJEVnVqM3N6MlJVZjBEUE9CM1dqWkw4cy1RTDc5aEZ5YUwwYUNFX3lIT01lbWxFemcyLTlxcmtyNl8zcHhRSXlKdFpYSFpWTzVFaDRaX09qcjhtRm5jcWZBVDBuUzBDYk5QQXl6VkJzSldTWUE5MGs5R1dRUEV1bDcxcXY3ZVFrY1BFOVgwV0lQcjdDSFhiYVB2TVhJVFk3bFp1M01hQXc5V2U5aW9pQUlSWG5tSktpdjVNQ081OUVzaGc?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-05T21:33:42Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "With Jarry sick, recalled goalie Tomkins draws another Oilers start",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVGFKY0xIZUMyY1hmbGd0dkVjSlZUWWstVm1HVkxCVjdHQUFBUXIzU0duRTFKd1FWeV9XZ19yZWZVS0pTZDdqa2xXZ1dBSC1LQlhMdHphU1oycVZ6UzhERlhOYmxhYXNud1NmMl9pT1J4bXdMQ1JlWVkwTGVHRXU4YWx4cUltaF9vUlA2ZE9pYloycDlXMnJ3VEc4ZWRvcV9IUVVWOW9Pai1vMGk4cXgzN1JZT1g?oc=5",
@@ -57,27 +65,11 @@
    "via": "google"
   },
   {
-   "title": "And then there were none: All three Edmonton Oilers starting goalies now knocked out of action",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZEJEVnVqM3N6MlJVZjBEUE9CM1dqWkw4cy1RTDc5aEZ5YUwwYUNFX3lIT01lbWxFemcyLTlxcmtyNl8zcHhRSXlKdFpYSFpWTzVFaDRaX09qcjhtRm5jcWZBVDBuUzBDYk5QQXl6VkJzSldTWUE5MGs5R1dRUEV1bDcxcXY3ZVFrY1BFOVgwV0lQcjdDSFhiYVB2TVhJVFk3bFp1M01hQXc5V2U5aW9pQUlSWG5tSktpdjVNQ081OUVzaGc?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-05T20:03:32Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "‘Try to win’: Oilers’ Babcock on team mindset back from road trip",
    "url": "https://www.sportsnet.ca/nhl/video/try-to-win-oilers-babcock-on-team-mindset-back-from-road-trip/",
    "source": "Sportsnet",
    "published": "2026-11-05T19:34:49Z",
    "snippet": "Edmonton Oilers head coach Mike Babcock meets with the media ahead of his team’s game vs. the Anaheim Ducks and discusses coming back home from a road trip, why Ryan Nugent-Hopkins is so…"
-  },
-  {
-   "title": "Ex-Oilers Evander Kane leaves NHL behind for opportunity in Russia",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTzNEZU1fZkxKdzdGMlZDalRObFlvRnRjWGV1a1M0NWlXV2Naa1QybENlU2g3UlZNS2V1R3RSOWF2T3Z5V0tJVTVQdENCUWxQSVk2TGNaYmNJSkxGdXQ2UVRjdjNlcDBhU3NRSU45bWZ1T1hrckxJeVhUMERUeFZBMC1NMTk?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-05T19:34:25Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "PROJECTED LINEUP: Oilers vs. Ducks",
@@ -116,14 +108,6 @@
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeDl2dGRfcHM1OTVFYnYzYVVnQXlNRm5vU1VSTXROOGJZR1JRaVZvYjN6d2gwNTEyaVk1cVJCNi12QjVnMG9YV3FnY0FhcVlOaXdmN2FlRlZOLXMxYUVBNnlfTThPUnp4djA2YTZUQTVLSWhzNlNYcVJvd1FnQng3QlNvZGEtUUtZOUptX1ZsSXJFTi1iY1gzVVNqN09LeUF4NHotQjJ0dEJINjg4aVotMF9uMV9kNHFoeEF6S1BOWnAtR2lfOGc?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-05T18:23:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers, Canucks game highlights annual Hockey Fights Cancer night",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYmtkVGtnOXlPdldPb0tESURCMERvWEFMUVgtOGZOTU0zNUZMRkIzY3oxZnNTMjJLeXBSUGI4aU41bWoyZVlubUQxNEVycnlTWE1pb3YwWmpnM25WeWFQeW1RSldpWU81ZFJUWk9HSVNKTTZicGV1UWVuLXhFQlVjM3ByaEgtcHlhbjFpalJYN0NYOGdyVC03cm1wSWdmeTJyU183LXdRWTRuUVZ1NXVYcXZB?oc=5",
-   "source": "CTV News",
-   "published": "2026-11-05T18:21:16Z",
    "snippet": "",
    "via": "google"
   },
@@ -167,11 +151,27 @@
    "via": "google"
   },
   {
+   "title": "Puck Picks: Cooley’s Breakout; Carlson’s Power-Play Demotion; An Oilers-Ducks Shootout, and More",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeW5ncGgySDVXZnBmdXlhenJiMEZ5LUUwLVB4eWFNaGtTYU9GR25sX1hqSmJsQVlSd2xLRWs1UGJSV3JXWmNHenYxMWJsdnZoVGx5YUNoRjNFRXVTY2xlNnJZam9NbEZES3VSNnpmNTRfNC1YVzBXWE5NUzZSZ3Jqd1lTOURSU0hTYldQSzlGMnJhY0FxdWxBcmNvZDE1MWlfM0c1VGo2QVRXYnBlVlRCRTZvTXJRWUctV0Zjd3lSSnVGLWM4cHc?oc=5",
+   "source": "DobberHockey",
+   "published": "2026-11-05T16:39:21Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Why you should lean Ducks for upset over Oilers, Flyers over Rangers",
    "url": "https://www.sportsnet.ca/nhl/video/why-you-should-lean-ducks-for-upset-over-oilers-flyers-over-rangers/",
    "source": "Sportsnet",
    "published": "2026-11-05T16:04:18Z",
    "snippet": "VSiN By The Books’ Jensen Lewis gives his thoughts on Thursday’s NHL slate, detailing why the Anaheim Ducks are a smart play as underdogs against the Edmonton Oilers to get the win and why…"
+  },
+  {
+   "title": "Anaheim Ducks at Edmonton Oilers - NHL Game Summary - Nov 05, 2026",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNOVRENFhxOWJ1UndxejFtT1YzZXN1MUd5dlZRSWQ4eEw1OHA4VmczLUNteXB3alQxbllIc1NLUlR6ZHd3VS16amlSRjlnUHlNakg4VVVkOV9kVWRrYTNMMzFacXpMZGNTWEphQTJNcDk1WS1aZkN2bFRncTBKd1p0dnRyVTVXODFuQnlhOTQ3LXdwMjA5c2dyTWtDNF9LdkpLU1JFU2xRbEJiMjhzZ3F0VjB2c1ZwVzExbURXZGk5YzZ6UkVhUkxLWjFJUjRWT29oZmk3ZXpSZE5SVFEtMDI2cl8zWUJCeWlBOXJjSy1R?oc=5",
+   "source": "USA Today",
+   "published": "2026-11-05T15:53:23Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "One of Mike Babcock's biggest critics now praising him. Will other naysayers do the same?",
@@ -217,8 +217,8 @@
   },
   {
    "title": "Jack Hughes scores twice for Devils, Hellebuyck wins home debut against Oilers",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026-x6095",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026",
+   "source": "NHL.com",
    "published": "2026-11-04T05:05:00Z",
    "snippet": "NEWARK, N.J. -- Jack Hughes had two goals and an assist for the New Jersey Devils in a 4-3 shootout win against the Edmonton Oilers at Prudential Center on Tuesday."
   },
