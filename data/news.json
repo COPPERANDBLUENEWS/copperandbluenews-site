@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-05T22:20:22Z",
+ "updated": "2026-11-05T22:23:04Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (3)",
-  "Google News (87)"
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
@@ -21,6 +21,14 @@
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZEJEVnVqM3N6MlJVZjBEUE9CM1dqWkw4cy1RTDc5aEZ5YUwwYUNFX3lIT01lbWxFemcyLTlxcmtyNl8zcHhRSXlKdFpYSFpWTzVFaDRaX09qcjhtRm5jcWZBVDBuUzBDYk5QQXl6VkJzSldTWUE5MGs5R1dRUEV1bDcxcXY3ZVFrY1BFOVgwV0lQcjdDSFhiYVB2TVhJVFk3bFp1M01hQXc5V2U5aW9pQUlSWG5tSktpdjVNQ081OUVzaGc?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-05T21:33:42Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "GDB 17.0: Oilers need to keep pounding the Pacific Division against Ducks (7 PM, SNW)",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN3hsZVotczNPX0FscTBQU1djSnNzeUlsUnNscHR6RHpMRklLY1VlQlluS040R2d4SnJwRk55ekRTdUVFdF9waXNQWEJKUlo5bVFqU2Vla3hHSHFEQmFOSlktOUhIcnZsT2pWejhjVU9mUGpCNFhVN0JqVklETlp0TnBpaElOOFQ4LXpGUlJlU0Jtcms?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-05T21:17:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -78,6 +86,14 @@
    "source": "Sportsnet",
    "published": "2026-11-05T19:34:49Z",
    "snippet": "Edmonton Oilers head coach Mike Babcock meets with the media ahead of his team’s game vs. the Anaheim Ducks and discusses coming back home from a road trip, why Ryan Nugent-Hopkins is so…"
+  },
+  {
+   "title": "Ex-Oilers Evander Kane leaves NHL behind for opportunity in Russia",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTzNEZU1fZkxKdzdGMlZDalRObFlvRnRjWGV1a1M0NWlXV2Naa1QybENlU2g3UlZNS2V1R3RSOWF2T3Z5V0tJVTVQdENCUWxQSVk2TGNaYmNJSkxGdXQ2UVRjdjNlcDBhU3NRSU45bWZ1T1hrckxJeVhUMERUeFZBMC1NMTk?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-05T19:34:25Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "PROJECTED LINEUP: Oilers vs. Ducks",
@@ -147,22 +163,6 @@
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
    "source": "Daily Faceoff",
    "published": "2026-11-05T17:14:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Ducks vs Oilers Prediction, Pick, NHL Odds for Thursday, November 5",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd3NBYzVDUllfSjRrdGw4aGdZNFNCOHJMNDF5dmQzdjU1SzJfcENOQXNpSWMtMHdHbnlPTm9aanJRd2ZiV2xZLWEwQ1VLbkNDSjg1UFlwbXIwSUhPQlcyUHpTb3VmZzVMRDkzYmpmeDFwUFFyU1kzWks0T01mT3lWS3czSzVSSGs?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-05T17:01:18Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Puck Picks: Cooley’s Breakout; Carlson’s Power-Play Demotion; An Oilers-Ducks Shootout, and More",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeW5ncGgySDVXZnBmdXlhenJiMEZ5LUUwLVB4eWFNaGtTYU9GR25sX1hqSmJsQVlSd2xLRWs1UGJSV3JXWmNHenYxMWJsdnZoVGx5YUNoRjNFRXVTY2xlNnJZam9NbEZES3VSNnpmNTRfNC1YVzBXWE5NUzZSZ3Jqd1lTOURSU0hTYldQSzlGMnJhY0FxdWxBcmNvZDE1MWlfM0c1VGo2QVRXYnBlVlRCRTZvTXJRWUctV0Zjd3lSSnVGLWM4cHc?oc=5",
-   "source": "DobberHockey",
-   "published": "2026-11-05T16:39:21Z",
    "snippet": "",
    "via": "google"
   },
