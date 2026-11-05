@@ -1,4 +1,5 @@
 # Hourly: Oilers news (data/news.json) + injury report (data/injuries.json) from public feeds,
+# fantasy news + Fantasy Outlook (data/fantasy.json, scripts/update_fantasy.py),
 # plus the game-day lineup (data/lineup.json, scripts/update_lineup.py; see also lineup.yml).
 # The 15:05 UTC run (~8 AM PT) is the "daily" injury refresh; every hourly run refreshes it too.
 name: News and injuries
@@ -27,9 +28,10 @@ jobs:
         with: { python-version: "3.12" }
       - run: python3 scripts/update_news.py
       - run: python3 scripts/update_lineup.py || true
+      - run: python3 scripts/update_fantasy.py || true  # fantasy news + outlook (data/fantasy.json)
       - name: Commit if changed
         run: |
-          git add data/news.json data/injuries.json data/lineup.json
+          git add data/news.json data/injuries.json data/lineup.json data/fantasy.json
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
@@ -39,7 +41,7 @@ jobs:
       - name: Refresh live game data before deploying
         # Without this, a deploy during a game would put the committed (older) live score,
         # box score and play-by-play back on the site until the live loop redeploys.
-        run: python3 scripts/update_data.py || true
+        run: python3 scripts/update_data.py && python3 scripts/update_fantasy.py --outlook || true
         env:
           LIVE_RUN: "1"
       - name: Assemble site

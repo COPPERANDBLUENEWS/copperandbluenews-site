@@ -19,7 +19,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=14">
+<link rel="stylesheet" href="css/style.css?v=15">
 </head>
 <body>
 <header class="nav"><a class="brand" href="./"><img src="logo.jpg" alt="" width="36" height="36"><span>Copper &amp; Blue <b>News</b></span></a>
@@ -27,12 +27,16 @@
 <main>
 <section><h1 class="page-title">Player Stats</h1><p class="meta">Tap a column to sort.</p>
 <h2 class="sub">Skaters</h2><div class="tbl-wrap" id="skaters">Loading…</div>
-<h2 class="sub">Goalies</h2><div class="tbl-wrap" id="goalies"></div><p class="updated" id="stUpdated"></p></section>
+<h2 class="sub">Goalies</h2><div class="tbl-wrap" id="goalies"></div><p class="updated" id="stUpdated"></p>
+<h2 class="sub" id="fantasy-points">Fantasy Points</h2><div id="fpLegend"></div>
+<h3 class="fp-h">Skaters</h3><div class="tbl-wrap" id="fpSkaters">Loading…</div>
+<h3 class="fp-h">Goalies</h3><div class="tbl-wrap" id="fpGoalies"></div><p class="updated" id="fpUpdated"></p>
+<p class="meta">Same scoring as the <a href="news.html#fantasy">Fantasy</a> section. L10 = last 10 games played. Tap a column to sort.</p></section>
 </main>
 <footer><p class="flinks"><a href="about.html">About</a> · <a href="schedule.html">Schedule</a> · <a href="scores.html">Scores</a></p>
 <p><a href="https://www.instagram.com/thecopperandbluenews/" target="_blank" rel="noopener">@thecopperandbluenews on Instagram</a></p>
 <p class="disc">The Copper &amp; Blue News is a fan-run page. Not affiliated with the Edmonton Oilers or the NHL. Schedule data via the public NHL API.</p>
 <p class="disc">&copy; <span id="yr">2026</span> The Copper &amp; Blue News</p></footer>
-<script src="js/main.js?v=14"></script>
-<script src="js/stats.js?v=14"></script>
+<script src="js/main.js?v=15"></script>
+<script src="js/stats.js?v=15"></script><script src="js/fantasy.js?v=15"></script>
 </body></html>

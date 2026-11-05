@@ -42,6 +42,8 @@ jobs:
       - if: steps.data.outputs.live == '1'
         run: python3 scripts/update_lineup.py || true
       - if: steps.data.outputs.live == '1'
+        run: python3 scripts/update_fantasy.py --outlook || true  # picks up the final box score
+      - if: steps.data.outputs.live == '1'
         run: rsync -a --exclude .git --exclude .github --exclude scripts --exclude screenshots --exclude README.md ./ _site/
       - if: steps.data.outputs.live == '1'
         uses: actions/upload-pages-artifact@v3

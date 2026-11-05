@@ -136,3 +136,14 @@ Live URL: https://copperandbluenews.com/
 - **Injuries** (`data/injuries.json`): who is injured and the injury come from the "Injured:" line of the latest NHL.com projected-lineups preview
   (auto). IR/LTIR status, expected return and extra sources come from `data/injuries_manual.json`, entered by hand from cited reports;
   a manual entry only shows while NHL.com still lists that player. Remove stale entries when a player returns.
+
+## Fantasy (News tab → Fantasy, Stats tab → Fantasy Points)
+
+- `scripts/update_fantasy.py` builds `data/fantasy.json`: Oilers fantasy news (RotoWire RSS, RotoWire/CBS Sports
+  player blurbs and "Oilers fantasy" via Google News RSS; DailyFaceoff and Yahoo RSS checked too), filtered to
+  current roster names and deduped (headline, source, time, link; no article text), plus a data-driven
+  Fantasy Outlook from the regular-season box scores in `data/games`, `data/lineup.json` and NHL standings.
+- Scoring: skaters G 3, A 2, PPP 1, SOG 0.5, HIT 0.5, BLK 0.5; goalies W 4, SV 0.2, GA -1, SO 3.
+- Projection: 50/50 blend of season and last-10 per-game rates, G/A/PPP scaled by the opponent's GA/GP vs league
+  (half strength, capped at ±15%). Fan projections, not guarantees.
+- Runs in news.yml (hourly, full) and site.yml; `--outlook` (no feeds) in lineup.yml and live.yml.

@@ -49,13 +49,18 @@
       ${r.note ? `<p class="notice">${esc(r.note)}</p>` : ""}
       <p class="meta">Sources: public reports. This contract: <a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener">${esc(r.sourceName)} ↗</a>, as of ${esc(c.asOf)}. Blank (—) means not verified. Entered by hand, not updated automatically.${c.seeAlso ? ` See also: <a href="${esc(c.seeAlso.url)}" target="_blank" rel="noopener">${esc(c.seeAlso.name)} ↗</a>` : ""} · <a href="cap.html">Oilers cap →</a></p>`;
   } catch {}
+  let fant = "";
+  try {
+    const f = await getJSON("data/fantasy.json"), r = [...f.skaters, ...f.goalies].find(x => String(x.id) === String(id));
+    if (r) fant = `<div class="statline"><h3>Fantasy Points · ${f.through ? "through " + esc(f.through) : "season"}</h3><div><span><b>${r.season.FP.toFixed(1)}</b>FP</span><span><b>${r.season.FPG.toFixed(2)}</b>FP/GP</span><span><b>${r.l10.FP.toFixed(1)}</b>L10 FP</span><span><b>${r.l5.FP.toFixed(1)}</b>L5 FP</span></div></div><p class="meta" style="margin:4px 0 0">Regular season with EDM. <a href="stats.html#fantasy-points">Scoring and all players →</a></p>`;
+  } catch {}
   root.innerHTML = `<p class="crumb"><a href="players.html">← Players</a></p>
     <div class="phero">${p.heroImage ? `<img class="action" src="${esc(p.heroImage)}" alt="${esc(name)} action shot" onerror="this.remove()">` : ""}
       <div class="pid"><img class="head" src="${esc(p.headshot)}" alt="${esc(name)}" width="96" height="96"><div><span class="num">#${p.sweaterNumber ?? ""} · ${esc(POS[p.position] || p.position)}</span><h1>${esc(name)}</h1>${inj ? `<a href="injuries.html" style="text-decoration:none">${CBN.injBadge(inj)}</a>` : ""}</div></div></div>
     <dl class="facts"><div><dt>${G ? "Catches" : "Shoots"}</dt><dd>${esc(p.shootsCatches || "-")}</dd></div><div><dt>Height</dt><dd>${ht}</dd></div><div><dt>Weight</dt><dd>${wt}</dd></div>
       <div><dt>Born</dt><dd>${born.toLocaleDateString("en-US", {month: "short", day: "numeric", year: "numeric"})} (age ${age})</dd></div><div><dt>Birthplace</dt><dd>${esc(place)}</dd></div><div><dt>Draft</dt><dd>${draft}</dd></div></dl>
     <p class="bio">${bio}</p>
-    ${big(cur, `${seasonFmt(p.featuredStats?.season || "")} Season`)}
+    ${big(cur, `${seasonFmt(p.featuredStats?.season || "")} Season`)}${fant}
     ${l5 ? `<h2 class="sub">Last 5 Games</h2>${tbl(l5h, l5)}` : ""}
     <h2 class="sub">Career Totals</h2>${tbl(`<th></th>${cols.map(c => `<th>${c[0]}</th>`).join("")}`, careerRow(cr, "Regular season") + careerRow(cp, "Playoffs"))}
     ${seasonRows ? `<h2 class="sub">NHL Seasons</h2>${tbl(`<th>Season</th><th>Team</th>${cols.map(c => `<th>${c[0]}</th>`).join("")}`, seasonRows)}` : ""}
