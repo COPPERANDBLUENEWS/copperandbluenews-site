@@ -168,3 +168,9 @@ Live URL: https://copperandbluenews.com/
 - Projection: 50/50 blend of season and last-10 per-game rates, G/A/PPP scaled by the opponent's GA/GP vs league
   (half strength, capped at ±15%). Fan projections, not guarantees.
 - Runs in news.yml (hourly, full) and site.yml; `--outlook` (no feeds) in lineup.yml and live.yml.
+
+## Analytics
+
+Cloudflare Web Analytics (cookieless). `python3 scripts/set_analytics.py <site_token>` adds the beacon to every page
+and the matching paragraph to privacy.html (`--remove` undoes both). The service worker never handles
+cloudflareinsights.com requests.

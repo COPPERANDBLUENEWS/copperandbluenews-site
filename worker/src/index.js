@@ -3,6 +3,7 @@
 //   POST /unsubscribe  {endpoint}                               (browser, CORS)
 //   POST /notify       {id?, type, title, body, url, to?, alt?}       Authorization: Bearer NOTIFY_SECRET (GitHub Actions; to = one subscriber id)
 //   GET  /export       sign-up list as CSV                      Authorization: Bearer ADMIN_SECRET (Mac)
+//   GET  /stats?hours=24  subscriber counts + alerts sent (JSON)  Authorization: Bearer ADMIN_SECRET (morning report)
 //   GET  /health
 // Fan-out: with the PUSH_QUEUE binding, /notify enqueues batches of subscribers and the queue consumer
 // sends them (each consumer run gets its own subrequest budget, so this scales on the Free plan's
@@ -132,6 +133,7 @@ async function notify(req, env, ctx) {
     const cap = env.INLINE_LIMIT ? +env.INLINE_LIMIT : INLINE_MAX;
     const list = subs.slice(0, cap);
     const stats = await deliver(env, list, payload);
+    if (list.length) ctx.waitUntil(store.recordSend(env, id, payload.type, stats, list.length).catch(() => {}));
     out = {ok: true, recipients: subs.length, ...stats, ...(subs.length > list.length ? {skipped: subs.length - list.length, hint: "add the PUSH_QUEUE binding"} : {})};
   }
   if (id) ctx.waitUntil(store.markEvent(env, id, {type: b.type, title: payload.title, at: nowIso(), recipients: subs.length}));
@@ -151,6 +153,24 @@ async function exportCsv(req, env) {
   const csv = [cols.join(","), ...rows.map(r => cols.map(c => csvCell(r[c])).join(","))].join("\r\n") + "\r\n";
   return new Response(csv, {headers: {"Content-Type": "text/csv; charset=utf-8", "Cache-Control": "no-store",
     "Content-Disposition": `attachment; filename="cbn-alerts-signups-${new Date().toISOString().slice(0, 10)}.csv"`}});
+}
+
+async function stats(req, env) {
+  if (!(await safeEqual(bearer(req), env.ADMIN_SECRET))) throw new HttpError(401, "unauthorized");
+  const hours = Math.min(Math.max(+(new URL(req.url).searchParams.get("hours")) || 24, 1), 192);
+  const since = Date.now() - hours * 3600e3, sinceIso = new Date(since).toISOString();
+  const [subs, events, sends] = await Promise.all([store.listSubs(env), store.listEvents(env), store.listSends(env)]);
+  const perType = Object.fromEntries(TYPES.map(t => [t, subs.filter(s => s.prefs[t]).length]));
+  const evs = events.filter(e => e.at && e.at >= sinceIso), snd = sends.filter(x => x.ts >= since);
+  const byType = {};
+  for (const e of evs) byType[e.t] = (byType[e.t] || 0) + 1;
+  const sum = k => snd.reduce((a, x) => a + (+x[k] || 0), 0);
+  return {
+    generated_at: nowIso(), hours,
+    subscribers: {total: subs.length, new: subs.filter(s => (s.created_at || "") >= sinceIso).length, per_type: perType},
+    alerts: {events: evs.length, events_by_type: byType, push_attempts: sum("n"), sent: sum("s"), failed: sum("f"),
+      expired_removed: sum("g"), test_sends: snd.filter(x => !x.i).length},
+  };
 }
 
 export default {
@@ -173,6 +193,7 @@ export default {
       }
       if (pathname === "/notify" && req.method === "POST") return json(await notify(req, env, ctx));
       if (pathname === "/export" && req.method === "GET") return await exportCsv(req, env);
+      if (pathname === "/stats" && req.method === "GET") return json(await stats(req, env), 200, {"Cache-Control": "no-store"});
       if (pathname === "/health") return json({ok: true});
       return json({error: "not found"}, 404);
     } catch (e) {
@@ -186,7 +207,9 @@ export default {
   async queue(batch, env) {
     for (const msg of batch.messages) {
       try {
-        const stats = await deliver(env, msg.body.subs || [], msg.body.payload);
+        const subs = msg.body.subs || [], p = msg.body.payload || {};
+        const stats = await deliver(env, subs, p);
+        await store.recordSend(env, p.id, p.type, stats, subs.length).catch(e => console.log("stats write failed", String(e)));
         console.log("queue batch", msg.body.payload && msg.body.payload.id, JSON.stringify(stats));
       } catch (e) { console.log("queue error", String(e)); }
       msg.ack(); // never retry a batch: a retry would re-send to everyone who already got the alert

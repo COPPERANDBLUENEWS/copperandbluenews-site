@@ -78,7 +78,8 @@ self.addEventListener("fetch", event => {
   if (FONT_HOSTS.includes(u.hostname)) return event.respondWith(cacheFirst(event));
   // Everything else cross-origin is NOT handled here, so it always goes straight to the network and is never
   // cached by this worker: the Instagram feed (feeds.behold.so), its images (behold.pictures, *.cdninstagram.com),
-  // the alerts Worker (*.workers.dev) and NHL assets.
+  // the alerts Worker (*.workers.dev), Cloudflare Web Analytics (static.cloudflareinsights.com beacon
+  // and its cloudflareinsights.com/cdn-cgi/rum reports) and NHL assets.
 });
 
 // ---------- web push ----------

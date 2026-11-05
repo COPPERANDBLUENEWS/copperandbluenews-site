@@ -63,6 +63,13 @@ assert.equal(n.recipients, 3, JSON.stringify(n)); // alive, nogoals, odds (alt b
 await wait(4000);
 assert.equal(hits.filter(h => h.path.endsWith(`odds-${tag}`)).length, 2);
 console.log("odds opt-in + alt body fan-out: ok");
+await wait(2000);
+const st = await (await fetch(W + "/stats?hours=1", {headers: {Authorization: "Bearer local-admin-test"}})).json();
+assert.ok(st.subscribers.total >= 3 && st.subscribers.new >= 3, JSON.stringify(st));
+assert.equal(st.subscribers.per_type.odds, 1, JSON.stringify(st));
+assert.ok(st.alerts.events >= 3 && st.alerts.push_attempts >= 5 && st.alerts.sent >= 4 && st.alerts.expired_removed >= 1, JSON.stringify(st));
+assert.equal((await fetch(W + "/stats")).status, 401);
+console.log("stats:", JSON.stringify(st.alerts), "ok");
 await post("/unsubscribe", {endpoint: `http://127.0.0.1:9911/odds-${tag}`});
 
 await post("/unsubscribe", {endpoint: `http://127.0.0.1:9911/alive-${tag}`});

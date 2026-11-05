@@ -8,6 +8,7 @@ Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this f
 | `POST /subscribe` | the site (bell panel) | CORS: `https://copperandbluenews.com`, `https://www.copperandbluenews.com` | `{subscription, prefs, email?}` → upsert |
 | `POST /unsubscribe` | the site | same CORS | `{endpoint}` → row deleted |
 | `POST /notify` | GitHub Actions (`scripts/notify_alerts.py`) | `Authorization: Bearer NOTIFY_SECRET` | `{id?, type, title, body, url, to?, alt?}` → web push to everyone who opted into `type` (or only subscriber `to`, an id from `/export`, for a test). `alt: {pref, body}` swaps in `body` for subscribers who also opted into `pref` (used for the live moneyline on period ends, odds subscribers only) |
+| `GET /stats?hours=24` | Mac / morning report (`/workspace/cbn-deploy/site_report.py`) | `Authorization: Bearer ADMIN_SECRET` | → JSON: subscribers (total, new in the window, count per alert type) and alerts sent in the window (events by type, push attempts, delivered, failed, expired subscriptions removed) |
 | `GET /export` | Mac | `Authorization: Bearer ADMIN_SECRET` | all sign-ups as CSV |
 | `GET /health` | anyone | none | `{"ok":true}` |
 
@@ -116,3 +117,11 @@ npm run test:integration                    # subscribe/CORS/notify/dedupe/410 c
 - Test without sending: `python3 scripts/notify_alerts.py --pregame --dry-run --now 2026-11-06T00:00:00Z` prints the payloads.
 Sent ids are kept in the Actions cache and again in KV, so nothing is sent twice. Alerts follow the site's data, so
 they arrive about 2-4 minutes after the moment on the ice.
+
+## Send stats (KV)
+
+Each delivery batch (one queue message of up to 40 subscribers, or one inline send) writes one key
+`snd:<ms>:<rand>` with metadata `{i: event id, t: type, n: attempts, s: sent, g: gone, f: failed}`, kept 8 days.
+`evt:<id>` keys carry `{t, at, r}` metadata. `/stats` only uses `list()` (no per-key reads). That's one extra
+KV write per batch, so a full game night (~30 events) is ~30 writes with today's list size, well inside the
+Free plan's 1,000 writes/day.
