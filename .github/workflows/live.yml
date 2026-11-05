@@ -29,6 +29,8 @@ jobs:
     timeout-minutes: 10
     outputs:
       live: ${{ steps.data.outputs.live }}
+    env:
+      ALERTS_ON: ${{ secrets.WORKER_URL != '' && secrets.NOTIFY_SECRET != '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -38,13 +40,43 @@ jobs:
         env:
           LIVE_RUN: "1"
           FORCE_LIVE: ${{ inputs.force && '1' || '0' }}
+      # Game alerts (web push via worker/, see worker/README.md). Off until the WORKER_URL and
+      # NOTIFY_SECRET repo secrets exist. Sent event ids carry over between runs in the Actions cache.
+      - name: Restore sent-alerts state
+        if: env.ALERTS_ON == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cbn-alerts
+          key: cbn-alerts-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: cbn-alerts-
+      # puck drop, goals, period ends, final (runs even when live=0 so the final is caught)
+      - name: Game alerts (game)
+        id: game_alerts
+        if: env.ALERTS_ON == 'true'
+        run: python3 scripts/notify_alerts.py --game || true
+        env:
+          WORKER_URL: ${{ secrets.WORKER_URL }}
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
       # Flip the lineup to "Confirmed (official)" as soon as the NHL game sheet has it (deployed, not committed).
       - if: steps.data.outputs.live == '1'
         run: python3 scripts/update_lineup.py || true
+      - name: Game alerts (lineup)
+        id: lineup_alerts
+        if: env.ALERTS_ON == 'true' && steps.data.outputs.live == '1'
+        run: python3 scripts/notify_alerts.py --lineup || true
+        env:
+          WORKER_URL: ${{ secrets.WORKER_URL }}
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
+      - name: Save sent-alerts state
+        if: always() && env.ALERTS_ON == 'true' && (steps.game_alerts.outputs.changed == '1' || steps.lineup_alerts.outputs.changed == '1')
+        uses: actions/cache/save@v4
+        with:
+          path: ~/.cbn-alerts
+          key: cbn-alerts-${{ github.run_id }}-${{ github.run_attempt }}
       - if: steps.data.outputs.live == '1'
         run: python3 scripts/update_fantasy.py --outlook || true  # picks up the final box score
       - if: steps.data.outputs.live == '1'
-        run: rsync -a --exclude .git --exclude .github --exclude scripts --exclude screenshots --exclude README.md ./ _site/
+        run: rsync -a --exclude .git --exclude .github --exclude scripts --exclude screenshots --exclude README.md --exclude worker ./ _site/
       - if: steps.data.outputs.live == '1'
         uses: actions/upload-pages-artifact@v3
   deploy:

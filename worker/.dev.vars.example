@@ -1,0 +1,8 @@
+# Copy to .dev.vars for `wrangler dev` (git-ignored). Never commit real values.
+VAPID_PRIVATE_KEY="<privateKey from the VAPID key file>"
+NOTIFY_SECRET="local-notify-test"
+ADMIN_SECRET="local-admin-test"
+# Lets a local copy of the site (python3 -m http.server 8000) call the Worker.
+EXTRA_ORIGINS="http://localhost:8000"
+# Local testing only: accept any push endpoint host (for a mock push server).
+# ALLOW_ANY_PUSH_HOST="1"

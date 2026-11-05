@@ -1,0 +1,31 @@
+# Cloudflare Worker for The Copper & Blue News Game alerts. See README.md for the exact deploy steps.
+name = "cbn-alerts"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
+
+[vars]
+# Public half of the VAPID keypair; must match VAPID_PUBLIC_KEY in ../js/config.js.
+VAPID_PUBLIC_KEY = "BKZoaKWaPmx65jY1P9Jpm5O5CbBnsMq4l1DPUob_pHIxkaJGqBP3uywE0H-RUvl3yWqoSt_F5PNYkyJ7g9OMFmY"
+# Contact for push services (a mailto: address or the site URL).
+VAPID_SUBJECT = "https://copperandbluenews.com"   # or "mailto:you@example.com"
+# Secrets (NOT here): wrangler secret put VAPID_PRIVATE_KEY / NOTIFY_SECRET / ADMIN_SECRET
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cbn-alerts"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"   # printed by: npx wrangler d1 create cbn-alerts
+
+# Fan-out queue (Queues is on the Workers Free plan). Remove both blocks to send inline instead
+# (inline is capped at 45 pushes per alert on the Free plan).
+[[queues.producers]]
+binding = "PUSH_QUEUE"
+queue = "cbn-push"
+
+[[queues.consumers]]
+queue = "cbn-push"
+max_batch_size = 1
+max_retries = 0
+
+[observability]
+enabled = true

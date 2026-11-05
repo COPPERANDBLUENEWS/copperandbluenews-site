@@ -45,7 +45,7 @@ jobs:
         env:
           LIVE_RUN: "1"
       - name: Assemble site
-        run: rsync -a --exclude .git --exclude .github --exclude scripts --exclude screenshots --exclude README.md ./ _site/
+        run: rsync -a --exclude .git --exclude .github --exclude scripts --exclude screenshots --exclude README.md --exclude worker ./ _site/
       - uses: actions/upload-pages-artifact@v3
       - id: deploy
         uses: actions/deploy-pages@v4

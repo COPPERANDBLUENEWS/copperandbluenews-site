@@ -96,6 +96,10 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
 - `js/config.js`: `WORKER_URL` (empty = "Alerts coming soon", nothing is sent) and the public `VAPID_PUBLIC_KEY`.
   The VAPID private key is never in this repo; it goes into the Worker as a secret (see `worker/README.md`).
 - `privacy.html`: what alerts collect (push subscription, alert prefs, optional name/email) and how to unsubscribe/delete.
+- Game alerts backend: `worker/` (Cloudflare Worker + D1 + Queue; see `worker/README.md`, not deployed by Actions).
+  `scripts/notify_alerts.py` runs in `live.yml` (puck drop, goals, period ends, final) and `live.yml`/`lineup.yml`
+  (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
+  `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in D1, so nothing is sent twice.
 - Cache-bust: CSS/JS URLs use `?v=16`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 
 ## Cap & contracts (manual, sources: public reports)

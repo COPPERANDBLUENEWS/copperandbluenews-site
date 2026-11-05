@@ -1,0 +1,15 @@
+{
+  "name": "cbn-alerts",
+  "private": true,
+  "description": "Game alerts (web push) Worker for The Copper & Blue News",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init": "wrangler d1 execute cbn-alerts --remote --file=schema.sql",
+    "test": "node test/webpush.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
