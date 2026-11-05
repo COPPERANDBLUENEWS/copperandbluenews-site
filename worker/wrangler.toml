@@ -11,10 +11,9 @@ VAPID_PUBLIC_KEY = "BKZoaKWaPmx65jY1P9Jpm5O5CbBnsMq4l1DPUob_pHIxkaJGqBP3uywE0H-R
 VAPID_SUBJECT = "https://copperandbluenews.com"   # or "mailto:you@example.com"
 # Secrets (NOT here): wrangler secret put VAPID_PRIVATE_KEY / NOTIFY_SECRET / ADMIN_SECRET
 
-[[d1_databases]]
-binding = "DB"
-database_name = "cbn-alerts"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"   # printed by: npx wrangler d1 create cbn-alerts
+[[kv_namespaces]]
+binding = "ALERTS_KV"
+id = "bd357294d6cb41389f990ce6ad9cd242"   # printed by: npx wrangler kv namespace create cbn-alerts
 
 # Fan-out queue (Queues is on the Workers Free plan). Remove both blocks to send inline instead
 # (inline is capped at 45 pushes per alert on the Free plan).

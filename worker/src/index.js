@@ -1,15 +1,16 @@
-// The Copper & Blue News: Game alerts Worker (Cloudflare Workers + D1 [+ Queues]).
+// The Copper & Blue News: Game alerts Worker (Cloudflare Workers + Workers KV [+ Queues]).
 //   POST /subscribe    {subscription, prefs, email?}            (browser, CORS: copperandbluenews.com + www)
 //   POST /unsubscribe  {endpoint}                               (browser, CORS)
-//   POST /notify       {id?, type, title, body, url}            Authorization: Bearer NOTIFY_SECRET (GitHub Actions)
+//   POST /notify       {id?, type, title, body, url, to?}       Authorization: Bearer NOTIFY_SECRET (GitHub Actions; to = one subscriber id)
 //   GET  /export       sign-up list as CSV                      Authorization: Bearer ADMIN_SECRET (Mac)
 //   GET  /health
 // Fan-out: with the PUSH_QUEUE binding, /notify enqueues batches of subscribers and the queue consumer
 // sends them (each consumer run gets its own subrequest budget, so this scales on the Free plan's
 // 50-subrequest limit). Without the binding it sends inline (fine for small lists or Workers Paid).
 import {sendPush} from "./webpush.js";
+import * as store from "./store.js";
 
-const TYPES = ["puck_drop", "goal", "period_end", "final", "lineup"]; // == D1 column names (whitelist)
+const TYPES = store.TYPES; // puck_drop, goal, period_end, final, lineup
 const ORIGINS = ["https://copperandbluenews.com", "https://www.copperandbluenews.com"];
 // Known browser push services. Anything else is refused so the Worker can't be used to POST to arbitrary URLs.
 const PUSH_HOSTS = [/(^|\.)fcm\.googleapis\.com$/, /(^|\.)android\.googleapis\.com$/, /(^|\.)push\.services\.mozilla\.com$/,
@@ -66,20 +67,14 @@ async function subscribe(req, env) {
   if (!isB64u(keys.p256dh, 86) || !isB64u(keys.auth, 22)) throw new HttpError(400, "bad subscription keys");
   const prefs = Object.fromEntries(TYPES.map(t => [t, b.prefs && typeof b.prefs[t] === "boolean" ? b.prefs[t] : true]));
   let email = typeof b.email === "string" ? b.email.replace(/[\u0000-\u001f\u007f<>]/g, "").trim().slice(0, 120) : "";
-  const id = await subId(endpoint), t = nowIso();
-  await env.DB.prepare(
-    `INSERT INTO subscribers (id, endpoint, p256dh, auth, email, ${TYPES.join(", ")}, created_at, updated_at)
-     VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?11)
-     ON CONFLICT(id) DO UPDATE SET p256dh = excluded.p256dh, auth = excluded.auth, email = excluded.email,
-       ${TYPES.map(c => `${c} = excluded.${c}`).join(", ")}, updated_at = excluded.updated_at, fail_count = 0`
-  ).bind(id, endpoint, keys.p256dh, keys.auth, email || null, ...TYPES.map(k => prefs[k] ? 1 : 0), t).run();
+  await store.putSub(env, await subId(endpoint), {endpoint, p256dh: keys.p256dh, auth: keys.auth, email: email || null, prefs}, nowIso());
   return {ok: true, prefs};
 }
 
 async function unsubscribe(req, env) {
   const b = await readJson(req);
   if (typeof b.endpoint !== "string" || b.endpoint.length > 1024) throw new HttpError(400, "endpoint required");
-  await env.DB.prepare("DELETE FROM subscribers WHERE id = ?1").bind(await subId(b.endpoint)).run();
+  await store.deleteSub(env, await subId(b.endpoint));
   return {ok: true}; // same answer whether or not it existed
 }
 
@@ -103,9 +98,7 @@ async function deliver(env, subs, payload) {
       } catch (e) { stats.failed++; console.log("push error", String(e)); }
     }));
   }
-  if (dead.length) {
-    await env.DB.batch(dead.map(id => env.DB.prepare("DELETE FROM subscribers WHERE id = ?1").bind(id)));
-  }
+  for (const id of dead) await store.deleteSub(env, id);
   return stats;
 }
 
@@ -118,11 +111,13 @@ async function notify(req, env, ctx) {
   const url = typeof b.url === "string" && b.url.startsWith("/") && !b.url.startsWith("//") ? b.url.slice(0, 300) : "/tracker.html";
   const payload = {type: b.type, title: b.title.slice(0, 120), body: typeof b.body === "string" ? b.body.slice(0, 300) : "", url, id, ts: Date.now()};
   if (id) { // never fan out the same event twice
-    const r = await env.DB.prepare("INSERT OR IGNORE INTO sent_events (id, type, title, created_at) VALUES (?1, ?2, ?3, ?4)")
-      .bind(id, b.type, payload.title, nowIso()).run();
-    if (!r.meta.changes) return {ok: true, duplicate: true};
+    if (await store.eventSeen(env, id)) return {ok: true, duplicate: true};
+    await store.markEvent(env, id, {type: b.type, title: payload.title, at: nowIso()});
   }
-  const {results: subs} = await env.DB.prepare(`SELECT id, endpoint, p256dh, auth FROM subscribers WHERE ${b.type} = 1`).all();
+  // Optional "to": one subscriber id (from /export) gets the alert, e.g. a test to your own device.
+  const only = typeof b.to === "string" && b.to ? b.to : null;
+  const pool = only ? [await store.getSub(env, only)].filter(Boolean) : await store.listSubs(env);
+  const subs = pool.filter(s => only || s.prefs[b.type]).map(({id, endpoint, p256dh, auth}) => ({id, endpoint, p256dh, auth}));
   let out;
   if (env.PUSH_QUEUE && subs.length) {
     const msgs = [];
@@ -135,7 +130,7 @@ async function notify(req, env, ctx) {
     const stats = await deliver(env, list, payload);
     out = {ok: true, recipients: subs.length, ...stats, ...(subs.length > list.length ? {skipped: subs.length - list.length, hint: "add the PUSH_QUEUE binding"} : {})};
   }
-  if (id) ctx.waitUntil(env.DB.prepare("UPDATE sent_events SET recipients = ?2 WHERE id = ?1").bind(id, subs.length).run());
+  if (id) ctx.waitUntil(store.markEvent(env, id, {type: b.type, title: payload.title, at: nowIso(), recipients: subs.length}));
   return out;
 }
 
@@ -147,8 +142,9 @@ const csvCell = v => {
 async function exportCsv(req, env) {
   if (!(await safeEqual(bearer(req), env.ADMIN_SECRET))) throw new HttpError(401, "unauthorized");
   const cols = ["id", "email", ...TYPES, "created_at", "updated_at", "endpoint", "p256dh", "auth"];
-  const {results} = await env.DB.prepare(`SELECT ${cols.join(", ")} FROM subscribers ORDER BY created_at`).all();
-  const csv = [cols.join(","), ...results.map(r => cols.map(c => csvCell(r[c])).join(","))].join("\r\n") + "\r\n";
+  const rows = (await store.listSubs(env)).sort((a, b) => (a.created_at || "").localeCompare(b.created_at || ""))
+    .map(r => ({...r, ...Object.fromEntries(TYPES.map(t => [t, r.prefs[t] ? 1 : 0]))}));
+  const csv = [cols.join(","), ...rows.map(r => cols.map(c => csvCell(r[c])).join(","))].join("\r\n") + "\r\n";
   return new Response(csv, {headers: {"Content-Type": "text/csv; charset=utf-8", "Cache-Control": "no-store",
     "Content-Disposition": `attachment; filename="cbn-alerts-signups-${new Date().toISOString().slice(0, 10)}.csv"`}});
 }

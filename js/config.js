@@ -4,6 +4,6 @@
 //   bell shows "Alerts coming soon" and nothing is sent anywhere.
 // VAPID_PUBLIC_KEY: the public half of the VAPID keypair (the private half lives only in the Worker's secrets).
 window.CBN_CONFIG = {
-  WORKER_URL: "",
+  WORKER_URL: "https://cbn-alerts.copperandbluenews.workers.dev",
   VAPID_PUBLIC_KEY: "BKZoaKWaPmx65jY1P9Jpm5O5CbBnsMq4l1DPUob_pHIxkaJGqBP3uywE0H-RUvl3yWqoSt_F5PNYkyJ7g9OMFmY"
 };

@@ -15,7 +15,7 @@ Cloudflare Worker (worker/, see worker/README.md):  POST $WORKER_URL/notify
 No-op (exit 0, nothing sent) if WORKER_URL or NOTIFY_SECRET is missing.
 No duplicates: every event has a stable id (<gameId>:goal:<eventId> etc). Ids that were sent
 are kept in $ALERTS_STATE (default ~/.cbn-alerts/sent.json, carried between Actions runs with
-actions/cache), and the Worker also refuses an id it has already fanned out (D1 sent_events),
+actions/cache), and the Worker also refuses an id it has already fanned out (KV evt:<id>),
 so a lost cache can't cause repeats. Only games that started in the last 8 h are considered.
 On a game's first sighting with a backlog (e.g. secrets added mid-game) only the newest event
 of each kind is sent and the rest are marked as seen. Always exits 0 so the pipeline keeps going.

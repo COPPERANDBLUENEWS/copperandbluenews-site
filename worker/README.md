@@ -1,4 +1,4 @@
-# Game alerts Worker (Cloudflare)
+# Game alerts Worker (Cloudflare Workers + KV + Queues)
 
 Stores Game alerts sign-ups and sends web push for **The Copper & Blue News** (copperandbluenews.com).
 Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this folder.
@@ -7,16 +7,21 @@ Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this f
 |---|---|---|---|
 | `POST /subscribe` | the site (bell panel) | CORS: `https://copperandbluenews.com`, `https://www.copperandbluenews.com` | `{subscription, prefs, email?}` → upsert |
 | `POST /unsubscribe` | the site | same CORS | `{endpoint}` → row deleted |
-| `POST /notify` | GitHub Actions (`scripts/notify_alerts.py`) | `Authorization: Bearer NOTIFY_SECRET` | `{id?, type, title, body, url}` → web push to everyone who opted into `type` |
+| `POST /notify` | GitHub Actions (`scripts/notify_alerts.py`) | `Authorization: Bearer NOTIFY_SECRET` | `{id?, type, title, body, url, to?}` → web push to everyone who opted into `type` (or only subscriber `to`, an id from `/export`, for a test) |
 | `GET /export` | Mac | `Authorization: Bearer ADMIN_SECRET` | all sign-ups as CSV |
 | `GET /health` | anyone | none | `{"ok":true}` |
 
 - `type` is one of `puck_drop`, `goal`, `period_end`, `final`, `lineup` (same keys as the panel's checkboxes).
-- `id` (e.g. `2026020260:goal:211`) is stored in D1 `sent_events`; a repeated id returns `{"duplicate":true}`
-  and nothing is sent, so an event can never go out twice.
+- `id` (e.g. `2026020260:goal:211`) is stored in KV as `evt:<id>` for 45 days; a repeated id returns `{"duplicate":true}`
+  and nothing is sent, so an event never goes out twice.
 - Push: `src/webpush.js` implements RFC 8291 (aes128gcm) + RFC 8292 (VAPID, ES256) with WebCrypto only, no npm
   packages at runtime. Dead subscriptions (push service answers 404/410) are deleted automatically.
-- Storage: D1 (`schema.sql`): `subscribers` (endpoint, keys, optional name/email, 5 pref columns, timestamps) and `sent_events`.
+- Storage: Workers KV (`src/store.js`, binding `ALERTS_KV`). `sub:<id>` = one sign-up (endpoint, keys, optional
+  name/email, prefs, timestamps); the record is also kept in the key's metadata, so fan-out and `/export` page through
+  `list()` with a cursor (1000 keys per call) instead of reading every key. `evt:<id>` = sent event ids.
+  Free-plan KV limits: 100,000 reads, 1,000 writes, 1,000 deletes and 1,000 lists per day. Each sign-up or
+  preference change is 1 write, so more than ~1,000 sign-ups in one day needs Workers Paid ($5/mo).
+  KV is eventually consistent (up to ~60 s); dedupe is also done by the pipeline's own sent-id state.
 - Fan-out: `/notify` puts subscribers in batches of 40 on the `cbn-push` Queue; the queue consumer sends them. Each
   consumer run has its own subrequest budget, so this works on the **Workers Free** plan (50 outgoing requests per
   invocation; Queues has 10,000 free operations/day = ~3 per batch of 40, so roughly 130k pushes/day). Without the
@@ -33,9 +38,8 @@ cd worker
 npm install
 npx wrangler login                                   # opens Cloudflare in the browser
 
-# 1. Database
-npx wrangler d1 create cbn-alerts                    # copy the printed database_id into wrangler.toml
-npx wrangler d1 execute cbn-alerts --remote --file=schema.sql
+# 1. Storage
+npx wrangler kv namespace create cbn-alerts          # copy the printed id into wrangler.toml [[kv_namespaces]]
 
 # 2. Fan-out queue (free)
 npx wrangler queues create cbn-push
@@ -88,10 +92,11 @@ Columns: `id, email, puck_drop, goal, period_end, final, lineup, created_at, upd
 ## Local testing
 
 ```bash
-cp .dev.vars.example .dev.vars        # fill in; .dev.vars is git-ignored
-npx wrangler d1 execute cbn-alerts --local --file=schema.sql
-npx wrangler dev                      # http://localhost:8787 (local D1 + local queue)
-npm i --no-save http_ece && npm test  # encryption + VAPID JWT checked against an independent implementation
+npm install
+npm i --no-save http_ece && npm test        # encryption + VAPID JWT checked against an independent implementation
+node test/integration.test.mjs --setup      # writes .dev.vars with a throwaway VAPID key (git-ignored)
+npx wrangler dev --port 8787                # local KV + local queue (other terminal)
+npm run test:integration                    # subscribe/CORS/notify/dedupe/410 cleanup/export/unsubscribe via a mock push service
 ```
 
 ## How alerts are triggered
@@ -101,5 +106,5 @@ npm i --no-save http_ece && npm test  # encryption + VAPID JWT checked against a
   `update_data.py`: puck drop, every goal (both teams; scorer, season total, assists, score, PP/SH/EN), each period
   end with the score, and the final (shootout attempts are not sent; the final says "(SO)").
 - `live.yml` + `lineup.yml`, after `update_lineup.py`: starting goalie confirmed and official lineup confirmed.
-Sent ids are kept in the Actions cache and again in D1, so nothing is sent twice. Alerts follow the site's data, so
+Sent ids are kept in the Actions cache and again in KV, so nothing is sent twice. Alerts follow the site's data, so
 they arrive about 2-4 minutes after the moment on the ice.
