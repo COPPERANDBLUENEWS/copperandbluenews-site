@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-05T13:17:00Z",
+ "updated": "2026-11-05T13:53:03Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (89)"
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers Emerging as Intriguing Landing Spot for Nikita Kucherov",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQam1XeTVzblIzZnlmd09sbDdVS0lrVVNGSVJKNWFpWnFYTURROXBDbWJ4QVNtR1FDUTQ5eTlycmFoY0RxcDhDQnJPMUVlX3RlcVBMT2lfZklfZmh3RzFNR3ZmMC12XzY5Ukgyc0phWEJNM3FEYkRZY1RwWW1CRVFRNG40MjF6ZWx6RkJSQ3V5X3RJMFlueDVB?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-05T13:45:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Ducks vs Oilers, Prediction, Odds & Best Bets Today - NHL, Nov. 5",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORzFQREtQd0pFRFZ0d05ncVdvV2l6QURxMkRnLU9pX2dLQndkQlNIUmlGV0NwWGo1YUJsY0toQjQybUF1MldaakEyR3p1SGwtcEVPMTNVV2x3UU5kdHgwbV9IbnRIOTdhUzF5bnRvTjhXU2t0UDNGREFHa1NxSkRUSmRUUFkzVmU0MGxidkpHMXNwdw?oc=5",
@@ -17,10 +25,10 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers Fans Get Surprising Evander Kane News After Latest Update",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkNxSmdDdkNrbVNmSi1jRUhDdG4wVGhXQzlGZl83eXBrWldtdDgzam9rZ1NQb1FGalN6cWcyVHpxOFAyUm9YdVdoLTlVLXdTd1JQTlBOTjJpbUV0dnMtWHpoNVdsUVBSemlJeFFkUkhCWVBxZ0ZURWhRYjZLLVdwTWZBY2dzeld2bFdDWUh5N0FBdnhRQkNzb3dqWUZiY05xM2RtQklTN1c2dXhNaVFjeDNVVQ?oc=5",
-   "source": "NDTV Sports",
-   "published": "2026-11-05T12:54:31Z",
+   "title": "Can Oilers’ Jake Walman follow Tristan Jarry’s lead and turn it around?",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdjZROFRjLS1Ob0FjZEp4Y2dKejVKS1dUN3ZVcGtXWFctc2JaZ25nUTBZc2xvd0xQOEhpS244MExsc3ZXOXhrMm5BemNCRkp1MDBjd29MaXNzRXp5TG0wU09vakJrVlc0ZWQ4Yk5uWDMwZ3BLLTQ3dzZsVktLT1ZVUnE0dkpvazFjaURfamxRU0dxNGhjU1RfakZlUENXV2Z0X1E?oc=5",
+   "source": "The New York Times",
+   "published": "2026-11-05T12:50:58Z",
    "snippet": "",
    "via": "google"
   },
@@ -41,6 +49,14 @@
    "via": "google"
   },
   {
+   "title": "Edmonton Oilers Fans Get Surprising Evander Kane News After Latest Update",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkNxSmdDdkNrbVNmSi1jRUhDdG4wVGhXQzlGZl83eXBrWldtdDgzam9rZ1NQb1FGalN6cWcyVHpxOFAyUm9YdVdoLTlVLXdTd1JQTlBOTjJpbUV0dnMtWHpoNVdsUVBSemlJeFFkUkhCWVBxZ0ZURWhRYjZLLVdwTWZBY2dzeld2bFdDWUh5N0FBdnhRQkNzb3dqWUZiY05xM2RtQklTN1c2dXhNaVFjeDNVVQ?oc=5",
+   "source": "NDTV Sports",
+   "published": "2026-11-05T11:43:13Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "3 Edmonton Oilers players who could be traded this season",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMVEzV3VoTGJleEJ5cWFFSTlJMFZjbXFRbXJ0aEhORzBJWXRPTEp0SDdTckl4anRaOEptcjhEeXJFeDZmWTlkTU16MUo5Z0x1eFJpRktEdl9kQzdZZ2VfMFROc2MzM0daLXotSmJjWmVTdmxNczhweTFfX0lUeVVjVw?oc=5",
    "source": "Daily Hive",
@@ -53,14 +69,6 @@
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ3NhSTVKRmJYdmhPQ0JHa1dscTJhS1VRcEUydVZHdDVmN1NsamM5RHlMTXRkdmlNdjBsbllWbDJhbGJqdEJvQTczTTlKYXRucTUzdk5WZkxZZ0ZzV2FucTBPSkprSWo2VjFJN2dsTG1xcTlXSXJRWUdqOUw2VURxX1lDcVBlVng4Z1JLc1NXWXN3WFRlZFJZNXhMOUI1VWFLd08zbHVteEF0WjY4U01URXlBLXgwUi01V2Q0?oc=5",
    "source": "Bleacher Nation",
    "published": "2026-11-05T07:16:04Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Ryan Nugent-Hopkins gives emotional reaction to Oilers tribute amid major milestone",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcXVoV0RlZWpabnJUSUlvQUdGZ25zVDR5ajR2T0hvTmVOVUhtM3ZiNnZEaDJPMnNjUXBWTFVseTAzMXk0ank4N1lxU0VLMUJUb2FPWk9TNzQtbE5xbktxUEtZOTkyV0lBX1lLRVI0ZTVfR3pDclNWdFJocUJ3TVRWVEZLY18zN0Eya2RIU291Y0ZDaHk1X2hCeUtISWRPMjZhdDZraklUaw?oc=5",
-   "source": "ClutchPoints",
-   "published": "2026-11-05T04:09:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -85,22 +93,6 @@
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQYVRpaUJGajRqM1EwbU1EZXE0ZEdwMFZIWjBFeG9XV1c0WWtSeDdqUTlJa1N0bzh4Q3FQOGlGTXZkdnA3bFl4anBHaUVUU1FSYTBfOXZ1S19WWXZsN2V3TERnY0EzZFk3SXZnVEdVNG1ib2ZYb3BNb2Z4amR4eFZydmRsbw?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-05T01:45:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Bob Stauffer hints at a coming Oilers addition",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3M1dKN2U5RUREUk1HWGFHbWRJYUc3T2wzZjgtQ0hYbWZ0Q0h4MWp1Zm56bkZ1X2pPTXk1ZlhvYnVQa3ppclNwVFpRT3VscTk2VjExQ05kOGFLNmpQa1FteA?oc=5",
-   "source": "Markerzone.com",
-   "published": "2026-11-05T00:53:17Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Mike Babcock pushes Oilers toward blockbuster trade for NHL’s most notorious tough guy",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ0JZdkNBYndOSjg4WVlXbGsxZjBiQzI4OE16UUhsZWphMlhVenl1U1pscHhCS0FYVV9TcmY3STBRUDNNb2twNHVlc3JrVlpZaTFkc3MzN2NpdncxMVZPUlp4UTA1b252UWRtN1lEUlJfZjRSYWEyM0V5MWZ3d2tTYnFmZHAtZjFTWW5mTGJaYU41SFNXcGNhRVZEMTFYN2pBWlR6X05fT0JVQTdwemNCWWJoV2tfY2VhT2dLcHZ3?oc=5",
-   "source": "HockeyFeed",
-   "published": "2026-11-04T23:08:15Z",
    "snippet": "",
    "via": "google"
   },
@@ -153,6 +145,14 @@
    "via": "google"
   },
   {
+   "title": "Oilers Thoughts: Colton Dach thriving on the wing, goaltending stepping up and more",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORXNxdUx5T3lkcDVhc2tZcUFtM1ozQnQ5d1BSYnJPTEJpN0FjbXFOem9HTVVNcWNpWmNaaGFqSWdSbXFabGJVamJYMnVFTHpUaUk2bUJVaXFYdmprX09WMXVzTTBCMWdMeW5NaE82Qy02YS1TbnVydE5XdDU2YzBYQ2xPOExYX21OaWNwSGFKTE81eFVfbm9Oaw?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-04T21:34:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers notes: Jarry's strong play augmented by strong team defence",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/oilers-notes-jarrys-strong-play-augmented-by-strong-team-defence",
    "source": "Edmonton Journal",
@@ -182,8 +182,8 @@
   },
   {
    "title": "Jack Hughes scores twice for Devils, Hellebuyck wins home debut against Oilers",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026-x6095",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026",
+   "source": "NHL.com",
    "published": "2026-11-04T05:05:00Z",
    "snippet": "NEWARK, N.J. -- Jack Hughes had two goals and an assist for the New Jersey Devils in a 4-3 shootout win against the Edmonton Oilers at Prudential Center on Tuesday."
   },
