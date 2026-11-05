@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T17:30:39Z",
+ "updated": "2026-11-05T17:39:13Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -10,10 +10,11 @@
  "items": [
   {
    "title": "RELEASE: EOCF & Alberta Cancer Foundation bring 'The Time Store' to Rogers Place",
-   "url": "https://www.nhl.com/oilers/news/release-eocf-alberta-cancer-foundation-bring-the-time-store-to-rogers-place",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-05T17:25:26.84Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) has announced an initiative with the Alberta Cancer Foundation to bring The Time Store to Rogers Place for two upcoming…"
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTElseEdvTUVEZ0lmb3hyV2ctelExeFhWSkg3Y2hYMzREVUI5aUVCWmo5N0IzZmxIRERWZDBBMTdBMmdxWjlUWF90aXo3ZFBDRnROVXZTdmZHV1hiOGNDYjRSQVpHV3hwb3FGYzdqNzRmSVpnM0VrbXF1b3k2ZldmVHVqUHVtZlZSM0JSS2RMNmJhbHh4anNOQjI1dE81X3FXZE4zM1JUUVZURkE?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-05T17:33:04Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Puck Picks: Cooley’s Breakout; Carlson’s Power-Play Demotion; An Oilers-Ducks Shootout, and More",
@@ -44,6 +45,14 @@
    "source": "Edmonton Journal",
    "published": "2026-11-05T15:27:53Z",
    "snippet": ""
+  },
+  {
+   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-05T15:20:47Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "20 outstanding things to do in Edmonton this weekend: Nov. 6 to 8",
@@ -158,22 +167,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers x Elks Mic'd Up",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oUE5jSDdPXzNxOVJRWkRHZnVlTl95UGNQeDhJU2RVelEzNFpFeDZZMHFOak55R3lESUExS1VTMXhnWjJWVEM5RV8wMllvOXVLclVULWcwdlBfLXUyYnFsdTE1bld6MllWcjJBR01xOWFzaHNHZUZXZg?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-04T21:51:13Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Unfrozen Part 5: Time traveller is treated to a successful Oilers’ homestand",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcUlscFVLcENOVXZKM3gtWlBTS3FFeWViQ3lXaHZ2dFNSa0hsT0JPNE9ESVNnRHhDQ0JYZVJhMDVHeWZBa2hfYmtoaDhaRDRuSi1MZmhBR2lEV21KTzl5Z21qUnd5bFRYb3U3ZDJrZEZ2OHZTblI0RlZiOUNNd0ozWmdvbV9oWF9POUZCWG9aTFlKbnc?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-04T21:34:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers notes: Jarry's strong play augmented by strong team defence",
    "url": "https://edmontonjournal.com/sports/oilers-notes-jarrys-strong-play-augmented-by-strong-team-defence",
    "source": "Edmonton Journal",
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-03T13:35:05Z",
    "snippet": "'Quinn, I think he's just got to keep building his 200-ft. game so he can play in a bottom-six role when the Oilers need him, and provide depth scoring'"
+  },
+  {
+   "title": "Three ex-Oilers forwards off to strong starts, but not yet departed Edmonton folk hero",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-new-jersey-devils-connor-brown-dylan-holloway-viktor-arvidsson-jack-roslovic",
+   "source": "Edmonton Journal",
+   "published": "2026-11-03T11:01:52Z",
+   "snippet": ""
   }
  ]
 }
