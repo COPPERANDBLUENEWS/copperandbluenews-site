@@ -37,6 +37,9 @@ jobs:
         env:
           LIVE_RUN: "1"
           FORCE_LIVE: ${{ inputs.force && '1' || '0' }}
+      # Flip the lineup to "Confirmed (official)" as soon as the NHL game sheet has it (deployed, not committed).
+      - if: steps.data.outputs.live == '1'
+        run: python3 scripts/update_lineup.py || true
       - if: steps.data.outputs.live == '1'
         run: rsync -a --exclude .git --exclude .github --exclude scripts --exclude screenshots --exclude README.md ./ _site/
       - if: steps.data.outputs.live == '1'

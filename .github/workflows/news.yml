@@ -1,4 +1,5 @@
-# Hourly: Oilers news (data/news.json) + injury report (data/injuries.json) from public feeds.
+# Hourly: Oilers news (data/news.json) + injury report (data/injuries.json) from public feeds,
+# plus the game-day lineup (data/lineup.json, scripts/update_lineup.py; see also lineup.yml).
 # The 15:05 UTC run (~8 AM PT) is the "daily" injury refresh; every hourly run refreshes it too.
 name: News and injuries
 on:
@@ -25,13 +26,14 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: python3 scripts/update_news.py
+      - run: python3 scripts/update_lineup.py || true
       - name: Commit if changed
         run: |
-          git add data/news.json data/injuries.json
+          git add data/news.json data/injuries.json data/lineup.json
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update news and injuries"
+          git commit -m "Update news, injuries and lineup"
           git pull --rebase -X theirs origin main || true
           git push
       - name: Assemble site

@@ -1,0 +1,55 @@
+# Game-day lineup refresh. news.yml already refreshes data/lineup.json hourly at :41;
+# this adds runs at :11 from 3 PM to 8 PM PT (22:00-03:00 UTC; BC is on UTC-7 year-round),
+# so on game days the lineup updates every ~30 min around morning skate -> puck drop -> final.
+# Off game days the script exits right away (GAMEDAY_ONLY=1) and nothing is deployed.
+name: Game-day lineup
+on:
+  schedule:
+    - cron: "11 22,23,0,1,2,3 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: site
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      changed: ${{ steps.lineup.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - id: lineup
+        run: python3 scripts/update_lineup.py
+        env:
+          GAMEDAY_ONLY: ${{ github.event_name == 'schedule' && '1' || '0' }}
+      - name: Commit if changed
+        if: steps.lineup.outputs.changed == '1'
+        run: |
+          git add data/lineup.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update game-day lineup"
+          git pull --rebase -X theirs origin main || true
+          git push
+      - if: steps.lineup.outputs.changed == '1'
+        run: rsync -a --exclude .git --exclude .github --exclude scripts --exclude screenshots --exclude README.md ./ _site/
+      - if: steps.lineup.outputs.changed == '1'
+        uses: actions/upload-pages-artifact@v3
+  deploy:
+    needs: check
+    if: needs.check.outputs.changed == '1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

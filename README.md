@@ -46,6 +46,19 @@ Refresh locally: `python3 scripts/update_data.py`
 Times are shown in MT (America/Edmonton) and PT (America/Vancouver), converted from the API's UTC
 `startTimeUTC`. Check: the Nov 5 Ducks game is `2026-11-06T01:00Z` = 7 PM MT = 6 PM PT.
 
+## Game-Day Lineup (players.html)
+`scripts/update_lineup.py` writes `data/lineup.json` for the Oilers' current or next game (shown at the top of players.html).
+- **Projected:** lines (L-C-R x4), D pairs x3, PP units and injuries from DailyFaceoff's Oilers line combinations page
+  (embedded `__NEXT_DATA__` JSON); starting goalie + Confirmed/Likely/Unconfirmed from DailyFaceoff's starting-goalies page.
+- **Confirmed (official):** once the game starts (or ends) the NHL gamecenter boxscore lists who dressed and the starting goalie.
+  Dressed players replace the projection (DailyFaceoff's combos are kept for those who played; the NHL publishes no lines).
+- Names map to NHL roster ids (sweater number + last name, then full name) so chips link to `player.html?id=...`.
+  Scratches = roster players not in the lineup and not injured.
+- Safety: on a fetch error or failed sanity check (not EDM, too few players, <85% on the current roster, stale >21 days)
+  the last good file is kept. The file is only rewritten when content changes.
+- Schedule: hourly at :41 (news.yml) + 3:11-8:11 PM PT game-day runs (lineup.yml, exits early on non-game days) +
+  every live-loop deploy (live.yml) + site.yml runs.
+
 ## Cap & contracts (manual, sources: public reports)
 The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:
 official NHL.com / EdmontonOilers.com signing releases first, then TSN, Sportsnet, Edmonton Journal, The Athletic, CBC or AP.

@@ -27,6 +27,7 @@ jobs:
         with: { python-version: "3.12" }
       - run: python3 scripts/update_data.py
       - run: python3 scripts/update_news.py || true
+      - run: python3 scripts/update_lineup.py || true
       - name: Commit data if changed
         run: |
           git add data.json data

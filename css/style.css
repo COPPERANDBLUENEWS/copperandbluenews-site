@@ -148,3 +148,25 @@ a.game-row:hover{border-color:var(--copper)}
 .hcard h3{margin:4px 0;font:600 17px/1.3 Inter,sans-serif;text-transform:none;letter-spacing:0;color:var(--text)}
 .hcard p{margin:0 0 6px;font-size:15px;color:#d6deeb}
 .hsrc{font-size:12px;color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--muted)}.hsrc:hover{color:var(--orange)}
+/* Game-Day Lineup (players.html) */
+.lineup{margin:0 0 8px;padding:14px 12px}
+.lhead{display:flex;justify-content:space-between;align-items:center;gap:8px}.lhead h2{margin:0;font-size:1.15rem;color:var(--orange)}
+.lbadge{font:800 11px Inter,sans-serif;text-transform:uppercase;letter-spacing:.07em;padding:4px 9px;border-radius:999px;white-space:nowrap}
+.lbadge.proj{background:#1f3866;color:#ffd7b8;border:1px solid var(--copper)}.lbadge.conf{background:#1f7a46;color:#fff}
+.lmatch{margin:8px 0 4px;display:flex;flex-direction:column;gap:2px}.lmatch b{font:700 1.3rem Oswald,sans-serif;text-transform:uppercase;letter-spacing:.02em}
+.lnext{align-self:flex-start;font:700 10px Inter,sans-serif;text-transform:uppercase;letter-spacing:.08em;background:var(--copper);color:#fff;padding:2px 7px;border-radius:4px}
+.lsub{font-size:.85rem;color:var(--copper);margin:14px 0 6px;letter-spacing:.06em}
+.lrow{display:grid;grid-template-columns:26px repeat(3,minmax(0,1fr));gap:6px;align-items:stretch;margin-bottom:6px}
+.lrow.n2{grid-template-columns:26px repeat(2,minmax(0,1fr))}.lrow.pp{grid-template-columns:26px 1fr}.ppg{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:6px}.ppg>*{grid-column:span 2}.ppg>:nth-child(n+4){grid-column:span 3}
+.llab{align-self:center;font:700 .72rem Oswald,sans-serif;color:var(--muted);text-align:center}
+.lchip{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-width:0;background:#0f2142;border:1px solid var(--line);border-radius:10px;padding:6px 4px;color:var(--text);text-decoration:none;line-height:1.15}
+a.lchip:hover{border-color:var(--copper)}.lchip.empty{color:var(--muted)}
+.lchip .lnum{font:700 .78rem Oswald,sans-serif;color:var(--orange)}.lchip small{font-size:.66rem;color:var(--muted);max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lchip b{font-size:.8rem;max-width:100%;overflow-wrap:anywhere}
+.lrow.pp .lchip small{display:none}
+.gst{margin-top:4px;font:700 9.5px Inter,sans-serif;text-transform:uppercase;letter-spacing:.05em;padding:2px 6px;border-radius:999px;background:#1f3866;color:var(--muted)}
+.gst.ok{background:#1f7a46;color:#fff}.gst.likely{background:#a88a1a;color:#fff}.gst.unc{background:#5a3a22;color:#ffd7b8}
+.lmini{margin:10px 0 0;font-size:.82rem;color:#d6deeb}.lmini a{text-decoration:none}.lmini em{color:var(--muted);font-style:normal}
+.lnote{margin:10px 0 0;font-size:.76rem;color:var(--muted)}
+.lsrc{margin:8px 0 0;font-size:.74rem;color:var(--muted)}.lsrc span{opacity:.8}
+@media(min-width:760px){.lineup{padding:18px}.lchip b{font-size:.92rem}.lrow{gap:8px}}
