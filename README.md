@@ -4,7 +4,7 @@ Static fan site for [@thecopperandbluenews](https://www.instagram.com/thecoppera
 Fan run. Not affiliated with the Edmonton Oilers or the NHL. Don't add official NHL/Oilers logos.
 
 ## Files
-- `index.html`, `schedule.html`, `game.html?id=GAMEID` (box score), `stats.html`, `posts.html`, `about.html`: pages
+- `index.html`, `schedule.html`, `scores.html`, `game.html?id=GAMEID` (box score), `stats.html`, `posts.html`, `about.html`: pages
 - `css/style.css`, `js/main.js`: styles and scripts
 - `posts.json`: the posts feed (newest first by `date`)
 - `data.json`: next game, latest result and standings (generated)
