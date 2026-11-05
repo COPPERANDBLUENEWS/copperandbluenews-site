@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-05T06:11:45Z",
+ "updated": "2026-11-05T06:37:01Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (1)",
+  "Sportsnet (0)",
   "Google News (89)"
  ],
  "errors": [],
@@ -145,13 +145,6 @@
    "via": "google"
   },
   {
-   "title": "‘All about helping the team’: Friedman on Nugent-Hopkins’ impact with Oilers",
-   "url": "https://www.sportsnet.ca/nhl/video/all-about-helping-the-team-friedman-on-nugent-hopkins-impact-with-oilers/",
-   "source": "Sportsnet",
-   "published": "2026-11-04T19:04:30Z",
-   "snippet": "Sportsnet’s Elliotte Friedman joins The FAN Hockey Show and discusses the impact that Ryan Nugent-Hopkins, who is now the Edmonton Oilers’ franchise leader in games played, has had on the…"
-  },
-  {
    "title": "One glaring Oilers weakness: Analyzing Edmonton’s 5-on-5 second period struggles",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeFltblZOLUhRRnp6N0tOZ2ZTSGdkYlRlbkszOHdick52WUFueU52S0tXMktWWVFCRS11OE1KbWNIclIwdjFOUGk2OWRIMEVERG5WLUtwR2s5bm1Xc29UczhUYzFzdUdtTHZNNWxvSmJzQ0hyLXZYa19KQ3pBT0FkWTExOFVNM2lHNEUtYlpGMm1DdW1na1p3VGs1aw?oc=5",
    "source": "Oilers Nation",
@@ -175,8 +168,8 @@
   },
   {
    "title": "Jack Hughes scores twice for Devils, Hellebuyck wins home debut against Oilers",
-   "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026-x6095",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-04T05:05:00Z",
    "snippet": "NEWARK, N.J. -- Jack Hughes had two goals and an assist for the New Jersey Devils in a 4-3 shootout win against the Edmonton Oilers at Prudential Center on Tuesday."
   },
@@ -277,6 +270,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-03T04:25:48.23Z",
    "snippet": "Ryan Nugent-Hopkins will set a new franchise record with his 1,038th game played for the Edmonton Oilers as they look to make it eight straight road wins on Tuesday against the New Jersey…"
+  },
+  {
+   "title": "Oilers notebook: Nugent-Hopkins set to surpass Lowe to become team's all-time games leader",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-ryan-nugent-hopkins-nhl-games-kevin-lowe",
+   "source": "Edmonton Journal",
+   "published": "2026-11-02T21:59:34Z",
+   "snippet": "'He’s been a solid player and a fan favourite since he arrived,' Kevin Lowe speaks on Ryan Nugent-Hopkins"
   }
  ]
 }
