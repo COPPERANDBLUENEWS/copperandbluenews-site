@@ -10,6 +10,9 @@ Sources (standard library only):
 Safety: on any fetch/parse failure, or if the data fails sanity checks (wrong team,
 too few players, not the current roster), the last good file is kept untouched.
 The file is only rewritten when the lineup content changes (keeps commits quiet).
+Opponent ("Game Day Matchup"): the same DailyFaceoff lines/pairs/goalie for the other team, mapped to NHL
+player ids with the NHL roster API, under the "opponent" key. If that part fails, the EDM lineup is still
+written and the previous opponent block is kept only when it's for the same game (otherwise left out).
 Set GAMEDAY_ONLY=1 to exit immediately unless an Oilers game is today (PT).
 Prints changed=1|0 to $GITHUB_OUTPUT. Always exits 0 so workflows keep going.
 """
@@ -19,7 +22,8 @@ from zoneinfo import ZoneInfo
 
 API = "https://api-web.nhle.com/v1"
 SEASON = os.environ.get("SEASON", "20262027")
-DFO_LINES = "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations"
+DFO_TEAM = "https://www.dailyfaceoff.com/teams/{slug}/line-combinations"
+DFO_LINES = DFO_TEAM.format(slug="edmonton-oilers")
 DFO_GOALIES = "https://www.dailyfaceoff.com/starting-goalies/{date}"
 PT = ZoneInfo("America/Vancouver")
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -27,6 +31,15 @@ OUT = ROOT / "data" / "lineup.json"
 SLOT = {"lw": "LW", "c": "C", "rw": "RW", "ld": "LD", "rd": "RD"}
 UA = "Mozilla/5.0 (compatible; copperandbluenews.com lineup bot; fan site)"
 STARTED = ("LIVE", "CRIT", "OFF", "FINAL")
+# NHL abbrev -> DailyFaceoff team slug (all 32 checked against DailyFaceoff's teamAbbreviation, Nov 2026).
+SLUGS = {"ANA": "anaheim-ducks", "BOS": "boston-bruins", "BUF": "buffalo-sabres", "CGY": "calgary-flames",
+ "CAR": "carolina-hurricanes", "CHI": "chicago-blackhawks", "COL": "colorado-avalanche", "CBJ": "columbus-blue-jackets",
+ "DAL": "dallas-stars", "DET": "detroit-red-wings", "EDM": "edmonton-oilers", "FLA": "florida-panthers",
+ "LAK": "los-angeles-kings", "MIN": "minnesota-wild", "MTL": "montreal-canadiens", "NSH": "nashville-predators",
+ "NJD": "new-jersey-devils", "NYI": "new-york-islanders", "NYR": "new-york-rangers", "OTT": "ottawa-senators",
+ "PHI": "philadelphia-flyers", "PIT": "pittsburgh-penguins", "SJS": "san-jose-sharks", "SEA": "seattle-kraken",
+ "STL": "st-louis-blues", "TBL": "tampa-bay-lightning", "TOR": "toronto-maple-leafs", "UTA": "utah-mammoth",
+ "VAN": "vancouver-canucks", "VGK": "vegas-golden-knights", "WSH": "washington-capitals", "WPG": "winnipeg-jets"}
 
 
 def fetch(url, as_json=True):
@@ -74,10 +87,21 @@ def pick_game(now):
 
 
 class Roster:
-    def __init__(self):
-        d = json.loads((ROOT / "data" / "roster.json").read_text())
-        self.players = [{**p, "group": g} for g, lst in d["groups"].items() for p in lst]
+    def __init__(self, players=None):
+        if players is None:
+            d = json.loads((ROOT / "data" / "roster.json").read_text())
+            players = [{**p, "group": g} for g, lst in d["groups"].items() for p in lst]
+        self.players = players
         self.by_id = {p["id"]: p for p in self.players}
+
+    @classmethod
+    def nhl(cls, abbrev):
+        """Another team's current roster from the NHL API (ids + numbers for matching)."""
+        d = fetch(f"{API}/roster/{abbrev}/current")
+        pos = {"L": "LW", "R": "RW", "C": "C", "D": "D", "G": "G"}
+        return cls([{"id": p["id"], "num": p.get("sweaterNumber"), "pos": pos.get(p.get("positionCode"), p.get("positionCode")),
+                     "name": f"{p['firstName']['default']} {p['lastName']['default']}"}
+                    for grp in ("forwards", "defensemen", "goalies") for p in d.get(grp, [])])
 
     def match(self, name, num=None):
         """Map a DailyFaceoff player to the NHL roster: number + last name, then full name, then last name."""
@@ -100,10 +124,10 @@ def chip(roster, name=None, num=None, pid=None, pos=None):
     return {"id": None, "name": name, "num": num, "pos": pos}  # not on the NHL roster file (e.g. call-up)
 
 
-def dfo_lines(roster):
-    c = next_data(DFO_LINES)["combinations"]
-    if c.get("teamAbbreviation") != "EDM":
-        raise ValueError("DailyFaceoff page is not the Oilers: %r" % c.get("teamAbbreviation"))
+def dfo_lines(roster, abbrev="EDM"):
+    c = next_data(DFO_TEAM.format(slug=SLUGS[abbrev]))["combinations"]
+    if c.get("teamAbbreviation") != abbrev:
+        raise ValueError("DailyFaceoff page is not %s: %r" % (abbrev, c.get("teamAbbreviation")))
     groups = {}
     for p in c["players"]:
         groups.setdefault(p["groupIdentifier"], []).append(p)
@@ -119,20 +143,25 @@ def dfo_lines(roster):
             "sourceName": c.get("sourceName"), "sourceRef": c.get("source"), "updatedAt": c.get("updatedAt")}
 
 
-def dfo_goalie(game_date):
-    """(name, 'Confirmed'|'Likely'|'Unconfirmed', news) for EDM from the starting-goalies page."""
-    for g in next_data(DFO_GOALIES.format(date=game_date)).get("data", []):
+_GOALIE_PAGES = {}
+
+
+def dfo_goalie(game_date, abbrev="EDM"):
+    """(name, 'Confirmed'|'Likely'|'Unconfirmed', news) for a team from the starting-goalies page."""
+    if game_date not in _GOALIE_PAGES:
+        _GOALIE_PAGES[game_date] = next_data(DFO_GOALIES.format(date=game_date)).get("data", [])
+    for g in _GOALIE_PAGES[game_date]:
         for side in ("home", "away"):
-            if g.get(f"{side}TeamAbbreviation") == "EDM":
+            if g.get(f"{side}TeamAbbreviation") == abbrev:
                 return (g.get(f"{side}GoalieName"), g.get(f"{side}NewsStrengthName") or "Unconfirmed",
                         g.get(f"{side}NewsDetails"))
     return None
 
 
-def official(gid, roster):
-    """Dressed EDM players from the NHL boxscore (only filled once the game starts)."""
+def official(gid, roster, abbrev="EDM"):
+    """Dressed players for a team from the NHL boxscore (only filled once the game starts)."""
     b = fetch(f"{API}/gamecenter/{gid}/boxscore")
-    side = "homeTeam" if b["homeTeam"]["abbrev"] == "EDM" else "awayTeam"
+    side = "homeTeam" if b["homeTeam"]["abbrev"] == abbrev else "awayTeam"
     t = (b.get("playerByGameStats") or {}).get(side) or {}
     if len(t.get("forwards", [])) < 10 or len(t.get("defense", [])) < 5 or not t.get("goalies"):
         return None
@@ -236,6 +265,67 @@ def build(now):
     except Exception:
         pass
     out["scratches"] = [chip(roster, pid=p["id"]) for p in roster.players if p["id"] not in inl | hurt]
+    try:
+        out["opponent"] = build_opponent(g, now, opp)
+    except Exception as e:
+        print("opponent lineup NOT updated:", e, file=sys.stderr)
+    return out
+
+
+def build_opponent(g, now, opp):
+    """Opponent half of the Game Day Matchup (lines, pairs, goalie, injuries). Raises on bad data."""
+    ab = opp["abbrev"]
+    if ab not in SLUGS:
+        raise ValueError("no DailyFaceoff slug for " + ab)
+    try:
+        roster = Roster.nhl(ab)
+    except Exception as e:
+        print(f"{ab} NHL roster failed (names only):", e, file=sys.stderr)
+        roster = Roster([])
+    lines = dfo_lines(roster, ab)
+    sk = [p for row in lines["forwards"] + lines["defence"] for p in row]
+    if len(sk) < 17 or not lines["goalies"]:
+        raise ValueError(f"{ab} DailyFaceoff lineup failed sanity check ({len(sk)} skaters)")
+    if roster.players and sum(1 for p in sk if p["id"]) < 0.7 * len(sk):
+        raise ValueError(f"{ab} DailyFaceoff lineup doesn't match the NHL roster")
+    if lines["updatedAt"] and now - utc(lines["updatedAt"]) > timedelta(days=21):
+        raise ValueError(f"{ab} DailyFaceoff lines are stale: " + lines["updatedAt"])
+    url = DFO_TEAM.format(slug=SLUGS[ab])
+    out = {"abbrev": ab, "name": (opp.get("commonName") or {}).get("default", ab),
+           "place": (opp.get("placeName") or {}).get("default", ""), "status": "Projected",
+           "forwards": lines["forwards"], "defence": lines["defence"], "injured": lines["injured"], "notes": [],
+           "sources": [{"name": "DailyFaceoff", "url": url, "what": "line combinations",
+                        "basis": lines["sourceName"], "updatedAt": lines["updatedAt"]}]}
+    gs = lines["goalies"]
+    goalie = {"starter": gs[0] if gs else None, "status": "Unconfirmed", "backup": gs[1] if len(gs) > 1 else None, "note": None}
+    start = utc(g["startTimeUTC"])
+    try:
+        sg = dfo_goalie(g.get("gameDate") or start.astimezone(PT).strftime("%Y-%m-%d"), ab)
+        if sg and sg[0]:
+            st = chip(roster, sg[0])
+            if norm(st["name"]) != norm((goalie["starter"] or {}).get("name")):
+                goalie["backup"] = goalie["starter"]
+            goalie.update(starter=st, status=sg[1], note=sg[2])
+            out["sources"].append({"name": "DailyFaceoff", "url": DFO_GOALIES.format(date=g.get("gameDate")), "what": "starting goalie"})
+    except Exception as e:
+        print(f"{ab} starting goalie failed (using lines page):", e, file=sys.stderr)
+    if roster.players and (g.get("gameState") in STARTED or start <= now):
+        try:
+            off = official(g["id"], roster, ab)
+        except Exception as e:
+            off = None
+            print(f"{ab} boxscore failed:", e, file=sys.stderr)
+        if off:
+            out["status"] = "Confirmed"
+            out["forwards"] = arrange(lines["forwards"], off["forwards"], 3)
+            out["defence"] = arrange(lines["defence"], off["defence"], 2)
+            st = next((p for p in off["goalies"] if p["starter"]), off["goalies"][0])
+            bk = next((p for p in off["goalies"] if p["id"] != st["id"]), None)
+            goalie = {"starter": {k: v for k, v in st.items() if k != "starter"}, "status": "Confirmed",
+                      "backup": bk and {k: v for k, v in bk.items() if k != "starter"}, "note": None}
+            out["sources"].insert(0, {"name": "NHL.com Gamecenter", "url": f"https://www.nhl.com/gamecenter/{g['id']}",
+                                      "what": "official dressed lineup"})
+    out["goalie"] = goalie
     return out
 
 
@@ -258,12 +348,16 @@ def main():
     if OUT.exists():
         try: old = json.loads(OUT.read_text())
         except Exception: pass
+    if "opponent" not in new and isinstance(old.get("opponent"), dict) and \
+            (old.get("game") or {}).get("id") == new["game"]["id"]:
+        new["opponent"] = old["opponent"]  # opponent fetch failed this run: keep the last good one for this game
     strip = lambda d: {k: v for k, v in d.items() if k != "updated"}
     if strip(old) == new:
         print("lineup unchanged"); return set_out(False)
     new["updated"] = iso(now)
     OUT.write_text(json.dumps(new, indent=1, ensure_ascii=False))
-    print("lineup written:", new["status"], new["game"]["opponent"]["abbrev"], new["game"]["puckDropPT"])
+    print("lineup written:", new["status"], new["game"]["opponent"]["abbrev"], new["game"]["puckDropPT"],
+          "| opponent:", (new.get("opponent") or {}).get("status", "none"))
     set_out(True)
 
 

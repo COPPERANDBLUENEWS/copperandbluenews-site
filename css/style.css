@@ -249,3 +249,28 @@ html.cbn-lock{overflow:hidden}
 .ob-row:first-of-type{border-top:0}.ob-row span{color:var(--muted);white-space:nowrap}.ob-row b{font:600 .84rem Inter,sans-serif;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
 .ob-rg{margin:6px 0 0;font-size:.72rem;color:var(--muted)}
 .trk-odds{margin:10px 0 4px}.trk-odds .odds-box{margin-top:0}
+/* ---------- Game Day Matchup (players.html + tracker pre-game) ---------- */
+.matchup{margin:0 0 8px;padding:14px 12px}.matchup[hidden]{display:none}
+.mu-vs{font:700 .9rem Oswald,sans-serif;letter-spacing:.04em;color:var(--muted)}
+.mu-when{margin:4px 0 8px}
+.mu-tabs{display:flex;gap:6px;margin:6px 0 10px}
+.mu-tabs button{flex:1;font:600 .8rem Inter,sans-serif;color:var(--text);background:#0f2142;border:1px solid var(--line);border-radius:999px;padding:7px 6px;cursor:pointer}
+.mu-tabs button.on{background:rgb(230,120,50);border-color:rgb(230,120,50);color:#fff}
+.mu-r{display:grid;grid-template-columns:24px repeat(2,minmax(0,1fr));gap:6px;align-items:stretch;margin-bottom:6px}
+.mu.one .mu-r,.mu.v-edm .mu-r,.mu.v-opp .mu-r{grid-template-columns:24px minmax(0,1fr)}
+.mu.v-edm .opp,.mu.v-opp .edm{display:none}
+.mu-l{font:700 .74rem Oswald,sans-serif;color:var(--muted);align-self:center;text-align:center}
+.mu-th{display:flex;flex-wrap:wrap;align-items:center;gap:4px 6px;font:700 .95rem Oswald,sans-serif;text-transform:uppercase;letter-spacing:.03em;padding:2px 2px 0}
+.mu-th .lbadge{font-size:9.5px;padding:3px 7px}.mu-ab{color:var(--muted);font-size:.8rem}
+.mu-th.edm b{color:rgb(230,120,50)}
+.mu-c{display:flex;flex-direction:column;gap:2px;background:#0f2142;border:1px solid var(--line);border-radius:10px;padding:6px 8px;min-width:0}
+.mu-c.edm{border-left:3px solid rgb(230,120,50)}.mu-c.opp{border-left:3px solid #8aa0c8}
+.mu-p{display:block;font-size:.84rem;font-weight:600;color:var(--text);text-decoration:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mu-p i{font:normal 700 .72rem Oswald,sans-serif;color:var(--orange);display:inline-block;min-width:2.3em}
+a.mu-p:hover{color:rgb(230,120,50)}.mu-p.empty{color:var(--muted)}
+.mu-r.g .gst{align-self:flex-start;margin-top:3px}.mu-bk{font-size:.72rem;color:var(--muted);margin-top:2px}
+.mu-out{font-size:.76rem;color:var(--muted)}
+.matchup .lsrc{margin-top:8px}
+.trk-matchup{margin:10px 0 4px}
+@media(min-width:760px){.matchup{padding:18px}.mu-tabs{display:none}.mu.v-edm .mu-r,.mu.v-opp .mu-r{grid-template-columns:24px repeat(2,minmax(0,1fr))}
+  .mu.v-edm .opp,.mu.v-opp .edm{display:flex}.mu.v-edm .mu-th.opp,.mu.v-opp .mu-th.edm{display:flex}.mu-p{font-size:.92rem}}

@@ -302,5 +302,198 @@
    "pos": "D"
   }
  ],
- "updated": "2026-11-05T20:19:23Z"
+ "opponent": {
+  "abbrev": "ANA",
+  "name": "Ducks",
+  "place": "Anaheim",
+  "status": "Projected",
+  "forwards": [
+   [
+    {
+     "id": 8473986,
+     "name": "Alex Killorn",
+     "num": 17,
+     "pos": "LW"
+    },
+    {
+     "id": 8484153,
+     "name": "Leo Carlsson",
+     "num": 91,
+     "pos": "C"
+    },
+    {
+     "id": 8481538,
+     "name": "Judd Caulfield",
+     "num": 28,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
+     "id": 8483445,
+     "name": "Cutter Gauthier",
+     "num": 61,
+     "pos": "LW"
+    },
+    {
+     "id": 8475798,
+     "name": "Mikael Granlund",
+     "num": 64,
+     "pos": "C"
+    },
+    {
+     "id": 8484762,
+     "name": "Beckett Sennecke",
+     "num": 45,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
+     "id": 8484201,
+     "name": "Nico Myatovic",
+     "num": 48,
+     "pos": "LW"
+    },
+    {
+     "id": 8485512,
+     "name": "Tim Washe",
+     "num": 42,
+     "pos": "C"
+    },
+    {
+     "id": 8482118,
+     "name": "Sam Colangelo",
+     "num": 12,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
+     "id": 8482408,
+     "name": "Jeff Malott",
+     "num": 39,
+     "pos": "LW"
+    },
+    {
+     "id": 8485400,
+     "name": "Roger McQueen",
+     "num": 95,
+     "pos": "C"
+    },
+    {
+     "id": 8481754,
+     "name": "Nikita Nesterenko",
+     "num": 13,
+     "pos": "RW"
+    }
+   ]
+  ],
+  "defence": [
+   [
+    {
+     "id": 8481605,
+     "name": "Jackson LaCombe",
+     "num": 2,
+     "pos": "LD"
+    },
+    {
+     "id": 8481563,
+     "name": "Drew Helleson",
+     "num": 14,
+     "pos": "RD"
+    }
+   ],
+   [
+    {
+     "id": 8483490,
+     "name": "Pavel Mintyukov",
+     "num": 98,
+     "pos": "LD"
+    },
+    {
+     "id": 8483521,
+     "name": "Noah Warren",
+     "num": 47,
+     "pos": "RD"
+    }
+   ],
+   [
+    {
+     "id": 8484262,
+     "name": "Travis Mitchell",
+     "num": 34,
+     "pos": "LD"
+    },
+    {
+     "id": 8483482,
+     "name": "Tristan Luneau",
+     "num": 67,
+     "pos": "RD"
+    }
+   ]
+  ],
+  "injured": [
+   {
+    "id": 8478873,
+    "name": "Troy Terry",
+    "num": 19,
+    "pos": "RW",
+    "status": "IR"
+   },
+   {
+    "id": 8482178,
+    "name": "Ian Moore",
+    "num": 3,
+    "pos": "D",
+    "status": "IR"
+   },
+   {
+    "id": 8480068,
+    "name": "Ryan Poehling",
+    "num": 25,
+    "pos": "C",
+    "status": "IR"
+   },
+   {
+    "id": 8478421,
+    "name": "A.J. Greer",
+    "num": 18,
+    "pos": "LW",
+    "status": "IR"
+   }
+  ],
+  "notes": [],
+  "sources": [
+   {
+    "name": "DailyFaceoff",
+    "url": "https://www.dailyfaceoff.com/teams/anaheim-ducks/line-combinations",
+    "what": "line combinations",
+    "basis": "Last Game (2026-11-03)",
+    "updatedAt": "2026-11-04T15:21:43.406Z"
+   },
+   {
+    "name": "DailyFaceoff",
+    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-05",
+    "what": "starting goalie"
+   }
+  ],
+  "goalie": {
+   "starter": {
+    "id": 8476316,
+    "name": "Laurent Brossoit",
+    "num": 31,
+    "pos": "G"
+   },
+   "status": "Likely",
+   "backup": {
+    "id": 8480843,
+    "name": "Lukas Dostal",
+    "num": 1,
+    "pos": "G"
+   },
+   "note": "Brossoit is expected to start in Edmonton on Thursday. "
+  }
+ },
+ "updated": "2026-11-05T21:52:54Z"
 }
