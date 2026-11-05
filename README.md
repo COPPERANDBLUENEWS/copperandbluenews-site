@@ -79,6 +79,8 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   for any finished game. Replay runs in game time (10x-600x), with play/pause, restart and a timeline scrubber (goal
   ticks). URL: `tracker.html?mode=replay&id=GAMEID&t=SECONDS&speed=60&autoplay=0`.
 - Team abbreviations and CSS colours only, no logos. Credits "Data: NHL".
+- `news.yml` and `lineup.yml` run `update_data.py` (LIVE_RUN=1, ~15 s) right before they deploy, so their
+  deploys never put older live score / box score / play-by-play back on the site mid-game.
 
 ## Cap & contracts (manual, sources: public reports)
 The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:

@@ -38,6 +38,13 @@ jobs:
           git commit -m "Update game-day lineup"
           git pull --rebase -X theirs origin main || true
           git push
+      - name: Refresh live game data before deploying
+        if: steps.lineup.outputs.changed == '1'
+        # Without this, a deploy during a game would put the committed (older) live score,
+        # box score and play-by-play back on the site until the live loop redeploys.
+        run: python3 scripts/update_data.py || true
+        env:
+          LIVE_RUN: "1"
       - if: steps.lineup.outputs.changed == '1'
         run: rsync -a --exclude .git --exclude .github --exclude scripts --exclude screenshots --exclude README.md ./ _site/
       - if: steps.lineup.outputs.changed == '1'
