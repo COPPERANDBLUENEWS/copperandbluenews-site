@@ -73,12 +73,12 @@ async function loadGames() {
 }
 async function loadPosts() {
   const feed = $("feed"); if (!feed) return;
-  const posts = (await getJSON("posts.json")).sort((a, b) => b.date.localeCompare(a.date));
+  const posts = (await getJSON("posts.json")).sort((a, b) => (b.pinned ? 1 : 0) - (a.pinned ? 1 : 0) || b.date.localeCompare(a.date));
   const limit = +feed.dataset.limit || posts.length;
   feed.innerHTML = posts.slice(0, limit).map(p => `<article class="post">
     ${p.image ? `<img src="${esc(p.image)}" alt="${esc(p.title)}" loading="lazy">` : ""}
     <div class="pb"><span class="badge ${esc(p.type)}">${esc(p.type === "gameday" ? "Game Day" : p.type)}</span><span class="meta">${new Date(p.date + "T12:00:00").toLocaleDateString("en-US", {weekday: "short", month: "short", day: "numeric", year: "numeric"})}</span>
-    <h3 style="margin-top:10px">${esc(p.title)}</h3><p>${esc(p.caption)}</p></div></article>`).join("");
+    <h3 style="margin-top:10px">${esc(p.title)}</h3><p style="white-space:pre-line">${esc(p.caption)}</p>${p.source ? `<p class="meta">Source: <a href="${esc(p.source.url)}" target="_blank" rel="noopener">${esc(p.source.name)}</a></p>` : ""}${p.link ? `<a class="btn" href="${esc(p.link)}" target="_blank" rel="noopener">View on Instagram</a>` : ""}</div></article>`).join("");
 }
 $("yr").textContent = new Date().getFullYear();
 document.querySelectorAll(".nav nav a").forEach(a => { if (a.getAttribute("href") === (location.pathname.split("/").pop() || "./")) a.classList.add("on"); });
