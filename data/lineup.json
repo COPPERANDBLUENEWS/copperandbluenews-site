@@ -257,16 +257,14 @@
    "status": "Day-to-day"
   }
  ],
- "notes": [
-  "Projection is based on the Last Game (2026-11-03) lineup until morning skate or practice updates."
- ],
+ "notes": [],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Last Game (2026-11-03)",
-   "updatedAt": "2026-11-04T15:06:12.659Z"
+   "basis": "Bob Stauffer",
+   "updatedAt": "2026-11-05T17:14:37.123Z"
   },
   {
    "name": "DailyFaceoff",
@@ -304,5 +302,5 @@
    "pos": "D"
   }
  ],
- "updated": "2026-11-05T05:53:28Z"
+ "updated": "2026-11-05T17:30:39Z"
 }

@@ -1,26 +1,25 @@
 {
- "updated": "2026-11-05T16:41:48Z",
+ "updated": "2026-11-05T17:30:39Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (86)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "RELEASE: EOCF & Alberta Cancer Foundation bring 'The Time Store' to Rogers Place",
+   "url": "https://www.nhl.com/oilers/news/release-eocf-alberta-cancer-foundation-bring-the-time-store-to-rogers-place",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-05T17:25:26.84Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) has announced an initiative with the Alberta Cancer Foundation to bring The Time Store to Rogers Place for two upcoming…"
+  },
   {
    "title": "Puck Picks: Cooley’s Breakout; Carlson’s Power-Play Demotion; An Oilers-Ducks Shootout, and More",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeW5ncGgySDVXZnBmdXlhenJiMEZ5LUUwLVB4eWFNaGtTYU9GR25sX1hqSmJsQVlSd2xLRWs1UGJSV3JXWmNHenYxMWJsdnZoVGx5YUNoRjNFRXVTY2xlNnJZam9NbEZES3VSNnpmNTRfNC1YVzBXWE5NUzZSZ3Jqd1lTOURSU0hTYldQSzlGMnJhY0FxdWxBcmNvZDE1MWlfM0c1VGo2QVRXYnBlVlRCRTZvTXJRWUctV0Zjd3lSSnVGLWM4cHc?oc=5",
    "source": "DobberHockey",
    "published": "2026-11-05T16:39:21Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Connor McDavid, Oilers aim to subdue Cutter Gauthier, Ducks",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc3F4T0hnWVJmS1lBV2hLWXBTUkM1SFBpMXJJUG40Rm1ZbzhSWkxROTF4bXRSc0JKX1FYR0NKcWdMekRXQkU3dkN2b3JRWjZ1NmVtUDk5eU5HTEk2QTVaT2g1Ykt3bmJCMzF5WTBuVkh4dTU1eHk4T0o5Z0lyMkhiMkFPZEJTOXdTSi1zcy1zNVRFYVBKYnhjaHg3ODRiWWlCa1B6NHRNRUlCaGtJSUVacjVtMnJfQQ?oc=5",
-   "source": "Yardbarker",
-   "published": "2026-11-05T16:26:34Z",
    "snippet": "",
    "via": "google"
   },
@@ -45,14 +44,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-05T15:27:53Z",
    "snippet": ""
-  },
-  {
-   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-05T15:20:47Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "20 outstanding things to do in Edmonton this weekend: Nov. 6 to 8",
@@ -95,17 +86,17 @@
    "via": "google"
   },
   {
-   "title": "Pre-Scout: Oilers begin homestand against quack-tastic Ducks power play",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX0N3bkltU2J3TGhJT1BOOGN3ZjRwazgwb0k2YVhrNmI4dEs1WTVPUng2VzBVLTJudGdaQmYwaEdteWFvX1h6bGFhQ3NYd25KZ25aVjRsTTdCTTBhcFZ3Zjg4bkRtYjdnUEYzVHFoTWFVYVJjOXYwQnkzUUJSWC1xWTRUT2lIem9Kb0Zz?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-05T12:00:00Z",
+   "title": "How to buy Edmonton Oilers NHL Hometown Remix jerseys",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdTA0V0YyUEZvWHRHdkNyaVRnSnVCbUh0SDJsb1hkNjZoUlNFc1pSbTAyTTNJVUw5MTFwOUI2NHUxTXZCSjc2WEhwYUVnQXBhbE5fdDl0TWxFZDNfcUp4bnljSHZLRGw4MU5OMXhRazZIcTZwYWxSRUNQME9EcFFYY1ExXzNKLTk4?oc=5",
+   "source": "The Big Lead",
+   "published": "2026-11-05T12:01:24Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "How to buy Edmonton Oilers NHL Hometown Remix jerseys",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaDBfRHk4LUJHZ0pzT1BURmpHclViRWJTYUlLQ0pESnBzVTItVk1BamN0aGllMVhqa215OFZlV05UZkFBcDZwaUNka0VNQTdhdjJQdTRsUlJxc19MVE5NUmZFeGlFZWxSaUdBM0Nmd0hwVS1qOHcxVFNUQTZucDdZcXBadkVPZ0FJOWtUMF8ybnh1NHB3NWc0QXFPbHMtRVE?oc=5",
-   "source": "Yahoo",
+   "title": "Pre-Scout: Oilers begin homestand against quack-tastic Ducks power play",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX0N3bkltU2J3TGhJT1BOOGN3ZjRwazgwb0k2YVhrNmI4dEs1WTVPUng2VzBVLTJudGdaQmYwaEdteWFvX1h6bGFhQ3NYd25KZ25aVjRsTTdCTTBhcFZ3Zjg4bkRtYjdnUEYzVHFoTWFVYVJjOXYwQnkzUUJSWC1xWTRUT2lIem9Kb0Zz?oc=5",
+   "source": "Oilers Nation",
    "published": "2026-11-05T12:00:00Z",
    "snippet": "",
    "via": "google"
@@ -163,6 +154,22 @@
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMVEzV3VoTGJleEJ5cWFFSTlJMFZjbXFRbXJ0aEhORzBJWXRPTEp0SDdTckl4anRaOEptcjhEeXJFeDZmWTlkTU16MUo5Z0x1eFJpRktEdl9kQzdZZ2VfMFROc2MzM0daLXotSmJjWmVTdmxNczhweTFfX0lUeVVjVw?oc=5",
    "source": "Daily Hive",
    "published": "2026-11-04T23:30:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers x Elks Mic'd Up",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oUE5jSDdPXzNxOVJRWkRHZnVlTl95UGNQeDhJU2RVelEzNFpFeDZZMHFOak55R3lESUExS1VTMXhnWjJWVEM5RV8wMllvOXVLclVULWcwdlBfLXUyYnFsdTE1bld6MllWcjJBR01xOWFzaHNHZUZXZg?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-04T21:51:13Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Unfrozen Part 5: Time traveller is treated to a successful Oilers’ homestand",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcUlscFVLcENOVXZKM3gtWlBTS3FFeWViQ3lXaHZ2dFNSa0hsT0JPNE9ESVNnRHhDQ0JYZVJhMDVHeWZBa2hfYmtoaDhaRDRuSi1MZmhBR2lEV21KTzl5Z21qUnd5bFRYb3U3ZDJrZEZ2OHZTblI0RlZiOUNNd0ozWmdvbV9oWF9POUZCWG9aTFlKbnc?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-04T21:34:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-03T13:35:05Z",
    "snippet": "'Quinn, I think he's just got to keep building his 200-ft. game so he can play in a bottom-six role when the Oilers need him, and provide depth scoring'"
-  },
-  {
-   "title": "Three ex-Oilers forwards off to strong starts, but not yet departed Edmonton folk hero",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-new-jersey-devils-connor-brown-dylan-holloway-viktor-arvidsson-jack-roslovic",
-   "source": "Edmonton Journal",
-   "published": "2026-11-03T11:01:52Z",
-   "snippet": ""
   }
  ]
 }
