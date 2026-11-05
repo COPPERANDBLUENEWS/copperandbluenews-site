@@ -38,6 +38,14 @@
   const seasonRows = seasons.map(s => `<tr><td>${seasonFmt(s.season)}</td><td>${esc(s.teamName?.default || "")}</td>${cols.map(c => cell(s, c)).join("")}</tr>`).join("");
   const careerRow = (r, l) => r ? `<tr><td><b>${l}</b></td>${cols.map(c => cell(r, c)).join("")}</tr>` : "";
   const aw = (p.awards || []).length ? `<h2 class="sub">Awards</h2><ul class="awards">${p.awards.map(a => `<li><b>${esc(a.trophy.default)}</b><small>${a.seasons.map(s => seasonFmt(s.seasonId)).join(", ")}</small></li>`).join("")}</ul>` : "";
+  let contract = "";
+  try {
+    const c = await getJSON("data/contracts.json"), r = c.players.find(x => String(x.id) === String(id));
+    const $$ = v => v == null || v === "" ? "—" : "$" + Number(v).toLocaleString("en-US");
+    if (r) contract = `<h2 class="sub">Contract</h2><dl class="facts"><div><dt>Cap hit (AAV)</dt><dd>${$$(r.capHit)}</dd></div><div><dt>2026-27 salary</dt><dd>${$$(r.salary)}</dd></div>
+      <div><dt>Years left</dt><dd>${esc(r.yearsLeft ?? "—")}</dd></div><div><dt>Expires</dt><dd>${esc(r.expiry ?? "—")}${r.status ? " · " + esc(r.status) : ""}</dd></div><div style="grid-column:1/-1"><dt>Clauses</dt><dd>${esc(r.clauses ?? "—")}</dd></div></dl>
+      <p class="meta">Contract data: <a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener">${esc(c.source)}</a>${c.asOf && r.capHit != null ? `, as of ${esc(c.asOf)}` : " (not entered yet)"}. Entered by hand, not updated automatically. <a href="${esc(r.link)}" target="_blank" rel="noopener">Oilers contracts on PuckPedia ↗</a> · <a href="cap.html">Oilers cap →</a></p>`;
+  } catch {}
   root.innerHTML = `<p class="crumb"><a href="players.html">← Players</a></p>
     <div class="phero">${p.heroImage ? `<img class="action" src="${esc(p.heroImage)}" alt="${esc(name)} action shot" onerror="this.remove()">` : ""}
       <div class="pid"><img class="head" src="${esc(p.headshot)}" alt="${esc(name)}" width="96" height="96"><div><span class="num">#${p.sweaterNumber ?? ""} · ${esc(POS[p.position] || p.position)}</span><h1>${esc(name)}</h1></div></div></div>
@@ -48,5 +56,5 @@
     ${l5 ? `<h2 class="sub">Last 5 Games</h2>${tbl(l5h, l5)}` : ""}
     <h2 class="sub">Career Totals</h2>${tbl(`<th></th>${cols.map(c => `<th>${c[0]}</th>`).join("")}`, careerRow(cr, "Regular season") + careerRow(cp, "Playoffs"))}
     ${seasonRows ? `<h2 class="sub">NHL Seasons</h2>${tbl(`<th>Season</th><th>Team</th>${cols.map(c => `<th>${c[0]}</th>`).join("")}`, seasonRows)}` : ""}
-    ${aw}<p class="updated">Source: public NHL API</p>`;
+    ${contract}${aw}<p class="updated">Source: public NHL API</p>`;
 })();

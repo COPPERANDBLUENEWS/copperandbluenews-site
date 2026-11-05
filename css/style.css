@@ -108,3 +108,8 @@ a.game-row:hover{border-color:var(--copper)}
 .statline span{display:flex;flex-direction:column;align-items:center;font-size:.72rem;color:var(--muted)}.statline b{font:700 1.6rem Oswald;color:var(--text)}
 .awards{list-style:none;padding:0;display:grid;gap:8px}.awards li{background:var(--navy2);border:1px solid var(--line);border-radius:10px;padding:10px 12px}.awards small{display:block;color:var(--muted)}
 .phero .action{object-position:50% 20%}
+.subtabs{display:flex;gap:6px;margin:-4px 0 14px}.subtabs a{padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--navy2);color:var(--text);text-decoration:none;font:600 13px Inter}
+.subtabs a.on{background:var(--copper);border-color:var(--copper);color:#fff}
+.cap-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.cap-cards .card:first-child{grid-column:1/-1}
+@media(min-width:760px){.cap-cards{grid-template-columns:repeat(4,1fr)}.cap-cards .card:first-child{grid-column:auto}}
+.capc .big{font-size:1.5rem}

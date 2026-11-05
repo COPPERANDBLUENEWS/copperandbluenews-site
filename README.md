@@ -4,7 +4,7 @@ Static fan site for [@thecopperandbluenews](https://www.instagram.com/thecoppera
 Fan run. Not affiliated with the Edmonton Oilers or the NHL. Don't add official NHL/Oilers logos.
 
 ## Files
-- `index.html`, `schedule.html`, `scores.html`, `players.html`, `player.html?id=PLAYERID`, `game.html?id=GAMEID` (box score), `stats.html`, `posts.html`, `about.html`: pages
+- `index.html`, `schedule.html`, `scores.html`, `players.html`, `cap.html`, `player.html?id=PLAYERID`, `game.html?id=GAMEID` (box score), `stats.html`, `posts.html`, `about.html`: pages
 - `css/style.css`, `js/main.js`: styles and scripts
 - `posts.json`: the posts feed (newest first by `date`)
 - `data.json`: next game, latest result and standings (generated)
@@ -45,6 +45,28 @@ For true real-time (~10 s), a free Cloudflare Worker proxy could relay the NHL A
 Refresh locally: `python3 scripts/update_data.py`
 Times are shown in MT (America/Edmonton) and PT (America/Vancouver), converted from the API's UTC
 `startTimeUTC`. Check: the Nov 5 Ducks game is `2026-11-06T01:00Z` = 7 PM MT = 6 PM PT.
+
+## Cap & contracts (manual, source: PuckPedia)
+The NHL API has no contract data. Mac chose **PuckPedia** (https://puckpedia.com/team/edmonton-oilers) as the source.
+Its robots.txt (checked Nov 4, 2026) blocks this site's bot (`Grokbot` / `xai-crawler`: `Disallow: /`), and its
+terms page returned 403. So nothing is fetched automatically, and the figures are **entered by hand**.
+The site credits "Contract data: PuckPedia" with a link and the as-of date.
+
+`data/contracts.json` holds:
+- **League figures:** the 2026-27 cap ceiling of $104.0M, the $76.9M floor and the $20.8M max salary, from the
+  [NHL.com announcement](https://www.nhl.com/news/nhl-nhlpa-announce-team-payroll-range-for-2026-27-season).
+- **Team and player contract fields:** left blank (`null`) until entered.
+
+To refresh:
+1. `python3 scripts/update_data.py && python3 scripts/make_contracts_template.py`. This adds new roster players
+   and keeps the numbers you already entered.
+2. Open the Oilers page on PuckPedia in your browser. In `data/contracts.json`, fill per player: `capHit`,
+   `salary` (this season), `yearsLeft`, `expiry` (e.g. 2028), `status` (UFA/RFA), `clauses` (e.g. "NMC").
+   For the team, fill `team.capHit`, `team.capSpace`, `team.ltir`, and `team.deadCap` entries
+   (`{"name","type","capHit","through"}`). Then set `asOf` (YYYY-MM-DD). Numbers are plain integers
+   (e.g. 12500000). Leave unknown values as `null`.
+   Check PuckPedia's terms allow showing this data on your site first.
+3. Commit and push. The site redeploys on push.
 
 ## Run locally
 `python3 -m http.server 8000` then open http://localhost:8000
