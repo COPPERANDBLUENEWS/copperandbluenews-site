@@ -274,3 +274,17 @@ a.mu-p:hover{color:rgb(230,120,50)}.mu-p.empty{color:var(--muted)}
 .trk-matchup{margin:10px 0 4px}
 @media(min-width:760px){.matchup{padding:18px}.mu-tabs{display:none}.mu.v-edm .mu-r,.mu.v-opp .mu-r{grid-template-columns:24px repeat(2,minmax(0,1fr))}
   .mu.v-edm .opp,.mu.v-opp .edm{display:flex}.mu.v-edm .mu-th.opp,.mu.v-opp .mu-th.edm{display:flex}.mu-p{font-size:.92rem}}
+.ci-text a{color:rgb(230,120,50);font-weight:600}
+.cs-how{margin:12px 0 0;font-size:.88rem}
+.cs-how a{color:rgb(230,120,50)}
+.how-intro{max-width:42rem}
+.how-sec{margin:28px 0 8px}
+.how-sec h2{font:700 1.4rem Oswald,sans-serif;letter-spacing:.02em;color:var(--orange);margin:0 0 8px}
+.how-note{margin:0 0 14px;color:var(--muted);max-width:42rem}
+.how-steps{display:grid;gap:16px}
+@media(min-width:700px){.how-steps{grid-template-columns:1fr 1fr}}
+.how-step{margin:0;background:var(--navy2);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.how-step img{width:100%;height:auto;display:block;background:#efe4d6}
+.how-step figcaption{padding:12px 14px 16px}
+.how-step h3{margin:0 0 6px;font:700 1.02rem Inter,sans-serif}
+.how-step p{margin:0;color:var(--muted);font-size:.92rem;line-height:1.45}

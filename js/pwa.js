@@ -28,11 +28,12 @@
   let deferred = null, banner = null;
   function showBanner(kind) {
     if (banner || standalone() || ls.get(DISMISS)) return;
+    const how = ` <a href="/install.html">See the steps</a>`;
     const text = kind === "prompt"
-      ? `<b>Install the app</b><span>Live tracker, scores and game alerts, one tap from your home screen.</span>`
+      ? `<b>Install the app</b><span>Live tracker, scores and game alerts, one tap from your home screen.${how}</span>`
       : kind === "inapp"
-        ? `<b>Get the app</b><span>Open this page in Safari (tap ••• then Open in browser), then tap Share then Add to Home Screen.</span>`
-        : `<b>Get the app</b><span>Tap Share <svg class="share-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 12v8h14v-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> then Add to Home Screen.</span>`;
+        ? `<b>Get the app</b><span>Open this page in Safari (tap ••• then Open in browser), then tap Share then Add to Home Screen.${how}</span>`
+        : `<b>Get the app</b><span>Tap Share <svg class="share-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 12v8h14v-8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg> then Add to Home Screen.${how}</span>`;
     banner = el("div", {class: "cbn-install", role: "region", "aria-label": "Install the app"},
       `<img src="/icons/icon-192.png" alt="" width="40" height="40"><div class="ci-text">${text}</div>
        ${kind === "prompt" ? `<button type="button" class="ci-go">Install</button>` : ""}
@@ -85,7 +86,7 @@
         <button type="button" class="cs-x" aria-label="Close">&times;</button>
         <h2 id="alerts-title"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="${BELL}"/></svg> Game alerts</h2>
         ${!WORKER ? `<p class="cs-soon"><b>Alerts coming soon.</b> Sign-up isn't open yet. Check back here shortly.</p>` : ""}
-        ${isIOS ? `<p class="cs-ios${iosBlocked ? " warn" : ""}">On iPhone and iPad, alerts only work after you add this site to your Home Screen (iOS 16.4 or newer): tap Share then Add to Home Screen, open the app from your Home Screen, then turn alerts on here.</p>` : ""}
+        ${isIOS ? `<p class="cs-ios${iosBlocked ? " warn" : ""}">On iPhone and iPad, alerts only work after you add this site to your Home Screen (iOS 16.4 or newer). <a href="/install.html">See step-by-step pictures</a>, then open the app from your Home Screen and turn alerts on here.</p>` : ""}
         <fieldset><legend>Alert me for</legend>
           ${PREFS.map(([k, label]) => `<label class="cs-chk"><input type="checkbox" name="${k}" ${prefs[k] ? "checked" : ""}> <span>${label}</span></label>`).join("")}
         </fieldset>
@@ -98,6 +99,7 @@
         </div>
         <p class="cs-status" role="status" aria-live="polite"></p>
         <button type="button" class="cs-install" hidden>Install the app</button>
+        <p class="cs-how"><a href="/install.html">How to add this as an app</a></p>
       </div>`);
     document.body.appendChild(panel);
     const $p = q => panel.querySelector(q);
