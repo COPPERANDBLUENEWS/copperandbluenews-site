@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T15:23:34Z",
+ "updated": "2026-11-06T15:47:03Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,14 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Ducks withstand Oilers rally despite McDavid’s four-point night",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZjdjM3habnk0QzBYemxnMXp2cXhfVmFtQld5Q3lRNUNPU3RFbUpqV2k4Y0Jza0N1OXpzNnBiVFkxakhhQ1RKVGRJLWU1TUU4OWlFSUkxTlh5aVFBanFjMG0xYXpwVmRWU1JvNVpuWXZhNF9FZjRFVDJHRzdYSlBzQVdMSE5zM2ViREQtTVVtVGNLUnEtTDNLdkp3ZnFxajVOelZNODE5UQ?oc=5",
+   "source": "NetNewsLedger",
+   "published": "2026-11-06T15:30:20Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "‘I’ve got feelings and emotions too’: Oilers’ Connor McDavid sounds off after ‘Mach 1’ net collision against Ducks",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1VxN2VpRUVLRUltMl9CX0N1YU0wa21KWU9VdGVDM0VHOTFuNEFlN294WlhZenhNZkJkVC1JVU1pd3NIYnNEeTRXeENQWHVURjNPRTQyTV9pRHBTQWlKelhPNFBDenBYRnJRSXE3dUY4MHlKQ0Z0N0VxaW1WbUNHblFnUlREUmozUkdJSVctV3pOSjdkTlNEdG1VQnVJNE1zclF2M1NwSnpmaXhOMzNiR05BX0pUd2FCWjZwVXhn?oc=5",
@@ -18,8 +26,8 @@
   },
   {
    "title": "Edmonton Oilers' Connor McDavid Criticizes On-Ice Officials After A Dangerous Hit: The Hockey News Morning Skate",
-   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZ281d2ViVjFMZ2dfTTFNcGFodGJYZWdSSUQxT3ZsNjZ2dTBpdS0zbVd1OGhBdWxxaWVPN0x3T0xmRC1UVjR4MkdlRXJxczhjMTN1MDZ2ZUV3ZHhHcm9NbXZ6b29hdzk0M1UyZm1zR25RRHFiZ2VnU2xnOVIwclhQeTA1ZktmVG52amMwcGZ0cGJZWGNzT21sYzNlLXdqQ3Y4MWI4MnpackZKb1VTaEdZdi1zUkM5cVZ4MTVsOTNoR3BuZXpvUUJTQmFnTnVvdXF4aEJ2WVRiUVpCSWtiNC12c1Zod3JrUFhG?oc=5",
-   "source": "The Hockey News",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU0JXZ0tFRVJ4ZDR4SHFLT0V2UlNvZnYtTVNocE1OWG5YUFkwZUVfU2tlZEN3ekZQZndkVVFmMjRYS3ZDbnVJdDk1Y19CLTFib2gxU0g2ZzAycDhIZzdQWEJPUVVqNkhfY1ZxN1FLc3hZVFoyMGtDRnRUOS1DUVBHT0ZUZlJlTmI3LVJCT0c5QzZxNDA?oc=5",
+   "source": "Yahoo",
    "published": "2026-11-06T15:07:39Z",
    "snippet": "",
    "via": "google"
@@ -121,6 +129,14 @@
    "via": "google"
   },
   {
+   "title": "Canucks Seek End to Four-Game Skid Against Oilers in Edmonton",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcTNEbkg2S2dJaXlpZUNrd3JXQ25ZMnJLUkxmTXhIaVY3YkdEN1VhdXZvZzFJczhEcklTMzZ4UG9DMDgyY19Yd0xBaVUzSjgyWF9xS3JGcHh6Wk82aGd3UDhtNVBWdFlFM3hNRG9mOTdMSWt6VHJHOE1jMWNHemdrbHNiNndCaFhOcDJQMUsxUE14UVFGX0RVNHVFb01EbXBMUzB2NGVaUk5nN2I1ekxjNTlkTmk2Mk94NnBj?oc=5",
+   "source": "Yardbarker",
+   "published": "2026-11-06T09:27:05Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
    "source": "NHL.com",
@@ -137,27 +153,18 @@
    "via": "google"
   },
   {
-   "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd3NvQmRTS2Nha091RWFkS3V0UTY2QnhxRUY5d0JhcG9zcWtMS0d2VjJVRTJGc090R0duOTg1ODhsdHd4dDRhU3lUQnJuMUVCTy01Q09lX0s2cXBkWjYyU3c0UElPdzZDNC1rU1VGM25zRmVCbVdTWURRd2hrT3dhM0Y3cDl6WHNC?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-06T08:01:23Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "QUICK RECAP: Ducks 5, Oilers 4",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lbWZhUldMT0p6aEFJcTcwc2dtYy1DWHpUM0VTakF3RXZ0SFRReV95NFFEVVhOQjJDcTNzMDV6X29WWE1hcUZ1QWZId0xCTjRkWVNUcHNDRXNmQTFBSVVnM2VvbktrVXFvdEhhdHMxZ1ZJWVphNkx5Mg?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-06T07:36:26Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "McDavid continues torrid pace following 'dangerous' hit from Helleson of Ducks",
    "url": "https://www.nhl.com/news/oilers-connor-mcdavid-continues-torrid-pace-despite-hit-from-ducks-drew-helleson",
    "source": "NHL.com",
    "published": "2026-11-06T06:12:00Z",
    "snippet": "EDMONTON -- Connor McDavid continued his torrid pace to start the season on Thursday, although he had to pick himself up off the ice to do so."
+  },
+  {
+   "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
+   "url": "https://www.nhl.com/oilers/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026-x0153",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-06T05:41:00Z",
+   "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
   },
   {
    "title": "Oilers’ McDavid passionate in response to ‘dangerous’ hit",
@@ -223,6 +230,13 @@
    "snippet": "Watch as Ducks defenceman Drew Helleson collides hard with Connor McDavid, who then collided with the post, and went down, was slow to get up, but appears okay, meanwhile, Vasily Podkolzin…"
   },
   {
+   "title": "QUICK RECAP: Ducks 5, Oilers 4",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-ducks-11-05-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-06T01:01:30.504Z",
+   "snippet": "EDMONTON, AB – Connor McDavid recorded a goal & three assists, while Evan Bouchard, Ryan Nugent-Hopkins and Leon Draisaitl each posted multiple points, but the Oilers couldn't come away…"
+  },
+  {
    "title": "Oilers’ emergency goaltender Brett Epp serves as backup vs. Ducks",
    "url": "https://www.sportsnet.ca/nhl/article/oilers-emergency-goaltender-brett-epp-to-serve-as-backup-vs-ducks/",
    "source": "Sportsnet",
@@ -263,20 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-05T19:06:54.747Z",
    "snippet": "DUCKS (7-7-1) at OILERS (11-2-3) 8 p.m. ET; SNW Prime Video+ Ducks projected lineup Alex Killorn -- Leo Carlsson -- Judd Caufield Cutter Gauthier -- Mikael Granlund -- Beckett Sennecke Nico…"
-  },
-  {
-   "title": "And then there were none: All three Edmonton Oilers starting goalies now knocked out of action",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-tristan-jarry-out-sick-mike-baboock-matt-tomkins",
-   "source": "Edmonton Journal",
-   "published": "2026-11-05T18:34:24Z",
-   "snippet": ""
-  },
-  {
-   "title": "RELEASE: EOCF & Alberta Cancer Foundation bring 'The Time Store' to Rogers Place",
-   "url": "https://www.nhl.com/oilers/news/release-eocf-alberta-cancer-foundation-bring-the-time-store-to-rogers-place",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-05T17:25:26.84Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) has announced an initiative with the Alberta Cancer Foundation to bring The Time Store to Rogers Place for two upcoming…"
   }
  ]
 }
