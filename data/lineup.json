@@ -3,7 +3,7 @@
   "id": 2026020260,
   "startTimeUTC": "2026-11-06T01:00:00Z",
   "gameDate": "2026-11-05",
-  "state": "FUT",
+  "state": "PRE",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -300,6 +300,12 @@
    "name": "Ty Emberson",
    "num": 49,
    "pos": "D"
+  },
+  {
+   "id": 8486540,
+   "name": "Brett Epp",
+   "num": null,
+   "pos": "G"
   }
  ],
  "opponent": {
@@ -485,15 +491,15 @@
     "num": 31,
     "pos": "G"
    },
-   "status": "Likely",
+   "status": "Confirmed",
    "backup": {
     "id": 8480843,
     "name": "Lukas Dostal",
     "num": 1,
     "pos": "G"
    },
-   "note": "Brossoit is expected to start in Edmonton on Thursday. "
+   "note": "Brossoit led the Ducks onto the ice for warmups. "
   }
  },
- "updated": "2026-11-05T21:52:54Z"
+ "updated": "2026-11-06T00:44:21Z"
 }

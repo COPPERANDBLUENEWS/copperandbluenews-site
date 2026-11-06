@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T22:22:51+00:00",
+  "updated": "2026-11-06T00:44:11+00:00",
   "next": {
     "id": 2026020260,
     "gameType": 2,
@@ -8,7 +8,7 @@
     "timeMT": "7 PM MT",
     "timePT": "6 PM PT",
     "venue": "Rogers Place",
-    "state": "FUT",
+    "state": "PRE",
     "scheduleState": "OK",
     "lastPeriod": null,
     "away": {
