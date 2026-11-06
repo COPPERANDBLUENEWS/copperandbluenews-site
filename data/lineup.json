@@ -175,9 +175,9 @@
   ],
   [
    {
-    "id": 8481617,
-    "name": "Vasily Podkolzin",
-    "num": 92,
+    "id": 8486161,
+    "name": "Owen Michaels",
+    "num": 43,
     "pos": "R"
    },
    {
@@ -257,14 +257,16 @@
    "status": "Day-to-day"
   }
  ],
- "notes": [],
+ "notes": [
+  "Projection is based on the Last Game (2026-11-05) lineup until morning skate or practice updates."
+ ],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Bob Stauffer",
-   "updatedAt": "2026-11-05T17:14:37.123Z"
+   "basis": "Last Game (2026-11-05)",
+   "updatedAt": "2026-11-06T14:57:08.702Z"
   },
   {
    "name": "DailyFaceoff",
@@ -274,16 +276,16 @@
  ],
  "goalie": {
   "starter": {
-   "id": 8477035,
-   "name": "Matt Tomkins",
-   "num": 90,
+   "id": 8477465,
+   "name": "Tristan Jarry",
+   "num": 35,
    "pos": "G"
   },
   "status": "Unconfirmed",
   "backup": {
-   "id": 8477465,
-   "name": "Tristan Jarry",
-   "num": 35,
+   "id": 8477035,
+   "name": "Matt Tomkins",
+   "num": 90,
    "pos": "G"
   },
   "note": null
@@ -412,9 +414,9 @@
    ],
    [
     {
-     "id": 8476467,
-     "name": "Jamie Oleksiak",
-     "num": 4,
+     "id": 8478465,
+     "name": "Guillaume Brisebois",
+     "num": 55,
      "pos": "LD"
     },
     {
@@ -426,9 +428,9 @@
    ],
    [
     {
-     "id": 8478465,
-     "name": "Guillaume Brisebois",
-     "num": 55,
+     "id": 8476467,
+     "name": "Jamie Oleksiak",
+     "num": 4,
      "pos": "LD"
     },
     {
@@ -461,8 +463,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/vancouver-canucks/line-combinations",
     "what": "line combinations",
-    "basis": "Last Game (2026-11-03)",
-    "updatedAt": "2026-11-04T15:22:37.871Z"
+    "basis": "Last Game (2026-11-05)",
+    "updatedAt": "2026-11-06T14:52:55.515Z"
    },
    {
     "name": "DailyFaceoff",
@@ -487,5 +489,5 @@
    "note": null
   }
  },
- "updated": "2026-11-06T07:22:27Z"
+ "updated": "2026-11-06T15:23:34Z"
 }

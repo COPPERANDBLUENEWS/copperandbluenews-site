@@ -1,18 +1,82 @@
 {
- "updated": "2026-11-06T13:47:59Z",
+ "updated": "2026-11-06T15:23:34Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (7)",
-  "Google News (94)"
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "‘I’ve got feelings and emotions too’: Oilers’ Connor McDavid sounds off after ‘Mach 1’ net collision against Ducks",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1VxN2VpRUVLRUltMl9CX0N1YU0wa21KWU9VdGVDM0VHOTFuNEFlN294WlhZenhNZkJkVC1JVU1pd3NIYnNEeTRXeENQWHVURjNPRTQyTV9pRHBTQWlKelhPNFBDenBYRnJRSXE3dUY4MHlKQ0Z0N0VxaW1WbUNHblFnUlREUmozUkdJSVctV3pOSjdkTlNEdG1VQnVJNE1zclF2M1NwSnpmaXhOMzNiR05BX0pUd2FCWjZwVXhn?oc=5",
+   "source": "Athlon Sports",
+   "published": "2026-11-06T15:10:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers' Connor McDavid Criticizes On-Ice Officials After A Dangerous Hit: The Hockey News Morning Skate",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZ281d2ViVjFMZ2dfTTFNcGFodGJYZWdSSUQxT3ZsNjZ2dTBpdS0zbVd1OGhBdWxxaWVPN0x3T0xmRC1UVjR4MkdlRXJxczhjMTN1MDZ2ZUV3ZHhHcm9NbXZ6b29hdzk0M1UyZm1zR25RRHFiZ2VnU2xnOVIwclhQeTA1ZktmVG52amMwcGZ0cGJZWGNzT21sYzNlLXdqQ3Y4MWI4MnpackZKb1VTaEdZdi1zUkM5cVZ4MTVsOTNoR3BuZXpvUUJTQmFnTnVvdXF4aEJ2WVRiUVpCSWtiNC12c1Zod3JrUFhG?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-06T15:07:39Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "‘People have me pegged as a robot’: Oilers’ McDavid on emotional response to Helleson hit",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmtBRllsT3lUVmpvNml5SmpNYjgzMVVtUmdhWU9QUlVVR2pQREs0VlA3R3JQSUxzS0t5VHZmUmVwa1RueXpWOGdESTZJZS1DVENLekVFUnkyTExYQWZIZG82b29NSnNKTGgtQk45bTQ1SVUxcHNIT2V3QTJXbEs5MVZocDVGU1ltd1pXWmMzeTlkbUIzMW85YlY4eWJnNmltOHpDZmQ2eEhoQ2QzZVZhaw?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-06T14:40:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid: 'Hit me like that, and there's going to be a response'",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNzFMWjBlV2VZUm8yTzJoTVkyMUd5X2ozNllqTWJ5amdOZHRXWk5QaEpDbllQRHl5Nkl0MjNkMDFzbndPTjNMelJvYUVDTktEaWo1bER2amM3aGJjU1FrNTUyb1B1S0hub3VGb2hnRElVSHl6dGtoRG5GUUk5UDQ2VW9CSndnd2Z3VlZneGppcnA1b2dZVlY2YzJ1U2h1eno2N2dr?oc=5",
+   "source": "theScore",
+   "published": "2026-11-06T14:34:21Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid Wants Nets Treated Like End Boards After Helleson Hit",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR0FlX2VIenVKeG82VnZmY0tXWnRBLTZtbF9WUGdkNjBScVFNZW5hcVVRcG5fVE02eGRDY1M3eTBUeVR5WGNCaE4wUXBfeGdubTVtMVRaT2d2akxTZFhySzRWaFZPVG00Rl9iOXZNWEd2SWRpMDAwS0ozMWU2bmg3UDBPR184dUNrSWduQXBvaw?oc=5",
+   "source": "RG.org",
+   "published": "2026-11-06T14:23:53Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "An Evan Bouchard silver lining, Matt Tomkins back in Oilers’ net, and the refs lost the plot",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVUdNYmxDdEJOY3V1MTVPM1hRVjNETHQ2aVZOczNJbEUzU3d4ZHhnZ2NTZC1HcTQ3YlZ6UXliaVloT3RhNDNNOTlfTUpFYWRyOU16N1hQZ2JjSXQyakZFTFBUVVI0TDJpdXlCVXZhXzNkaXk2V0lNV0lrc1kxenE3dXRwU0lyb0ZINkFIbXh2TVJCN1RZUWZwMFlfWlFtMzR3TXlwYUUyRmVnNUp0YlcyYUd3?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-06T14:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers' Podkolzin receives game misconduct vs. Ducks",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTnd6T2JPUTJiUGRJZ0szV19hTkVab2xKWlJzUm5YTVd1RUpzWXRpVzVSQU5UX3J4SWdSQXBVYW5Ca2NUNHdOWG5BdGNJSGdiT1FHWWlJakJTNEtjV3l6b2NiT1RORG9JOFlfdnBQc3NBT19relh5YS0zTV9zTGdkb0FnUGc1eXBrajdvcmM2YXdpZw?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-06T13:43:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers Playing on a Different Level This Season",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMVVKckFaZ1kwSmgxdDRtal9vRWdPYlF5UHpIVVU3ZjNYdV8tYUtRUHdSWFNUOVVHVEpFb1A3NlZWNjlyem9XeVQwMVFrTGdqajlJNWsxREh0VmY1TE5Uc3NTZXQ4LUpHZ090MHdhRHJIT1cySUx2SkZfQTJmZjI3UXAtTQ?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-06T13:35:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "‘We’re rolling hot right now’: Ducks make franchise history as torrid scoring continues vs. Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNX3ZQUXlYTTZ6elhtR1YwRlVnYVdWOXdMTWJrWkNpdjljWTdzX1k5cVAyME5lRDhQN3ctN01OcEg1TVJGckowbFhYVl9aZk4zNXM5TmoyUDRIbk9mbnpaNjBZbnltM0RiMGJoLXVLWUROQ0xEOGV4SVMteU5ZOGZKMmRMak9BV1RGX2V6QmdGamxwU283WEd3azBKUlJ3Yi1JZUhGRGJLVlo0ZEllMDNzemlVVjRMM3p5eWt4cmlmQll3SXc?oc=5",
+   "source": "TSN",
+   "published": "2026-11-06T12:33:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -89,68 +153,18 @@
    "via": "google"
   },
   {
-   "title": "Oilers vs. Ducks (Nov. 5)",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBOWFU2MHJ5d0JOTFdIQXJHNktOYWdTVVY3Q0dlSnVoeUNyVTRjWHdsWHJRNmE2YVQ5UFc4clFoc2c2VDdtUDVxSDZNdkFGYmplQTZTY0VRaFlvN3R3MjR6YXZ6UTA1NXE0UUg2SzhiLVRBYU44ektWYkRBQjFPZHM?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-06T07:33:32Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers’ Podkolzin Ejected for One-Man Fight After Hit on McDavid",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdjdCUGExeG9ORHdBMUFOQy1qM2hPRklHc05kcXA1TFVaX2UzTVlWZ29LUU01cXhWWjNJUjN5S1Itd01VQnItZWNZSXE3QVEzQ0c5OW5FN1c5bmpHSEVOakRPQUtJTjRwcnFPbEc5SUlZMWFCNUVGOTVObHQtTTVpel9WNlo3MkhwTlpwNzFjenpINjRSQm1SMWNiZmgtRjFueU5NSVlWbW9oZw?oc=5",
-   "source": "Scouting The Refs",
-   "published": "2026-11-06T07:04:46Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "McDavid continues torrid pace following 'dangerous' hit from Helleson of Ducks",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGU1SU4zNHZpM0p2TFVaVjVva0piQUw3eGlMSUlFNk1vS1p1ZUpsNk9MRnZXamlHM0Iyb2lhQ0swdTM0RzliMmJuaGlDUGlrX0dvTlNsZUh0VTd2TUJ5eTlIOEtxSE43THVPem1CeG9kbXBTd2tDcEZwV2JGMUdZRkpwb3BUM3otbGl3cmQ3VTNqRlpaajNVdDNWYzhpcEotZEk4RzdNNng?oc=5",
+   "url": "https://www.nhl.com/news/oilers-connor-mcdavid-continues-torrid-pace-despite-hit-from-ducks-drew-helleson",
    "source": "NHL.com",
-   "published": "2026-11-06T06:20:27Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-06T06:12:00Z",
+   "snippet": "EDMONTON -- Connor McDavid continued his torrid pace to start the season on Thursday, although he had to pick himself up off the ice to do so."
   },
   {
-   "title": "OILERS TODAY | Post-Game vs ANA",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX0pjLVpFWkFNVUdfWFA5QTlsdzZKc244WkxsNFpYOGFmM1FSMFVvaXRiMDdzZEZmbEo0Z3A0U2RNdGVCOUhLNjUwblZLVFJrQzFhMlhCbWw0T0ZmajRiMEZMQzkwdTJ2aXE3OGRyLXY1NWVGR3NlMnlhWTRCV2xTM0xB?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-06T06:09:15Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Podkolzin gets his punches in but Edmonton Oilers wind up on the canvas",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNE9scUdZNno4eFJmZm11WnMzb243S0hOakZuejhWYzBEMm54ZUYtamZvRlA4STZGX1Fna1VkbUdwZUI3eFE0YnZiY2tIVVExS0o1OVhhZUFVQUV0YUdTOHh0UGN5czdxdV9HdUVJNVZZdDl0MV95NFNaTHRFYmQ1eWVENUkzYV85bTlpWlAtazB2X0x3eGlRMjlaelZ3R0k5aHNsXzY2clMtZXlrS3pWUWZVbmJHS2FsRWNfME9hVDVNMDZ1V3FXdGRNeUVIUQ?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-06T05:29:57Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers' McDavid passionate in response to 'dangerous' hit",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamVoTk0tMV9pV21zWjc0al85VDZLOF9IdG54TGd1d2JRYXVOTkxnMDlPZWJzN3FxaVRoRzJlb2ZKbUtGSTIxWWQ1el9pUVRHbnh4cXk0em1UTDJwbDBVRDN3YU0xYVBSYkQtWkFpZVF6bFFEZmlyYkg5Ym8xb2dFVldlSEFIQWJxa2NOZFA1czQ2dk5nU3NF?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-06T05:27:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "McDavid Scare Overshadows Oilers’ 5-4 Loss to Ducks: \"Too Close to Home For Me\"",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSFlMSlIzbkZ5SVluYzByMkZSU2E3aGxRRm1HaVZzMlVMY0pBOUhkMXN1dXVialBNMW1QdmZWWFIxVWdtRW1hWnBwbTRHLV9weTBNWWV2a2c2X25JRWdyY3hfV2lxODB4VDdKMVFITlFmd0RrRzNMQVg0MVBzeXpybFd0eXVaaXlrZ1hJTnNqOXNZczFuX1A0ektqeVdRN0tKQ0NVMUQ4a1FPZDNPaGtoOFFqbGMwOF9LNl9jZDg5Zll0LTRYbE9Pb2VoZl9TZw?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-06T05:13:40Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "McDavid fumes over ‘dangerous’ play that drove him into net",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWUlZeDQ3UkpLeE5heUxPbXZkeC1qNlFDVktrcU1NS1BhOUNMbENxTUl4WXZWSENwRkNyY29vbTdNa2hsRzRPRTdYVDQ2R3ppelpzelk1aG5fYkNMQ3JBWGlJTmhHT3c2eFBRRFpqaVRQVzBSYjNRYUlMWWVVMzdmYldUMlFYMGduV3ViTU9mWF9fQ2RBRDVJ?oc=5",
-   "source": "TSN",
-   "published": "2026-11-06T05:00:55Z",
-   "snippet": "",
-   "via": "google"
+   "title": "Oilers’ McDavid passionate in response to ‘dangerous’ hit",
+   "url": "https://www.sportsnet.ca/nhl/article/oilers-mcdavid-passionate-in-response-to-dangerous-hit/",
+   "source": "Sportsnet",
+   "published": "2026-11-06T05:26:35Z",
+   "snippet": "This incident runs a little deeper for McDavid. And he was passionate in his post-game remarks."
   },
   {
    "title": "Edmonton Oilers dodge McDavid injury but not Anaheim Ducks Power Play: Cult of Hockey Player Grades",
@@ -174,6 +188,13 @@
    "snippet": "Connor McDavid registered four points but it was not enough as the Anaheim Ducks defeated the Edmonton Oilers 5-4 in a thrilling affair."
   },
   {
+   "title": "Podkolzin gets his punches in but Edmonton Oilers wind up on the canvas",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/podkolzin-gets-his-punches-in-but-edmonton-oilers-wind-up-on-the-canvas",
+   "source": "Edmonton Journal",
+   "published": "2026-11-06T03:52:36Z",
+   "snippet": ""
+  },
+  {
    "title": "Gotta See It: Oilers’ McDavid scores spectacular shorthanded goal vs. Ducks",
    "url": "https://www.sportsnet.ca/nhl/video/gotta-see-it-oilers-mcdavid-scores-spectacular-shorthanded-goal-vs-ducks/",
    "source": "Sportsnet",
@@ -188,13 +209,6 @@
    "snippet": "Edmonton Oilers fans were excited to celebrate their longest-tenured player on Thursday. Ryan Nugent-Hopkins received a standing ovation from fans at Rogers Place after becoming the…"
   },
   {
-   "title": "Oilers’ Podkolzin receives game misconduct vs. Ducks",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-podkolzin-receives-game-misconduct-vs-ducks/",
-   "source": "Sportsnet",
-   "published": "2026-11-06T01:51:51Z",
-   "snippet": "Vasily Podkolzin came to his captain’s defence on Thursday, but ended up with a game misconduct for his efforts."
-  },
-  {
    "title": "Oilers honour Nugent-Hopkins for becoming franchise leader in games played",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-honour-nugent-hopkins-for-becoming-franchise-leader-in-games-played/",
    "source": "Sportsnet",
@@ -202,11 +216,11 @@
    "snippet": "Watch as the Edmonton Oilers honour Ryan Nugent-Hopkins with a video tribute and fans give him a standing ovation after he becomes the franchise’s all-time leader in games played."
   },
   {
-   "title": "Oilers’ Podkolzin ejected for fight in effort to defend McDavid",
+   "title": "McDavid slow to get up after colliding hard with Ducks’ Helleson and the post",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-podkolzin-ejected-for-one-man-fight-defending-mcdavid/",
    "source": "Sportsnet",
    "published": "2026-11-06T01:40:50Z",
-   "snippet": "Watch as Edmonton Oilers forward Vasily Podkolzin goes after Anaheim Ducks defenceman Drew Helleson after he landed a big hit on Connor McDavid, but was ejected from the game due to the…"
+   "snippet": "Watch as Ducks defenceman Drew Helleson collides hard with Connor McDavid, who then collided with the post, and went down, was slow to get up, but appears okay, meanwhile, Vasily Podkolzin…"
   },
   {
    "title": "Oilers’ emergency goaltender Brett Epp serves as backup vs. Ducks",
@@ -263,20 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-05T17:25:26.84Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) has announced an initiative with the Alberta Cancer Foundation to bring The Time Store to Rogers Place for two upcoming…"
-  },
-  {
-   "title": "One of Mike Babcock's biggest critics now praising him. Will other naysayers do the same?",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-mike-babcock-john-shannon-critics-of-his-hiring",
-   "source": "Edmonton Journal",
-   "published": "2026-11-05T15:27:53Z",
-   "snippet": ""
-  },
-  {
-   "title": "Road warrior Edmonton Oilers return home to ongoing attendance woes",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-attendance-down",
-   "source": "Edmonton Journal",
-   "published": "2026-11-05T13:52:43Z",
-   "snippet": "Nearly perfect on the road to open the season, things aren't all rainbows and unicorns back at Rogers Place for the hottest ticket in town"
   }
  ]
 }
