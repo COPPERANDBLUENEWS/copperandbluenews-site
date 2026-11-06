@@ -1,19 +1,19 @@
 {
  "game": {
-  "id": 2026020260,
-  "startTimeUTC": "2026-11-06T01:00:00Z",
-  "gameDate": "2026-11-05",
-  "state": "OFF",
+  "id": 2026020276,
+  "startTimeUTC": "2026-11-08T03:00:00Z",
+  "gameDate": "2026-11-07",
+  "state": "FUT",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
-   "abbrev": "ANA",
-   "name": "Ducks",
-   "place": "Anaheim"
+   "abbrev": "VAN",
+   "name": "Canucks",
+   "place": "Vancouver"
   },
-  "puckDropPT": "Thu Nov 5, 6 PM PT"
+  "puckDropPT": "Sat Nov 7, 8 PM PT"
  },
- "status": "Confirmed",
+ "status": "Projected",
  "forwards": [
   [
    {
@@ -257,15 +257,8 @@
    "status": "Day-to-day"
   }
  ],
- "notes": [
-  "Dressed players and starting goalie are official (NHL game sheet). Line combinations are DailyFaceoff's; the NHL doesn't publish lines."
- ],
+ "notes": [],
  "sources": [
-  {
-   "name": "NHL.com Gamecenter",
-   "url": "https://www.nhl.com/gamecenter/2026020260",
-   "what": "official dressed lineup"
-  },
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
@@ -275,7 +268,7 @@
   },
   {
    "name": "DailyFaceoff",
-   "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-05",
+   "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-07",
    "what": "starting goalie"
   }
  ],
@@ -286,11 +279,11 @@
    "num": 90,
    "pos": "G"
   },
-  "status": "Confirmed",
+  "status": "Unconfirmed",
   "backup": {
-   "id": 8486540,
-   "name": "Brett Epp",
-   "num": 0,
+   "id": 8477465,
+   "name": "Tristan Jarry",
+   "num": 35,
    "pos": "G"
   },
   "note": null
@@ -307,91 +300,97 @@
    "name": "Ty Emberson",
    "num": 49,
    "pos": "D"
+  },
+  {
+   "id": 8486540,
+   "name": "Brett Epp",
+   "num": null,
+   "pos": "G"
   }
  ],
  "opponent": {
-  "abbrev": "ANA",
-  "name": "Ducks",
-  "place": "Anaheim",
-  "status": "Confirmed",
+  "abbrev": "VAN",
+  "name": "Canucks",
+  "place": "Vancouver",
+  "status": "Projected",
   "forwards": [
    [
     {
-     "id": 8473986,
-     "name": "Alex Killorn",
-     "num": 17,
+     "id": 8478498,
+     "name": "Jake DeBrusk",
+     "num": 74,
      "pos": "LW"
     },
     {
-     "id": 8484153,
-     "name": "Leo Carlsson",
-     "num": 91,
+     "id": 8480012,
+     "name": "Elias Pettersson",
+     "num": 40,
      "pos": "C"
     },
     {
-     "id": 8481538,
-     "name": "Judd Caulfield",
-     "num": 28,
+     "id": 8478444,
+     "name": "Brock Boeser",
+     "num": 6,
      "pos": "RW"
     }
    ],
    [
     {
-     "id": 8483445,
-     "name": "Cutter Gauthier",
-     "num": 61,
+     "id": 8483499,
+     "name": "Liam Ohgren",
+     "num": 92,
      "pos": "LW"
     },
     {
-     "id": 8475798,
-     "name": "Mikael Granlund",
-     "num": 64,
+     "id": 8482079,
+     "name": "Marco Rossi",
+     "num": 23,
      "pos": "C"
     },
     {
-     "id": 8484762,
-     "name": "Beckett Sennecke",
-     "num": 45,
+     "id": null,
+     "name": "Jonathan Lekkerimaki",
+     "num": 88,
      "pos": "RW"
     }
    ],
    [
     {
-     "id": 8484201,
-     "name": "Nico Myatovic",
-     "num": 48,
+     "id": 8482055,
+     "name": "Drew O'Connor",
+     "num": 18,
      "pos": "LW"
     },
     {
-     "id": 8485512,
-     "name": "Tim Washe",
-     "num": 42,
+     "id": 8484901,
+     "name": "Jacob Quillan",
+     "num": 62,
      "pos": "C"
     },
     {
-     "id": 8482118,
-     "name": "Sam Colangelo",
-     "num": 12,
+     "id": 8481024,
+     "name": "Linus Karlsson",
+     "num": 94,
      "pos": "RW"
     }
    ],
    [
     {
-     "id": 8482408,
-     "name": "Jeff Malott",
-     "num": 39,
+     "id": 8481032,
+     "name": "Paul Cotter",
+     "num": 47,
      "pos": "LW"
     },
     {
-     "id": 8485400,
-     "name": "Roger McQueen",
-     "num": 95,
+     "id": 8484136,
+     "name": "Max Sasson",
+     "num": 63,
      "pos": "C"
     },
     {
-     "id": 8481754,
-     "name": "Nikita Nesterenko",
-     "num": 13,
+     "id": 8475848,
+     "name": "Brendan Gallagher",
+     "num": 7,
      "pos": "RW"
     }
    ]
@@ -399,113 +398,94 @@
   "defence": [
    [
     {
-     "id": 8481605,
-     "name": "Jackson LaCombe",
-     "num": 2,
+     "id": 8483678,
+     "name": "Elias Pettersson",
+     "num": 25,
      "pos": "LD"
     },
     {
-     "id": 8481563,
-     "name": "Drew Helleson",
-     "num": 14,
+     "id": 8479425,
+     "name": "Filip Hronek",
+     "num": 17,
      "pos": "RD"
     }
    ],
    [
     {
-     "id": 8483490,
-     "name": "Pavel Mintyukov",
-     "num": 98,
+     "id": 8476467,
+     "name": "Jamie Oleksiak",
+     "num": 4,
      "pos": "LD"
     },
     {
-     "id": 8483521,
-     "name": "Noah Warren",
-     "num": 47,
+     "id": 8484798,
+     "name": "Zeev Buium",
+     "num": 8,
      "pos": "RD"
     }
    ],
    [
     {
-     "id": 8484262,
-     "name": "Travis Mitchell",
-     "num": 34,
+     "id": 8478465,
+     "name": "Guillaume Brisebois",
+     "num": 55,
      "pos": "LD"
     },
     {
-     "id": 8483482,
-     "name": "Tristan Luneau",
-     "num": 67,
+     "id": 8483768,
+     "name": "Victor Mancini",
+     "num": 90,
      "pos": "RD"
     }
    ]
   ],
   "injured": [
    {
-    "id": 8478873,
-    "name": "Troy Terry",
-    "num": 19,
-    "pos": "RW",
+    "id": 8477967,
+    "name": "Thatcher Demko",
+    "num": 35,
+    "pos": "G",
     "status": "IR"
    },
    {
-    "id": 8482178,
-    "name": "Ian Moore",
-    "num": 3,
-    "pos": "D",
-    "status": "IR"
-   },
-   {
-    "id": 8480068,
-    "name": "Ryan Poehling",
-    "num": 25,
+    "id": 8480078,
+    "name": "Filip Chytil",
+    "num": 77,
     "pos": "C",
-    "status": "IR"
-   },
-   {
-    "id": 8478421,
-    "name": "A.J. Greer",
-    "num": 18,
-    "pos": "LW",
     "status": "IR"
    }
   ],
   "notes": [],
   "sources": [
    {
-    "name": "NHL.com Gamecenter",
-    "url": "https://www.nhl.com/gamecenter/2026020260",
-    "what": "official dressed lineup"
-   },
-   {
     "name": "DailyFaceoff",
-    "url": "https://www.dailyfaceoff.com/teams/anaheim-ducks/line-combinations",
+    "url": "https://www.dailyfaceoff.com/teams/vancouver-canucks/line-combinations",
     "what": "line combinations",
     "basis": "Last Game (2026-11-03)",
-    "updatedAt": "2026-11-04T15:21:43.406Z"
+    "updatedAt": "2026-11-04T15:22:37.871Z"
    },
    {
     "name": "DailyFaceoff",
-    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-05",
+    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-07",
     "what": "starting goalie"
    }
   ],
   "goalie": {
    "starter": {
-    "id": 8476316,
-    "name": "Laurent Brossoit",
-    "num": 31,
-    "pos": "G"
+    "id": null,
+    "name": "Leevi Merilainen",
+    "num": null,
+    "pos": null
    },
-   "status": "Confirmed",
+   "status": "Unconfirmed",
    "backup": {
-    "id": 8480843,
-    "name": "Lukas Dostal",
-    "num": 1,
+    "id": 8480947,
+    "name": "Kevin Lankinen",
+    "num": 32,
     "pos": "G"
    },
    "note": null
   }
  },
- "updated": "2026-11-06T05:36:18Z"
+ "updated": "2026-11-06T07:22:27Z"
 }
