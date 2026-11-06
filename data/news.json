@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T21:47:11Z",
+ "updated": "2026-11-06T22:19:57Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (6)",
-  "Google News (90)"
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
@@ -12,7 +12,15 @@
    "title": "Alberta premier gives big shoutout to Oilers' Podkolzin after lopsided fight",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYzJzOWZlMGFnVnBzSndTeENabm9pemFtcXJaaDBfdVJrb3lFNk9TX01zZWZBT21XZ0xVdExyQmV4OExoVjlXV0lUZElSeXZOTWE4UnNQc2U3VHVlUlN0Vk1Gc3liS2dDbWMtRHJGeEZhMmpsT1ROckdkcGthamZOUFc1eWVXemhOWnhEV3BxejA?oc=5",
    "source": "Daily Hive",
-   "published": "2026-11-06T21:36:17Z",
+   "published": "2026-11-06T22:11:26Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Ex-Maple Leafs enforcer blasts NHL officials after Oilers’ Connor McDavid hit controversy",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdnBJVEdXTTRkbi1QLXllbEp4Y0VuREFEUmdmWGFUUy0ySzZaM0Y4RzB4Y3VFeEFuRTRjc1JHbTlLcnBMYUM5N1pjdV9na0dqR2o0U2FleHpHX3FFM2ZfN1RyMDhielJFcmhGOXVhYlVrZFF6Zklqa1JsZU9QVmFna3VDWHQ3Zw?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-06T21:43:27Z",
    "snippet": "",
    "via": "google"
   },
@@ -29,6 +37,14 @@
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmtBRllsT3lUVmpvNml5SmpNYjgzMVVtUmdhWU9QUlVVR2pQREs0VlA3R3JQSUxzS0t5VHZmUmVwa1RueXpWOGdESTZJZS1DVENLekVFUnkyTExYQWZIZG82b29NSnNKTGgtQk45bTQ1SVUxcHNIT2V3QTJXbEs5MVZocDVGU1ltd1pXWmMzeTlkbUIzMW85YlY4eWJnNmltOHpDZmQ2eEhoQ2QzZVZhaw?oc=5",
    "source": "Daily Faceoff",
    "published": "2026-11-06T21:22:37Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid’s Postgame Comments Have Fans Turning on the Superstar",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYkdGTnU0ZE9fU2V4ajZ4VjBFSDNqQ3NjejZqTzZUbDJwTVJWQ0l1UE1xNkk5SFJ5RmRaSFpQdmZWTlVadU1qdkFfYkprVndmNXFaNjA2bEhpZTlPeS1OLTBmaEgzVmdwMG9oTTJNdV9yYVB4eUxxdDdZTUFGelZGVC02Yl83bFNyWnFMVzd1QXFJajhuVW1va3huZnBlM0V3UVoyVDJ1QkZYdw?oc=5",
+   "source": "Heavy.com",
+   "published": "2026-11-06T21:13:32Z",
    "snippet": "",
    "via": "google"
   },
@@ -161,22 +177,6 @@
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRWJtXzN3bzgwSkRpSkRMdkQ0eHJ5MGlXNXlySndCc2hZUkFpUWtPWFhINURxc2Jva25ibHkwTkFhVFo1c25WVl9hbDlOZmZMS0xSdFY5dWk4MUp2cVMtOXUzNExvMlJUTUJ5ZG5qS3ZkRmwxMm9DaXZfSWd6Nk1KeXJ3T2pwQQ?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-06T16:45:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers Prospect Andrew Robinson Goal (2) | 2026 Windsor Spitfires vs Peterborough Petes | Nov 5",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMVMzaFZ0NTcwZ3llWkpWNzZ3dTIwQUNIa2x3TUNhZHdOdnhSZmRxdUYzbmtNbGg0TG5XV1Ntc0RRc0J2ZUtGR25yRGJma3RkU2NsNGEyMEtIVUZqdFZuTGswWmRybWRGSnNrS3U3eThoLUszbndHZ2VMUHMxbTJLd19lSExtNlpuTHhGclNB?oc=5",
-   "source": "FloHockey",
-   "published": "2026-11-06T16:22:52Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Fans Still Have Reason to Be Skeptical of Mike Babcock",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTi1GQUZPY2ZFZzBqZTdKZkZxa2k5MHNFSTB4ZUh4UGxtRWp1SExGU2FJbXNiWDZfVGFCMU9zZkRmQUh5ejlOQkJfcmdXZnhldHFXU3ZBdHVqZWpCMDIzWjBmTDZNYkZ0dm1KUVpDTXowUk5EQmFxYXJuWm5hUTdXR2FJZThuMWdCT2xGVy1OcmoxWFR1SUE?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-06T16:15:00Z",
    "snippet": "",
    "via": "google"
   },
