@@ -1,13 +1,52 @@
 {
- "updated": "2026-11-06T02:17:30Z",
+ "updated": "2026-11-06T03:29:09Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (6)",
-  "Google News (88)"
+  "Sportsnet (7)",
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "ANA@EDM: McDavid scores SHG against Laurent Brossoit",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZkk5VnozcXZHMURwUzYxbzBMUjN1SktBbVl5NVVMNmgzcmIwS25rV0ZMaVBnOGNWNzFRT3lIS3pEZDNuNnFoZl9zdUFOVGswRjFuQU5RRFJWSG5hd2FoMzE1WG54Q3A3dU9oT2U5YkZZSVpmc0dseWhoUDB5LVVpSFlVcmFSd3ZxdW15WGsxMVBuWWNGUnk5aXhkajhHVUk?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-06T03:13:37Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Beckett Sennecke with a Goal vs. Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMWJ4eDRUVzVDU3NjT2swODh3ZndIOFdISGVzOVV6bzdkOTl5YWtJb2F0c0daMmxveVNqZmM4clplYWl1SF9QX0V4TkhGOVhld3E2R1JITHVteDdadHVzaVVJTXVneF92QWhDU3Q4a0ZsalBPcXhuaTBnaUhoOUd4djl6RU9xQ2k4VVlj?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-06T03:05:37Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Gotta See It: Oilers’ McDavid scores spectacular shorthanded goal vs. Ducks",
+   "url": "https://www.sportsnet.ca/nhl/video/gotta-see-it-oilers-mcdavid-scores-spectacular-shorthanded-goal-vs-ducks/",
+   "source": "Sportsnet",
+   "published": "2026-11-06T02:31:55Z",
+   "snippet": "Connor McDavid showcases his incredible speed and puck-handling ability, stealing possession from the Ducks before taking off on a shorthanded breakaway and beating the goaltender with a…"
+  },
+  {
+   "title": "Road warrior Edmonton Oilers return home to ongoing attendance woes",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1PUjNoSkRyckkzc0VqRHJTemhBTlZ1TkxzY2hTQlc5OFdmbWpFS2sxd19qak80TEhzM3VEMXVuWXRYcVFxelhzOUk4WUJHU3NsQnFCZXpkWndCaDVUaWR4VTY3WlFoM2Rzel93OWtLTXpvT29l?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-06T02:26:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Bouchard becomes fastest defenceman in Oilers history to hit 10 goals",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSndFUXdsT2YyRDF5NDEtblhaT0RGVmpYYWY4YjRrUWFXeUs5d1NzOFVRX0lHdms5aDFsYTRKT2I0X0o2aTl1eF9MVWFZdllDOThhUHY4SkhGdVJKMTNobkw3Zm42VmM0RnB5VzdhRWpyRFlwWF9pN0RyY01JRUdjc0pMMlFCRGxLdjJ1N002dUsta09xRHFyOUxILUVCOGdySWlMNTBWN2xSMkU?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-06T02:19:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers fans give Nugent-Hopkins standing ovation for setting team record",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQek9ubFpmdjRqWEVTTGJNdGQyM2Z0UG56aTBPVEkxZmZNX3phN2Z2Yi1EX2w4NUVGUGhzZngxaHNWMWxQTGc1TzJ4NmM5ekRXZHNmNTFoSlRENWxHYksxWHFxZDFKQmpjdW5xMll0THIxbEpya2YtaERmQUZFaGhTbEJhU3NlMHJWUGt1Ty1ZSjhHUHV2Q0dicnh6S1cxdw?oc=5",
@@ -18,7 +57,7 @@
   },
   {
    "title": "Oiler's response to McDavid hit was the right one",
-   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOaFhTazhaVEZvMnY5VDZ0WGl2ZEo2NngzTnc5UDRvdWpFSnBuZEt5RFdOZDlvdEdpRVZzQ1ZsbXFsZl9MVVpINXFJM2FCYUxwME5qNldsc2lodUNySHFMa0ozTGpQUC1fRDJlZWdQeHYxUVNOZGxPOEUxVW8yT2YwMVNld05McG1uTTlOblUwdVJhQmhvN0pnLUI2ZUhSQUdmN0s4MW82NVNIZkxmeS04b1FlTHNYY1ZCamppelJxajZGd2d1QnptYkQ1UU5oRm56RU1tQUdpYTlSc1Z0ZF9Za2RkTWNuQWxBREtYVndNZlpLbF9GS3c?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObnpBWXZHVjB4MXIxRjF4QnI4bXI4Y0s2VVlDRzl6eEhaaXRiU3FWNm1vZXhLOHNLbGJHd1h5RHdWU1NXUldqQ1hhTG50QXNLZzNFQXVNRndfTHZSa1NtdjFpLXhlUG5wdjZJVE5fWXdKb3NSYjNqS3R2Vms0b0gyaURKYVVDQnNCZ2ZyZ21R?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-06T01:58:00Z",
    "snippet": "",
@@ -45,6 +84,14 @@
    "source": "Sportsnet",
    "published": "2026-11-06T01:40:50Z",
    "snippet": "Watch as Edmonton Oilers forward Vasily Podkolzin goes after Anaheim Ducks defenceman Drew Helleson after he landed a big hit on Connor McDavid, but was ejected from the game due to the…"
+  },
+  {
+   "title": "Podkolzin ejected for defending McDavid in heated first period against Ducks",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORVZFVUo0aTREb2E4TGVBMnl2VFFZQmFkakl2cnA0cGI1VVh2QlZVOHVHWlJyN1AtYVNvZDE5ZVpSeTdVcEVvVjRVWFB1eGtlTmlJeE9vN1lzbEZXbEVlTm0yR045YXBGUmt2bjR5U2p1eTAwUHIxMTU4d0ptdDF6OU55WkpSMnhzWlMzVjdZYVM5YXJtWHVhVnhudG1UZw?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-06T01:26:00Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "LIVE UPDATES: Oilers vs. Ducks",
@@ -101,7 +148,7 @@
    "via": "google"
   },
   {
-   "title": "Oilers’ emergency goaltender Brett Epp to serve as backup vs. Ducks",
+   "title": "Oilers’ emergency goaltender Brett Epp serves as backup vs. Ducks",
    "url": "https://www.sportsnet.ca/nhl/article/oilers-emergency-goaltender-brett-epp-to-serve-as-backup-vs-ducks/",
    "source": "Sportsnet",
    "published": "2026-11-06T00:25:16Z",
@@ -126,7 +173,7 @@
    "title": "Mike Babcock takes playful jab at Edmonton Oilers reporter",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcHo5Zi1lOEhDNmZ0OU1fS1BGWmZQTWNTeklvNG1MVE82UTd1VXhBbnRIa2VMOWZJaXg2SWdNem8tTER3eVRyLTRNeHE5WnBPQ3RjNHRpdi1Ecmdpb244Uk8xTWNJRzFOT0hhTzBHOTJ5Sm9LVEFHbE9PY05HQU5lUWdPVUxwQkU?oc=5",
    "source": "Daily Hive",
-   "published": "2026-11-05T22:38:46Z",
+   "published": "2026-11-05T23:29:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -155,44 +202,11 @@
    "via": "google"
   },
   {
-   "title": "GDB 17.0: Oilers need to keep pounding the Pacific Division against Ducks (7 PM, SNW)",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQN3hsZVotczNPX0FscTBQU1djSnNzeUlsUnNscHR6RHpMRklLY1VlQlluS040R2d4SnJwRk55ekRTdUVFdF9waXNQWEJKUlo5bVFqU2Vla3hHSHFEQmFOSlktOUhIcnZsT2pWejhjVU9mUGpCNFhVN0JqVklETlp0TnBpaElOOFQ4LXpGUlJlU0Jtcms?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-05T21:31:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers injury update: Jarry sick; Levi, Hyman look ‘ready,’ according to Babcock",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeDl2dGRfcHM1OTVFYnYzYVVnQXlNRm5vU1VSTXROOGJZR1JRaVZvYjN6d2gwNTEyaVk1cVJCNi12QjVnMG9YV3FnY0FhcVlOaXdmN2FlRlZOLXMxYUVBNnlfTThPUnp4djA2YTZUQTVLSWhzNlNYcVJvd1FnQng3QlNvZGEtUUtZOUptX1ZsSXJFTi1iY1gzVVNqN09LeUF4NHotQjJ0dEJINjg4aVotMF9uMV9kNHFoeEF6S1BOWnAtR2lfOGc?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-05T21:17:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "With Jarry sick, recalled goalie Tomkins draws another Oilers start",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVGFKY0xIZUMyY1hmbGd0dkVjSlZUWWstVm1HVkxCVjdHQUFBUXIzU0duRTFKd1FWeV9XZ19yZWZVS0pTZDdqa2xXZ1dBSC1LQlhMdHphU1oycVZ6UzhERlhOYmxhYXNud1NmMl9pT1J4bXdMQ1JlWVkwTGVHRXU4YWx4cUltaF9vUlA2ZE9pYloycDlXMnJ3VEc4ZWRvcV9IUVVWOW9Pai1vMGk4cXgzN1JZT1g?oc=5",
-   "source": "CTV News",
-   "published": "2026-11-05T21:12:46Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Babcock Explains Early Key to Oilers Success Revolves Around One Word",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdkJueVlfYUVLQ0R0ekJEMERCcUNNUVBvUDVoRmJ4U19qM0tucWd5M2tidUQxQ2lxbmM4c2w4S2hfamFiSVdJcUpwRUxrdWdDallfSHdZN1Q0eF9DXzl4dFhVelNxSnBYdHlLa3JfRVJ3OG81UFpfcGxnQTVzNmpZX0ZmNDZQQXJ5UGpJTkVaYVl4ZnJPVnpHempaVXRlWUlzczBEczhGSnRFTkY5MG5oWnBFdnNoZVdSMHhWQTc5dnJHajdna2pkYkZGRQ?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-05T20:47:39Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "No time change no excuse for Oilers' allegedly tardy Babcock",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdmNSbVpEWEV0d3BXRUtBSTVQSkhGMUNjeFoxR1ZLbXA2TTVMdnJLaDNQR1RJYlU0NW9JWktZUUtOTkhhRkFjbEdkczRMRGUwUnJqakltMTA3RXo3dFRWeVh3Y09FSnVJZWhaR1M0aWJUWkc2NFVYTXNoVG5Cc3hraTNOdk5KcUNhb01JQ3M4MUJlSkk1eHo1dTVUc0gtczFKdmtRMVVxeFQzWE03STNZZDVySXVQZTU0LTZ2RG13?oc=5",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/no-time-change-no-excuse-for-oilers-allegedly-tardy-babcock",
    "source": "Edmonton Journal",
-   "published": "2026-11-05T20:31:10Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-05T20:26:59Z",
+   "snippet": ""
   },
   {
    "title": "PROJECTED LINEUP: Oilers vs. Ducks",
@@ -209,13 +223,6 @@
    "snippet": "DUCKS (7-7-1) at OILERS (11-2-3) 8 p.m. ET; SNW Prime Video+ Ducks projected lineup Alex Killorn -- Leo Carlsson -- Judd Caufield Cutter Gauthier -- Mikael Granlund -- Beckett Sennecke Nico…"
   },
   {
-   "title": "Can Oilers finish with top three points leaders at season’s end?",
-   "url": "https://www.sportsnet.ca/nhl/video/can-oilers-finish-with-top-three-points-leaders-at-seasons-end/",
-   "source": "Sportsnet",
-   "published": "2026-11-05T18:10:45Z",
-   "snippet": "NHL analyst Sam Cosentino joins The FAN Hockey Show’s Matt Marchese and Mike Futa and the trio discuss if the Edmonton Oilers can finish the 2026-27 season with the first, second, and third…"
-  },
-  {
    "title": "RELEASE: EOCF & Alberta Cancer Foundation bring 'The Time Store' to Rogers Place",
    "url": "https://www.nhl.com/oilers/news/release-eocf-alberta-cancer-foundation-bring-the-time-store-to-rogers-place",
    "source": "EdmontonOilers.com",
@@ -228,13 +235,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-05T15:27:53Z",
    "snippet": ""
-  },
-  {
-   "title": "Road warrior Edmonton Oilers return home to ongoing attendance woes",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-attendance-down",
-   "source": "Edmonton Journal",
-   "published": "2026-11-05T13:52:43Z",
-   "snippet": "Nearly perfect on the road to open the season, things aren't all rainbows and unicorns back at Rogers Place for the hottest ticket in town"
   },
   {
    "title": "Oilers notes: Jarry's strong play augmented by strong team defence",
@@ -266,8 +266,8 @@
   },
   {
    "title": "Jack Hughes scores twice for Devils, Hellebuyck wins home debut against Oilers",
-   "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026-x6095",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-04T05:05:00Z",
    "snippet": "NEWARK, N.J. -- Jack Hughes had two goals and an assist for the New Jersey Devils in a 4-3 shootout win against the Edmonton Oilers at Prudential Center on Tuesday."
   },
