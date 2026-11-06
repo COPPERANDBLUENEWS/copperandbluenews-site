@@ -1,13 +1,69 @@
 {
- "updated": "2026-11-06T03:29:09Z",
+ "updated": "2026-11-06T03:58:01Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (7)",
+  "Sportsnet (6)",
   "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Podkolzin gets his punches in but Edmonton Oilers wind up on the canvas",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNE9scUdZNno4eFJmZm11WnMzb243S0hOakZuejhWYzBEMm54ZUYtamZvRlA4STZGX1Fna1VkbUdwZUI3eFE0YnZiY2tIVVExS0o1OVhhZUFVQUV0YUdTOHh0UGN5czdxdV9HdUVJNVZZdDl0MV95NFNaTHRFYmQ1eWVENUkzYV85bTlpWlAtazB2X0x3eGlRMjlaelZ3R0k5aHNsXzY2clMtZXlrS3pWUWZVbmJHS2FsRWNfME9hVDVNMDZ1V3FXdGRNeUVIUQ?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-06T03:56:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Cutter Gauthier with a Powerplay Goal vs. Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPendWTUplQXoxczh2aU5KbW04eHIxSHhSNHFpT2tQaGJBS0kxcktZV19vajhuWVhCekR3cFFvdHJGZXJkWTkweTJJdEc5RWIwV1BpMGhlLS05SkUzYkh6dWh1akl5Zk9oV2RxWXR5M3ljbFN0MkFvY2NISk9hQVRhSzllNmd3Nk0?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-06T03:48:43Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Anaheim Ducks at Edmonton Oilers - NHL Game Summary - Nov 05, 2026",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbVdUVFd2ZXptaXNhU3VlOXloU2Y3UFZxZFVySWlFaHd6T1FqNGZOV0Q3T3ZUbGNSR2VhS1puRmJLdGJZYXNpY3ViLXNGZE9hS3pkS2dYOVVvX0NDeVZ0RHNUVVVsbENSTk1jeUtaTjF5ajhDSTZyUEZ4bFVEdFRVdmM0NldKNXVaa0l4M05Uc1p1TUs3cWhqWFUya1RWaERtZFIwZGlMY1hzOGVMR0I5akladlpnVDRPX3lyNVZCeWxoMnhnc0NNWFRPUV9BeF93V1Bvc29NSmdUTC03SDdBS181OVdnS0VaR3lDRXFPcw?oc=5",
+   "source": "USA Today",
+   "published": "2026-11-06T03:48:28Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Brett Epp serves as backup as Oilers become first team to dress full-time EBUG",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZlhoZklVVVRvTkpVZkdiQmxXUFQ4aFFJbWNTelBPQWFxVWMzNjJuOWh0T04xSFRHZ3lPbTRZQ1dCa2VSeEVUaWFSRWJUXzgxd2Rkc1ZOLXduWDVNZTJ6TGpvOUNXRTg0REdXdWE4UzNpbXhEZmNTdXBYci1kVEhPWDdoU2lSY1dxWU56TEVVZVhiWDF4ekctVjNtSko1a1Vfbnh2bTRBWFdtQzZzQldONFlZOThmR0hm?oc=5",
+   "source": "NanaimoNewsNOW",
+   "published": "2026-11-06T03:43:06Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Could Kucherov Actually Come to Edmonton?",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa3RGcUJKeUpFMG84c21kS09JQ1ZHSHRhd1hZNmNQSmdjakJUWWhIdEN5bU80RTN6eU9aWWlaUlg5TmFPeUp2VzdBU0VkQ1p2eU9pUnRBRWlNeVZjUmNaeUxHSi1fNWZBYVYtcFdhZGZMRlVONWJSRG1oVHJISDVxOHlHR3VwTU00X0M0R2FwMV8zdUN2MDBJU193?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-06T03:39:03Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers' emergency goaltender Brett Epp serves as backup vs. Ducks",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNemZTTzZQT21SdUJnbGc4VFRnbEdubDRDMnc1UjA2aU1yTTk1dHJ5MG9WNWxpbXhKa0diRU1uZ2UyZ19ocXotTi1WUWR2YVhQcm5ZanRyZWd6ZWtRbnFLZ0tUMXdzbU01blZXczlSVy1sMXl0anAwOXFudVBjRUs2ZmhvODJXYkZjVHh2OGlfMUw3ampBYUVBenRiYnM0SUFrZmV5LTFR?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-06T03:34:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ Podkolzin given only fighting major in scrap against Ducks",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMmdDUFRvLXV3cV9HSEdPZGhMaVJoWUh3SjNlR0ZWcE1zQjNCMzhRZFVBczNPOVRFYkFRcGpaMlBwMUk2UG9ZeFMwUGxJOVMtd2J3YzV5UWJfNXExSUVFUTFKbGlaOVp3aDRKb3B6MzJacWVuZEVSMDdkM1hxWFlmXy1vWHlnRXExVVhRbEdISGpDaFRBd3RKdjV6UkFwV0FBdFB6OUVkU19scV9JM0xOa0ItMlZsYmsweU1DdVNxYklYMHljQ25lWUJ2VDlObzQ?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-06T03:33:02Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "ANA@EDM: McDavid scores SHG against Laurent Brossoit",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZkk5VnozcXZHMURwUzYxbzBMUjN1SktBbVl5NVVMNmgzcmIwS25rV0ZMaVBnOGNWNzFRT3lIS3pEZDNuNnFoZl9zdUFOVGswRjFuQU5RRFJWSG5hd2FoMzE1WG54Q3A3dU9oT2U5YkZZSVpmc0dseWhoUDB5LVVpSFlVcmFSd3ZxdW15WGsxMVBuWWNGUnk5aXhkajhHVUk?oc=5",
@@ -94,7 +150,7 @@
    "via": "google"
   },
   {
-   "title": "LIVE UPDATES: Oilers vs. Ducks",
+   "title": "QUICK RECAP: Ducks 5, Oilers 4",
    "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-ducks-11-05-26",
    "source": "EdmontonOilers.com",
    "published": "2026-11-06T01:01:30.504Z",
@@ -125,42 +181,11 @@
    "via": "google"
   },
   {
-   "title": "+[LIVEStrea.m] Ducks vs Oilers Live Free NHL Games On TV Channel Nov 5.2026",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWmtKOEtPa3hIdU5hR1M5bm9MSnVLeXlucU43a1VoTmRQMTFZM0wwcUVFZ3psZm1aZWg0WW9JRmNPWG9vTHJvMzExV2dTZUVmVFI3dFdHM0pNVmdNOGtVWmVKeTY0QkxIcVpsanVhZXhMWW81dXlWNG4tQzBQZFFhbUdqNFhfNkhybDI2RG1GcnJ6QlBP?oc=5",
-   "source": "Oakville News",
-   "published": "2026-11-06T00:54:34Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers on Sportsnet: Edmonton vs. Anaheim",
    "url": "https://www.sportsnet.ca/hockey/nhl/games/34e8bed0-28aa-405d-87cd-23bf7cf85100",
    "source": "Sportsnet",
    "published": "2026-11-06T00:52:04Z",
    "snippet": ""
-  },
-  {
-   "title": "[FREE-TV]**Ducks vs. Oilers Live Strea.m – 11/5/2026",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUnYxTldKNEpOSXN0NkpYTkVZemk4ajR6VVhVRGk0WTYzQUY5dlFuYkdQbWlxM3VJX0tuNWhVR05mWXhlMFZBMW9BcDVxTnV0ZTJEZTlZVU05ZndjMDJSbU1VcjJnempjbXhBUGhMMEJHaXktRzl4cFU1VXg3UDZsLWdHeVYzc291NjM2SmRUa0J2U2FHbEE?oc=5",
-   "source": "StratfordToday.ca",
-   "published": "2026-11-06T00:51:14Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers’ emergency goaltender Brett Epp serves as backup vs. Ducks",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-emergency-goaltender-brett-epp-to-serve-as-backup-vs-ducks/",
-   "source": "Sportsnet",
-   "published": "2026-11-06T00:25:16Z",
-   "snippet": "The Edmonton Oilers will have a new face on the bench as they take on the Anaheim Ducks."
-  },
-  {
-   "title": "New pop-store raises funds for cancer research hockey games in Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNGZXYlpiLWpsemFOWGtSSFFJeExaajhZbFpxZExmNzZ0QWt5UTVYRWVvWDBGR2d0dm1TeEVLRVMxQWI4dlN6SDB0eWIyNFBwLUdGVEctcWFXZ1IzTE9qc1BYVE1QN2h6YTZWTDdVV1l0U2g1NUNnS2FrbWFvaW1JdTQ5RzNTQWFE?oc=5",
-   "source": "CityNews Edmonton",
-   "published": "2026-11-06T00:14:40Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "RELEASE: Howard placed on IR; Epp activated",
@@ -170,36 +195,11 @@
    "snippet": "EDMONTON, AB – The Edmonton Oilers have placed forward Isaac Howard on Injured Reserve and activated emergency back-up goaltender (EBUG) Brett Epp, the team announced Thursday. Epp, 29, was…"
   },
   {
-   "title": "Mike Babcock takes playful jab at Edmonton Oilers reporter",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcHo5Zi1lOEhDNmZ0OU1fS1BGWmZQTWNTeklvNG1MVE82UTd1VXhBbnRIa2VMOWZJaXg2SWdNem8tTER3eVRyLTRNeHE5WnBPQ3RjNHRpdi1Ecmdpb244Uk8xTWNJRzFOT0hhTzBHOTJ5Sm9LVEFHbE9PY05HQU5lUWdPVUxwQkU?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-05T23:29:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Mike Babcock goes off on TSN's Ryan Rishaug in Edmonton today",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYW5sMXktdi1wcHVGa1RBLVM1TUg2UHNRLU5lejdibGYyUmZUVWVBM1VNUXVSem1EcnItWlB2TnY4bzRtYXlnemR1WXNZYWdDWklvM0RzeERkSEw5LWhENEMxbTQzY0w2TkMzNTh2Y2Nzek1QanpyVlV0UVNYa0pzRQ?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-05T22:14:54Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers notebook: Babcock and Quenneville reunite; Gauthier on hat-trick heater",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSzZhM0ZtMjZpVEJ5LVVkMjVCLXVIR1dOTTFKUkFkTDJ3dE5ZRENoY3lIUVNTTVZaZWJQbWt2cVlxUm5mblIzVGZOY1ZmdnlsQzJDTFdxTjFnZm9JS1ZzdXFlQ1hRVDE1T3pRR05TQ3RYMGg3QVFEX3FHMkwyQTRZWHVIdzkwNHFLNFdxaU5ybHVJR2tiOXhLMWlIRjdteHdCU2xUVHVRbw?oc=5",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers-anaheim-ducks-babcock-quenneville-gauthier",
    "source": "Edmonton Journal",
-   "published": "2026-11-05T22:08:34Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "And then there were none: All three Edmonton Oilers starting goalies now knocked out of action",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZEJEVnVqM3N6MlJVZjBEUE9CM1dqWkw4cy1RTDc5aEZ5YUwwYUNFX3lIT01lbWxFemcyLTlxcmtyNl8zcHhRSXlKdFpYSFpWTzVFaDRaX09qcjhtRm5jcWZBVDBuUzBDYk5QQXl6VkJzSldTWUE5MGs5R1dRUEV1bDcxcXY3ZVFrY1BFOVgwV0lQcjdDSFhiYVB2TVhJVFk3bFp1M01hQXc5V2U5aW9pQUlSWG5tSktpdjVNQ081OUVzaGc?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-05T21:33:42Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-05T22:07:13Z",
+   "snippet": "Babcock fully admits that Quenneville was a coaching mentor, starting over two decades ago"
   },
   {
    "title": "No time change no excuse for Oilers' allegedly tardy Babcock",
@@ -221,6 +221,13 @@
    "source": "NHL.com",
    "published": "2026-11-05T19:06:54.747Z",
    "snippet": "DUCKS (7-7-1) at OILERS (11-2-3) 8 p.m. ET; SNW Prime Video+ Ducks projected lineup Alex Killorn -- Leo Carlsson -- Judd Caufield Cutter Gauthier -- Mikael Granlund -- Beckett Sennecke Nico…"
+  },
+  {
+   "title": "And then there were none: All three Edmonton Oilers starting goalies now knocked out of action",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-tristan-jarry-out-sick-mike-baboock-matt-tomkins",
+   "source": "Edmonton Journal",
+   "published": "2026-11-05T18:34:24Z",
+   "snippet": ""
   },
   {
    "title": "RELEASE: EOCF & Alberta Cancer Foundation bring 'The Time Store' to Rogers Place",
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-04T05:05:00Z",
    "snippet": "NEWARK, N.J. -- Jack Hughes had two goals and an assist for the New Jersey Devils in a 4-3 shootout win against the Edmonton Oilers at Prudential Center on Tuesday."
-  },
-  {
-   "title": "Lowe congratulates Nugent-Hopkins on games played record ",
-   "url": "https://www.nhl.com/news/kevin-lowe-congratulates-ryan-nugent-hopkins-on-record",
-   "source": "NHL.com",
-   "published": "2026-11-04T04:08:00Z",
-   "snippet": "Kevin Lowe was happy to see his record broken by Ryan Nugent-Hopkins. The Hockey Hall of Famer congratulated the Edmonton Oilers forward on playing his 1,038th game with the team, passing…"
   }
  ]
 }
