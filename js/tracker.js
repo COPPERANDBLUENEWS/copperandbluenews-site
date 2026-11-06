@@ -193,7 +193,8 @@
   }
   function drawTrail() {
     const L = $("trail"); if (!L) return;
-    const pts = coordEvents();
+    // Last 3 passes only (4 event points). A full-period path crowds the ice.
+    const pts = coordEvents().slice(-4);
     L.innerHTML = "";
     if (pts.length < 2) return;
     const toPts = arr => arr.map(e => { const [x, y] = pos(e); return `${x.toFixed(2)},${y.toFixed(2)}`; }).join(" ");
@@ -201,7 +202,7 @@
     all.setAttribute("class", "trail");
     all.setAttribute("points", toPts(pts));
     L.appendChild(all);
-    const hotN = Math.min(8, pts.length);
+    const hotN = Math.min(3, pts.length);
     if (hotN >= 2) {
       const hot = document.createElementNS("http://www.w3.org/2000/svg", "polyline");
       hot.setAttribute("class", "trail-hot");
@@ -486,7 +487,7 @@
           </button>
         </div>
         <div class="banner" id="banner"></div><div class="rink-msg" id="rmsg" hidden></div></div>
-      <div class="info" id="info">Tap a marker for details. Puck trail follows play-by-play spots · use the expand control for full-screen rink.</div>
+      <div class="info" id="info">Tap a marker for details. Puck trail shows the last few plays · use the expand control for full-screen rink.</div>
       ${replay ? "" : `<div class="odds-slot trk-odds" data-odds hidden></div>`}
       ${replay ? "" : `<div class="card matchup trk-matchup" data-matchup="compact" hidden></div>`}
       ${replay ? `<div class="ctl"><button class="sec" id="rst" aria-label="Restart">⏮</button><button id="play" aria-label="Play">▶</button>
