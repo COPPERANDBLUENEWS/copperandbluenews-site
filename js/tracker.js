@@ -74,7 +74,8 @@
   // ---------- state ----------
   const S = {mode: null, g: null, evs: [], plotted: [], shown: 0, drawn: 0, curT: 0, T: 0, playing: false, speed: 60,
     team: "all", types: new Set(TYPES.map(t => t[0])), period: "all", orient: "fixed", feedAll: false, sel: null, timer: null, raf: null, seen: new Set(), sched: null, live: null,
-    P: {}, puckRaf: null, puckFrom: null, lastPlayId: null, fsFallback: false};
+    P: {}, puckRaf: null, puckFrom: null, lastPlayId: null, fsFallback: false,
+    hlId: null, hlPlaying: false, hlFrom: null, hlTimer: null, hlResume: null};
   const params = new URLSearchParams(location.search);
   if (+params.get("speed")) S.speed = +params.get("speed");
 
@@ -162,7 +163,7 @@
   const colOf = tm => !tm ? "#888" : tm.abbrev === FOCUS ? EDM_COL : OPP_ICE;
   const badgeCol = tm => !tm ? "#888" : tm.abbrev === FOCUS ? EDM_COL : (TEAM_COL[tm.abbrev] || "#1e3a6e");
   const pos = e => { const f = S.orient === "fixed" && e.flipFixed; return [f ? -e.x : e.x, f ? e.y : -e.y]; }; // SVG y grows down
-  const pass = e => e.x != null && S.types.has(e.type) && (S.team === "all" || (S.team === "focus") === e.focus) && (S.period === "all" || (S.period === "OT" ? e.pd.periodType === "OT" : S.period === "SO" ? e.pd.periodType === "SO" : e.pd.periodType === "REG" && String(e.pd.number) === S.period));
+  const pass = e => e.x != null && (S.hlPlaying || (S.types.has(e.type) && (S.team === "all" || (S.team === "focus") === e.focus) && (S.period === "all" || (S.period === "OT" ? e.pd.periodType === "OT" : S.period === "SO" ? e.pd.periodType === "SO" : e.pd.periodType === "REG" && String(e.pd.number) === S.period))));
 
 
   // ---------- puck trail + player markers (discrete PBP coords only; no continuous skating paths) ----------
@@ -189,7 +190,8 @@
   }
   function coordEvents(upto) {
     const n = upto == null ? S.shown : upto;
-    return S.evs.slice(0, n).filter(e => e.x != null && e.y != null && !e.sys);
+    const start = S.hlFrom == null ? 0 : S.hlFrom;
+    return S.evs.slice(start, n).filter(e => e.x != null && e.y != null && !e.sys);
   }
   function drawTrail() {
     const L = $("trail"); if (!L) return;
@@ -387,7 +389,7 @@
   }
   function drawMarks(full) {
     const L = $("marks"); if (!L) return;
-    const list = S.evs.slice(0, S.shown);
+    const list = S.evs.slice(S.hlFrom == null ? 0 : S.hlFrom, S.shown);
     if (full || S.shown < S.drawn) { L.innerHTML = ""; for (const e of list) if (pass(e)) L.appendChild(markEl(e, false)); }
     else {
       const fresh = S.evs.slice(S.drawn, S.shown), anim = fresh.length <= 10;
@@ -458,8 +460,9 @@
   }
   function update(full) {
     const prevShown = S.shown;
-    if (S.mode === "replay") { let n = 0; while (n < S.evs.length && S.evs[n].t <= S.curT) n++; S.shown = n; }
-    else { S.shown = Math.min(S.evs.length, S.liveShown ?? S.evs.length); S.curT = S.evs[S.shown - 1]?.t ?? 0; }
+    if (S.hlPlaying || S.mode !== "replay") {
+      S.shown = Math.min(S.evs.length, S.liveShown ?? S.evs.length); S.curT = S.evs[S.shown - 1]?.t ?? 0;
+    } else { let n = 0; while (n < S.evs.length && S.evs[n].t <= S.curT) n++; S.shown = n; }
     const advanced = S.shown !== prevShown;
     if (S.shown !== S.drawn || full) {
       drawMarks(full); feed(); endLabels(); header();
@@ -471,6 +474,100 @@
       if (S.mode === "replay") updateTracer(false, false);
     }
     if (S.mode === "replay") scrubUI();
+  }
+
+  // ---------- goal highlights (short rink clips of the last few passes into a goal) ----------
+  function highlightEvents() { return S.evs.filter(e => e.type === "goal" && !e.sys); }
+  function highlightUrl(id) {
+    const u = new URL(location.href);
+    for (const k of [...u.searchParams.keys()]) if (k !== "mode" && k !== "id") u.searchParams.delete(k);
+    if (S.mode === "replay" && S.g?.id) { u.searchParams.set("mode", "replay"); u.searchParams.set("id", String(S.g.id)); }
+    else { u.searchParams.delete("mode"); u.searchParams.delete("id"); }
+    u.searchParams.set("hl", String(id));
+    return u.toString();
+  }
+  function renderHighlights() {
+    const el = $("hls"); if (!el) return;
+    const goals = highlightEvents();
+    if (!goals.length) { el.hidden = true; el.innerHTML = ""; return; }
+    el.hidden = false;
+    const rows = goals.slice().reverse().map(e => {
+      const who = S.P[e.d.scoringPlayerId];
+      const name = who?.short || "Goal";
+      const asts = [e.d.assist1PlayerId, e.d.assist2PlayerId].filter(Boolean).map(id => S.P[id]?.short).filter(Boolean);
+      const str = strength(e);
+      const meta = [str, asts.length ? asts.join(", ") : "Unassisted"].filter(Boolean).join(" · ");
+      return `<div class="hls-item${S.hlId === e.id ? " on" : ""}" data-hl="${e.id}">
+        <span class="ab" style="background:${badgeCol(e.tm)}">${esc(e.tm?.abbrev || "")}</span>
+        <div class="hls-d"><b>${esc(name)}</b><small>${esc(pName(e.pd))} ${esc(e.tip || "")}${meta ? " · " + esc(meta) : ""}</small></div>
+        <button type="button" class="hls-play" data-hl="${e.id}" aria-label="Play highlight">▶</button>
+        <button type="button" class="hls-share" data-hl="${e.id}" aria-label="Copy highlight link">Share</button>
+      </div>`;
+    }).join("");
+    el.innerHTML = `<div class="feed-h"><h2 class="sub">Highlights</h2><span class="meta">${goals.length} goal${goals.length === 1 ? "" : "s"}</span></div><div class="hls-list">${rows}</div>`;
+  }
+  async function copyHighlight(id, btn) {
+    const url = highlightUrl(id);
+    try { await navigator.clipboard.writeText(url); }
+    catch {
+      const ta = document.createElement("textarea"); ta.value = url; document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); } finally { ta.remove(); }
+    }
+    if (btn) { const old = btn.textContent; btn.textContent = "Copied"; setTimeout(() => { if (btn.textContent === "Copied") btn.textContent = old; }, 1600); }
+  }
+  function stopHighlight(resume) {
+    clearInterval(S.hlTimer); S.hlTimer = null;
+    clearTimeout(S.hlResume); S.hlResume = null;
+    S.hlPlaying = false; S.hlFrom = null; S.hlId = null;
+    if (resume && S.mode !== "replay") S.liveShown = null;
+    if (resume) update(true);
+    if (resume && $("info")) $("info").innerHTML = "Tap a marker for details. Puck trail shows the last few plays · play a highlight below · use the expand control for full-screen rink.";
+    renderHighlights();
+  }
+  function playHighlight(id) {
+    const idx = S.evs.findIndex(e => e.id === id);
+    if (idx < 0) return;
+    clearInterval(S.stag);
+    if (S.playing) setPlaying(false);
+    const located = [];
+    for (let i = 0; i <= idx; i++) {
+      const ev = S.evs[i];
+      if (ev.x != null && ev.y != null && !ev.sys) located.push(i);
+    }
+    let seq = located.slice(-4);
+    if (!seq.includes(idx)) seq = seq.concat([idx]);
+    const start = seq[0];
+    clearInterval(S.hlTimer); clearTimeout(S.hlResume);
+    S.hlId = id; S.hlPlaying = true; S.hlFrom = start;
+    S.puckFrom = null; S.lastPlayId = null;
+    S.liveShown = start + 1; S.drawn = 0;
+    update(true);
+    renderHighlights();
+    const ev = S.evs[idx];
+    const who = S.P[ev.d?.scoringPlayerId]?.full || "Goal";
+    if ($("info")) $("info").innerHTML = `Playing highlight · ${esc(ev.tm?.abbrev || "")} · ${esc(who)}`;
+    if (seq.length === 1 && ev.type === "goal") fx(ev);
+    let k = 0;
+    const stepMs = reduceMotion() ? 80 : 750;
+    S.hlTimer = setInterval(() => {
+      k++;
+      if (k >= seq.length) {
+        clearInterval(S.hlTimer); S.hlTimer = null;
+        select(id);
+        S.hlResume = setTimeout(() => stopHighlight(true), 2800);
+        return;
+      }
+      S.liveShown = seq[k] + 1;
+      update(false);
+    }, stepMs);
+  }
+  function maybePlayHlFromUrl() {
+    const raw = params.get("hl");
+    if (!raw || S._hlBooted) return;
+    const id = +raw;
+    if (!S.evs.some(e => e.id === id && e.type === "goal")) return;
+    S._hlBooted = true;
+    playHighlight(id);
   }
 
   // ---------- page skeleton ----------
@@ -487,7 +584,8 @@
           </button>
         </div>
         <div class="banner" id="banner"></div><div class="rink-msg" id="rmsg" hidden></div></div>
-      <div class="info" id="info">Tap a marker for details. Puck trail shows the last few plays · use the expand control for full-screen rink.</div>
+      <div class="info" id="info">Tap a marker for details. Puck trail shows the last few plays · play a highlight below · use the expand control for full-screen rink.</div>
+      <div class="hls" id="hls" hidden></div>
       ${replay ? "" : `<div class="odds-slot trk-odds" data-odds hidden></div>`}
       ${replay ? "" : `<div class="card matchup trk-matchup" data-matchup="compact" hidden></div>`}
       ${replay ? `<div class="ctl"><button class="sec" id="rst" aria-label="Restart">⏮</button><button id="play" aria-label="Play">▶</button>
@@ -504,6 +602,13 @@
     $("rink").addEventListener("click", ev => { const m = ev.target.closest(".mk"); if (m) select(+m.dataset.id); });
     $("pbp").addEventListener("click", ev => { const r = ev.target.closest(".pe[data-id]"); if (r) select(+r.dataset.id, true); });
     $("more").onclick = () => { S.feedAll = !S.feedAll; feed(); };
+    const hls = $("hls");
+    if (hls) hls.onclick = ev => {
+      const share = ev.target.closest(".hls-share");
+      if (share) { ev.preventDefault(); ev.stopPropagation(); copyHighlight(+share.dataset.hl, share); return; }
+      const play = ev.target.closest("[data-hl]");
+      if (play) playHighlight(+play.dataset.hl);
+    };
     bindFs();
     if (replay) {
       $("play").onclick = () => { if (!S.playing && S.curT >= S.T) { S.curT = 0; update(true); } setPlaying(!S.playing); };
@@ -563,7 +668,9 @@
     const t0 = params.get("t"); S.curT = t0 != null && params.get("id") == id ? Math.min(S.T, Math.max(0, +t0)) : 0;
     S.drawn = 0; update(true);
     note(`Replay of a completed game, animated in game time (${FOCUS} always shoots right in “${FOCUS} →” view)`);
-    if (params.get("autoplay") !== "0") setPlaying(true);
+    renderHighlights();
+    maybePlayHlFromUrl();
+    if (!params.get("hl") && params.get("autoplay") !== "0") setPlaying(true);
   }
   async function live(gm) {
     S.mode = "live"; skeleton(false);
@@ -582,6 +689,7 @@
         try { const lj = await getJSON("data/live.json"); if (lj.game?.id === gm.id) gm = {...gm, ...lj.game}; } catch {}
         S.timer = setTimeout(tick, new Date(gm.startTimeUTC) - Date.now() < 3600e3 ? 60000 : 300000); return;
       }
+      if (S.hlPlaying) { S.timer = setTimeout(tick, POLL_MS); return; }
       msg("");
       const first = !S.evs.length; const prevIds = new Set(S.evs.map(e => e.id));
       const prevG = S.g;
@@ -616,6 +724,8 @@
         if (S.periods.length !== (prevG.__np || 0)) filters();
       }
       g.__np = S.periods.length;
+      renderHighlights();
+      maybePlayHlFromUrl();
       const age = g.fetched ? Math.round((Date.now() - new Date(g.fetched)) / 1000) : null;
       note(`Live: NHL data relayed by this site's GitHub Actions loop${age != null ? ` · last NHL fetch ${age < 90 ? age + " s" : Math.round(age / 60) + " min"} ago (${new Date(g.fetched).toLocaleTimeString("en-US", {timeZone: "America/Vancouver", hour: "numeric", minute: "2-digit", second: "2-digit"})} PT)` : ""} · expect roughly 2-4 min behind the broadcast · this page re-checks every ${POLL_MS / 1000} s`);
       if (isLive(g.gameState) || (!isFinal(g.gameState) && new Date(g.startTimeUTC) - Date.now() < 3600e3)) S.timer = setTimeout(tick, POLL_MS);
