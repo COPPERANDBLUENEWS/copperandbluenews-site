@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-06T07:54:14Z",
+ "updated": "2026-11-06T09:33:40Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (7)",
-  "Google News (92)"
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "QUICK RECAP: Ducks 5, Oilers 4",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lbWZhUldMT0p6aEFJcTcwc2dtYy1DWHpUM0VTakF3RXZ0SFRReV95NFFEVVhOQjJDcTNzMDV6X29WWE1hcUZ1QWZId0xCTjRkWVNUcHNDRXNmQTFBSVVnM2VvbktrVXFvdEhhdHMxZ1ZJWVphNkx5Mg?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-06T07:35:50Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd3NvQmRTS2Nha091RWFkS3V0UTY2QnhxRUY5d0JhcG9zcWtMS0d2VjJVRTJGc090R0duOTg1ODhsdHd4dDRhU3lUQnJuMUVCTy01Q09lX0s2cXBkWjYyU3c0UElPdzZDNC1rU1VGM25zRmVCbVdTWURRd2hrT3dhM0Y3cDl6WHNC?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-06T07:35:36Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers’ Podkolzin Ejected for One-Man Fight After Hit on McDavid",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdjdCUGExeG9ORHdBMUFOQy1qM2hPRklHc05kcXA1TFVaX2UzTVlWZ29LUU01cXhWWjNJUjN5S1Itd01VQnItZWNZSXE3QVEzQ0c5OW5FN1c5bmpHSEVOakRPQUtJTjRwcnFPbEc5SUlZMWFCNUVGOTVObHQtTTVpel9WNlo3MkhwTlpwNzFjenpINjRSQm1SMWNiZmgtRjFueU5NSVlWbW9oZw?oc=5",
@@ -17,26 +33,10 @@
    "via": "google"
   },
   {
-   "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR3JqZlFaTllRV0ZPamNWTEduaWlTbnlQVjVXb0R5Sk96aTBGc1lPaTF3ZFNKbE04cmx1SFl3MTAyWXBXaGxXZHJDck0tMTJBcWNlQjB4d3Z6bmV2am05bTBwamxMZnVjNEpWSUI5a015bkZBTWxVY1UzUXRwdFJQbWhfSlFzV3pJdWJNLWlET21JQmp3ODA5dGt3?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-06T06:36:25Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "McDavid continues torrid pace following 'dangerous' hit from Helleson of Ducks",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGU1SU4zNHZpM0p2TFVaVjVva0piQUw3eGlMSUlFNk1vS1p1ZUpsNk9MRnZXamlHM0Iyb2lhQ0swdTM0RzliMmJuaGlDUGlrX0dvTlNsZUh0VTd2TUJ5eTlIOEtxSE43THVPem1CeG9kbXBTd2tDcEZwV2JGMUdZRkpwb3BUM3otbGl3cmQ3VTNqRlpaajNVdDNWYzhpcEotZEk4RzdNNng?oc=5",
    "source": "NHL.com",
    "published": "2026-11-06T06:20:27Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Instant reaction: Oilers drop fiery 5-4 decision to Ducks amid penalty parade",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOemlXSzNvTjRRajZVTEpzNEJiOFVfVHJacjQ5UWQ3bHFLX1hVLVRMR2pscnNnek9Xa2xvS3psUm8xVW93MDJsZ1RBdThITTVabmEtcE1GOHhBcUJySkZobThWTVNZaUxIeFNYd2E1bVNxSV9NbmJwc2JDSkRVVDU3cTNlMFVSX0RRcElNWHZRbHFFRzZvOWw3RHg1UEhZbmJGTVFMaHNwWmR4STZJ?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-06T05:57:23Z",
    "snippet": "",
    "via": "google"
   },
@@ -77,14 +77,6 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTnd6T2JPUTJiUGRJZ0szV19hTkVab2xKWlJzUm5YTVd1RUpzWXRpVzVSQU5UX3J4SWdSQXBVYW5Ca2NUNHdOWG5BdGNJSGdiT1FHWWlJakJTNEtjV3l6b2NiT1RORG9JOFlfdnBQc3NBT19relh5YS0zTV9zTGdkb0FnUGc1eXBrajdvcmM2YXdpZw?oc=5",
    "source": "Sportsnet.ca",
    "published": "2026-11-06T04:44:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "QUICK RECAP: Ducks 5, Oilers 4",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lbWZhUldMT0p6aEFJcTcwc2dtYy1DWHpUM0VTakF3RXZ0SFRReV95NFFEVVhOQjJDcTNzMDV6X29WWE1hcUZ1QWZId0xCTjRkWVNUcHNDRXNmQTFBSVVnM2VvbktrVXFvdEhhdHMxZ1ZJWVphNkx5Mg?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-06T04:35:25Z",
    "snippet": "",
    "via": "google"
   },
@@ -163,6 +155,14 @@
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQnJvR2lEWU1oV0JaYkpROGpFSThvc0JudzdLMldkU2UzbXJqWTRIMk9iNm53NnNvZ18tUE9DSHhXNXRmZHNyZzhHZXV3bElpM0RrMWRLdmFTVzFPTlZlRmZ1cDBhckphb1haWDY0aGpzcFNHb1JVN2FMZHNMZjJFbGNEclpaY05sUXBiRkZn?oc=5",
    "source": "Global News",
    "published": "2026-11-06T03:58:09Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Bouchard becomes fastest defenceman in Oilers history to hit 10 goals",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSndFUXdsT2YyRDF5NDEtblhaT0RGVmpYYWY4YjRrUWFXeUs5d1NzOFVRX0lHdms5aDFsYTRKT2I0X0o2aTl1eF9MVWFZdllDOThhUHY4SkhGdVJKMTNobkw3Zm42VmM0RnB5VzdhRWpyRFlwWF9pN0RyY01JRUdjc0pMMlFCRGxLdjJ1N002dUsta09xRHFyOUxILUVCOGdySWlMNTBWN2xSMkU?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-06T03:53:00Z",
    "snippet": "",
    "via": "google"
   },
