@@ -1,13 +1,42 @@
 {
- "updated": "2026-11-06T01:50:11Z",
+ "updated": "2026-11-06T02:05:44Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (3)",
+  "Sportsnet (6)",
   "Google News (88)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers fans give Nugent-Hopkins standing ovation for setting team record",
+   "url": "https://www.nhl.com/news/oilers-fans-give-ryan-nugent-hopkins-standing-ovation",
+   "source": "NHL.com",
+   "published": "2026-11-06T02:03:00Z",
+   "snippet": "Edmonton Oilers fans were excited to celebrate their longest-tenured player on Thursday. Ryan Nugent-Hopkins received a standing ovation from fans at Rogers Place after becoming the…"
+  },
+  {
+   "title": "Oilers' Podkolzin receives game misconduct vs. Ducks",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTnd6T2JPUTJiUGRJZ0szV19hTkVab2xKWlJzUm5YTVd1RUpzWXRpVzVSQU5UX3J4SWdSQXBVYW5Ca2NUNHdOWG5BdGNJSGdiT1FHWWlJakJTNEtjV3l6b2NiT1RORG9JOFlfdnBQc3NBT19relh5YS0zTV9zTGdkb0FnUGc1eXBrajdvcmM2YXdpZw?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-06T01:52:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers honour Nugent-Hopkins for becoming franchise leader in games played",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-honour-nugent-hopkins-for-becoming-franchise-leader-in-games-played/",
+   "source": "Sportsnet",
+   "published": "2026-11-06T01:50:15Z",
+   "snippet": "Watch as the Edmonton Oilers honour Ryan Nugent-Hopkins with a video tribute and fans give him a standing ovation after he becomes the franchise’s all-time leader in games played."
+  },
+  {
+   "title": "Oilers’ Podkolzin ejected for fight in effort to defend McDavid",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-podkolzin-ejected-for-one-man-fight-defending-mcdavid/",
+   "source": "Sportsnet",
+   "published": "2026-11-06T01:40:50Z",
+   "snippet": "Watch as Edmonton Oilers forward Vasily Podkolzin goes after Anaheim Ducks defenceman Drew Helleson after he landed a big hit on Connor McDavid, but was ejected from the game due to the…"
+  },
   {
    "title": "LIVE UPDATES: Oilers vs. Ducks",
    "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-ducks-11-05-26",
@@ -41,8 +70,8 @@
   },
   {
    "title": "+[LIVEStrea.m] Ducks vs Oilers Live Free NHL Games On TV Channel Nov 5.2026",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdy1uaDlNbm1VSnNweGNrOXBZRFhlQkNzQ05pN184RGlFZnpubi03MGRDUWc3eVBNXy1FeDl3Z2lsLXoybWJSWEpMY1NISU5oNnl0WnpxOXRWLTM5WmNDVmRzM04wazNFcGlnTlJwRXk5Q2h6bHpPclVuaTllRENjZkhNRVNDdDlDbU9fd2l6Wmg4cVE1RFE?oc=5",
-   "source": "MooseJawToday.com",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWmtKOEtPa3hIdU5hR1M5bm9MSnVLeXlucU43a1VoTmRQMTFZM0wwcUVFZ3psZm1aZWg0WW9JRmNPWG9vTHJvMzExV2dTZUVmVFI3dFdHM0pNVmdNOGtVWmVKeTY0QkxIcVpsanVhZXhMWW81dXlWNG4tQzBQZFFhbUdqNFhfNkhybDI2RG1GcnJ6QlBP?oc=5",
+   "source": "Oakville News",
    "published": "2026-11-06T00:54:34Z",
    "snippet": "",
    "via": "google"
@@ -157,14 +186,6 @@
    "via": "google"
   },
   {
-   "title": "Fans brawl during Oilers-Devils game as one man takes on entire group for chirping about Canada",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZFJ1VHVuWWhqU1RWdDZTRVBqTkt1UW81VTBVVlhCZnlBUHhScVNqU0FJZG8yUEpvbi04eFBCYWVSYWk0SzlHeTVhdkwtOV8wX1FyeWt4b1F5NHdzaXN5TUlqTTVfaW9wM3dmQTNXZ0FueThPcjNtb05hQVhXQ2RtUmxXSElZbjg?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-05T20:27:14Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "PREVIEW: Ducks Look to Carry Momentum Into Road Trip Matchup Against Oilers",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONUJDdmpUUUYyZjA0ZGN3UGpuZEpkTWlaTzg5TmlOVXRPcFQybGlleHExQnNQSlNSZFFPaVJNc2t2d1lCV29uS285M0ZkZjRiZjloaHJzajBNUEhSLWZURlZ5Zl9iVnRZUlk5WEJfR3VpREtraUVYeGdJbmhZbzJXQkIxaE01RjduaTRnUWRiQnlmOE95OTM0Uk5aVlZoQldOWEE4cGFxMFM?oc=5",
    "source": "NHL.com",
@@ -256,27 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-04T04:08:00Z",
    "snippet": "Kevin Lowe was happy to see his record broken by Ryan Nugent-Hopkins. The Hockey Hall of Famer congratulated the Edmonton Oilers forward on playing his 1,038th game with the team, passing…"
-  },
-  {
-   "title": "New Jersey Devils remind Edmonton Oilers that 40 minutes isn't enough",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/new-jersey-devils-remind-edmonton-oilers-that-40-minutes-isnt-enough",
-   "source": "Edmonton Journal",
-   "published": "2026-11-04T03:36:56Z",
-   "snippet": ""
-  },
-  {
-   "title": "New Jersey Devils organization taunts Canadian hockey fans in shootout win over Oilers: player grades",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/player-grades-new-jersey-devils-taunt-canadian-hockey-fans-in-njs-shootout-win-over-oilers",
-   "source": "Edmonton Journal",
-   "published": "2026-11-04T03:19:34Z",
-   "snippet": ""
-  },
-  {
-   "title": "QUICK RECAP: Devils 4, Oilers 3 (SO)",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-devils-11-03-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-04T00:34:21.776Z",
-   "snippet": "NEWARK, NJ – Despite a 31-save performance from Tristan Jarry and a two-goal comeback helped by a goal & assist from Ryan Nugent-Hopkins on his record-setting night, the Edmonton Oilers…"
   }
  ]
 }
