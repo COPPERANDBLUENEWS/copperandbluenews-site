@@ -1,13 +1,77 @@
 {
- "updated": "2026-11-06T04:35:44Z",
+ "updated": "2026-11-06T05:36:18Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (6)",
-  "Google News (91)"
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers' McDavid passionate in response to 'dangerous' hit",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQamVoTk0tMV9pV21zWjc0al85VDZLOF9IdG54TGd1d2JRYXVOTkxnMDlPZWJzN3FxaVRoRzJlb2ZKbUtGSTIxWWQ1el9pUVRHbnh4cXk0em1UTDJwbDBVRDN3YU0xYVBSYkQtWkFpZVF6bFFEZmlyYkg5Ym8xb2dFVldlSEFIQWJxa2NOZFA1czQ2dk5nU3NF?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-06T05:27:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid unhappy after ‘dangerous’ play that drove him into net",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWUlZeDQ3UkpLeE5heUxPbXZkeC1qNlFDVktrcU1NS1BhOUNMbENxTUl4WXZWSENwRkNyY29vbTdNa2hsRzRPRTdYVDQ2R3ppelpzelk1aG5fYkNMQ3JBWGlJTmhHT3c2eFBRRFpqaVRQVzBSYjNRYUlMWWVVMzdmYldUMlFYMGduV3ViTU9mWF9fQ2RBRDVJ?oc=5",
+   "source": "TSN",
+   "published": "2026-11-06T05:00:55Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid Scare Overshadows Oilers’ 5-4 Loss to Ducks: \"Too Close to Home For Me\"",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS2lXNGdnRzJxSDJ2d1kwcnZTN2ZnRnhsZmdNdjRvdTN6Ty1tek4zWTdpZ2JxTU1VT0tNaWpIZXFWUTNpNVNVSVFXQmlYLTAzb1dRcWhRdjJEZ0VPWExrTHBFQS1XOU10MW5GbUkwTzBXNE82QWpSMDV1LWh2VUJONlN6Y0VRaGlB?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-06T04:58:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers' Podkolzin receives game misconduct vs. Ducks",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTnd6T2JPUTJiUGRJZ0szV19hTkVab2xKWlJzUm5YTVd1RUpzWXRpVzVSQU5UX3J4SWdSQXBVYW5Ca2NUNHdOWG5BdGNJSGdiT1FHWWlJakJTNEtjV3l6b2NiT1RORG9JOFlfdnBQc3NBT19relh5YS0zTV9zTGdkb0FnUGc1eXBrajdvcmM2YXdpZw?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-06T04:44:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Gauthier strikes again to help the Ducks beat the Oilers, 5-4",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNlphWHY3U18wLU9fV2N6WjV2X1V4aWNRNVFIdjBSQ2duNl9PbnFRMjlqTk56MzdBOVBKcnIzSGtza0VrOVdWM1RaQWlIY2VieUh0OHpoQzZKb1ZnXzl3N2Fwd1BrclBxbWd2MWJCTWdtaFNKODNVX1k3YVdkS3dVRQ?oc=5",
+   "source": "ABC7 Los Angeles",
+   "published": "2026-11-06T04:38:33Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "QUICK RECAP: Ducks 5, Oilers 4",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lbWZhUldMT0p6aEFJcTcwc2dtYy1DWHpUM0VTakF3RXZ0SFRReV95NFFEVVhOQjJDcTNzMDV6X29WWE1hcUZ1QWZId0xCTjRkWVNUcHNDRXNmQTFBSVVnM2VvbktrVXFvdEhhdHMxZ1ZJWVphNkx5Mg?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-06T04:35:25Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers first NHL team to dress a full-time emergency backup goalie",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ2E4OU95YmNiRG0wMC1ydk5NdzZtRXc3MUxBU0s3d01tNjZhZ2NXZjZ6Ym1lMTBYT2p0WG9mZlF3bV8yMWJrMGtFOXZIaFAzUVBWaDJ4Uks3ZEh3M2pUNWtaQ0xWeWhMT21QU3RXX1VMNkJsdHVWVnRqSU9WN041LWF3V1RSMTAyakN0cElwYnp5SWphanF4TGs0T05ucTgwdjA4bFFVbVFYYkc1M2poNkd2eGQyYU42MWc?oc=5",
+   "source": "巴士的報",
+   "published": "2026-11-06T04:27:04Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Cutter Gauthier strikes again as Ducks edge Oilers",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdWViVUY4STdxUGY2cDVRN0hvd0llS2tBcXdoR1dUZ1hubjJTV3lXem1xaVREVmh3SHBkRXRESEFyQWxOOC1SNWtMQ3g4Qm43UWU3SVQtQWJBcVlYYllUMHBNLWYyV19VMVFacnFCZ0JjV25pX2ZseEpkX3NKYjdObnRrYncxdFJSTjhFeXNhZmJZMVE?oc=5",
+   "source": "Orange County Register",
+   "published": "2026-11-06T04:25:47Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd3NvQmRTS2Nha091RWFkS3V0UTY2QnhxRUY5d0JhcG9zcWtMS0d2VjJVRTJGc090R0duOTg1ODhsdHd4dDRhU3lUQnJuMUVCTy01Q09lX0s2cXBkWjYyU3c0UElPdzZDNC1rU1VGM25zRmVCbVdTWURRd2hrT3dhM0Y3cDl6WHNC?oc=5",
@@ -21,14 +85,6 @@
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY2VwVlNQRG41UmhKOUJ3dU9fQlgxQWtWMG90UWpPUTl3YTkzZVlkRjFCZ3RSbGlSYkFGdHR5OEduYWYzaHBxM3Bwb2d4MENkMWQtalhaTENCaHZtVWtNbm1XcVJYa2p2RVI1Z0ktdko1SjNLTTZJWWxXSXBoaFJKYjdLWXBMNG8tbnZZNkhaQ0NMLW9ORU1paFNrODRJak8wb2ZTVkVHS1ZKUkI0Q01NRXRaUDUyQ2kyRkNrZWVsMDNnaVU?oc=5",
    "source": "Castanet",
    "published": "2026-11-06T04:19:57Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Gauthier strikes again to help the Ducks beat the Oilers, 5-4",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLVlWaFFSWFdwd2R5UGhqb1dwQk1NOVFXNGtQenE3eUFBQWl5YkhKeHJpYVFOYkxyMnN3dFBlcVVRVE5HTmI2SzNYX3M0S3VhaTNLakdaZTZEemg1aTN1UF8xVFE4V1RoTHNWZVE5S0VCak5fTzN5ck5maVVVNEk0NEk5eG96WXRkb01QV1lKRmJGTzNnRHllSm1iNmI0UGRJSm9vTjZDTDNmZ09UZFRfWkpB?oc=5",
-   "source": "巴士的報",
-   "published": "2026-11-06T04:12:51Z",
    "snippet": "",
    "via": "google"
   },
@@ -64,6 +120,14 @@
    "via": "google"
   },
   {
+   "title": "Oilers fall 5-4 to Ducks to lose second straight",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQnJvR2lEWU1oV0JaYkpROGpFSThvc0JudzdLMldkU2UzbXJqWTRIMk9iNm53NnNvZ18tUE9DSHhXNXRmZHNyZzhHZXV3bElpM0RrMWRLdmFTVzFPTlZlRmZ1cDBhckphb1haWDY0aGpzcFNHb1JVN2FMZHNMZjJFbGNEclpaY05sUXBiRkZn?oc=5",
+   "source": "Global News",
+   "published": "2026-11-06T03:58:09Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Podkolzin gets his punches in but Edmonton Oilers wind up on the canvas",
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNE9scUdZNno4eFJmZm11WnMzb243S0hOakZuejhWYzBEMm54ZUYtamZvRlA4STZGX1Fna1VkbUdwZUI3eFE0YnZiY2tIVVExS0o1OVhhZUFVQUV0YUdTOHh0UGN5czdxdV9HdUVJNVZZdDl0MV95NFNaTHRFYmQ1eWVENUkzYV85bTlpWlAtazB2X0x3eGlRMjlaelZ3R0k5aHNsXzY2clMtZXlrS3pWUWZVbmJHS2FsRWNfME9hVDVNMDZ1V3FXdGRNeUVIUQ?oc=5",
    "source": "Edmonton Journal",
@@ -72,10 +136,10 @@
    "via": "google"
   },
   {
-   "title": "Ducks Beat Oilers 5-4 as Sennecke and Mintyukov Score Twice",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONHRyYndza01rREEtWEZVeDEtYWt2ZGtfZkdUWmszUEM5YUpFUWN1eDRxUEVocEtfdnhtdDdXaF8yaDRGSzJ0X0FNU1pWSHZmdmFOYXJUcXdlRTdXaENpZmFZekg2Qm13OUJNbUNtcVNoQ19RalA4TnRGVld0Z0JqMDVHNThjdTJnUnhtMjFDU3NlRUY2aGo4ZGJPc1gyc0xvOXoyekVGejVYRVd1N3FhMEhCdmdSTXZG?oc=5",
-   "source": "Yardbarker",
-   "published": "2026-11-06T03:54:14Z",
+   "title": "Brett Epp serves as backup as Oilers become first team to dress full-time EBUG",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdldpNV9xaFEtWjFiWW5VbndSdGVEbmNlenBBZm03R1ZMUEEtVV96SGp3Wl82b2k4UW9BWHVRV2Rta0V4NjVTNFlFVnRpdlJDcm9JbHJkWkhtNWFWRFhLeTFHYlZwZjR6cDJNcVU1MVJJeExWc2p4Mk5rRmFZT1dyeW9TYjRKMzZaTC0zYVMtclB3dUJqS01PWEVib09sdmZlalUyUE5oZTlWOHhQbHVicjdRaDVCOTY2OGxhNDM4MA?oc=5",
+   "source": "Castanet",
+   "published": "2026-11-06T03:51:43Z",
    "snippet": "",
    "via": "google"
   },
@@ -96,70 +160,6 @@
    "via": "google"
   },
   {
-   "title": "Cutter Gauthier with a Powerplay Goal vs. Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPendWTUplQXoxczh2aU5KbW04eHIxSHhSNHFpT2tQaGJBS0kxcktZV19vajhuWVhCekR3cFFvdHJGZXJkWTkweTJJdEc5RWIwV1BpMGhlLS05SkUzYkh6dWh1akl5Zk9oV2RxWXR5M3ljbFN0MkFvY2NISk9hQVRhSzllNmd3Nk0?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-06T03:48:43Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Anaheim Ducks at Edmonton Oilers - NHL Game Summary - Nov 05, 2026",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbVdUVFd2ZXptaXNhU3VlOXloU2Y3UFZxZFVySWlFaHd6T1FqNGZOV0Q3T3ZUbGNSR2VhS1puRmJLdGJZYXNpY3ViLXNGZE9hS3pkS2dYOVVvX0NDeVZ0RHNUVVVsbENSTk1jeUtaTjF5ajhDSTZyUEZ4bFVEdFRVdmM0NldKNXVaa0l4M05Uc1p1TUs3cWhqWFUya1RWaERtZFIwZGlMY1hzOGVMR0I5akladlpnVDRPX3lyNVZCeWxoMnhnc0NNWFRPUV9BeF93V1Bvc29NSmdUTC03SDdBS181OVdnS0VaR3lDRXFPcw?oc=5",
-   "source": "USA Today",
-   "published": "2026-11-06T03:48:28Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Brett Epp serves as backup as Oilers become first team to dress full-time EBUG",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZlhoZklVVVRvTkpVZkdiQmxXUFQ4aFFJbWNTelBPQWFxVWMzNjJuOWh0T04xSFRHZ3lPbTRZQ1dCa2VSeEVUaWFSRWJUXzgxd2Rkc1ZOLXduWDVNZTJ6TGpvOUNXRTg0REdXdWE4UzNpbXhEZmNTdXBYci1kVEhPWDdoU2lSY1dxWU56TEVVZVhiWDF4ekctVjNtSko1a1Vfbnh2bTRBWFdtQzZzQldONFlZOThmR0hm?oc=5",
-   "source": "NanaimoNewsNOW",
-   "published": "2026-11-06T03:43:06Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Could Kucherov Actually Come to Edmonton?",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa3RGcUJKeUpFMG84c21kS09JQ1ZHSHRhd1hZNmNQSmdjakJUWWhIdEN5bU80RTN6eU9aWWlaUlg5TmFPeUp2VzdBU0VkQ1p2eU9pUnRBRWlNeVZjUmNaeUxHSi1fNWZBYVYtcFdhZGZMRlVONWJSRG1oVHJISDVxOHlHR3VwTU00X0M0R2FwMV8zdUN2MDBJU193?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-06T03:39:03Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers' emergency goaltender Brett Epp serves as backup vs. Ducks",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNemZTTzZQT21SdUJnbGc4VFRnbEdubDRDMnc1UjA2aU1yTTk1dHJ5MG9WNWxpbXhKa0diRU1uZ2UyZ19ocXotTi1WUWR2YVhQcm5ZanRyZWd6ZWtRbnFLZ0tUMXdzbU01blZXczlSVy1sMXl0anAwOXFudVBjRUs2ZmhvODJXYkZjVHh2OGlfMUw3ampBYUVBenRiYnM0SUFrZmV5LTFR?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-06T03:34:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers’ Podkolzin given only fighting major in scrap against Ducks",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMmdDUFRvLXV3cV9HSEdPZGhMaVJoWUh3SjNlR0ZWcE1zQjNCMzhRZFVBczNPOVRFYkFRcGpaMlBwMUk2UG9ZeFMwUGxJOVMtd2J3YzV5UWJfNXExSUVFUTFKbGlaOVp3aDRKb3B6MzJacWVuZEVSMDdkM1hxWFlmXy1vWHlnRXExVVhRbEdISGpDaFRBd3RKdjV6UkFwV0FBdFB6OUVkU19scV9JM0xOa0ItMlZsYmsweU1DdVNxYklYMHljQ25lWUJ2VDlObzQ?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-06T03:33:02Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers become first team to dress full-time EBUG",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeDlBZ2RhVTYtYndNRkFVZ0R2ci1yQjhGdGtiNnk2MGYtaDlMU2xWWVotZDlCQU13b2tKRVVuY3ktaEpybWtmQTYydlBmUXR2bnNrdmRGdm9lYzNYVnl4d1U4bzltREVsem5PTzF2dmJRTW5uekhKR2EzNkpuYjNtQUJGZ1VLRnNxLV9mazJB?oc=5",
-   "source": "Global News",
-   "published": "2026-11-06T03:27:49Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-06T03:20:47Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Gotta See It: Oilers’ McDavid scores spectacular shorthanded goal vs. Ducks",
    "url": "https://www.sportsnet.ca/nhl/video/gotta-see-it-oilers-mcdavid-scores-spectacular-shorthanded-goal-vs-ducks/",
    "source": "Sportsnet",
@@ -172,13 +172,6 @@
    "source": "NHL.com",
    "published": "2026-11-06T02:03:00Z",
    "snippet": "Edmonton Oilers fans were excited to celebrate their longest-tenured player on Thursday. Ryan Nugent-Hopkins received a standing ovation from fans at Rogers Place after becoming the…"
-  },
-  {
-   "title": "Oilers’ Podkolzin receives game misconduct vs. Ducks",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-podkolzin-receives-game-misconduct-vs-ducks/",
-   "source": "Sportsnet",
-   "published": "2026-11-06T01:51:51Z",
-   "snippet": ""
   },
   {
    "title": "Oilers honour Nugent-Hopkins for becoming franchise leader in games played",
@@ -195,11 +188,11 @@
    "snippet": "Watch as Edmonton Oilers forward Vasily Podkolzin goes after Anaheim Ducks defenceman Drew Helleson after he landed a big hit on Connor McDavid, but was ejected from the game due to the…"
   },
   {
-   "title": "QUICK RECAP: Ducks 5, Oilers 4",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-ducks-11-05-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-06T01:01:30.504Z",
-   "snippet": "EDMONTON, AB – Connor McDavid recorded a goal & three assists, while Evan Bouchard, Ryan Nugent-Hopkins and Leon Draisaitl each posted multiple points, but the Oilers couldn't come away…"
+   "title": "Oilers’ emergency goaltender Brett Epp serves as backup vs. Ducks",
+   "url": "https://www.sportsnet.ca/nhl/article/oilers-emergency-goaltender-brett-epp-to-serve-as-backup-vs-ducks/",
+   "source": "Sportsnet",
+   "published": "2026-11-06T00:25:16Z",
+   "snippet": "The Edmonton Oilers will have a new face on the bench as they take on the Anaheim Ducks."
   },
   {
    "title": "RELEASE: Howard placed on IR; Epp activated",
@@ -277,6 +270,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-04T19:00:58.054Z",
    "snippet": "The Edmonton Oilers return to Rogers Place to begin a four-game homestand against the Anaheim Ducks on Thursday night. You can watch the game live on Sportsnet at 7:00 PM MT or listen on…"
+  },
+  {
+   "title": "Babcock's fellow coaches honour him, just as Edmonton Oilers become top team in NHL",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/babcocks-fellow-coaches-honour-him-just-as-edmonton-oilers-become-top-team-in-nhl",
+   "source": "Edmonton Journal",
+   "published": "2026-11-04T17:06:04Z",
+   "snippet": ""
   }
  ]
 }

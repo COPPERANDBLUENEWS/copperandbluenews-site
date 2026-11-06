@@ -3,7 +3,7 @@
   "id": 2026020260,
   "startTimeUTC": "2026-11-06T01:00:00Z",
   "gameDate": "2026-11-05",
-  "state": "FINAL",
+  "state": "OFF",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -281,16 +281,16 @@
  ],
  "goalie": {
   "starter": {
-   "id": 8486540,
-   "name": "Brett Epp",
-   "num": 0,
+   "id": 8477035,
+   "name": "Matt Tomkins",
+   "num": 90,
    "pos": "G"
   },
   "status": "Confirmed",
   "backup": {
-   "id": 8477035,
-   "name": "Matt Tomkins",
-   "num": 90,
+   "id": 8486540,
+   "name": "Brett Epp",
+   "num": 0,
    "pos": "G"
   },
   "note": null
@@ -492,20 +492,20 @@
   ],
   "goalie": {
    "starter": {
-    "id": 8480843,
-    "name": "Lukas Dostal",
-    "num": 1,
-    "pos": "G"
-   },
-   "status": "Confirmed",
-   "backup": {
     "id": 8476316,
     "name": "Laurent Brossoit",
     "num": 31,
     "pos": "G"
    },
+   "status": "Confirmed",
+   "backup": {
+    "id": 8480843,
+    "name": "Lukas Dostal",
+    "num": 1,
+    "pos": "G"
+   },
    "note": null
   }
  },
- "updated": "2026-11-06T03:55:57Z"
+ "updated": "2026-11-06T05:36:18Z"
 }
