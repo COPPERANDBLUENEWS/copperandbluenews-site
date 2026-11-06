@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T00:44:11+00:00",
+  "updated": "2026-11-06T01:14:36+00:00",
   "next": {
     "id": 2026020260,
     "gameType": 2,
@@ -8,20 +8,20 @@
     "timeMT": "7 PM MT",
     "timePT": "6 PM PT",
     "venue": "Rogers Place",
-    "state": "PRE",
+    "state": "LIVE",
     "scheduleState": "OK",
     "lastPeriod": null,
     "away": {
       "abbrev": "ANA",
       "name": "Ducks",
       "place": "Anaheim",
-      "score": null
+      "score": 0
     },
     "home": {
       "abbrev": "EDM",
       "name": "Oilers",
       "place": "Edmonton",
-      "score": null
+      "score": 0
     }
   },
   "last": {
