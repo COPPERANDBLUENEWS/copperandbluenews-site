@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-06T02:10:53Z",
+ "updated": "2026-11-06T02:17:30Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (6)",
-  "Google News (89)"
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
@@ -13,6 +13,14 @@
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQek9ubFpmdjRqWEVTTGJNdGQyM2Z0UG56aTBPVEkxZmZNX3phN2Z2Yi1EX2w4NUVGUGhzZngxaHNWMWxQTGc1TzJ4NmM5ekRXZHNmNTFoSlRENWxHYksxWHFxZDFKQmpjdW5xMll0THIxbEpya2YtaERmQUZFaGhTbEJhU3NlMHJWUGt1Ty1ZSjhHUHV2Q0dicnh6S1cxdw?oc=5",
    "source": "NHL.com",
    "published": "2026-11-06T02:04:56Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oiler's response to McDavid hit was the right one",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOaFhTazhaVEZvMnY5VDZ0WGl2ZEo2NngzTnc5UDRvdWpFSnBuZEt5RFdOZDlvdEdpRVZzQ1ZsbXFsZl9MVVpINXFJM2FCYUxwME5qNldsc2lodUNySHFMa0ozTGpQUC1fRDJlZWdQeHYxUVNOZGxPOEUxVW8yT2YwMVNld05McG1uTTlOblUwdVJhQmhvN0pnLUI2ZUhSQUdmN0s4MW82NVNIZkxmeS04b1FlTHNYY1ZCamppelJxajZGd2d1QnptYkQ1UU5oRm56RU1tQUdpYTlSc1Z0ZF9Za2RkTWNuQWxBREtYVndNZlpLbF9GS3c?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-06T01:58:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -187,14 +195,6 @@
    "via": "google"
   },
   {
-   "title": "PREVIEW: Ducks Look to Carry Momentum Into Road Trip Matchup Against Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONUJDdmpUUUYyZjA0ZGN3UGpuZEpkTWlaTzg5TmlOVXRPcFQybGlleHExQnNQSlNSZFFPaVJNc2t2d1lCV29uS285M0ZkZjRiZjloaHJzajBNUEhSLWZURlZ5Zl9iVnRZUlk5WEJfR3VpREtraUVYeGdJbmhZbzJXQkIxaE01RjduaTRnUWRiQnlmOE95OTM0Uk5aVlZoQldOWEE4cGFxMFM?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-05T20:20:56Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "PROJECTED LINEUP: Oilers vs. Ducks",
    "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-vs-ducks-11-05-26",
    "source": "EdmontonOilers.com",
@@ -266,8 +266,8 @@
   },
   {
    "title": "Jack Hughes scores twice for Devils, Hellebuyck wins home debut against Oilers",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026-x6095",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026",
+   "source": "NHL.com",
    "published": "2026-11-04T05:05:00Z",
    "snippet": "NEWARK, N.J. -- Jack Hughes had two goals and an assist for the New Jersey Devils in a 4-3 shootout win against the Edmonton Oilers at Prudential Center on Tuesday."
   },
