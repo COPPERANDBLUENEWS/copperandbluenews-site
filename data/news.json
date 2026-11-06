@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-06T18:57:53Z",
+ "updated": "2026-11-06T19:33:59Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (7)",
-  "Google News (90)"
+  "Sportsnet (6)",
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Should Ducks’ Helleson been penalized for hit on Oilers’ McDavid?",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeDk3VzVIYmRJSUNTeF96UUllX243WDhfS1UwTFhYRG9Od3BxRVVHcVRnYTdGM3F5SXRJX19CVUxHaVdWXy02enRzdHZhTlFOSXI4YWRuUkcxNTZ6VnczYm5wbFdoTTg4UG13NEJSMWt3aERJWmN0enhMaXZYNE81Vm92U2JnUVgwRXREVzdwZ2lWREJTTWxpaW91WmNoSGhrTkpwTnNPMDJFam9Ma1d3?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-06T19:23:57Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Dangerous territory: McDavid speaks out after net-front scare vs. Ducks",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNXZRRnRsUnI4NlJ2NUdIY0V1OWU0MmtLemJpUFRNYmM4Mlo3bmx5MloxRVZHUW9iU3ZRRllEQ1ZmWkVZSnpfQjBQSWktTmhVM29YRnhDNXU2R3NKQkZFQXBFbjN2NGU0WHIyR2Uyb1pzc0VROVA3UC1qRVRKN0RVYmFkajRiT2k0ZDk2RGlxcjMwaFhaRVB4MkpXdUs3UlZRZl83T1ZUaDZraVJ1TzV5bkJmMkNvTEs1?oc=5",
@@ -46,6 +54,14 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-06T18:11:04.536Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) announced today the return of the Oilers “Hockey Fights Cancer” MEGA 50/50, running from the Oilers Hockey Fights Cancer game…"
+  },
+  {
+   "title": "A recall or a trade: How could the Oilers tweak their lineup?",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSDFmMi1nVG5weHUwNUVoVVB3LUExeE5NekFnRVJjdE5ZM1NPblNxLVRjUURaNncyOHNBQzFKa2ZodUUtdWhuME1MRnlndW05ZnN0c25NU1NuMVVfWVZzZm5BX05SNzlQb0UtT0dsNjdGWWZsUnVDcHZ2MDBZQXpYLXJsZkc2UnZqbk5GTlAzY1ViZlE?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-06T17:50:00Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Edmonton Oilers Emerge as Potential Trade Suitor for Canadiens Big Forward",
@@ -143,26 +159,10 @@
    "via": "google"
   },
   {
-   "title": "‘I’ve got feelings and emotions too’: Oilers’ Connor McDavid sounds off after ‘Mach 1’ net collision against Ducks",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1VxN2VpRUVLRUltMl9CX0N1YU0wa21KWU9VdGVDM0VHOTFuNEFlN294WlhZenhNZkJkVC1JVU1pd3NIYnNEeTRXeENQWHVURjNPRTQyTV9pRHBTQWlKelhPNFBDenBYRnJRSXE3dUY4MHlKQ0Z0N0VxaW1WbUNHblFnUlREUmozUkdJSVctV3pOSjdkTlNEdG1VQnVJNE1zclF2M1NwSnpmaXhOMzNiR05BX0pUd2FCWjZwVXhn?oc=5",
-   "source": "Athlon Sports",
-   "published": "2026-11-06T15:10:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Edmonton Oilers' Connor McDavid Criticizes On-Ice Officials After A Dangerous Hit: The Hockey News Morning Skate",
    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZ281d2ViVjFMZ2dfTTFNcGFodGJYZWdSSUQxT3ZsNjZ2dTBpdS0zbVd1OGhBdWxxaWVPN0x3T0xmRC1UVjR4MkdlRXJxczhjMTN1MDZ2ZUV3ZHhHcm9NbXZ6b29hdzk0M1UyZm1zR25RRHFiZ2VnU2xnOVIwclhQeTA1ZktmVG52amMwcGZ0cGJZWGNzT21sYzNlLXdqQ3Y4MWI4MnpackZKb1VTaEdZdi1zUkM5cVZ4MTVsOTNoR3BuZXpvUUJTQmFnTnVvdXF4aEJ2WVRiUVpCSWtiNC12c1Zod3JrUFhG?oc=5",
    "source": "The Hockey News",
-   "published": "2026-11-06T15:07:39Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "McDavid Wants Nets Treated Like End Boards After Helleson Hit",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR0FlX2VIenVKeG82VnZmY0tXWnRBLTZtbF9WUGdkNjBScVFNZW5hcVVRcG5fVE02eGRDY1M3eTBUeVR5WGNCaE4wUXBfeGdubTVtMVRaT2d2akxTZFhySzRWaFZPVG00Rl9iOXZNWEd2SWRpMDAwS0ozMWU2bmg3UDBPR184dUNrSWduQXBvaw?oc=5",
-   "source": "RG.org",
-   "published": "2026-11-06T14:23:53Z",
+   "published": "2026-11-06T15:09:31Z",
    "snippet": "",
    "via": "google"
   },
@@ -175,8 +175,8 @@
   },
   {
    "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
-   "url": "https://www.nhl.com/oilers/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026-x0153",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026",
+   "source": "NHL.com",
    "published": "2026-11-06T05:41:00Z",
    "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
   },
@@ -230,13 +230,6 @@
    "snippet": "Edmonton Oilers fans were excited to celebrate their longest-tenured player on Thursday. Ryan Nugent-Hopkins received a standing ovation from fans at Rogers Place after becoming the…"
   },
   {
-   "title": "Oilers’ Podkolzin receives game misconduct vs. Ducks",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-podkolzin-receives-game-misconduct-vs-ducks/",
-   "source": "Sportsnet",
-   "published": "2026-11-06T01:51:51Z",
-   "snippet": "Vasily Podkolzin came to his captain’s defence on Thursday, but ended up with a game misconduct for his efforts."
-  },
-  {
    "title": "Oilers honour Nugent-Hopkins for becoming franchise leader in games played",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-honour-nugent-hopkins-for-becoming-franchise-leader-in-games-played/",
    "source": "Sportsnet",
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-05T20:26:59Z",
    "snippet": ""
+  },
+  {
+   "title": "PROJECTED LINEUP: Oilers vs. Ducks",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-vs-ducks-11-05-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-05T19:10:46.345Z",
+   "snippet": "EDMONTON, AB – Goalie Matt Tomkins will get the start against the Anaheim Ducks on Thursday as the Edmonton Oilers return home to begin a four-game homestand at Rogers Place against their…"
   }
  ]
 }
