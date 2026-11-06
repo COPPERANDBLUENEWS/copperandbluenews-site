@@ -63,13 +63,18 @@
         <text class="dir" id="dirL" x="-45" y="-36.5"></text><text class="dir" id="dirR" x="45" y="-36.5"></text>
       </g>
       <rect class="boards" x="-100" y="-42.5" width="200" height="85" rx="28"/>
-      <g id="marks"></g><g id="fx"></g>
+      <g id="trail" aria-hidden="true"></g>
+      <g id="marks"></g>
+      <g id="players" aria-hidden="true"></g>
+      <g id="puck-layer" aria-hidden="true"></g>
+      <g id="fx"></g>
     </svg>`;
   }
 
   // ---------- state ----------
   const S = {mode: null, g: null, evs: [], plotted: [], shown: 0, drawn: 0, curT: 0, T: 0, playing: false, speed: 60,
-    team: "all", types: new Set(TYPES.map(t => t[0])), period: "all", orient: "fixed", feedAll: false, sel: null, timer: null, raf: null, seen: new Set(), sched: null, live: null};
+    team: "all", types: new Set(TYPES.map(t => t[0])), period: "all", orient: "fixed", feedAll: false, sel: null, timer: null, raf: null, seen: new Set(), sched: null, live: null,
+    P: {}, puckRaf: null, puckFrom: null, lastPlayId: null, fsFallback: false};
   const params = new URLSearchParams(location.search);
   if (+params.get("speed")) S.speed = +params.get("speed");
 
@@ -158,6 +163,195 @@
   const badgeCol = tm => !tm ? "#888" : tm.abbrev === FOCUS ? EDM_COL : (TEAM_COL[tm.abbrev] || "#1e3a6e");
   const pos = e => { const f = S.orient === "fixed" && e.flipFixed; return [f ? -e.x : e.x, f ? e.y : -e.y]; }; // SVG y grows down
   const pass = e => e.x != null && S.types.has(e.type) && (S.team === "all" || (S.team === "focus") === e.focus) && (S.period === "all" || (S.period === "OT" ? e.pd.periodType === "OT" : S.period === "SO" ? e.pd.periodType === "SO" : e.pd.periodType === "REG" && String(e.pd.number) === S.period));
+
+
+  // ---------- puck trail + player markers (discrete PBP coords only; no continuous skating paths) ----------
+  const reduceMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function rolesFor(e) {
+    const d = e.d || {};
+    const add = (id, role) => id ? [{id, role}] : [];
+    switch (e.type) {
+      case "goal": return [
+        ...add(d.scoringPlayerId, "Scorer"),
+        ...add(d.assist1PlayerId, "A1"),
+        ...add(d.assist2PlayerId, "A2"),
+        ...add(d.goalieInNetId, "G"),
+      ];
+      case "shot-on-goal": return [...add(d.shootingPlayerId, "Shot"), ...add(d.goalieInNetId, "G")];
+      case "missed-shot": return add(d.shootingPlayerId, "Miss");
+      case "blocked-shot": return [...add(d.shootingPlayerId, "Shot"), ...add(d.blockingPlayerId, "Block")];
+      case "hit": return [...add(d.hittingPlayerId, "Hit"), ...add(d.hitteePlayerId, "Hittee")];
+      case "faceoff": return [...add(d.winningPlayerId, "Won"), ...add(d.losingPlayerId, "Lost")];
+      case "penalty": return [...add(d.committedByPlayerId || d.servedByPlayerId, "Penalty"), ...add(d.drawnByPlayerId, "Drawn")];
+      case "takeaway": case "giveaway": return add(d.playerId, e.type === "takeaway" ? "Take" : "Give");
+    }
+    return [];
+  }
+  function coordEvents(upto) {
+    const n = upto == null ? S.shown : upto;
+    return S.evs.slice(0, n).filter(e => e.x != null && e.y != null && !e.sys);
+  }
+  function drawTrail() {
+    const L = $("trail"); if (!L) return;
+    const pts = coordEvents();
+    L.innerHTML = "";
+    if (pts.length < 2) return;
+    const toPts = arr => arr.map(e => { const [x, y] = pos(e); return `${x.toFixed(2)},${y.toFixed(2)}`; }).join(" ");
+    const all = document.createElementNS("http://www.w3.org/2000/svg", "polyline");
+    all.setAttribute("class", "trail");
+    all.setAttribute("points", toPts(pts));
+    L.appendChild(all);
+    const hotN = Math.min(8, pts.length);
+    if (hotN >= 2) {
+      const hot = document.createElementNS("http://www.w3.org/2000/svg", "polyline");
+      hot.setAttribute("class", "trail-hot");
+      hot.setAttribute("points", toPts(pts.slice(-hotN)));
+      L.appendChild(hot);
+    }
+  }
+  function puckTarget() {
+    // Live / discrete: sit on the latest plotted event with coords.
+    // Replay: ease between known event points using game time (never invent paths beyond those points).
+    const pts = S.evs.filter(e => e.x != null && e.y != null && !e.sys);
+    if (!pts.length) return null;
+    if (S.mode !== "replay") {
+      const shown = coordEvents();
+      return shown.length ? pos(shown[shown.length - 1]) : null;
+    }
+    const t = S.curT;
+    let i = 0;
+    while (i < pts.length && pts[i].t <= t) i++;
+    if (i <= 0) return pos(pts[0]);
+    if (i >= pts.length) return pos(pts[pts.length - 1]);
+    // Only interpolate when the next event is already "shown" (reached in scrubber).
+    if (pts[i].so > (S.evs[S.shown - 1]?.so ?? -1)) return pos(pts[i - 1]);
+    const a = pts[i - 1], b = pts[i];
+    const span = Math.max(0.001, b.t - a.t);
+    const u = Math.max(0, Math.min(1, (t - a.t) / span));
+    const [ax, ay] = pos(a), [bx, by] = pos(b);
+    return [ax + (bx - ax) * u, ay + (by - ay) * u];
+  }
+  function placePuck(xy, soft) {
+    const L = $("puck-layer"); if (!L) return;
+    if (!xy) { L.innerHTML = ""; S.puckFrom = null; return; }
+    const [x, y] = xy;
+    let g = L.querySelector(".puck");
+    if (!g) {
+      g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      g.setAttribute("class", "puck");
+      g.innerHTML = `<circle class="puck-rim" r="2.05"/><circle class="puck-core" r="1.35"/>`;
+      L.appendChild(g);
+    }
+    if (soft && S.puckFrom && !reduceMotion()) {
+      const [x0, y0] = S.puckFrom;
+      cancelAnimationFrame(S.puckRaf);
+      const t0 = performance.now(), dur = S.mode === "replay" && S.speed > 120 ? 120 : 420;
+      const step = now => {
+        const u = Math.min(1, (now - t0) / dur);
+        const e = 1 - Math.pow(1 - u, 3);
+        g.setAttribute("transform", `translate(${(x0 + (x - x0) * e).toFixed(2)} ${(y0 + (y - y0) * e).toFixed(2)})`);
+        if (u < 1) S.puckRaf = requestAnimationFrame(step);
+        else S.puckFrom = [x, y];
+      };
+      S.puckRaf = requestAnimationFrame(step);
+    } else {
+      cancelAnimationFrame(S.puckRaf);
+      g.setAttribute("transform", `translate(${x.toFixed(2)} ${y.toFixed(2)})`);
+      S.puckFrom = [x, y];
+    }
+  }
+  function updatePuck(anim) {
+    placePuck(puckTarget(), !!anim);
+  }
+  function updatePlayers(anim) {
+    const L = $("players"); if (!L) return;
+    const cur = S.evs[S.shown - 1];
+    if (!cur || cur.sys || cur.x == null) {
+      L.innerHTML = ""; S.lastPlayId = null; return;
+    }
+    const roles = rolesFor(cur).filter(r => S.P[r.id]);
+    if (!roles.length) { L.innerHTML = ""; S.lastPlayId = cur.id; return; }
+    const changed = S.lastPlayId !== cur.id;
+    S.lastPlayId = cur.id;
+    const [cx, cy] = pos(cur);
+    const n = roles.length;
+    L.innerHTML = "";
+    roles.forEach((r, i) => {
+      const pl = S.P[r.id];
+      const ang = -Math.PI / 2 + (i - (n - 1) / 2) * (n === 1 ? 0 : Math.min(1.1, 2.2 / n));
+      const rad = n === 1 ? 0 : 7.5;
+      const x = cx + Math.cos(ang) * rad;
+      const y = cy + Math.sin(ang) * rad - (n === 1 ? 6.5 : 0);
+      const tm = S.g && (S.g.homeTeam.id === pl.team ? S.g.homeTeam : S.g.awayTeam.id === pl.team ? S.g.awayTeam : null);
+      const fill = colOf(tm);
+      const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      g.setAttribute("class", "plmk" + (anim && changed && !reduceMotion() ? " pop" : ""));
+      g.setAttribute("transform", `translate(${x.toFixed(2)} ${y.toFixed(2)})`);
+      const num = pl.num != null ? String(pl.num) : "";
+      const short = (pl.short || "").slice(0, 12);
+      g.innerHTML = `<circle class="disc" r="3.3" fill="${fill}"/><text class="lab" y="0.15">${esc(num)}</text>
+        <text class="name" y="5.6">${esc(short)}</text><text class="role" y="7.7">${esc(r.role)}</text>`;
+      L.appendChild(g);
+    });
+  }
+  function updateTracer(full, anim) {
+    drawTrail();
+    updatePuck(anim && !full);
+    updatePlayers(anim && !full);
+  }
+  function fsActive() {
+    return !!(document.fullscreenElement || document.webkitFullscreenElement || S.fsFallback);
+  }
+  function syncFsUi() {
+    const wrap = document.querySelector(".rink-wrap");
+    if (wrap) wrap.classList.toggle("is-fs", !!S.fsFallback);
+    document.body.classList.toggle("trk-fs-lock", fsActive());
+    const enter = $("fs-enter");
+    if (enter) enter.setAttribute("aria-pressed", fsActive() ? "true" : "false");
+  }
+  function exitFs() {
+    const docExit = document.exitFullscreen || document.webkitExitFullscreen;
+    if ((document.fullscreenElement || document.webkitFullscreenElement) && docExit) {
+      try { docExit.call(document); } catch {}
+    }
+    S.fsFallback = false;
+    syncFsUi();
+  }
+  function enterFs() {
+    const wrap = document.querySelector(".rink-wrap"); if (!wrap) return;
+    const req = wrap.requestFullscreen || wrap.webkitRequestFullscreen;
+    // iPhone / missing Fullscreen API: viewport-filling CSS fallback so the rink still goes large in the PWA.
+    if (typeof req === "function") {
+      try {
+        const p = req.call(wrap);
+        if (p && typeof p.then === "function") {
+          p.then(() => { S.fsFallback = false; syncFsUi(); })
+           .catch(() => { S.fsFallback = true; syncFsUi(); });
+          return;
+        }
+        S.fsFallback = false;
+        syncFsUi();
+        return;
+      } catch {
+        S.fsFallback = true; syncFsUi(); return;
+      }
+    }
+    S.fsFallback = true;
+    syncFsUi();
+  }
+  function toggleFs() { fsActive() ? exitFs() : enterFs(); }
+  function bindFs() {
+    const enter = $("fs-enter"), exit = $("fs-exit");
+    if (enter) enter.onclick = toggleFs;
+    if (exit) exit.onclick = exitFs;
+    syncFsUi();
+    if (S._fsBound) return;
+    S._fsBound = true;
+    const onFsChange = () => syncFsUi();
+    document.addEventListener("fullscreenchange", onFsChange);
+    document.addEventListener("webkitfullscreenchange", onFsChange);
+    document.addEventListener("keydown", ev => { if (ev.key === "Escape" && S.fsFallback) exitFs(); });
+  }
 
   // ---------- drawing ----------
   function markEl(e, anim) {
@@ -262,12 +456,19 @@
     $("play").textContent = S.playing ? "❚❚" : "▶"; $("play").setAttribute("aria-label", S.playing ? "Pause" : "Play");
   }
   function update(full) {
+    const prevShown = S.shown;
     if (S.mode === "replay") { let n = 0; while (n < S.evs.length && S.evs[n].t <= S.curT) n++; S.shown = n; }
     else { S.shown = Math.min(S.evs.length, S.liveShown ?? S.evs.length); S.curT = S.evs[S.shown - 1]?.t ?? 0; }
+    const advanced = S.shown !== prevShown;
     if (S.shown !== S.drawn || full) {
       drawMarks(full); feed(); endLabels(); header();
+      updateTracer(full, advanced || full);
       S.prevShown = S.shown; S.prevSo = S.evs[S.shown - 1]?.so ?? -1;
-    } else header();
+    } else {
+      header();
+      // Replay scrubber mid-segment: keep the puck gliding between known event points.
+      if (S.mode === "replay") updateTracer(false, false);
+    }
     if (S.mode === "replay") scrubUI();
   }
 
@@ -275,8 +476,17 @@
   function skeleton(replay) {
     $("trk").innerHTML = `<div class="trk-grid"><div>
       <div class="bug" id="bug"></div>
-      <div class="rink-wrap">${rinkSVG()}<div class="banner" id="banner"></div><div class="rink-msg" id="rmsg" hidden></div></div>
-      <div class="info" id="info">Tap a marker for details.</div>
+      <div class="rink-wrap" id="rink-wrap">${rinkSVG()}
+        <div class="rink-tools">
+          <button type="button" class="fs-enter" id="fs-enter" aria-label="Full screen rink" title="Full screen">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3H3v4h2V5h2V3zm14 0h-4v2h2v2h2V3zM5 17H3v4h4v-2H5v-2zm16 0h-2v2h-2v2h4v-4z"/></svg>
+          </button>
+          <button type="button" class="fs-exit" id="fs-exit" aria-label="Exit full screen" title="Exit full screen">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3H7v4H3v2h6V3zm8 0h-2v6h6V7h-4V3zM9 15H3v2h4v4h2v-6zm12 0h-6v6h2v-4h4v-2z"/></svg>
+          </button>
+        </div>
+        <div class="banner" id="banner"></div><div class="rink-msg" id="rmsg" hidden></div></div>
+      <div class="info" id="info">Tap a marker for details. Puck trail follows play-by-play spots · use the expand control for full-screen rink.</div>
       ${replay ? "" : `<div class="odds-slot trk-odds" data-odds hidden></div>`}
       ${replay ? "" : `<div class="card matchup trk-matchup" data-matchup="compact" hidden></div>`}
       ${replay ? `<div class="ctl"><button class="sec" id="rst" aria-label="Restart">⏮</button><button id="play" aria-label="Play">▶</button>
@@ -293,6 +503,7 @@
     $("rink").addEventListener("click", ev => { const m = ev.target.closest(".mk"); if (m) select(+m.dataset.id); });
     $("pbp").addEventListener("click", ev => { const r = ev.target.closest(".pe[data-id]"); if (r) select(+r.dataset.id, true); });
     $("more").onclick = () => { S.feedAll = !S.feedAll; feed(); };
+    bindFs();
     if (replay) {
       $("play").onclick = () => { if (!S.playing && S.curT >= S.T) { S.curT = 0; update(true); } setPlaying(!S.playing); };
       $("rst").onclick = () => { S.curT = 0; update(true); };
@@ -314,7 +525,7 @@
     $("ftype").innerHTML = `<span class="lab">Show</span>` + TYPES.map(([k, l]) => `<button data-t="${k}" class="${S.types.has(k) ? "on" : ""}" aria-pressed="${S.types.has(k)}">${icon(k)}${l}</button>`).join("");
     const ps = S.periods.map(p => p.periodType === "REG" ? String(p.number) : p.periodType);
     $("fper").innerHTML = `<span class="lab">Period</span>` + ["all", ...new Set(ps)].map(k => `<button data-p="${k}" class="${S.period === k ? "on" : ""}">${k === "all" ? "All" : /^\d$/.test(k) ? CBN.ordinal(+k) : k}</button>`).join("");
-    $("fteam").onclick = ev => { const b = ev.target.closest("button"); if (!b) return; if (b.dataset.k) S.team = b.dataset.k; if (b.dataset.o) S.orient = b.dataset.o; filters(); update(true); };
+    $("fteam").onclick = ev => { const b = ev.target.closest("button"); if (!b) return; if (b.dataset.k) S.team = b.dataset.k; if (b.dataset.o) { S.orient = b.dataset.o; S.puckFrom = null; } filters(); update(true); };
     $("ftype").onclick = ev => { const b = ev.target.closest("button"); if (!b) return; const k = b.dataset.t; S.types.has(k) ? S.types.delete(k) : S.types.add(k); filters(); update(true); };
     $("fper").onclick = ev => { const b = ev.target.closest("button"); if (!b) return; S.period = b.dataset.p; filters(); update(true); };
   }
@@ -330,7 +541,8 @@
   }
   function setData(g) {
     S.g = g; const b = build(g);
-    S.evs = b.evs; S.T = b.T; S.base = b.base; S.periods = b.periods; S.byId = Object.fromEntries(b.evs.map(e => [e.id, e]));
+    S.evs = b.evs; S.T = b.T; S.base = b.base; S.periods = b.periods; S.P = b.P; S.byId = Object.fromEntries(b.evs.map(e => [e.id, e]));
+    S.puckFrom = null; S.lastPlayId = null;
   }
   function msg(t) { const m = $("rmsg"); if (!m) return; m.hidden = !t; m.innerHTML = t ? `<span>${t}</span>` : ""; }
 

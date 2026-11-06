@@ -73,3 +73,29 @@
 .pregame{text-align:center;padding:4px 0 8px}.pregame .cd{font:700 1.6rem Oswald;color:var(--orange)}
 @media(min-width:760px){.trk-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:18px;align-items:start}.bug{top:70px}.pbp{max-height:760px;overflow:auto}}
 @media(prefers-reduced-motion:reduce){.mk.pop .sh,.ring,.burst{animation-duration:.01s}}
+
+/* Puck tracer + player markers */
+.rink .trail{fill:none;stroke:#e67832;stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;opacity:.55;pointer-events:none}
+.rink .trail-hot{fill:none;stroke:#ffb078;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;opacity:.9;pointer-events:none;filter:drop-shadow(0 0 1.2px rgba(230,120,50,.7))}
+.rink .puck{pointer-events:none;filter:drop-shadow(0 0 1.4px rgba(0,0,0,.55))}
+.rink .puck-core{fill:#111;stroke:#f2f2f2;stroke-width:.35}
+.rink .puck-rim{fill:none;stroke:#e67832;stroke-width:.45;opacity:.85}
+.rink .plmk{pointer-events:none}
+.rink .plmk .disc{stroke:#fff;stroke-width:.35}
+.rink .plmk .lab{font:700 2.4px Inter,sans-serif;fill:#0b1a33;text-anchor:middle;dominant-baseline:central}
+.rink .plmk .name{font:700 2.15px Inter,sans-serif;fill:#0b1a33;text-anchor:middle}
+.rink .plmk .role{font:600 1.7px Inter,sans-serif;fill:#3a4a66;text-anchor:middle}
+.rink .plmk.pop{animation:mkpop .55s cubic-bezier(.2,1.6,.4,1) both}
+/* Fullscreen rink */
+.rink-tools{position:absolute;top:10px;right:10px;z-index:5;display:flex;gap:6px}
+.rink-tools button{width:36px;height:36px;border-radius:10px;border:1px solid var(--line);background:rgba(15,33,66,.88);color:#eef3f9;display:flex;align-items:center;justify-content:center;padding:0;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.rink-tools button:hover,.rink-tools button:focus-visible{border-color:var(--copper);outline:none}
+.rink-tools svg{width:18px;height:18px;fill:currentColor}
+.rink-wrap.is-fs,.rink-wrap:fullscreen,.rink-wrap:-webkit-full-screen{border-radius:0;border:0;padding:max(8px,env(safe-area-inset-top)) max(8px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left));background:#091428;width:100%;height:100%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center}
+.rink-wrap.is-fs .rink,.rink-wrap:fullscreen .rink,.rink-wrap:-webkit-full-screen .rink{width:100%;height:100%;max-height:100%;flex:1 1 auto}
+.rink-wrap.is-fs{position:fixed;inset:0;z-index:10000;overflow:auto}
+body.trk-fs-lock{overflow:hidden;touch-action:none}
+.rink-tools .fs-exit{display:none}
+.rink-wrap.is-fs .rink-tools .fs-exit,.rink-wrap:fullscreen .rink-tools .fs-exit,.rink-wrap:-webkit-full-screen .rink-tools .fs-exit{display:flex}
+.rink-wrap.is-fs .rink-tools .fs-enter,.rink-wrap:fullscreen .rink-tools .fs-enter,.rink-wrap:-webkit-full-screen .rink-tools .fs-enter{display:none}
+@media(prefers-reduced-motion:reduce){.rink .plmk.pop{animation-duration:.01s}.rink .trail-hot,.rink .puck{transition:none}}

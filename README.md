@@ -78,6 +78,11 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
 - **Modes:** current game if live, otherwise next game (pre-game, puck drop in PT) with "Replay last game" and a picker
   for any finished game. Replay runs in game time (10x-600x), with play/pause, restart and a timeline scrubber (goal
   ticks). URL: `tracker.html?mode=replay&id=GAMEID&t=SECONDS&speed=60&autoplay=0`.
+- **Puck tracer:** a puck glides between discrete play-by-play `xCoord`/`yCoord` points in time order (live and replay),
+  leaving a copper trail. Involved players for the current/latest play (shooter, scorer, hitter/hittee, faceoff winner,
+  etc.) get simple roster-name markers at that event — no continuous skating paths and no NHL EDGE scrape.
+- **Full-screen rink:** expand control on the rink uses the Fullscreen API when available; on iPhone / when that API is
+  missing, a viewport-filling CSS fallback still enlarges the rink (easy exit via the control or Escape). Works in the PWA.
 - Team abbreviations and CSS colours only, no logos. Credits "Data: NHL".
 - `news.yml` and `lineup.yml` run `update_data.py` (LIVE_RUN=1, ~15 s) right before they deploy, so their
   deploys never put older live score / box score / play-by-play back on the site mid-game.
@@ -101,7 +106,7 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
 - "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home, read in the browser from the public Behold JSON feed (4 s timeout; on failure posts.html shows only the Follow button and Home hides the strip). The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=20`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- Cache-bust: CSS/JS URLs use `?v=21`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 
 ## Cap & contracts (manual, sources: public reports)
 The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:
