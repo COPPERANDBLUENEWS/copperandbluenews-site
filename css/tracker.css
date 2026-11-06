@@ -74,9 +74,9 @@
 @media(min-width:760px){.trk-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:18px;align-items:start}.bug{top:70px}.pbp{max-height:760px;overflow:auto}}
 @media(prefers-reduced-motion:reduce){.mk.pop .sh,.ring,.burst{animation-duration:.01s}}
 
-/* Puck tracer + player markers — sized to stay visible on a phone-width rink */
-.rink .trail{fill:none;stroke:#e67832;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;opacity:.8;pointer-events:none}
-.rink .trail-hot{fill:none;stroke:#ffb078;stroke-width:3.1;stroke-linecap:round;stroke-linejoin:round;opacity:.95;pointer-events:none;filter:drop-shadow(0 0 2px rgba(230,120,50,.85))}
+/* Puck tracer + player markers — thin path; puck stays large enough to see on a phone */
+.rink .trail{fill:none;stroke:#e67832;stroke-width:.7;stroke-linecap:round;stroke-linejoin:round;opacity:.62;pointer-events:none}
+.rink .trail-hot{fill:none;stroke:#ffb078;stroke-width:.95;stroke-linecap:round;stroke-linejoin:round;opacity:.85;pointer-events:none}
 .rink .puck{pointer-events:none;filter:drop-shadow(0 0 2.2px rgba(0,0,0,.7))}
 .rink .puck-core{fill:#111;stroke:#f2f2f2;stroke-width:.55}
 .rink .puck-rim{fill:none;stroke:#e67832;stroke-width:.85;opacity:.95}
