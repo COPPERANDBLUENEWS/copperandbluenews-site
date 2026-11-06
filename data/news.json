@@ -1,13 +1,28 @@
 {
- "updated": "2026-11-05T23:25:51Z",
+ "updated": "2026-11-06T00:18:02Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (3)",
-  "Google News (89)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "New pop-store raises funds for cancer research hockey games in Edmonton",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNGZXYlpiLWpsemFOWGtSSFFJeExaajhZbFpxZExmNzZ0QWt5UTVYRWVvWDBGR2d0dm1TeEVLRVMxQWI4dlN6SDB0eWIyNFBwLUdGVEctcWFXZ1IzTE9qc1BYVE1QN2h6YTZWTDdVV1l0U2g1NUNnS2FrbWFvaW1JdTQ5RzNTQWFE?oc=5",
+   "source": "CityNews Edmonton",
+   "published": "2026-11-06T00:14:40Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "RELEASE: Howard placed on IR; Epp activated",
+   "url": "https://www.nhl.com/oilers/news/release-howard-placed-on-ir-epp-activated",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-05T23:59:01.568Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers have placed forward Isaac Howard on Injured Reserve and activated emergency back-up goaltender (EBUG) Brett Epp, the team announced Thursday. Epp, 29, was…"
+  },
   {
    "title": "Mike Babcock takes playful jab at Edmonton Oilers reporter",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcHo5Zi1lOEhDNmZ0OU1fS1BGWmZQTWNTeklvNG1MVE82UTd1VXhBbnRIa2VMOWZJaXg2SWdNem8tTER3eVRyLTRNeHE5WnBPQ3RjNHRpdi1Ecmdpb244Uk8xTWNJRzFOT0hhTzBHOTJ5Sm9LVEFHbE9PY05HQU5lUWdPVUxwQkU?oc=5",
@@ -65,18 +80,18 @@
    "via": "google"
   },
   {
-   "title": "NHL Betting Picks & Predictions: Bruins vs Penguins, Ducks vs Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4yNWZqMzVpY0xqMVFZZ2Z6RXBVVXlUOUhyNnFWclRqYzhPX0ttVzdkZzFtZW5JaW5UY3VZS2hQbGpWS3hpT19Pa2ZkMXZWOWNIcFlwd0hMNTlHNzVuNU5Gd09pY0VPQ2xZakExLUZiYWIxNEptTmhwU1d3?oc=5",
-   "source": "RotoWire",
-   "published": "2026-11-05T20:45:00Z",
+   "title": "Babcock Explains Early Key to Oilers Success Revolves Around One Word",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdkJueVlfYUVLQ0R0ekJEMERCcUNNUVBvUDVoRmJ4U19qM0tucWd5M2tidUQxQ2lxbmM4c2w4S2hfamFiSVdJcUpwRUxrdWdDallfSHdZN1Q0eF9DXzl4dFhVelNxSnBYdHlLa3JfRVJ3OG81UFpfcGxnQTVzNmpZX0ZmNDZQQXJ5UGpJTkVaYVl4ZnJPVnpHempaVXRlWUlzczBEczhGSnRFTkY5MG5oWnBFdnNoZVdSMHhWQTc5dnJHajdna2pkYkZGRQ?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-05T20:47:39Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Babcock Explains Early Key to Oilers Success Revolves Around One Word",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdkJueVlfYUVLQ0R0ekJEMERCcUNNUVBvUDVoRmJ4U19qM0tucWd5M2tidUQxQ2lxbmM4c2w4S2hfamFiSVdJcUpwRUxrdWdDallfSHdZN1Q0eF9DXzl4dFhVelNxSnBYdHlLa3JfRVJ3OG81UFpfcGxnQTVzNmpZX0ZmNDZQQXJ5UGpJTkVaYVl4ZnJPVnpHempaVXRlWUlzczBEczhGSnRFTkY5MG5oWnBFdnNoZVdSMHhWQTc5dnJHajdna2pkYkZGRQ?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-05T20:37:30Z",
+   "title": "NHL Betting Picks & Predictions: Bruins vs Penguins, Ducks vs Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4yNWZqMzVpY0xqMVFZZ2Z6RXBVVXlUOUhyNnFWclRqYzhPX0ttVzdkZzFtZW5JaW5UY3VZS2hQbGpWS3hpT19Pa2ZkMXZWOWNIcFlwd0hMNTlHNzVuNU5Gd09pY0VPQ2xZakExLUZiYWIxNEptTmhwU1d3?oc=5",
+   "source": "RotoWire",
+   "published": "2026-11-05T20:45:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -90,8 +105,8 @@
   },
   {
    "title": "Fans brawl during Oilers-Devils game as one man takes on entire group for chirping about Canada",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc3FSMUhjRW5FQTVWTEJVLW9hRDVZMXVWVjZYUUROal90Y2FfckZSMWNJRDlXN3d3dndSeDlwUGRjdzJJQm5nNHZObjQ3RjltQkU3VlJ6bEN4MFV4U3JpZWJVb3FMaTdQSWdjMlR4Q2hRYmYwdGxwVU1aTW9famtvRXlFRWJFRlM4eTY0UGtLTnFjTC1Ic3lPRFJFSFF1Wk1oWUxwcUpibjlOb0E?oc=5",
-   "source": "Fox News",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZFJ1VHVuWWhqU1RWdDZTRVBqTkt1UW81VTBVVlhCZnlBUHhScVNqU0FJZG8yUEpvbi04eFBCYWVSYWk0SzlHeTVhdkwtOV8wX1FyeWt4b1F5NHdzaXN5TUlqTTVfaW9wM3dmQTNXZ0FueThPcjNtb05hQVhXQ2RtUmxXSElZbjg?oc=5",
+   "source": "Yahoo Sports",
    "published": "2026-11-05T20:27:14Z",
    "snippet": "",
    "via": "google"
@@ -159,14 +174,6 @@
    "snippet": "NHL analyst Sam Cosentino joins The FAN Hockey Show’s Matt Marchese and Mike Futa and the trio discuss if the Edmonton Oilers can finish the 2026-27 season with the first, second, and third…"
   },
   {
-   "title": "Has the Oilers’ Tristan Jarry Become Too Valuable to Trade?",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMnBUdFFFalp0NVFoeHMtYWtxSjB2Q0lPX09wOU5lODk0SlN5Z2hsWlZoSHVPenRZS2RkUVNnemYzc05RTXM3dFFnNlJVbk9xUl9iT2Z5OHVUalZHb21wRzM4NWZ3WTkyOXVjRFExcWp0dnFSbG0xVzNlRnlMVzVUVC1SNWtOWnFVQWlYZC0wOG5yR0xESmJYb1c1azJCZ2FvVW5BN2xSWGtqY2E1OFlKR0pRQTROZw?oc=5",
-   "source": "Yardbarker",
-   "published": "2026-11-05T17:48:06Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "RELEASE: EOCF & Alberta Cancer Foundation bring 'The Time Store' to Rogers Place",
    "url": "https://www.nhl.com/oilers/news/release-eocf-alberta-cancer-foundation-bring-the-time-store-to-rogers-place",
    "source": "EdmontonOilers.com",
@@ -224,8 +231,8 @@
   },
   {
    "title": "Jack Hughes scores twice for Devils, Hellebuyck wins home debut against Oilers",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026-x6095",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-recap-november-3-2026",
+   "source": "NHL.com",
    "published": "2026-11-04T05:05:00Z",
    "snippet": "NEWARK, N.J. -- Jack Hughes had two goals and an assist for the New Jersey Devils in a 4-3 shootout win against the Edmonton Oilers at Prudential Center on Tuesday."
   },
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-03T17:59:43.279Z",
    "snippet": "NEWARK, NJ - Nuge threads, who dis? Ahead of Ryan Nugent-Hopkins setting the new franchise record for games played with his 1,038th appearance in an Oilers uniform, his teammates wore some…"
-  },
-  {
-   "title": "Oilers at Devils projected lineups",
-   "url": "https://www.nhl.com/news/edmonton-oilers-new-jersey-devils-game-preview-november-3-2026",
-   "source": "NHL.com",
-   "published": "2026-11-03T17:25:23.187Z",
-   "snippet": "OILERS (11-2-2) at DEVILS (9-5-0) 7:30 p.m. ET; Disney+, HULU, ESPN+, SNW, SNO, SNE Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Colton Dach -- Ryan…"
   }
  ]
 }
