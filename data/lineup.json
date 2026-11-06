@@ -3,7 +3,7 @@
   "id": 2026020260,
   "startTimeUTC": "2026-11-06T01:00:00Z",
   "gameDate": "2026-11-05",
-  "state": "LIVE",
+  "state": "FINAL",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -507,5 +507,5 @@
    "note": null
   }
  },
- "updated": "2026-11-06T01:08:40Z"
+ "updated": "2026-11-06T03:55:57Z"
 }
