@@ -1,13 +1,53 @@
 {
- "updated": "2026-11-06T15:55:20Z",
+ "updated": "2026-11-06T16:28:45Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (7)",
-  "Google News (93)"
+  "Google News (95)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers Fans Still Have Reason to Be Skeptical of Mike Babcock",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTi1GQUZPY2ZFZzBqZTdKZkZxa2k5MHNFSTB4ZUh4UGxtRWp1SExGU2FJbXNiWDZfVGFCMU9zZkRmQUh5ejlOQkJfcmdXZnhldHFXU3ZBdHVqZWpCMDIzWjBmTDZNYkZ0dm1KUVpDTXowUk5EQmFxYXJuWm5hUTdXR2FJZThuMWdCT2xGVy1OcmoxWFR1SUE?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-06T16:15:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers star Connor McDavid calls out ‘dangerous’ hit after tight loss to Ducks",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSWtBenpWYkpmcHRyazc3MmFzV0cwTlpkYjJXaUxhcWdUT0NORDZGX0hhZEc4Z2pQWWNRQ2hCN1hFU2ZLaHFMTEFlNldoZmEyblA0N2FMNldFTDFlR0pZUUpYbjFkbGVRcjl0a0pMcV9ZSHRFOHVhSlo4WVQwU3FPOU5ST3ZOemFE?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-06T15:58:33Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Elks return to playoffs, Oilers historic start has Edmonton in rare contender window",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNenR2U3dZV1gxbWxwMWxnNUU3M241bllpQml4X3ltOGJzNS16OWZZN2JxN085RDg4Y0pJd0RNUF9ZQlI2TnlxcVQtX2xYZUVJODBMNjlackxZSG54UlVwenFTcE52eW85REpMMkxMVkdCZVppc0paS1BiSl81S19ycHB3VTh5MlhhRURLLUhqU05NOW1mdmhhdDA3cFpjUXZTQ1BUSXNZeHR4aDlhR3FwdEdqTFVYU0F6a3g0?oc=5",
+   "source": "TSN",
+   "published": "2026-11-06T15:51:23Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid’s Postgame Comments Have Fans Turning on the Superstar",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYkdGTnU0ZE9fU2V4ajZ4VjBFSDNqQ3NjejZqTzZUbDJwTVJWQ0l1UE1xNkk5SFJ5RmRaSFpQdmZWTlVadU1qdkFfYkprVndmNXFaNjA2bEhpZTlPeS1OLTBmaEgzVmdwMG9oTTJNdV9yYVB4eUxxdDdZTUFGelZGVC02Yl83bFNyWnFMVzd1QXFJajhuVW1va3huZnBlM0V3UVoyVDJ1QkZYdw?oc=5",
+   "source": "Heavy.com",
+   "published": "2026-11-06T15:50:03Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers open 'The Time Store'",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdDBBX0V3eVRCSXdTRlBjS1VMQ3YtUWl0RzlRbGN3aVpQUGlBc1VCZTB6RVU3TVVSaVFjTVJWWXVGRTNUbk9HMEVVdFAxeC00SER5WTA4bVRWU1ltZGV0dk1fUmNLNXZLanJ0OWRJM2E0TV9FalN2R01qcGI0UC03ckRB?oc=5",
+   "source": "CTV News",
+   "published": "2026-11-06T15:40:03Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Ducks withstand Oilers rally despite McDavid’s four-point night",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZjdjM3habnk0QzBYemxnMXp2cXhfVmFtQld5Q3lRNUNPU3RFbUpqV2k4Y0Jza0N1OXpzNnBiVFkxakhhQ1RKVGRJLWU1TUU4OWlFSUkxTlh5aVFBanFjMG0xYXpwVmRWU1JvNVpuWXZhNF9FZjRFVDJHRzdYSlBzQVdMSE5zM2ViREQtTVVtVGNLUnEtTDNLdkp3ZnFxajVOelZNODE5UQ?oc=5",
@@ -26,9 +66,9 @@
   },
   {
    "title": "Edmonton Oilers' Connor McDavid Criticizes On-Ice Officials After A Dangerous Hit: The Hockey News Morning Skate",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU0JXZ0tFRVJ4ZDR4SHFLT0V2UlNvZnYtTVNocE1OWG5YUFkwZUVfU2tlZEN3ekZQZndkVVFmMjRYS3ZDbnVJdDk1Y19CLTFib2gxU0g2ZzAycDhIZzdQWEJPUVVqNkhfY1ZxN1FLc3hZVFoyMGtDRnRUOS1DUVBHT0ZUZlJlTmI3LVJCT0c5QzZxNDA?oc=5",
-   "source": "Yahoo",
-   "published": "2026-11-06T15:07:39Z",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZ281d2ViVjFMZ2dfTTFNcGFodGJYZWdSSUQxT3ZsNjZ2dTBpdS0zbVd1OGhBdWxxaWVPN0x3T0xmRC1UVjR4MkdlRXJxczhjMTN1MDZ2ZUV3ZHhHcm9NbXZ6b29hdzk0M1UyZm1zR25RRHFiZ2VnU2xnOVIwclhQeTA1ZktmVG52amMwcGZ0cGJZWGNzT21sYzNlLXdqQ3Y4MWI4MnpackZKb1VTaEdZdi1zUkM5cVZ4MTVsOTNoR3BuZXpvUUJTQmFnTnVvdXF4aEJ2WVRiUVpCSWtiNC12c1Zod3JrUFhG?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-06T15:09:31Z",
    "snippet": "",
    "via": "google"
   },
@@ -109,46 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZFgwdHhYM09UWTFDbENTTVhpVlB2NWw0cjFXNnBCVTVyU05LTTQ5RHl3Z0JmblBpbkRYanFSQ3ZIZUxBUDRibWJRNnBRMFMtWExpYTZ4X0k3LXpzUGhpNXY4dk9vWXNQZWRSM056YW94RVNDSFFfb0NMZ1l0QU83elUydVkxeHZlRDNMcUZraXh1NEd3MGJZMXFvRlpHbGZuNXRLbTQzV09NY21YZWRNMGQ1V2JOS1pNYnNGaw?oc=5",
    "source": "Castanet",
    "published": "2026-11-06T11:39:23Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Canucks vs Oilers: Prediction, Odds, Team News and Goalscorer Picks",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNM1FaUmlOeV9rOFExbE9WTmp1VHg2QWZqbC13ZHVIOHE3YjNVckJFNU54cHNhR3hQZzlqdWx5bHZEODFvMGhTMTFsS2I0T3ljUXZUTndlWWdBNjQ2bThvZ19heXRqM0VlQ0U0S1NsZzdvdUpSVmJtTjJ2ZTlucG1RTA?oc=5",
-   "source": "Squawka",
-   "published": "2026-11-06T10:39:53Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Brett Epp Dresses as Oilers Emergency Backup Goalie vs. Ducks",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRkJsU1k5eUhMQ0FkTFl3aFB3R1pXLVdzSWJ1eFRvNE9oUURCT0lfaW9vbUZRNVBnaXdTUDJMOXFvX0phUzNuTm51bTdQUXp6bHZla2dnSUJnT2VsRGJfZDAyeV95Wkd4ZS0zd21WUVZZamUwbC14dTA1Vlg1VXB2d3hpTmhobjY5dVItRmdYWQ?oc=5",
-   "source": "RG.org",
-   "published": "2026-11-06T10:14:51Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Canucks Seek End to Four-Game Skid Against Oilers in Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcTNEbkg2S2dJaXlpZUNrd3JXQ25ZMnJLUkxmTXhIaVY3YkdEN1VhdXZvZzFJczhEcklTMzZ4UG9DMDgyY19Yd0xBaVUzSjgyWF9xS3JGcHh6Wk82aGd3UDhtNVBWdFlFM3hNRG9mOTdMSWt6VHJHOE1jMWNHemdrbHNiNndCaFhOcDJQMUsxUE14UVFGX0RVNHVFb01EbXBMUzB2NGVaUk5nN2I1ekxjNTlkTmk2Mk94NnBj?oc=5",
-   "source": "Yardbarker",
-   "published": "2026-11-06T09:27:05Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-06T09:20:47Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Canucks take losing streak into game against the Oilers",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaFJBeHhYbXpkRG5rWFlNSXhXSndqNWRfZkRGMGJtaDdtZXBmclZMVkdnZ21WVlBqeUlaS3czd0hOVFR4dWE1dXhoa2J2Y3h6RlV4bXZzdWVnak1IRllsSDVsUDBoVHdOM2pZMjhJSWJPOVV5VTlaQ2tVSXR1b05rWFI3NGFPN1ptNnJpNzdua2xFeTYtTWhJWWpR?oc=5",
-   "source": "FOX Sports",
-   "published": "2026-11-06T09:10:52Z",
    "snippet": "",
    "via": "google"
   },
