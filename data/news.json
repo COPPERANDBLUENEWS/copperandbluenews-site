@@ -1,13 +1,51 @@
 {
- "updated": "2026-11-06T20:24:52Z",
+ "updated": "2026-11-06T21:20:10Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (5)",
-  "Google News (88)"
+  "Sportsnet (6)",
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Ex-Edmonton Oilers forward earning big bucks now, but healthy scratch tonight for new team",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQjcyV1dOUTVGNUY3RkFLdHowMEdDYzZkQXlwYkN1SWFqUk5MQzhKY1ZvTWg4RDVEZ28zWVBwMUE3ZzhsSXFNVWRyTVUwUjVId0d2aUU3WWpUSFdublJnZWdVR05iZ0s1Y0JSTjRhVHF5X0FhT0VTSGV3TUo0N1lKWXRWcE84RU9VNFBfRXpVb195NmhTRmxXY2pLcHNIYXlDWGp4YXRsam8zLUt6UnpBUHNkXzU4RU1HMWc?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-06T20:58:42Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "‘People have me pegged as a robot’: Oilers’ McDavid on emotional response to Helleson hit",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmtBRllsT3lUVmpvNml5SmpNYjgzMVVtUmdhWU9QUlVVR2pQREs0VlA3R3JQSUxzS0t5VHZmUmVwa1RueXpWOGdESTZJZS1DVENLekVFUnkyTExYQWZIZG82b29NSnNKTGgtQk45bTQ1SVUxcHNIT2V3QTJXbEs5MVZocDVGU1ltd1pXWmMzeTlkbUIzMW85YlY4eWJnNmltOHpDZmQ2eEhoQ2QzZVZhaw?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-06T20:44:37Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Are you going to the Edmonton Elks' big game? Here's what you said",
+   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks-bc-lions-cfl-west-final",
+   "source": "Edmonton Journal",
+   "published": "2026-11-06T20:41:56Z",
+   "snippet": "Eleven years has passed since the then-Eskimos defended home turf in the West Division final, before going on to win the Grey Cup"
+  },
+  {
+   "title": "Connor McDavid Calls For Net-Front Safety After Hit Into Post",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMTlsVDFBYVpVVk0tcklFUnhzWTZ5MXZySmFPZ1ptUVB5b0Y3bnpELTFzZ2I1U3JTRFhMbmtjbDBOcWpXOVJ1YW9fU29DdUV4bFBieUdzRl9sVEhTZWVIR1RPNF9ERy1YWFZwRDlvX1ViRjNCWktPM2pQUk40OGdDWTRnUEpTcFZ1cFpONVp5WE1Scy1ncDA3b295OWJjZUVSanJv?oc=5",
+   "source": "RealGM",
+   "published": "2026-11-06T20:41:43Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "‘Remarkable’: Gretzky gives McDavid flowers amid historically hot start",
+   "url": "https://www.sportsnet.ca/nhl/article/remarkable-gretzky-gives-mcdavid-flowers-amid-historically-hot-start/",
+   "source": "Sportsnet",
+   "published": "2026-11-06T20:32:05Z",
+   "snippet": "Despite seeing his records at risk, Gretzky had nothing but praise for the current Oilers superstar as he pushes to break The Great One’s single-season points record."
+  },
   {
    "title": "Oilers Have Moved Beyond Sending a Message To Jake Walman",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONXdfRTZyVlVobG1rU1NNS0szbTJzZnZWc3VLcWRxTG5vVC03MFBWbmQ2c2NuNlJqQ21pa1NwRkkzTGg3SU53bUJ3bld1b2ZrbmFoTEdseEd5WGVYUUptZ2U2VWF2ekZKRXdCU2pUdnNxMHNTSzJrLWpRaUdjMVFuR3FqelpHNXQ4WmJtRkdmY2RhOTdKWmkzRjZ1QlJ6TFNCMHBjRjVxdVJaQnB4ODJWdDhQaHM0dw?oc=5",
@@ -37,14 +75,6 @@
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaDBaeEIyWk5qVm01d251cnBqMDhsQTRnOXljU0pwQjN0XzU5ZVRtano1N0JtYVJGd2tiQTh2NXpVMG8tSFhmZWFWSldPY3JWYTJmOE4zbVFfSlZCZ1ljQks2V0FDV05xVGFyM05uaWRhai15TnFGMWhVeVhUMzZYVzRMWVg0WEFaUWkwNk13VQ?oc=5",
    "source": "FanDuel Sportsbook",
    "published": "2026-11-06T18:40:54Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "‘People have me pegged as a robot’: Oilers’ McDavid on emotional response to Helleson hit",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmtBRllsT3lUVmpvNml5SmpNYjgzMVVtUmdhWU9QUlVVR2pQREs0VlA3R3JQSUxzS0t5VHZmUmVwa1RueXpWOGdESTZJZS1DVENLekVFUnkyTExYQWZIZG82b29NSnNKTGgtQk45bTQ1SVUxcHNIT2V3QTJXbEs5MVZocDVGU1ltd1pXWmMzeTlkbUIzMW85YlY4eWJnNmltOHpDZmQ2eEhoQ2QzZVZhaw?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-06T18:21:40Z",
    "snippet": "",
    "via": "google"
   },
@@ -135,14 +165,6 @@
    "via": "google"
   },
   {
-   "title": "McDavid’s Postgame Comments Have Fans Turning on the Superstar",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYkdGTnU0ZE9fU2V4ajZ4VjBFSDNqQ3NjejZqTzZUbDJwTVJWQ0l1UE1xNkk5SFJ5RmRaSFpQdmZWTlVadU1qdkFfYkprVndmNXFaNjA2bEhpZTlPeS1OLTBmaEgzVmdwMG9oTTJNdV9yYVB4eUxxdDdZTUFGelZGVC02Yl83bFNyWnFMVzd1QXFJajhuVW1va3huZnBlM0V3UVoyVDJ1QkZYdw?oc=5",
-   "source": "Heavy.com",
-   "published": "2026-11-06T15:50:03Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers open 'The Time Store'",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdDBBX0V3eVRCSXdTRlBjS1VMQ3YtUWl0RzlRbGN3aVpQUGlBc1VCZTB6RVU3TVVSaVFjTVJWWXVGRTNUbk9HMEVVdFAxeC00SER5WTA4bVRWU1ltZGV0dk1fUmNLNXZLanJ0OWRJM2E0TV9FalN2R01qcGI0UC03ckRB?oc=5",
    "source": "CTV News",
@@ -159,14 +181,6 @@
    "via": "google"
   },
   {
-   "title": "McDavid: 'Hit me like that, and there's going to be a response'",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNzFMWjBlV2VZUm8yTzJoTVkyMUd5X2ozNllqTWJ5amdOZHRXWk5QaEpDbllQRHl5Nkl0MjNkMDFzbndPTjNMelJvYUVDTktEaWo1bER2amM3aGJjU1FrNTUyb1B1S0hub3VGb2hnRElVSHl6dGtoRG5GUUk5UDQ2VW9CSndnd2Z3VlZneGppcnA1b2dZVlY2YzJ1U2h1eno2N2dr?oc=5",
-   "source": "theScore",
-   "published": "2026-11-06T15:14:07Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "McDavid continues torrid pace following 'dangerous' hit from Helleson of Ducks",
    "url": "https://www.nhl.com/news/oilers-connor-mcdavid-continues-torrid-pace-despite-hit-from-ducks-drew-helleson",
    "source": "NHL.com",
@@ -175,8 +189,8 @@
   },
   {
    "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
-   "url": "https://www.nhl.com/oilers/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026-x0153",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026",
+   "source": "NHL.com",
    "published": "2026-11-06T05:41:00Z",
    "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
   },
@@ -263,20 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-05T20:26:59Z",
    "snippet": ""
-  },
-  {
-   "title": "PROJECTED LINEUP: Oilers vs. Ducks",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-vs-ducks-11-05-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-05T19:10:46.345Z",
-   "snippet": "EDMONTON, AB – Goalie Matt Tomkins will get the start against the Anaheim Ducks on Thursday as the Edmonton Oilers return home to begin a four-game homestand at Rogers Place against their…"
-  },
-  {
-   "title": "Ducks at Oilers projected lineups",
-   "url": "https://www.nhl.com/news/anaheim-ducks-at-edmonton-oilers-game-preview-november-5-2026",
-   "source": "NHL.com",
-   "published": "2026-11-05T19:06:54.747Z",
-   "snippet": "DUCKS (7-7-1) at OILERS (11-2-3) 8 p.m. ET; SNW Prime Video+ Ducks projected lineup Alex Killorn -- Leo Carlsson -- Judd Caufield Cutter Gauthier -- Mikael Granlund -- Beckett Sennecke Nico…"
   }
  ]
 }
