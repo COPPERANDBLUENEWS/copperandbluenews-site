@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-06T09:33:40Z",
+ "updated": "2026-11-06T10:08:32Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (7)",
-  "Google News (93)"
+  "Google News (92)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Canucks take losing streak into game against the Oilers",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU3Q4TjVXU29YUTZWUDR2R0o2aVl0MkRZa2R6MW1LTGhXWjByNFhyLVJCd0VTUm5fdEN5a3Y5TDRHZEFpdlVvdm1uc2hwU2w3eU9LeEM1VTBMNjZGSHdOYnF5aUVVV2hIMm15ZjhsNDU5SkpuM2I2anFoanRsSkt3YzNuMXEzdjVzQ1Q2SDYzY3hkak5kbl9ZVTd5VUNueU1wZDA1VFU0a3BsWXJx?oc=5",
+   "source": "AP News",
+   "published": "2026-11-06T09:10:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "QUICK RECAP: Ducks 5, Oilers 4",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lbWZhUldMT0p6aEFJcTcwc2dtYy1DWHpUM0VTakF3RXZ0SFRReV95NFFEVVhOQjJDcTNzMDV6X29WWE1hcUZ1QWZId0xCTjRkWVNUcHNDRXNmQTFBSVVnM2VvbktrVXFvdEhhdHMxZ1ZJWVphNkx5Mg?oc=5",
@@ -73,6 +81,14 @@
    "via": "google"
   },
   {
+   "title": "Mintyukov, Sennecke each score twice as Ducks hand Oilers second straight loss, 5-4",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY2VwVlNQRG41UmhKOUJ3dU9fQlgxQWtWMG90UWpPUTl3YTkzZVlkRjFCZ3RSbGlSYkFGdHR5OEduYWYzaHBxM3Bwb2d4MENkMWQtalhaTENCaHZtVWtNbm1XcVJYa2p2RVI1Z0ktdko1SjNLTTZJWWxXSXBoaFJKYjdLWXBMNG8tbnZZNkhaQ0NMLW9ORU1paFNrODRJak8wb2ZTVkVHS1ZKUkI0Q01NRXRaUDUyQ2kyRkNrZWVsMDNnaVU?oc=5",
+   "source": "Castanet",
+   "published": "2026-11-06T04:57:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers' Podkolzin receives game misconduct vs. Ducks",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTnd6T2JPUTJiUGRJZ0szV19hTkVab2xKWlJzUm5YTVd1RUpzWXRpVzVSQU5UX3J4SWdSQXBVYW5Ca2NUNHdOWG5BdGNJSGdiT1FHWWlJakJTNEtjV3l6b2NiT1RORG9JOFlfdnBQc3NBT19relh5YS0zTV9zTGdkb0FnUGc1eXBrajdvcmM2YXdpZw?oc=5",
    "source": "Sportsnet.ca",
@@ -101,14 +117,6 @@
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdWViVUY4STdxUGY2cDVRN0hvd0llS2tBcXdoR1dUZ1hubjJTV3lXem1xaVREVmh3SHBkRXRESEFyQWxOOC1SNWtMQ3g4Qm43UWU3SVQtQWJBcVlYYllUMHBNLWYyV19VMVFacnFCZ0JjV25pX2ZseEpkX3NKYjdObnRrYncxdFJSTjhFeXNhZmJZMVE?oc=5",
    "source": "Orange County Register",
    "published": "2026-11-06T04:25:47Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Mintyukov, Sennecke each score twice as Ducks hand Oilers second straight loss, 5-4",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQY2VwVlNQRG41UmhKOUJ3dU9fQlgxQWtWMG90UWpPUTl3YTkzZVlkRjFCZ3RSbGlSYkFGdHR5OEduYWYzaHBxM3Bwb2d4MENkMWQtalhaTENCaHZtVWtNbm1XcVJYa2p2RVI1Z0ktdko1SjNLTTZJWWxXSXBoaFJKYjdLWXBMNG8tbnZZNkhaQ0NMLW9ORU1paFNrODRJak8wb2ZTVkVHS1ZKUkI0Q01NRXRaUDUyQ2kyRkNrZWVsMDNnaVU?oc=5",
-   "source": "Castanet",
-   "published": "2026-11-06T04:19:57Z",
    "snippet": "",
    "via": "google"
   },
@@ -155,14 +163,6 @@
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQnJvR2lEWU1oV0JaYkpROGpFSThvc0JudzdLMldkU2UzbXJqWTRIMk9iNm53NnNvZ18tUE9DSHhXNXRmZHNyZzhHZXV3bElpM0RrMWRLdmFTVzFPTlZlRmZ1cDBhckphb1haWDY0aGpzcFNHb1JVN2FMZHNMZjJFbGNEclpaY05sUXBiRkZn?oc=5",
    "source": "Global News",
    "published": "2026-11-06T03:58:09Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Bouchard becomes fastest defenceman in Oilers history to hit 10 goals",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSndFUXdsT2YyRDF5NDEtblhaT0RGVmpYYWY4YjRrUWFXeUs5d1NzOFVRX0lHdms5aDFsYTRKT2I0X0o2aTl1eF9MVWFZdllDOThhUHY4SkhGdVJKMTNobkw3Zm42VmM0RnB5VzdhRWpyRFlwWF9pN0RyY01JRUdjc0pMMlFCRGxLdjJ1N002dUsta09xRHFyOUxILUVCOGdySWlMNTBWN2xSMkU?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-06T03:53:00Z",
    "snippet": "",
    "via": "google"
   },
