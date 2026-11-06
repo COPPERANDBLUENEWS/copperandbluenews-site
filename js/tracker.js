@@ -239,13 +239,13 @@
     if (!g) {
       g = document.createElementNS("http://www.w3.org/2000/svg", "g");
       g.setAttribute("class", "puck");
-      g.innerHTML = `<circle class="puck-rim" r="2.05"/><circle class="puck-core" r="1.35"/>`;
+      g.innerHTML = `<circle class="puck-rim" r="5.4"/><circle class="puck-core" r="3.7"/>`;
       L.appendChild(g);
     }
     if (soft && S.puckFrom && !reduceMotion()) {
       const [x0, y0] = S.puckFrom;
       cancelAnimationFrame(S.puckRaf);
-      const t0 = performance.now(), dur = S.mode === "replay" && S.speed > 120 ? 120 : 420;
+      const t0 = performance.now(), dur = S.mode === "replay" && S.speed > 120 ? 160 : 700;
       const step = now => {
         const u = Math.min(1, (now - t0) / dur);
         const e = 1 - Math.pow(1 - u, 3);
@@ -585,7 +585,23 @@
       const first = !S.evs.length; const prevIds = new Set(S.evs.map(e => e.id));
       const prevG = S.g;
       setData(g);
-      if (first || !prevG?.plays?.length) { filters(); S.drawn = 0; update(true); }
+      if (first || !prevG?.plays?.length) {
+        filters(); S.drawn = 0;
+        // Walk the puck along the last few located plays so a refresh still shows motion,
+        // instead of dropping the puck on the latest spot with a static trail.
+        const located = [];
+        S.evs.forEach((e, i) => { if (e.x != null && e.y != null && !e.sys) located.push(i); });
+        if (located.length > 1) {
+          clearInterval(S.stag);
+          S.liveShown = located[Math.max(0, located.length - 8)] + 1;
+          update(true);
+          S.stag = setInterval(() => {
+            S.liveShown++;
+            update(false);
+            if (S.liveShown >= S.evs.length) { clearInterval(S.stag); S.liveShown = null; }
+          }, 750);
+        } else update(true);
+      }
       else {
         // put already-seen events first so only genuinely new ones animate
         const fresh = S.evs.filter(e => !prevIds.has(e.id));
@@ -594,7 +610,7 @@
         clearInterval(S.stag);
         const k = Math.min(fresh.length, 30);
         S.liveShown = S.evs.length - k; update(true);
-        if (k) S.stag = setInterval(() => { S.liveShown++; update(false); if (S.liveShown >= S.evs.length) { clearInterval(S.stag); S.liveShown = null; } }, Math.min(600, 9000 / k));
+        if (k) S.stag = setInterval(() => { S.liveShown++; update(false); if (S.liveShown >= S.evs.length) { clearInterval(S.stag); S.liveShown = null; } }, Math.min(750, 10000 / k));
         else S.liveShown = null;
         if (S.periods.length !== (prevG.__np || 0)) filters();
       }

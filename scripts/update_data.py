@@ -185,10 +185,12 @@ def main():
         except Exception as e:
             print("pbp failed", g["id"], e, file=sys.stderr)
 
-    # Live window: from 30 min before puck drop until the game is final.
+    # Live window: from 90 min before puck drop until the game is final.
+    # GitHub's */10 cron can lag by 30-50+ min, so a 30-min window often misses
+    # the start and never begins the self-re-dispatch loop.
     for g in sched:
         t = utc(g["startTimeUTC"])
-        if g["state"] in LIVE or (g["state"] not in FINAL and t - timedelta(minutes=30) <= now <= t + timedelta(hours=5)):
+        if g["state"] in LIVE or (g["state"] not in FINAL and t - timedelta(minutes=90) <= now <= t + timedelta(hours=5)):
             live_game = g
             break
     live = {"updated": stamp, "game": None}
