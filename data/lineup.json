@@ -302,12 +302,6 @@
    "name": "Ty Emberson",
    "num": 49,
    "pos": "D"
-  },
-  {
-   "id": 8486540,
-   "name": "Brett Epp",
-   "num": null,
-   "pos": "G"
   }
  ],
  "opponent": {
@@ -489,5 +483,5 @@
    "note": null
   }
  },
- "updated": "2026-11-06T15:23:34Z"
+ "updated": "2026-11-06T15:55:20Z"
 }
