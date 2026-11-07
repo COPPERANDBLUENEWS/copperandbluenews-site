@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-07T00:14:18Z",
+ "updated": "2026-11-07T01:03:44Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (89)"
+  "Google News (91)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "‘People have me pegged as a robot’: Oilers’ McDavid on emotional response to Helleson hit",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmtBRllsT3lUVmpvNml5SmpNYjgzMVVtUmdhWU9QUlVVR2pQREs0VlA3R3JQSUxzS0t5VHZmUmVwa1RueXpWOGdESTZJZS1DVENLekVFUnkyTExYQWZIZG82b29NSnNKTGgtQk45bTQ1SVUxcHNIT2V3QTJXbEs5MVZocDVGU1ltd1pXWmMzeTlkbUIzMW85YlY4eWJnNmltOHpDZmQ2eEhoQ2QzZVZhaw?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-07T00:23:29Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Should Ducks’ Helleson have been penalized for hit on Oilers’ McDavid?",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeDk3VzVIYmRJSUNTeF96UUllX243WDhfS1UwTFhYRG9Od3BxRVVHcVRnYTdGM3F5SXRJX19CVUxHaVdWXy02enRzdHZhTlFOSXI4YWRuUkcxNTZ6VnczYm5wbFdoTTg4UG13NEJSMWt3aERJWmN0enhMaXZYNE81Vm92U2JnUVgwRXREVzdwZ2lWREJTTWxpaW91WmNoSGhrTkpwTnNPMDJFam9Ma1d3?oc=5",
@@ -61,14 +69,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOXBnM3ZWa2ItcjZFenhxekhLZTRPam81UVhjWHB0SjVEVDZWQUM0dkY2YlpGb21WUWhJeHpkdmYxc1RMTnN2NFNKakxKZktuQnFoOHZmcVFOMGU0UFZ5YU16QUpLZlg2R0dGWnpfWlZNb3RTanlPNjdoeFNxTEh3TmdNRC1TWjBCMFVRQ0VvdmV0QUZhYXhlVnFqcWcwVmhUMkdqTHVubTJlUQ?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-06T21:23:54Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "‘People have me pegged as a robot’: Oilers’ McDavid on emotional response to Helleson hit",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmtBRllsT3lUVmpvNml5SmpNYjgzMVVtUmdhWU9QUlVVR2pQREs0VlA3R3JQSUxzS0t5VHZmUmVwa1RueXpWOGdESTZJZS1DVENLekVFUnkyTExYQWZIZG82b29NSnNKTGgtQk45bTQ1SVUxcHNIT2V3QTJXbEs5MVZocDVGU1ltd1pXWmMzeTlkbUIzMW85YlY4eWJnNmltOHpDZmQ2eEhoQ2QzZVZhaw?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-06T21:22:37Z",
    "snippet": "",
    "via": "google"
   },
@@ -135,19 +135,20 @@
    "via": "google"
   },
   {
+   "title": "RELEASE: Hockey Fights Cancer Mega 50/50 raffle returns | Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZFhKWjdsbldKX2xubTBCNHUxcGg3WEFMb2dCV3lFdDBPenFfbnVvNjB6TlpsS1lIeERyQ3E2V1o1b3gwWklzOEhLX1ZlT2JiT0pPNTlNMUR1Z0pzVUl4QXNuMXRJcjBnLVRkRjhyOFk5WW1nazlLYUdpU1R5WjJXcGloYXNtdF9kaGktQ0Q5OA?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-06T18:40:53Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Gretzky taking notice of McDavid’s 200-point pace: ‘What he’s doing is truly remarkable’",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTmxpUWlyZ0hkZGxVZFJFX2R5RjVVbDE0NzhlY1FhcUQ3QjdEbktFM2tLaW95Mjk4MjBYSHFzeGluRFBqMXBQSHV5amdnd2tsNmlXZG1DTzNiWUpoUUd6b2t1N2ZSY1ZWQjA2T08zaDFqamFRMUlzTl9Nc2tpZ1pqTXRFcDFWanJ1NnpfR0NEeUFUbTExUTNYYV95VEJEb19JcEdYU0NOYVloVmZOcTZDa3Jwbw?oc=5",
    "source": "TSN",
    "published": "2026-11-06T18:18:03Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "RELEASE: Hockey Fights Cancer Mega 50/50 raffle returns",
-   "url": "https://www.nhl.com/oilers/news/release-hockey-fights-cancer-mega-50-50-raffle-returns",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-06T18:11:04.536Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) announced today the return of the Oilers “Hockey Fights Cancer” MEGA 50/50, running from the Oilers Hockey Fights Cancer game…"
   },
   {
    "title": "A recall or a trade: How could the Oilers tweak their lineup?",
@@ -162,14 +163,6 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM0dybzVqdTJWNXlRUExrSkgxVUVEY19EZVJQbzM4RkpDNmdkdDFYYXZNS25zNjNzSGhpMVBRaExwcnhVbEZvTkV5WUE3eGpGN2U2NHhjNzBJX29BQmtadkFBVXVSSWpIMF9CbzJJUlRTWjFkREJaOTNZTjBnTnVSTU45eFhCU2xxN3diaEVCTThRUQ?oc=5",
    "source": "Heavy.com",
    "published": "2026-11-06T17:48:38Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers' Bouchard joins elite company after another multi-point outing",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VQUlXblJoTFRDUXFBNXA1V0pQSGRLaDZKbDFwRlk0NzZBbGlzTWhHMFRUcmk3bVVVTmM5WHoxZ3kzclVFZ3dEdE1mQTNoM0x5OVZXSGRQU2VGT1c2eGtWdEQwWnR2Rzg4NFZBRkVvX282Nm8?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-06T17:36:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -189,8 +182,8 @@
   },
   {
    "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
-   "url": "https://www.nhl.com/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026-x0153",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-06T05:41:00Z",
    "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
   },
@@ -277,6 +270,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-05T17:25:26.84Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) has announced an initiative with the Alberta Cancer Foundation to bring The Time Store to Rogers Place for two upcoming…"
+  },
+  {
+   "title": "One of Mike Babcock's biggest critics now praising him. Will other naysayers do the same?",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-mike-babcock-john-shannon-critics-of-his-hiring",
+   "source": "Edmonton Journal",
+   "published": "2026-11-05T15:27:53Z",
+   "snippet": ""
   }
  ]
 }
