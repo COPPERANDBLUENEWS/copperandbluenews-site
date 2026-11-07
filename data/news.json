@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-07T08:29:18Z",
+ "updated": "2026-11-07T09:25:22Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (89)"
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
@@ -135,14 +135,6 @@
    "via": "google"
   },
   {
-   "title": "New York Rangers Trade Pitch Lands $26M Surging Oilers Goalie in 4-Player Deal",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU1pPMVhrcW1UektPREs2Z0Q0d0taQ0l3SXNKTmEteXlScE52OHdqU3lLcHZXSG95NUdTZ2Q0Vkl5LUhzLS1rb0c1QkV1cUgzemRvV3dFc1ZDS2hzU2Y2TFg5REF6Q3pabHp5SzVULVlLVU9NX3NTQ1lDUEVPaDFES01NdWtVUQ?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-06T20:48:31Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Are you going to the Edmonton Elks' big game? Here's what you said",
    "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks-bc-lions-cfl-west-final",
    "source": "Edmonton Journal",
@@ -181,6 +173,14 @@
    "via": "google"
   },
   {
+   "title": "Gretzky taking notice of McDavid’s 200-point pace: ‘What he’s doing is truly remarkable’",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTmxpUWlyZ0hkZGxVZFJFX2R5RjVVbDE0NzhlY1FhcUQ3QjdEbktFM2tLaW95Mjk4MjBYSHFzeGluRFBqMXBQSHV5amdnd2tsNmlXZG1DTzNiWUpoUUd6b2t1N2ZSY1ZWQjA2T08zaDFqamFRMUlzTl9Nc2tpZ1pqTXRFcDFWanJ1NnpfR0NEeUFUbTExUTNYYV95VEJEb19JcEdYU0NOYVloVmZOcTZDa3Jwbw?oc=5",
+   "source": "TSN",
+   "published": "2026-11-06T18:18:03Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Short Shifts Power Rankings: November 6",
    "url": "https://www.nhl.com/news/short-shifts-power-rankings-november-6-2026",
    "source": "NHL.com",
@@ -196,8 +196,8 @@
   },
   {
    "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
-   "url": "https://www.nhl.com/oilers/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026-x0153",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026",
+   "source": "NHL.com",
    "published": "2026-11-06T05:41:00Z",
    "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
   },
