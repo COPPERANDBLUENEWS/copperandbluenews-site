@@ -170,10 +170,19 @@
   function recordText(){const text=`${record.wins}W – ${record.losses}L · streak ${record.streak} · best streak ${record.bestStreak}${record.bestWin?' · best win 7–'+record.bestWin.copper:''}`;$('playRecord').textContent=text;$('arenaRecord').textContent=text;}
   recordText();
   function copperFace(c,x,y,r) {
-    c.save();c.translate(x,y);c.fillStyle='#c8763a';c.strokeStyle='#0b1a33';c.lineWidth=1.8;
+    c.save();c.translate(x,y);c.fillStyle='#c8763a';c.strokeStyle='#0b1a33';c.lineWidth=1.5;
     c.beginPath();c.moveTo(0,-r*.83);c.bezierCurveTo(-r*.2,-r*.25,-r*.72,-r*.15,-r*.65,r*.32);c.bezierCurveTo(-r*.58,r*.98,r*.65,r*.98,r*.67,r*.25);c.bezierCurveTo(r*.7,-r*.2,r*.15,-r*.4,0,-r*.83);c.fill();c.stroke();
-    c.fillStyle='#0b1a33';for(const x of [-r*.22,r*.24]){c.beginPath();c.ellipse(x,r*.13,r*.09,r*.13,0,0,Math.PI*2);c.fill();}
-    c.beginPath();c.arc(r*.02,r*.28,r*.24,.1,Math.PI-.1);c.stroke();c.restore();
+    // Same helmet, purple black eye and gap-toothed smirk as the full original Copper SVG.
+    c.fillStyle='#12264a';c.beginPath();c.moveTo(-r*.66,-r*.17);c.quadraticCurveTo(-r*.64,-r*.88,0,-r*.88);c.quadraticCurveTo(r*.65,-r*.87,r*.69,-r*.12);c.closePath();c.fill();c.stroke();
+    c.strokeStyle='#c8763a';c.lineWidth=1.6;c.beginPath();c.moveTo(0,-r*.8);c.lineTo(r*.03,-r*.32);c.moveTo(-r*.57,-r*.2);c.quadraticCurveTo(0,-r*.32,r*.6,-r*.16);c.stroke();
+    c.fillStyle='#24416c';c.fillRect(r*.5,-r*.09,r*.18,r*.42);c.strokeStyle='#0b1a33';c.lineWidth=1;c.strokeRect(r*.5,-r*.09,r*.18,r*.42);
+    c.beginPath();c.moveTo(-r*.5,r*.23);c.quadraticCurveTo(-r*.38,r*.87,r*.02,r*.76);c.quadraticCurveTo(r*.43,r*.73,r*.56,r*.3);c.stroke();
+    c.fillStyle='#67517f';c.beginPath();c.ellipse(-r*.23,r*.14,r*.2,r*.22,0,0,Math.PI*2);c.fill();
+    c.fillStyle='#0b1a33';c.beginPath();c.ellipse(-r*.23,r*.15,r*.085,r*.075,0,0,Math.PI*2);c.fill();c.beginPath();c.ellipse(r*.24,r*.13,r*.09,r*.13,0,0,Math.PI*2);c.fill();
+    c.lineWidth=1.7;c.beginPath();c.moveTo(-r*.4,-r*.06);c.lineTo(-r*.09,r*.035);c.moveTo(r*.09,r*.025);c.lineTo(r*.4,-r*.08);c.stroke();
+    c.fillStyle='#0b1a33';c.beginPath();c.moveTo(-r*.27,r*.36);c.quadraticCurveTo(0,r*.49,r*.3,r*.27);c.quadraticCurveTo(r*.19,r*.7,-r*.1,r*.57);c.closePath();c.fill();
+    c.fillStyle='#fff4df';c.beginPath();c.moveTo(-r*.19,r*.4);c.quadraticCurveTo(r*.03,r*.48,r*.22,r*.35);c.lineTo(r*.17,r*.46);c.quadraticCurveTo(0,r*.57,-r*.14,r*.46);c.fill();
+    c.fillStyle='#0b1a33';c.fillRect(-r*.015,r*.42,r*.1,r*.13);c.restore();
   }
   function draw() {
     if(!game)return;const s=game.state,scale=canvas.width/W;ctx.setTransform(scale,0,0,scale,0,0);ctx.drawImage(art,0,0,W,H);
@@ -204,7 +213,7 @@
       for(const hz of [146.8,196]){const o=audio.createOscillator();o.type='sawtooth';o.frequency.value=hz;o.connect(g);o.start(t);o.stop(t+.46);}
     }catch(_){/* sound is optional */}
   }
-  const cheers={you:['Nice shot! Copper tips his toque.','Copper: “Okay, that was a beauty!”','Top shelf! Copper wants a rematch.'],copper:['Copper: “Stick with it, you’ve got this!”','Copper: “A little copper magic!”','Copper: “Next faceoff is yours!”']};
+  const cheers={you:['Nice shot! Copper taps his helmet.','Copper: “Okay, that was a beauty!”','Top shelf! Copper wants a rematch.'],copper:['Copper: “Stick with it, you’ve got this!”','Copper: “A little copper magic!”','Copper: “Next faceoff is yours!”']};
   function syncScore(){if(!game)return;const s=game.state,k=s.score.you+':'+s.score.copper;if(k!==scoreKey){$('youScore').textContent=s.score.you;$('copperScore').textContent=s.score.copper;scoreKey=k;}}
   function finish(s) {
     if(finishShown)return;finishShown=true;syncScore();$('pauseGame').disabled=true;

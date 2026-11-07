@@ -39,8 +39,8 @@ assert.ok(wins.easy>wins.hard,'hard is stronger than rookie');assert.ok(wins.har
 const html=fs.readFileSync(path.join(root,'play.html'),'utf8'),sw=fs.readFileSync(path.join(root,'sw.js'),'utf8'),js=fs.readFileSync(path.join(root,'js/play.js'),'utf8');
 assert.match(html,/<h1>AirHockey with Copper<\/h1>/);assert.match(html,/YOU <b id="youScore"/);assert.match(html,/COPPER <b id="copperScore"/);assert.ok(!/Rink Pong/i.test(html+js));
 assert.ok(js.includes(' in AirHockey with Copper on copperandbluenews.com 🏒'));assert.ok(js.includes('requestFullscreen'));assert.ok(js.includes('visibilitychange'));assert.ok(js.includes('screen.orientation'));
-assert.ok(sw.includes('"/play.html"')&&sw.includes('"/js/play.js?v=36"')&&sw.includes('"/copper.svg"'));
-for(const file of fs.readdirSync(root).filter(f=>f.endsWith('.html'))){const s=fs.readFileSync(path.join(root,file),'utf8');assert.ok(s.includes('href="play.html">AirHockey</a>'),file+' More link');assert.ok(!s.includes('?v=35'),file+' bumped cache');}
+assert.ok(sw.includes('"/play.html"')&&sw.includes('"/js/play.js?v=37"')&&sw.includes('"/copper.svg?v=37"'));
+for(const file of fs.readdirSync(root).filter(f=>f.endsWith('.html'))){const s=fs.readFileSync(path.join(root,file),'utf8');assert.ok(s.includes('href="play.html">AirHockey</a>'),file+' More link');assert.ok(!s.includes('?v=36'),file+' bumped cache');}
 console.log(`AIRHOCKEY PASS: ${seeds*3} seeded real matches end at 7, one finish each, no duplicated goals/NaNs/cap violations/stuck corners. Normal-autoplay wins: Rookie ${wins.easy}/${seeds}, Copper ${wins.normal}/${seeds}, Playoff ${wins.hard}/${seeds}. Match lengths ${Math.round(Math.min(...durations))}–${Math.round(Math.max(...durations))} simulated seconds. Board/mouth/paddle/velocity/pause/half-rink/nav/offline/name tests pass.`);
 // Stable QA capture timestamps/score evidence, without fabricated scores.
 for(const seconds of [8,15,180]){const m=create({difficulty:'normal',demo:true,rng:seeded(2)});for(let i=0;i<seconds/C.STEP&&m.state.phase!=='over';i++)tick(m);console.log('Demo seed=2 at='+seconds,JSON.stringify({phase:m.state.phase,score:m.state.score,winner:m.state.winner}));}
