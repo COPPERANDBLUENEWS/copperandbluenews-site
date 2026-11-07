@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-07T22:14:31Z",
+ "updated": "2026-11-07T22:24:14Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (84)"
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers Activate Devon Levi And Zach Hyman Off IR",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSmdvODFYVUl4YTV1YnVJZUVGQTdnanNjcnVscU9acXRseE9rMXZ3YWYyeURHQjNoR0ctQy0wR3V4cTMxR1pQbTFxMVB0b0pFSWlRc3NNeFU4SXpKVWVxcVFmUm51NkR3aEU5VllOMWZoZmotREpiWjl0VHJERkFuS3hfMWpndzhVSVY2WDB5VmpCQnlPR2NOUlR5YktNZHpKcVFSbWVRbV9rZw?oc=5",
+   "source": "Yardbarker",
+   "published": "2026-11-07T22:04:42Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers notebook: Zach Hyman returns to the lineup, Walman situation getting dicey",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOejJUR0dUZnByQkJZR3N3RXFTYXFQWHlzZ19QU1lhMlFCN0MzVno5NkxuWmN1OWZON2NTNHVJcjhLZ0g2a2t2NE5WcnBTdmVxTkJPcURBeXFCZ3pWaDh2SVNtZ3N4aE9BNms3RWFoOGtFSC05dDdFYzU3WGFaejVzaTlnRnRhbmZmMWNySUpWVWVYcnE2cDVzbFFmVUg0dXhnMkhNOQ?oc=5",
@@ -22,14 +30,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-07T21:04:40Z",
    "snippet": "TNA: Destination X goes Sunday, Nov. 15 at 4 p.m. at the Edmonton Expo Centre. Tickets are available at Ticketmaster.com"
-  },
-  {
-   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T21:01:48Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "How to watch Canucks vs. Oilers: TV channel and streaming options for November 7",
@@ -141,6 +141,14 @@
    "via": "google"
   },
   {
+   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-07T18:00:43Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Did Oilers' McDavid Overreact To Helleson And Ducks Incident?",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ19yTTh0SnlEZGt6TlY0X2tFdHZzMnZXYkFzWm9pcGNpanN6TmQ3UFBNdUpBN2sxazZ4anhvU0ItX1E3OWZRTXk0ZWxUU3JZMV84X2pEUUFXeW9VWTFobVJUUE5GYXZMNkpYUW5tU0hyNDdWNUxIU1p3eEJONjA2REJ0UTU1ZlpnUUFOTVRGOTZzdUtxTWI4a01ZUmpteTdKUWRkUA?oc=5",
    "source": "The Hockey News",
@@ -169,14 +177,6 @@
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM0dfOGtyc0ZHdjFnR2VuMExIWW1wOGFBSl9WQmwwUlZreG9yVW5MNHhKYldwS0RybVZvMk0xX21KaWttSjN5cHNQUjNFcE1Qb0ZiMzJLVFRlcVowVXNmaXBCeVJmTjU0d3RYVERqWHhuQUxvUUpybzlab0wtelo4a091Zl82LVF5Q0xHZlp5bDJCZjNkeFk4?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-07T17:03:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T17:00:24Z",
    "snippet": "",
    "via": "google"
   },
