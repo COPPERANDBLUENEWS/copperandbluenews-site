@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-07T23:32:13Z",
+ "updated": "2026-11-07T23:50:30Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (5)",
-  "Google News (84)"
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Former Canuck Vasily Podkolzin has more than found a home in Edmonton",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObHZQX0hETG9ob19BdHBWSko5MVRwa2VMYTZ4TDExOC1ZWWd2MnZYbjBKV3F3ZFlZMndEVTBwV0R3R0IwM1psQUNSZy1GMmg5bUIzQWFPb1VQN1RkaXFMblA4VzFaZUpoMUxWM21qSHFsYlRXVERoTGREWkN4WjN0alpqOEJKdmwyVVRmbWw2SW5PbVltaFhja280ZW80Zw?oc=5",
+   "source": "Canucks Army",
+   "published": "2026-11-07T23:31:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "CFL Playoffs Live Tracker: Lions vs. Elks",
    "url": "https://www.sportsnet.ca/football/cfl/games/d849c2e1-cda5-3310-8e2d-3079eedf021d/",
@@ -20,14 +28,6 @@
    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPLTRwRzFKRlptWGlxQVlXZjY4YXNsTEpNZDNUd0hOUXRHWDhSMEJ6T2xZVkNkUndpZ2RGZ1FhRkxWS0NhWVlfTXRzcld0VlZaUVJTbXVCZUxuWGxMYmxPcDh4a1BFVnhXM2Q4Z2JMZmJJQXVCMHZkNThxMnAzNGdwdVZPelBVbVBTNEtCdGw2eGt6T1JZNHVHZ3VyVmlqeEhFUW5jMXVDYkpoSVZjaGdqVzRfTlBjZk8wYzFnaFRiZ2tJekZPRG8zNUpxODJIdV9CTG1wQl9QTVlmNGlyUjF3WHR3azM2OWhoT3c?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-07T23:07:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T23:00:24Z",
    "snippet": "",
    "via": "google"
   },
@@ -51,6 +51,14 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
    "source": "NHL.com",
    "published": "2026-11-07T21:54:57Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-07T21:54:46Z",
    "snippet": "",
    "via": "google"
   },
@@ -176,14 +184,6 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ19yTTh0SnlEZGt6TlY0X2tFdHZzMnZXYkFzWm9pcGNpanN6TmQ3UFBNdUpBN2sxazZ4anhvU0ItX1E3OWZRTXk0ZWxUU3JZMV84X2pEUUFXeW9VWTFobVJUUE5GYXZMNkpYUW5tU0hyNDdWNUxIU1p3eEJONjA2REJ0UTU1ZlpnUUFOTVRGOTZzdUtxTWI4a01ZUmpteTdKUWRkUA?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-07T18:00:27Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Edmonton Oilers could acquire three Blue Jackets players in one trade",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcjR2RG9lZTVVVDRmMC1NR1ZUeFp3OC1pbGpMcE5PdXp2bXM3eEVsYXhINlF2OHJoUkhhdTRaNkU4V2xqZ3NORGY2aG1CLTJrZ1BXVUktSWNHTllhYTRJVkR4aGtyUnF4VmdnSTgzQUNYRUlLVlk2Qmp3OW1uNEt2WG5TTk5BUTdqM0ZESXFlb1E?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-07T17:25:42Z",
    "snippet": "",
    "via": "google"
   },
