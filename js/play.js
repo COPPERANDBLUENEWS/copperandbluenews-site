@@ -2,7 +2,7 @@
    Fixed 120 Hz simulation; requestAnimationFrame display; shared engine exported for Node tests. */
 (function (root) {
   'use strict';
-  const W = 360, H = 620, WALL = 14, GOAL = 208, BH = 44, BR = 12, FRONT = 19, BACK = 74, SX = 56, R = 8, MAX = 930, STEP = 1 / 120;
+  const W = 360, H = 620, WALL = 14, GOAL = 176, PR = 34, R = 8, MAX = 930, STEP = 1 / 120;
   const MOODS = {
     easy: {name:'Rookie Copper', reaction:.23, speed:225, error:82, attack:.68},
     normal: {name:'Copper', reaction:.16, speed:300, error:56, attack:.86},
@@ -18,33 +18,17 @@
     return cx===null||cy===null||Math.hypot(x-cx,y-cy)<=radius-pad+.001;
   }
   function pointerTarget(clientX,clientY,box,touch=false) {
-    return {x:(clientX-box.left)*W/box.width,y:(clientY-box.top)*H/box.height-(touch?38*H/box.height:0)};
+    return {x:(clientX-box.left)*W/box.width,y:(clientY-box.top)*H/box.height-(touch?24*H/box.height:0)};
   }
   function seeded(seed) {return () => {seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t ^= t + Math.imul(t ^ t >>> 7, 61 | t); return ((t ^ t >>> 14) >>> 0) / 4294967296;};}
-  const LOCAL_STICK = [
-    {ax:-44,ay:3,bx:0,by:0,r:BR,part:'blade'},
-    {ax:0,ay:0,bx:44,by:-7,r:BR,part:'blade'},
-    {ax:-44,ay:3,bx:-20,by:60,r:6,part:'shaft'},
-    {ax:-20,ay:60,bx:-20,by:60,r:14,part:'knob'}
-  ];
   function paddle(y) {return {x:W/2,y,bottom:y>H/2,vx:0,vy:0,tx:W/2,ty:y,think:0};}
-  function stickSegments(p) {
-    const d=p.bottom?1:-1;
-    return LOCAL_STICK.map(s=>({...s,ax:p.x+s.ax*d,ay:p.y+s.ay*d,bx:p.x+s.bx*d,by:p.y+s.by*d}));
-  }
-  function closest(segment,x,y) {
-    const dx=segment.bx-segment.ax,dy=segment.by-segment.ay,l2=dx*dx+dy*dy;
-    const t=l2?clamp(((x-segment.ax)*dx+(y-segment.ay)*dy)/l2,0,1):0;
-    const cx=segment.ax+t*dx,cy=segment.ay+t*dy;
-    return {x:cx,y:cy,dx:x-cx,dy:y-cy,d:Math.hypot(x-cx,y-cy)};
-  }
   function create(options = {}) {
     const mood = MOODS[options.difficulty] ? options.difficulty : 'normal';
     const state = {difficulty:mood, phase:'faceoff', timer:.9, score:{you:0,copper:0}, winner:null, paused:false,
       puck:{x:W/2,y:H/2,vx:0,vy:0}, you:paddle(H-132), copper:paddle(132), goals:0, time:0, stillTime:0, regionTime:0, regionX:W/2, regionY:H/2, laneTime:0};
     const rng = options.rng || Math.random;
-    const api = {state, step, target, pause(v) {state.paused = !!v;}, constants:{W,H,WALL,GOAL,BH,BR,FRONT,BACK,SX,R,MAX,STEP}};
-    function target(x,y) {state.you.tx=clamp(x,WALL+SX,W-WALL-SX);state.you.ty=clamp(y,H/2+FRONT+10,H-WALL-BACK-10);}
+    const api = {state, step, target, pause(v) {state.paused = !!v;}, constants:{W,H,WALL,GOAL,PR,R,MAX,STEP}};
+    function target(x,y) {state.you.tx=clamp(x,WALL+PR,W-WALL-PR);state.you.ty=clamp(y,H/2+PR+10,H-WALL-PR-10);}
     function resetPositions() {
       Object.assign(state.puck,{x:W/2,y:H/2,vx:0,vy:0});state.regionTime=0;state.regionX=W/2;state.regionY=H/2;state.laneTime=0;
       Object.assign(state.you,paddle(H-132)); Object.assign(state.copper,paddle(132));
@@ -54,7 +38,7 @@
       state.puck.vx=Math.sin(angle)*280;state.puck.vy=Math.cos(angle)*280*dir;state.phase='playing';
     }
     function move(p, speed, dt, bottom) {
-      p.tx=clamp(p.tx,WALL+SX,W-WALL-SX);p.ty=clamp(p.ty,bottom?H/2+FRONT+10:WALL+BACK+10,bottom?H-WALL-BACK-10:H/2-FRONT-10);
+      p.tx=clamp(p.tx,WALL+PR,W-WALL-PR);p.ty=clamp(p.ty,bottom?H/2+PR+10:WALL+PR+10,bottom?H-WALL-PR-10:H/2-PR-10);
       const dx=p.tx-p.x,dy=p.ty-p.y,d=Math.hypot(dx,dy),s=d?Math.min(speed,d/dt)/d:0;
       p.vx=dx*s;p.vy=dy*s;p.x+=p.vx*dt;p.y+=p.vy*dt;
     }
@@ -62,14 +46,14 @@
       p.think-=dt; if(p.think>0)return; p.think=cfg.reaction;
       const q=state.puck, qy=bottom?H-q.y:q.y, py=bottom?H-p.y:p.y;
       const jitter=(rng()-.5)*2*cfg.error;
-      if(qy < WALL+BACK+R+10) {
-        // Don't seal the puck behind the long shaft/knob against our end boards: back off and free it.
-        p.tx=clamp(q.x+jitter,WALL+SX,W-WALL-SX);p.ty=bottom?H-166:166;
+      if(qy < WALL+PR+R+10) {
+        // Back off when the puck is behind the mallet rather than pinning it to the end boards.
+        p.tx=clamp(q.x+jitter,WALL+PR,W-WALL-PR);p.ty=bottom?H-116:116;
       } else if(qy < H/2+10) {
         p.tx=q.x+jitter*.5;
         // Get behind the puck, then drive through it toward the other goal.
-        const lined=Math.abs(p.x-q.x)<BH*.8 && py<qy-BR-4;
-        const ty=lined?qy+40*cfg.attack:qy-BR-R-10;
+        const lined=Math.abs(p.x-q.x)<PR*.8 && py<qy-PR-4;
+        const ty=lined?qy+40*cfg.attack:qy-PR-R-10;
         p.ty=bottom?H-ty:ty;
       } else {
         let x=q.x;const vy=bottom?-q.vy:q.vy;
@@ -78,39 +62,26 @@
           const lo=WALL+R, span=W-2*lo, v=((x-lo)%(2*span)+2*span)%(2*span);
           x=lo+(v>span?2*span-v:v);
         }
-        p.tx=clamp(x+jitter,WALL+SX,W-WALL-SX);p.ty=bottom?H-106:106;
+        p.tx=clamp(x+jitter,WALL+PR,W-WALL-PR);p.ty=bottom?H-106:106;
       }
     }
     function cap() {const q=state.puck,s=Math.hypot(q.vx,q.vy);if(s>MAX){q.vx*=MAX/s;q.vy*=MAX/s;}}
     function collide(p) {
-      const q=state.puck,shape=stickSegments(p);
-      const legal=(x,y)=>withinRink(x,y);
-      const clear=(x,y)=>shape.every(s=>closest(s,x,y).d>=s.r+R-.02);
-      // The visible curved blade, shaft and knob are exactly this union of capsules.
-      for(let pass=0;pass<3;pass++) {
-        let hit=null,point=null,depth=0;
-        for(const s of shape){const c=closest(s,q.x,q.y),pen=s.r+R-c.d;if(pen>depth){hit=s;point=c;depth=pen;}}
-        if(!hit||depth<.001)break;
-        const sum=hit.r+R;
-        let nx=point.d?point.dx/point.d:0,ny=point.d?point.dy/point.d:(p.bottom?-1:1);
-        let cx=point.x+nx*(sum+.1),cy=point.y+ny*(sum+.1);
-        if(!legal(cx,cy)||!clear(cx,cy)) {
-          let best=Infinity;
-          for(let i=0;i<48;i++){const angle=i*Math.PI/24,x=point.x+Math.cos(angle)*(sum+.1),y=point.y+Math.sin(angle)*(sum+.1);
-            if(legal(x,y)&&clear(x,y)){const cost=(x-q.x)**2+(y-q.y)**2;if(cost<best){best=cost;cx=x;cy=y;nx=Math.cos(angle);ny=Math.sin(angle);}}}
-          if(!Number.isFinite(best)) {
-            // Rare compound-shape corner: search capsule endpoints for the nearest free separation.
-            for(const s of shape)for(const t of [0,.5,1])for(let i=0;i<24;i++) {
-              const angle=i*Math.PI/12,px=s.ax+(s.bx-s.ax)*t,py=s.ay+(s.by-s.ay)*t;
-              const x=px+Math.cos(angle)*(s.r+R+.1),y=py+Math.sin(angle)*(s.r+R+.1);
-              if(legal(x,y)&&clear(x,y)){const cost=(x-q.x)**2+(y-q.y)**2;if(cost<best){best=cost;cx=x;cy=y;const d=Math.hypot(x-point.x,y-point.y);nx=d?(x-point.x)/d:0;ny=d?(y-point.y)/d:(p.bottom?-1:1);}}
-            }
-          }
+      const q=state.puck,dx=q.x-p.x,dy=q.y-p.y,d=Math.hypot(dx,dy),sum=PR+R;
+      if(d>=sum)return;
+      let nx=d?dx/d:0,ny=d?dy/d:(p.bottom?-1:1);
+      let x=p.x+nx*(sum+.1),y=p.y+ny*(sum+.1);
+      if(!withinRink(x,y)) {
+        // Separate along the nearest legal point on the same visible circular perimeter.
+        let best=Infinity;
+        for(let i=0;i<48;i++) {
+          const angle=i*Math.PI/24,cx=p.x+Math.cos(angle)*(sum+.1),cy=p.y+Math.sin(angle)*(sum+.1);
+          if(withinRink(cx,cy)){const cost=(cx-q.x)**2+(cy-q.y)**2;if(cost<best){best=cost;x=cx;y=cy;nx=Math.cos(angle);ny=Math.sin(angle);}}
         }
-        q.x=cx;q.y=cy;
-        const vn=(q.vx-p.vx)*nx+(q.vy-p.vy)*ny;
-        if(vn<0){q.vx-=1.92*vn*nx;q.vy-=1.92*vn*ny;q.vx+=p.vx*.14;q.vy+=p.vy*.14;cap();}
       }
+      q.x=x;q.y=y;
+      const vn=(q.vx-p.vx)*nx+(q.vy-p.vy)*ny;
+      if(vn<0){q.vx-=1.92*vn*nx;q.vy-=1.92*vn*ny;q.vx+=p.vx*.14;q.vy+=p.vy*.14;cap();}
     }
     function post(x,y) {
       const q=state.puck,dx=q.x-x,dy=q.y-y,d=Math.hypot(dx,dy),sum=R+3;
@@ -179,7 +150,7 @@
     else{next.losses++;next.streak=0;}
     return next;
   }
-  const lib={create,seeded,updateRecord,stickSegments,closest,withinRink,pointerTarget,MOODS,constants:{W,H,WALL,GOAL,BH,BR,FRONT,BACK,SX,R,MAX,STEP}};
+  const lib={create,seeded,updateRecord,withinRink,pointerTarget,MOODS,constants:{W,H,WALL,GOAL,PR,R,MAX,STEP}};
   if(typeof module!=='undefined'&&module.exports)module.exports=lib;
   root.CopperAirHockey=lib;
   if(!root.document)return;
@@ -236,17 +207,14 @@
     if(s.phase==='playing'&&!s.paused){trails.push({x:s.puck.x,y:s.puck.y});if(trails.length>7)trails.shift();}
     trails.forEach((p,i)=>{ctx.fillStyle=`rgba(11,26,51,${.035+i*.015})`;ctx.beginPath();ctx.arc(p.x,p.y,R*(i+1)/trails.length,0,Math.PI*2);ctx.fill();});
     for(const [p,you] of [[s.copper,false],[s.you,true]]) {
-      const shape=stickSegments(p);
-      const stroke=(segments,color,inset=0,shadow=0)=>{ctx.strokeStyle=color;ctx.lineCap='round';ctx.lineJoin='round';
-        for(const seg of segments){ctx.lineWidth=seg.r*2-inset;ctx.beginPath();ctx.moveTo(seg.ax,seg.ay+shadow);ctx.lineTo(seg.bx,seg.by+shadow);ctx.stroke();}};
-      stroke(shape,'rgba(11,26,51,.17)',-4,3);
-      stroke(shape.filter(s=>s.part==='shaft'),'#0b1a33');stroke(shape.filter(s=>s.part==='shaft'),you?'#c8763a':'#24416c',3);
-      const blade=shape.filter(s=>s.part==='blade');stroke(blade,'#0b1a33');stroke(blade,you?'#FF4C00':'#12264a',3);
-      // Small tape/grip markings follow the same fixed blade curve; no invisible round mallet remains.
-      ctx.save();ctx.translate(p.x,p.y);if(!you)ctx.rotate(Math.PI);ctx.strokeStyle=you?'#ffd4b0':'#c8763a';ctx.lineWidth=1.5;
-      for(const x of [-18,-7,4,15]){ctx.beginPath();ctx.moveTo(x,-8-x*.1);ctx.lineTo(x,8-x*.1);ctx.stroke();}ctx.restore();
-      const k=shape.find(s=>s.part==='knob');ctx.beginPath();ctx.arc(k.ax,k.ay,k.r,0,Math.PI*2);ctx.fillStyle=you?'#c8763a':'#0b1a33';ctx.fill();ctx.strokeStyle=you?'#0b1a33':'#c8763a';ctx.lineWidth=2;ctx.stroke();
-      if(!you)copperFace(ctx,k.ax,k.ay,k.r*.87);
+      // Outer painted edge and circular collider both use exactly PR (1.62x the original radius).
+      ctx.beginPath();ctx.arc(p.x,p.y+3,PR,0,Math.PI*2);ctx.fillStyle='rgba(11,26,51,.18)';ctx.fill();
+      const fill=ctx.createRadialGradient(p.x-PR*.3,p.y-PR*.4,2,p.x,p.y,PR);
+      fill.addColorStop(0,you?'#ff9b57':'#35547b');fill.addColorStop(1,you?'#c8763a':'#0b1a33');
+      ctx.beginPath();ctx.arc(p.x,p.y,PR-1,0,Math.PI*2);ctx.fillStyle=fill;ctx.fill();ctx.strokeStyle=you?'#0b1a33':'#c8763a';ctx.lineWidth=2;ctx.stroke();
+      ctx.beginPath();ctx.arc(p.x,p.y,PR-7,0,Math.PI*2);ctx.strokeStyle=you?'#ffc291':'#45607b';ctx.lineWidth=2;ctx.stroke();
+      if(you){ctx.beginPath();ctx.arc(p.x,p.y,PR*.42,0,Math.PI*2);ctx.fillStyle='#FF4C00';ctx.fill();ctx.strokeStyle='#9f4e21';ctx.lineWidth=2;ctx.stroke();}
+      else copperFace(ctx,p.x,p.y-1,PR*.88);
     }
     const q=s.puck;ctx.beginPath();ctx.ellipse(q.x,q.y+3,R+1,R*.8,0,0,Math.PI*2);ctx.fillStyle='rgba(11,26,51,.2)';ctx.fill();
     ctx.fillStyle='#0b1a33';ctx.beginPath();ctx.arc(q.x,q.y,R,0,Math.PI*2);ctx.fill();ctx.strokeStyle='#45607b';ctx.lineWidth=2;ctx.stroke();
@@ -278,7 +246,7 @@
     finishShown=false;scoreKey='';trails=[];keys.clear();document.body.classList.remove('rink-paused');
     game=create({difficulty:$('playMood').value,demo,demoDifficulty:'normal',...(demo?{rng:seeded(demoSeed)}:{}),
       onGoal(side,s){syncScore();horn();const text=cheers[side][Math.floor(Math.random()*cheers[side].length)];$('arenaComment').textContent=text;$('gameLive').textContent=`${side==='you'?'You score':'Copper scores'}. You ${s.score.you}, Copper ${s.score.copper}. ${text}`;trails=[];},onFinish:finish,onFreeze(){ $('arenaComment').textContent='Frozen puck. Fresh centre-ice faceoff!'; }});
-    $('arenaMood').textContent=MOODS[game.state.difficulty].name+(demo?' · demo':'');$('arenaComment').textContent='Drag your stick. Own your half.';syncScore();$('pongPanel').hidden=true;$('pauseGame').textContent='Pause';$('pauseGame').disabled=false;$('shareStatus').textContent='';if(immersive)animate();
+    $('arenaMood').textContent=MOODS[game.state.difficulty].name+(demo?' · demo':'');$('arenaComment').textContent='Drag your paddle. Own your half.';syncScore();$('pongPanel').hidden=true;$('pauseGame').textContent='Pause';$('pauseGame').disabled=false;$('shareStatus').textContent='';if(immersive)animate();
   }
   function showPanel(kind) {
     document.body.classList.add('rink-paused');

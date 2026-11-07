@@ -116,7 +116,7 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
 - "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home, read in the browser from the public Behold JSON feed (4 s timeout; on failure posts.html shows only the Follow button and Home hides the strip). The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=38`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- Cache-bust: CSS/JS URLs use `?v=39`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 
 ## Cap & contracts (manual, sources: public reports)
 The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:
@@ -226,10 +226,12 @@ itself does not certify legal compliance. Run `npm --prefix worker test` for iso
 ## AirHockey with Copper
 `play.html` + dependency-free `js/play.js`: vertical canvas rink, touch/mouse/keyboard,
 first to seven vs Copper (original hand-drawn oil-drop character in `copper.svg`).
-Rookie Copper / Copper / Playoff Copper vary reaction, speed and aim error. Both strikers are
-112-unit curved stick blades (2.67× the old mallet width), with matching blade/shaft/knob
-capsule colliders. The finger controls the blade 38 CSS pixels above the touch point.
-Goals are 208 units wide; CPU timing/speed/error are retuned for the larger sticks.
+Rookie Copper / Copper / Playoff Copper vary reaction, speed and aim error. Both mallets
+are circular with a 34-unit radius (1.62× the original 21-unit radius); the visible outer
+edge and collision radius match exactly. Your mallet is orange/copper; Copper's is navy
+with his bare-headed, black-eyed, gap-toothed face. Touch uses a gentle 24 CSS pixel
+upward offset instead of the previous stick-only offset; mouse controls the centre directly.
+Goals are retuned to 176 units wide and CPU approach distances use the enlarged circle.
 Rounded rink corners reflect the puck from the same arcs shown in the artwork.
 A genuinely pinned puck gets a neutral faceoff, never an invented goal. Fixed 120 Hz
 physics with capped 930-unit/s puck speed and 60fps requestAnimationFrame rendering;
@@ -241,13 +243,13 @@ orientation where available. iPhone Safari uses the overlay fallback, and standa
 uses the same layout. Navigation, footer and install banners are hidden while playing.
 Exit/Esc restores the page and pauses; hidden tabs stop rendering and require explicit
 Resume. Sound defaults off. Sharing is only triggered by the player's Share button.
-The page, JS, config and Copper SVG are precached for offline play in cbn-v38.
+The page, JS, config and Copper SVG are precached for offline play in cbn-v39.
 
 Local checks: `node --check js/play.js` and `node scripts/test_airhockey.cjs` plus `node scripts/test_airhockey_ui.cjs`.
-The v38 regression runs 80 seeds per mood (240 full matches), all ending at seven in
-43–292 simulated seconds. Normal-autoplay wins 68/80 against Rookie, 37/80 against
-Copper and 12/80 against Playoff Copper. Capsule contacts and touch offset have direct tests.
-`play.html?demo=1&seed=42` runs two CPU sticks, with no record saved. Optional
+The v39 regression runs 80 seeds per mood (240 full matches), all ending at seven in
+28–127 simulated seconds. Normal-autoplay wins 70/80 against Rookie, 35/80 against
+Copper and 12/80 against Playoff Copper. Circular contacts and touch offset have direct tests.
+`play.html?demo=1&seed=42` runs two CPU paddles, with no record saved. Optional
 `&speed=20` accelerates real simulation for development/demo captures; never changes
 scores directly and still ends at seven. `&at=15` replays actual seeded physics to a
 specified simulated second before display; `&at=300&seed=2` reaches a genuine demo win (scores come from the physics, not a fixture). The mascot's transparent 1024px PNG export
@@ -255,7 +257,7 @@ for Instagram is `/workspace/reels/copper-mascot.png` (outside the repository).
 
 Copper artwork v3: bare pointed oil-drop top, chunky navy hockey gloves with copper cuffs,
 padded finger rolls and a natural stick grip. The black eye, determined brows and missing
-front tooth remain. The canvas stick-knob face uses the same bare-headed design.
+front tooth remain. The canvas paddle face uses the same bare-headed design.
 The previous transparent PNG is preserved at `/workspace/reels/copper-mascot-v1.png`.
 
 The helmet-era PNG is preserved at `/workspace/reels/copper-mascot-v2.png`; the current
