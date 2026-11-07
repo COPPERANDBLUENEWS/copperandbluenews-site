@@ -38,7 +38,7 @@
     const bar = $("newsTabs"); if (!bar) return false;
     const show = () => { const f = location.hash === "#fantasy";
       $("tabTeam").hidden = f; $("tabFantasy").hidden = !f;
-      bar.querySelectorAll("a").forEach(a => a.classList.toggle("on", (a.getAttribute("href") === "#fantasy") === f)); };
+      bar.querySelectorAll('a[href^="#"]').forEach(a => a.classList.toggle("on", (a.getAttribute("href") === "#fantasy") === f)); };
     window.addEventListener("hashchange", show); show(); return true;
   }
   async function fantasy() {
