@@ -209,9 +209,14 @@ def lineup_events(now):
     t = utc(g["startTimeUTC"])
     if not (t - timedelta(hours=14) <= now <= t + timedelta(hours=3)):
         return []
-    opp = (g.get("opponent") or {}).get("name", "")
+    opp_info = g.get("opponent") or {}
+    opp = opp_info.get("name", "")
     vs = f"{'vs' if g.get('home') else '@'} {opp}".strip()
     when = t.astimezone(PT).strftime("%-I:%M %p").replace(":00", "") + " PT"
+    # Inbox grouping only. title, body, url and id below are the notification itself and stay as they were.
+    matchup = f"{opp} @ Oilers" if g.get("home") else f"Oilers @ {opp}"
+    sides = {"matchup": matchup.strip(), "away": (opp_info.get("abbrev") if g.get("home") else "EDM") or "",
+             "home": ("EDM" if g.get("home") else opp_info.get("abbrev")) or ""}
     evs = []
     goalie = d.get("goalie") or {}
     starter = (goalie.get("starter") or {}).get("name")
@@ -223,11 +228,14 @@ def lineup_events(now):
             other = f" {on} {'is confirmed' if og.get('status') == 'Confirmed' else 'is expected'} for the {opp or 'other side'}."
         evs.append({"id": f"{g['id']}:lineup:goalie", "type": "lineup", "title": f"Confirmed starter: {starter} in goal for the Oilers",
                     "body": f"{starter} starts {vs}{'' if now >= t else ', puck drop ' + when}.{other} Lines and pairs on the Players tab.",
-                    "url": "/players.html"})
+                    "url": "/players.html", **sides,
+                    "detail": {"kind": "starter", "starter": starter, "opponent": opp, "opponentStarter": on or "",
+                               "opponentStatus": og.get("status") or "", "when": "" if now >= t else when, "venue": g.get("venue") or ""}})
     if d.get("status") == "Confirmed":
         evs.append({"id": f"{g['id']}:lineup:official", "type": "lineup", "title": f"Oilers lineup confirmed {vs}",
                     "body": f"Official dressed lineup is in{(', ' + starter + ' in goal') if starter else ''}. See who's in and who's scratched.",
-                    "url": "/players.html"})
+                    "url": "/players.html", **sides,
+                    "detail": {"kind": "lineup", "starter": starter or "", "opponent": opp, "venue": g.get("venue") or ""}})
     return evs
 
 

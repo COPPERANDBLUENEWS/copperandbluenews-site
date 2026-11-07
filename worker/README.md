@@ -12,6 +12,7 @@ Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this f
 | `GET /export` | Mac | `Authorization: Bearer ADMIN_SECRET` | all sign-ups as CSV |
 | `GET /live/pbp?id=GAMEID` | Live tracker | same site CORS; public read-only | NHL play-by-play in the exact slim JSON format of `scripts/update_data.py`, edge-cached 2 seconds |
 | `GET /live/now` | Home / Scores / tracker boot | same site CORS; public read-only | `{updated, game, goals}` for the current/recent Oilers game, edge-cached 2 seconds |
+| `GET /alerts/log` | the site (Notifications inbox) | same site CORS; public read-only | `{updated, alerts}` newest first. Append-only `alog:<id>` plus the `alerts:log` array in KV. No subscriber data |
 | `GET /health` | anyone | none | `{"ok":true}` |
 
 - `type` is one of `puck_drop`, `goal`, `period_end`, `final`, `lineup`, `odds`, `gameday` (same keys as the panel's checkboxes).
@@ -46,7 +47,16 @@ while hidden. Tests: `npm test` (push crypto plus isolated relay schema/cache/CO
 The Free plan’s 100,000 daily request allowance is shared by live and alerts routes. At one request every
 3 seconds, a visible page uses ~3,600 requests per three-hour game, before pre-game and other traffic.
 A minute cron now drives game alerts through a SQLite-backed Durable Object; see below.
-Lineup/final alert click URLs are untouched.
+Lineup/final alert click URLs are untouched (`/players.html` and `/game.html?id=`). The service worker opens the inbox from the alert id, not by rewriting those urls.
+
+## Alert log (Notifications inbox)
+
+Each alert that is actually handed to the push sender is also appended to KV. Game events (puck drop, goals, period ends, finals) are written from the Durable Object after the delivery plan is committed, without changing the 15-second poll or the push payload. Lineup, confirmed-starter, gameday and odds alerts are written from `POST /notify`, which is still what GitHub Actions calls. A repeated id does not add a second row.
+
+- `alog:<id>` is write-once. `alerts:log` is the newest-first array (capped at 400) that `GET /alerts/log` returns in one read.
+- That is two KV writes per new alert, on top of the existing `evt:` / `snd:` writes. A game night stays inside the Free plan's 1,000 writes/day.
+- `GET /alerts/log` is public and read-only. CORS matches the rest of the site routes. It does not wake the Durable Object.
+- Deploy this Worker yourself (`npx wrangler deploy` from `worker/`). GitHub Pages does not deploy it. Nothing new to create: same KV namespace, same Durable Object, no new secrets. Alerts sent before the deploy are not backfilled. The inbox stays empty until the next one is sent. `notifications.html?sample=1` shows labeled examples.
 
 ## Deploy (one time, about 10 minutes)
 

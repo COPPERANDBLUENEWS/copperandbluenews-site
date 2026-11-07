@@ -4,11 +4,15 @@
 // - Static assets (css, js, images, icons, fonts): cache-first. CSS/JS are versioned (?v=NN),
 //   so bumping the version fetches fresh copies. Bump VERSION below when the precache list changes.
 // - Offline: navigations fall back to the cached page, then offline.html.
-// - Web push: shows Game alerts and opens the payload URL (default /tracker.html) on click.
-const VERSION = "cbn-v40";
+// - Web push: shows Game alerts. A click opens that alert in the notifications inbox when the
+//   payload has an id. The notification's own url is unchanged (lineup stays /players.html,
+//   final stays /game.html?id=). Older notifications with no id still open their url.
+const VERSION = "cbn-v41";
 const STATIC = `${VERSION}-static`, PAGES = `${VERSION}-pages`, DATA = `${VERSION}-data`;
 const PRECACHE = [
-  "/offline.html", "/play.html", "/js/play.js?v=40", "/js/config.js?v=40", "/copper.svg?v=40", "/css/style.css?v=40", "/js/main.js?v=40", "/js/pwa.js?v=40", "/js/newsletter.js?v=40",
+  "/offline.html", "/play.html", "/notifications.html", "/standings.html", "/leaders.html",
+  "/js/play.js?v=41", "/js/config.js?v=41", "/copper.svg?v=41", "/css/style.css?v=41", "/js/main.js?v=41", "/js/pwa.js?v=41", "/js/newsletter.js?v=41",
+  "/js/standings.js?v=41", "/js/leaders.js?v=41", "/js/inbox.js?v=41",
   "/logo.jpg", "/icons/icon-192.png", "/icons/badge-96.png", "/favicon-32.png"
 ];
 const DATA_MAX = 60;
@@ -97,16 +101,22 @@ self.addEventListener("push", event => {
     tag: d.tag || d.id || undefined,
     renotify: d.renotify ?? !!(d.tag || d.id),
     timestamp: d.ts || Date.now(),
-    data: {url: sameOriginUrl(d.url) || new URL("/tracker.html", self.location.origin).href, type: d.type || null}
+    data: {url: sameOriginUrl(d.url) || new URL("/tracker.html", self.location.origin).href, type: d.type || null, id: typeof d.id === "string" ? d.id.slice(0, 120) : null}
   };
   event.waitUntil(self.registration.showNotification(title, opts));
 });
 self.addEventListener("notificationclick", event => {
   event.notification.close();
-  const url = (event.notification.data && event.notification.data.url) || new URL("/tracker.html", self.location.origin).href;
+  const data = event.notification.data || {};
+  const id = typeof data.id === "string" ? data.id : "";
+  // Deep link to the inbox entry. data.url (lineup / final / live) is left as the alert sent it.
+  const url = id
+    ? new URL("/notifications.html?id=" + encodeURIComponent(id), self.location.origin).href
+    : (data.url || new URL("/tracker.html", self.location.origin).href);
   event.waitUntil((async () => {
     const wins = await self.clients.matchAll({type: "window", includeUncontrolled: true});
     for (const w of wins) {
+      if (id && "postMessage" in w) w.postMessage({type: "cbn-open-alert", id});
       if (new URL(w.url).pathname === new URL(url).pathname && "focus" in w) { if ("navigate" in w && w.url !== url) await w.navigate(url).catch(() => {}); return w.focus(); }
     }
     for (const w of wins) if ("focus" in w && "navigate" in w) { await w.navigate(url).catch(() => {}); return w.focus(); }

@@ -5,6 +5,8 @@ Writes:
   data.json              next game / latest result / standings (home page)
   data/schedule.json     full season schedule
   data/stats.json        Oilers skater + goalie season stats
+  data/standings.json    league table (division / conference / wild card)
+  data/leaders.json      NHL skater and goalie stat leaders
   data/live.json         today's/current Oilers game status (live score)
   data/games/<id>.json   box score per played game (finished games are cached
                          and never refetched; live games refresh every run)
@@ -101,6 +103,75 @@ def standings():
                                               "divisionSequence", "divisionName", "streakCode", "streakCount")}
     except Exception as e:
         print("standings failed:", e, file=sys.stderr)
+
+
+def _name(block, fallback=""):
+    if isinstance(block, dict):
+        return block.get("default") or fallback
+    return block or fallback
+
+
+def league_table():
+    """Full NHL table for the Standings view. No logos."""
+    d = get("standings/now")
+    teams = []
+    for s in d.get("standings") or []:
+        code = s.get("streakCode") or ""
+        teams.append({
+            "abbrev": _name(s.get("teamAbbrev")),
+            "name": _name(s.get("teamCommonName"), _name(s.get("teamAbbrev"))),
+            "place": _name(s.get("placeName")),
+            "conf": s.get("conferenceAbbrev") or "",
+            "conference": s.get("conferenceName") or "",
+            "div": s.get("divisionAbbrev") or "",
+            "division": s.get("divisionName") or "",
+            "gp": s.get("gamesPlayed") or 0,
+            "w": s.get("wins") or 0,
+            "l": s.get("losses") or 0,
+            "otl": s.get("otLosses") or 0,
+            "pts": s.get("points") or 0,
+            "pct": s.get("pointPctg"),
+            "gf": s.get("goalFor") or 0,
+            "ga": s.get("goalAgainst") or 0,
+            "diff": s.get("goalDifferential") or 0,
+            "streak": f"{code}{s.get('streakCount') or ''}" if code else "",
+            "l10": f"{s.get('l10Wins') or 0}-{s.get('l10Losses') or 0}-{s.get('l10OtLosses') or 0}",
+            "divRank": s.get("divisionSequence") or 0,
+            "confRank": s.get("conferenceSequence") or 0,
+            "lgRank": s.get("leagueSequence") or 0,
+            "wc": s.get("wildcardSequence") or 0,
+        })
+    return {"wildCard": bool(d.get("wildCardIndicator")), "teams": teams}
+
+
+def _leaders(items):
+    rows = []
+    for p in items or []:
+        first, last = _name(p.get("firstName")), _name(p.get("lastName"))
+        rows.append({"id": p.get("id"), "name": f"{first} {last}".strip(), "team": p.get("teamAbbrev") or "",
+                     "pos": p.get("position") or "", "value": p.get("value")})
+    return rows
+
+
+def league_leaders():
+    """NHL leaderboards for the Leaders view. `current` follows the season the API is in."""
+    sk = get("skater-stats-leaders/current?limit=15")
+    go = get("goalie-stats-leaders/current?limit=10")
+    return {
+        "skaters": {
+            "points": _leaders(sk.get("points")),
+            "goals": _leaders(sk.get("goals")),
+            "assists": _leaders(sk.get("assists")),
+            "plusMinus": _leaders(sk.get("plusMinus")),
+            "ppg": _leaders(sk.get("goalsPp")),
+        },
+        "goalies": {
+            "gaa": _leaders(go.get("goalsAgainstAverage")),
+            "svp": _leaders(go.get("savePctg")),
+            "wins": _leaders(go.get("wins")),
+            "so": _leaders(go.get("shutouts")),
+        },
+    }
 
 
 def stats():
@@ -217,6 +288,16 @@ def main():
         write(DATA / "stats.json", {"updated": stamp, **st})
     except Exception as e:
         print("stats failed:", e, file=sys.stderr)
+    # Standings and leaders move a few times a day, including after finals, so the same
+    # pipeline that writes stats.json writes them. The browser cannot call the NHL API (no CORS).
+    try:
+        write(DATA / "standings.json", {"updated": stamp, **league_table()})
+    except Exception as e:
+        print("league standings failed:", e, file=sys.stderr)
+    try:
+        write(DATA / "leaders.json", {"updated": stamp, **league_leaders()})
+    except Exception as e:
+        print("leaders failed:", e, file=sys.stderr)
     if os.environ.get("LIVE_RUN") != "1":  # live loop skips the ~30 player requests
         try:
             players([p["id"] for p in (st["skaters"] + st["goalies"])] if st else ())

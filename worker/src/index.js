@@ -7,6 +7,7 @@
 //   POST /pickem {game, voter, edm, opp} / GET /pickem?game=ID   score predictions (browser, CORS), see pickem.js
 //   POST /newsletter {email, consent, source, website(honeypot)}  game day email sign-up (browser, CORS), see newsletter.js
 //   GET  /newsletter/unsubscribe?token=TOKEN   one-click unsubscribe; GET /export?list=newsletter for the email list CSV
+//   GET  /alerts/log   newest-first list of sent alerts (public, read-only, site CORS)
 //   GET  /health
 // Fan-out: with the PUSH_QUEUE binding, /notify enqueues batches of subscribers and the queue consumer
 // sends them (each consumer run gets its own subrequest budget, so this scales on the Free plan's
@@ -122,7 +123,21 @@ async function notify(req, env, ctx) {
     out = {ok: true, recipients: subs.length, ...stats, ...(subs.length > list.length ? {skipped: subs.length - list.length, hint: "add the PUSH_QUEUE binding"} : {})};
   }
   if (id) ctx.waitUntil(store.markEvent(env, id, {type: b.type, title: payload.title, at: nowIso(), recipients: subs.length}));
+  // Inbox log is separate from the push. Lineup and final `url` values are copied through unchanged.
+  if (id) ctx.waitUntil(recordAlert(env, {...payload, matchup: typeof b.matchup === "string" ? b.matchup : "",
+    away: typeof b.away === "string" ? b.away : "", home: typeof b.home === "string" ? b.home : "",
+    detail: b.detail || null, game: /^\d{10}/.test(id) ? id.split(":")[0] : null}).catch(e => console.log("alert log failed", String(e))));
   return out;
+}
+
+async function recordAlert(env, entry) {
+  if (env.GAME_ALERTS) {
+    try {
+      const r = await gameStub(env).fetch("https://game-alerts.internal/log", {method: "POST", body: JSON.stringify(entry)});
+      if (r.ok) return;
+    } catch (e) { console.log("alert log actor failed", String(e)); }
+  }
+  await store.appendAlert(env, entry);
 }
 
 const csvCell = v => {
@@ -182,7 +197,7 @@ export default {
   async fetch(req, env, ctx) {
     const {pathname} = new URL(req.url);
     const c = cors(req, env);
-    const browserRoute = pathname === "/subscribe" || pathname === "/unsubscribe" || pathname === "/pickem" || pathname === "/live/pbp" || pathname === "/live/now" || pathname === "/newsletter" || pathname === "/newsletter/unsubscribe";
+    const browserRoute = pathname === "/subscribe" || pathname === "/unsubscribe" || pathname === "/pickem" || pathname === "/live/pbp" || pathname === "/live/now" || pathname === "/alerts/log" || pathname === "/newsletter" || pathname === "/newsletter/unsubscribe";
     try {
       if (req.method === "OPTIONS") {
         if (browserRoute && c["Access-Control-Allow-Origin"]) return new Response(null, {status: 204, headers: c});
@@ -203,6 +218,11 @@ export default {
         if (req.headers.get("Origin") && !c["Access-Control-Allow-Origin"]) throw new HttpError(403, "origin not allowed");
         const out = await newsletter.subscribe(await readJson(req, 2048), req, env);
         return json(out, 200, {...c, "Cache-Control":"no-store"});
+      }
+      if (pathname === "/alerts/log") {
+        if (req.method !== "GET") throw new HttpError(405, "method not allowed");
+        if (req.headers.get("Origin") && !c["Access-Control-Allow-Origin"]) throw new HttpError(403, "origin not allowed");
+        return json({updated: nowIso(), alerts: await store.readAlertLog(env)}, 200, {...c, "Cache-Control": "public, max-age=15"});
       }
       if (pathname === "/live/pbp" || pathname === "/live/now") {
         if (req.method !== "GET") throw new HttpError(405, "method not allowed");
