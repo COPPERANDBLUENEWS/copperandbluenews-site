@@ -5,6 +5,7 @@
 //   GET  /export       sign-up list as CSV                      Authorization: Bearer ADMIN_SECRET (Mac)
 //   GET  /stats?hours=24  subscriber counts + alerts sent (JSON)  Authorization: Bearer ADMIN_SECRET (morning report)
 //   POST /pickem {game, voter, edm, opp} / GET /pickem?game=ID   score predictions (browser, CORS), see pickem.js
+//   POST /fgs {game, voter, player} / GET /fgs?game=ID          first-goal poll (browser, CORS), see fgs.js
 //   POST /newsletter {email, consent, source, website(honeypot)}  game day email sign-up (browser, CORS), see newsletter.js
 //   GET  /newsletter/unsubscribe?token=TOKEN   one-click unsubscribe; GET /export?list=newsletter for the email list CSV
 //   GET  /alerts/log   newest-first list of sent alerts (public, read-only, site CORS)
@@ -18,6 +19,7 @@ import {GAME_TYPES} from "./game-events.js";
 export {GameAlerts} from "./game-alerts.js";
 import * as store from "./store.js";
 import * as pickem from "./pickem.js";
+import * as fgs from "./fgs.js";
 import * as live from "./live.js";
 import * as newsletter from "./newsletter.js";
 
@@ -197,7 +199,7 @@ export default {
   async fetch(req, env, ctx) {
     const {pathname} = new URL(req.url);
     const c = cors(req, env);
-    const browserRoute = pathname === "/subscribe" || pathname === "/unsubscribe" || pathname === "/pickem" || pathname === "/live/pbp" || pathname === "/live/now" || pathname === "/alerts/log" || pathname === "/newsletter" || pathname === "/newsletter/unsubscribe";
+    const browserRoute = pathname === "/subscribe" || pathname === "/unsubscribe" || pathname === "/pickem" || pathname === "/fgs" || pathname === "/live/pbp" || pathname === "/live/now" || pathname === "/alerts/log" || pathname === "/newsletter" || pathname === "/newsletter/unsubscribe";
     try {
       if (req.method === "OPTIONS") {
         if (browserRoute && c["Access-Control-Allow-Origin"]) return new Response(null, {status: 204, headers: c});
@@ -232,17 +234,27 @@ export default {
           : await live.now(u.origin, ctx);
         return json(out, 200, {...c, "Cache-Control": "no-store"});
       }
-      if (browserRoute) {
-        if (pathname === "/pickem" && req.method === "GET") {
-          const out = await pickem.results(new URL(req.url).searchParams.get("game") || "", env);
-          return json(out, 200, {...c, "Cache-Control": "public, max-age=60"});
+      if (pathname === "/pickem" || pathname === "/fgs") {
+        const game = new URL(req.url).searchParams.get("game") || "";
+        if (req.method === "GET") {
+          const out = pathname === "/fgs" ? await fgs.results(game, env) : await pickem.results(game, env);
+          const ttl = pathname === "/fgs" && out.locked !== false ? 15 : 60;
+          return json(out, 200, {...c, "Cache-Control": `public, max-age=${ttl}`});
         }
         if (req.method !== "POST") throw new HttpError(405, "method not allowed");
         // Browsers always send Origin on cross-site POSTs: refuse other sites.
         const origin = req.headers.get("Origin");
         if (origin && !c["Access-Control-Allow-Origin"]) throw new HttpError(403, "origin not allowed");
-        const out = pathname === "/subscribe" ? await subscribe(req, env) : pathname === "/pickem"
-          ? await pickem.vote(await readJson(req, 1024), env) : await unsubscribe(req, env);
+        const body = await readJson(req, 1024);
+        const out = pathname === "/fgs" ? await fgs.vote(body, env) : await pickem.vote(body, env);
+        return json(out, 200, c);
+      }
+      if (browserRoute) {
+        if (req.method !== "POST") throw new HttpError(405, "method not allowed");
+        // Browsers always send Origin on cross-site POSTs: refuse other sites.
+        const origin = req.headers.get("Origin");
+        if (origin && !c["Access-Control-Allow-Origin"]) throw new HttpError(403, "origin not allowed");
+        const out = pathname === "/subscribe" ? await subscribe(req, env) : await unsubscribe(req, env);
         return json(out, 200, c);
       }
       if (pathname === "/notify" && req.method === "POST") return json(await notify(req, env, ctx));
@@ -251,7 +263,7 @@ export default {
       if (pathname === "/health") return json({ok: true});
       return json({error: "not found"}, 404);
     } catch (e) {
-      const status = e instanceof HttpError || e instanceof pickem.PickemError || e instanceof live.LiveError || e instanceof newsletter.NewsletterError ? e.status : 500;
+      const status = e instanceof HttpError || e instanceof pickem.PickemError || e instanceof fgs.FgsError || e instanceof live.LiveError || e instanceof newsletter.NewsletterError ? e.status : 500;
       if (status === 500) console.log("error", e && e.stack || String(e));
       return json({error: status === 500 ? "server error" : e.message}, status, browserRoute ? {...c, "Cache-Control":"no-store", ...(status === 429 ? {"Retry-After":"60"} : {})} : {});
     }

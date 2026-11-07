@@ -118,7 +118,7 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
 - "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home, read in the browser from the public Behold JSON feed (4 s timeout; on failure posts.html shows only the Follow button and Home hides the strip). The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=43`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- Cache-bust: CSS/JS URLs use `?v=44`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 - **Standings and leaders** (Scores tab): `standings.html` and `leaders.html`. `update_data.py` writes `data/standings.json` and `data/leaders.json` from the public NHL API (`standings/now`, `skater-stats-leaders/current`, `goalie-stats-leaders/current`) on the same schedule as the other JSON. The browser still cannot call the NHL API. These are not on the live Worker relay: they change a few times a day, and the relay's request budget is for the rink.
 - **Notifications inbox:** the header bell (top left) opens `notifications.html`. Unread ids are in `localStorage` key `cbn-alerts-read`. The list is `GET /alerts/log` on the alerts Worker. That Worker change is in `worker/` and is **not** deployed by GitHub Pages. See `worker/README.md`. Until it is deployed the page is empty; `?sample=1` shows labeled examples.
 
@@ -203,8 +203,14 @@ players.html (side by side on desktop; tabs on mobile) and in the Live tracker's
 part fails, only the Oilers half shows.
 
 
+## Game day poll: who scores first?
+
+On a game day (Pacific date) the home page asks "Who scores the Oilers' first goal?" Skaters come from `data/lineup.json` when that file is for the same game, otherwise the roster. Goalies are left off. **Other** covers anyone else. One pick per browser, a random id in localStorage (`cbn-fgs`). The pick can change until puck drop. After you vote, the card shows the crowd as percentages and bars. Voting locks at puck drop. When the Oilers score their first goal (NHL play-by-play, shootouts excluded; the page also checks `data/pbp` and `data/games`), it names the scorer and says "You called it!" or that this one wasn't your pick.
+
+Votes are stored by the alerts Worker: `GET` and `POST /fgs?game=ID`, KV prefix `fgs:<game>:<voter>` in the existing `ALERTS_KV` namespace. The anti-abuse matches Pick'em: one key per device id, overwrite on a change, lock at puck drop, site CORS, a 1 KB body cap, and cached tallies so listing votes isn't a free-for-all. GitHub Pages does not deploy `worker/`. **A Worker deploy is required** before live votes will save (`npx wrangler deploy` from `worker/`). No new secrets, queues, or durable objects. `/pickem` still answers. Push payloads, `/live/*`, `/alerts/*`, `/newsletter`, and the 15-second game-alert poll are unchanged.
+
 ## Game day email list (no email delivery yet)
-Home (after Pick'em) and News have an unchecked consent box and separate signup form. Optional
+Home (after the first-goal poll) and News have an unchecked consent box and separate signup form. Optional
 email entered for web-push alerts is never copied into this list. `POST /newsletter` requires
 `email`, `consent:true`, `consentVersion:2026-11-06-v1`, `source:home|news`, and an empty `website`
 honeypot. It normalizes email, stores one deterministic `nl:<sha256(email)>` record in ALERTS_KV,
@@ -263,7 +269,7 @@ so later goals are allowed. Touch on the rink does not call preventDefault.
 `&hold=1` with `demo` and `at` freezes that simulated frame (no extra stepping) so a
 player-goal banner can be captured; it does not change scoring. Example:
 `play.html?demo=1&seed=2&at=3.4&hold=1`.
-The page, JS, config, Copper SVG and rink WAVs are precached for offline play in cbn-v43.
+The page, JS, config, Copper SVG and rink WAVs are precached for offline play in cbn-v44.
 
 Local checks: `node --check js/play.js` and `node scripts/test_airhockey.cjs` plus `node scripts/test_airhockey_ui.cjs`.
 The v39 regression runs 80 seeds per mood (240 full matches), all ending at seven in

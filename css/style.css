@@ -292,22 +292,34 @@ a.mu-p:hover{color:rgb(230,120,50)}.mu-p.empty{color:var(--muted)}
 .how-step h3{margin:0 0 6px;font:700 1.02rem Inter,sans-serif}
 .how-step p{margin:0;color:var(--muted);font-size:.92rem;line-height:1.45}
 
-/* Pick'em (home) */
-.pickem .pk-when{font-size:.85rem;margin:-4px 0 12px}
-.pk-score{display:flex;align-items:flex-end;justify-content:center;gap:14px;margin:6px 0 14px}
-.pk-team{display:flex;flex-direction:column;align-items:center;gap:6px;font-weight:700;font-size:.9rem}
-.pk-step{display:flex;align-items:center;gap:10px}
-.pk-step b{font-size:2.2rem;min-width:1.4em;text-align:center;color:var(--text)}
-.pk-step button{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--navy);color:var(--text);font:700 20px Inter,sans-serif;cursor:pointer}
-.pk-step button:hover{border-color:var(--copper)}
-.pk-dash{font-size:2rem;color:var(--muted);padding-bottom:4px}
-.pickem .pk-go{display:block;margin:0 auto;border:0;cursor:pointer}
-.pk-msg,.pk-mine{text-align:center;font-size:.88rem;margin:10px 0 0;min-height:1em}
-.pk-bar{height:10px;border-radius:999px;background:#3b5ba5;overflow:hidden;margin:14px 0 6px}
-.pk-bar span{display:block;height:100%;background:var(--orange)}
-.pk-crowd{font-size:.85rem;margin:0}
-.pk-last{font-size:.85rem;margin:10px 0 0;padding-top:10px;border-top:1px solid var(--line)}
-.pickem .muted{color:var(--muted)}
+/* First-goal poll (home, game day) */
+.fgs{margin:0 0 14px;scroll-margin-top:74px}
+.fgs h2{font-size:clamp(1.2rem, 5.2vw, 1.55rem);line-height:1.15}
+.fgs-when{font-size:.92rem;margin:0 0 2px}
+.fgs-note,.fgs-total{color:var(--muted);font-size:.82rem;margin:0 0 8px}
+.fgs-msg{font-size:.9rem;margin:0 0 10px}
+.fgs-err{color:#f87171}
+.fgs-call{margin:0 0 10px;padding:10px 12px;border-radius:10px;background:#0f2142;border:1px solid var(--line);font-family:Inter,sans-serif;font-size:.92rem;text-transform:none;letter-spacing:0;line-height:1.4}
+.fgs-call.yes{border-color:var(--copper)}
+.fgs-call b{color:var(--orange)}
+.fgs-go{display:block;width:100%;max-width:320px;margin:0 0 12px;border:0;cursor:pointer;text-align:center}
+.fgs-go:disabled{opacity:.55;cursor:default}
+.fgs-sub{font-size:.78rem;color:var(--copper);margin:8px 0 0}
+.fgs-opts{display:flex;flex-direction:column;gap:6px}
+.fgs-opt{display:flex;flex-direction:column;gap:5px;width:100%;text-align:left;background:#0f2142;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:8px 10px;font:600 .92rem Inter,sans-serif;cursor:pointer}
+.fgs-opt.on{border-color:var(--copper);background:#1a3058}
+.fgs-opt:hover:not(:disabled){border-color:var(--copper)}
+.fgs-opt:focus-visible,.fgs-go:focus-visible{outline:2px solid #f4b37c;outline-offset:2px}
+.fgs-opt:disabled{cursor:default}
+.fgs-line{display:flex;align-items:center;gap:8px;width:100%;min-width:0}
+.fgs-line .num{font:700 .85rem Oswald,sans-serif;color:var(--orange);min-width:2.2em}
+.fgs-line .name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fgs-line .pos{color:var(--muted);font-size:.72rem;font-weight:700}
+.fgs-line .pct{font:700 .9rem Oswald,sans-serif;color:var(--orange);min-width:2.4em;text-align:right}
+.fgs-you{font:700 .62rem Oswald,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--copper);border-radius:999px;padding:2px 6px}
+.fgs-bar{display:block;height:8px;border-radius:999px;background:#3b5ba5;overflow:hidden}
+.fgs-bar span{display:block;height:100%;background:var(--orange)}
+@media(min-width:760px){.fgs-opts{display:grid;grid-template-columns:1fr 1fr;gap:6px 10px}.fgs-sub{grid-column:1/-1}}
 
 /* Navigation v28: short top bar + More menu (desktop); bottom tab bar + More sheet (phones) */
 .nav nav.topnav{display:flex;align-items:center;gap:4px;overflow:visible;flex-wrap:nowrap}
