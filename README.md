@@ -25,7 +25,7 @@ Put the graphic in `images/`, then add an entry to `posts.json`:
 ## Game data (CORS)
 The NHL API (`api-web.nhle.com`) sends **no `Access-Control-Allow-Origin` header** (tested Nov 4, 2026), so
 browsers can't call it. `scripts/update_data.py` (standard library only) fetches it and writes static JSON:
-`data.json` (home cards), `data/schedule.json`, `data/stats.json`, `data/roster.json`, `data/players/<id>.json`, `data/live.json` and `data/games/<id>.json`
+`data.json` (home cards), `data/schedule.json`, `data/stats.json`, `data/standings.json` (league table), `data/leaders.json` (NHL skater and goalie leaders), `data/roster.json`, `data/players/<id>.json`, `data/live.json` and `data/games/<id>.json`
 (box scores: boxscore + landing + right-rail). Finished games are cached in the repo and not refetched.
 
 Pages are deployed by GitHub Actions (Settings > Pages > Source: **GitHub Actions**):
@@ -105,7 +105,9 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
 - `sw.js` (root scope): network-first for pages and data JSON (`data/`, `data.json`, `posts.json`, `js/config.js`),
   so live scores and the tracker are never stale online; cache-first for versioned CSS/JS, images and fonts;
   `offline.html` fallback. Bump `VERSION` in `sw.js` when the precache list changes (old caches are deleted).
-  Push + notificationclick handlers open the payload `url` (same-origin only, default `/tracker.html`).
+  Push + notificationclick handlers open the inbox at `/notifications.html?id=` when the payload has an alert id.
+  The payload `url` is unchanged: lineup still points at `/players.html`, finals at `/game.html?id=`.
+  Notifications with no id (ones sent before this) still open that url.
 - `js/pwa.js`: registers the SW, shows the "Install the app" banner (Android/desktop `beforeinstallprompt`; iOS one-time
   "Tap Share then Add to Home Screen" tip; dismissal is remembered in localStorage), and the bell / Game alerts panel.
 - `js/config.js`: `WORKER_URL` (empty = "Alerts coming soon", nothing is sent) and the public `VAPID_PUBLIC_KEY`.
@@ -116,7 +118,9 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
 - "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home, read in the browser from the public Behold JSON feed (4 s timeout; on failure posts.html shows only the Follow button and Home hides the strip). The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=40`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- Cache-bust: CSS/JS URLs use `?v=41`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- **Standings and leaders** (Scores tab): `standings.html` and `leaders.html`. `update_data.py` writes `data/standings.json` and `data/leaders.json` from the public NHL API (`standings/now`, `skater-stats-leaders/current`, `goalie-stats-leaders/current`) on the same schedule as the other JSON. The browser still cannot call the NHL API. These are not on the live Worker relay: they change a few times a day, and the relay's request budget is for the rink.
+- **Notifications inbox:** the header bell (top left) opens `notifications.html`. Unread ids are in `localStorage` key `cbn-alerts-read`. The list is `GET /alerts/log` on the alerts Worker. That Worker change is in `worker/` and is **not** deployed by GitHub Pages. See `worker/README.md`. Until it is deployed the page is empty; `?sample=1` shows labeled examples.
 
 ## Cap & contracts (manual, sources: public reports)
 The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:
@@ -243,7 +247,7 @@ orientation where available. iPhone Safari uses the overlay fallback, and standa
 uses the same layout. Navigation, footer and install banners are hidden while playing.
 Exit/Esc restores the page and pauses; hidden tabs stop rendering and require explicit
 Resume. Sound defaults off. Sharing is only triggered by the player's Share button.
-The page, JS, config and Copper SVG are precached for offline play in cbn-v40.
+The page, JS, config and Copper SVG are precached for offline play in cbn-v41.
 
 Local checks: `node --check js/play.js` and `node scripts/test_airhockey.cjs` plus `node scripts/test_airhockey_ui.cjs`.
 The v39 regression runs 80 seeds per mood (240 full matches), all ending at seven in

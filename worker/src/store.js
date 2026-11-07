@@ -6,12 +6,17 @@
 //   snd:<ms>:<rand>  send stats for one delivery batch (one queue message or one inline send): metadata
 //             {i: event id, t: type, n: attempts, s: sent, g: gone, f: failed}, kept 8 days. One KV write per
 //             batch of up to 40 subscribers, so a game night stays far under the Free plan's 1,000 writes/day.
+//   alog:<id>        append-only copy of one sent alert (never rewritten once present).
+//   alerts:log       newest-first JSON array, capped, that GET /alerts/log returns in one read.
+//                    The GameAlerts actor serializes updates. A retry that finds alog:<id> already written
+//                    still makes sure that id is in the array, so a crash between the two puts can heal.
 // KV is eventually consistent (a write can take up to ~60 s to show everywhere). Dedupe retries from
 // GitHub Actions come minutes apart, and the pipeline keeps its own sent-id state too.
 export const TYPES = ["puck_drop", "goal", "period_end", "final", "lineup", "odds", "gameday"];
 // Defaults when a sign-up doesn't say: betting odds are opt-in (off), everything else on.
 export const DEFAULTS = {puck_drop: true, goal: true, period_end: true, final: true, lineup: true, odds: false, gameday: true};
-const SUB = "sub:", EVT = "evt:", SND = "snd:";
+const SUB = "sub:", EVT = "evt:", SND = "snd:", ALOG = "alog:", ALERTS = "alerts:log";
+const LOG_MAX = 400;
 const META_MAX = 1000;
 
 const toMask = prefs => TYPES.reduce((m, t, i) => m | (prefs[t] ? 1 << i : 0), 0);
@@ -72,3 +77,61 @@ export function recordSend(env, id, type, stats, attempts) {
     metadata: {i: id || "", t: type, n: attempts, s: stats.sent, g: stats.gone, f: stats.failed}});
 }
 export const listSends = env => listAll(env, SND).then(ks => ks.map(k => ({ts: +k.name.slice(SND.length, SND.length + 13), ...(k.metadata || {})})));
+
+function cleanDetail(d) {
+  if (!d || typeof d !== "object" || Array.isArray(d)) return null;
+  const out = {};
+  for (const [k, v] of Object.entries(d)) {
+    if (!/^[a-zA-Z][a-zA-Z0-9]{0,24}$/.test(k) || Object.keys(out).length >= 24) continue;
+    if (typeof v === "string") out[k] = v.slice(0, 180);
+    else if (typeof v === "number" && Number.isFinite(v)) out[k] = v;
+    else if (typeof v === "boolean") out[k] = v;
+    else if (Array.isArray(v)) out[k] = v.filter(x => typeof x === "string").slice(0, 6).map(s => s.slice(0, 80));
+  }
+  return Object.keys(out).length ? out : null;
+}
+
+function asAlert(entry) {
+  if (!entry || typeof entry.id !== "string" || !entry.id.trim()) return null;
+  if (!TYPES.includes(entry.type)) return null;
+  const id = entry.id.trim().slice(0, 120);
+  const url = typeof entry.url === "string" && entry.url.startsWith("/") && !entry.url.startsWith("//") ? entry.url.slice(0, 300) : "/tracker.html";
+  const at = typeof entry.at === "string" && /^\d{4}-\d{2}-\d{2}T/.test(entry.at) ? entry.at.slice(0, 40) : new Date().toISOString();
+  const fromId = /^\d{10}/.test(id) ? id.split(":")[0] : "";
+  const game = typeof entry.game === "string" && /^\d{10}$/.test(entry.game) ? entry.game : (fromId.length === 10 ? fromId : null);
+  return {
+    id, type: entry.type, title: String(entry.title || "").slice(0, 160), body: String(entry.body || "").slice(0, 400),
+    url, at, game, matchup: String(entry.matchup || "").slice(0, 80), away: String(entry.away || "").slice(0, 8),
+    home: String(entry.home || "").slice(0, 8), detail: cleanDetail(entry.detail),
+  };
+}
+
+async function ensureInList(env, rec) {
+  const cur = await env.ALERTS_KV.get(ALERTS, "json");
+  const list = Array.isArray(cur) ? cur.filter(x => x && x.id && x.id !== rec.id) : [];
+  list.unshift(rec);
+  list.sort((a, b) => String(b.at).localeCompare(String(a.at)));
+  const next = list.slice(0, LOG_MAX);
+  if (Array.isArray(cur) && cur.length === next.length && cur.every((x, i) => x.id === next[i].id)) return;
+  await env.ALERTS_KV.put(ALERTS, JSON.stringify(next));
+}
+
+/** Append one sent alert. The per-id key is write-once; the public array is the read model. */
+export async function appendAlert(env, entry) {
+  if (!env?.ALERTS_KV) return {ok: false};
+  const rec = asAlert(entry);
+  if (!rec) return {ok: false};
+  const prev = await env.ALERTS_KV.get(ALOG + rec.id);
+  if (prev) {
+    try { await ensureInList(env, JSON.parse(prev)); } catch { /* keep the original record */ }
+    return {ok: true, duplicate: true};
+  }
+  await env.ALERTS_KV.put(ALOG + rec.id, JSON.stringify(rec));
+  await ensureInList(env, rec);
+  return {ok: true};
+}
+
+export async function readAlertLog(env) {
+  const list = await env.ALERTS_KV.get(ALERTS, "json");
+  return Array.isArray(list) ? list : [];
+}

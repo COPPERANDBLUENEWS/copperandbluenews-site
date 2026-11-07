@@ -124,7 +124,7 @@ $("yr").textContent = new Date().getFullYear();
 // Navigation: top bar (desktop), bottom tab bar (phones) and the More menu.
 (() => {
   const here = location.pathname.split("/").pop() || "./";
-  const cur = here === "index.html" ? "./" : (here === "game.html" || here === "stats.html") ? "scores.html" : here === "player.html" ? "players.html" : here === "posts.html" ? "news.html" : here;
+  const cur = here === "index.html" ? "./" : (here === "game.html" || here === "stats.html" || here === "standings.html" || here === "leaders.html") ? "scores.html" : here === "player.html" ? "players.html" : here === "posts.html" ? "news.html" : here;
   document.querySelectorAll(".topnav a, .tabbar a, .more-menu a").forEach(a => { if (a.getAttribute("href") === cur) a.classList.add("on"); });
   const menu = document.getElementById("more-menu"); if (!menu) return;
   const inMore = (sel) => !!menu.querySelector(`a.on${sel}`);

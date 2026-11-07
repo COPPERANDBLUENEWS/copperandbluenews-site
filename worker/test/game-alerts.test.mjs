@@ -48,6 +48,16 @@ try{
     await x.actor.flush();await drain(x);
   }
   assert.deepEqual(actual,wanted);assert.equal(x.accepted.length,wanted.length);assert.equal(new Set(x.accepted).size,wanted.length);
+  const logged = await x.env.ALERTS_KV.get('alerts:log','json');
+  assert.equal(logged.length, wanted.length);
+  const byLog = Object.fromEntries(logged.map(a => [a.id, a]));
+  for (const e of wanted) { assert.equal(byLog[e.id].url, e.url); assert.equal(byLog[e.id].title, e.title); assert.equal(byLog[e.id].type, e.type); }
+  const loggedGoal = logged.find(a => a.type==='goal');
+  assert.equal(loggedGoal.detail.kind,'goal'); assert.ok(loggedGoal.detail.scorer); assert.ok(loggedGoal.detail.period); assert.ok(loggedGoal.detail.time); assert.ok(loggedGoal.detail.strength);
+  assert.equal(typeof loggedGoal.detail.awayScore,'number'); assert.equal(typeof loggedGoal.detail.homeScore,'number');
+  assert.match(logged.find(a => a.type==='final').url, /^\/game\.html\?id=\d+$/);
+  assert.equal(logged.find(a => a.type==='puck_drop').url, '/tracker.html');
+  console.log('Alert log: one inbox row per sent game alert, push URLs unchanged, goal detail present');
   const revised=structuredClone(fixture),goal=revised.plays.find(p=>p.typeDescKey==='goal');goal.details.scoringPlayerId=999999;
   assert.equal(await x.actor.stage(revised),0);revised.plays=revised.plays.filter(p=>p.eventId!==goal.eventId);
   assert.equal(await x.actor.stage(revised),0);assert.equal(await x.actor.stage(fixture),0);

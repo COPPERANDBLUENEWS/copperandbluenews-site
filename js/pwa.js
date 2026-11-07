@@ -131,6 +131,43 @@
   }
   function closePanel() { panel.hidden = true; document.documentElement.classList.remove("cbn-lock"); document.getElementById("cbn-bell")?.focus(); }
 
+  // Unread inbox ids. The alert text lives on the Worker; this set never leaves the browser.
+  const READ_KEY = "cbn-alerts-read";
+  const readIds = () => {
+    const s = ls.get(READ_KEY) || {};
+    return new Set(Array.isArray(s.ids) ? s.ids : []);
+  };
+  function paintBadge(n) {
+    const b = document.getElementById("cbn-bell"); if (!b) return;
+    let badge = b.querySelector(".bell-badge");
+    if (!badge) { badge = el("span", {class: "bell-badge"}); b.appendChild(badge); }
+    const count = Math.max(0, n | 0);
+    badge.hidden = count === 0;
+    badge.textContent = count > 9 ? "9+" : String(count);
+    const on = !!saved().on;
+    const label = count ? `Notifications, ${count} unread` : "Notifications";
+    b.setAttribute("aria-label", on ? `${label}. Game alerts are on` : label);
+  }
+  async function refreshBadge() {
+    if (document.body.dataset.inbox === "sample") return;
+    if (!WORKER) return paintBadge(0);
+    let alerts = null;
+    try {
+      const raw = sessionStorage.getItem("cbn-alert-log");
+      const cached = raw ? JSON.parse(raw) : null;
+      if (cached && Array.isArray(cached.alerts) && Date.now() - cached.t < 45000) alerts = cached.alerts;
+      else {
+        const r = await fetch(WORKER + "/alerts/log", {cache: "no-store", signal: AbortSignal.timeout(4000)});
+        if (!r.ok) return;
+        alerts = (await r.json()).alerts || [];
+        try { sessionStorage.setItem("cbn-alert-log", JSON.stringify({t: Date.now(), alerts})); } catch {}
+      }
+    } catch { return; }
+    if (document.body.dataset.inbox === "sample") return;
+    const seen = readIds();
+    paintBadge(alerts.filter(a => a && a.id && !seen.has(a.id)).length);
+  }
+
   const readForm = () => ({
     prefs: Object.fromEntries(PREFS.map(([k]) => [k, panel.querySelector(`input[name=${k}]`).checked])),
     email: panel.querySelector("input[name=email]").value.trim().slice(0, 120)
@@ -181,22 +218,35 @@
     const b = document.getElementById("cbn-bell"); if (!b) return;
     const on = !!saved().on;
     b.classList.toggle("on", on);
-    b.title = !WORKER ? "Alerts coming soon" : on ? "Game alerts: on" : "Game alerts";
-    b.setAttribute("aria-label", b.title);
-    const t = b.querySelector(".bell-t"); if (t) t.textContent = !WORKER ? "Alerts soon" : on ? "Alerts on" : "Alerts";
+    b.title = "Notifications";
+    const t = b.querySelector(".bell-t"); if (t) t.textContent = "Alerts";
+    if (!b.querySelector(".bell-badge")) b.appendChild(el("span", {class: "bell-badge", hidden: ""}));
+    if (b.querySelector(".bell-badge").hidden) b.setAttribute("aria-label", saved().on ? "Notifications. Game alerts are on" : "Notifications");
   }
   function initBell() {
     let b = document.getElementById("cbn-bell");
-    if (!b) { // pages without the static button get one injected
+    if (!b) { // pages without the static button get one injected, at the left of the brand
       const brand = document.querySelector(".nav .brand"); if (!brand) return;
-      b = el("button", {type: "button", class: "bell", id: "cbn-bell"}, `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${BELL}"/></svg><span class="bell-t">Alerts</span>`);
-      brand.after(b);
+      b = el("button", {type: "button", class: "bell", id: "cbn-bell", "aria-label": "Notifications"}, `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${BELL}"/></svg><span class="bell-t">Alerts</span>`);
+      brand.before(b);
     }
-    b.addEventListener("click", openPanel);
+    b.addEventListener("click", () => {
+      if (document.body.dataset.inbox) {
+        const u = new URL(location.href);
+        u.searchParams.delete("id");
+        history.pushState(null, "", u.pathname + u.search);
+        window.scrollTo(0, 0);
+        window.CBN_INBOX?.render();
+        return;
+      }
+      location.href = "notifications.html";
+    });
     document.querySelectorAll("[data-alerts]").forEach(x => x.addEventListener("click", e => { e.preventDefault(); openPanel(); }));
     syncBell();
+    refreshBadge();
+    addEventListener("cbn-alerts-read", refreshBadge);
     if (location.hash === "#alerts") openPanel();
   }
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", initBell) : initBell();
-  window.CBN_PWA = {openPanel, showBanner};
+  window.CBN_PWA = {openPanel, showBanner, paintBadge, refreshBadge};
 })();

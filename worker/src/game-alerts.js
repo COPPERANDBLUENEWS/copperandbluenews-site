@@ -3,6 +3,7 @@
 import {gameEvents, addOdds, oddsGame} from "./game-events.js";
 import {notificationPlan, deliver} from "./delivery.js";
 import {bytesToB64u} from "./webpush.js";
+import {describeAlert, entryFromPending} from "./alert-log.js";
 import * as store from "./store.js";
 const API = "https://api-web.nhle.com/v1";
 const FINAL = ["OFF", "FINAL"], LIVE = ["LIVE", "CRIT"], INTERVAL = 15000;
@@ -59,9 +60,12 @@ export class GameAlerts {
       const plan = await notificationPlan(this.env, {...event, topic: bytesToB64u(new Uint8Array(digest).slice(0, 16))});
       const batches = [];
       for (let i = 0; i < plan.subs.length; i += 20) batches.push(plan.subs.slice(i, i + 20));
+      let log = null;
+      try { log = describeAlert(g, e); } catch (err) { console.log("alert detail failed", String(err)); }
       // One atomic commit: never mark seen unless the complete delivery plan is durably recoverable.
+      // `log` is inbox-only. It is not part of the push payload, so titles, bodies and URLs stay the same.
       await this.storage.put({["seen:" + e.id]: {at: Date.now()}, [stateKey]: state,
-        ["pending:" + e.id]: {payload: plan.payload, batches, completed: [], at: Date.now()}});
+        ["pending:" + e.id]: {payload: plan.payload, batches, completed: [], at: Date.now(), log}});
     }
     return fresh.length;
   }
@@ -75,6 +79,7 @@ export class GameAlerts {
       }
       if (!row.batches.length) {
         await store.markEvent(this.env, id, {type: row.payload.type, title: row.payload.title, at: new Date(row.at).toISOString(), recipients: 0});
+        await this.remember(row, id);
         await this.storage.delete(key); continue;
       }
       if (!this.env.PUSH_QUEUE) throw new Error("PUSH_QUEUE required for durable game alerts");
@@ -88,10 +93,22 @@ export class GameAlerts {
           await store.markEvent(this.env, id, {type: row.payload.type, title: row.payload.title,
             at: new Date(row.at).toISOString(), recipients: row.batches.reduce((n, b) => n + b.length, 0)});
           await this.storage.put("reported:" + id, true);
+          await this.remember(row, id);
         }
       } catch (e) { await this.storage.put(retryKey, 0); throw e; }
     }
     return pending.size;
+  }
+  // Log writes share one chain so a lineup POST /log can't drop a game alert from the KV array.
+  appendLog(entry) {
+    if (!entry?.id) return Promise.resolve();
+    const prev = this._logTail || Promise.resolve();
+    const task = prev.catch(() => {}).then(() => store.appendAlert(this.env, entry));
+    this._logTail = task;
+    return task;
+  }
+  remember(row, id) {
+    return this.appendLog(entryFromPending(row, id)).catch(e => console.log("alert log failed", String(e)));
   }
   // Event-scoped mutex persists across every awaited push/checkpoint; different batches of one event cannot race.
   async delivery(id, batch) {
@@ -169,7 +186,8 @@ export class GameAlerts {
   async fetch(req) {
     try {
       const b = await req.json(), path = new URL(req.url).pathname;
-      const out = path === "/tick" ? await this.run(b.scheduledTime) : path === "/deliver" ? await this.delivery(b.id, b.batch) : null;
+      const out = path === "/tick" ? await this.run(b.scheduledTime) : path === "/deliver" ? await this.delivery(b.id, b.batch)
+        : path === "/log" ? await this.appendLog(b).then(() => ({ok: true})) : null;
       return Response.json(out || {error: "not found"}, {status: out ? 200 : 404});
     } catch (e) { console.log("game-alerts error", String(e)); return Response.json({error: String(e)}, {status: 500}); }
   }
