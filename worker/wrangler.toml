@@ -42,3 +42,9 @@ class_name = "GameAlerts"
 [exports.GameAlerts]
 type = "durable-object"
 storage = "sqlite"
+
+# Native, approximate per-IP newsletter throttling. Does not spend shared KV writes on counters.
+[[ratelimits]]
+name = "NEWSLETTER_RATE"
+namespace_id = "2026110635"
+simple = { limit = 5, period = 60 }

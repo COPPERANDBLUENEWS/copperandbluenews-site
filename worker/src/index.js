@@ -5,6 +5,8 @@
 //   GET  /export       sign-up list as CSV                      Authorization: Bearer ADMIN_SECRET (Mac)
 //   GET  /stats?hours=24  subscriber counts + alerts sent (JSON)  Authorization: Bearer ADMIN_SECRET (morning report)
 //   POST /pickem {game, voter, edm, opp} / GET /pickem?game=ID   score predictions (browser, CORS), see pickem.js
+//   POST /newsletter {email, consent, source, website(honeypot)}  game day email sign-up (browser, CORS), see newsletter.js
+//   GET  /newsletter/unsubscribe?token=TOKEN   one-click unsubscribe; GET /export?list=newsletter for the email list CSV
 //   GET  /health
 // Fan-out: with the PUSH_QUEUE binding, /notify enqueues batches of subscribers and the queue consumer
 // sends them (each consumer run gets its own subrequest budget, so this scales on the Free plan's
@@ -16,6 +18,7 @@ export {GameAlerts} from "./game-alerts.js";
 import * as store from "./store.js";
 import * as pickem from "./pickem.js";
 import * as live from "./live.js";
+import * as newsletter from "./newsletter.js";
 
 const TYPES = store.TYPES; // puck_drop, goal, period_end, final, lineup, odds, gameday
 const ORIGINS = ["https://copperandbluenews.com", "https://www.copperandbluenews.com"];
@@ -129,6 +132,17 @@ const csvCell = v => {
 };
 async function exportCsv(req, env) {
   if (!(await safeEqual(bearer(req), env.ADMIN_SECRET))) throw new HttpError(401, "unauthorized");
+  if (new URL(req.url).searchParams.get("list") === "newsletter") {
+    const cols = ["id", "email", "ts", "source", "consent_ts", "consent_version", "consent_text", "consent_method", "unsubscribe_url"];
+    const rows = await newsletter.rows(env);
+    const lines = [];
+    for (const row of rows.sort((a,b)=>a.ts.localeCompare(b.ts))) {
+      row.unsubscribe_url = "https://cbn-alerts.copperandbluenews.workers.dev/newsletter/unsubscribe?token=" + await newsletter.unsubscribeToken(env, row.id, row.ts);
+      lines.push(cols.map(c=>csvCell(row[c])).join(","));
+    }
+    return new Response([cols.join(","), ...lines].join("\r\n") + "\r\n", {headers:{"Content-Type":"text/csv; charset=utf-8", "Cache-Control":"no-store",
+      "Content-Disposition": `attachment; filename="cbn-newsletter-${new Date().toISOString().slice(0,10)}.csv"`}});
+  }
   const cols = ["id", "email", ...TYPES, "created_at", "updated_at", "endpoint", "p256dh", "auth"];
   const rows = (await store.listSubs(env)).sort((a, b) => (a.created_at || "").localeCompare(b.created_at || ""))
     .map(r => ({...r, ...Object.fromEntries(TYPES.map(t => [t, r.prefs[t] ? 1 : 0]))}));
@@ -141,14 +155,14 @@ async function stats(req, env) {
   if (!(await safeEqual(bearer(req), env.ADMIN_SECRET))) throw new HttpError(401, "unauthorized");
   const hours = Math.min(Math.max(+(new URL(req.url).searchParams.get("hours")) || 24, 1), 192);
   const since = Date.now() - hours * 3600e3, sinceIso = new Date(since).toISOString();
-  const [subs, events, sends] = await Promise.all([store.listSubs(env), store.listEvents(env), store.listSends(env)]);
+  const [subs, events, sends, nlCounts] = await Promise.all([store.listSubs(env), store.listEvents(env), store.listSends(env), newsletter.counts(env)]);
   const perType = Object.fromEntries(TYPES.map(t => [t, subs.filter(s => s.prefs[t]).length]));
   const evs = events.filter(e => e.at && e.at >= sinceIso), snd = sends.filter(x => x.ts >= since);
   const byType = {};
   for (const e of evs) byType[e.t] = (byType[e.t] || 0) + 1;
   const sum = k => snd.reduce((a, x) => a + (+x[k] || 0), 0);
   return {
-    generated_at: nowIso(), hours,
+    generated_at: nowIso(), hours, newsletter: nlCounts,
     subscribers: {total: subs.length, new: subs.filter(s => (s.created_at || "") >= sinceIso).length, per_type: perType},
     alerts: {events: evs.length, events_by_type: byType, push_attempts: sum("n"), sent: sum("s"), failed: sum("f"),
       expired_removed: sum("g"), test_sends: snd.filter(x => !x.i).length},
@@ -168,11 +182,27 @@ export default {
   async fetch(req, env, ctx) {
     const {pathname} = new URL(req.url);
     const c = cors(req, env);
-    const browserRoute = pathname === "/subscribe" || pathname === "/unsubscribe" || pathname === "/pickem" || pathname === "/live/pbp" || pathname === "/live/now";
+    const browserRoute = pathname === "/subscribe" || pathname === "/unsubscribe" || pathname === "/pickem" || pathname === "/live/pbp" || pathname === "/live/now" || pathname === "/newsletter" || pathname === "/newsletter/unsubscribe";
     try {
       if (req.method === "OPTIONS") {
         if (browserRoute && c["Access-Control-Allow-Origin"]) return new Response(null, {status: 204, headers: c});
         return new Response(null, {status: 403});
+      }
+      if (pathname === "/newsletter/unsubscribe") {
+        if (req.method !== "GET") throw new HttpError(405, "method not allowed");
+        if (req.headers.get("Origin") && !c["Access-Control-Allow-Origin"]) throw new HttpError(403, "origin not allowed");
+        let ok = false;
+        try { await newsletter.unsubscribe(new URL(req.url).searchParams.get("token"), env); ok = true; }
+        catch (e) { if (!(e instanceof newsletter.NewsletterError) || e.status !== 400) throw e; }
+        return new Response(newsletter.unsubscribePage(ok), {status:ok ? 200 : 400, headers:{...c,
+          "Content-Type":"text/html; charset=utf-8", "Cache-Control":"no-store", "Referrer-Policy":"no-referrer", "X-Frame-Options":"DENY",
+          "Content-Security-Policy":"default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"}});
+      }
+      if (pathname === "/newsletter") {
+        if (req.method !== "POST") throw new HttpError(405, "method not allowed");
+        if (req.headers.get("Origin") && !c["Access-Control-Allow-Origin"]) throw new HttpError(403, "origin not allowed");
+        const out = await newsletter.subscribe(await readJson(req, 2048), req, env);
+        return json(out, 200, {...c, "Cache-Control":"no-store"});
       }
       if (pathname === "/live/pbp" || pathname === "/live/now") {
         if (req.method !== "GET") throw new HttpError(405, "method not allowed");
@@ -201,9 +231,9 @@ export default {
       if (pathname === "/health") return json({ok: true});
       return json({error: "not found"}, 404);
     } catch (e) {
-      const status = e instanceof HttpError || e instanceof pickem.PickemError || e instanceof live.LiveError ? e.status : 500;
+      const status = e instanceof HttpError || e instanceof pickem.PickemError || e instanceof live.LiveError || e instanceof newsletter.NewsletterError ? e.status : 500;
       if (status === 500) console.log("error", e && e.stack || String(e));
-      return json({error: status === 500 ? "server error" : e.message}, status, browserRoute ? c : {});
+      return json({error: status === 500 ? "server error" : e.message}, status, browserRoute ? {...c, "Cache-Control":"no-store", ...(status === 429 ? {"Retry-After":"60"} : {})} : {});
     }
   },
 

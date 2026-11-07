@@ -1,2 +1,5 @@
 screenshots/
 __pycache__/
+
+# Local Wrangler/Miniflare state is never site content.
+.wrangler/

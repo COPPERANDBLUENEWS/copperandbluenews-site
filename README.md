@@ -116,7 +116,7 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
 - "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home, read in the browser from the public Behold JSON feed (4 s timeout; on failure posts.html shows only the Follow button and Home hides the strip). The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=34`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- Cache-bust: CSS/JS URLs use `?v=35`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 
 ## Cap & contracts (manual, sources: public reports)
 The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:
@@ -197,3 +197,27 @@ starting-goalies page) and injuries under `"opponent"` in `data/lineup.json` (al
 `SLUGS`), flipping to "Confirmed · official" from the NHL boxscore like EDM. `js/matchup.js` renders it on
 players.html (side by side on desktop; tabs on mobile) and in the Live tracker's pre-game view. If the opponent
 part fails, only the Oilers half shows.
+
+
+## Game day email list (no email delivery yet)
+Home (after Pick'em) and News have an unchecked consent box and separate signup form. Optional
+email entered for web-push alerts is never copied into this list. `POST /newsletter` requires
+`email`, `consent:true`, `consentVersion:2026-11-06-v1`, `source:home|news`, and an empty `website`
+honeypot. It normalizes email, stores one deterministic `nl:<sha256(email)>` record in ALERTS_KV,
+and preserves the consent timestamp, exact wording/version, method and source. Native
+NEWSLETTER_RATE limits attempts approximately to 5/IP/minute per Cloudflare location, without
+KV counter writes or raw IPs in subscriber records. Existing site/www CORS rules apply.
+
+Admin-only `GET /stats` adds `newsletter:{total,new_24h}` (always a fixed last 24h).
+Admin-only `GET /export?list=newsletter` exports email, consent evidence and a signed unsubscribe
+URL as CSV; bare `/export` still exports push subscriptions. Use the existing ADMIN_SECRET bearer
+header; never put it in a URL. Unsubscribe URLs use domain-separated HMAC-SHA256 with ADMIN_SECRET,
+are bound to the signup timestamp, have no expiry, require no login, and remove only that
+newsletter record. Rotating ADMIN_SECRET invalidates old links: preserve it or arrange an old-key
+verification transition before sending any newsletter. KV changes can take about 60s to propagate.
+
+No sender, campaign, confirmation email or automatic newsletter is enabled. Before sending,
+add Mac's approved public business mailing/contact address to the consent request and messages
+(a PO box is fine; never publish a private home address), complete the mailing/provider setup and
+CASL/PIPEDA review, and ensure every email has its per-recipient unsubscribe link. Consent by
+itself does not certify legal compliance. Run `npm --prefix worker test` for isolated list/route tests.
