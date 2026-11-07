@@ -51,7 +51,7 @@ for(const difficulty of Object.keys(MOODS))for(let seed=1;seed<=seeds;seed++){
 }
 assert.ok(wins.easy>wins.normal&&wins.normal>wins.hard,'sensible difficulty spread');assert.ok(wins.hard>0,'Playoff Copper is beatable');
 const html=fs.readFileSync(path.join(root,'play.html'),'utf8'),sw=fs.readFileSync(path.join(root,'sw.js'),'utf8'),js=fs.readFileSync(path.join(root,'js/play.js'),'utf8');
-assert.match(html,/<h1>AirHockey with Copper<\/h1>/);assert.match(html,/YOU <b id="youScore"/);assert.match(html,/COPPER <b id="copperScore"/);assert.ok(!/Rink Pong/i.test(html+js));
+assert.match(html,/<h1>AirHockey with Copper<\/h1>/);assert.match(html,/id="youLabel">YOU<\/span> <b id="youScore"/);assert.match(html,/id="oppLabel">COPPER<\/span> <b id="copperScore"/);assert.ok(!/Rink Pong/i.test(html+js));
 assert.ok(js.includes(' in AirHockey with Copper on copperandbluenews.com 🏒'));assert.ok(js.includes('requestFullscreen'));assert.ok(js.includes('visibilitychange'));assert.ok(js.includes('screen.orientation'));
 const version=sw.match(/const VERSION = "cbn-v(\d+)"/)[1];assert.ok(sw.includes('"/play.html"')&&sw.includes(`"/js/play.js?v=${version}"`)&&sw.includes(`"/copper.svg?v=${version}"`));
 for(const file of fs.readdirSync(root).filter(f=>f.endsWith('.html'))){const s=fs.readFileSync(path.join(root,file),'utf8');assert.ok(s.includes('href="play.html">AirHockey</a>'),file+' More link');for(const m of s.matchAll(/\?v=(\d+)/g))assert.equal(m[1],version,file+' current asset version');}

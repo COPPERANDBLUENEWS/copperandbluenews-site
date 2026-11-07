@@ -118,7 +118,7 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
 - "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home. Each card opens that post's article. See **Instagram articles** below. The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=45`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- Cache-bust: CSS/JS URLs use `?v=46`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 - **Standings and leaders** (Scores tab): `standings.html` and `leaders.html`. `update_data.py` writes `data/standings.json` and `data/leaders.json` from the public NHL API (`standings/now`, `skater-stats-leaders/current`, `goalie-stats-leaders/current`) on the same schedule as the other JSON. The browser still cannot call the NHL API. These are not on the live Worker relay: they change a few times a day, and the relay's request budget is for the rink.
 - **Notifications inbox:** the header bell (top left) opens `notifications.html`. Unread ids are in `localStorage` key `cbn-alerts-read`. The list is `GET /alerts/log` on the alerts Worker. That Worker change is in `worker/` and is **not** deployed by GitHub Pages. See `worker/README.md`. Until it is deployed the page is empty; `?sample=1` shows labeled examples.
 
@@ -276,7 +276,7 @@ Rounded rink corners reflect the puck from the same arcs shown in the artwork.
 A genuinely pinned puck gets a neutral faceoff, never an invented goal. Fixed 120 Hz
 physics with capped 930-unit/s puck speed and 60fps requestAnimationFrame rendering;
 DPR-scaled canvas and cached rink drawing. Best win, wins/losses and streaks stay in
-localStorage only. No accounts, scores service or network dependencies.
+localStorage only. Online head-to-head is separate (see below) and does not change the Copper match.
 
 Play opens a safe-area-aware fixed 100dvh overlay; requests native fullscreen and portrait
 orientation where available. iPhone Safari uses the overlay fallback, and standalone PWA
@@ -299,7 +299,15 @@ so later goals are allowed. Touch on the rink does not call preventDefault.
 `&hold=1` with `demo` and `at` freezes that simulated frame (no extra stepping) so a
 player-goal banner can be captured; it does not change scoring. Example:
 `play.html?demo=1&seed=2&at=3.4&hold=1`.
-The page, JS, config, Copper SVG and rink WAVs are precached for offline play in cbn-v45.
+The page, JS, config, Copper SVG and rink WAVs are precached for offline play in cbn-v46.
+`js/airhockey-online.js` is precached with them. A live match still needs the network.
+
+### Play online
+Play online sits on the same page. Quick Match pairs you with whoever is waiting. Challenge a friend creates a room code and a share link `play.html?room=ABC123` (Web Share API, with copy as the fallback). Each player sees their own paddle at the bottom. Online matches are two minutes on a server clock (shown in the HUD). More goals at 0:00 wins. A tie starts sudden-death overtime: the next goal wins, and if the extra minute expires still tied the match is a tie. Against Copper, first to 7 is unchanged. The server is authoritative: one `AirHockeyMatch` Durable Object simulates the puck at 60 Hz and broadcasts about 30 times a second. Your paddle is predicted locally. A dropped connection has 15 seconds to reconnect, then it is a forfeit. Rematch and quit are on the rink. The scorer’s name is on the goal banner (`<username> lights the lamp!`) and that player gets the goal horn.
+
+Accounts are a username (3–16 letters, numbers, underscore) with a basic profanity and impersonation filter (names like admin, copperandblue, and oilers are refused). A random device token stays in localStorage and is stored only as a hash. The signup screen shows an account recovery code once; using it on another device signs you in and replaces the previous token. The account row has a nullable email column for a later login. Each finished game is stored (both usernames, score, duration, overtime flag) and career stats are counted from those rows: games, wins, losses, ties, overtime losses, goals for, goals against, goal differential, goals per game, and an Elo rating (start 1000, K=32; a tie is half a point). The AirHockey page lists the top 25, sortable by rating, wins, goals, or differential, plus your rank and a stats card. Home shows the game under the hero (below the live card and first-goal poll on a game day) with Play vs Copper, Play Online (`play.html?online=1`), and the top 3 ratings when the worker answers.
+
+Sign-ups are limited per network, and so are new matches. Each socket is rate-limited. Paddle targets are clamped to that player’s half and the mallet still cannot move faster than the single-player paddle. No new KV namespace. `GameAlerts` is not modified. Deploy the Worker (`npx wrangler deploy` from `worker/`) so the new Durable Object classes exist; GitHub Pages does not do that. See `worker/README.md`.
 
 Local checks: `node --check js/play.js` and `node scripts/test_airhockey.cjs` plus `node scripts/test_airhockey_ui.cjs`.
 The v39 regression runs 80 seeds per mood (240 full matches), all ending at seven in

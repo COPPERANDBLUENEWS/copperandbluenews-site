@@ -10,6 +10,9 @@
 //   GET  /newsletter/unsubscribe?token=TOKEN   one-click unsubscribe; GET /export?list=newsletter for the email list CSV
 //   GET  /alerts/log   newest-first list of sent alerts (public, read-only, site CORS)
 //   GET  /health
+//   POST /airhockey/signup|login|quick|room|join   username accounts and matchmaking (browser, CORS)
+//   GET  /airhockey/me|leaderboard|quick|room      session, top 25, queue / room poll
+//   GET  /airhockey/ws/:matchId                    WebSocket for one AirHockeyMatch Durable Object
 // Fan-out: with the PUSH_QUEUE binding, /notify enqueues batches of subscribers and the queue consumer
 // sends them (each consumer run gets its own subrequest budget, so this scales on the Free plan's
 // 50-subrequest limit). Without the binding it sends inline (fine for small lists or Workers Paid).
@@ -17,6 +20,9 @@ import {deliver} from "./delivery.js";
 import {gameStub} from "./game-alerts.js";
 import {GAME_TYPES} from "./game-events.js";
 export {GameAlerts} from "./game-alerts.js";
+export {AirHockeyLobby} from "./airhockey-lobby.js";
+export {AirHockeyMatch} from "./airhockey-match.js";
+import * as airhockey from "./airhockey.js";
 import * as store from "./store.js";
 import * as pickem from "./pickem.js";
 import * as fgs from "./fgs.js";
@@ -198,6 +204,7 @@ export default {
   },
   async fetch(req, env, ctx) {
     const {pathname} = new URL(req.url);
+    if (pathname === "/airhockey" || pathname.startsWith("/airhockey/")) return airhockey.handle(req, env);
     const c = cors(req, env);
     const browserRoute = pathname === "/subscribe" || pathname === "/unsubscribe" || pathname === "/pickem" || pathname === "/fgs" || pathname === "/live/pbp" || pathname === "/live/now" || pathname === "/alerts/log" || pathname === "/newsletter" || pathname === "/newsletter/unsubscribe";
     try {

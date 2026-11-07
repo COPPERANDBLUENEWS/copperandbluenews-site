@@ -43,6 +43,28 @@ class_name = "GameAlerts"
 type = "durable-object"
 storage = "sqlite"
 
+# AirHockey accounts, matchmaking, and one actor per live match. GameAlerts is unchanged.
+[[durable_objects.bindings]]
+name = "AIRHOCKEY_LOBBY"
+class_name = "AirHockeyLobby"
+
+[[durable_objects.bindings]]
+name = "AIRHOCKEY_MATCH"
+class_name = "AirHockeyMatch"
+
+[exports.AirHockeyLobby]
+type = "durable-object"
+storage = "sqlite"
+
+[exports.AirHockeyMatch]
+type = "durable-object"
+storage = "sqlite"
+
+# Wrangler 4 rejects [[migrations]] while any Durable Object export exists.
+# GameAlerts is already an export and must stay that way, so AirHockeyLobby and
+# AirHockeyMatch are new SQLite exports too. Deploy reconciles them (created)
+# without a migration tag and without touching GameAlerts.
+
 # Native, approximate per-IP newsletter throttling. Does not spend shared KV writes on counters.
 [[ratelimits]]
 name = "NEWSLETTER_RATE"
