@@ -118,7 +118,7 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
 - "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home, read in the browser from the public Behold JSON feed (4 s timeout; on failure posts.html shows only the Follow button and Home hides the strip). The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=41`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- Cache-bust: CSS/JS URLs use `?v=42`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 - **Standings and leaders** (Scores tab): `standings.html` and `leaders.html`. `update_data.py` writes `data/standings.json` and `data/leaders.json` from the public NHL API (`standings/now`, `skater-stats-leaders/current`, `goalie-stats-leaders/current`) on the same schedule as the other JSON. The browser still cannot call the NHL API. These are not on the live Worker relay: they change a few times a day, and the relay's request budget is for the rink.
 - **Notifications inbox:** the header bell (top left) opens `notifications.html`. Unread ids are in `localStorage` key `cbn-alerts-read`. The list is `GET /alerts/log` on the alerts Worker. That Worker change is in `worker/` and is **not** deployed by GitHub Pages. See `worker/README.md`. Until it is deployed the page is empty; `?sample=1` shows labeled examples.
 
@@ -246,8 +246,17 @@ Play opens a safe-area-aware fixed 100dvh overlay; requests native fullscreen an
 orientation where available. iPhone Safari uses the overlay fallback, and standalone PWA
 uses the same layout. Navigation, footer and install banners are hidden while playing.
 Exit/Esc restores the page and pauses; hidden tabs stop rendering and require explicit
-Resume. Sound defaults off. Sharing is only triggered by the player's Share button.
-The page, JS, config and Copper SVG are precached for offline play in cbn-v41.
+Resume. Sharing is only triggered by the player's Share button.
+When you score, the rink plays an original oil-field goal horn synthesized in the
+browser (layered sawtooth and square tones around 100–200 Hz, slight detune, a swell,
+light distortion and a short delay, about 2.8 seconds). It is not a team, arena, or
+other recorded horn. Copper’s goals get a short low tone instead. The horn starts
+unmuted. The copper Mute / Unmute control on the rink stores `on` or `off` in
+localStorage (`cbn-airhockey-horn`). The AudioContext is created and resumed on the
+first tap or click so later goals can sound on iOS. `&hold=1` with `demo` and `at`
+freezes that simulated frame (no extra stepping) so a player-goal banner can be
+captured; it does not change scoring. Example: `play.html?demo=1&seed=2&at=3.4&hold=1`.
+The page, JS, config and Copper SVG are precached for offline play in cbn-v42.
 
 Local checks: `node --check js/play.js` and `node scripts/test_airhockey.cjs` plus `node scripts/test_airhockey_ui.cjs`.
 The v39 regression runs 80 seeds per mood (240 full matches), all ending at seven in
