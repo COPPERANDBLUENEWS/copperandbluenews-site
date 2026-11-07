@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">Copper, The Copper &amp; Blue News mascot</title><desc id="desc">An original smiling copper oil drop in a navy toque, holding a hockey stick. No team logos.</desc>
+<defs><linearGradient id="drop" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#f5b675"/><stop offset=".48" stop-color="#c8763a"/><stop offset="1" stop-color="#FF4C00"/></linearGradient><linearGradient id="hat" x2="0" y2="1"><stop stop-color="#24416c"/><stop offset="1" stop-color="#0b1a33"/></linearGradient></defs>
+<ellipse cx="255" cy="460" rx="171" ry="20" fill="#0b1a33" opacity=".18"/>
+<!-- Copper's stick and mitts: original shapes, no licensed marks. -->
+<path d="M366 190 410 431q1 8 12 8h48q14 0 14 13v7h-73q-17 0-20-18l-48-245Z" fill="#d7aa78" stroke="#0b1a33" stroke-width="9" stroke-linejoin="round"/>
+<path d="m402 425 6 19m8-8 2 16m12-14v14m12-14v14m12-14v14" stroke="#0b1a33" stroke-width="6"/>
+<path d="M132 270q-37 10-44 49l-14 4q-12 5-8 19 5 20 23 14l10-9q24-5 43-39" fill="#c8763a" stroke="#0b1a33" stroke-width="9" stroke-linecap="round"/>
+<path d="M340 274q20 2 30 14l-2 17q-12 6-21-2l-22-10" fill="#c8763a" stroke="#0b1a33" stroke-width="9"/>
+<!-- Skates -->
+<path d="m180 403-8 36q-3 9-18 10l-27 2v14h76l7-47m61-12 7 33q3 10 17 10l28 2v14h-75l-7-48" fill="#12264a" stroke="#0b1a33" stroke-width="9" stroke-linejoin="round"/>
+<path d="M127 474h79m38 0h81" stroke="#9fb0cc" stroke-width="8" stroke-linecap="round"/>
+<!-- Oil drop silhouette; friendly, rounded and distinct from any team insignia. -->
+<path d="M243 91c-17 58-66 90-99 136-24 34-29 67-21 104 12 57 56 91 118 93 75 2 131-45 132-113 1-39-17-71-45-103-33-39-63-70-85-117Z" fill="url(#drop)" stroke="#0b1a33" stroke-width="10" stroke-linejoin="round"/>
+<path d="M169 260q-18 26-15 57" fill="none" stroke="#ffe1ba" stroke-width="13" stroke-linecap="round" opacity=".8"/>
+<!-- Navy toque, a little copper pom, stitched band -->
+<path d="M171 178q8-69 76-67 64 3 76 68Z" fill="url(#hat)" stroke="#0b1a33" stroke-width="9"/>
+<circle cx="247" cy="108" r="21" fill="#c8763a" stroke="#0b1a33" stroke-width="8"/>
+<path d="M168 171q80-18 161 5l-5 29q-80-17-155-3Z" fill="#12264a" stroke="#0b1a33" stroke-width="9" stroke-linejoin="round"/>
+<path d="m184 182 0 13m18-17v14m18-17v14m19-16v14m19-14v14m19-12v14m19-11v14m18-9v13" stroke="#c8763a" stroke-width="4" stroke-linecap="round"/>
+<!-- Eyes, eyebrows, cheeks, grin -->
+<path d="m192 250 26-6m52-1 26 9" stroke="#0b1a33" stroke-width="7" stroke-linecap="round"/>
+<ellipse cx="210" cy="276" rx="13" ry="19" fill="#0b1a33"/><ellipse cx="282" cy="276" rx="13" ry="19" fill="#0b1a33"/>
+<circle cx="214" cy="270" r="4" fill="#fff4df"/><circle cx="286" cy="270" r="4" fill="#fff4df"/>
+<ellipse cx="181" cy="304" rx="17" ry="9" fill="#FF4C00" opacity=".55"/><ellipse cx="307" cy="304" rx="17" ry="9" fill="#FF4C00" opacity=".55"/>
+<path d="M204 322q40 46 82-1-41 13-82 1Z" fill="#fff4df" stroke="#0b1a33" stroke-width="8" stroke-linejoin="round"/>
+<path d="M234 352q12 6 24 0" fill="none" stroke="#9f4e21" stroke-width="5" stroke-linecap="round"/>
+<path d="m352 285 12-3q12 1 15 12l3 15q0 13-12 14-16 2-19-11Z" fill="#FF4C00" stroke="#0b1a33" stroke-width="8"/>
+</svg>

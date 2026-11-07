@@ -128,7 +128,7 @@ $("yr").textContent = new Date().getFullYear();
   document.querySelectorAll(".topnav a, .tabbar a, .more-menu a").forEach(a => { if (a.getAttribute("href") === cur) a.classList.add("on"); });
   const menu = document.getElementById("more-menu"); if (!menu) return;
   const inMore = (sel) => !!menu.querySelector(`a.on${sel}`);
-  if (inMore(":not(.m-mob)")) document.querySelectorAll(".more-btn").forEach(b => b.classList.add("on"));
+  if (cur === "play.html" || inMore(":not(.m-mob)")) document.querySelectorAll(".more-btn").forEach(b => b.classList.add("on"));
   if (inMore(".m-mob")) document.querySelector(".tabbar .more-btn")?.classList.add("on");
   const btns = document.querySelectorAll(".more-btn");
   const set = open => { menu.hidden = !open; btns.forEach(b => b.setAttribute("aria-expanded", open)); document.body.classList.toggle("more-open", open); };

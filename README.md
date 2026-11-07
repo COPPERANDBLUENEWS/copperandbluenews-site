@@ -4,7 +4,7 @@ Static fan site for [@thecopperandbluenews](https://www.instagram.com/thecoppera
 Fan run. Not affiliated with the Edmonton Oilers or the NHL. Don't add official NHL/Oilers logos.
 
 ## Files
-- `index.html`, `schedule.html`, `scores.html`, `players.html`, `cap.html`, `player.html?id=PLAYERID`, `game.html?id=GAMEID` (box score), `tracker.html` (Live rink tracker, see below), `stats.html`, `posts.html`, `history.html` (timeline from `data/history.json`, hand-curated with a source link per entry), `about.html`: pages
+- `index.html`, `schedule.html`, `scores.html`, `players.html`, `cap.html`, `player.html?id=PLAYERID`, `game.html?id=GAMEID` (box score), `tracker.html` (Live rink tracker, see below), `play.html` (AirHockey with Copper), `stats.html`, `posts.html`, `history.html` (timeline from `data/history.json`, hand-curated with a source link per entry), `about.html`: pages
 - `css/style.css`, `js/main.js`: styles and scripts
 - `posts.json`: the posts feed (newest first by `date`)
 - `data.json`: next game, latest result and standings (generated)
@@ -116,7 +116,7 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
 - "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home, read in the browser from the public Behold JSON feed (4 s timeout; on failure posts.html shows only the Follow button and Home hides the strip). The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=35`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- Cache-bust: CSS/JS URLs use `?v=36`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 
 ## Cap & contracts (manual, sources: public reports)
 The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:
@@ -221,3 +221,26 @@ add Mac's approved public business mailing/contact address to the consent reques
 (a PO box is fine; never publish a private home address), complete the mailing/provider setup and
 CASL/PIPEDA review, and ensure every email has its per-recipient unsubscribe link. Consent by
 itself does not certify legal compliance. Run `npm --prefix worker test` for isolated list/route tests.
+
+
+## AirHockey with Copper
+`play.html` + dependency-free `js/play.js`: vertical canvas rink, touch/mouse/keyboard,
+first to seven vs Copper (original hand-drawn oil-drop character in `copper.svg`).
+Rookie Copper / Copper / Playoff Copper vary reaction, speed and aim error. Fixed 120 Hz
+physics with capped 930-unit/s puck speed and 60fps requestAnimationFrame rendering;
+DPR-scaled canvas and cached rink drawing. Best win, wins/losses and streaks stay in
+localStorage only. No accounts, scores service or network dependencies.
+
+Play opens a safe-area-aware fixed 100dvh overlay; requests native fullscreen and portrait
+orientation where available. iPhone Safari uses the overlay fallback, and standalone PWA
+uses the same layout. Navigation, footer and install banners are hidden while playing.
+Exit/Esc restores the page and pauses; hidden tabs stop rendering and require explicit
+Resume. Sound defaults off. Sharing is only triggered by the player's Share button.
+The page, JS, config and Copper SVG are precached for offline play in cbn-v36.
+
+Local checks: `node --check js/play.js` and `node scripts/test_airhockey.cjs` plus `node scripts/test_airhockey_ui.cjs`.
+`play.html?demo=1&seed=42` runs two CPU paddles, with no record saved. Optional
+`&speed=20` accelerates real simulation for development/demo captures; never changes
+scores directly and still ends at seven. `&at=15` replays actual seeded physics to a
+specified simulated second before display; `&at=180&seed=2` reaches a genuine demo win. The mascot's transparent 1024px PNG export
+for Instagram is `/workspace/reels/copper-mascot.png` (outside the repository).
