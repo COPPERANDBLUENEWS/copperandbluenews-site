@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-07T21:42:49Z",
+ "updated": "2026-11-07T22:14:31Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (85)"
+  "Google News (84)"
  ],
  "errors": [],
  "items": [
@@ -22,6 +22,14 @@
    "source": "Edmonton Journal",
    "published": "2026-11-07T21:04:40Z",
    "snippet": "TNA: Destination X goes Sunday, Nov. 15 at 4 p.m. at the Edmonton Expo Centre. Tickets are available at Ticketmaster.com"
+  },
+  {
+   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-07T21:01:48Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "How to watch Canucks vs. Oilers: TV channel and streaming options for November 7",
@@ -44,6 +52,14 @@
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcV9oM3F4NGw4djRxa0VKaDh1djRobUsyR3J3dkMwekY1eVUwYml5bW9IVG43T0prMnY4LUtxbHVmckFpeVYyQWVmVDI1YmRhMlVTdnY2TGpVbDN4ZklZNXZkVTY0ekV4T0xIdExBMGJYM2o4ejRRcGFyMlRWNnRiREpSQ1hOMFdyY1dNNVRnQk5neC1kYkdFanhBU3MtMEdodmVoQVhB?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-07T20:02:03Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "PREVIEW: Oilers vs. Canucks | Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XQ3ZZdUdXUkpLdUN2N0l3dUNTZmtOVjVUdHVpNEhTeGhZM0VaM1VqdF9qa2M2MW1fODVSMDFDcHVjQlNnMFhlR2tjN0FIZmZtWFlSZGFCcWpxaTNmbmw1THM3RHgwRENlUGYyQnlhMnNSbVNW?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-07T19:47:54Z",
    "snippet": "",
    "via": "google"
   },
@@ -125,14 +141,6 @@
    "via": "google"
   },
   {
-   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T18:00:43Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Did Oilers' McDavid Overreact To Helleson And Ducks Incident?",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ19yTTh0SnlEZGt6TlY0X2tFdHZzMnZXYkFzWm9pcGNpanN6TmQ3UFBNdUpBN2sxazZ4anhvU0ItX1E3OWZRTXk0ZWxUU3JZMV84X2pEUUFXeW9VWTFobVJUUE5GYXZMNkpYUW5tU0hyNDdWNUxIU1p3eEJONjA2REJ0UTU1ZlpnUUFOTVRGOTZzdUtxTWI4a01ZUmpteTdKUWRkUA?oc=5",
    "source": "The Hockey News",
@@ -173,14 +181,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers Need to Make Tough Decision With Owen Michaels",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMm1hc3JtcWxHeGlCRlBHRUJXdU1UOWVXR3JjRW9Wa3lyRmNEYnpsazVhRl9OUUliUGE1RkY3U3ZLYlI4U1JRNnBSbEgyMnQzRVNWdWxQWVpaYURwNXN6Q3JET0RtNzZNOFVmUWJkLThyZHVJWHVxcWVUV08xV0drNVRrdjFUVldQSkd3?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-07T17:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers and Canucks prepare for the third showdown of the season",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-and-canucks-prepare-for-the-third-showdown-of-the-season/",
    "source": "Sportsnet",
@@ -209,13 +209,6 @@
    "snippet": ""
   },
   {
-   "title": "‘It’s truly remarkable’: Gretzky on McDavid’s historic start to season",
-   "url": "https://www.sportsnet.ca/nhl/video/its-truly-remarkable-gretzky-on-mcdavids-historic-start-to-season/",
-   "source": "Sportsnet",
-   "published": "2026-11-07T00:21:04Z",
-   "snippet": "Wayne Gretzky speaks about Connor McDavid’s remarkable start to the NHL season and how much he has contributed to the team and the city of Edmonton."
-  },
-  {
    "title": "Oilers Colton Dach the poster boy for upward mobility",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/edmonton-oilers-colton-dach-vasily-podkolzin",
    "source": "Edmonton Journal",
@@ -235,6 +228,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-06T20:41:56Z",
    "snippet": "Eleven years has passed since the then-Eskimos defended home turf in the West Division final, before going on to win the Grey Cup"
+  },
+  {
+   "title": "‘Remarkable’: Gretzky gives McDavid flowers amid historically hot start",
+   "url": "https://www.sportsnet.ca/nhl/article/remarkable-gretzky-gives-mcdavid-flowers-amid-historically-hot-start/",
+   "source": "Sportsnet",
+   "published": "2026-11-06T20:32:05Z",
+   "snippet": "Despite seeing his records at risk, Gretzky had nothing but praise for the current Oilers superstar as he pushes to break The Great One’s single-season points record."
   },
   {
    "title": "RELEASE: Hockey Fights Cancer Mega 50/50 raffle returns",
