@@ -15,6 +15,9 @@ g=active();Object.assign(g.state.puck,{x:60,y:23,vx:0,vy:-400});tick(g);assert.o
 g=active();Object.assign(g.state.puck,{x:330,y:590,vx:140,vy:900});tick(g);assert.ok(g.state.puck.vx < -500,'rounded corner redirects vertical board corridor');assert.ok(withinRink(g.state.puck.x,g.state.puck.y));
 // Circular perimeter: both head-on and side contacts match the visible 34-unit radius.
 g=active();Object.assign(g.state.puck,{x:180,y:g.state.you.y-C.PR-C.R+1,vx:0,vy:300});tick(g);assert.ok(g.state.puck.vy<0);
+let paddleHits=[];g=active({onPaddle(s){paddleHits.push(s);}});Object.assign(g.state.puck,{x:180,y:g.state.you.y-C.PR-C.R+1,vx:0,vy:140});tick(g);const soft=paddleHits[0];
+paddleHits=[];g=active({onPaddle(s){paddleHits.push(s);}});Object.assign(g.state.puck,{x:180,y:g.state.you.y-C.PR-C.R+1,vx:0,vy:700});tick(g);assert.ok(soft>30&&paddleHits[0]>soft,'harder contact reports a higher hit speed');
+let boardHits=[];g=active({onBoard(s){boardHits.push(s);}});Object.assign(g.state.puck,{x:23,y:310,vx:-520,vy:0});tick(g);assert.ok(boardHits[0]>400,'board hits report incoming speed');
 g=active();Object.assign(g.state.puck,{x:g.state.you.x+C.PR+C.R-1,y:g.state.you.y,vx:-300,vy:0});tick(g);assert.ok(g.state.puck.vx>0,'side perimeter collides');
 // A diagonal outside the circle does not hit an invisible square or legacy stick shaft.
 g=active();Object.assign(g.state.puck,{x:g.state.you.x+36,y:g.state.you.y-36,vx:0,vy:150});tick(g);assert.ok(g.state.puck.vy>0,'no square collision outside the circular outline');

@@ -7,12 +7,13 @@
 // - Web push: shows Game alerts. A click opens that alert in the notifications inbox when the
 //   payload has an id. The notification's own url is unchanged (lineup stays /players.html,
 //   final stays /game.html?id=). Older notifications with no id still open their url.
-const VERSION = "cbn-v42";
+const VERSION = "cbn-v43";
 const STATIC = `${VERSION}-static`, PAGES = `${VERSION}-pages`, DATA = `${VERSION}-data`;
 const PRECACHE = [
   "/offline.html", "/play.html", "/notifications.html", "/standings.html", "/leaders.html",
-  "/js/play.js?v=42", "/js/config.js?v=42", "/copper.svg?v=42", "/css/style.css?v=42", "/js/main.js?v=42", "/js/pwa.js?v=42", "/js/newsletter.js?v=42",
-  "/js/standings.js?v=42", "/js/leaders.js?v=42", "/js/inbox.js?v=42",
+  "/js/play.js?v=43", "/js/config.js?v=43", "/copper.svg?v=43", "/css/style.css?v=43", "/js/main.js?v=43", "/js/pwa.js?v=43", "/js/newsletter.js?v=43",
+  "/js/standings.js?v=43", "/js/leaders.js?v=43", "/js/inbox.js?v=43",
+  "/audio/goal-horn.wav?v=43", "/audio/copper-aww.wav?v=43", "/audio/puck-clack.wav?v=43", "/audio/board-thud.wav?v=43",
   "/logo.jpg", "/icons/icon-192.png", "/icons/badge-96.png", "/favicon-32.png"
 ];
 const DATA_MAX = 60;
@@ -29,7 +30,7 @@ self.addEventListener("activate", e => {
 });
 
 const isData = u => u.pathname.startsWith("/data/") || /^\/(data|posts)\.json$/.test(u.pathname) || u.pathname.endsWith(".webmanifest");
-const isStatic = u => /\.(css|js|png|jpe?g|gif|webp|svg|ico|woff2?|ttf)$/.test(u.pathname) && u.pathname !== "/sw.js" && !u.pathname.startsWith("/js/config.js");
+const isStatic = u => /\.(css|js|png|jpe?g|gif|webp|svg|ico|woff2?|ttf|wav|mp3)$/.test(u.pathname) && u.pathname !== "/sw.js" && !u.pathname.startsWith("/js/config.js");
 const FONT_HOSTS = ["fonts.googleapis.com", "fonts.gstatic.com"];
 
 async function trim(cacheName, max) {

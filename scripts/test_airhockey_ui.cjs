@@ -1,18 +1,21 @@
 // UI-controller tests in a synthetic DOM. No browser automation, rendering engine, accounts or real sharing.
 const vm=require('node:vm'),fs=require('node:fs'),assert=require('node:assert/strict');
 const source=fs.readFileSync(require('node:path').join(__dirname,'../js/play.js'),'utf8');
-function setup({search='',storageDenied=false,storage=null,AudioContext=null}={}) {
+function setup({search='',storageDenied=false,storage=null,AudioContext=null,media=false}={}) {
  const events={},windowEvents={},frames=new Map(),nodes={},writes=[],shares=[];let seq=0,draws=0,time=1;
  const list=()=>{const s=new Set();return {add:k=>s.add(k),remove:k=>s.delete(k),contains:k=>s.has(k)};};
  const gradient={addColorStop(){}};
  const ctx=new Proxy({},{get(_,k){if(k==='createLinearGradient'||k==='createRadialGradient')return()=>gradient;if(k==='drawImage')return()=>draws++;return()=>{};},set(){return true;}});
  const document={hidden:false,fullscreenElement:null,body:{classList:list()},documentElement:{classList:list()},activeElement:null,
   addEventListener(k,fn){(events[k]??=[]).push(fn);},getElementById(id){return nodes[id]??=node(id);},createElement(){return {width:1,height:1,getContext:()=>ctx};}};
- function node(id){return {id,hidden:['pongArena','pongPanel','newGame','shareGame'].includes(id),textContent:'',value:id==='playMood'?'normal':'',disabled:false,style:{},listeners:{},
+ function node(id){const n={id,hidden:['pongArena','pongPanel','newGame','shareGame'].includes(id),textContent:'',value:id==='playMood'?'normal':'',disabled:false,style:{},listeners:{},
   getContext:()=>ctx,getBoundingClientRect:()=>({width:400,height:660,left:10,top:80}),attrs:{},setAttribute(k,v){this.attrs[k]=v;},focus(){document.activeElement=this;},setPointerCapture(){},
-  addEventListener(k,fn){this.listeners[k]=fn;},querySelectorAll(){return ['resumeGame','againGame','shareGame','panelExit'].map(id=>document.getElementById(id));}};}
- const c={document,location:{search},navigator:{clipboard:{async writeText(text){shares.push(text);}}},screen:{orientation:{lock:()=>Promise.reject(Error('unsupported')),unlock(){}}},
+  addEventListener(k,fn){this.listeners[k]=fn;},querySelectorAll(){return ['resumeGame','againGame','shareGame','panelExit'].map(id=>document.getElementById(id));}};
+  if(media&&['goalHorn','copperAww','puckClack','boardThud'].includes(id)){n.plays=[];n.volume=1;n.currentTime=0;n.muted=false;n.src='audio/'+id+'.wav';n.play=function(){this.plays.push({muted:this.muted,volume:this.volume});return Promise.resolve();};n.pause=function(){};}
+  return n;}
+ const c={document,location:{search},screen:{orientation:{lock:()=>Promise.reject(Error('unsupported')),unlock(){}}},
   localStorage:{getItem(k){if(storageDenied)throw Error('storage denied');if(!storage||!Object.prototype.hasOwnProperty.call(storage,k))return null;return storage[k];},setItem(k,v){if(storageDenied)throw Error('storage denied');writes.push({k,v});if(storage)storage[k]=String(v);}},
+  navigator:{clipboard:{async writeText(text){shares.push(text);}},audioSession:{type:'ambient'}},
   devicePixelRatio:3,scrollY:12,scrollTo(){},URLSearchParams,console,
   requestAnimationFrame(fn){const id=++seq;frames.set(id,fn);return id;},cancelAnimationFrame(id){frames.delete(id);},
   addEventListener(k,fn){(windowEvents[k]??=[]).push(fn);},ResizeObserver:class{observe(){}},AudioContext,webkitAudioContext:AudioContext};
@@ -63,7 +66,7 @@ function setup({search='',storageDenied=false,storage=null,AudioContext=null}={}
  for(const o of heard.oscs){assert.ok(o.frequency.value>=100&&o.frequency.value<=200);assert.ok(o.t1-o.t0>2.5&&o.t1-o.t0<3.05);}
  assert.ok(heard.oscs.some(o=>o.type==='sawtooth')&&heard.oscs.some(o=>o.type==='square'));
  t.click('soundGame');assert.equal(t.nodes.soundLabel.textContent,'Unmute');assert.equal(t.writes.at(-1).k,'cbn-airhockey-horn');assert.equal(t.writes.at(-1).v,'off');
- assert.equal(t.nodes.soundGame.attrs['aria-label'],'Unmute goal horn');
+ assert.equal(t.nodes.soundGame.attrs['aria-label'],'Unmute rink sounds');
  assert.equal(heard.Ctx.latest.state,'running');assert.equal(heard.Ctx.latest._cbnPrimed,true);
  const copper=makeAudio();
  t=setup({search:'?demo=1&seed=2&at=7.2',AudioContext:copper.Ctx});
@@ -78,5 +81,34 @@ function setup({search='',storageDenied=false,storage=null,AudioContext=null}={}
  assert.equal(t.nodes.soundLabel.textContent,'Unmute');assert.equal(t.nodes.goalBanner.hidden,false);
  t.click('soundGame');assert.equal(saved['cbn-airhockey-horn'],'on');assert.equal(t.nodes.soundLabel.textContent,'Mute');
  const again=setup({storage:saved});assert.equal(again.nodes.soundLabel.textContent,'Mute');
+ function loud(node){return (node.plays||[]).filter(p=>!p.muted);}
+ const ios=setup({search:'?demo=1&seed=2&at=3.4&hold=1',media:true});
+ assert.equal(ios.c.navigator.audioSession.type,'playback');
+ assert.equal(ios.nodes.soundLabel.textContent,'Mute','horn stays on unless the player mutes it');
+ assert.equal(loud(ios.nodes.goalHorn).length,1,'a player goal plays the HTML horn');
+ assert.ok(loud(ios.nodes.goalHorn)[0].volume>=.7&&loud(ios.nodes.goalHorn)[0].volume<=.9);
+ assert.ok(loud(ios.nodes.puckClack).length>=1&&loud(ios.nodes.puckClack).length<=4,'paddle clacks are throttled');
+ assert.ok(loud(ios.nodes.boardThud).length>=1&&loud(ios.nodes.boardThud).length<=4,'board thuds are throttled');
+ for(const p of loud(ios.nodes.puckClack))assert.ok(p.volume>=.16&&p.volume<=.72);
+ for(const p of loud(ios.nodes.boardThud))assert.ok(p.volume>=.1&&p.volume<=.4);
+ let prevented=false;
+ ios.nodes.pongCanvas.listeners.touchstart({preventDefault(){prevented=true;}});
+ assert.equal(prevented,false,'rink touchstart does not cancel the gesture');
+ prevented=false;
+ ios.nodes.pongCanvas.listeners.pointerdown({pointerType:'touch',pointerId:3,button:0,clientX:20,clientY:30,preventDefault(){prevented=true;}});
+ assert.equal(prevented,false,'touch pointerdown does not call preventDefault');
+ prevented=false;
+ ios.nodes.pongCanvas.listeners.pointerdown({pointerType:'mouse',pointerId:4,button:0,clientX:20,clientY:30,preventDefault(){prevented=true;}});
+ assert.equal(prevented,true);
+ assert.equal(typeof ios.nodes.startGame.listeners.touchstart,'function');
+ assert.equal(typeof ios.nodes.pongArena.listeners.touchstart,'function');
+ const copperTone=setup({search:'?demo=1&seed=2&at=7.2&hold=1',media:true});
+ assert.ok(loud(copperTone.nodes.copperAww).length>=1);
+ assert.equal(copperTone.nodes.goalBanner.hidden,true);
+ const quiet=setup({search:'?demo=1&seed=2&at=3.4&hold=1',media:true,storage:{'cbn-airhockey-horn':'off'}});
+ assert.equal(loud(quiet.nodes.goalHorn).length,0);
+ assert.equal(loud(quiet.nodes.puckClack).length,0);
+ assert.equal(loud(quiet.nodes.boardThud).length,0);
+ assert.equal(loud(quiet.nodes.copperAww).length,0);
  console.log('AIRHOCKEY UI PASS: DPR, immersive fallback, native-fullscreen exit, Esc, pause/resume/restart, hidden-tab stop with explicit resume, zero idle RAF, genuine win/loss screens, exact share text, denied-storage recovery, best-win/streak persistence, goal horn, Copper tone, mute memory and goal banner.');
 })().catch(e=>{console.error(e);process.exitCode=1;});
