@@ -216,8 +216,13 @@ def lineup_events(now):
     goalie = d.get("goalie") or {}
     starter = (goalie.get("starter") or {}).get("name")
     if goalie.get("status") == "Confirmed" and starter:
-        evs.append({"id": f"{g['id']}:lineup:goalie", "type": "lineup", "title": f"Oilers starting goalie confirmed: {starter}",
-                    "body": f"{starter} starts {vs}{'' if now >= t else ', puck drop ' + when}. Lines and pairs on the Players tab.",
+        og = ((d.get("opponent") or {}).get("goalie") or {})
+        on = (og.get("starter") or {}).get("name")
+        other = ""
+        if on:
+            other = f" {on} {'is confirmed' if og.get('status') == 'Confirmed' else 'is expected'} for the {opp or 'other side'}."
+        evs.append({"id": f"{g['id']}:lineup:goalie", "type": "lineup", "title": f"Confirmed starter: {starter} in goal for the Oilers",
+                    "body": f"{starter} starts {vs}{'' if now >= t else ', puck drop ' + when}.{other} Lines and pairs on the Players tab.",
                     "url": "/players.html"})
     if d.get("status") == "Confirmed":
         evs.append({"id": f"{g['id']}:lineup:official", "type": "lineup", "title": f"Oilers lineup confirmed {vs}",

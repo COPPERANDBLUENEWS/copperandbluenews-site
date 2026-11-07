@@ -172,6 +172,19 @@ def official(gid, roster, abbrev="EDM"):
             "goalies": [mk(p) | {"starter": bool(p.get("starter"))} for p in t["goalies"]]}
 
 
+def official_goalie(off_goalies, prev):
+    """Starting goalie from the NHL boxscore. Only trust the boxscore's own starter flag; before that is set,
+    keep the earlier goalie info (the first dressed goalie can be an emergency backup)."""
+    st = next((p for p in off_goalies if p["starter"]), None)
+    if not st:
+        return prev
+    pb = (prev.get("backup") or {}).get("name")
+    named = [p for p in off_goalies if p["id"] != st["id"]]
+    bk = next((p for p in named if pb and norm(p["name"]) == norm(pb)), named[0] if named else None)
+    clean = lambda p: p and {k: v for k, v in p.items() if k != "starter"}
+    return {"starter": clean(st), "status": "Confirmed", "backup": clean(bk), "note": None}
+
+
 def arrange(slots, dressed, size):
     """Keep projected combos for players who actually dressed; fill gaps with the other dressed players."""
     ids = {p["id"] for p in dressed}
@@ -243,10 +256,7 @@ def build(now):
             out["defence"] = arrange(lines["defence"], off["defence"], 2)
             dressed = {p["id"] for p in off["forwards"] + off["defence"]}
             out["pp"] = [[p for p in u if p["id"] in dressed] for u in out["pp"]]
-            st = next((p for p in off["goalies"] if p["starter"]), off["goalies"][0])
-            bk = next((p for p in off["goalies"] if p["id"] != st["id"]), None)
-            goalie = {"starter": {k: v for k, v in st.items() if k != "starter"}, "status": "Confirmed",
-                      "backup": bk and {k: v for k, v in bk.items() if k != "starter"}, "note": None}
+            goalie = official_goalie(off["goalies"], goalie)
             out["notes"].append("Dressed players and starting goalie are official (NHL game sheet). "
                                 "Line combinations are DailyFaceoff's; the NHL doesn't publish lines.")
             out["sources"].insert(0, {"name": "NHL.com Gamecenter",
@@ -319,10 +329,7 @@ def build_opponent(g, now, opp):
             out["status"] = "Confirmed"
             out["forwards"] = arrange(lines["forwards"], off["forwards"], 3)
             out["defence"] = arrange(lines["defence"], off["defence"], 2)
-            st = next((p for p in off["goalies"] if p["starter"]), off["goalies"][0])
-            bk = next((p for p in off["goalies"] if p["id"] != st["id"]), None)
-            goalie = {"starter": {k: v for k, v in st.items() if k != "starter"}, "status": "Confirmed",
-                      "backup": bk and {k: v for k, v in bk.items() if k != "starter"}, "note": None}
+            goalie = official_goalie(off["goalies"], goalie)
             out["sources"].insert(0, {"name": "NHL.com Gamecenter", "url": f"https://www.nhl.com/gamecenter/{g['id']}",
                                       "what": "official dressed lineup"})
     out["goalie"] = goalie
