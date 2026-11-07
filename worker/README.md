@@ -203,6 +203,29 @@ Rollback requires a coordinated change: stop the durable game producer (`GAME_AL
 restore the Python/workflow `--game` path together. Keep the Durable Object namespace/data and activation
 floor: do not delete or rename the actor, because that would discard dedupe/checkpoint history.
 
+## AirHockey online
+
+Head-to-head play uses two new SQLite Durable Objects. `GameAlerts` is not migrated and its routes are unchanged.
+
+| Route | Who calls it | Result |
+|---|---|---|
+| `POST /airhockey/signup` | the rink | `{username}` → user, device token, one-time recovery code |
+| `POST /airhockey/login` | the rink | username + device token, or username + recovery code (recovery replaces the device token) |
+| `GET /airhockey/me` | the rink | `Authorization: Bearer` device token |
+| `GET /airhockey/leaderboard` | the rink | top 25 plus the caller’s rank when a token is sent |
+| `POST/GET/DELETE /airhockey/quick` | the rink | quick-match queue |
+| `POST/GET/DELETE /airhockey/room` | the rink | friend room code |
+| `POST /airhockey/join` | the rink | `{code}` joins `play.html?room=CODE` |
+| `GET /airhockey/ws/:matchId` | the rink | WebSocket. The match object simulates the puck |
+
+`AirHockeyLobby` (one instance, `idFromName("airhockey-lobby")`) holds accounts, the queue, room codes, results, and the leaderboard. The user row has `email` and `email_verified_at`, both null until email login exists. Device tokens and recovery codes are stored as SHA-256 hashes. `AirHockeyMatch` is one object per match (`idFromName(matchId)`): 60 Hz physics, ~30 Hz broadcasts, a 2 minute server clock, sudden-death overtime (1 minute, then a tie), 15 s reconnect grace, then forfeit. `AIRHOCKEY_REG_SEC` and `AIRHOCKEY_OT_SEC` override those lengths for local testing only; leave them unset in production.
+
+Both classes are new SQLite Durable Object exports, the same declaration `GameAlerts` already uses. Wrangler 4 treats `[[migrations]]` and `exports` as mutually exclusive, so a migration tag cannot be added without removing the `GameAlerts` export. That export stays. On `npx wrangler deploy`, exports reconciliation creates `AirHockeyLobby` and `AirHockeyMatch` and leaves `GameAlerts` alone. No new KV namespace and no new secret.
+
+Deploy from this folder with `npx wrangler deploy`. GitHub Pages does not deploy the Worker. Until that deploy, the page still plays against Copper and online buttons get a clear error. Sign-ups are capped at 6 per hour per network, new matches at 20 per 10 minutes, and each socket at about 40 messages per second. Raw IP addresses are not stored.
+
+Local: `npx wrangler dev --port 8787`, then open `play.html?api=http://127.0.0.1:8787` from a local static server. `node test/airhockey.test.mjs` covers names, Elo, and physics. `node test/airhockey-browser.mjs` plays a short match with two headless browsers (wrangler must already be running).
+
 ## Send stats (KV)
 
 Each delivery batch (one queue message of up to 40 subscribers, or one inline send) writes one key

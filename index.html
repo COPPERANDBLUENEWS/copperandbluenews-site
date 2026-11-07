@@ -25,7 +25,7 @@
 <meta name="application-name" content="C&amp;B News">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=45">
+<link rel="stylesheet" href="css/style.css?v=46">
 </head>
 <body>
 <header class="nav"><button type="button" class="bell" id="cbn-bell" aria-label="Notifications" title="Notifications"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22Zm7-6V11a7 7 0 0 0-5.5-6.84V3.5a1.5 1.5 0 0 0-3 0v.66A7 7 0 0 0 5 11v5l-2 2v1h18v-1l-2-2Z"/></svg><span class="bell-t">Alerts</span></button><a class="brand" href="./"><img src="logo.jpg" alt="" width="36" height="36"><span>Copper &amp; Blue <b>News</b></span></a>
@@ -36,6 +36,11 @@
 <h1>The Copper &amp; Blue News</h1><p class="tag">Edmonton Oilers coverage, every game</p><a class="btn" href="https://www.instagram.com/copperandbluenews/" target="_blank" rel="noopener">Follow on Instagram</a> <a class="btn btn-ghost" href="#alerts" data-alerts>Get game alerts</a></section>
 <article class="card live-card" id="live" hidden></article>
 <article class="card fgs" id="fgs" hidden></article>
+<article class="card play-home" id="play-home">
+<div class="play-home-row"><img src="copper.svg?v=46" width="84" height="84" alt="Copper, our smiling oil-drop mascot"><div><p class="play-eyebrow">AirHockey with Copper</p><h2>Hit the ice</h2><p>Two minutes online, or first to seven against Copper.</p></div></div>
+<div class="play-home-actions"><a class="btn" href="play.html">Play vs Copper</a><a class="btn btn-ghost" href="play.html?online=1">Play Online</a></div>
+<ol class="play-home-board" id="homeBoard" hidden></ol>
+</article>
 <section class="cards">
 <article class="card" id="next"><h2>Next Game</h2><div class="body">Loading…</div><div class="odds-slot" data-odds hidden></div></article>
 <article class="card nl-card" id="newsletter" data-newsletter="home"><h2>Get the Oilers game day email</h2><noscript><p>Please enable JavaScript to sign up.</p></noscript></article>
@@ -45,19 +50,19 @@
 <p class="updated" id="updated"></p>
 <section class="ig ig-home" id="ig-strip" data-limit="3" hidden><div class="sec-head"><h2>Latest on Instagram</h2><a href="posts.html">More →</a></div><div class="ig-grid"></div></section>
 <section><div class="sec-head"><h2>Latest Posts</h2><a href="posts.html">All posts →</a></div><div class="feed" id="feed" data-limit="3"></div></section>
-<a class="card play-teaser" id="play-promo" href="play.html"><div class="play-teaser-art"><img src="copper.svg?v=45" alt="Copper, our friendly oil-drop hockey rival" width="120" height="120"><span class="play-puck" aria-hidden="true"></span></div><div><p class="play-eyebrow">Meet your new rink rival</p><h2>AirHockey with Copper</h2><p>First to seven. You vs Copper. Got the hands?</p><span class="play-teaser-cta">Hit the ice →</span></div></a>
 </main>
 <footer><p class="flinks"><a href="about.html">About</a> · <a href="schedule.html">Schedule</a> · <a href="scores.html">Scores</a> · <a href="install.html">Get the app</a> · <a href="privacy.html">Privacy</a> · <a href="./#newsletter">Game day email</a></p>
 <p><a href="https://www.instagram.com/copperandbluenews/" target="_blank" rel="noopener">@copperandbluenews on Instagram</a></p>
 <p class="disc">The Copper &amp; Blue News is a fan-run page. Not affiliated with the Edmonton Oilers or the NHL. Schedule data via the public NHL API.</p>
 <p class="disc">&copy; <span id="yr">2026</span> The Copper &amp; Blue News</p></footer>
-<script src="js/main.js?v=45"></script>
-<script src="js/config.js?v=45"></script>
-<script src="js/newsletter.js?v=45"></script>
-<script src="js/pwa.js?v=45"></script>
-<script src="js/article-render.js?v=45"></script>
-<script src="js/instagram.js?v=45"></script>
-<script src="js/odds.js?v=45"></script>
-<script src="js/fgs.js?v=45"></script>
+<script src="js/main.js?v=46"></script>
+<script src="js/config.js?v=46"></script>
+<script src="js/home-play.js?v=46"></script>
+<script src="js/newsletter.js?v=46"></script>
+<script src="js/pwa.js?v=46"></script>
+<script src="js/article-render.js?v=46"></script>
+<script src="js/instagram.js?v=46"></script>
+<script src="js/odds.js?v=46"></script>
+<script src="js/fgs.js?v=46"></script>
 <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"63f156cfaaad47ffac9a9a15053e67a8"}'></script><!-- End Cloudflare Web Analytics -->
 </body></html>
