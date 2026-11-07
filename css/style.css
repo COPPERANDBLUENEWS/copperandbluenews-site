@@ -348,6 +348,20 @@ a.mu-p:hover{color:rgb(230,120,50)}.mu-p.empty{color:var(--muted)}
 @media(max-width:370px){.pong-score{gap:5px;font-size:9px}.pong-score img{display:none}.pong-score b{font-size:28px}.play-teaser{gap:12px}.play-teaser-art{flex-basis:90px}.play-teaser h2{font-size:1.15rem!important}}
 @media(max-height:460px) and (orientation:landscape){.pong-arena{gap:1px}.pong-hud{min-height:36px}.pong-icon,.pong-control{min-height:34px}.pong-score b{font-size:24px}.pong-topline{min-height:22px}.pong-topline button{min-height:23px}.pong-bottomline{min-height:25px}.pong-bottomline button{min-height:24px}.pong-panel img{width:55px;height:55px}.pong-panel-inner{padding:10px}.pong-panel h2{font-size:1.25rem}.pong-panel-actions{display:grid;grid-template-columns:1fr 1fr;gap:5px}.pong-panel .play-secondary,.pong-panel .btn{padding:8px;min-height:36px;font-size:12px}.pong-panel p{margin:7px 0;font-size:.76rem}}
 .pong-panel #shareStatus:empty{display:none}
+.pong-bottomline p{flex:1 1 auto;min-width:0;max-width:none}
+#soundGame.pong-horn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:44px;min-width:118px;padding:8px 14px;border-radius:999px;border:2px solid #c8763a;background:#f4b37c;color:#0b1a33;font:800 14px/1 Inter,system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;flex:0 0 auto;box-shadow:0 0 0 3px rgba(200,118,58,.28)}
+#soundGame.pong-horn[aria-pressed="false"]{background:#12264a;color:#f4b37c;box-shadow:none}
+#soundGame.pong-horn .horn-icon{display:block;width:18px;height:18px;flex:0 0 auto}
+#soundGame.pong-horn[aria-pressed="false"] .horn-icon-on,#soundGame.pong-horn[aria-pressed="true"] .horn-icon-off{display:none}
+.goal-banner[hidden]{display:none!important}
+.goal-banner{position:absolute;inset:0;z-index:1;display:flex;align-items:center;justify-content:center;pointer-events:none;padding:18px;background:rgba(11,26,51,.2)}
+.goal-banner.goal-flash{animation:goal-wash .55s ease-out}
+@keyframes goal-wash{0%{background:rgba(244,179,124,.78)}45%{background:rgba(11,26,51,.34)}100%{background:rgba(11,26,51,.2)}}
+.goal-banner-card{background:#0b1a33;color:#fff4df;border:3px solid #c8763a;border-radius:18px;padding:16px 26px 18px;text-align:center;box-shadow:0 12px 28px rgba(11,26,51,.5),0 0 0 6px rgba(200,118,58,.3)}
+.goal-banner-kicker{margin:0;color:#f4b37c;font:800 15px/1 Inter,system-ui,sans-serif;letter-spacing:.32em;text-transform:uppercase}
+.goal-banner-title{margin:10px 0 0;color:#fff4df;font:800 clamp(18px,5.2vw,26px)/1.05 Oswald,system-ui,sans-serif;letter-spacing:.03em;text-transform:uppercase;white-space:nowrap}
+@media(prefers-reduced-motion:reduce){.goal-banner.goal-flash{animation:none}}
+@media(max-height:460px) and (orientation:landscape){#soundGame.pong-horn{min-height:28px;min-width:92px;padding:4px 8px;font-size:11px;box-shadow:none}.goal-banner-card{padding:8px 14px}.goal-banner-title{font-size:20px}}
 @media(max-height:700px){.pong-panel-inner{padding:12px}.pong-panel img{width:64px;height:64px}.pong-panel h2{font-size:1.4rem}.pong-panel p{margin:8px 0;font-size:.78rem}.pong-panel-actions{display:grid;grid-template-columns:1fr 1fr;gap:6px}.pong-panel .play-record{font-size:.68rem}}
 
 /* Only a paused/results dialog may scroll on small screens; the rink itself never pans. */

@@ -178,17 +178,19 @@
       for(let x=W/2-GOAL/2+6;x<W/2+GOAL/2;x+=7){c.beginPath();c.moveTo(x,y);c.lineTo(x,y+WALL);c.stroke();}}
   }
   drawRink();
-  let game=null,immersive=false,nativeEntered=false,savedScroll=0,raf=0,last=0,acc=0,activePointer=null,trails=[],sound=false,audio=null,scoreKey='',finishShown=false;
+  let game=null,immersive=false,nativeEntered=false,savedScroll=0,raf=0,last=0,acc=0,activePointer=null,trails=[],audio=null,scoreKey='',finishShown=false,bannerOn=false;
   const keys=new Set(),params=new URLSearchParams(location.search),demo=params.get('demo')==='1';
   const demoSpeed=demo?clamp(Number(params.get('speed'))||1,1,20):1;
   const demoSeed=Number(params.get('seed'))||42;
-  const storageKey='cbn-airhockey-v1';
+  const storageKey='cbn-airhockey-v1',hornKey='cbn-airhockey-horn';
+  let sound=true;
   const blank=()=>({wins:0,losses:0,streak:0,bestStreak:0,bestWin:null});
   let record=blank();
   try{const r=JSON.parse(localStorage.getItem(storageKey));if(r&&typeof r==='object'){
     for(const k of ['wins','losses','streak','bestStreak'])record[k]=Number.isSafeInteger(r[k])&&r[k]>=0?r[k]:0;
     if(r.bestWin&&r.bestWin.you===7&&Number.isInteger(r.bestWin.copper)&&r.bestWin.copper>=0&&r.bestWin.copper<7)record.bestWin=r.bestWin;
   }}catch(_){/* private mode or full storage: the match still works */}
+  try{const v=localStorage.getItem(hornKey);if(v==='off')sound=false;else if(v==='on')sound=true;}catch(_){}
   function recordText(){const text=`${record.wins}W – ${record.losses}L · streak ${record.streak} · best streak ${record.bestStreak}${record.bestWin?' · best win 7–'+record.bestWin.copper:''}`;$('playRecord').textContent=text;$('arenaRecord').textContent=text;}
   recordText();
   function copperFace(c,x,y,r) {
@@ -222,17 +224,75 @@
       ctx.fillStyle='rgba(11,26,51,.87)';rounded(ctx,52,H/2-50,W-104,100,16);ctx.fill();ctx.textAlign='center';ctx.fillStyle='#fff4df';ctx.font='800 29px system-ui';
       ctx.fillText(s.phase==='goal'?'GOAL!':'FACEOFF',W/2,H/2-4);ctx.font='600 13px system-ui';ctx.fillStyle='#f4b37c';ctx.fillText(s.phase==='goal'?(s.lastGoal==='you'?'YOU LIGHT THE LAMP':'COPPER LIGHTS THE LAMP'):'First to 7. Let’s play.',W/2,H/2+24);
     }
+    syncCelebration();
   }
   function resize() {
     if(!immersive)return;const wrap=$('pongRink'),available=wrap.getBoundingClientRect();
     const height=Math.max(80,Math.min(available.height,available.width*H/W)),width=height*W/H,dpr=Math.min(devicePixelRatio||1,3);
     canvas.style.width=width+'px';canvas.style.height=height+'px';canvas.width=Math.round(width*dpr);canvas.height=Math.round(canvas.width*H/W);draw();
   }
-  function horn() {
-    if(!sound||!audio)return;
-    try{const t=audio.currentTime,g=audio.createGain();g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.065,t+.03);g.gain.exponentialRampToValueAtTime(.001,t+.45);g.connect(audio.destination);
-      for(const hz of [146.8,196]){const o=audio.createOscillator();o.type='sawtooth';o.frequency.value=hz;o.connect(g);o.start(t);o.stop(t+.46);}
+  function audioCtx() {
+    try{const AC=root.AudioContext||root.webkitAudioContext;if(!AC)return null;if(!audio)audio=new AC();return audio;}catch(_){return null;}
+  }
+  // iOS will not play later horns unless the context is created and resumed inside a user gesture.
+  function unlockAudio() {
+    const ctx=audioCtx();if(!ctx)return;
+    try{
+      if(ctx.state==='suspended'&&ctx.resume){const p=ctx.resume();if(p&&typeof p.catch==='function')p.catch(()=>{});}
+      if(!ctx._cbnPrimed&&ctx.createBuffer&&ctx.createBufferSource){
+        ctx._cbnPrimed=true;const buf=ctx.createBuffer(1,1,ctx.sampleRate||22050),src=ctx.createBufferSource();
+        src.buffer=buf;src.connect(ctx.destination);src.start(0);
+      }
+    }catch(_){/* autoplay unlock is best-effort */}
+  }
+  let hornCurve=null;
+  function distortionCurve() {
+    if(hornCurve)return hornCurve;
+    const n=1024,curve=new Float32Array(n),k=2.1,norm=Math.tanh(k);
+    for(let i=0;i<n;i++){const x=i/(n-1)*2-1;curve[i]=Math.tanh(k*x)/norm;}
+    hornCurve=curve;return curve;
+  }
+  // Original oil-field horn: layered low saw/square tones, slight detune, swell, ~2.8s blast and fade. Not a team recording.
+  function playHorn() {
+    if(!sound||!audio)return;const ctx=audio;
+    try{
+      if(ctx.state==='suspended'&&ctx.resume){const p=ctx.resume();if(p&&typeof p.catch==='function')p.catch(()=>{});}
+      const t=ctx.currentTime+.02,dur=2.8;
+      const filter=ctx.createBiquadFilter();filter.type='lowpass';filter.Q.value=.7;
+      filter.frequency.setValueAtTime(260,t);filter.frequency.exponentialRampToValueAtTime(740,t+.26);filter.frequency.exponentialRampToValueAtTime(340,t+dur);
+      const shaper=ctx.createWaveShaper();shaper.curve=distortionCurve();shaper.oversample='2x';
+      const master=ctx.createGain();
+      master.gain.setValueAtTime(.0001,t);master.gain.exponentialRampToValueAtTime(.18,t+.22);master.gain.linearRampToValueAtTime(.16,t+1.7);master.gain.exponentialRampToValueAtTime(.0001,t+dur);
+      filter.connect(shaper);shaper.connect(master);master.connect(ctx.destination);
+      const delay=ctx.createDelay(.4),feedback=ctx.createGain(),wet=ctx.createGain();
+      delay.delayTime.value=.09;feedback.gain.value=.24;wet.gain.value=.14;
+      master.connect(delay);delay.connect(feedback);feedback.connect(delay);delay.connect(wet);wet.connect(ctx.destination);
+      for(const [hz,type,vol] of [[104,'sawtooth',.2],[105.6,'sawtooth',.16],[130,'sine',.14],[156,'square',.09],[157.4,'square',.07],[196,'triangle',.05]]){
+        const osc=ctx.createOscillator(),g=ctx.createGain();osc.type=type;osc.frequency.value=hz;g.gain.value=vol;
+        osc.connect(g);g.connect(filter);osc.start(t);osc.stop(t+dur+.03);
+      }
     }catch(_){/* sound is optional */}
+  }
+  function playAww() {
+    if(!sound||!audio)return;const ctx=audio;
+    try{
+      const t=ctx.currentTime,dur=.48,osc=ctx.createOscillator(),g=ctx.createGain();
+      osc.type='triangle';osc.frequency.setValueAtTime(180,t);osc.frequency.exponentialRampToValueAtTime(96,t+.42);
+      g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(.05,t+.04);g.gain.exponentialRampToValueAtTime(.0001,t+dur);
+      osc.connect(g);g.connect(ctx.destination);osc.start(t);osc.stop(t+dur+.02);
+    }catch(_){/* sound is optional */}
+  }
+  function syncCelebration() {
+    const banner=$('goalBanner');if(!banner||!game)return;
+    const show=game.state.phase==='goal'&&game.state.lastGoal==='you';
+    if(show===bannerOn)return;
+    bannerOn=show;banner.hidden=!show;banner.className=show?'goal-banner goal-flash':'goal-banner';
+  }
+  function syncSoundButton() {
+    const btn=$('soundGame');if(!btn)return;
+    btn.setAttribute('aria-pressed',sound?'true':'false');
+    btn.setAttribute('aria-label',sound?'Mute goal horn':'Unmute goal horn');
+    const label=$('soundLabel');if(label)label.textContent=sound?'Mute':'Unmute';
   }
   const cheers={you:['Nice shot! Copper gives you a glove tap.','Copper: “Okay, that was a beauty!”','Top shelf! Copper wants a rematch.'],copper:['Copper: “Stick with it, you’ve got this!”','Copper: “A little copper magic!”','Copper: “Next faceoff is yours!”']};
   function syncScore(){if(!game)return;const s=game.state,k=s.score.you+':'+s.score.copper;if(k!==scoreKey){$('youScore').textContent=s.score.you;$('copperScore').textContent=s.score.copper;scoreKey=k;}}
@@ -243,9 +303,10 @@
     showPanel('over');
   }
   function fresh() {
-    finishShown=false;scoreKey='';trails=[];keys.clear();document.body.classList.remove('rink-paused');
+    finishShown=false;scoreKey='';trails=[];keys.clear();bannerOn=false;document.body.classList.remove('rink-paused');
+    const banner=$('goalBanner');if(banner){banner.hidden=true;banner.className='goal-banner';}
     game=create({difficulty:$('playMood').value,demo,demoDifficulty:'normal',...(demo?{rng:seeded(demoSeed)}:{}),
-      onGoal(side,s){syncScore();horn();const text=cheers[side][Math.floor(Math.random()*cheers[side].length)];$('arenaComment').textContent=text;$('gameLive').textContent=`${side==='you'?'You score':'Copper scores'}. You ${s.score.you}, Copper ${s.score.copper}. ${text}`;trails=[];},onFinish:finish,onFreeze(){ $('arenaComment').textContent='Frozen puck. Fresh centre-ice faceoff!'; }});
+      onGoal(side,s){syncScore();if(side==='you')playHorn();else playAww();const text=cheers[side][Math.floor(Math.random()*cheers[side].length)];$('arenaComment').textContent=text;$('gameLive').textContent=`${side==='you'?'You score':'Copper scores'}. You ${s.score.you}, Copper ${s.score.copper}. ${text}`;trails=[];},onFinish:finish,onFreeze(){ $('arenaComment').textContent='Frozen puck. Fresh centre-ice faceoff!'; }});
     $('arenaMood').textContent=MOODS[game.state.difficulty].name+(demo?' · demo':'');$('arenaComment').textContent='Drag your paddle. Own your half.';syncScore();$('pongPanel').hidden=true;$('pauseGame').textContent='Pause';$('pauseGame').disabled=false;$('shareStatus').textContent='';if(immersive)animate();
   }
   function showPanel(kind) {
@@ -286,8 +347,8 @@
     try{screen.orientation?.unlock();}catch(_){}
     $('startGame').textContent=game?.state.phase==='over'?'Play Copper again':'Resume match';$('newGame').hidden=!game||game.state.phase==='over';window.scrollTo(0,savedScroll);$('startGame').focus({preventScroll:true});
   }
-  $('startGame').addEventListener('click',()=>enter(!game||game.state.phase==='over'));
-  $('newGame').addEventListener('click',()=>{game=null;enter(true);});
+  $('startGame').addEventListener('click',()=>{unlockAudio();enter(!game||game.state.phase==='over');});
+  $('newGame').addEventListener('click',()=>{unlockAudio();game=null;enter(true);});
   $('exitGame').addEventListener('click',exit);
   $('pauseGame').addEventListener('click',()=>game.state.paused?resumeGame():pauseGame());
   $('restartGame').addEventListener('click',()=>game.state.phase==='over'?fresh():pauseGame('restart'));
@@ -295,9 +356,11 @@
   $('againGame').addEventListener('click',()=>{fresh();last=0;acc=0;canvas.focus({preventScroll:true});});
   $('panelExit').addEventListener('click',exit);
   $('soundGame').addEventListener('click',()=>{
-    sound=!sound;if(sound){try{const Audio=root.AudioContext||root.webkitAudioContext;if(!Audio)throw Error('unavailable');audio=audio||new Audio();audio.resume().catch(()=>{});}catch(_){sound=false;}}
-    $('soundGame').textContent=sound?'Sound on':'Sound off';$('soundGame').setAttribute('aria-pressed',String(sound));
+    unlockAudio();sound=!sound;try{localStorage.setItem(hornKey,sound?'on':'off');}catch(_){}syncSoundButton();
   });
+  syncSoundButton();
+  document.addEventListener('pointerdown',unlockAudio);
+  document.addEventListener('touchstart',unlockAudio,{passive:true});
   $('shareGame').addEventListener('click',async()=>{
     const s=game.state,text=s.winner==='you'?`I beat Copper ${s.score.you}-${s.score.copper} in AirHockey with Copper on copperandbluenews.com 🏒`:`Copper beat me ${s.score.copper}-${s.score.you} in AirHockey with Copper on copperandbluenews.com 🏒. Can you beat Copper?`;
     try{if(navigator.share){await navigator.share({title:'AirHockey with Copper',text,url:'https://copperandbluenews.com/play.html'});$('shareStatus').textContent='Shared!';}
@@ -308,7 +371,7 @@
   function pointer(e) {
     if(!game||game.state.paused||demo)return;const box=canvas.getBoundingClientRect(),pos=pointerTarget(e.clientX,e.clientY,box,e.pointerType==='touch');game.target(pos.x,pos.y);
   }
-  canvas.addEventListener('pointerdown',e=>{if(e.pointerType==='mouse'&&e.button!==0)return;e.preventDefault();activePointer=e.pointerId;try{canvas.setPointerCapture(e.pointerId);}catch(_){}pointer(e);});
+  canvas.addEventListener('pointerdown',e=>{unlockAudio();if(e.pointerType==='mouse'&&e.button!==0)return;e.preventDefault();activePointer=e.pointerId;try{canvas.setPointerCapture(e.pointerId);}catch(_){}pointer(e);});
   canvas.addEventListener('pointermove',e=>{if(e.pointerType==='mouse'||e.pointerId===activePointer){e.preventDefault();pointer(e);}});
   for(const type of ['pointerup','pointercancel','lostpointercapture'])canvas.addEventListener(type,()=>{activePointer=null;});
   arena.addEventListener('touchmove',e=>{if(immersive&&$('pongPanel').hidden)e.preventDefault();},{passive:false});
@@ -328,10 +391,12 @@
   window.addEventListener('resize',resize);window.visualViewport?.addEventListener('resize',resize);
   if(typeof ResizeObserver!=='undefined')new ResizeObserver(resize).observe($('pongRink'));
   if(demo){
+    unlockAudio();
     enter(true,false);
     // Deterministic demo replay for offline QA/screenshots; advance actual physics, never assign a score.
     const at=clamp(Number(params.get('at'))||0,0,300);
     for(let i=0;i<at/STEP&&game.state.phase!=='over';i++)game.step(STEP);
+    if(params.get('hold')==='1'){cancelAnimationFrame(raf);raf=0;last=0;acc=0;}
     draw();
   }
 })(typeof globalThis!=='undefined'?globalThis:this);

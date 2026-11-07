@@ -1,7 +1,7 @@
 // UI-controller tests in a synthetic DOM. No browser automation, rendering engine, accounts or real sharing.
 const vm=require('node:vm'),fs=require('node:fs'),assert=require('node:assert/strict');
 const source=fs.readFileSync(require('node:path').join(__dirname,'../js/play.js'),'utf8');
-function setup({search='',storageDenied=false}={}) {
+function setup({search='',storageDenied=false,storage=null,AudioContext=null}={}) {
  const events={},windowEvents={},frames=new Map(),nodes={},writes=[],shares=[];let seq=0,draws=0,time=1;
  const list=()=>{const s=new Set();return {add:k=>s.add(k),remove:k=>s.delete(k),contains:k=>s.has(k)};};
  const gradient={addColorStop(){}};
@@ -9,13 +9,13 @@ function setup({search='',storageDenied=false}={}) {
  const document={hidden:false,fullscreenElement:null,body:{classList:list()},documentElement:{classList:list()},activeElement:null,
   addEventListener(k,fn){(events[k]??=[]).push(fn);},getElementById(id){return nodes[id]??=node(id);},createElement(){return {width:1,height:1,getContext:()=>ctx};}};
  function node(id){return {id,hidden:['pongArena','pongPanel','newGame','shareGame'].includes(id),textContent:'',value:id==='playMood'?'normal':'',disabled:false,style:{},listeners:{},
-  getContext:()=>ctx,getBoundingClientRect:()=>({width:400,height:660,left:10,top:80}),setAttribute(){},focus(){document.activeElement=this;},setPointerCapture(){},
+  getContext:()=>ctx,getBoundingClientRect:()=>({width:400,height:660,left:10,top:80}),attrs:{},setAttribute(k,v){this.attrs[k]=v;},focus(){document.activeElement=this;},setPointerCapture(){},
   addEventListener(k,fn){this.listeners[k]=fn;},querySelectorAll(){return ['resumeGame','againGame','shareGame','panelExit'].map(id=>document.getElementById(id));}};}
  const c={document,location:{search},navigator:{clipboard:{async writeText(text){shares.push(text);}}},screen:{orientation:{lock:()=>Promise.reject(Error('unsupported')),unlock(){}}},
-  localStorage:{getItem(){if(storageDenied)throw Error('storage denied');return null;},setItem(k,v){if(storageDenied)throw Error('storage denied');writes.push({k,v});}},
+  localStorage:{getItem(k){if(storageDenied)throw Error('storage denied');if(!storage||!Object.prototype.hasOwnProperty.call(storage,k))return null;return storage[k];},setItem(k,v){if(storageDenied)throw Error('storage denied');writes.push({k,v});if(storage)storage[k]=String(v);}},
   devicePixelRatio:3,scrollY:12,scrollTo(){},URLSearchParams,console,
   requestAnimationFrame(fn){const id=++seq;frames.set(id,fn);return id;},cancelAnimationFrame(id){frames.delete(id);},
-  addEventListener(k,fn){(windowEvents[k]??=[]).push(fn);},ResizeObserver:class{observe(){}}};
+  addEventListener(k,fn){(windowEvents[k]??=[]).push(fn);},ResizeObserver:class{observe(){}},AudioContext,webkitAudioContext:AudioContext};
  c.window=c;vm.runInNewContext(source,c);
  const click=id=>nodes[id].listeners.click({}),emit=(type,data={})=>(events[type]||[]).forEach(fn=>fn({preventDefault(){},...data}));
  function pump(n=1){for(let i=0;i<n;i++){const item=frames.entries().next().value;if(!item)break;frames.delete(item[0]);time+=1000/60;item[1](time);}}
@@ -35,5 +35,48 @@ function setup({search='',storageDenied=false}={}) {
  t=setup({search:'?demo=1&seed=1&at=300'});assert.equal(t.nodes.copperScore.textContent,7);assert.equal(t.nodes.panelTitle.textContent,'Copper takes this one!');assert.equal(t.writes.length,0);
  const {updateRecord}=require('../js/play.js');let r={wins:0,losses:0,streak:0,bestStreak:0,bestWin:null};
  r=updateRecord(r,{you:7,copper:3},'you','normal');assert.equal(r.wins,1);assert.equal(r.bestWin.copper,3);r=updateRecord(r,{you:7,copper:1},'you','hard');assert.equal(r.streak,2);assert.equal(r.bestStreak,2);assert.equal(r.bestWin.copper,1);r=updateRecord(r,{you:4,copper:7},'copper','hard');assert.equal(r.streak,0);assert.equal(r.bestStreak,2);assert.equal(r.losses,1);
- console.log('AIRHOCKEY UI PASS: DPR, immersive fallback, native-fullscreen exit, Esc, pause/resume/restart, hidden-tab stop with explicit resume, zero idle RAF, genuine win/loss screens, exact share text, denied-storage recovery and best-win/streak persistence logic.');
+ function makeAudio(){
+  const oscs=[];
+  class Param{constructor(){this.value=0;this.events=[];}setValueAtTime(v,t){this.value=v;this.events.push(v);}linearRampToValueAtTime(v){this.events.push(v);}exponentialRampToValueAtTime(v){this.events.push(v);}cancelScheduledValues(){}}
+  class Node{connect(){return this;}disconnect(){}}
+  class Gain extends Node{constructor(){super();this.gain=new Param();}}
+  class Filter extends Node{constructor(){super();this.frequency=new Param();this.Q=new Param();}}
+  class Osc extends Node{constructor(){super();this.frequency=new Param();this.type='sine';oscs.push(this);}start(t){this.t0=t;}stop(t){this.t1=t;}}
+  function Ctx(){this.state='suspended';this.currentTime=0;this.sampleRate=44100;this.destination={};this.resumed=0;this.oscs=oscs;Ctx.latest=this;}
+  Ctx.prototype.resume=function(){this.resumed++;this.state='running';return Promise.resolve();};
+  Ctx.prototype.createGain=()=>new Gain();
+  Ctx.prototype.createOscillator=()=>new Osc();
+  Ctx.prototype.createBiquadFilter=()=>new Filter();
+  Ctx.prototype.createWaveShaper=()=>new Node();
+  Ctx.prototype.createDelay=()=>Object.assign(new Node(),{delayTime:new Param()});
+  Ctx.prototype.createBuffer=()=>({});
+  Ctx.prototype.createBufferSource=()=>({connect(){},start(){},buffer:null});
+  return {Ctx,oscs};
+ }
+ const heard=makeAudio();
+ t=setup({search:'?demo=1&seed=2&at=3.4&hold=1',AudioContext:heard.Ctx});
+ assert.equal(t.frames.size,0,'hold freezes the demo frame');
+ assert.equal(t.nodes.youScore.textContent,1);assert.equal(t.nodes.copperScore.textContent,0);
+ assert.equal(t.nodes.goalBanner.hidden,false);assert.equal(t.nodes.goalBanner.className,'goal-banner goal-flash');
+ assert.equal(t.nodes.soundLabel.textContent,'Mute');assert.equal(t.nodes.soundGame.attrs['aria-pressed'],'true');
+ assert.equal(heard.oscs.length,6,'player goal plays the six-layer horn');
+ for(const o of heard.oscs){assert.ok(o.frequency.value>=100&&o.frequency.value<=200);assert.ok(o.t1-o.t0>2.5&&o.t1-o.t0<3.05);}
+ assert.ok(heard.oscs.some(o=>o.type==='sawtooth')&&heard.oscs.some(o=>o.type==='square'));
+ t.click('soundGame');assert.equal(t.nodes.soundLabel.textContent,'Unmute');assert.equal(t.writes.at(-1).k,'cbn-airhockey-horn');assert.equal(t.writes.at(-1).v,'off');
+ assert.equal(t.nodes.soundGame.attrs['aria-label'],'Unmute goal horn');
+ assert.equal(heard.Ctx.latest.state,'running');assert.equal(heard.Ctx.latest._cbnPrimed,true);
+ const copper=makeAudio();
+ t=setup({search:'?demo=1&seed=2&at=7.2',AudioContext:copper.Ctx});
+ const long=copper.oscs.filter(o=>o.t1-o.t0>2.5),short=copper.oscs.filter(o=>o.t1-o.t0<1);
+ assert.equal(long.length,6,'only the player goal gets the long horn');assert.equal(short.length,1,'Copper gets one short low tone');
+ assert.equal(short[0].type,'triangle');assert.ok(short[0].frequency.value<=180&&short[0].frequency.value>=90);
+ assert.equal(t.nodes.goalBanner.hidden,true,'Copper goals do not raise the player banner');
+ const saved={'cbn-airhockey-horn':'off'};
+ const muted=makeAudio();
+ t=setup({search:'?demo=1&seed=2&at=3.4&hold=1',storage:saved,AudioContext:muted.Ctx});
+ assert.equal(muted.oscs.length,0,'a remembered mute skips the horn');
+ assert.equal(t.nodes.soundLabel.textContent,'Unmute');assert.equal(t.nodes.goalBanner.hidden,false);
+ t.click('soundGame');assert.equal(saved['cbn-airhockey-horn'],'on');assert.equal(t.nodes.soundLabel.textContent,'Mute');
+ const again=setup({storage:saved});assert.equal(again.nodes.soundLabel.textContent,'Mute');
+ console.log('AIRHOCKEY UI PASS: DPR, immersive fallback, native-fullscreen exit, Esc, pause/resume/restart, hidden-tab stop with explicit resume, zero idle RAF, genuine win/loss screens, exact share text, denied-storage recovery, best-win/streak persistence, goal horn, Copper tone, mute memory and goal banner.');
 })().catch(e=>{console.error(e);process.exitCode=1;});
