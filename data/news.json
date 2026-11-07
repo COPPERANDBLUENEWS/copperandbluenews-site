@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-07T01:30:43Z",
+ "updated": "2026-11-07T01:40:24Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (92)"
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
@@ -33,6 +33,14 @@
    "via": "google"
   },
   {
+   "title": "Ex-Maple Leafs enforcer blasts NHL officials after Oilers’ Connor McDavid hit controversy",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByZmtxLVpDcUVKMk05TVRSTHZpQjFjWUVhSWlBUnhXM2prSDR2RVAwdTdSblZjbng4S2JKbkFOSWZZYU5XbFpaZHZSdjVEWXpNa0ZV?oc=5",
+   "source": "شبكة تواصل الإخبارية",
+   "published": "2026-11-07T00:11:46Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Night shift: 7 Oilers games get 9 p.m. puck drops",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUWNPek5oVWkyTURUbGlaTzNhbjhnOEhsdjdxUktROG44LU9TREpyLWRBaGJTeVBaeEFlUUZVd1lCNUx0dTZGMTVqZ09vNEJ5eVhhb0NWR3hkRGRPeWpTcG1RUzJoU25VTi1Cb0hlcS1CcGpBX1pEYVZwNVNGQXdCSFliWmVzbWU1ZEVfZXA0VUY?oc=5",
    "source": "CTV News",
@@ -41,26 +49,18 @@
    "via": "google"
   },
   {
+   "title": "Alberta Premier Danielle Smith gives big shoutout to Oilers' Podkolzin",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYzJzOWZlMGFnVnBzSndTeENabm9pemFtcXJaaDBfdVJrb3lFNk9TX01zZWZBT21XZ0xVdExyQmV4OExoVjlXV0lUZElSeXZOTWE4UnNQc2U3VHVlUlN0Vk1Gc3liS2dDbWMtRHJGeEZhMmpsT1ROckdkcGthamZOUFc1eWVXemhOWnhEV3BxejA?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-06T22:23:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Ex-Oilers forward earning big bucks, but healthy scratch tonight for new team",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQjcyV1dOUTVGNUY3RkFLdHowMEdDYzZkQXlwYkN1SWFqUk5MQzhKY1ZvTWg4RDVEZ28zWVBwMUE3ZzhsSXFNVWRyTVUwUjVId0d2aUU3WWpUSFdublJnZWdVR05iZ0s1Y0JSTjRhVHF5X0FhT0VTSGV3TUo0N1lKWXRWcE84RU9VNFBfRXpVb195NmhTRmxXY2pLcHNIYXlDWGp4YXRsam8zLUt6UnpBUHNkXzU4RU1HMWc?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-06T22:16:41Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Alberta premier gives big shoutout to Oilers' Podkolzin after lopsided fight",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYzJzOWZlMGFnVnBzSndTeENabm9pemFtcXJaaDBfdVJrb3lFNk9TX01zZWZBT21XZ0xVdExyQmV4OExoVjlXV0lUZElSeXZOTWE4UnNQc2U3VHVlUlN0Vk1Gc3liS2dDbWMtRHJGeEZhMmpsT1ROckdkcGthamZOUFc1eWVXemhOWnhEV3BxejA?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-06T22:11:26Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Ex-Maple Leafs enforcer blasts NHL officials after Oilers’ Connor McDavid hit controversy",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdnBJVEdXTTRkbi1QLXllbEp4Y0VuREFEUmdmWGFUUy0ySzZaM0Y4RzB4Y3VFeEFuRTRjc1JHbTlLcnBMYUM5N1pjdV9na0dqR2o0U2FleHpHX3FFM2ZfN1RyMDhielJFcmhGOXVhYlVrZFF6Zklqa1JsZU9QVmFna3VDWHQ3Zw?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-06T21:43:27Z",
    "snippet": "",
    "via": "google"
   },
@@ -182,8 +182,8 @@
   },
   {
    "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
-   "url": "https://www.nhl.com/oilers/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026-x0153",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026",
+   "source": "NHL.com",
    "published": "2026-11-06T05:41:00Z",
    "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
   },
