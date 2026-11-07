@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-07T23:13:02Z",
+ "updated": "2026-11-07T23:21:53Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (85)"
+  "Google News (84)"
  ],
  "errors": [],
  "items": [
@@ -53,6 +53,14 @@
    "source": "Edmonton Journal",
    "published": "2026-11-07T21:04:40Z",
    "snippet": "TNA: Destination X goes Sunday, Nov. 15 at 4 p.m. at the Edmonton Expo Centre. Tickets are available at Ticketmaster.com"
+  },
+  {
+   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-07T21:01:48Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "How to watch Canucks vs. Oilers: TV channel and streaming options for November 7",
@@ -145,14 +153,6 @@
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUUySVVKRVBjY29YMlYwYlJVVWtZaEllV1lHSXN1REZUc3NmcmhQVXh0c1h0M281ZWVBM1lidnNwYk9ZMms0RkZUV0htLUczeWhlQXFUc1ZzU1pfRFkzdTczRGNtVTNaX0ZWczNodlEyai1vdWxCVFpvcHo4WmRRVExCOEU3Umho?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-07T18:04:24Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T18:00:43Z",
    "snippet": "",
    "via": "google"
   },
