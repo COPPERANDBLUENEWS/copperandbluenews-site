@@ -1,20 +1,19 @@
 {
- "updated": "2026-11-07T22:39:00Z",
+ "updated": "2026-11-07T23:01:48Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (84)"
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Oilers Activate Devon Levi And Zach Hyman Off IR",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSmdvODFYVUl4YTV1YnVJZUVGQTdnanNjcnVscU9acXRseE9rMXZ3YWYyeURHQjNoR0ctQy0wR3V4cTMxR1pQbTFxMVB0b0pFSWlRc3NNeFU4SXpKVWVxcVFmUm51NkR3aEU5VllOMWZoZmotREpiWjl0VHJERkFuS3hfMWpndzhVSVY2WDB5VmpCQnlPR2NOUlR5YktNZHpKcVFSbWVRbV9rZw?oc=5",
-   "source": "Yardbarker",
-   "published": "2026-11-07T22:04:42Z",
-   "snippet": "",
-   "via": "google"
+   "title": "RELEASE: Oilers activate Devon Levi & Zach Hyman off IR",
+   "url": "https://www.nhl.com/oilers/news/release-oilers-activate-devon-levi-zach-hyman-off-ir",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-07T22:56:48.658Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers have activated goalie Devon Levi and forward Zach Hyman off Injured Reserve, the team announced on Saturday. Goalie Matt Tomkins has also been loaned to…"
   },
   {
    "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
@@ -174,6 +173,14 @@
    "via": "google"
   },
   {
+   "title": "The Edmonton Oilers could acquire three Blue Jackets players in one trade",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcjR2RG9lZTVVVDRmMC1NR1ZUeFp3OC1pbGpMcE5PdXp2bXM3eEVsYXhINlF2OHJoUkhhdTRaNkU4V2xqZ3NORGY2aG1CLTJrZ1BXVUktSWNHTllhYTRJVkR4aGtyUnF4VmdnSTgzQUNYRUlLVlk2Qmp3OW1uNEt2WG5TTk5BUTdqM0ZESXFlb1E?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-07T17:25:42Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers and Canucks prepare for the third showdown of the season",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-and-canucks-prepare-for-the-third-showdown-of-the-season/",
    "source": "Sportsnet",
@@ -270,13 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-06T04:09:34.996Z",
    "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
-  },
-  {
-   "title": "Podkolzin gets his punches in but Edmonton Oilers wind up on the canvas",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/podkolzin-gets-his-punches-in-but-edmonton-oilers-wind-up-on-the-canvas",
-   "source": "Edmonton Journal",
-   "published": "2026-11-06T03:52:36Z",
-   "snippet": ""
   }
  ]
 }
