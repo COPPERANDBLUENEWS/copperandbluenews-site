@@ -1,18 +1,56 @@
 {
- "updated": "2026-11-07T18:50:22Z",
+ "updated": "2026-11-07T19:23:01Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (2)",
-  "Google News (90)"
+  "Sportsnet (3)",
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "PROJECTED LINEUP: Levi to start & Hyman returns for Saturday's meeting with Canucks",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd01mY3V0d1hyZG5xZHdvMzFLY0Vhbjd2VFoyZU9fLXJQZzFZbkhPejBnMWRPV0NHTC1rWWNZd0dDLUltTHMzLVBHbi13NGUyVWNWMEhRZ2ZqRWlLTnNlOGNpX2NMNWo5UTE3NGEwenNqczZSbnBnNURPMGFhSWRWbkVYMFdBWUZkZHB3V0NFZ3RBbHNZazNZVDUtSGNEYVZKRGxOeTRoSWd2V0M0VllYc0FrV1NRSVJTcUdmMEhR?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-07T19:08:57Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Zach Hyman, Devon Levi return to Oilers lineup vs. Canucks",
+   "url": "https://www.sportsnet.ca/nhl/article/zach-hyman-devon-levi-return-to-oilers-lineup-vs-canucks/",
+   "source": "Sportsnet",
+   "published": "2026-11-07T19:03:22Z",
+   "snippet": "Forward Zach Hyman and goaltender Devon Levi are set to draw in for the showdown against the Vancouver Canucks, the team announced ahead of the Saturday Night Hockey matchup (Sportsnet and…"
+  },
+  {
+   "title": "RELEASE: Oilers place Atro Leppanen on waivers",
+   "url": "https://www.nhl.com/oilers/news/release-oilers-place-atro-leppanen-on-waivers",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-07T18:57:04.06Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers have placed defenceman Atro Leppanen on waivers for the purpose of assignment to the Bakersfield Condors, the team announced on Saturday."
+  },
+  {
+   "title": "Major shake-up on Edmonton Oilers, hot shot goalie, top winger back, struggling vets rotate as healthy scratches",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQk81U0p5YmJsVHltWXpxY0lmSWVPT0JzLUNYS2JDaW1rNHdLb0FkT1RIQXNuSk5BY05lLTU2NUVldmdfX0hIRjA1Z0Q5dG1jYm9rZWpuNW9CSlhjdTZ6X1VCeUhBLXZlMjE3ajdYQTR4T2J2TkhiUkhfRW9sYTdfWkRnWVg1U0FraXduSkpkQ05ZSEh6d3ZoTEs4WmlsSThfSHBSWVRyODlnRmpCUTg3Snhsel9HM3dHNURMQVdOTUVITzJONy10T2E0OGtaXzBkS09J?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-07T18:56:15Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers Appear to Be Getting Big Pieces Back vs. Canucks",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUUySVVKRVBjY29YMlYwYlJVVWtZaEllV1lHSXN1REZUc3NmcmhQVXh0c1h0M281ZWVBM1lidnNwYk9ZMms0RkZUV0htLUczeWhlQXFUc1ZzU1pfRFkzdTczRGNtVTNaX0ZWczNodlEyai1vdWxCVFpvcHo4WmRRVExCOEU3Umho?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-07T18:04:24Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-07T18:00:43Z",
    "snippet": "",
    "via": "google"
   },
@@ -25,14 +63,6 @@
    "via": "google"
   },
   {
-   "title": "Major shake-up on Edmonton Oilers, hot shot goalie, top winger back, struggling vets rotate as healthy scratches",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQk81U0p5YmJsVHltWXpxY0lmSWVPT0JzLUNYS2JDaW1rNHdLb0FkT1RIQXNuSk5BY05lLTU2NUVldmdfX0hIRjA1Z0Q5dG1jYm9rZWpuNW9CSlhjdTZ6X1VCeUhBLXZlMjE3ajdYQTR4T2J2TkhiUkhfRW9sYTdfWkRnWVg1U0FraXduSkpkQ05ZSEh6d3ZoTEs4WmlsSThfSHBSWVRyODlnRmpCUTg3Snhsel9HM3dHNURMQVdOTUVITzJONy10T2E0OGtaXzBkS09J?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-07T17:38:57Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Connor McDavid Is \"On A Mission To Win A Stanley Cup,\" Wayne Gretzky Says While Praising Oilers Captain",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUG5ZTEtod19mZklkTy0wbFA5NlIzZ19YLUVFMnZXZ2JWRW9Jb1RsaEg1bThLWjMzcDJPOHhMWWJqeEtrQ0stOG1oc1hUVFNMMkl4MEowdklhMEh3NVRDVEVYWmdCa3F0LXlvZ3BpUnV3SnB1WWdXcjFOOTRuTkdERHVaem5VbW5vUVNQSmRYaTRhRGM1SmpiYWFuU2szTnFfdXV6Q1ZSZ0JxYnZKLTFRZDdhUHkxazNaMG1kVVBIRkdNV3dwUlh5eDVlcnQ5ZVNoTXBkT3k3Zw?oc=5",
    "source": "NDTV Sports",
@@ -41,10 +71,26 @@
    "via": "google"
   },
   {
+   "title": "Vancouver Canucks @ Edmonton Oilers: Live game updates, stats, play-by-play",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-07T17:26:30Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "The Edmonton Oilers could acquire three Blue Jackets players in one trade",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcjR2RG9lZTVVVDRmMC1NR1ZUeFp3OC1pbGpMcE5PdXp2bXM3eEVsYXhINlF2OHJoUkhhdTRaNkU4V2xqZ3NORGY2aG1CLTJrZ1BXVUktSWNHTllhYTRJVkR4aGtyUnF4VmdnSTgzQUNYRUlLVlk2Qmp3OW1uNEt2WG5TTk5BUTdqM0ZESXFlb1E?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-07T17:25:42Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers NHL Line Combinations",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-07T17:15:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -77,14 +123,6 @@
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb1ZoNW5YQmNQZlJUUUVBdUhNMTJBQ1Axd3ExMFBPRmhlNVVsNTZnSWRzXzJsSEh2dUZ5UHJYQ2ZzU3c2THNkZWN2TThtV0N3RnBVQ2FxR3g5WVZYeGp6bFZaLXB0T2tsNW90dnJ1NGZ4TG9MNnNSVjBENU5WdkkxVFVRQkZVWk9pZEJKRjNlMERIcl9WdVhzaXN6ekxXcC1jcHJ5RXk4MkRuWGp1NjcxZTFjYV9fSGVxRHhkOW5rcUdsRDQ?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-07T16:24:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T15:54:57Z",
    "snippet": "",
    "via": "google"
   },
@@ -129,22 +167,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers Takeaways From Loss to Ducks & Fans Have Reason to Be Skeptical of Mike Babcock",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa3VtNnhXMTVDSkk1UmczX2hYZ2RFZUZpaTRXbVJ1cWZ2QjFHNVpXdG1xaDBNbHV5ZUdKVkdLQWNqcjAzcG9oWDltZlk0RlNzc3E2bmkwWmsyMXRnaEs5cTU1cms5OElCQzJKMWJUUTRCSGZMNXVZRnhlZUR1Zm5EWQ?oc=5",
-   "source": "Substack",
-   "published": "2026-11-07T11:35:30Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Edmonton Oilers' chance at landing Ivan Miroshnichenko via trade just got stronger",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMEFuSHNhVGk5aUNmd3JXR1BmQ0NkOXc2YkhJVzZBemxrbFRWZU5MNWptMzlVcU1TWWl1eDZWdHdDY3V0QnBXekxZaGFRZGpWemRVYm1ZVVZCVmluVWloSE81Slc1bXhJQzNreDV4Zjdsd210R1FGdzBUM05fUUdEejQwczV0aHQ2eDJtMnlaTmkweWZqWjZndHpESUN4R3FUS2FjczF2ZzN3QjBPMjNCT3RIVjlrMlFHWHNpODl3?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-07T06:46:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers and Canucks prepare for the third showdown of the season",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-and-canucks-prepare-for-the-third-showdown-of-the-season/",
    "source": "Sportsnet",
@@ -157,14 +179,6 @@
    "source": "NHL.com",
    "published": "2026-11-07T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "PREVIEW: Oilers vs. Canucks | Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5XQ3ZZdUdXUkpLdUN2N0l3dUNTZmtOVjVUdHVpNEhTeGhZM0VaM1VqdF9qa2M2MW1fODVSMDFDcHVjQlNnMFhlR2tjN0FIZmZtWFlSZGFCcWpxaTNmbmw1THM3RHgwRENlUGYyQnlhMnNSbVNW?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T03:42:56Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "PREVIEW: Oilers vs. Canucks",
@@ -263,20 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-06T02:03:00Z",
    "snippet": "Edmonton Oilers fans were excited to celebrate their longest-tenured player on Thursday. Ryan Nugent-Hopkins received a standing ovation from fans at Rogers Place after becoming the…"
-  },
-  {
-   "title": "QUICK RECAP: Ducks 5, Oilers 4",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-ducks-11-05-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-06T01:01:30.504Z",
-   "snippet": "EDMONTON, AB – Connor McDavid recorded a goal & three assists, while Evan Bouchard, Ryan Nugent-Hopkins and Leon Draisaitl each posted multiple points, but the Oilers couldn't come away…"
-  },
-  {
-   "title": "RELEASE: Howard placed on IR; Epp activated",
-   "url": "https://www.nhl.com/oilers/news/release-howard-placed-on-ir-epp-activated",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-05T23:59:01.568Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers have placed forward Isaac Howard on Injured Reserve and activated emergency back-up goaltender (EBUG) Brett Epp, the team announced Thursday. Epp, 29, was…"
   }
  ]
 }
