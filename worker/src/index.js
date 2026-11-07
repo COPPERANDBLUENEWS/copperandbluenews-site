@@ -9,7 +9,10 @@
 // Fan-out: with the PUSH_QUEUE binding, /notify enqueues batches of subscribers and the queue consumer
 // sends them (each consumer run gets its own subrequest budget, so this scales on the Free plan's
 // 50-subrequest limit). Without the binding it sends inline (fine for small lists or Workers Paid).
-import {sendPush} from "./webpush.js";
+import {deliver} from "./delivery.js";
+import {gameStub} from "./game-alerts.js";
+import {GAME_TYPES} from "./game-events.js";
+export {GameAlerts} from "./game-alerts.js";
 import * as store from "./store.js";
 import * as pickem from "./pickem.js";
 import * as live from "./live.js";
@@ -82,34 +85,10 @@ async function unsubscribe(req, env) {
   return {ok: true}; // same answer whether or not it existed
 }
 
-function vapid(env) {
-  if (!env.VAPID_PUBLIC_KEY || !env.VAPID_PRIVATE_KEY) throw new HttpError(500, "VAPID keys not configured");
-  return {publicKey: env.VAPID_PUBLIC_KEY, privateKey: env.VAPID_PRIVATE_KEY, subject: env.VAPID_SUBJECT || "https://copperandbluenews.com"};
-}
-
-/** Send one alert to a list of subscriber rows; deletes dead (404/410) subscriptions. */
-async function deliver(env, subs, payload) {
-  const v = vapid(env), stats = {sent: 0, gone: 0, failed: 0};
-  const dead = [];
-  // at most 6 simultaneous outgoing connections per Worker invocation
-  for (let i = 0; i < subs.length; i += 6) {
-    await Promise.all(subs.slice(i, i + 6).map(async s => {
-      try {
-        const p = s.altBody ? {...payload, body: s.altBody} : payload;
-        const r = await sendPush(s, p, v, {ttl: ["lineup", "gameday", "odds"].includes(payload.type) ? 3 * 3600 : 1800, urgency: "high"});
-        if (r.ok) stats.sent++;
-        else if (r.gone) { stats.gone++; dead.push(s.id); }
-        else { stats.failed++; console.log("push failed", r.status, new URL(s.endpoint).host); }
-      } catch (e) { stats.failed++; console.log("push error", String(e)); }
-    }));
-  }
-  for (const id of dead) await store.deleteSub(env, id);
-  return stats;
-}
-
 async function notify(req, env, ctx) {
   if (!(await safeEqual(bearer(req), env.NOTIFY_SECRET))) throw new HttpError(401, "unauthorized");
   const b = await readJson(req);
+  if (env.GAME_ALERTS_ENABLED === "1" && GAME_TYPES.includes(b.type)) return {ok: true, ignored: true, reason: "Worker owns game events"};
   if (!TYPES.includes(b.type)) throw new HttpError(400, `type must be one of ${TYPES.join(", ")}`);
   if (typeof b.title !== "string" || !b.title.trim()) throw new HttpError(400, "title required");
   const id = typeof b.id === "string" && b.id ? b.id.slice(0, 120) : null;
@@ -177,6 +156,15 @@ async function stats(req, env) {
 }
 
 export default {
+  async scheduled(controller, env, ctx) {
+    if (env.GAME_ALERTS_ENABLED !== "1") return;
+    ctx.waitUntil((async () => {
+      const r = await gameStub(env).fetch("https://game-alerts.internal/tick", {method: "POST",
+        body: JSON.stringify({scheduledTime: controller.scheduledTime})});
+      if (!r.ok) throw new Error("Game alerts scheduler failed: " + r.status);
+      console.log("game-alerts cron", await r.text());
+    })());
+  },
   async fetch(req, env, ctx) {
     const {pathname} = new URL(req.url);
     const c = cors(req, env);
@@ -222,6 +210,14 @@ export default {
   // Queue consumer: each message = {payload, subs[<=40]}.
   async queue(batch, env) {
     for (const msg of batch.messages) {
+      if (msg.body.gameAlert) {
+        try {
+          const r = await gameStub(env).fetch("https://game-alerts.internal/deliver", {method: "POST", body: JSON.stringify(msg.body.gameAlert)});
+          const out = await r.json();
+          if (r.ok && out.ok) msg.ack(); else msg.retry({delaySeconds: 30});
+        } catch (e) { console.log("game queue retry", String(e)); msg.retry({delaySeconds: 30}); }
+        continue;
+      }
       try {
         const subs = msg.body.subs || [], p = msg.body.payload || {};
         const stats = await deliver(env, subs, p);

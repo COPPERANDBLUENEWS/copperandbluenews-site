@@ -49,11 +49,11 @@ jobs:
           path: ~/.cbn-alerts
           key: cbn-alerts-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: cbn-alerts-
-      # puck drop, goals, period ends, final (runs even when live=0 so the final is caught)
-      - name: Game alerts (game)
+      # Puck drop/goals/period ends/final are now owned exclusively by the Worker cron + durable outbox.
+      - name: Game alerts (pregame odds)
         id: game_alerts
         if: env.ALERTS_ON == 'true'
-        run: python3 scripts/notify_alerts.py --pregame --game || true  # pre-game odds ~1 h out, then game events
+        run: python3 scripts/notify_alerts.py --pregame || true  # pre-game odds ~1 h out; lineup step remains below
         env:
           WORKER_URL: ${{ secrets.WORKER_URL }}
           NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}

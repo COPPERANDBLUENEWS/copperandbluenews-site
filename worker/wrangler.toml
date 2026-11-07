@@ -5,6 +5,9 @@ compatibility_date = "2026-11-01"
 workers_dev = true
 
 [vars]
+GAME_ALERTS_ENABLED = "1"
+# Exact next-game start: excludes every game present in the old Actions sent-state cache.
+GAME_ALERTS_SINCE = "2026-11-08T03:00:00Z"
 # Public half of the VAPID keypair; must match VAPID_PUBLIC_KEY in ../js/config.js.
 VAPID_PUBLIC_KEY = "BKZoaKWaPmx65jY1P9Jpm5O5CbBnsMq4l1DPUob_pHIxkaJGqBP3uywE0H-RUvl3yWqoSt_F5PNYkyJ7g9OMFmY"
 # Contact for push services (a mailto: address or the site URL).
@@ -24,7 +27,18 @@ queue = "cbn-push"
 [[queues.consumers]]
 queue = "cbn-push"
 max_batch_size = 1
-max_retries = 0
+max_retries = 10
 
 [observability]
 enabled = true
+
+[triggers]
+crons = ["* * * * *"]
+
+[[durable_objects.bindings]]
+name = "GAME_ALERTS"
+class_name = "GameAlerts"
+
+[exports.GameAlerts]
+type = "durable-object"
+storage = "sqlite"

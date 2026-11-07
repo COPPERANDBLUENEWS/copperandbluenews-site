@@ -45,8 +45,8 @@ while hidden. Tests: `npm test` (push crypto plus isolated relay schema/cache/CO
 
 The Free plan’s 100,000 daily request allowance is shared by live and alerts routes. At one request every
 3 seconds, a visible page uses ~3,600 requests per three-hour game, before pre-game and other traffic.
-No cron was added: the existing Actions alert producer remains unchanged until a safe single-producer
-handoff is tested. Lineup/final alert click URLs are untouched.
+A minute cron now drives game alerts through a SQLite-backed Durable Object; see below.
+Lineup/final alert click URLs are untouched.
 
 ## Deploy (one time, about 10 minutes)
 
@@ -118,21 +118,72 @@ npx wrangler dev --port 8787                # local KV + local queue (other term
 npm run test:integration                    # subscribe/CORS/notify/dedupe/410 cleanup/export/unsubscribe via a mock push service
 ```
 
-## How alerts are triggered
+## How alerts are triggered (v33)
 
-`scripts/notify_alerts.py` (standard library only) runs in GitHub Actions:
-- `live.yml`, every live-loop cycle (about every 2-3 min during games, and every 10 min otherwise), after
-  `update_data.py`: puck drop, every goal (both teams; scorer, season total, assists, score, PP/SH/EN), each period
-  end with the score, and the final (shootout attempts are not sent; the final says "(SO)").
-- `live.yml` + `lineup.yml`, after `update_lineup.py`: starting goalie confirmed and official lineup confirmed.
-- `--morning` (`lineup.yml` 16:00 UTC = 9 AM PT; `news.yml` hourly as backup): `gameday`, once per game, 8:50-11:30 AM PT.
-- `--pregame` (`live.yml` every 10 min, `lineup.yml` :11): `odds`, once per game, 20-75 min before puck drop, from
-  `https://api-web.nhle.com/v1/partner-game/CA/now` (FanDuel). Skipped silently if the feed fails or the game isn't listed.
-  The puck-drop alert gets a short moneyline for everyone when odds exist; period ends get the live moneyline for
-  odds subscribers only if the feed is seen updating after puck drop. Every odds text ends with `19+ · Play responsibly`.
-- Test without sending: `python3 scripts/notify_alerts.py --pregame --dry-run --now 2026-11-06T00:00:00Z` prints the payloads.
-Sent ids are kept in the Actions cache and again in KV, so nothing is sent twice. Alerts follow the site's data, so
-they arrive about 2-4 minutes after the moment on the ice.
+### Game events: single durable Worker producer
+
+- `* * * * *` cron calls the **same** SQLite-backed `GameAlerts` Durable Object each minute. The outer
+  Worker does one binding fetch, staying inside Free's 10 ms CPU budget. The actor has its own 30-second
+  CPU budget and polls with 15-second sleeps until its roughly 55-second cron window closes. Its recovery
+  alarm is a second watchdog. Off-game checks make at most one schedule request (cached five minutes in
+  durable storage), send nothing and return immediately. No browser needs to be open.
+- The active window is five minutes before puck drop through final (at most eight hours after scheduled
+  start). The first eligible game is **2026020276, VAN@EDM, Nov 7 at 8 PM PT**. `GAME_ALERTS_SINCE` is that
+  scheduled start in UTC. Every older game is excluded, regardless of old Actions cache or KV visibility.
+- `src/game-events.js` ports Python `game_events` and `add_odds`: identical titles, bodies, IDs, URLs,
+  scorer/assist formatting, PP/SH/EN, shootout exclusions, final result and optional odds variants.
+  Stable event IDs are never re-sent after scorer edits, goal removal or reappearance, matching Python.
+- `notify_alerts.py --game` sends nothing (dry-run generation remains for testing). `live.yml` calls only
+  `--pregame` at that step. The Worker's authenticated `/notify` also refuses the four managed game types,
+  fencing even an old Actions run already in flight. Lineup/gameday/pregame odds remain unchanged.
+
+### Dedupe and failure recovery
+
+KV is **not** used as a lock: it is eventually consistent and cannot safely arbitrate overlapping cron runs.
+One Durable Object identity and an in-flight producer promise serialize cron/alarm loops. For each stable
+ID, an atomic SQLite storage write records both the claim and a complete recoverable delivery plan before
+any queue call. Previously sent legacy KV IDs are also checked at first claim as a compatibility safeguard.
+
+Queue messages contain only `{gameAlert: {id, batch}}`; the payload/subscriber snapshot stays in durable
+storage. Batches contain up to 20 subscribers (headroom for deleting expired subscriptions). A queue
+acceptance timeout can enqueue the same reference again: event-scoped consumer serialization and durable
+per-recipient success checkpoints suppress repeats. Only failed recipients retry, while accepted/gone
+recipients are never intentionally sent again. Pending outbox entries remain until all recipients have
+been accepted by a push service or their subscription is confirmed expired (404/410). Queue retry
+exhaustion does not silently discard the outbox: alarms/cron can enqueue outstanding work again.
+
+**Web Push limitation:** no server can atomically commit its database together with Apple/Google/Mozilla's
+HTTP receipt or guarantee a phone displays a notification. If a provider accepts a push and the process
+or connection dies before the durable success checkpoint, a retry is ambiguous. Stable Web Push Topic,
+notification tag/event ID and `renotify: false` coalesce/quiet those rare transport retries. This is not
+a mathematical exactly-once or guaranteed-device-delivery claim. Reopening the PWA installs v33's
+quiet-replacement behavior; existing subscriptions/preferences remain valid.
+
+Ordinary expected game-alert relay lag is about **0–15 seconds plus NHL/network/queue/device delay**,
+versus roughly 2–4 minutes before. Optional odds lookups can add up to eight seconds at puck drop/period
+ends. A provider outage is retried, not called a successful delivery. No paid plan is required; the existing
+100k Worker requests/day and 1k KV writes/day limits still apply. SQLite has its own free quotas; active
+polling/journal work is small for one team. The live page's 3-second polling is independent.
+
+### Other alerts and tests
+
+GitHub Actions still runs `--lineup`, `--morning` and `--pregame` as before, including their existing URLs,
+preferences and responsible-gambling text. Final alerts still open `/game.html?id=GAMEID`; lineup alerts
+still open `/players.html`.
+
+- `npm test`: push crypto, live relay, and game producer tests. Replays **296 incremental snapshots** of
+  real EDM game 2026020260 and compares against actual Python output: **14 exact alerts**, once each.
+  Also tests scorer corrections/reversals, legacy cutover, overlapping runs, enqueue ambiguity, partial
+  delivery failure, durable restart and crash-after-last-checkpoint recovery. Sending is stubbed.
+- `npm run test:game-runtime`: bundles locally, then runs real workerd SQLite DO + KV + Queue and actual
+  push encryption against an entirely mocked provider. Decrypts/compares all 14 game alerts and checks
+  duplicate redelivery, the legacy producer fence and unchanged lineup/odds HTTP paths. No real pushes.
+- The older `test:integration` exercises the legacy HTTP producer; use a local config with
+  `GAME_ALERTS_ENABLED=0` for its game-type assertions, never disable the production producer to run it.
+
+Rollback requires a coordinated change: stop the durable game producer (`GAME_ALERTS_ENABLED=0`) and
+restore the Python/workflow `--game` path together. Keep the Durable Object namespace/data and activation
+floor: do not delete or rename the actor, because that would discard dedupe/checkpoint history.
 
 ## Send stats (KV)
 

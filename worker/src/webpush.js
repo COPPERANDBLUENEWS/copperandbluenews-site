@@ -84,6 +84,6 @@ export async function sendPush(sub, payload, vapid, {ttl = 3600, urgency = "high
     Authorization: await vapidAuthorization(sub.endpoint, vapid),
   };
   if (topic) headers.Topic = topic;
-  const res = await fetch(sub.endpoint, {method: "POST", headers, body});
+  const res = await fetch(sub.endpoint, {method: "POST", headers, body, signal: AbortSignal.timeout(10000)});
   return {status: res.status, ok: res.status >= 200 && res.status < 300, gone: res.status === 404 || res.status === 410};
 }

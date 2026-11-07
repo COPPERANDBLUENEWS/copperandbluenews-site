@@ -6,7 +6,7 @@ Cloudflare Worker (worker/, see worker/README.md):  POST $WORKER_URL/notify
   Authorization: Bearer $NOTIFY_SECRET
   {"id": "<event id>", "type": "puck_drop|goal|period_end|final|lineup", "title", "body", "url"}
 
-  --game    (live.yml, after update_data.py) reads data/schedule.json + data/pbp/<id>.json:
+  --game    DRY-RUN ONLY after the Worker cutover; real sends disabled. Reads data/schedule.json + data/pbp/<id>.json:
             puck drop, each goal (both teams; scorer, assists, score), each period end (score
             after the period), final score. Shootout attempts are not sent; the final covers it.
   --lineup  (live.yml / lineup.yml, after update_lineup.py) reads data/lineup.json:
@@ -360,6 +360,9 @@ def main():
         before = sig(state)
         oc = OddsCache()
         for mode in modes:
+            if mode == "--game" and not dry:
+                print("Game alerts (--game): Worker is the sole producer; legacy sends disabled.")
+                continue
             groups = {}
             if mode == "--lineup":
                 evlist = lineup_events(now)
