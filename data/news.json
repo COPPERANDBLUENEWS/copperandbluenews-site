@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-07T01:18:13Z",
+ "updated": "2026-11-07T01:21:00Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (92)"
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Playing host to skidding Canucks, Oilers have chance for redemption",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYjY5aGF6MUVMSy1SdzJYOUEtcXAtNDBZd0dKOTZobjBLZ2tsOEgwSzJOMkQ5YXhCQlczdGM1b3p5QVo2T3hxSFBrVGJkSDFBd0pxMGlmZWhwbExkNTZKd28wU21RTlY2cUJ1MEU1X2dGbVE0TjR0dnlNRUVNRnBHYXNkZFFUX0huUjlYemM1MExSZDloQXpLOHlIU0t6bjFwcmFzanIwUXhBZWJKWS1Ld1FTY3pEb2I2aC16bFlla3M2dw?oc=5",
+   "source": "Yardbarker",
+   "published": "2026-11-07T01:13:36Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Should Ducks’ Helleson have been penalized for hit on Oilers’ McDavid?",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeDk3VzVIYmRJSUNTeF96UUllX243WDhfS1UwTFhYRG9Od3BxRVVHcVRnYTdGM3F5SXRJX19CVUxHaVdWXy02enRzdHZhTlFOSXI4YWRuUkcxNTZ6VnczYm5wbFdoTTg4UG13NEJSMWt3aERJWmN0enhMaXZYNE81Vm92U2JnUVgwRXREVzdwZ2lWREJTTWxpaW91WmNoSGhrTkpwTnNPMDJFam9Ma1d3?oc=5",
@@ -155,14 +163,6 @@
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSDFmMi1nVG5weHUwNUVoVVB3LUExeE5NekFnRVJjdE5ZM1NPblNxLVRjUURaNncyOHNBQzFKa2ZodUUtdWhuME1MRnlndW05ZnN0c25NU1NuMVVfWVZzZm5BX05SNzlQb0UtT0dsNjdGWWZsUnVDcHZ2MDBZQXpYLXJsZkc2UnZqbk5GTlAzY1ViZlE?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-06T17:50:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers Emerge as Potential Trade Suitor for Canadiens Big Forward",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM0dybzVqdTJWNXlRUExrSkgxVUVEY19EZVJQbzM4RkpDNmdkdDFYYXZNS25zNjNzSGhpMVBRaExwcnhVbEZvTkV5WUE3eGpGN2U2NHhjNzBJX29BQmtadkFBVXVSSWpIMF9CbzJJUlRTWjFkREJaOTNZTjBnTnVSTU45eFhCU2xxN3diaEVCTThRUQ?oc=5",
-   "source": "Heavy.com",
-   "published": "2026-11-06T17:48:38Z",
    "snippet": "",
    "via": "google"
   },
