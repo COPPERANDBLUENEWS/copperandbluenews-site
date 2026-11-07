@@ -1,11 +1,9 @@
-// Live rink tracker. Data: data/pbp/<gameId>.json, a slim copy of the NHL play-by-play
+// Live rink tracker. Backup/replay data: data/pbp/<gameId>.json, a slim copy of the NHL play-by-play
 // (api-web.nhle.com/v1/gamecenter/<id>/play-by-play) written by scripts/update_data.py.
-// The NHL API sends no CORS headers and the free public CORS relays we tested time out
-// against it, so the browser reads the same-origin JSON that the live Actions loop
-// redeploys every ~2-3 min during games. See README "Live rink tracker".
+// Live games use the two-second edge-cached Worker NHL relay, polling every three seconds.
 (() => {
   const {$, esc, getJSON, fmtDate, isFinal, isLive} = CBN;
-  const FOCUS = "EDM", EDM_COL = "#FF4C00", COPPER = "#c8763a", POLL_MS = 20000;
+  const FOCUS = "EDM", EDM_COL = "#FF4C00", COPPER = "#c8763a", POLL_MS = 3000;
   const TEAM_COL = {ANA:"#1a1a1a",BOS:"#1a1a1a",BUF:"#003087",CGY:"#C8102E",CAR:"#CE1126",CHI:"#CF0A2C",COL:"#6F263D",CBJ:"#002654",DAL:"#006847",DET:"#CE1126",FLA:"#C8102E",LAK:"#111111",MIN:"#154734",MTL:"#AF1E2D",NSH:"#041E42",NJD:"#CE1126",NYI:"#00539B",NYR:"#0038A8",OTT:"#C52032",PHI:"#111111",PIT:"#111111",SJS:"#006D75",SEA:"#00616e",STL:"#002F87",TBL:"#002868",TOR:"#00205B",UTA:"#3f7fbf",VAN:"#00205B",VGK:"#333F48",WSH:"#C8102E",WPG:"#041E42"};
   const TYPES = [
     ["goal", "Goal"], ["shot-on-goal", "Shot on goal"], ["missed-shot", "Missed"], ["blocked-shot", "Blocked"],
@@ -654,6 +652,7 @@
 
   // ---------- modes ----------
   async function pbpFetch(id) {
+    if (S.mode === "live") return CBN.liveJSON(`/live/pbp?id=${id}`, `data/pbp/${id}.json`);
     const r = await fetch(`data/pbp/${id}.json`, {cache: "no-cache"}); // revalidates with the ETag, cheap 304s
     if (!r.ok) throw new Error(r.status);
     return r.json();
@@ -662,7 +661,7 @@
     $("trk-note").innerHTML = `${src} · Rink coordinates and events from the public NHL play-by-play feed. <a href="https://www.nhl.com/" target="_blank" rel="noopener">Data: NHL</a>. Fan-made, not affiliated with the NHL or the Edmonton Oilers.`;
   }
   async function replay(id) {
-    S.mode = "replay"; clearTimeout(S.timer); skeleton(true);
+    S.mode = "replay"; S.stopPoll?.(); clearTimeout(S.timer); skeleton(true);
     let g; try { g = await pbpFetch(id); } catch { $("trk").innerHTML = `<p>Play-by-play for this game isn't available yet.</p>`; return; }
     setData(g); filters(); ticks();
     const t0 = params.get("t"); S.curT = t0 != null && params.get("id") == id ? Math.min(S.T, Math.max(0, +t0)) : 0;
@@ -679,17 +678,17 @@
       const near = isLive(gm.state) || isFinal(gm.state) || new Date(gm.startTimeUTC) - Date.now() < 10 * 60e3;
       if (near) try { g = await pbpFetch(gm.id); } catch {}
       // Other workflows (news/lineup) can briefly redeploy older data mid-game: never go backwards.
-      if (S.g?.plays?.length && (!g || (g.fetched && S.g.fetched && g.fetched < S.g.fetched))) { S.timer = setTimeout(tick, POLL_MS); return; }
+      if (S.g?.plays?.length && (!g || (g.fetched && S.g.fetched && g.fetched < S.g.fetched))) { return POLL_MS; }
       if (!g) { // no play-by-play yet (pre-game or first live deploy pending)
         S.g = S.g || {id: gm.id, startTimeUTC: gm.startTimeUTC, gameState: gm.state, awayTeam: {abbrev: gm.away.abbrev, score: gm.away.score, sog: gm.away.sog}, homeTeam: {abbrev: gm.home.abbrev, score: gm.home.score, sog: gm.home.sog}, venue: {default: gm.venue}, plays: [], rosterSpots: []};
         header(); msg(isLive(gm.state) ? "Live · waiting for the first play-by-play update" : `Puck drop ${ptFmt(gm.startTimeUTC)} <small style="display:block;font:600 .75rem Inter">(${mtFmt(gm.startTimeUTC)})</small><span class="cd" id="cd"></span>`);
         if (!$("ftype").innerHTML) { S.periods = []; filters(); }
         countdown(gm.startTimeUTC);
         // re-check live.json for state changes
-        try { const lj = await getJSON("data/live.json"); if (lj.game?.id === gm.id) gm = {...gm, ...lj.game}; } catch {}
-        S.timer = setTimeout(tick, new Date(gm.startTimeUTC) - Date.now() < 3600e3 ? 60000 : 300000); return;
+        try { const lj = await CBN.liveNow(); if (lj.game?.id === gm.id) gm = {...gm, ...lj.game}; } catch {}
+        return new Date(gm.startTimeUTC) - Date.now() < 10 * 60e3 ? POLL_MS : new Date(gm.startTimeUTC) - Date.now() < 3600e3 ? 60000 : 300000;
       }
-      if (S.hlPlaying) { S.timer = setTimeout(tick, POLL_MS); return; }
+      if (S.hlPlaying) { return POLL_MS; }
       msg("");
       const first = !S.evs.length; const prevIds = new Set(S.evs.map(e => e.id));
       const prevG = S.g;
@@ -727,11 +726,13 @@
       renderHighlights();
       maybePlayHlFromUrl();
       const age = g.fetched ? Math.round((Date.now() - new Date(g.fetched)) / 1000) : null;
-      note(`Live: NHL data relayed by this site's GitHub Actions loop${age != null ? ` · last NHL fetch ${age < 90 ? age + " s" : Math.round(age / 60) + " min"} ago (${new Date(g.fetched).toLocaleTimeString("en-US", {timeZone: "America/Vancouver", hour: "numeric", minute: "2-digit", second: "2-digit"})} PT)` : ""} · expect roughly 2-4 min behind the broadcast · this page re-checks every ${POLL_MS / 1000} s`);
-      if (isLive(g.gameState) || (!isFinal(g.gameState) && new Date(g.startTimeUTC) - Date.now() < 3600e3)) S.timer = setTimeout(tick, POLL_MS);
+      note(`Live: ${g.__relay ? "direct NHL relay" : "backup site feed"}${age != null ? ` · last NHL fetch ${age < 90 ? age + " s" : Math.round(age / 60) + " min"} ago (${new Date(g.fetched).toLocaleTimeString("en-US", {timeZone: "America/Vancouver", hour: "numeric", minute: "2-digit", second: "2-digit"})} PT)` : ""} · ${g.__relay ? "roughly 10–30 s behind the NHL feed (feed delay varies)" : "backup data may be delayed 2–4 min"} · this page re-checks every ${POLL_MS / 1000} s`);
+      if (isLive(g.gameState) || (!isFinal(g.gameState) && new Date(g.startTimeUTC) - Date.now() < 3600e3)) return POLL_MS;
       else if (isFinal(g.gameState)) note(`Final · <a href="tracker.html?mode=replay&id=${g.id}">Replay this game</a> · <a href="game.html?id=${g.id}">Box score</a> · <a href="https://www.nhl.com/" target="_blank" rel="noopener">Data: NHL</a>`);
+      return null;
     };
-    tick();
+    S.stopPoll?.();
+    S.stopPoll = CBN.pollVisible(tick);
   }
   let cdT;
   function countdown(iso) {
@@ -745,7 +746,7 @@
     const nav = document.querySelector(".nav"); if (nav) document.documentElement.style.setProperty("--navh", nav.offsetHeight + "px");
     let sched = [], lj = null;
     try { sched = (await getJSON("data/schedule.json")).games; } catch {}
-    try { lj = (await getJSON("data/live.json")).game; } catch {}
+    try { lj = (await CBN.liveNow()).game; } catch {}
     const now = Date.now();
     const done = sched.filter(g => isFinal(g.state));
     const lastDone = done[done.length - 1];

@@ -10,13 +10,15 @@ Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this f
 | `POST /notify` | GitHub Actions (`scripts/notify_alerts.py`) | `Authorization: Bearer NOTIFY_SECRET` | `{id?, type, title, body, url, to?, alt?}` → web push to everyone who opted into `type` (or only subscriber `to`, an id from `/export`, for a test). `alt: {pref, body}` swaps in `body` for subscribers who also opted into `pref` (used for the live moneyline on period ends, odds subscribers only) |
 | `GET /stats?hours=24` | Mac / morning report (`/workspace/cbn-deploy/site_report.py`) | `Authorization: Bearer ADMIN_SECRET` | → JSON: subscribers (total, new in the window, count per alert type) and alerts sent in the window (events by type, push attempts, delivered, failed, expired subscriptions removed) |
 | `GET /export` | Mac | `Authorization: Bearer ADMIN_SECRET` | all sign-ups as CSV |
+| `GET /live/pbp?id=GAMEID` | Live tracker | same site CORS; public read-only | NHL play-by-play in the exact slim JSON format of `scripts/update_data.py`, edge-cached 2 seconds |
+| `GET /live/now` | Home / Scores / tracker boot | same site CORS; public read-only | `{updated, game, goals}` for the current/recent Oilers game, edge-cached 2 seconds |
 | `GET /health` | anyone | none | `{"ok":true}` |
 
 - `type` is one of `puck_drop`, `goal`, `period_end`, `final`, `lineup`, `odds`, `gameday` (same keys as the panel's checkboxes).
 - Defaults when a sign-up leaves a key out: `odds` **off** (betting odds are opt-in, 19+), everything else on.
   Records saved before Nov 5, 2026 (no `v` field) read as `gameday` on and `odds` off; they're rewritten as `v: 2` on the next save.
 - `id` (e.g. `2026020260:goal:211`) is stored in KV as `evt:<id>` for 45 days; a repeated id returns `{"duplicate":true}`
-  and nothing is sent, so an event never goes out twice.
+  and nothing is sent. This suppresses sequential repeats; KV is not an atomic lock for concurrent producers.
 - Push: `src/webpush.js` implements RFC 8291 (aes128gcm) + RFC 8292 (VAPID, ES256) with WebCrypto only, no npm
   packages at runtime. Dead subscriptions (push service answers 404/410) are deleted automatically.
 - Storage: Workers KV (`src/store.js`, binding `ALERTS_KV`). `sub:<id>` = one sign-up (endpoint, keys, optional
@@ -31,6 +33,20 @@ Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this f
   queue binding, `/notify` sends inline, capped at 45 pushes per alert (set `INLINE_LIMIT` higher on Workers Paid).
 - Only push hosts of real browsers are accepted (FCM, Mozilla, Apple, Windows), so the Worker can't be used to
   POST to arbitrary URLs. Names/emails are trimmed to 120 chars; CSV export escapes formula-looking cells.
+
+## Live relay
+
+`src/live.js` reads the public NHL feed with a User-Agent and an 8-second upstream timeout.
+Cache keys ignore arbitrary query parameters and Origin; CORS is applied after lookup so cached responses
+cannot leak another origin’s header. Browser responses are `no-store`; only `caches.default` keeps a
+2-second copy. Failed upstream requests are not cached. No KV reads/writes or push sends occur on live routes.
+The browser uses a 5-second timeout before falling back to the generated site JSON, and pauses polling
+while hidden. Tests: `npm test` (push crypto plus isolated relay schema/cache/CORS/transition tests).
+
+The Free plan’s 100,000 daily request allowance is shared by live and alerts routes. At one request every
+3 seconds, a visible page uses ~3,600 requests per three-hour game, before pre-game and other traffic.
+No cron was added: the existing Actions alert producer remains unchanged until a safe single-producer
+handoff is tested. Lineup/final alert click URLs are untouched.
 
 ## Deploy (one time, about 10 minutes)
 

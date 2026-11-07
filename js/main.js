@@ -1,5 +1,5 @@
 // Shared helpers + home page. The NHL API sends no CORS headers, so every page
-// reads JSON that scripts/update_data.py builds (see README "Live updates").
+// uses the Worker NHL relay for live scores, with generated JSON as a fallback.
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const getJSON = async url => { const r = await fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Date.now(), {cache: "no-store"}); if (!r.ok) throw new Error(r.status); return r.json(); };
@@ -18,6 +18,45 @@ function matchup(g) {
   return {home, us, opp, oppName: opp.name || opp.abbrev, win, label, extra: win && lp && lp !== "REG" ? ` (${lp})` : ""};
 }
 const CBN = {$, esc, getJSON, fmtTime, fmtDate, bothTimes, ordinal, isFinal, isLive, periodName, matchup};
+
+// One request at a time; hidden tabs stop polling and refresh immediately on return.
+CBN.pollVisible = (run, fallbackMs = 300000) => {
+  let timer, running = false, stopped = false;
+  const tick = async () => {
+    clearTimeout(timer);
+    if (document.hidden || running || stopped) return;
+    running = true;
+    let delay = fallbackMs;
+    try { delay = await run(); } catch (e) { console.warn("Live refresh failed", e); }
+    finally {
+      running = false;
+      if (delay === null) stopped = true;
+      if (!stopped && !document.hidden) timer = setTimeout(tick, delay ?? fallbackMs);
+    }
+  };
+  const visible = () => { clearTimeout(timer); if (!document.hidden) tick(); };
+  document.addEventListener("visibilitychange", visible);
+  tick();
+  return () => { stopped = true; clearTimeout(timer); document.removeEventListener("visibilitychange", visible); };
+};
+const LIVE_API = "https://cbn-alerts.copperandbluenews.workers.dev";
+CBN.liveJSON = async (path, fallback) => {
+  try {
+    const r = await fetch(LIVE_API + path, {cache: "no-store", signal: AbortSignal.timeout(5000)});
+    if (!r.ok) throw new Error(r.status);
+    const d = await r.json();
+    if (path.startsWith("/live/pbp") ? !Array.isArray(d.plays) || !d.fetched || String(d.id) !== new URLSearchParams(path.split("?")[1]).get("id")
+      : !d.updated || !("game" in d)) throw new Error("Invalid live feed");
+    return {...d, __relay: true};
+  } catch { return {...await getJSON(fallback), __relay: false}; }
+};
+let lastLive;
+CBN.liveNow = async () => {
+  const d = await CBN.liveJSON("/live/now", "data/live.json");
+  // A stale Pages deploy/fallback must never replace a fresher relay score.
+  if (lastLive && Date.parse(d.updated) < Date.parse(lastLive.updated)) return lastLive;
+  return lastLive = d;
+};
 
 function renderNext(g) {
   const el = $("next")?.querySelector(".body"); if (!el) return;
@@ -43,11 +82,13 @@ function renderStandings(s) {
 // Live card on the home page (shown from 30 min before puck drop to the final).
 async function renderLive() {
   const el = $("live"); if (!el) return;
-  let live; try { live = await getJSON("data/live.json"); } catch { return; }
+  let live; try { live = await CBN.liveNow(); } catch { return; }
   const g = live.game;
   if (!g || isFinal(g.state)) { el.hidden = true; return false; }
   const m = matchup(g); let goals = "";
-  try {
+  if (live.__relay) {
+    goals = (live.goals || []).map(x => `<li><b>${esc(x.team)}</b> ${esc(x.name)} · ${periodName(x.period)} ${esc(x.time)}</li>`).join("");
+  } else try {
     const d = await getJSON(`data/games/${g.id}.json`);
     goals = (d.summary.scoring || []).flatMap(p => p.goals.map(x => `<li><b>${esc(x.teamAbbrev.default)}</b> ${esc(x.name.default)} · ${periodName(p.periodDescriptor)} ${x.timeInPeriod}</li>`)).join("");
   } catch {}
@@ -57,7 +98,7 @@ async function renderLive() {
     <div class="live-score"><div><span>${esc(g.away.abbrev)}</span><b>${g.away.score ?? 0}</b><small>SOG ${g.away.sog ?? 0}</small></div>
     <div class="dash">–</div><div><span>${esc(g.home.abbrev)}</span><b>${g.home.score ?? 0}</b><small>SOG ${g.home.sog ?? 0}</small></div></div>
     ${goals ? `<ul class="goals">${goals}</ul>` : ""}
-    <div class="meta">Updated ${new Date(live.updated).toLocaleTimeString("en-US", {timeZone: "America/Edmonton", hour: "numeric", minute: "2-digit"})} MT · refreshes automatically (data is ~2-4 min behind live)</div>
+    <div class="meta">Updated ${new Date(live.updated).toLocaleTimeString("en-US", {timeZone: "America/Edmonton", hour: "numeric", minute: "2-digit"})} MT · ${live.__relay ? "checks every 3 s · roughly 10–30 s behind the NHL feed (feed delay varies)" : "backup feed · updates may be delayed 2–4 min"}</div>
     <a class="more" href="game.html?id=${g.id}">Full game page →</a>`;
   return true;
 }
@@ -68,8 +109,7 @@ async function loadGames() {
     renderNext(d.next); renderLast(d.last); renderStandings(d.standings);
     if (d.updated) $("updated").textContent = "Updated " + new Date(d.updated).toLocaleString("en-US", {timeZone: "America/Edmonton", dateStyle: "medium", timeStyle: "short"}) + " MT";
   } catch (e) { ["next", "last", "standings"].forEach(id => $(id).querySelector(".body").textContent = "Couldn't load game data."); }
-  const tick = async () => { const on = await renderLive(); setTimeout(tick, on ? 30000 : 300000); };
-  tick();
+  CBN.pollVisible(async () => (await renderLive()) ? 3000 : 300000);
 }
 async function loadPosts() {
   const feed = $("feed"); if (!feed) return;
@@ -84,7 +124,7 @@ $("yr").textContent = new Date().getFullYear();
 // Navigation: top bar (desktop), bottom tab bar (phones) and the More menu.
 (() => {
   const here = location.pathname.split("/").pop() || "./";
-  const cur = here === "index.html" ? "./" : here === "game.html" ? "scores.html" : here === "player.html" ? "players.html" : here === "posts.html" ? "news.html" : here;
+  const cur = here === "index.html" ? "./" : (here === "game.html" || here === "stats.html") ? "scores.html" : here === "player.html" ? "players.html" : here === "posts.html" ? "news.html" : here;
   document.querySelectorAll(".topnav a, .tabbar a, .more-menu a").forEach(a => { if (a.getAttribute("href") === cur) a.classList.add("on"); });
   const menu = document.getElementById("more-menu"); if (!menu) return;
   const inMore = (sel) => !!menu.querySelector(`a.on${sel}`);

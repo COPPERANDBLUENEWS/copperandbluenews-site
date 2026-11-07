@@ -11,6 +11,17 @@
         <div class="gres">${live ? `<span class="res live">LIVE ${m.us.score}-${m.opp.score}</span>` : `<span class="res ${m.win ? "w" : "l"}">${m.label} ${m.us.score}-${m.opp.score}${m.extra}</span>`}<small>Box score →</small></div></a>`; }).join("")}</div>` : "<p>No games played yet.</p>";
     return list.some(g => isLive(g.state));
   };
-  const tick = async () => { if (draw()) { setTimeout(async () => { try { d = await getJSON("data/schedule.json"); } catch {} tick(); }, 30000); } };
-  tick();
+  draw();
+  CBN.pollVisible(async () => {
+    try {
+      const live = await CBN.liveNow();
+      if (live.game) {
+        const i = d.games.findIndex(g => g.id === live.game.id);
+        if (i >= 0) d.games[i] = {...d.games[i], ...live.game};
+        else d.games.push(live.game);
+      }
+      draw();
+      return live.game && !isFinal(live.game.state) ? 3000 : 300000;
+    } catch { return draw() ? 3000 : 300000; }
+  });
 })();
