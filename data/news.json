@@ -1,18 +1,33 @@
 {
- "updated": "2026-11-07T23:21:53Z",
+ "updated": "2026-11-07T23:32:13Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (4)",
+  "Sportsnet (5)",
   "Google News (84)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "CFL Playoffs Live Tracker: Lions vs. Elks",
+   "url": "https://www.sportsnet.ca/football/cfl/games/d849c2e1-cda5-3310-8e2d-3079eedf021d/",
+   "source": "Sportsnet",
+   "published": "2026-11-07T23:24:13Z",
+   "snippet": "The B.C. Lions head to Northern Alberta to square off against the Edmonton Elks in the CFL West Final for a spot in the Grey Cup. Follow the action with Sportsnet’s live tracker, with…"
+  },
+  {
    "title": "Oilers get healthier to face the Canucks",
    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPLTRwRzFKRlptWGlxQVlXZjY4YXNsTEpNZDNUd0hOUXRHWDhSMEJ6T2xZVkNkUndpZ2RGZ1FhRkxWS0NhWVlfTXRzcld0VlZaUVJTbXVCZUxuWGxMYmxPcDh4a1BFVnhXM2Q4Z2JMZmJJQXVCMHZkNThxMnAzNGdwdVZPelBVbVBTNEtCdGw2eGt6T1JZNHVHZ3VyVmlqeEhFUW5jMXVDYkpoSVZjaGdqVzRfTlBjZk8wYzFnaFRiZ2tJekZPRG8zNUpxODJIdV9CTG1wQl9QTVlmNGlyUjF3WHR3azM2OWhoT3c?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-07T23:07:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-07T23:00:24Z",
    "snippet": "",
    "via": "google"
   },
@@ -28,6 +43,14 @@
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-07T21:56:43Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-07T21:54:57Z",
    "snippet": "",
    "via": "google"
   },
@@ -53,14 +76,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-07T21:04:40Z",
    "snippet": "TNA: Destination X goes Sunday, Nov. 15 at 4 p.m. at the Edmonton Expo Centre. Tickets are available at Ticketmaster.com"
-  },
-  {
-   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T21:01:48Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "How to watch Canucks vs. Oilers: TV channel and streaming options for November 7",
@@ -173,14 +188,6 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers NHL Line Combinations",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-07T17:15:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers and Canucks prepare for the third showdown of the season",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-and-canucks-prepare-for-the-third-showdown-of-the-season/",
    "source": "Sportsnet",
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-06T04:10:18Z",
    "snippet": ""
-  },
-  {
-   "title": "Mintyukov, Sennecke Power Ducks to 5-4 Victory Over Oilers",
-   "url": "https://www.nhl.com/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026-x1332",
-   "source": "NHL.com",
-   "published": "2026-11-06T04:09:34.996Z",
-   "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
   }
  ]
 }
