@@ -1,26 +1,42 @@
 {
- "updated": "2026-11-07T11:15:28Z",
+ "updated": "2026-11-07T12:16:19Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (89)"
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T09:54:46Z",
+   "title": "Vancouver Canucks Gameday Preview #19: A Strong Effort Is Needed To Shut Down Connor McDavid And The Oilers",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQUGZVaXExN3ZFMHhOYTBWaUpyN09Mem5rYW95RFlrVmx5blR0WEtVcW5WbXFRME5OSlFEZUdSMjB2ZHA1REV2U2ZsMG9WVTZTQUVhaC1sYzdXZXFMaHdtSDB5aENBS2EtWVo4bjBITTFsRkFVcVJsQjBHVUhtWWU2OHIwTndrS3V2SU9teVNRY21jXzlVMjhiTkRZTnRpdXNodGxrZEtCUDZxdDZKX0VoalNrNkZWTVhYMEV0bHFHM0EzZDhGTWZkcS1hVlNLWEhLVEtBN3Z6aG1YX3BhbFc1OTZPNlRwZk4waTdWZWRPLWduUm1w?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-07T12:02:08Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Will Liam Ohgren Score a Goal vs. the Edmonton Oilers on November 7?",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRWNxMXFTMEV6Z3AxbFJod3JHb2JSS1dKZjNqU1Z0N253dlJtRkN1TnFkcnZHSDJVWXJkOVhNZzZJUkgxRlNiNExIay00UC1SaVJheXc2cHNJY0w2WXJITnIzaE1nVEZJWGpFRHpvOHhLYUxmQ3UzbW9Lb0FlMUhIS3JYaThCMFY5ZWNLSHdaVG95NVFLMGhsY01QWEFXTHZ4Q3QxTzhuRjQzTG1kRzlHQ1ZaekpnZw?oc=5",
+   "title": "What’s behind Ryan Nugent-Hopkins’ blazing start for the Edmonton Oilers?",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcG5yRGxnYVkyTWc5VmdkQ0NnSXlwSDFhY1FKbkl4bFBFVDE1M1RjdDA2eFhaZjlmbFlQaERZZDhZa19pcGJ0a2F2bE0wNFE3MjVGak5GeUs2Nm5feVJFM2I3b1NUbG03Zm9TQVEzOGlOSm5HazNwTmFJak01djJVV0VzVVJxbC05bmdQTUN3YUs5cTIwUld3WkFRdXZId3Vm?oc=5",
+   "source": "The New York Times",
+   "published": "2026-11-07T12:00:13Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Will Brock Boeser Score a Goal vs. the Edmonton Oilers on November 7?",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOckliMWRDQUlicDRkNE5waVJtWUh2cUFkcDJRbU5aSG1IX1gzV1BEX3g0WkhWR2tGM0ZrZTBnZ1NEWk5Ma29rS3ZWSUxwQTdLT1BON0pGbURIZ0R2Sk1IdjhlUHZFeGxMV2c0dEFYZ2JuSm9RUEx1eF9TS1ZNRDBkYlZjbWlsRkZLZ3A3dk5jekp0NEY2LXZ0MTFzREtNeHN5elpsX3lxZktVanJDSTlOZy14UERBZTg?oc=5",
    "source": "Bleacher Nation",
-   "published": "2026-11-07T07:17:04Z",
+   "published": "2026-11-07T11:32:20Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-07T11:00:24Z",
    "snippet": "",
    "via": "google"
   },
@@ -103,14 +119,6 @@
    "via": "google"
   },
   {
-   "title": "Alberta Premier Danielle Smith gives big shoutout to Oilers' Podkolzin",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYzJzOWZlMGFnVnBzSndTeENabm9pemFtcXJaaDBfdVJrb3lFNk9TX01zZWZBT21XZ0xVdExyQmV4OExoVjlXV0lUZElSeXZOTWE4UnNQc2U3VHVlUlN0Vk1Gc3liS2dDbWMtRHJGeEZhMmpsT1ROckdkcGthamZOUFc1eWVXemhOWnhEV3BxejA?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-06T22:23:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Ex-Oilers forward earning big bucks, but healthy scratch tonight for new team",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQjcyV1dOUTVGNUY3RkFLdHowMEdDYzZkQXlwYkN1SWFqUk5MQzhKY1ZvTWg4RDVEZ28zWVBwMUE3ZzhsSXFNVWRyTVUwUjVId0d2aUU3WWpUSFdublJnZWdVR05iZ0s1Y0JSTjRhVHF5X0FhT0VTSGV3TUo0N1lKWXRWcE84RU9VNFBfRXpVb195NmhTRmxXY2pLcHNIYXlDWGp4YXRsam8zLUt6UnpBUHNkXzU4RU1HMWc?oc=5",
    "source": "Edmonton Journal",
@@ -173,12 +181,11 @@
    "via": "google"
   },
   {
-   "title": "RELEASE: Hockey Fights Cancer Mega 50/50 raffle returns | Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZFhKWjdsbldKX2xubTBCNHUxcGg3WEFMb2dCV3lFdDBPenFfbnVvNjB6TlpsS1lIeERyQ3E2V1o1b3gwWklzOEhLX1ZlT2JiT0pPNTlNMUR1Z0pzVUl4QXNuMXRJcjBnLVRkRjhyOFk5WW1nazlLYUdpU1R5WjJXcGloYXNtdF9kaGktQ0Q5OA?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-06T18:40:53Z",
-   "snippet": "",
-   "via": "google"
+   "title": "RELEASE: Hockey Fights Cancer Mega 50/50 raffle returns",
+   "url": "https://www.nhl.com/oilers/news/release-hockey-fights-cancer-mega-50-50-raffle-returns",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-06T18:11:04.536Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) announced today the return of the Oilers “Hockey Fights Cancer” MEGA 50/50, running from the Oilers Hockey Fights Cancer game…"
   },
   {
    "title": "Short Shifts Power Rankings: November 6",
@@ -196,8 +203,8 @@
   },
   {
    "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
-   "url": "https://www.nhl.com/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026-x0153",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-06T05:41:00Z",
    "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
   },
@@ -270,13 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-05T19:06:54.747Z",
    "snippet": "DUCKS (7-7-1) at OILERS (11-2-3) 8 p.m. ET; SNW Prime Video+ Ducks projected lineup Alex Killorn -- Leo Carlsson -- Judd Caufield Cutter Gauthier -- Mikael Granlund -- Beckett Sennecke Nico…"
-  },
-  {
-   "title": "And then there were none: All three Edmonton Oilers starting goalies now knocked out of action",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-tristan-jarry-out-sick-mike-baboock-matt-tomkins",
-   "source": "Edmonton Journal",
-   "published": "2026-11-05T18:34:24Z",
-   "snippet": ""
   }
  ]
 }

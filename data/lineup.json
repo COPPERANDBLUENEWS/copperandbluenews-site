@@ -468,20 +468,20 @@
   ],
   "goalie": {
    "starter": {
-    "id": null,
-    "name": "Leevi Merilainen",
-    "num": null,
-    "pos": null
-   },
-   "status": "Unconfirmed",
-   "backup": {
     "id": 8480947,
     "name": "Kevin Lankinen",
     "num": 32,
     "pos": "G"
    },
+   "status": "Unconfirmed",
+   "backup": {
+    "id": null,
+    "name": "Leevi Merilainen",
+    "num": 31,
+    "pos": null
+   },
    "note": null
   }
  },
- "updated": "2026-11-06T15:55:20Z"
+ "updated": "2026-11-07T12:16:19Z"
 }
