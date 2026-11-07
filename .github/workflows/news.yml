@@ -32,6 +32,7 @@ jobs:
       - run: python3 scripts/update_news.py
       - run: python3 scripts/update_lineup.py || true
       - run: python3 scripts/update_fantasy.py || true  # fantasy news + outlook (data/fantasy.json)
+      - run: node scripts/build_articles.cjs || true  # Instagram articles: data/articles.json + articles/<id>.html
       - name: Restore sent-alerts state
         if: env.ALERTS_ON == 'true'
         uses: actions/cache/restore@v4
@@ -54,11 +55,11 @@ jobs:
           key: cbn-alerts-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Commit if changed
         run: |
-          git add data/news.json data/injuries.json data/lineup.json data/fantasy.json
+          git add data/news.json data/injuries.json data/lineup.json data/fantasy.json data/articles.json articles
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update news, injuries and lineup"
+          git commit -m "Update news, injuries, lineup and Instagram articles"
           git pull --rebase -X theirs origin main || true
           git push
       - name: Refresh live game data before deploying

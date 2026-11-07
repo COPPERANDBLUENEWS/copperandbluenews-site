@@ -1,57 +1,92 @@
-// "Latest on Instagram": public, CORS-enabled Behold JSON feed of @copperandbluenews, fetched in the
-// browser (never cached by the service worker; see sw.js). posts.html: grid + Follow button, and on any
-// error/timeout just the Follow button. index.html: 3-post strip, hidden on error.
+// "Latest on Instagram": public Behold JSON feed of @copperandbluenews.
+// Cards open that post's article. Once scripts/build_articles.cjs has published
+// articles/<id>.html, the card uses that URL (Open Graph preview). Until then
+// the card uses article.html?id=<id>, which renders the live feed. A featured
+// write-up in data/article-overrides.json gets the large card on News.
+// Home: 3-post strip, hidden when both the feed and the saved snapshot fail.
 (() => {
-  const FEED = "https://feeds.behold.so/KNXU6cCjkvZ3x9dQ0RgI";
+  const A = globalThis.CBN_ARTICLE;
+  if (!A) return;
   const IG = "https://www.instagram.com/copperandbluenews/";
-  const TIMEOUT_MS = 4000;
-  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
-  const safeUrl = u => { try { const x = new URL(u); return x.protocol === "https:" ? x.href : ""; } catch { return ""; } };
+  const esc = A.esc;
   const ICON = {
     VIDEO: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>`,
     CAROUSEL_ALBUM: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h11a2 2 0 0 1 2 2v11H6a2 2 0 0 1-2-2zM8 3h10a2 2 0 0 1 2 2v10h-2V5H8z"/></svg>`
   };
-  const caption = s => {
-    const chars = Array.from(String(s || "").replace(/\u2028|\u2029|\r\n?/g, "\n").trim());
-    const cut = chars.length > 120 ? chars.slice(0, 120).join("").replace(/\s+\S*$/, "") + "…" : chars.join("");
-    return esc(cut); // shown with white-space: pre-line, so \n (and U+2028) become line breaks
-  };
-  const img = p => safeUrl(p.mediaType === "VIDEO" ? (p.sizes?.medium?.mediaUrl || p.thumbnailUrl) : (p.sizes?.medium?.mediaUrl || p.mediaUrl || p.thumbnailUrl));
-  const date = ts => { const d = new Date(String(ts || "").replace(/([+-]\d\d)(\d\d)$/, "$1:$2")); return isNaN(d) ? "" : d.toLocaleDateString("en-US", {timeZone: "America/Edmonton", month: "short", day: "numeric", year: "numeric"}); };
-  const card = p => {
-    const href = safeUrl(p.permalink) || IG, src = img(p), kind = ICON[p.mediaType] ? p.mediaType : "";
-    const label = kind === "VIDEO" ? "Video" : kind === "CAROUSEL_ALBUM" ? "Carousel" : "Photo";
-    return `<a class="ig-card" href="${esc(href)}" target="_blank" rel="noopener" aria-label="${label} on Instagram: ${esc(Array.from(String(p.caption || "")).slice(0, 80).join(""))}">
-      <span class="ig-img">${src ? `<img src="${esc(src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : ""}${kind ? `<span class="ig-badge ${kind === "VIDEO" ? "vid" : "car"}" title="${label}">${ICON[kind]}</span>` : ""}</span>
-      <span class="ig-body"><span class="ig-date">${esc(date(p.timestamp))}</span><span class="ig-cap">${caption(p.caption)}</span></span></a>`;
-  };
-  async function load() {
-    const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), TIMEOUT_MS);
-    try {
-      const r = await fetch(FEED, {signal: ctl.signal, cache: "no-store", credentials: "omit"});
-      if (!r.ok) throw new Error(r.status);
-      const d = await r.json();
-      return (Array.isArray(d.posts) ? d.posts : []).filter(p => p && p.permalink);
-    } finally { clearTimeout(t); }
-  }
   const follow = `<a class="btn ig-follow" href="${IG}" target="_blank" rel="noopener">Follow @copperandbluenews</a>`;
-  const grid = document.getElementById("ig"), strip = document.getElementById("ig-strip");
-  if (!grid && !strip) return;
-  const feed = load();
+  async function loadJSON(url) {
+    try {
+      const r = await fetch(url + "?t=" + Date.now(), {cache: "no-store"});
+      if (!r.ok) throw new Error(String(r.status));
+      return await r.json();
+    } catch { return null; }
+  }
+  function card(p, overrides, known) {
+    const ov = overrides[String(p.id)] || {};
+    const title = ov.title || A.headline(p.caption || p.prunedCaption || "");
+    const href = A.cardHref(p.id, known);
+    const src = A.coverImage(p);
+    const kind = ICON[p.mediaType] ? p.mediaType : "";
+    const label = kind === "VIDEO" ? "Video" : kind === "CAROUSEL_ALBUM" ? "Carousel" : "Photo";
+    const feature = ov.feature ? `<span class="badge feature ig-feature-badge">Feature</span>` : "";
+    return `<a class="ig-card" href="${esc(href)}"><span class="ig-img">${src ? `<img src="${esc(src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : ""}${feature}${kind ? `<span class="ig-badge ${kind === "VIDEO" ? "vid" : "car"}" title="${label}">${ICON[kind]}</span>` : ""}</span><span class="ig-body"><span class="ig-date">${esc(A.dateShort(p.timestamp))}</span><span class="ig-cap">${esc(title)}</span></span></a>`;
+  }
+
+  const grid = document.getElementById("ig");
+  const strip = document.getElementById("ig-strip");
+  const featureEl = document.getElementById("ig-feature");
+  if (!grid && !strip && !featureEl) return;
   if (grid) {
-    const box = grid.querySelector(".ig-grid"), foot = grid.querySelector(".ig-foot");
-    foot.innerHTML = follow;
-    feed.then(posts => {
-      const n = +grid.dataset.limit || 12;
-      if (!posts.length) throw new Error("empty");
-      box.innerHTML = posts.slice(0, n).map(card).join("");
-    }).catch(() => { box.remove(); });
+    const foot = grid.querySelector(".ig-foot");
+    if (foot) foot.innerHTML = follow;
   }
-  if (strip) {
-    feed.then(posts => {
-      if (!posts.length) return;
-      strip.querySelector(".ig-grid").innerHTML = posts.slice(0, +strip.dataset.limit || 3).map(card).join("");
-      strip.hidden = false;
-    }).catch(() => {});
-  }
+
+  (async () => {
+    const overrides = A.overridesFrom(await loadJSON("data/article-overrides.json"));
+    const wantFeature = !!(featureEl && Object.values(overrides).some(o => o.feature));
+    if (!grid && !strip && !wantFeature) return;
+    const [live, snap] = await Promise.all([
+      A.fetchFeed(4000).catch(() => null),
+      loadJSON("data/articles.json")
+    ]);
+    const known = new Set(((snap && snap.posts) || []).map(p => String(p.id)));
+    const snapPosts = ((snap && snap.posts) || []).map(A.normalizePost).filter(Boolean);
+    const livePosts = Array.isArray(live) ? live.filter(p => p && p.id && p.permalink) : [];
+    const gridSource = livePosts.length ? livePosts : snapPosts;
+    const seen = new Set();
+    const heroPool = [];
+    for (const p of [...livePosts, ...snapPosts]) {
+      const id = String(p.id);
+      if (seen.has(id)) continue;
+      seen.add(id);
+      heroPool.push(p);
+    }
+    const hero = heroPool
+      .filter(p => overrides[String(p.id)] && overrides[String(p.id)].feature)
+      .sort((a, b) => A.timeValue(b.timestamp) - A.timeValue(a.timestamp))[0] || null;
+
+    if (featureEl) {
+      if (hero) {
+        featureEl.innerHTML = A.featureCardHtml(hero, overrides[String(hero.id)], A.cardHref(hero.id, known));
+        featureEl.hidden = false;
+      } else {
+        featureEl.hidden = true;
+        featureEl.innerHTML = "";
+      }
+    }
+    const paint = (el, limit) => {
+      const box = el.querySelector(".ig-grid");
+      if (!box) return;
+      let list = gridSource;
+      if (hero && featureEl && el.id === "ig") list = list.filter(p => String(p.id) !== String(hero.id));
+      if (!list.length) {
+        if (el.id === "ig") box.remove();
+        return;
+      }
+      box.innerHTML = list.slice(0, limit).map(p => card(p, overrides, known)).join("");
+      if (el.hidden) el.hidden = false;
+    };
+    if (grid) paint(grid, +grid.dataset.limit || 12);
+    if (strip && gridSource.length) paint(strip, +strip.dataset.limit || 3);
+  })();
 })();

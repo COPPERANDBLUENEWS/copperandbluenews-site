@@ -4,7 +4,7 @@ Static fan site for [@copperandbluenews](https://www.instagram.com/copperandblue
 Fan run. Not affiliated with the Edmonton Oilers or the NHL. Don't add official NHL/Oilers logos.
 
 ## Files
-- `index.html`, `schedule.html`, `scores.html`, `players.html`, `cap.html`, `player.html?id=PLAYERID`, `game.html?id=GAMEID` (box score), `tracker.html` (Live rink tracker, see below), `play.html` (AirHockey with Copper), `stats.html`, `posts.html`, `history.html` (timeline from `data/history.json`, hand-curated with a source link per entry), `about.html`: pages
+- `index.html`, `schedule.html`, `scores.html`, `players.html`, `cap.html`, `player.html?id=PLAYERID`, `game.html?id=GAMEID` (box score), `tracker.html` (Live rink tracker, see below), `play.html` (AirHockey with Copper), `stats.html`, `posts.html`, `article.html?id=POSTID` and `articles/<id>.html` (one page per Instagram post; see Instagram articles), `history.html` (timeline from `data/history.json`, hand-curated with a source link per entry), `about.html`: pages
 - `css/style.css`, `js/main.js`: styles and scripts
 - `posts.json`: the posts feed (newest first by `date`)
 - `data.json`: next game, latest result and standings (generated)
@@ -117,8 +117,8 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   `scripts/notify_alerts.py` runs in `live.yml` (puck drop, goals, period ends, final) and `live.yml`/`lineup.yml`
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
-- "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home, read in the browser from the public Behold JSON feed (4 s timeout; on failure posts.html shows only the Follow button and Home hides the strip). The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=44`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home. Each card opens that post's article. See **Instagram articles** below. The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
+- Cache-bust: CSS/JS URLs use `?v=45`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 - **Standings and leaders** (Scores tab): `standings.html` and `leaders.html`. `update_data.py` writes `data/standings.json` and `data/leaders.json` from the public NHL API (`standings/now`, `skater-stats-leaders/current`, `goalie-stats-leaders/current`) on the same schedule as the other JSON. The browser still cannot call the NHL API. These are not on the live Worker relay: they change a few times a day, and the relay's request budget is for the rink.
 - **Notifications inbox:** the header bell (top left) opens `notifications.html`. Unread ids are in `localStorage` key `cbn-alerts-read`. The list is `GET /alerts/log` on the alerts Worker. That Worker change is in `worker/` and is **not** deployed by GitHub Pages. See `worker/README.md`. Until it is deployed the page is empty; `?sample=1` shows labeled examples.
 
@@ -176,6 +176,36 @@ Live URL: https://copperandbluenews.com/
 - **Injuries** (`data/injuries.json`): who is injured and the injury come from the "Injured:" line of the latest NHL.com projected-lineups preview
   (auto). IR/LTIR status, expected return and extra sources come from `data/injuries_manual.json`, entered by hand from cited reports;
   a manual entry only shows while NHL.com still lists that player. Remove stale entries when a player returns.
+
+## Instagram articles
+
+Every post from [@copperandbluenews](https://www.instagram.com/copperandbluenews/) becomes an article on the News tab (Posts). The browser reads the public Behold JSON feed `https://feeds.behold.so/KNXU6cCjkvZ3x9dQ0RgI` (`js/instagram.js`, `js/article.js`). No Worker change. The feed, Behold images and Instagram CDN are still not handled by the service worker.
+
+- **New posts show up on their own.** A post is readable as soon as Behold has it, at `article.html?id=<Instagram post id>`. The headline is the first line of the caption (or the first sentence, when that line is long), with hashtags and emoji taken off. The body is the caption, hashtags moved to the end. A photo credit in the caption stays under the image. Carousels and video are included when the post has them.
+- **Link previews.** `scripts/build_articles.cjs` runs on every site deploy and every hourly news run (`.github/workflows/site.yml`, `news.yml`). It writes `data/articles.json` and `articles/<id>.html` with Open Graph and Twitter card tags (headline, summary, image). After that run, News cards and the share button use the static page. Posts that age out of the Behold feed stay in `data/articles.json` (newest 48). If the feed fails, the last good files are kept.
+- Cards on Posts and the home strip link to `articles/<id>.html` once that file exists, and to `article.html?id=<id>` until the next run, so a brand-new post never 404s.
+- `article.html` is in the service-worker precache. The generated `articles/*.html` pages are normal navigations (network-first, same as `news.html`), not precached, because a new post would otherwise sit in the old precache until the next cache-version bump.
+
+### Fuller write-up
+
+Commit one edit to `data/article-overrides.json`. The key is the Instagram post id: the number in `article.html?id=` or `articles/<id>.html` (the same `id` Behold puts on the post). The next push to main runs the article build and republishes that page. You do not edit the generated HTML.
+
+Locally, `article.html?id=THATID` shows the write-up as soon as you save the JSON. Run `node scripts/build_articles.cjs` if you also want `articles/<id>.html` updated on your machine.
+
+Replace the id below with the real post id. `title` replaces the automatic headline. Leave `title` out to keep the caption headline. `body` is Markdown and replaces the caption. `summary` is the deck on the feature card and in the link preview. `"feature": true` adds a Feature badge and a large card at the top of News (above the team-news list, and above the Posts grid). The newest featured post is the large card. A photo credit in the Instagram caption still shows under the image. Delete the key to go back to the automatic article. An empty file is `{}`.
+
+```json
+{
+  "12345678901234567": {
+    "title": "Canucks visit Rogers Place on Hockey Fights Cancer Night",
+    "summary": "One or two sentences for the feature card and the link preview.",
+    "feature": true,
+    "body": "First paragraph of the fuller article.\n\n## A subheading\n\nAnother paragraph with **bold** and *italic*.\n\n> A pull quote.\n\n- A point\n- Another point\n\nMore on [the site](https://copperandbluenews.com/)."
+  }
+}
+```
+
+Markdown that works: paragraphs (blank line between them), `##` and `###` subheadings, `>` pull quotes, `-` lists, `**bold**`, `*italic*`, and `https` links. Raw HTML is shown as text, not rendered.
 
 ## Fantasy (News tab → Fantasy, Stats tab → Fantasy Points)
 
@@ -269,7 +299,7 @@ so later goals are allowed. Touch on the rink does not call preventDefault.
 `&hold=1` with `demo` and `at` freezes that simulated frame (no extra stepping) so a
 player-goal banner can be captured; it does not change scoring. Example:
 `play.html?demo=1&seed=2&at=3.4&hold=1`.
-The page, JS, config, Copper SVG and rink WAVs are precached for offline play in cbn-v44.
+The page, JS, config, Copper SVG and rink WAVs are precached for offline play in cbn-v45.
 
 Local checks: `node --check js/play.js` and `node scripts/test_airhockey.cjs` plus `node scripts/test_airhockey_ui.cjs`.
 The v39 regression runs 80 seeds per mood (240 full matches), all ending at seven in
