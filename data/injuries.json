@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-07T19:23:02Z",
+ "updated": "2026-11-07T20:13:35Z",
  "basis": {
   "name": "NHL.com projected lineups",
-  "url": "https://www.nhl.com/news/anaheim-ducks-at-edmonton-oilers-game-preview-november-5-2026",
-  "date": "2026-11-05",
-  "title": "Ducks at Oilers projected lineups"
+  "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-preview-november-7-2026",
+  "date": "2026-11-07",
+  "title": "Canucks at Oilers projected lineups"
  },
  "players": [
   {
@@ -13,12 +13,12 @@
    "injury": "undisclosed",
    "status": "Out",
    "expectedReturn": "\"Maybe December\" (Babcock, Sep 29)",
-   "updated": "2026-11-05",
+   "updated": "2026-11-07",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/anaheim-ducks-at-edmonton-oilers-game-preview-november-5-2026",
-     "date": "2026-11-05"
+     "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-preview-november-7-2026",
+     "date": "2026-11-07"
     },
     {
      "name": "Edmonton Journal",
@@ -29,41 +29,25 @@
    "note": null
   },
   {
-   "name": "Zach Hyman",
-   "id": 8475786,
-   "injury": "neck",
-   "status": "IR",
-   "expectedReturn": null,
-   "updated": "2026-11-05",
+   "name": "Isaac Howard",
+   "id": 8483455,
+   "injury": "lower body",
+   "status": "Out",
+   "expectedReturn": "\"A couple weeks\" (Babcock, Nov 3)",
+   "updated": "2026-11-07",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/anaheim-ducks-at-edmonton-oilers-game-preview-november-5-2026",
-     "date": "2026-11-05"
+     "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-preview-november-7-2026",
+     "date": "2026-11-07"
     },
     {
-     "name": "EdmontonOilers.com",
-     "url": "https://www.nhl.com/oilers/news/release-hyman-placed-on-ir-dickinson-activated",
-     "date": "2026-10-28"
+     "name": "Sportsnet",
+     "url": "https://www.sportsnet.ca/nhl/article/oilers-forward-isaac-howard-out-a-couple-weeks-per-babcock/",
+     "date": "2026-11-03"
     }
    ],
    "note": null
-  },
-  {
-   "name": "Tristan Jarry",
-   "id": 8477465,
-   "injury": "illness",
-   "status": "Out",
-   "expectedReturn": null,
-   "updated": "2026-11-05",
-   "sources": [
-    {
-     "name": "NHL.com",
-     "url": "https://www.nhl.com/news/anaheim-ducks-at-edmonton-oilers-game-preview-november-5-2026",
-     "date": "2026-11-05"
-    }
-   ],
-   "note": "With Jarry out, Levi is expected to dress as the backup after sitting out the past six games with an undisclosed injury."
   },
   {
    "name": "Mattias Janmark",
@@ -71,12 +55,12 @@
    "injury": "undisclosed",
    "status": "Out",
    "expectedReturn": "\"A ways away\", no date (Babcock, Sep 29)",
-   "updated": "2026-11-05",
+   "updated": "2026-11-07",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/anaheim-ducks-at-edmonton-oilers-game-preview-november-5-2026",
-     "date": "2026-11-05"
+     "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-preview-november-7-2026",
+     "date": "2026-11-07"
     },
     {
      "name": "Edmonton Journal",
@@ -92,12 +76,12 @@
    "injury": "undisclosed",
    "status": "LTIR",
    "expectedReturn": null,
-   "updated": "2026-11-05",
+   "updated": "2026-11-07",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/anaheim-ducks-at-edmonton-oilers-game-preview-november-5-2026",
-     "date": "2026-11-05"
+     "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-preview-november-7-2026",
+     "date": "2026-11-07"
     },
     {
      "name": "EdmontonOilers.com",
@@ -108,17 +92,17 @@
    "note": null
   },
   {
-   "name": "Matthew Savoie",
+   "name": "Matthew Savoie (undisclosed).*",
    "id": null,
-   "injury": "undisclosed",
+   "injury": null,
    "status": "Out",
    "expectedReturn": null,
-   "updated": "2026-11-05",
+   "updated": "2026-11-07",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/anaheim-ducks-at-edmonton-oilers-game-preview-november-5-2026",
-     "date": "2026-11-05"
+     "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-preview-november-7-2026",
+     "date": "2026-11-07"
     }
    ],
    "note": null

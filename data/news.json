@@ -1,20 +1,43 @@
 {
- "updated": "2026-11-07T19:23:01Z",
+ "updated": "2026-11-07T20:13:34Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (3)",
-  "Google News (89)"
+  "Sportsnet (4)",
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "Oilers Waive Highly-Touted Blue Line Prospect",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcV9oM3F4NGw4djRxa0VKaDh1djRobUsyR3J3dkMwekY1eVUwYml5bW9IVG43T0prMnY4LUtxbHVmckFpeVYyQWVmVDI1YmRhMlVTdnY2TGpVbDN4ZklZNXZkVTY0ekV4T0xIdExBMGJYM2o4ejRRcGFyMlRWNnRiREpSQ1hOMFdyY1dNNVRnQk5neC1kYkdFanhBU3MtMEdodmVoQVhB?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-07T20:02:03Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "PROJECTED LINEUP: Levi to start & Hyman returns for Saturday's meeting with Canucks",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNd01mY3V0d1hyZG5xZHdvMzFLY0Vhbjd2VFoyZU9fLXJQZzFZbkhPejBnMWRPV0NHTC1rWWNZd0dDLUltTHMzLVBHbi13NGUyVWNWMEhRZ2ZqRWlLTnNlOGNpX2NMNWo5UTE3NGEwenNqczZSbnBnNURPMGFhSWRWbkVYMFdBWUZkZHB3V0NFZ3RBbHNZazNZVDUtSGNEYVZKRGxOeTRoSWd2V0M0VllYc0FrV1NRSVJTcUdmMEhR?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-07T19:08:57Z",
+   "published": "2026-11-07T19:41:15Z",
    "snippet": "",
    "via": "google"
+  },
+  {
+   "title": "Canucks at Oilers projected lineups",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYkJUVkUxV200Vmd0bC1WM1RLZnBUcEh2c1VWajNyVGYwUnRwR2VuNVBpNl90VjhlOUhGUVVlSUlSdWlCRmppTnV0OHJ4MHBoc1Z0ak54YVhvSDNFanEzVHRBMkNyYm5Pbm9xMkowZ0xZUi1iaVIxci13V1Fja1FuTlI4V3JKb2tOTU5yYXBXSWw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-07T19:33:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Hyman focused on consistent health ahead of return to Oilers’ lineup",
+   "url": "https://www.sportsnet.ca/nhl/video/hyman-focused-on-consistent-health-ahead-of-return-to-oilers-lineup/",
+   "source": "Sportsnet",
+   "published": "2026-11-07T19:30:34Z",
+   "snippet": "Edmonton Oilers forward Zach Hyman speaks with the media ahead of his return to the lineup, discussing how coming back to a winning team always helps and why consistent health remains a…"
   },
   {
    "title": "Zach Hyman, Devon Levi return to Oilers lineup vs. Canucks",
@@ -39,6 +62,30 @@
    "via": "google"
   },
   {
+   "title": "Scenes from morning skate: Meriläinen and Canucks face nearly impossible task of keeping McDavid in check tonight vs. Oilers",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbkRROUQzRUd2ZncxR3RzMmRCTHY1dmgxLWpSUVkzR2tWczZ4b3dxZnFNazAyX2t6cDdjNDB0WDJHcnE3NDFVcGg2VTRQeWdJcHdkaEx5WW1jY19rNTdOMDhnZXBac2hZbWpUOXRzQ0pjMFppc0RfRURBS1JFWW8zbWROTTlEOG9YS0FUTjBNSTBjeUJFV1BrTlYwNmh1Q3lmclpHRmE1ZDc3cmx6QUNEWE45d2pnQW51S0x3b2JkNnhCc0pzRTRjS1piZnBUQ3l1M0MtbXBLSUZMZ08yQWc?oc=5",
+   "source": "Canucks Army",
+   "published": "2026-11-07T18:23:19Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers injury update: Devon Levi will start, Zach Hyman returns to lineup vs. Canucks",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYkRWMFRIQ1BpendDVU9QeWJVS1NrdjhGSEJTQnZ5QzdkaWEweS1FdWEzQ2gyNDV5M2N4V0Y0VHFHTHJsLVlRc0dMQ24yemtqSFVwVi16MkwxRGUzb1AtNmZXZk13UnZBcV9LN0l5Ti1INjlSOEdnRlJJNTVINDZqSktqeGM4U1MxM0l4X0doUkVwVlFXY20zVVhMWGdHcFF6WWM5OHlYVk5IRU5rR0htVUpEdw?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-07T18:19:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers news: Wayne Gretzky utters 3-word reaction to Connor McDavid chasing his records",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONnlyRUNpWDZYT1hhQ05NWDFwWURJWTBTOExTNXdkNk9FaFFwT1lTaE0tYjlza0kxZGJIaU41YmVMSzNtczF0elhZTkNyVldwU3gxQk4xVVZOWE4weTZBSjQxT3ZzNUhacUt6cFZPUlR3RzRJZW5oZFM5R1dXMl8tdHpZc0FIeXBW?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-07T18:08:49Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers Appear to Be Getting Big Pieces Back vs. Canucks",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUUySVVKRVBjY29YMlYwYlJVVWtZaEllV1lHSXN1REZUc3NmcmhQVXh0c1h0M281ZWVBM1lidnNwYk9ZMms0RkZUV0htLUczeWhlQXFUc1ZzU1pfRFkzdTczRGNtVTNaX0ZWczNodlEyai1vdWxCVFpvcHo4WmRRVExCOEU3Umho?oc=5",
    "source": "Yahoo Sports",
@@ -59,14 +106,6 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ19yTTh0SnlEZGt6TlY0X2tFdHZzMnZXYkFzWm9pcGNpanN6TmQ3UFBNdUpBN2sxazZ4anhvU0ItX1E3OWZRTXk0ZWxUU3JZMV84X2pEUUFXeW9VWTFobVJUUE5GYXZMNkpYUW5tU0hyNDdWNUxIU1p3eEJONjA2REJ0UTU1ZlpnUUFOTVRGOTZzdUtxTWI4a01ZUmpteTdKUWRkUA?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-07T18:00:27Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Connor McDavid Is \"On A Mission To Win A Stanley Cup,\" Wayne Gretzky Says While Praising Oilers Captain",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUG5ZTEtod19mZklkTy0wbFA5NlIzZ19YLUVFMnZXZ2JWRW9Jb1RsaEg1bThLWjMzcDJPOHhMWWJqeEtrQ0stOG1oc1hUVFNMMkl4MEowdklhMEh3NVRDVEVYWmdCa3F0LXlvZ3BpUnV3SnB1WWdXcjFOOTRuTkdERHVaem5VbW5vUVNQSmRYaTRhRGM1SmpiYWFuU2szTnFfdXV6Q1ZSZ0JxYnZKLTFRZDdhUHkxazNaMG1kVVBIRkdNV3dwUlh5eDVlcnQ5ZVNoTXBkT3k3Zw?oc=5",
-   "source": "NDTV Sports",
-   "published": "2026-11-07T17:37:43Z",
    "snippet": "",
    "via": "google"
   },
@@ -135,38 +174,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers need to play defense against Canucks",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUzh3dWdNUFpfa3RyTWk3OUtISkdRNFNQaFFqSDVCVEFieGRacG15ZTZfMXc2Z0cyajRzWlNBRnpXNEJtdWdKWHBSaUs3ZGpDamtPUnM0ajRhZzNQNUhSUWVWNjRFbUVsZEZhY1JUYldaWGl2dDIyOTFCVDFXbWJIbEd0Z0V2UQ?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-07T15:00:03Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "What the Edmonton Oilers should do with struggling defenceman Jake Walman",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWURBOEMxc2dycDZxYTg2SHU4MDlLV0pNbWxWeFBkN2VHS2Jnd08tZDZ1TU81dkhoVXlZMjV4VkluMXpFUFR5X2w4ZnByMkJIdDlMaktCWVJRdWZ5OTZlVXdRa2tHSzhjYTNfcXFhTGxHY0x2Y0RCcFpfdWk3dlBxX3dtcktadnd2XzJ0TU13RlJKcG9UbDVLeXNSOVhmOGN0Qy1fWnVQX013QQ?oc=5",
-   "source": "The Oil Rig",
-   "published": "2026-11-07T14:31:06Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks Gameday Preview #19: A Strong Effort Is Needed To Shut Down Connor McDavid And The Oilers",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQUGZVaXExN3ZFMHhOYTBWaUpyN09Mem5rYW95RFlrVmx5blR0WEtVcW5WbXFRME5OSlFEZUdSMjB2ZHA1REV2U2ZsMG9WVTZTQUVhaC1sYzdXZXFMaHdtSDB5aENBS2EtWVo4bjBITTFsRkFVcVJsQjBHVUhtWWU2OHIwTndrS3V2SU9teVNRY21jXzlVMjhiTkRZTnRpdXNodGxrZEtCUDZxdDZKX0VoalNrNkZWTVhYMEV0bHFHM0EzZDhGTWZkcS1hVlNLWEhLVEtBN3Z6aG1YX3BhbFc1OTZPNlRwZk4waTdWZWRPLWduUm1w?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-07T12:02:08Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "What’s behind Ryan Nugent-Hopkins’ blazing start for the Edmonton Oilers?",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcG5yRGxnYVkyTWc5VmdkQ0NnSXlwSDFhY1FKbkl4bFBFVDE1M1RjdDA2eFhaZjlmbFlQaERZZDhZa19pcGJ0a2F2bE0wNFE3MjVGak5GeUs2Nm5feVJFM2I3b1NUbG03Zm9TQVEzOGlOSm5HazNwTmFJak01djJVV0VzVVJxbC05bmdQTUN3YUs5cTIwUld3WkFRdXZId3Vm?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-07T12:00:13Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers and Canucks prepare for the third showdown of the season",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-and-canucks-prepare-for-the-third-showdown-of-the-season/",
    "source": "Sportsnet",
@@ -195,6 +202,13 @@
    "snippet": ""
   },
   {
+   "title": "‘It’s truly remarkable’: Gretzky on McDavid’s historic start to season",
+   "url": "https://www.sportsnet.ca/nhl/video/its-truly-remarkable-gretzky-on-mcdavids-historic-start-to-season/",
+   "source": "Sportsnet",
+   "published": "2026-11-07T00:21:04Z",
+   "snippet": "Wayne Gretzky speaks about Connor McDavid’s remarkable start to the NHL season and how much he has contributed to the team and the city of Edmonton."
+  },
+  {
    "title": "Oilers Colton Dach the poster boy for upward mobility",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/edmonton-oilers-colton-dach-vasily-podkolzin",
    "source": "Edmonton Journal",
@@ -214,13 +228,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-06T20:41:56Z",
    "snippet": "Eleven years has passed since the then-Eskimos defended home turf in the West Division final, before going on to win the Grey Cup"
-  },
-  {
-   "title": "‘Remarkable’: Gretzky gives McDavid flowers amid historically hot start",
-   "url": "https://www.sportsnet.ca/nhl/article/remarkable-gretzky-gives-mcdavid-flowers-amid-historically-hot-start/",
-   "source": "Sportsnet",
-   "published": "2026-11-06T20:32:05Z",
-   "snippet": "Despite seeing his records at risk, Gretzky had nothing but praise for the current Oilers superstar as he pushes to break The Great One’s single-season points record."
   },
   {
    "title": "RELEASE: Hockey Fights Cancer Mega 50/50 raffle returns",
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-06T03:52:36Z",
    "snippet": ""
-  },
-  {
-   "title": "Oilers fans give Nugent-Hopkins standing ovation for setting team record",
-   "url": "https://www.nhl.com/news/oilers-fans-give-ryan-nugent-hopkins-standing-ovation",
-   "source": "NHL.com",
-   "published": "2026-11-06T02:03:00Z",
-   "snippet": "Edmonton Oilers fans were excited to celebrate their longest-tenured player on Thursday. Ryan Nugent-Hopkins received a standing ovation from fans at Rogers Place after becoming the…"
   }
  ]
 }
