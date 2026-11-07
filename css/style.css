@@ -288,3 +288,20 @@ a.mu-p:hover{color:rgb(230,120,50)}.mu-p.empty{color:var(--muted)}
 .how-step figcaption{padding:12px 14px 16px}
 .how-step h3{margin:0 0 6px;font:700 1.02rem Inter,sans-serif}
 .how-step p{margin:0;color:var(--muted);font-size:.92rem;line-height:1.45}
+
+/* Pick'em (home) */
+.pickem .pk-when{font-size:.85rem;margin:-4px 0 12px}
+.pk-score{display:flex;align-items:flex-end;justify-content:center;gap:14px;margin:6px 0 14px}
+.pk-team{display:flex;flex-direction:column;align-items:center;gap:6px;font-weight:700;font-size:.9rem}
+.pk-step{display:flex;align-items:center;gap:10px}
+.pk-step b{font-size:2.2rem;min-width:1.4em;text-align:center;color:var(--text)}
+.pk-step button{width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--navy);color:var(--text);font:700 20px Inter,sans-serif;cursor:pointer}
+.pk-step button:hover{border-color:var(--copper)}
+.pk-dash{font-size:2rem;color:var(--muted);padding-bottom:4px}
+.pickem .pk-go{display:block;margin:0 auto;border:0;cursor:pointer}
+.pk-msg,.pk-mine{text-align:center;font-size:.88rem;margin:10px 0 0;min-height:1em}
+.pk-bar{height:10px;border-radius:999px;background:#3b5ba5;overflow:hidden;margin:14px 0 6px}
+.pk-bar span{display:block;height:100%;background:var(--orange)}
+.pk-crowd{font-size:.85rem;margin:0}
+.pk-last{font-size:.85rem;margin:10px 0 0;padding-top:10px;border-top:1px solid var(--line)}
+.pickem .muted{color:var(--muted)}

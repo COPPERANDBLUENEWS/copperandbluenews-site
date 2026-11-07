@@ -4,12 +4,14 @@
 //   POST /notify       {id?, type, title, body, url, to?, alt?}       Authorization: Bearer NOTIFY_SECRET (GitHub Actions; to = one subscriber id)
 //   GET  /export       sign-up list as CSV                      Authorization: Bearer ADMIN_SECRET (Mac)
 //   GET  /stats?hours=24  subscriber counts + alerts sent (JSON)  Authorization: Bearer ADMIN_SECRET (morning report)
+//   POST /pickem {game, voter, edm, opp} / GET /pickem?game=ID   score predictions (browser, CORS), see pickem.js
 //   GET  /health
 // Fan-out: with the PUSH_QUEUE binding, /notify enqueues batches of subscribers and the queue consumer
 // sends them (each consumer run gets its own subrequest budget, so this scales on the Free plan's
 // 50-subrequest limit). Without the binding it sends inline (fine for small lists or Workers Paid).
 import {sendPush} from "./webpush.js";
 import * as store from "./store.js";
+import * as pickem from "./pickem.js";
 
 const TYPES = store.TYPES; // puck_drop, goal, period_end, final, lineup, odds, gameday
 const ORIGINS = ["https://copperandbluenews.com", "https://www.copperandbluenews.com"];
@@ -28,7 +30,7 @@ function allowedOrigins(env) {
 function cors(req, env) {
   const o = req.headers.get("Origin");
   if (!o || !allowedOrigins(env).includes(o)) return {};
-  return {"Access-Control-Allow-Origin": o, "Access-Control-Allow-Methods": "POST, OPTIONS", "Access-Control-Allow-Headers": "Content-Type",
+  return {"Access-Control-Allow-Origin": o, "Access-Control-Allow-Methods": "GET, POST, OPTIONS", "Access-Control-Allow-Headers": "Content-Type",
     "Access-Control-Max-Age": "86400", Vary: "Origin"};
 }
 async function safeEqual(a, b) {
@@ -177,18 +179,23 @@ export default {
   async fetch(req, env, ctx) {
     const {pathname} = new URL(req.url);
     const c = cors(req, env);
-    const browserRoute = pathname === "/subscribe" || pathname === "/unsubscribe";
+    const browserRoute = pathname === "/subscribe" || pathname === "/unsubscribe" || pathname === "/pickem";
     try {
       if (req.method === "OPTIONS") {
         if (browserRoute && c["Access-Control-Allow-Origin"]) return new Response(null, {status: 204, headers: c});
         return new Response(null, {status: 403});
       }
       if (browserRoute) {
+        if (pathname === "/pickem" && req.method === "GET") {
+          const out = await pickem.results(new URL(req.url).searchParams.get("game") || "", env);
+          return json(out, 200, {...c, "Cache-Control": "public, max-age=60"});
+        }
         if (req.method !== "POST") throw new HttpError(405, "method not allowed");
         // Browsers always send Origin on cross-site POSTs: refuse other sites.
         const origin = req.headers.get("Origin");
         if (origin && !c["Access-Control-Allow-Origin"]) throw new HttpError(403, "origin not allowed");
-        const out = pathname === "/subscribe" ? await subscribe(req, env) : await unsubscribe(req, env);
+        const out = pathname === "/subscribe" ? await subscribe(req, env) : pathname === "/pickem"
+          ? await pickem.vote(await readJson(req, 1024), env) : await unsubscribe(req, env);
         return json(out, 200, c);
       }
       if (pathname === "/notify" && req.method === "POST") return json(await notify(req, env, ctx));
@@ -197,7 +204,7 @@ export default {
       if (pathname === "/health") return json({ok: true});
       return json({error: "not found"}, 404);
     } catch (e) {
-      const status = e instanceof HttpError ? e.status : 500;
+      const status = e instanceof HttpError || e instanceof pickem.PickemError ? e.status : 500;
       if (status === 500) console.log("error", e && e.stack || String(e));
       return json({error: status === 500 ? "server error" : e.message}, status, browserRoute ? c : {});
     }
