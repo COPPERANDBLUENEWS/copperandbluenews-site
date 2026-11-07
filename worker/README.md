@@ -14,6 +14,8 @@ Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this f
 | `GET /live/now` | Home / Scores / tracker boot | same site CORS; public read-only | `{updated, game, goals}` for the current/recent Oilers game, edge-cached 2 seconds |
 | `GET /alerts/log` | the site (Notifications inbox) | same site CORS; public read-only | `{updated, alerts}` newest first. Append-only `alog:<id>` plus the `alerts:log` array in KV. No subscriber data |
 | `GET /health` | anyone | none | `{"ok":true}` |
+| `POST /fgs` | the home-page poll | same site CORS | `{game, voter, player}` → one pick per device until puck drop. `player` is an NHL id or `"other"` |
+| `GET /fgs?game=ID` | the home-page poll | same site CORS; public read-only | crowd totals, cached about 60 s before puck drop and 15 s after, plus the Oilers' first goal once the play-by-play has it |
 
 - `type` is one of `puck_drop`, `goal`, `period_end`, `final`, `lineup`, `odds`, `gameday` (same keys as the panel's checkboxes).
 - Defaults when a sign-up leaves a key out: `odds` **off** (betting odds are opt-in, 19+), everything else on.
@@ -34,6 +36,12 @@ Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this f
   queue binding, `/notify` sends inline, capped at 45 pushes per alert (set `INLINE_LIMIT` higher on Workers Paid).
 - Only push hosts of real browsers are accepted (FCM, Mozilla, Apple, Windows), so the Worker can't be used to
   POST to arbitrary URLs. Names/emails are trimmed to 120 chars; CSV export escapes formula-looking cells.
+
+## First-goal poll
+
+`src/fgs.js` stores the home-page question "Who scores the Oilers' first goal?" in the same `ALERTS_KV` namespace (`fgs:<game>:<voter>`, pick in key metadata, 120-day expiry). One device id, same shape as Pick'em's voter id; posting again before puck drop overwrites that key. Puck drop (game state no longer `FUT`/`PRE`, or `startTimeUTC` has passed) rejects the vote with 409. Shootout goals are not a first goal. `GET` tallies with `list()` and caches the JSON per data centre, the same way `/pickem` does, so a busy game doesn't list KV on every refresh. A successful vote drops that cache entry.
+
+Deploy this Worker yourself (`npx wrangler deploy` from `worker/`). GitHub Pages does not. Nothing new to create: same KV namespace, no new secrets, and the push fan-out, `/live/*`, `/alerts/*`, `/newsletter`, and the minute cron's 15-second Durable Object poll are untouched. `/pickem` still accepts score predictions. Until this deploy, the home page can show the poll but a vote cannot be saved.
 
 ## Live relay
 

@@ -58,7 +58,7 @@ await Promise.all(jobs);
 assert.equal((await store.readAlertLog(env)).length, 2);
 
 const sw = fs.readFileSync(new URL("../../sw.js", import.meta.url), "utf8");
-assert.match(sw, /VERSION = "cbn-v43"/);
+assert.match(sw, /VERSION = "cbn-v44"/);
 assert.match(sw, /\/notifications\.html\?id=/);
 assert.match(sw, /id: typeof d\.id === "string"/);
 assert.match(sw, /\/standings\.html/);

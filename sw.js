@@ -7,13 +7,13 @@
 // - Web push: shows Game alerts. A click opens that alert in the notifications inbox when the
 //   payload has an id. The notification's own url is unchanged (lineup stays /players.html,
 //   final stays /game.html?id=). Older notifications with no id still open their url.
-const VERSION = "cbn-v43";
+const VERSION = "cbn-v44";
 const STATIC = `${VERSION}-static`, PAGES = `${VERSION}-pages`, DATA = `${VERSION}-data`;
 const PRECACHE = [
   "/offline.html", "/play.html", "/notifications.html", "/standings.html", "/leaders.html",
-  "/js/play.js?v=43", "/js/config.js?v=43", "/copper.svg?v=43", "/css/style.css?v=43", "/js/main.js?v=43", "/js/pwa.js?v=43", "/js/newsletter.js?v=43",
-  "/js/standings.js?v=43", "/js/leaders.js?v=43", "/js/inbox.js?v=43",
-  "/audio/goal-horn.wav?v=43", "/audio/copper-aww.wav?v=43", "/audio/puck-clack.wav?v=43", "/audio/board-thud.wav?v=43",
+  "/js/play.js?v=44", "/js/config.js?v=44", "/copper.svg?v=44", "/css/style.css?v=44", "/js/main.js?v=44", "/js/pwa.js?v=44", "/js/newsletter.js?v=44",
+  "/js/standings.js?v=44", "/js/leaders.js?v=44", "/js/inbox.js?v=44",
+  "/audio/goal-horn.wav?v=44", "/audio/copper-aww.wav?v=44", "/audio/puck-clack.wav?v=44", "/audio/board-thud.wav?v=44",
   "/logo.jpg", "/icons/icon-192.png", "/icons/badge-96.png", "/favicon-32.png"
 ];
 const DATA_MAX = 60;
