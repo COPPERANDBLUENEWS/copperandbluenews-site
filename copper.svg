@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-<title id="title">Copper, The Copper &amp; Blue News mascot</title><desc id="desc">An original determined copper oil drop in a navy hockey helmet with ear guards and a chin strap, a purple black eye and a gap-toothed grin, holding a hockey stick. No team logos or numbers.</desc>
-<defs><linearGradient id="drop" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#f5b675"/><stop offset=".48" stop-color="#c8763a"/><stop offset="1" stop-color="#FF4C00"/></linearGradient><linearGradient id="hat" x2="0" y2="1"><stop stop-color="#24416c"/><stop offset="1" stop-color="#0b1a33"/></linearGradient></defs>
+<title id="title">Copper, The Copper &amp; Blue News mascot</title><desc id="desc">An original determined copper oil drop with a bare pointed oil-drop top, chunky navy hockey gloves with copper cuffs, a purple black eye and a gap-toothed grin, holding a hockey stick. No team logos or numbers.</desc>
+<defs><linearGradient id="drop" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#f5b675"/><stop offset=".48" stop-color="#c8763a"/><stop offset="1" stop-color="#FF4C00"/></linearGradient></defs>
 <ellipse cx="255" cy="460" rx="171" ry="20" fill="#0b1a33" opacity=".18"/>
 <!-- Copper's stick and mitts: original shapes, no licensed marks. -->
 <path d="M366 190 410 431q1 8 12 8h48q14 0 14 13v7h-73q-17 0-20-18l-48-245Z" fill="#d7aa78" stroke="#0b1a33" stroke-width="9" stroke-linejoin="round"/>
@@ -13,17 +13,6 @@
 <!-- Oil drop silhouette; friendly, rounded and distinct from any team insignia. -->
 <path d="M243 91c-17 58-66 90-99 136-24 34-29 67-21 104 12 57 56 91 118 93 75 2 131-45 132-113 1-39-17-71-45-103-33-39-63-70-85-117Z" fill="url(#drop)" stroke="#0b1a33" stroke-width="10" stroke-linejoin="round"/>
 <path d="M169 260q-18 26-15 57" fill="none" stroke="#ffe1ba" stroke-width="13" stroke-linecap="round" opacity=".8"/>
-<!-- Original unbranded hockey helmet: navy shell, copper trim/stripe, vents, ear guards, chin strap. -->
-<path d="M155 193l5-43q3-43 49-61 36-14 73-1 47 16 57 63l8 42-31 15H178Z" fill="url(#hat)" stroke="#0b1a33" stroke-width="10" stroke-linejoin="round"/>
-<path d="M244 88q8 34 7 72" fill="none" stroke="#c8763a" stroke-width="11" stroke-linecap="round"/>
-<path d="m183 133 26-10m-30 27 28-7m78-19 25 12m-22 7 28 10" stroke="#0b1a33" stroke-width="8" stroke-linecap="round"/>
-<path d="M155 178q93-24 191 5l-4 24q-95-22-187-1Z" fill="#12264a" stroke="#0b1a33" stroke-width="9" stroke-linejoin="round"/>
-<path d="M160 191q89-20 180 5" fill="none" stroke="#c8763a" stroke-width="6" stroke-linecap="round"/>
-<path d="m160 201-14 16-1 30q3 25 21 25l12-17-5-44Z" fill="#24416c" stroke="#0b1a33" stroke-width="8" stroke-linejoin="round"/>
-<path d="m326 202 20 11 8 30q-1 31-23 33l-15-18 1-43Z" fill="#24416c" stroke="#0b1a33" stroke-width="8" stroke-linejoin="round"/>
-<ellipse cx="338" cy="241" rx="6" ry="13" fill="#0b1a33"/>
-<path d="M160 267q10 72 45 101l40 19q47-7 67-47 16-31 22-68" fill="none" stroke="#12264a" stroke-width="10" stroke-linecap="round"/>
-<rect x="234" y="378" width="28" height="15" rx="5" fill="#24416c" stroke="#0b1a33" stroke-width="5"/>
 <!-- A cartoon purple bruise, squint, determined brows and one clearly missing front tooth. -->
 <ellipse cx="210" cy="281" rx="27" ry="28" fill="#67517f" opacity=".88"/>
 <path d="M190 301q20 12 39-1" fill="none" stroke="#80628e" stroke-width="7" stroke-linecap="round"/>
@@ -36,5 +25,20 @@
 <path d="M213 329q33 11 65-5l-5 13q-28 14-52 0Z" fill="#fff4df"/>
 <path d="m239 334 13-1v14l-12 1Z" fill="#0b1a33"/>
 <path d="M234 352q12 6 24 0" fill="none" stroke="#9f4e21" stroke-width="5" stroke-linecap="round"/>
-<path d="m352 285 12-3q12 1 15 12l3 15q0 13-12 14-16 2-19-11Z" fill="#FF4C00" stroke="#0b1a33" stroke-width="8"/>
+<!-- Chunky unbranded hockey gloves: copper cuffs, padded navy finger rolls and curved thumbs. -->
+<g transform="translate(84 336) rotate(-32)">
+<path d="M-27-20H8q20 0 23 19l-1 19q-12 13-32 10l-25-11q-10-15-2-37Z" fill="#12264a" stroke="#0b1a33" stroke-width="8" stroke-linejoin="round"/>
+<rect x="22" y="-23" width="19" height="45" rx="5" fill="#c8763a" stroke="#0b1a33" stroke-width="7"/>
+<path d="M28-17v32" stroke="#f5b675" stroke-width="3" stroke-linecap="round"/>
+<g fill="#24416c" stroke="#0b1a33" stroke-width="3"><rect x="-28" y="-15" width="11" height="27" rx="4"/><rect x="-16" y="-17" width="11" height="29" rx="4"/><rect x="-4" y="-17" width="11" height="29" rx="4"/><rect x="8" y="-14" width="11" height="26" rx="4"/></g>
+<path d="M13 9q17-4 18 10 0 13-17 17L2 26" fill="#12264a" stroke="#0b1a33" stroke-width="6" stroke-linejoin="round"/>
+</g>
+<!-- Right palm wraps over the shaft; finger rolls curve around the stick, with the thumb below. -->
+<g transform="translate(374 304) rotate(-11)">
+<path d="M-23-24q31-10 48 8l2 32q-3 16-27 14l-25-12-5-22Z" fill="#12264a" stroke="#0b1a33" stroke-width="8" stroke-linejoin="round"/>
+<rect x="-38" y="-23" width="19" height="44" rx="5" fill="#c8763a" stroke="#0b1a33" stroke-width="7"/>
+<path d="M-31-17v31" stroke="#f5b675" stroke-width="3" stroke-linecap="round"/>
+<g fill="#24416c" stroke="#0b1a33" stroke-width="3"><rect x="1" y="-23" width="25" height="10" rx="4"/><rect x="3" y="-12" width="25" height="10" rx="4"/><rect x="3" y="-1" width="25" height="10" rx="4"/><rect x="1" y="10" width="24" height="10" rx="4"/></g>
+<path d="M-22 3q-14 8-6 20 7 10 23 5l8-12q-5-8-17-2" fill="#12264a" stroke="#0b1a33" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
 </svg>
