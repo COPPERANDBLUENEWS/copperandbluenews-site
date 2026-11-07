@@ -1,13 +1,20 @@
 {
- "updated": "2026-11-07T03:06:16Z",
+ "updated": "2026-11-07T03:26:52Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (91)"
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "'Throwing up in my mouth': Podkolzin gets support across Canada for beat down of Anaheim aggressor",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/throwing-up-in-my-mouth-podkolzin-gets-mass-support-across-canada-for-beat-down-of-anaheim-aggressor",
+   "source": "Edmonton Journal",
+   "published": "2026-11-07T03:15:28Z",
+   "snippet": ""
+  },
   {
    "title": "‘People have me pegged as a robot’: Oilers’ McDavid on emotional response to Helleson hit",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmtBRllsT3lUVmpvNml5SmpNYjgzMVVtUmdhWU9QUlVVR2pQREs0VlA3R3JQSUxzS0t5VHZmUmVwa1RueXpWOGdESTZJZS1DVENLekVFUnkyTExYQWZIZG82b29NSnNKTGgtQk45bTQ1SVUxcHNIT2V3QTJXbEs5MVZocDVGU1ltd1pXWmMzeTlkbUIzMW85YlY4eWJnNmltOHpDZmQ2eEhoQ2QzZVZhaw?oc=5",
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-05T17:25:26.84Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) has announced an initiative with the Alberta Cancer Foundation to bring The Time Store to Rogers Place for two upcoming…"
-  },
-  {
-   "title": "One of Mike Babcock's biggest critics now praising him. Will other naysayers do the same?",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-mike-babcock-john-shannon-critics-of-his-hiring",
-   "source": "Edmonton Journal",
-   "published": "2026-11-05T15:27:53Z",
-   "snippet": ""
   }
  ]
 }
