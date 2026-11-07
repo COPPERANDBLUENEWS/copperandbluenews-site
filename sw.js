@@ -5,10 +5,10 @@
 //   so bumping the version fetches fresh copies. Bump VERSION below when the precache list changes.
 // - Offline: navigations fall back to the cached page, then offline.html.
 // - Web push: shows Game alerts and opens the payload URL (default /tracker.html) on click.
-const VERSION = "cbn-v39";
+const VERSION = "cbn-v40";
 const STATIC = `${VERSION}-static`, PAGES = `${VERSION}-pages`, DATA = `${VERSION}-data`;
 const PRECACHE = [
-  "/offline.html", "/play.html", "/js/play.js?v=39", "/js/config.js?v=39", "/copper.svg?v=39", "/css/style.css?v=39", "/js/main.js?v=39", "/js/pwa.js?v=39", "/js/newsletter.js?v=39",
+  "/offline.html", "/play.html", "/js/play.js?v=40", "/js/config.js?v=40", "/copper.svg?v=40", "/css/style.css?v=40", "/js/main.js?v=40", "/js/pwa.js?v=40", "/js/newsletter.js?v=40",
   "/logo.jpg", "/icons/icon-192.png", "/icons/badge-96.png", "/favicon-32.png"
 ];
 const DATA_MAX = 60;

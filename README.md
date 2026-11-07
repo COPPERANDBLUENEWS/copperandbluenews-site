@@ -1,6 +1,6 @@
 # The Copper & Blue News
 
-Static fan site for [@thecopperandbluenews](https://www.instagram.com/thecopperandbluenews/). Plain HTML/CSS/JS, no build step.
+Static fan site for [@copperandbluenews](https://www.instagram.com/copperandbluenews/). Plain HTML/CSS/JS, no build step.
 Fan run. Not affiliated with the Edmonton Oilers or the NHL. Don't add official NHL/Oilers logos.
 
 ## Files
@@ -116,7 +116,7 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
 - "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home, read in the browser from the public Behold JSON feed (4 s timeout; on failure posts.html shows only the Follow button and Home hides the strip). The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=39`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- Cache-bust: CSS/JS URLs use `?v=40`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 
 ## Cap & contracts (manual, sources: public reports)
 The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:
@@ -243,7 +243,7 @@ orientation where available. iPhone Safari uses the overlay fallback, and standa
 uses the same layout. Navigation, footer and install banners are hidden while playing.
 Exit/Esc restores the page and pauses; hidden tabs stop rendering and require explicit
 Resume. Sound defaults off. Sharing is only triggered by the player's Share button.
-The page, JS, config and Copper SVG are precached for offline play in cbn-v39.
+The page, JS, config and Copper SVG are precached for offline play in cbn-v40.
 
 Local checks: `node --check js/play.js` and `node scripts/test_airhockey.cjs` plus `node scripts/test_airhockey_ui.cjs`.
 The v39 regression runs 80 seeds per mood (240 full matches), all ending at seven in

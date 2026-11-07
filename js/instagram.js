@@ -1,9 +1,9 @@
-// "Latest on Instagram": public, CORS-enabled Behold JSON feed of @thecopperandbluenews, fetched in the
+// "Latest on Instagram": public, CORS-enabled Behold JSON feed of @copperandbluenews, fetched in the
 // browser (never cached by the service worker; see sw.js). posts.html: grid + Follow button, and on any
 // error/timeout just the Follow button. index.html: 3-post strip, hidden on error.
 (() => {
   const FEED = "https://feeds.behold.so/KNXU6cCjkvZ3x9dQ0RgI";
-  const IG = "https://www.instagram.com/thecopperandbluenews/";
+  const IG = "https://www.instagram.com/copperandbluenews/";
   const TIMEOUT_MS = 4000;
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
   const safeUrl = u => { try { const x = new URL(u); return x.protocol === "https:" ? x.href : ""; } catch { return ""; } };
@@ -34,7 +34,7 @@
       return (Array.isArray(d.posts) ? d.posts : []).filter(p => p && p.permalink);
     } finally { clearTimeout(t); }
   }
-  const follow = `<a class="btn ig-follow" href="${IG}" target="_blank" rel="noopener">Follow @thecopperandbluenews</a>`;
+  const follow = `<a class="btn ig-follow" href="${IG}" target="_blank" rel="noopener">Follow @copperandbluenews</a>`;
   const grid = document.getElementById("ig"), strip = document.getElementById("ig-strip");
   if (!grid && !strip) return;
   const feed = load();
