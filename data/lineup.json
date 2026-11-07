@@ -175,22 +175,22 @@
   ],
   [
    {
-    "id": 8486161,
-    "name": "Owen Michaels",
-    "num": 43,
+    "id": 8481617,
+    "name": "Vasily Podkolzin",
+    "num": 92,
     "pos": "R"
+   },
+   {
+    "id": 8479365,
+    "name": "Trent Frederic",
+    "num": 10,
+    "pos": "C"
    },
    {
     "id": 8477953,
     "name": "Kasperi Kapanen",
     "num": 42,
     "pos": "R"
-   },
-   {
-    "id": 8480029,
-    "name": "Alex Formenton",
-    "num": 26,
-    "pos": "L"
    },
    {
     "id": 8478854,
@@ -274,19 +274,19 @@
  ],
  "goalie": {
   "starter": {
+   "id": 8482221,
+   "name": "Devon Levi",
+   "num": 27,
+   "pos": "G"
+  },
+  "status": "Confirmed",
+  "backup": {
    "id": 8477465,
    "name": "Tristan Jarry",
    "num": 35,
    "pos": "G"
   },
-  "status": "Unconfirmed",
-  "backup": {
-   "id": 8477035,
-   "name": "Matt Tomkins",
-   "num": 90,
-   "pos": "G"
-  },
-  "note": null
+  "note": "Levi will start vs. Vancouver on Saturday. "
  },
  "scratches": [
   {
@@ -306,6 +306,12 @@
    "name": "Jake Walman",
    "num": 96,
    "pos": "D"
+  },
+  {
+   "id": 8477035,
+   "name": "Matt Tomkins",
+   "num": 90,
+   "pos": "G"
   }
  ],
  "opponent": {
@@ -487,5 +493,5 @@
    "note": null
   }
  },
- "updated": "2026-11-07T17:15:12Z"
+ "updated": "2026-11-07T18:11:51Z"
 }
