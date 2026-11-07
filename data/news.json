@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-07T21:14:39Z",
+ "updated": "2026-11-07T21:42:49Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (87)"
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers notebook: Zach Hyman returns to the lineup, Walman situation getting dicey",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOejJUR0dUZnByQkJZR3N3RXFTYXFQWHlzZ19QU1lhMlFCN0MzVno5NkxuWmN1OWZON2NTNHVJcjhLZ0g2a2t2NE5WcnBTdmVxTkJPcURBeXFCZ3pWaDh2SVNtZ3N4aE9BNms3RWFoOGtFSC05dDdFYzU3WGFaejVzaTlnRnRhbmZmMWNySUpWVWVYcnE2cDVzbFFmVUg0dXhnMkhNOQ?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-07T21:33:11Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "TNA Wrestling returns to its roots with Destination X at Edmonton's Expo Centre",
    "url": "https://edmontonjournal.com/sports/tna-wrestling-destination-x-edmonton",
@@ -101,6 +109,14 @@
    "via": "google"
   },
   {
+   "title": "Oilers news: Wayne Gretzky utters 3-word reaction to Connor McDavid chasing his records",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONnlyRUNpWDZYT1hhQ05NWDFwWURJWTBTOExTNXdkNk9FaFFwT1lTaE0tYjlza0kxZGJIaU41YmVMSzNtczF0elhZTkNyVldwU3gxQk4xVVZOWE4weTZBSjQxT3ZzNUhacUt6cFZPUlR3RzRJZW5oZFM5R1dXMl8tdHpZc0FIeXBW?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-07T18:08:49Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers Appear to Be Getting Big Pieces Back vs. Canucks",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUUySVVKRVBjY29YMlYwYlJVVWtZaEllV1lHSXN1REZUc3NmcmhQVXh0c1h0M281ZWVBM1lidnNwYk9ZMms0RkZUV0htLUczeWhlQXFUc1ZzU1pfRFkzdTczRGNtVTNaX0ZWczNodlEyai1vdWxCVFpvcHo4WmRRVExCOEU3Umho?oc=5",
    "source": "Yahoo Sports",
@@ -161,22 +177,6 @@
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMm1hc3JtcWxHeGlCRlBHRUJXdU1UOWVXR3JjRW9Wa3lyRmNEYnpsazVhRl9OUUliUGE1RkY3U3ZLYlI4U1JRNnBSbEgyMnQzRVNWdWxQWVpaYURwNXN6Q3JET0RtNzZNOFVmUWJkLThyZHVJWHVxcWVUV08xV0drNVRrdjFUVldQSkd3?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-07T17:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "GDB 18.0: Oilers look to get back in the win column against struggling Canucks (9PM MT, SNW)",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOb1ZoNW5YQmNQZlJUUUVBdUhNMTJBQ1Axd3ExMFBPRmhlNVVsNTZnSWRzXzJsSEh2dUZ5UHJYQ2ZzU3c2THNkZWN2TThtV0N3RnBVQ2FxR3g5WVZYeGp6bFZaLXB0T2tsNW90dnJ1NGZ4TG9MNnNSVjBENU5WdkkxVFVRQkZVWk9pZEJKRjNlMERIcl9WdVhzaXN6ekxXcC1jcHJ5RXk4MkRuWGp1NjcxZTFjYV9fSGVxRHhkOW5rcUdsRDQ?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-07T16:24:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL Game Preview: Vancouver Canucks @ Edmonton Oilers with Line Combinations 11/07/2026",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOTduQk9JMjItUlEtVEpNWlF1dW9SYURWcUZmU29oY0RtOExpSnFoWDEtVXhKYzJFRGlVbnJyNGhSdEhhdVc5MERjODRaRVl6NkZOeEduRGNaQTJ3ekg1NmpsVG1rOE5wR2M2YjFONUVXT2FHNTlMSmx6a241R1VjVEVBaDA3ZXFNYjJub0hsNE5TN0hfaGJUR0pYU0ZDS0tRX1VtcjlwcFpjeTQ2U2RHNw?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-07T15:05:13Z",
    "snippet": "",
    "via": "google"
   },
