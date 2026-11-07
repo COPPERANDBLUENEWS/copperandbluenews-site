@@ -81,12 +81,17 @@
       }
       q.x=x;q.y=y;
       const vn=(q.vx-p.vx)*nx+(q.vy-p.vy)*ny;
-      if(vn<0){q.vx-=1.92*vn*nx;q.vy-=1.92*vn*ny;q.vx+=p.vx*.14;q.vy+=p.vy*.14;cap();}
+      if(vn<0){
+        const hit=-vn;
+        q.vx-=1.92*vn*nx;q.vy-=1.92*vn*ny;q.vx+=p.vx*.14;q.vy+=p.vy*.14;cap();
+        if(hit>30&&options.onPaddle)options.onPaddle(hit);
+      }
     }
+    function board(speed){if(speed>40&&options.onBoard)options.onBoard(speed);}
     function post(x,y) {
       const q=state.puck,dx=q.x-x,dy=q.y-y,d=Math.hypot(dx,dy),sum=R+3;
       if(!d||d>=sum)return;const nx=dx/d,ny=dy/d; q.x=x+nx*(sum+.05);q.y=y+ny*(sum+.05);
-      const vn=q.vx*nx+q.vy*ny;if(vn<0){q.vx-=1.96*vn*nx;q.vy-=1.96*vn*ny;}
+      const vn=q.vx*nx+q.vy*ny;if(vn<0){q.vx-=1.96*vn*nx;q.vy-=1.96*vn*ny;board(-vn);}
     }
     function goal(side) {
       state.score[side]++;state.goals++;state.puck.vx=state.puck.vy=0;
@@ -116,18 +121,18 @@
       }
       const q=state.puck,oldX=q.x,oldY=q.y;
       q.x+=q.vx*dt;q.y+=q.vy*dt;
-      if(q.x<WALL+R){q.x=WALL+R;q.vx=Math.abs(q.vx)*.99;}
-      if(q.x>W-WALL-R){q.x=W-WALL-R;q.vx=-Math.abs(q.vx)*.99;}
+      if(q.x<WALL+R){const hit=Math.abs(q.vx);q.x=WALL+R;q.vx=Math.abs(q.vx)*.99;board(hit);}
+      if(q.x>W-WALL-R){const hit=Math.abs(q.vx);q.x=W-WALL-R;q.vx=-Math.abs(q.vx)*.99;board(hit);}
       const mouth=Math.abs(q.x-W/2)<GOAL/2-R;
       if(!mouth) {
-        if(q.y<WALL+R){q.y=WALL+R;q.vy=Math.abs(q.vy)*.99;}
-        if(q.y>H-WALL-R){q.y=H-WALL-R;q.vy=-Math.abs(q.vy)*.99;}
+        if(q.y<WALL+R){const hit=Math.abs(q.vy);q.y=WALL+R;q.vy=Math.abs(q.vy)*.99;board(hit);}
+        if(q.y>H-WALL-R){const hit=Math.abs(q.vy);q.y=H-WALL-R;q.vy=-Math.abs(q.vy)*.99;board(hit);}
       }
       // The rink art has rounded corners: reflect from the same quarter-circle, not an invisible square corner.
       const cornerX=q.x<WALL+25?WALL+25:q.x>W-WALL-25?W-WALL-25:null;
       const cornerY=q.y<WALL+25?WALL+25:q.y>H-WALL-25?H-WALL-25:null;
       if(cornerX!==null&&cornerY!==null){const dx=q.x-cornerX,dy=q.y-cornerY,d=Math.hypot(dx,dy),radius=25-R;
-        if(d>radius){const nx=dx/d,ny=dy/d;q.x=cornerX+nx*radius;q.y=cornerY+ny*radius;const vn=q.vx*nx+q.vy*ny;if(vn>0){q.vx-=1.98*vn*nx;q.vy-=1.98*vn*ny;}}}
+        if(d>radius){const nx=dx/d,ny=dy/d;q.x=cornerX+nx*radius;q.y=cornerY+ny*radius;const vn=q.vx*nx+q.vy*ny;if(vn>0){q.vx-=1.98*vn*nx;q.vy-=1.98*vn*ny;board(vn);}}}
       for(const x of [W/2-GOAL/2,W/2+GOAL/2]){post(x,WALL);post(x,H-WALL);}
       collide(state.you);collide(state.copper);
       if(Math.abs(q.x-W/2)<GOAL/2-R) {
@@ -234,8 +239,27 @@
   function audioCtx() {
     try{const AC=root.AudioContext||root.webkitAudioContext;if(!AC)return null;if(!audio)audio=new AC();return audio;}catch(_){return null;}
   }
-  // iOS will not play later horns unless the context is created and resumed inside a user gesture.
-  function unlockAudio() {
+  const MEDIA=['goalHorn','copperAww','puckClack','boardThud'];
+  const heardAt={clack:-1e9,thud:-1e9};
+  function nowMs(){try{if(root.performance&&typeof root.performance.now==='function')return root.performance.now();}catch(_){}return Date.now();}
+  // iOS routes Web Audio through the silent switch. HTML media does not, once play() runs in a gesture.
+  function mediaSession(){try{if(root.navigator&&root.navigator.audioSession)root.navigator.audioSession.type='playback';}catch(_){}}
+  function hiddenTree(el){try{for(let n=el;n&&n.nodeType===1;n=n.parentElement)if(n.hidden)return true;}catch(_){}return false;}
+  function primeMedia(el){
+    // play() under display:none does not unlock iOS, so skip while an ancestor is hidden.
+    if(!el||typeof el.play!=='function'||hiddenTree(el)||el._cbnUnlocking||el._cbnUnlocked)return;
+    el._cbnUnlocking=true;
+    try{
+      el.muted=true;
+      const p=el.play();
+      const finish=ok=>{try{el.pause();el.currentTime=0;}catch(_){}el.muted=false;el._cbnUnlocking=false;if(ok)el._cbnUnlocked=true;};
+      if(p&&typeof p.then==='function')p.then(()=>finish(true)).catch(()=>finish(false));
+      else finish(true);
+    }catch(_){el._cbnUnlocking=false;el.muted=false;}
+  }
+  function unlockAudio(){
+    mediaSession();
+    for(const id of MEDIA)primeMedia($(id));
     const ctx=audioCtx();if(!ctx)return;
     try{
       if(ctx.state==='suspended'&&ctx.resume){const p=ctx.resume();if(p&&typeof p.catch==='function')p.catch(()=>{});}
@@ -244,6 +268,25 @@
         src.buffer=buf;src.connect(ctx.destination);src.start(0);
       }
     }catch(_){/* autoplay unlock is best-effort */}
+  }
+  function playSample(el,volume){
+    if(!sound||!el||typeof el.play!=='function')return false;
+    try{
+      mediaSession();
+      el.muted=false;
+      el.volume=Math.max(0,Math.min(1,volume));
+      try{el.pause();}catch(_){}
+      try{el.currentTime=0;}catch(_){}
+      const p=el.play();
+      if(p&&typeof p.catch==='function')p.catch(()=>{});
+      return true;
+    }catch(_){return false;}
+  }
+  function playContact(kind,speed){
+    if(!sound||!Number.isFinite(speed))return;
+    const n=nowMs();if(n-heardAt[kind]<40)return;heardAt[kind]=n;
+    const vol=kind==='clack'?Math.max(.16,Math.min(.72,.16+.56*Math.min(1,speed/900))):Math.max(.1,Math.min(.4,.1+.3*Math.min(1,speed/750)));
+    playSample($(kind==='clack'?'puckClack':'boardThud'),vol);
   }
   let hornCurve=null;
   function distortionCurve() {
@@ -254,7 +297,9 @@
   }
   // Original oil-field horn: layered low saw/square tones, slight detune, swell, ~2.8s blast and fade. Not a team recording.
   function playHorn() {
-    if(!sound||!audio)return;const ctx=audio;
+    if(!sound)return;
+    if(playSample($('goalHorn'),.85))return;
+    const ctx=audio;if(!ctx)return;
     try{
       if(ctx.state==='suspended'&&ctx.resume){const p=ctx.resume();if(p&&typeof p.catch==='function')p.catch(()=>{});}
       const t=ctx.currentTime+.02,dur=2.8;
@@ -274,7 +319,9 @@
     }catch(_){/* sound is optional */}
   }
   function playAww() {
-    if(!sound||!audio)return;const ctx=audio;
+    if(!sound)return;
+    if(playSample($('copperAww'),.45))return;
+    const ctx=audio;if(!ctx)return;
     try{
       const t=ctx.currentTime,dur=.48,osc=ctx.createOscillator(),g=ctx.createGain();
       osc.type='triangle';osc.frequency.setValueAtTime(180,t);osc.frequency.exponentialRampToValueAtTime(96,t+.42);
@@ -291,7 +338,7 @@
   function syncSoundButton() {
     const btn=$('soundGame');if(!btn)return;
     btn.setAttribute('aria-pressed',sound?'true':'false');
-    btn.setAttribute('aria-label',sound?'Mute goal horn':'Unmute goal horn');
+    btn.setAttribute('aria-label',sound?'Mute rink sounds':'Unmute rink sounds');
     const label=$('soundLabel');if(label)label.textContent=sound?'Mute':'Unmute';
   }
   const cheers={you:['Nice shot! Copper gives you a glove tap.','Copper: “Okay, that was a beauty!”','Top shelf! Copper wants a rematch.'],copper:['Copper: “Stick with it, you’ve got this!”','Copper: “A little copper magic!”','Copper: “Next faceoff is yours!”']};
@@ -306,6 +353,7 @@
     finishShown=false;scoreKey='';trails=[];keys.clear();bannerOn=false;document.body.classList.remove('rink-paused');
     const banner=$('goalBanner');if(banner){banner.hidden=true;banner.className='goal-banner';}
     game=create({difficulty:$('playMood').value,demo,demoDifficulty:'normal',...(demo?{rng:seeded(demoSeed)}:{}),
+      onPaddle(speed){playContact('clack',speed);},onBoard(speed){playContact('thud',speed);},
       onGoal(side,s){syncScore();if(side==='you')playHorn();else playAww();const text=cheers[side][Math.floor(Math.random()*cheers[side].length)];$('arenaComment').textContent=text;$('gameLive').textContent=`${side==='you'?'You score':'Copper scores'}. You ${s.score.you}, Copper ${s.score.copper}. ${text}`;trails=[];},onFinish:finish,onFreeze(){ $('arenaComment').textContent='Frozen puck. Fresh centre-ice faceoff!'; }});
     $('arenaMood').textContent=MOODS[game.state.difficulty].name+(demo?' · demo':'');$('arenaComment').textContent='Drag your paddle. Own your half.';syncScore();$('pongPanel').hidden=true;$('pauseGame').textContent='Pause';$('pauseGame').disabled=false;$('shareStatus').textContent='';if(immersive)animate();
   }
@@ -347,8 +395,10 @@
     try{screen.orientation?.unlock();}catch(_){}
     $('startGame').textContent=game?.state.phase==='over'?'Play Copper again':'Resume match';$('newGame').hidden=!game||game.state.phase==='over';window.scrollTo(0,savedScroll);$('startGame').focus({preventScroll:true});
   }
-  $('startGame').addEventListener('click',()=>{unlockAudio();enter(!game||game.state.phase==='over');});
-  $('newGame').addEventListener('click',()=>{unlockAudio();game=null;enter(true);});
+  function bindUnlock(id){const el=$(id);if(!el)return;el.addEventListener('pointerdown',unlockAudio);el.addEventListener('touchstart',unlockAudio,{passive:false});}
+  bindUnlock('startGame');bindUnlock('newGame');bindUnlock('soundGame');bindUnlock('pongArena');
+  $('startGame').addEventListener('click',()=>{enter(!game||game.state.phase==='over');unlockAudio();});
+  $('newGame').addEventListener('click',()=>{game=null;enter(true);unlockAudio();});
   $('exitGame').addEventListener('click',exit);
   $('pauseGame').addEventListener('click',()=>game.state.paused?resumeGame():pauseGame());
   $('restartGame').addEventListener('click',()=>game.state.phase==='over'?fresh():pauseGame('restart'));
@@ -371,7 +421,8 @@
   function pointer(e) {
     if(!game||game.state.paused||demo)return;const box=canvas.getBoundingClientRect(),pos=pointerTarget(e.clientX,e.clientY,box,e.pointerType==='touch');game.target(pos.x,pos.y);
   }
-  canvas.addEventListener('pointerdown',e=>{unlockAudio();if(e.pointerType==='mouse'&&e.button!==0)return;e.preventDefault();activePointer=e.pointerId;try{canvas.setPointerCapture(e.pointerId);}catch(_){}pointer(e);});
+  canvas.addEventListener('touchstart',unlockAudio,{passive:false});
+  canvas.addEventListener('pointerdown',e=>{unlockAudio();if(e.pointerType==='mouse'&&e.button!==0)return;if(e.pointerType!=='touch')e.preventDefault();activePointer=e.pointerId;try{canvas.setPointerCapture(e.pointerId);}catch(_){}pointer(e);});
   canvas.addEventListener('pointermove',e=>{if(e.pointerType==='mouse'||e.pointerId===activePointer){e.preventDefault();pointer(e);}});
   for(const type of ['pointerup','pointercancel','lostpointercapture'])canvas.addEventListener(type,()=>{activePointer=null;});
   arena.addEventListener('touchmove',e=>{if(immersive&&$('pongPanel').hidden)e.preventDefault();},{passive:false});
@@ -391,8 +442,8 @@
   window.addEventListener('resize',resize);window.visualViewport?.addEventListener('resize',resize);
   if(typeof ResizeObserver!=='undefined')new ResizeObserver(resize).observe($('pongRink'));
   if(demo){
-    unlockAudio();
     enter(true,false);
+    unlockAudio();
     // Deterministic demo replay for offline QA/screenshots; advance actual physics, never assign a score.
     const at=clamp(Number(params.get('at'))||0,0,300);
     for(let i=0;i<at/STEP&&game.state.phase!=='over';i++)game.step(STEP);
