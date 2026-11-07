@@ -81,7 +81,22 @@ async function loadPosts() {
     <h3 style="margin-top:10px">${esc(p.title)}</h3><p style="white-space:pre-line">${esc(p.caption)}</p>${p.source ? `<p class="meta">Source: <a href="${esc(p.source.url)}" target="_blank" rel="noopener">${esc(p.source.name)}</a></p>` : ""}${p.link ? `<a class="btn" href="${esc(p.link)}" target="_blank" rel="noopener">View on Instagram</a>` : ""}</div></article>`).join("");
 }
 $("yr").textContent = new Date().getFullYear();
-document.querySelectorAll(".nav nav a").forEach(a => { if (a.getAttribute("href") === (location.pathname.split("/").pop() || "./")) a.classList.add("on"); });
+// Navigation: top bar (desktop), bottom tab bar (phones) and the More menu.
+(() => {
+  const here = location.pathname.split("/").pop() || "./";
+  const cur = here === "index.html" ? "./" : here === "game.html" ? "scores.html" : here === "player.html" ? "players.html" : here;
+  document.querySelectorAll(".topnav a, .tabbar a, .more-menu a").forEach(a => { if (a.getAttribute("href") === cur) a.classList.add("on"); });
+  const menu = document.getElementById("more-menu"); if (!menu) return;
+  const inMore = (sel) => !!menu.querySelector(`a.on${sel}`);
+  if (inMore(":not(.m-mob)")) document.querySelectorAll(".more-btn").forEach(b => b.classList.add("on"));
+  if (inMore(".m-mob")) document.querySelector(".tabbar .more-btn")?.classList.add("on");
+  const btns = document.querySelectorAll(".more-btn");
+  const set = open => { menu.hidden = !open; btns.forEach(b => b.setAttribute("aria-expanded", open)); document.body.classList.toggle("more-open", open); };
+  btns.forEach(b => b.addEventListener("click", e => { e.stopPropagation(); set(menu.hidden); }));
+  menu.addEventListener("click", e => { if (e.target === menu) set(false); });
+  document.addEventListener("click", e => { if (!menu.hidden && !menu.contains(e.target)) set(false); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") set(false); });
+})();
 loadGames(); loadPosts();
 // Height/weight exactly as the NHL API reports them (imperial and metric both come from the API; nothing derived).
 CBN.ht = p => p && p.heightInInches ? `${Math.floor(p.heightInInches / 12)}'${p.heightInInches % 12}"${p.heightInCentimeters ? ` <small>(${p.heightInCentimeters} cm)</small>` : ""}` : "—";
@@ -89,7 +104,6 @@ CBN.wt = p => p && p.weightInPounds ? `${p.weightInPounds} lbs${p.weightInKilogr
 
 CBN.injuries = (() => { let pr; return () => pr || (pr = getJSON("data/injuries.json").then(d => Object.fromEntries(d.players.filter(p => p.id).map(p => [p.id, p]))).catch(() => ({}))); })();
 CBN.injBadge = r => r ? `<span class="ibadge ${({IR: "ir", LTIR: "ltir", "Day-to-day": "dtd"})[r.status] || "out"}" title="${esc((r.injury || "injury") + " · " + r.status)}">${esc(r.status)}${r.injury && r.injury !== "undisclosed" ? " · " + esc(r.injury) : ""}</span>` : "";
-document.querySelector(".nav nav a.on")?.scrollIntoView({inline: "center", block: "nearest"});
 // Live tracker tab: add it to any page whose static nav doesn't have it yet (keeps the tab bar consistent).
 (() => { const nav = document.querySelector(".nav nav"); if (!nav || nav.querySelector('a[href="tracker.html"]')) return;
   const a = document.createElement("a"); a.href = "tracker.html"; a.textContent = "Live";

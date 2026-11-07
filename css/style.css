@@ -305,3 +305,31 @@ a.mu-p:hover{color:rgb(230,120,50)}.mu-p.empty{color:var(--muted)}
 .pk-crowd{font-size:.85rem;margin:0}
 .pk-last{font-size:.85rem;margin:10px 0 0;padding-top:10px;border-top:1px solid var(--line)}
 .pickem .muted{color:var(--muted)}
+
+/* Navigation v28: short top bar + More menu (desktop); bottom tab bar + More sheet (phones) */
+.nav nav.topnav{display:flex;align-items:center;gap:4px;overflow:visible;flex-wrap:nowrap}
+.topnav .more-btn{background:none;border:0;color:var(--text);font:500 14px Oswald,sans-serif;text-transform:uppercase;letter-spacing:.03em;padding:6px 12px;border-radius:999px;cursor:pointer}
+.topnav .more-btn:hover{color:var(--orange)}.topnav .more-btn.on{background:var(--orange);color:#fff}
+.tabbar{display:none}
+.more-menu{position:fixed;inset:0;z-index:60}
+.more-menu[hidden]{display:none}
+.more-panel{position:absolute;top:58px;right:16px;min-width:200px;background:var(--navy2);border:1px solid var(--line);border-top:3px solid var(--copper);border-radius:12px;padding:8px;box-shadow:0 14px 34px rgba(0,0,0,.5);display:flex;flex-direction:column}
+.more-panel a{color:var(--text);text-decoration:none;font:500 15px Oswald,sans-serif;text-transform:uppercase;letter-spacing:.03em;padding:10px 12px;border-radius:8px}
+.more-panel a:hover{background:var(--navy)}.more-panel a.on{color:var(--orange)}
+.more-h{display:none}
+.more-panel .m-mob{display:none}
+@media(max-width:760px){
+  .nav nav.topnav{display:none}
+  .nav{flex-wrap:nowrap}
+  body{padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+  .tabbar{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:45;background:rgba(11,26,51,.97);backdrop-filter:blur(8px);border-top:2px solid var(--orange);padding:6px 4px calc(6px + env(safe-area-inset-bottom,0px))}
+  .tabbar a,.tabbar button{display:flex;flex-direction:column;align-items:center;gap:2px;color:var(--muted);text-decoration:none;background:none;border:0;font:500 11px Oswald,sans-serif;text-transform:uppercase;letter-spacing:.04em;padding:4px 0;cursor:pointer}
+  .tabbar svg{width:24px;height:24px;fill:currentColor}
+  .tabbar .on{color:var(--orange)}
+  .more-menu{background:rgba(3,10,22,.6)}
+  .more-panel{top:auto;left:0;right:0;bottom:calc(64px + env(safe-area-inset-bottom,0px));border-radius:16px 16px 0 0;display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:12px}
+  .more-h{display:block;grid-column:1/-1;margin:0 4px 4px;color:var(--orange);font:700 14px Oswald,sans-serif;text-transform:uppercase}
+  .more-panel .m-mob{display:block}
+  .more-panel a{background:var(--navy);border:1px solid var(--line)}
+  .cbn-install{bottom:calc(74px + env(safe-area-inset-bottom,0px))}
+}
