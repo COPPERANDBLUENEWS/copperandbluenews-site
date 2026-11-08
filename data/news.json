@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T13:30:17Z",
+ "updated": "2026-11-08T14:20:14Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,22 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers Should Call the Penguins About Evgeni Malkin",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUFQcTI2bUp2RVdsd0Q1b0ZHb0ZUbmwyU0pYOU96dmhCeHNaXzNiUmNta29acHczd2JGYnhSNzBWaW9iQ003Sm0tX0lfaFk0ckZDd3A1N1JON2J3cDVBMHlXREM3UHc2b2d5MU1xa09UdkVuZUJpUGgtVEhYSVFrMnVSZnlacGJv?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-08T13:55:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Excited Levi shines in return to Oilers' net, beat Canucks 4-2",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdHdueEtoNnRWWVI5Rmw1S2JRbEgzS2FuU2VPSXVlaWUzWWpLTVplUG5xUGU1NE9RVUJmelcxOW9hWjdiMTFHeUZfQk5ndXpFN3Z5RndFMFRsRzBkSEdYS1piempwSDF4NDk3cjJOb3RQdWktMEM2R1dITGNPWGJuYUZhT1NqVUJ4NW43Wm9SaERndWxXNjJEbHJXNnZSYl9ENHMw?oc=5",
+   "source": "CTV News",
+   "published": "2026-11-08T13:49:46Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Suggested Trade Sees Oilers Reunite With Sabres’ Ryan McLeod",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOVlCdldzajE5VllpWlRPai1sakd2bV8yb0w2RGo0TTZiWEdTOXRILUQ4MmxZVVVwZGRBMnNtM2duMms3WmhzQlpfZ21jdmJRYzE1Rk1kREF3RS1zMThEV09zS1ZJWHMwbEN6bC1kTHU4RUJrM3EzSmdBN0VVNDhPMU9PNnFwbUdZUnpvel9udHdObWs?oc=5",
@@ -144,22 +160,6 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers dump Canucks, complete clean sweep of Vancouver teams",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hY2V5aGZia3U2QUdQbUx0TC1fbVJRc1dzWVJwRFNDSzk0QllvN1NtbkJvSUJrTy0wWVlCNlpsNXVWeHl3eWFLOWp1NmlzWlNibS1NTWJ2SFRIMV9ySUJEeldzak1fbmx2czFQM01wSHEtVU43eTdMOEx5a2hlQQ?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-08T07:25:56Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "OILERS TODAY | Post-Game vs VAN",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbHZJOUhWUHRZdUN4WlNXczM4TXlTVHRMNW9mNWcwZHE2R2JfSFpMb1lzTFRoWXpDaHNWZ0FfbUNCOVM4WDg0Rzd6UlFpcGdJWmItNTJnYmY1V0NJeVNmQnEwLTNHbHNRY0FTVlloaXB0Z2s5TmFWcENtWDF2elQ1R0VR?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-08T07:23:13Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers’ McDavid continues record start with three more points vs. Canucks",
    "url": "https://www.sportsnet.ca/nhl/video/is-mcdavid-on-pace-to-break-gretzkys-single-season-points-record/",
    "source": "Sportsnet",
@@ -171,6 +171,13 @@
    "url": "https://www.sportsnet.ca/nhl/article/oilers-nugent-hopkins-exits-early-vs-canucks-after-taking-puck-to-head/",
    "source": "Sportsnet",
    "published": "2026-11-08T06:07:37Z",
+   "snippet": ""
+  },
+  {
+   "title": "Edmonton Oilers dump Canucks, complete clean sweep of Vancouver teams",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-vancouver-canucks-elks",
+   "source": "Edmonton Journal",
+   "published": "2026-11-08T05:53:41Z",
    "snippet": ""
   },
   {
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-07T17:29:16Z",
    "snippet": ""
-  },
-  {
-   "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
-   "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
-   "source": "NHL.com",
-   "published": "2026-11-07T05:00:00Z",
-   "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
   }
  ]
 }
