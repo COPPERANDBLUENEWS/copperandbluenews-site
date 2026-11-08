@@ -1,13 +1,37 @@
 {
- "updated": "2026-11-08T05:27:35Z",
+ "updated": "2026-11-08T05:50:02Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (5)",
-  "Google News (81)"
+  "Google News (82)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Edmonton Oilers Vancouver Canucks player grades",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbFRyZ3lVYWgwTUZ4S2RxcmNJZEZwZnpSaTBzTVFfNEZSSTV2dHZQelVQbzZlWV9IaGhoYkxSd0xQTU5ZcnpaN1NXWTR6YTRhcllpWHItRzFaWVRRYndJRDJjSDlEaEZrUkVtUkt4MXFzTzNDZWdhZWFXTnV3a3VHTXRqTkdIeDNobko5eHVNOVhaY3BONmNaZzJKWGx3U21YSEV4dUNieW1RM1Ut?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-08T05:45:28Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Nugent-Hopkins leaves game for Oilers after being struck in head by puck",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYzJmZmIySnR5MnJUWl9IQmh4dHJpRFBQQlV0cXlmbjdpNWtUM3ZkQjZWZ1FtSmg1RkRFQUtSc2Z0SnBUSTh6cEtidmxEemVwTzhTMV9HdzRzYU51X3RRQ0pnemlMcWhPSGZxOFRocElKdHQyZWpBNmxlWFpZaUcxR1d5VnZnak1FMXNDbjVnWVVMLWo2TDg3QWp3?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-08T05:42:08Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-08T05:00:24Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "CFL division final takeaways: Alouettes, Elks rise to occasion, reach Grey Cup",
    "url": "https://www.sportsnet.ca/cfl/article/cfl-division-final-takeaways-alouettes-elks-rise-to-occasion-to-reach-grey-cup/",
@@ -64,19 +88,18 @@
    "via": "google"
   },
   {
+   "title": "QUICK RECAP: Oilers 4, Canucks 2",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-canucks-11-07-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-08T02:55:14.8Z",
+   "snippet": "The Edmonton Oilers continue their four-game homestand against the Vancouver Canucks on Saturday at Rogers Place. Follow along for live updates, highlights, stats and more, then check back…"
+  },
+  {
    "title": "Saturday Night Hockey on Sportsnet: Canucks vs. Oilers",
    "url": "https://www.sportsnet.ca/hockey/nhl/games/8a5fe348-82f8-4f90-a538-3249bbf54541/",
    "source": "Sportsnet",
    "published": "2026-11-08T02:47:30Z",
    "snippet": ""
-  },
-  {
-   "title": "Evan Bouchard notches two points in Thursday's loss to Ducks",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWWt5anIwNWl6NXhvbjhOLWFUZEd3clA4TVpKSEtZa2huVEdTaS11dWRwWllYMVEtT1R2VFFWNWtkOVZ6T3pnRXJFZFY2Y3BKam43eUw1d1VNQ1NVQXZqQjR5N3pna0pTZ29WY3VCNXJBeVdtNEh0MmZILU16T3NwRWQ4WFZoTzdKcEJNWHpCcEJTa3ZoOXhONGo5WVZzVzdldmFVaVlVONIBrAFBVV95cUxORHFzRFU3VFZ0a1loaGNFSGMzcjRoN0hpSjcyTkFYamtZTy01ZjR4N3BBSk8wVlJYVmtfU0w1eW5HMGJRekVkTVo4VUVUSVFQbWdiZUNwXzJvUTdIRU40dWhDS2E5TXFMVGU3aGVJbTZ1cEZmV1FxTUNRWXNUUU5KSFNOTG80Y2ZsRW9XNGZpdEI1T0QxZkNldERTMmlRano5S2txX0ROUGJXWDR2?oc=5",
-   "source": "FantasyPros",
-   "published": "2026-11-08T02:42:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Edmonton Elks down Lions in front of 40,000, punch ticket to Grey Cup",
@@ -98,14 +121,6 @@
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLTdrcmxyY3FDMUNGbHNHeUg4RzdrSWdkRXVScmc5S2JuYm91NC1iaTQ2T2pBRHZSeUNVcThZZWxoR1ZjaHFWSlludUU1TkYxbXFvX0xtOTFaRUo2ZEJTaTBVQU16NEtYU1k5SFBmNTNvMGxna2ZpZm9KNC1ELWI1TWwtblpWWjUwN3V0OVZzTQ?oc=5",
    "source": "Inside The Rink",
    "published": "2026-11-08T02:39:29Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Leon Draisaitl tallies two points in Thursday's loss to Ducks",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUjhrWjJxWU1Bb1dnVjhsLWVYWG9kU2pzRHBscm5tMDR0M1VqNzdnTml2eXZ3MnYwT3pIazlsajJqVEozcGV6VUs3RjQzUVI5bl95NXJNQV9pUms3Y0c5SFQ0YlFpQmN5LVBGQm1XbjhLa0lJX204Ml8wd3B1Q0tzcl9sQ2RDRnVBU0doSDdaUkFMZG9QWlNWWGxuVWVETFNyb2VSa1RYYmzSAa4BQVVfeXFMTkNuU0pNb1IzSGtkZ2VFQU9LZ2RPeTVycFZnMno5cnJ2U3RrQVFsRHhOUVpoTUZnbU9sc2ozWTVDZjY3U0Jvd3NJNzBGR3IwR3o2UjBRS1BlVW9lOWNha1dxMHowRVVzSlR4Qm9VWmNJalNCLWx3ZmZvSUYzcjE3NzVyVjdIcTV4cnY4dzNZTWZqWmd1MFdlSGRtMHJXaVF6dXlSZ2tWenZKREVHYzRB?oc=5",
-   "source": "FantasyPros",
-   "published": "2026-11-08T02:39:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -160,14 +175,6 @@
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOFhPR3F6aTFLTmhma2J3M2tsU1BjNVBTa0U1aWpWTDhTZXpHeEM0elFJRDRfcFVETHZZSk5iRkdBUUFSR0EtN2FLRzViVGl0VkRUb0VnQ1A0SjVnTHozOVdEWVZacmFvX05ZSGQ1WkpEMUJaTkNLSDl5UmVvUjBzSTF3?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-07T23:07:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T23:00:24Z",
    "snippet": "",
    "via": "google"
   },
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-06T20:41:56Z",
    "snippet": "Eleven years has passed since the then-Eskimos defended home turf in the West Division final, before going on to win the Grey Cup"
-  },
-  {
-   "title": "RELEASE: Hockey Fights Cancer Mega 50/50 raffle returns",
-   "url": "https://www.nhl.com/oilers/news/release-hockey-fights-cancer-mega-50-50-raffle-returns",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-06T18:11:04.536Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) announced today the return of the Oilers “Hockey Fights Cancer” MEGA 50/50, running from the Oilers Hockey Fights Cancer game…"
   }
  ]
 }
