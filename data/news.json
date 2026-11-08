@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-08T19:22:21Z",
+ "updated": "2026-11-08T20:15:11Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (5)",
-  "Google News (88)"
+  "Sportsnet (3)",
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
@@ -29,6 +29,14 @@
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdXo2Mkp3YnpwN1NwTms1R2s5UDNNdW1mdVdOS09RYkN0dTVZNGI4VHZ2R0pELVBIeVNTZ1dmUmNUVHVvWmlwS3Jjd05BNUFiVW83UElOUDlicHp3M1EyY0ZfY01UeU0xeHhFN3JuWHc3cGZFVVNEa0dBQ3VyZFBfRFhDUXd4aVZYWE5fSWgzbFRPb05qa0Jkd1ZNR3dBamh1M3lyX3RRNE5tY00?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-08T16:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Sunday Census: First impressions of the Edmonton Oilers' new Hometown Remix jerseys",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRUxMNkN2UFBWX2NkWUM4UUpfSjlBTkVQbnVaaUtGb3IzQm03OFRZbjBqVlBwYzRWajFfOURZZmRqTXdvNlJlVHpHVnZUc3h5NmkxWHJYQ1lVcTVfWUVjWVNXM0hTaVctWktwLXdPLUFQdEFubEtodmtRcVk4QXNrRi0tRi02dVZ5Q1Y0TmRDMmZTMkhrVEFOaWVKbEoyWUFTQkdKRGduWVRtZVhBcE55VDl3dFVNTnBuVS13Z3FR?oc=5",
+   "source": "The Oil Rig",
+   "published": "2026-11-08T15:31:08Z",
    "snippet": "",
    "via": "google"
   },
@@ -145,14 +153,6 @@
    "via": "google"
   },
   {
-   "title": "NHL standings after Saturday put Carolina first and Edmonton atop Pacific",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMzFvZ3JhNVhuMGZKYjRZa29pUWtGQ2FvN3hmY0NxcFJqN0NWQnZMcmtUd1AtVGQ5MXA5ZlVra3dDdERwTUFqMklxRWJvV3Z3ckZmb0ZybHA5Uno0MVh6bjE1eE5ieHpfV3BrYm9Dcm5Uc195NDJOaGo1aHFFU3NlRkJPTkx1R19UenZJeHJHMjlqbU9OTUtxLVgwTzVPbGVtOTNWWjgzelVwTS14RXdsdEtRd2pSUQ?oc=5",
-   "source": "NetNewsLedger",
-   "published": "2026-11-08T11:17:52Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "It is long past time that the NHL protected its stars better than its referees: 9 Things",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/it-is-long-past-time-that-the-nhl-protected-its-stars-better-than-its-referees-9-things-connor-mcdavid",
    "source": "Edmonton Journal",
@@ -165,13 +165,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-08T07:04:00Z",
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
-  },
-  {
-   "title": "Oilers’ McDavid continues record start with three more points vs. Canucks",
-   "url": "https://www.sportsnet.ca/nhl/video/is-mcdavid-on-pace-to-break-gretzkys-single-season-points-record/",
-   "source": "Sportsnet",
-   "published": "2026-11-08T06:08:14Z",
-   "snippet": "Ron MacLean, Elliotte Friedman, Luke Gazdic and Erik Johnson discuss Connor McDavid’s pursuit of Wayne Gretzky’s single-season record of 215 points and the potential debate over the number…"
   },
   {
    "title": "Oilers’ Nugent-Hopkins exits early vs. Canucks after taking puck to head",
@@ -207,13 +200,6 @@
    "source": "Sportsnet",
    "published": "2026-11-08T04:41:47Z",
    "snippet": "The Montreal Alouettes and Edmonton Elks are headed to the Grey Cup after two very different victories. Here are six takeaways from a playoff weekend that delivered big performances, costly…"
-  },
-  {
-   "title": "Oilers’ McDavid sets up Ekholm for 18th straight game with assist",
-   "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-sets-up-ekholm-for-18th-straight-game-with-assist/",
-   "source": "Sportsnet",
-   "published": "2026-11-08T04:03:59Z",
-   "snippet": "Watch as the Oilers move up the ice before Connor McDavid finds Mattias Ekholm for a one-timer, extending his assist streak to 18 games."
   },
   {
    "title": "QUICK RECAP: Oilers 4, Canucks 2",
@@ -277,6 +263,20 @@
    "source": "Edmonton Journal",
    "published": "2026-11-07T17:29:16Z",
    "snippet": ""
+  },
+  {
+   "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
+   "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
+   "source": "NHL.com",
+   "published": "2026-11-07T05:00:00Z",
+   "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
+  },
+  {
+   "title": "PREVIEW: Oilers vs. Canucks",
+   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-canucks-11-06-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-07T03:36:41.45Z",
+   "snippet": "The Edmonton Oilers continue their four-game homestand at Rogers Place on Saturday with a visit from the Vancouver Canucks. You can watch the game live on Sportsnet at 9:00 PM MT or listen…"
   }
  ]
 }
