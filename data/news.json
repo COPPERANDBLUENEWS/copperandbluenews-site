@@ -1,26 +1,33 @@
 {
- "updated": "2026-11-08T06:43:53Z",
+ "updated": "2026-11-08T07:05:29Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (8)",
-  "Google News (86)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Draisaitl scores twice, McDavid has 3 assists to extend streak and Oilers beat skidding Canucks 4-2",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSGdyYnF5aHhuR0NJR2lKelpwSWFubVkzTURLTkdEQWloT0M3WnM5SkhjNzNlWFk2bnV1NlBDWFZ2TUEyRXVRRk1KcnJfV3owZkp5RWtjcTFPUlQ4cmR5NFFhckhCaFdPNkg2OWh5VmJJLVFnSE9MQ3RLUl84S21peUFSRmNhZnI0eHdIRUtHME9ZN25H?oc=5",
-   "source": "Seattle Post-Intelligencer",
-   "published": "2026-11-08T06:37:23Z",
+   "title": "Draisaitl scores twice, Oilers hold off Canucks",
+   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
+   "source": "NHL.com",
+   "published": "2026-11-08T07:04:00Z",
+   "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
+  },
+  {
+   "title": "McDavid has 3 assists to extend streak, Oilers beat skidding Canucks",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa2JySEUybWJ2TFlVS0tBM3ljZTZrZUlIRG9nSkQyN0oxME1kb1A4ZmlOTWE0QmxfbURYWDRJZ0ZyYXFlcGNBZHF4UjYxNXcyRmltbTYyZmhtYUp6R194Tnk2dk9pcWJpWWVjdU1oRnNMTGdaTm81QVpFOUpVUXdEcmhnSEdSY3NZOGhDZzVJNy1xNVUzRzNES3dnZFJOX3NLOVVWcmU3VFVSenNmX01j?oc=5",
+   "source": "theScore",
+   "published": "2026-11-08T06:42:07Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Oilers 4, Canucks 2: The best defensive effort of the season couldn't overcome Connor McDavid",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRURHTE5mV3hWeTBLWDlJU2k0ZGRYMU1JelRvY19TdUJMS05iSUNrQnBrVlo2cUhjVm1Qcjd1SXJTRGdpc0NlN0VXSlZTbFpOblhxTmxFc1VCN3dYNnVtT1hUVm5uWVNQUEI1bzA2QnN2LXZPbFhFUFQwRkQ3WVlIUng3aGlUajljYl83RC1FMmFfV1FadWFSRWE2QUpYRFJJcS16WFNIZG5JdmhUeUx5bXVBdXFtemdkWEc4aUZYTVgtNlYycXF0RkszcS1KN3VsNTZTU20zeW1Nc09CdDYwbkY1UmE?oc=5",
-   "source": "The Province",
-   "published": "2026-11-08T06:13:46Z",
+   "title": "‘Couldn’t care less about stats’: Oilers’ Levi on his winning mentality",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTEIyamlOXzhzQ09USXV0S1Nib1AyajR1b0tmUTVTckJhRS1vM19fSUxTNExNYm9reTYtZ2RfUktTR1VFSUdlY2d4ZklkSnQ0dVV1RGxrQTgwQ1I0SnUtMk04OUcwNVAzTHJ0Y2ktNFJhU2hUSEF1Z3BfcENhUGh1SHExZU1ScnJIelVGdWk2U0QyZG85djQ0MXl1VDAtRUpqY01wYg?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-08T06:39:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -28,7 +35,23 @@
    "title": "NHL Highlights: Oilers 4, Canucks 2",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91S0R4OFFTeS1Xb0FOQXdEQmgzY1JkVlo4NER0ZWVUN3lGVGswbm8ta2hGT25Gcm9ROXREb05LRF82R2lTR0RyeTFGbldjWHhwY0dpcHd2T01paHlwT3NOV252RFRkQ215ZzROekU0N0x1R3JFZ1NsU19rOA?oc=5",
    "source": "Sportsnet.ca",
-   "published": "2026-11-08T06:12:34Z",
+   "published": "2026-11-08T06:31:57Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers 4, Canucks 2: The best defensive effort of the season couldn't overcome Connor McDavid",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRURHTE5mV3hWeTBLWDlJU2k0ZGRYMU1JelRvY19TdUJMS05iSUNrQnBrVlo2cUhjVm1Qcjd1SXJTRGdpc0NlN0VXSlZTbFpOblhxTmxFc1VCN3dYNnVtT1hUVm5uWVNQUEI1bzA2QnN2LXZPbFhFUFQwRkQ3WVlIUng3aGlUajljYl83RC1FMmFfV1FadWFSRWE2QUpYRFJJcS16WFNIZG5JdmhUeUx5bXVBdXFtemdkWEc4aUZYTVgtNlYycXF0RkszcS1KN3VsNTZTU20zeW1Nc09CdDYwbkY1UmE?oc=5",
+   "source": "The Province",
+   "published": "2026-11-08T06:16:03Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Draisaitl scores twice to power Oilers past Canucks 4-2",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWE5pVkZWODhPV0FaWmYxenVYdWZxc3NCRlNSLTZUY2xpOFR1NEJ3OUMxVWVZblFFZk85SkdSUFJBYW1vSjd0ZzlPR1FKZkkzV2k3WVBRelJPV09QdE90Nm1zYzU3SElEX1lZNnNHUjZldzBKdnpSWDEtMXd1VFh5VXdhNVoxOHl0SlJfZTNMRUJUVEFMZFBJT2RFOXliRnZ0?oc=5",
+   "source": "Castanet",
+   "published": "2026-11-08T06:12:45Z",
    "snippet": "",
    "via": "google"
   },
@@ -63,18 +86,18 @@
    "snippet": ""
   },
   {
-   "title": "Connor McDavid's assist streak to 18 games as Oilers handle Canucks",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNFlJMnVwcHJZU0txcS1aSjNTODQ2OGdwRHRYZmdHaFlKVUdxQ2Z4aDk3dUJkeEV4UzdVMUlfT0t5NU1iTTFyYXp1X1JEZ1VFU19GaG1KUTlNWFNoaXNzb25EalZOYW11U3ZUSFZrbjMwcUVMRW1HejBJZ0t5Y1JCMUZxUkttNGltV1EtTmFYZGxETW0yeXFONFlPSUZzc3lCbDFCemM1ZFp6NWJpakVFSE1B?oc=5",
-   "source": "Reuters",
-   "published": "2026-11-08T06:04:00Z",
+   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-08T06:06:11Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONUVIcVNoZ1FZbzYzQXVkeEZnVHE4REtTWGZzRlRhelFvUktDc1llcWJqNURzdzJlbFdTcGJxRnl5VTRvTmNldVJpcU5xNmFldUJFQVJYa0t5UGRWcndGUVNDMzdneG03X3YwS2ZVcDI5Z3NIbGhOU3pCNkloTnk3NlZtMlFQcFlNZEpEU2RR?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-08T06:03:11Z",
+   "title": "Connor McDavid's assist streak to 18 games as Oilers handle Canucks",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNFlJMnVwcHJZU0txcS1aSjNTODQ2OGdwRHRYZmdHaFlKVUdxQ2Z4aDk3dUJkeEV4UzdVMUlfT0t5NU1iTTFyYXp1X1JEZ1VFU19GaG1KUTlNWFNoaXNzb25EalZOYW11U3ZUSFZrbjMwcUVMRW1HejBJZ0t5Y1JCMUZxUkttNGltV1EtTmFYZGxETW0yeXFONFlPSUZzc3lCbDFCemM1ZFp6NWJpakVFSE1B?oc=5",
+   "source": "Reuters",
+   "published": "2026-11-08T06:04:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -91,14 +114,6 @@
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9HVzR2djIwZlJqYkRhdTV1YXJQTXI1VXRvLTA4eGdDWjEybUFyTXQtbEZtTng3STV5RDJXd3ZjYUNVU1gyZExxMkI1NjY3LTM2STNWS1RtT0hoeGpIYXI1U29DR2ZqbkZiOFhNcHVCWGR3SUFYaW5zYUlESHR4dw?oc=5",
    "source": "Global News",
    "published": "2026-11-08T05:58:18Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Draisaitl scores twice to power Oilers past Canucks 4-2",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSDJrRElvR1gwQ0ZRZERTdTM5NGZWazlwZlVpM3pUa0VPWFJLSXFzaExuTDRqeG81S3lUbWV5OThXTXc3aWlFLWNBdVVFQk9LbFpSZ2cyMktqMzd5SGIzOHExME9ScVgyM294TWVGVXpjTWlsMHFENEl2a2diekFQVG8zMElCYXRRY0E3ZW15MkZhelJ5LTJBU1Z4NFE3VTNQSm9vVjdhUWhDQjBvNmpPbm1Kc0FTd0otV2l0c2xQZVBMRDYtb0FHMXhRUTJ2dWlER0cwR2ctNXdCVXc?oc=5",
-   "source": "Toronto Star",
-   "published": "2026-11-08T05:57:05Z",
    "snippet": "",
    "via": "google"
   },
@@ -135,6 +150,14 @@
    "via": "google"
   },
   {
+   "title": "Vancouver Canucks 2 - Edmonton Oilers 4: Final score, results, recap, box score, stats",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-08T05:47:55Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Edmonton Oilers vs. Vancouver Canucks - Game Highlights",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSEN5eE9GOVZHUVZuNDR2b3VqRTJyNnNtZTZzSm5wLTNtQ1AyUk96MVB0b1VITUVSZnE4UWtCVDlDa1l4TWZSQk9zeVhGTHM2SEV1NEZQUm5PVzdDZmJRZWJrazlWOGkyTTlJOWloX21ybWV0YmhuN2NnRHVsQTgzQ3k2Z1VER1Nxc2FF?oc=5",
    "source": "Yahoo Sports",
@@ -152,19 +175,10 @@
   },
   {
    "title": "Nugent-Hopkins leaves game for Oilers after being struck in head by puck",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYzJmZmIySnR5MnJUWl9IQmh4dHJpRFBQQlV0cXlmbjdpNWtUM3ZkQjZWZ1FtSmg1RkRFQUtSc2Z0SnBUSTh6cEtidmxEemVwTzhTMV9HdzRzYU51X3RRQ0pnemlMcWhPSGZxOFRocElKdHQyZWpBNmxlWFpZaUcxR1d5VnZnak1FMXNDbjVnWVVMLWo2TDg3QWp3?oc=5",
+   "url": "https://www.nhl.com/news/oilers-ryan-nugent-hopkins-injured-after-being-struck-in-head-by-puck",
    "source": "NHL.com",
-   "published": "2026-11-08T05:43:11Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Instant reaction: Jason Dickinson’s revenge game goal fuels Oilers in 4-2 win over Canucks",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMXdVSGd2Y0lkcURoTl9NYlkyOHZvT2wzQUhmYng2LTkwSHBHcnZodXkyOHFhbDc2eFRrWFdtTDhDemVoV25TZlBOak5NYkxnNE5XQXpsR1BzNXBzVHdjd0xZaF9UbWI4SkFHV1ZvQVZ2ZkZOYTgyYmlXRlp4TGNxRGRueEZDWG1QXzhkX3ZHaGF2Vl9GX3VVTHNqbjlsczFJTW5ZOVRZN2pibVFvZ1E?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-08T05:04:00Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-08T05:35:00Z",
+   "snippet": "EDMONTON -- Ryan Nugent-Hopkins sustained an apparent head injury 45 seconds into the second period of a 4-2 win for the Edmonton Oilers against the Vancouver Canucks at Rogers Place on…"
   },
   {
    "title": "CFL division final takeaways: Alouettes, Elks rise to occasion, reach Grey Cup",
@@ -263,20 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-07T17:29:16Z",
    "snippet": ""
-  },
-  {
-   "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
-   "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
-   "source": "NHL.com",
-   "published": "2026-11-07T05:00:00Z",
-   "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "PREVIEW: Oilers vs. Canucks",
-   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-canucks-11-06-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T03:36:41.45Z",
-   "snippet": "The Edmonton Oilers continue their four-game homestand at Rogers Place on Saturday with a visit from the Vancouver Canucks. You can watch the game live on Sportsnet at 9:00 PM MT or listen…"
   }
  ]
 }
