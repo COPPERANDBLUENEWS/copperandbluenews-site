@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-08T18:10:32Z",
+ "updated": "2026-11-08T18:50:27Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (7)",
-  "Google News (91)"
+  "Sportsnet (5)",
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-08T17:00:24Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "What has changed in the Edmonton Oilers’ goaltending procurement?",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeFBiRGJnZzdNM2RfTUd6d3NUT2lqbzVqQnN0QndZSkZzalhlQ2RqczlSYmxvU2ZoLVdRT1ZfQXNLaXpUUVNkOFZHdDJ2T0hSdGtzLVY5X01JNlFXbURCLXhNWDE0aHktNWd3Yl9pTG9MRDJJalA3bkFoTW1wcGNTeDdOQUlyN3cyY0FUVGRMOTBCeUctSVJuZVFRR0p3NXc?oc=5",
@@ -108,7 +116,7 @@
    "title": "NHL Week 7 Odds: Oilers Vs Leafs, Wild Vs Canadiens, Helsinki",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT05RN0tjQlhKR3pXT0FENGhqZmszVUNkWW9zMHJScWQ1RWNBeEVYd2VveHRjdkY5SUpPRmNwVk9DSmRORHhWUFhTSTVvWjlSWjhXR0NGMU9IQ0p1WWlXa25JWVN2NnhpcUFieE1ZcGZIOE03VDNMbExpc1BveW1ZX3VmMGd3M1VvdzhKMW9pSXZQb0JRZTJhRjctWWY1bkJiQ2c?oc=5",
    "source": "RG.org",
-   "published": "2026-11-08T12:38:26Z",
+   "published": "2026-11-08T12:37:01Z",
    "snippet": "",
    "via": "google"
   },
@@ -152,17 +160,9 @@
    "snippet": ""
   },
   {
-   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-08T11:00:24Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
+   "source": "NHL.com",
    "published": "2026-11-08T07:04:00Z",
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   },
@@ -230,20 +230,6 @@
    "snippet": "Playing in their first post-season game since 2019, the Elks won 28-16 over the B.C. Lions in the West Division final on Saturday at Commonwealth Stadium"
   },
   {
-   "title": "Elks’ Fajardo finds Mack with a deep throw against Lions",
-   "url": "https://www.sportsnet.ca/cfl/video/elks-fajardo-finds-mack-with-a-deep-throw-against-lions/",
-   "source": "Sportsnet",
-   "published": "2026-11-08T02:18:12Z",
-   "snippet": "Cody Fajardo airs out to Austin Mack for a big gain as Edmonton Elks look to generate offence against BC Lions in the Western Final."
-  },
-  {
-   "title": "Elks QB Fajardo rushes in for first touchdown of West Final vs. Lions",
-   "url": "https://www.sportsnet.ca/cfl/video/elks-qb-fajardo-rushes-in-for-first-touchdown-of-west-final-vs-lions/",
-   "source": "Sportsnet",
-   "published": "2026-11-08T01:48:04Z",
-   "snippet": "Watch as Edmonton Elks quarterback Cody Fajardo runs outside the tackles into the end-zone for six, the first touchdown of the West Final between the Elks and Lions."
-  },
-  {
    "title": "RELEASE: Oilers activate Levi & Hyman off IR; Tomkins loaned to Condors",
    "url": "https://www.nhl.com/oilers/news/release-oilers-activate-devon-levi-zach-hyman-off-ir",
    "source": "EdmontonOilers.com",
@@ -277,6 +263,20 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-07T18:57:04.06Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers have placed defenceman Atro Leppanen on waivers for the purpose of assignment to the Bakersfield Condors, the team announced on Saturday."
+  },
+  {
+   "title": "PROJECTED LINEUP: Levi to start & Hyman returns for Saturday's meeting with Canucks",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-levi-to-start-hyman-returns-for-saturday-s-meeting-with-canucks-11-01-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-07T18:52:10.923Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers will have netminder Devon Levi and forward Zach Hyman back in their lineup on Saturday night after both are activated from Injured Reserve ahead of a…"
+  },
+  {
+   "title": "Major shake-up on Edmonton Oilers, hot shot goalie, top winger back, struggling vets rotate as healthy scratches",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-devon-levi-zach-hyman-jake-walman-trent-frederic-colton-dach",
+   "source": "Edmonton Journal",
+   "published": "2026-11-07T17:29:16Z",
+   "snippet": ""
   }
  ]
 }
