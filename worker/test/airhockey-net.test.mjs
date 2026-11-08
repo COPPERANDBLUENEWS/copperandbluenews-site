@@ -22,6 +22,10 @@ assert.equal(net.isStale(-1, 4), false);
 assert.equal(net.isStale(8, 8), true);
 assert.equal(net.isStale(8, 9), false);
 assert.equal(net.isStale(9000, 1), false);
+assert.equal(net.quickSearchAction("matched"), "match");
+assert.equal(net.quickSearchAction("copper"), "copper");
+assert.equal(net.quickSearchAction("idle"), "copper");
+assert.equal(net.quickSearchAction("queued"), "wait");
 
 const buf = net.createBuffer(100);
 net.pushSample(buf, 1000, {ts: 1000, k: [0, 0, 1000, 0], a: [10, 10], b: [20, 20]});

@@ -7,15 +7,15 @@
 // - Web push: shows Game alerts. A click opens that alert in the notifications inbox when the
 //   payload has an id. The notification's own url is unchanged (lineup stays /players.html,
 //   final stays /game.html?id=). Older notifications with no id still open their url.
-const VERSION = "cbn-v49";
+const VERSION = "cbn-v50";
 const STATIC = `${VERSION}-static`, PAGES = `${VERSION}-pages`, DATA = `${VERSION}-data`;
 const PRECACHE = [
   "/offline.html", "/play.html", "/notifications.html", "/standings.html", "/leaders.html", "/mcdavid.html", "/article.html",
-  "/js/mcdavid.js?v=49",
-  "/js/play.js?v=49", "/js/airhockey-net.js?v=49", "/js/airhockey-online.js?v=49", "/js/home-play.js?v=49", "/js/config.js?v=49", "/copper.svg?v=49", "/css/style.css?v=49", "/js/main.js?v=49", "/js/pwa.js?v=49", "/js/newsletter.js?v=49",
-  "/js/standings.js?v=49", "/js/leaders.js?v=49", "/js/inbox.js?v=49",
-  "/js/article.js?v=49", "/js/article-render.js?v=49",
-  "/audio/goal-horn.wav?v=49", "/audio/copper-aww.wav?v=49", "/audio/puck-clack.wav?v=49", "/audio/board-thud.wav?v=49",
+  "/js/mcdavid.js?v=50",
+  "/js/play.js?v=50", "/js/airhockey-net.js?v=50", "/js/airhockey-online.js?v=50", "/js/home-play.js?v=50", "/js/config.js?v=50", "/copper.svg?v=50", "/css/style.css?v=50", "/js/main.js?v=50", "/js/pwa.js?v=50", "/js/newsletter.js?v=50",
+  "/js/standings.js?v=50", "/js/leaders.js?v=50", "/js/inbox.js?v=50",
+  "/js/article.js?v=50", "/js/article-render.js?v=50",
+  "/audio/goal-horn.wav?v=50", "/audio/copper-aww.wav?v=50", "/audio/puck-clack.wav?v=50", "/audio/board-thud.wav?v=50",
   "/logo.jpg", "/icons/icon-192.png", "/icons/badge-96.png", "/favicon-32.png"
 ];
 const DATA_MAX = 60;

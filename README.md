@@ -120,7 +120,7 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
 - "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home. Each card opens that post's article. See **Instagram articles** below. The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=49`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- Cache-bust: CSS/JS URLs use `?v=50`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 - **Standings and leaders** (Scores tab): `standings.html` and `leaders.html`. `update_data.py` writes `data/standings.json` and `data/leaders.json` from the public NHL API (`standings/now`, `skater-stats-leaders/current`, `goalie-stats-leaders/current`) on the same schedule as the other JSON. The browser still cannot call the NHL API. These are not on the live Worker relay: they change a few times a day, and the relay's request budget is for the rink.
 - **McDavid Chase** (Home card and the Chase tab next to Scores): `mcdavid.html` and `data/mcdavid.json`. See below. No Worker route. The browser still cannot call the NHL API.
 - **Notifications inbox:** the header bell (top left) opens `notifications.html`. Unread ids are in `localStorage` key `cbn-alerts-read`. The list is `GET /alerts/log` on the alerts Worker. That Worker change is in `worker/` and is **not** deployed by GitHub Pages. See `worker/README.md`. Until it is deployed the page is empty; `?sample=1` shows labeled examples.
@@ -144,7 +144,7 @@ Sources, all `https://api-web.nhle.com/v1`:
 
 A game that is live and not in the log yet adds a "tonight" line from `gamecenter/<id>/boxscore`. That line does not change the countdown until the game log includes the game, so a partial period cannot swing the pace.
 
-No Worker change. Game alerts, notification URLs, the CNAME and `ADMIN_SECRET` are untouched. `mcdavid.html` and `js/mcdavid.js` are in the service-worker precache (cbn-v49). `data/mcdavid.json` is network-first, same as the other data JSON.
+No Worker change. Game alerts, notification URLs, the CNAME and `ADMIN_SECRET` are untouched. `mcdavid.html` and `js/mcdavid.js` are in the service-worker precache (cbn-v50). `data/mcdavid.json` is network-first, same as the other data JSON.
 
 ## Cap & contracts (manual, sources: public reports)
 The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:
@@ -323,7 +323,7 @@ so later goals are allowed. Touch on the rink does not call preventDefault.
 `&hold=1` with `demo` and `at` freezes that simulated frame (no extra stepping) so a
 player-goal banner can be captured; it does not change scoring. Example:
 `play.html?demo=1&seed=2&at=3.4&hold=1`.
-The page, JS, config, Copper SVG and rink WAVs are precached for offline play in cbn-v49.
+The page, JS, config, Copper SVG and rink WAVs are precached for offline play in cbn-v50.
 `js/airhockey-online.js` is precached with them. A live match still needs the network.
 
 ### Play online

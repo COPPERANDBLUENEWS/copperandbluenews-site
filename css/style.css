@@ -385,6 +385,7 @@ body.ah-online .ah-side-you,#youLabel{color:inherit}
 body.ah-online .ah-side-you b,body.ah-online .ah-side-you #youLabel{color:#f4b37c}
 body.ah-online .ah-side-opp b,body.ah-online .ah-side-opp #oppLabel{color:#9ec0e8}
 body.ah-online #arenaRule{position:absolute!important;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.ah-you-tag[hidden],.ah-net[hidden],.ah-clock[hidden]{display:none!important}
 .ah-net{display:inline-flex;align-items:center;gap:8px;min-width:0}
 .ah-ping{display:inline-flex;align-items:center;gap:3px;font:700 10px/1 Inter,system-ui,sans-serif;white-space:nowrap}
 .ah-ping-you{color:#f4b37c}.ah-ping-opp{color:#9ec0e8}

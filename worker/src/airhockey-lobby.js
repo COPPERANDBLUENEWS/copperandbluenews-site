@@ -10,6 +10,9 @@ const MATCH_LIMIT = 20, MATCH_WINDOW = 600;
 const LOGIN_LIMIT = 20, LOGIN_WINDOW = 600;
 const ROOM_TTL = 30 * 60 * 1000;
 const ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+// Long enough for two people who tap Quick Match a few seconds apart to pair.
+// Short enough that a solo player is not left on the queue. Not an env override.
+export const QUICK_WAIT_MS = 8000;
 
 export function lobbyStub(env) {
   if (!env.AIRHOCKEY_LOBBY) return null;
@@ -126,6 +129,8 @@ export class AirHockeyLobby {
       )`);
     });
   }
+
+  now() { return Date.now(); }
 
   sql(query, ...args) {
     return this.ctx.storage.sql.exec(query, ...args);
@@ -264,13 +269,31 @@ export class AirHockeyLobby {
     return json({ok: true, sort, top, you});
   }
 
+  dropExpired(exceptId, now) {
+    const cutoff = now - QUICK_WAIT_MS;
+    if (exceptId) this.sql("DELETE FROM queue WHERE enqueued_at <= ? AND user_id != ?", cutoff, exceptId);
+    else this.sql("DELETE FROM queue WHERE enqueued_at <= ?", cutoff);
+  }
+
+  queuedReply(row, now) {
+    const age = now - row.enqueued_at;
+    if (age >= QUICK_WAIT_MS) {
+      this.sql("DELETE FROM queue WHERE user_id = ?", row.user_id);
+      return {ok: true, status: "copper", opponent: "Copper", computer: true};
+    }
+    return {ok: true, status: "queued", waitMs: QUICK_WAIT_MS - age};
+  }
+
   async quick(body) {
     const row = await this.userFromToken(body.token || "");
     if (!row) return fail(401, "Sign in again.");
     const ip = await sha256("ip:" + String(body.ip || "0"));
     if (!this.rateOk("mk:" + ip.slice(0, 24), MATCH_LIMIT, MATCH_WINDOW * 1000)) return fail(429, "Too many matches from this network. Try again in a bit.");
+    const now = this.now();
     const notice = this.freshNotice(row.id);
     if (notice) return json(notice);
+    // Drop searches whose owners never claimed Copper, so a later player cannot join a ghost.
+    this.dropExpired(row.id, now);
     const waiting = this.one("SELECT * FROM queue WHERE user_id != ? ORDER BY enqueued_at ASC LIMIT 1", row.id);
     if (waiting) {
       this.sql("DELETE FROM queue WHERE user_id IN (?, ?)", waiting.user_id, row.id);
@@ -279,17 +302,19 @@ export class AirHockeyLobby {
         {id: row.id, name: row.username, rating: row.rating});
       if (match.error) return fail(match.status || 503, match.error);
       this.sql("INSERT OR REPLACE INTO notices (user_id, match_id, seat, opponent, created_at) VALUES (?, ?, 'south', ?, ?)",
-        waiting.user_id, match.id, row.username, Date.now());
+        waiting.user_id, match.id, row.username, now);
       return json({ok: true, status: "matched", matchId: match.id, seat: "north", you: row.username, opponent: waiting.username});
     }
-    this.sql("INSERT OR REPLACE INTO queue (user_id, username, rating, enqueued_at) VALUES (?, ?, ?, ?)", row.id, row.username, row.rating, Date.now());
+    const mine = this.one("SELECT * FROM queue WHERE user_id = ?", row.id);
+    if (mine) return json(this.queuedReply(mine, now));
+    this.sql("INSERT INTO queue (user_id, username, rating, enqueued_at) VALUES (?, ?, ?, ?)", row.id, row.username, row.rating, now);
     this.sql("DELETE FROM notices WHERE user_id = ?", row.id);
-    return json({ok: true, status: "queued"});
+    return json({ok: true, status: "queued", waitMs: QUICK_WAIT_MS});
   }
 
   freshNotice(userId) {
     const notice = this.one("SELECT * FROM notices WHERE user_id = ?", userId);
-    if (!notice || Date.now() - notice.created_at > 3 * 60 * 1000) {
+    if (!notice || this.now() - notice.created_at > 3 * 60 * 1000) {
       if (notice) this.sql("DELETE FROM notices WHERE user_id = ?", userId);
       return null;
     }
@@ -304,9 +329,12 @@ export class AirHockeyLobby {
   async quickPoll(url) {
     const row = await this.userFromToken(url.searchParams.get("token") || "");
     if (!row) return fail(401, "Sign in again.");
+    const now = this.now();
     const notice = this.freshNotice(row.id);
     if (notice) return json(notice);
-    if (this.one("SELECT user_id FROM queue WHERE user_id = ?", row.id)) return json({ok: true, status: "queued"});
+    const mine = this.one("SELECT * FROM queue WHERE user_id = ?", row.id);
+    if (mine) return json(this.queuedReply(mine, now));
+    this.dropExpired(null, now);
     return json({ok: true, status: "idle"});
   }
 

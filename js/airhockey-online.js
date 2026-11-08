@@ -30,7 +30,7 @@
   const base = workerBase();
   const params = new URLSearchParams(location.search);
   const roomParam = (params.get('room') || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
-  let account = null, pollTimer = 0, ws = null, raf = 0, last = 0, match = null, seat = 's';
+  let account = null, pollTimer = 0, copperTimer = 0, searching = false, ws = null, raf = 0, last = 0, match = null, seat = 's';
   let currSnap = null, phase = '', bannerOn = false, bannerKind = '', bannerUntil = 0, quitting = false;
   let reconnectUntil = 0, savedScroll = 0, prevMood = '';
   const pred = {x: W / 2, y: H - 132, tx: W / 2, ty: H - 132};
@@ -93,7 +93,7 @@
     }
     return data;
   }
-  function stopPoll() { clearInterval(pollTimer); pollTimer = 0; }
+  function stopPoll() { clearInterval(pollTimer); pollTimer = 0; clearTimeout(copperTimer); copperTimer = 0; }
 
   function clampOwn(x, y) {
     return {
@@ -608,6 +608,7 @@
   }
 
   function begin(info) {
+    searching = false;
     stopPoll();
     match = {matchId: info.matchId, you: info.you, opponent: info.opponent, seat: info.seat};
     seat = info.seat === 'north' ? 'n' : 's';
@@ -615,19 +616,61 @@
     connect();
   }
 
+  function startCopper() {
+    if (!searching) return;
+    searching = false;
+    stopPoll();
+    const note = 'No one else is online. This is Copper, the computer. It does not change your online record.';
+    show('onlineMenu');
+    say(note);
+    if (typeof lib.playCopper === 'function') lib.playCopper(note);
+  }
+  function armCopper(waitMs) {
+    clearTimeout(copperTimer);
+    const ms = Number.isFinite(+waitMs) ? Math.max(250, +waitMs) : 1000;
+    copperTimer = setTimeout(pollQuick, ms);
+  }
+  let pollBusy = false;
+  async function pollQuick() {
+    if (!searching || pollBusy) return;
+    pollBusy = true;
+    try {
+      const q = await api('/airhockey/quick');
+      if (!searching) return;
+      const action = net.quickSearchAction(q.status);
+      if (action === 'match') begin(q);
+      else if (action === 'copper') startCopper();
+      else armCopper(q.waitMs);
+    } catch (e) {
+      searching = false;
+      stopPoll();
+      say(e.message, true);
+      show('onlineMenu');
+    } finally { pollBusy = false; }
+  }
+  function leaveSearch() {
+    if (!searching || !account) return;
+    searching = false;
+    stopPoll();
+    try {
+      fetch(base + '/airhockey/quick', {method: 'DELETE', headers: {Authorization: 'Bearer ' + account.token}, keepalive: true});
+    } catch (_) {}
+  }
+
   async function quick() {
     say('');
+    searching = true;
     show('queueBox');
+    if ($('queueStatus')) $('queueStatus').textContent = 'Looking for another player… Copper steps in if nobody is here.';
     try {
       const data = await api('/airhockey/quick', {method: 'POST', body: {}});
-      if (data.status === 'matched') return begin(data);
-      pollTimer = setInterval(async () => {
-        try {
-          const q = await api('/airhockey/quick');
-          if (q.status === 'matched') begin(q);
-        } catch (e) { stopPoll(); say(e.message, true); show('onlineMenu'); }
-      }, 1000);
-    } catch (e) { say(e.message, true); show('onlineMenu'); }
+      if (!searching) return;
+      const action = net.quickSearchAction(data.status);
+      if (action === 'match') return begin(data);
+      if (action === 'copper') return startCopper();
+      armCopper(data.waitMs);
+      pollTimer = setInterval(pollQuick, 1000);
+    } catch (e) { searching = false; stopPoll(); say(e.message, true); show('onlineMenu'); }
   }
 
   function shareLink(code) {
@@ -762,10 +805,12 @@
   });
   $('quickMatch').addEventListener('click', () => { lib.unlockAudio(); quick(); });
   $('cancelQueue').addEventListener('click', async () => {
+    searching = false;
     stopPoll();
     try { await api('/airhockey/quick', {method: 'DELETE'}); } catch (_) {}
     show('onlineMenu');
   });
+  window.addEventListener('pagehide', leaveSearch);
   $('challengeFriend').addEventListener('click', () => { lib.unlockAudio(); createRoom(); });
   $('shareRoom').addEventListener('click', () => shareRoom($('roomCode').textContent));
   $('cancelRoom').addEventListener('click', async () => {
