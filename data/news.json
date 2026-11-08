@@ -1,13 +1,37 @@
 {
- "updated": "2026-11-08T11:16:49Z",
+ "updated": "2026-11-08T12:15:11Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (8)",
-  "Google News (90)"
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "3 Standouts From Game #19: Oilers 4, Canucks 2",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTTExczNXc2NZOTIzQVg4QWxDQ1MtTEY4YW1FSGo0ZDNfY0JwMjIxUGFjYzlwVnVnMlNSVTE3TGZtbURfYW05WDQ4STZxZmpKRVhyT1poQTZZcVVuSUo1ZlRERm9kTmZKYV9QRVRHTjJTWmNTYy0wdDhrNmRLN05Qc0JENnV2dWZLSTZhUXl1ai1wZ2JKaEdoQU9MRkJhVERON0E?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-08T12:02:53Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid sets active-player season-opening streak mark as Oilers beat Canucks",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcDh0T2pYQlJobUdVSVV0UFFlb1RhbGdfNWxvV0xmeGdtUFVIeEdHbU1ibkJwLWwxRWRlaWNGLXNEdmlXYUxFYjlZN3ZwcXoxb0haWk5tRVEwQnEya2FVbWxVTURua1FXZXcxMDdwN3ZmRWtfTHk1aDJxbnhNRzh6NXFLdHpxeWEtbUt3MkxEUThINWlCbTlkbkZ5d3ZHTWtwd21xLVd5YWM3V3VDLTZydFBHazJ6ekVBTGc?oc=5",
+   "source": "NetNewsLedger",
+   "published": "2026-11-08T11:22:04Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL standings after Saturday put Carolina first and Edmonton atop Pacific",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMzFvZ3JhNVhuMGZKYjRZa29pUWtGQ2FvN3hmY0NxcFJqN0NWQnZMcmtUd1AtVGQ5MXA5ZlVra3dDdERwTUFqMklxRWJvV3Z3ckZmb0ZybHA5Uno0MVh6bjE1eE5ieHpfV3BrYm9Dcm5Uc195NDJOaGo1aHFFU3NlRkJPTkx1R19UenZJeHJHMjlqbU9OTUtxLVgwTzVPbGVtOTNWWjgzelVwTS14RXdsdEtRd2pSUQ?oc=5",
+   "source": "NetNewsLedger",
+   "published": "2026-11-08T11:17:52Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "It is long past time that the NHL protected its stars better than its referees: 9 Things",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/it-is-long-past-time-that-the-nhl-protected-its-stars-better-than-its-referees-9-things-connor-mcdavid",
@@ -43,7 +67,7 @@
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONUVIcVNoZ1FZbzYzQXVkeEZnVHE4REtTWGZzRlRhelFvUktDc1llcWJqNURzdzJlbFdTcGJxRnl5VTRvTmNldVJpcU5xNmFldUJFQVJYa0t5UGRWcndGUVNDMzdneG03X3YwS2ZVcDI5Z3NIbGhOU3pCNkloTnk3NlZtMlFQcFlNZEpEU2RR?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-08T09:22:30Z",
+   "published": "2026-11-08T09:23:40Z",
    "snippet": "",
    "via": "google"
   },
@@ -112,6 +136,14 @@
    "via": "google"
   },
   {
+   "title": "Draisaitl scores twice to power Oilers past Canucks 4-2",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWE5pVkZWODhPV0FaWmYxenVYdWZxc3NCRlNSLTZUY2xpOFR1NEJ3OUMxVWVZblFFZk85SkdSUFJBYW1vSjd0ZzlPR1FKZkkzV2k3WVBRelJPV09QdE90Nm1zYzU3SElEX1lZNnNHUjZldzBKdnpSWDEtMXd1VFh5VXdhNVoxOHl0SlJfZTNMRUJUVEFMZFBJT2RFOXliRnZ0?oc=5",
+   "source": "Castanet",
+   "published": "2026-11-08T06:57:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers' Nugent-Hopkins exits early vs. Canucks after taking puck to head",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeEtyWGRVaWVlMTNWb0RUMHItTGhxMFZpekVyVURMeUctMG9JY19pN29JQXVlcWtycnlaRnVzd0lfTVlCM0tNcUt0NWIxQ2QtNV9RalRJVWpFeWQxeXVFUmp4enJCX0hMR2w1c1dkbjhrREpMakNoSE9MckxXRXdHeVlNbF9La0FQd1Z3MHQ4QzRRMWdBcU85cHhPcjJpdnZWeUN1NUtubnNJeGVU?oc=5",
    "source": "Sportsnet.ca",
@@ -128,43 +160,18 @@
    "via": "google"
   },
   {
-   "title": "NHL Highlights: Oilers 4, Canucks 2",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91S0R4OFFTeS1Xb0FOQXdEQmgzY1JkVlo4NER0ZWVUN3lGVGswbm8ta2hGT25Gcm9ROXREb05LRF82R2lTR0RyeTFGbldjWHhwY0dpcHd2T01paHlwT3NOV252RFRkQ215ZzROekU0N0x1R3JFZ1NsU19rOA?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-08T06:31:57Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Draisaitl scores twice, McDavid has 3 assists to extend streak and Oilers beat skidding Canucks 4-2",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQklqREl2M0QtVHNWUmgtSXdzeG5ZVmlHM05POTBFenQyQ25mOTFCZDdONEhDNUNLUlJnM1lxZEVjTlBaZUROb3YtSWd3bzdTdXF4VE5fNVJIOGF5RGc5WHdITGdrb3VIVE1NLUZUX2FFbnVMVUp3Vkdfb2lhbHBrQklmdFFKcmRX?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-08T06:31:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers 4, Canucks 2: The best defensive effort of the season couldn't overcome Connor McDavid",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRURHTE5mV3hWeTBLWDlJU2k0ZGRYMU1JelRvY19TdUJMS05iSUNrQnBrVlo2cUhjVm1Qcjd1SXJTRGdpc0NlN0VXSlZTbFpOblhxTmxFc1VCN3dYNnVtT1hUVm5uWVNQUEI1bzA2QnN2LXZPbFhFUFQwRkQ3WVlIUng3aGlUajljYl83RC1FMmFfV1FadWFSRWE2QUpYRFJJcS16WFNIZG5JdmhUeUx5bXVBdXFtemdkWEc4aUZYTVgtNlYycXF0RkszcS1KN3VsNTZTU20zeW1Nc09CdDYwbkY1UmE?oc=5",
-   "source": "The Province",
-   "published": "2026-11-08T06:16:03Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Draisaitl scores twice to power Oilers past Canucks 4-2",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWE5pVkZWODhPV0FaWmYxenVYdWZxc3NCRlNSLTZUY2xpOFR1NEJ3OUMxVWVZblFFZk85SkdSUFJBYW1vSjd0ZzlPR1FKZkkzV2k3WVBRelJPV09QdE90Nm1zYzU3SElEX1lZNnNHUjZldzBKdnpSWDEtMXd1VFh5VXdhNVoxOHl0SlJfZTNMRUJUVEFMZFBJT2RFOXliRnZ0?oc=5",
-   "source": "Castanet",
-   "published": "2026-11-08T06:12:45Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers’ McDavid continues record start with three more points vs. Canucks",
    "url": "https://www.sportsnet.ca/nhl/video/is-mcdavid-on-pace-to-break-gretzkys-single-season-points-record/",
    "source": "Sportsnet",
    "published": "2026-11-08T06:08:14Z",
    "snippet": "Ron MacLean, Elliotte Friedman, Luke Gazdic and Erik Johnson discuss Connor McDavid’s pursuit of Wayne Gretzky’s single-season record of 215 points and the potential debate over the number…"
+  },
+  {
+   "title": "NHL Highlights: Oilers 4, Canucks 2",
+   "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-oilers-4-canucks-2-2/",
+   "source": "Sportsnet",
+   "published": "2026-11-08T05:59:12Z",
+   "snippet": "Leon Draisaitl scored twice and added an assist, while Connor McDavid had three helpers to extend his assist streak to 18 games. Devon Levi made 20 saves in his return from IR as the…"
   },
   {
    "title": "Player grades: Edmonton big guns McDavid, Draisaitl, Bouchard lead Oilers to 4-2 win over Canucks",
@@ -270,13 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-07T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "PREVIEW: Oilers vs. Canucks",
-   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-canucks-11-06-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T03:36:41.45Z",
-   "snippet": "The Edmonton Oilers continue their four-game homestand at Rogers Place on Saturday with a visit from the Vancouver Canucks. You can watch the game live on Sportsnet at 9:00 PM MT or listen…"
   }
  ]
 }
