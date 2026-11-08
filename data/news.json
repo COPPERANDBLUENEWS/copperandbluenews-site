@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-08T09:52:54Z",
+ "updated": "2026-11-08T10:22:19Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (8)",
-  "Google News (90)"
+  "Google News (91)"
  ],
  "errors": [],
  "items": [
@@ -21,6 +21,22 @@
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONUVIcVNoZ1FZbzYzQXVkeEZnVHE4REtTWGZzRlRhelFvUktDc1llcWJqNURzdzJlbFdTcGJxRnl5VTRvTmNldVJpcU5xNmFldUJFQVJYa0t5UGRWcndGUVNDMzdneG03X3YwS2ZVcDI5Z3NIbGhOU3pCNkloTnk3NlZtMlFQcFlNZEpEU2RR?oc=5",
    "source": "NHL.com",
    "published": "2026-11-08T09:22:30Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "New York brings 3-game win streak into matchup against Edmonton",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUjdNTlI2TFl5TjJiOHRtLXhGR0FHRDN5c2Q5UGRTWlV4MTFkYy1MZVdqbUxLNUQya3gyb3ZEU0t3MzlReXNfdEt5S2xpQUlwcXNqV0JwOGpMM05XRk9WWmlrLWd1eVZBZ1Q1UWJ5TFNoS2tsbXBJUldWRmNLMVJmMUVnWTdDdzBhaHNVNHFFYThxV3pidGZUbEQ1dzE1SW9lbUpV?oc=5",
+   "source": "FOX Sports",
+   "published": "2026-11-08T09:11:16Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vancouver Canucks 2 - Edmonton Oilers 4: Final score, results, recap, box score, stats",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-08T08:26:47Z",
    "snippet": "",
    "via": "google"
   },
@@ -81,14 +97,6 @@
    "via": "google"
   },
   {
-   "title": "Vancouver Canucks 2 - Edmonton Oilers 4: Final score, results, recap, box score, stats",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-08T06:56:46Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers' Nugent-Hopkins exits early vs. Canucks after taking puck to head",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeEtyWGRVaWVlMTNWb0RUMHItTGhxMFZpekVyVURMeUctMG9JY19pN29JQXVlcWtycnlaRnVzd0lfTVlCM0tNcUt0NWIxQ2QtNV9RalRJVWpFeWQxeXVFUmp4enJCX0hMR2w1c1dkbjhrREpMakNoSE9MckxXRXdHeVlNbF9La0FQd1Z3MHQ4QzRRMWdBcU85cHhPcjJpdnZWeUN1NUtubnNJeGVU?oc=5",
    "source": "Sportsnet.ca",
@@ -141,14 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSmJqNGJtSEU5S1pwaW95aHhBbWx5REVnSE9nYlJBR0FvcHhlbm1TbXJRUlhNeTJXVEMwdEZmbG8zQm5wdnNPcEZjWG9jdGt2aVRuS01vUmRaVnhQT3BYSXZtd3JrRjlDdkJ5Szd6cmQ1bHZOODdMOVVXQ1k1cDZDSk5kSFhSbWJCNFJ2eXQ1Z3VvY3BsMEdGQkVGclU0Yk5VNmM2VGdxNThWcGpFQkE?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-08T06:10:17Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Canucks Put Forth Strong Effort But Fall 4-2 To The Oilers",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa1NGRG1QUkl6OGNMS3JCYTd2YlNPemJfNTBjUjdGT2RSR3lHYU92blVORGJYSUdxTEpBdVIzNHVWcEJiSG9BR2RTSFlpUEhHQlRMbFZiYzVoRTFNNHRxNHYwNHZCWDQ0bGU0SzNmdE53WC14OF9jaHljcnNBc1U2WVJjTnVVdTlzOGtBY0ZRM2JKSXZOVWoxTUZGZEhwNF9xeEJoMnJnZU9ZYlU5dFU1aFpqeVJVZw?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-08T06:08:17Z",
    "snippet": "",
    "via": "google"
   },
@@ -207,13 +207,6 @@
    "source": "Sportsnet",
    "published": "2026-11-08T01:48:04Z",
    "snippet": "Watch as Edmonton Elks quarterback Cody Fajardo runs outside the tackles into the end-zone for six, the first touchdown of the West Final between the Elks and Lions."
-  },
-  {
-   "title": "Flames goalie Devin Cooley most interesting man in hockey",
-   "url": "http://edmontonjournal.com/sports/hockey/nhl/flames-goalie-devin-cooley-most-interesting-man-in-hockey/wcm/2f976173-78be-4d03-8e73-57c1eb4f6b4e",
-   "source": "Edmonton Journal",
-   "published": "2026-11-08T00:26:02Z",
-   "snippet": "California-born netminder insightful, at ease, and possessed of a certain existential acceptance"
   },
   {
    "title": "RELEASE: Oilers activate Levi & Hyman off IR; Tomkins loaned to Condors",
@@ -277,6 +270,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-07T03:36:41.45Z",
    "snippet": "The Edmonton Oilers continue their four-game homestand at Rogers Place on Saturday with a visit from the Vancouver Canucks. You can watch the game live on Sportsnet at 9:00 PM MT or listen…"
+  },
+  {
+   "title": "'Throwing up in my mouth': Podkolzin gets support across Canada for beat down of Anaheim aggressor",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/throwing-up-in-my-mouth-podkolzin-gets-mass-support-across-canada-for-beat-down-of-anaheim-aggressor",
+   "source": "Edmonton Journal",
+   "published": "2026-11-07T03:15:28Z",
+   "snippet": ""
   }
  ]
 }
