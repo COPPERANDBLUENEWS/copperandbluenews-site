@@ -4,6 +4,7 @@ import {gameEvents, addOdds, oddsGame} from "./game-events.js";
 import {notificationPlan, deliver} from "./delivery.js";
 import {bytesToB64u} from "./webpush.js";
 import {describeAlert, entryFromPending} from "./alert-log.js";
+import {dueWindow, knownStarter, nextPregameAt, pregameCandidate, pregameEvent} from "./pregame.js";
 import * as store from "./store.js";
 const API = "https://api-web.nhle.com/v1";
 const FINAL = ["OFF", "FINAL"], LIVE = ["LIVE", "CRIT"], INTERVAL = 15000;
@@ -35,9 +36,8 @@ export class GameAlerts {
     await this.storage.put("schedule", {at: now, games: data.games});
     return data.games;
   }
-  async stage(g) {
-    if (!eligibleGame(g, this.env.GAME_ALERTS_SINCE, Date.now())) return 0;
-    const candidates = gameEvents(g), fresh = [];
+  async claimFresh(candidates) {
+    const fresh = [];
     for (const e of candidates) {
       if (await this.storage.get("seen:" + e.id)) continue;
       // Belt-and-suspenders compatibility with legacy KV; hard activation floor also excludes ALL old Actions cache IDs.
@@ -46,6 +46,26 @@ export class GameAlerts {
       }
       fresh.push(e);
     }
+    return fresh;
+  }
+  async saveEvent(e, game, stateKey, state) {
+    const {order, ...event} = e;
+    // Topic coalesces retries that are still pending at a push service. Browser tag is the same stable event ID.
+    const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(e.id));
+    const plan = await notificationPlan(this.env, {...event, topic: bytesToB64u(new Uint8Array(digest).slice(0, 16))});
+    const batches = [];
+    for (let i = 0; i < plan.subs.length; i += 20) batches.push(plan.subs.slice(i, i + 20));
+    let log = null;
+    try { log = describeAlert(game, e); } catch (err) { console.log("alert detail failed", String(err)); }
+    // One atomic commit: never mark seen unless the complete delivery plan is durably recoverable.
+    // `log` is inbox-only. It is not part of the push payload, so titles, bodies and URLs stay the same.
+    const row = {["seen:" + e.id]: {at: Date.now()}, ["pending:" + e.id]: {payload: plan.payload, batches, completed: [], at: Date.now(), log}};
+    if (stateKey) row[stateKey] = state;
+    await this.storage.put(row);
+  }
+  async stage(g) {
+    if (!eligibleGame(g, this.env.GAME_ALERTS_SINCE, Date.now())) return 0;
+    const fresh = await this.claimFresh(gameEvents(g));
     if (!fresh.length) return 0;
     const stateKey = "odds:" + g.id, state = await this.storage.get(stateKey) || {};
     if (fresh.some(e => ["puck_drop", "period_end"].includes(e.type))) {
@@ -53,21 +73,38 @@ export class GameAlerts {
       try { odds = oddsGame(await this.nhl("partner-game/CA/now"), g.id); } catch {} // odds are optional, as in Python
       addOdds(fresh, state, odds);
     }
-    for (const e of fresh) {
-      const {order, ...event} = e;
-      // Topic coalesces retries that are still pending at a push service. Browser tag is the same stable event ID.
-      const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(e.id));
-      const plan = await notificationPlan(this.env, {...event, topic: bytesToB64u(new Uint8Array(digest).slice(0, 16))});
-      const batches = [];
-      for (let i = 0; i < plan.subs.length; i += 20) batches.push(plan.subs.slice(i, i + 20));
-      let log = null;
-      try { log = describeAlert(g, e); } catch (err) { console.log("alert detail failed", String(err)); }
-      // One atomic commit: never mark seen unless the complete delivery plan is durably recoverable.
-      // `log` is inbox-only. It is not part of the push payload, so titles, bodies and URLs stay the same.
-      await this.storage.put({["seen:" + e.id]: {at: Date.now()}, [stateKey]: state,
-        ["pending:" + e.id]: {payload: plan.payload, batches, completed: [], at: Date.now(), log}});
-    }
+    for (const e of fresh) await this.saveEvent(e, g, stateKey, state);
     return fresh.length;
+  }
+  // Oilers starter when the NHL boxscore has flagged one, otherwise the site's Confirmed/Likely projection.
+  async starter(game) {
+    let box = null, lineup = null;
+    try { box = await this.nhl(`gamecenter/${game.id}/boxscore`); } catch {}
+    try { lineup = await this.siteLineup(); } catch {}
+    return knownStarter({box, lineup, gameId: game.id});
+  }
+  async siteLineup() {
+    const r = await fetch("https://copperandbluenews.com/data/lineup.json", {
+      headers: {"User-Agent": "copperandbluenews", Accept: "application/json"},
+      signal: AbortSignal.timeout(4000)});
+    if (!r.ok) return null;
+    return r.json();
+  }
+  async stagePregame(games, now) {
+    const since = Date.parse(this.env.GAME_ALERTS_SINCE);
+    let n = 0;
+    for (const g of games) {
+      if (!pregameCandidate(g, since)) continue;
+      const window = dueWindow(Date.parse(g.startTimeUTC), now);
+      if (!window) continue; // too early, or the window already passed (including after puck drop)
+      let starter = null;
+      try { starter = await this.starter(g); } catch (err) { console.log("pregame goalie", String(err)); }
+      const fresh = await this.claimFresh([pregameEvent(g, window, starter)]);
+      if (!fresh.length) continue;
+      await this.saveEvent(fresh[0], g);
+      n++;
+    }
+    return n;
   }
   async flush() {
     const pending = await this.storage.list({prefix: "pending:"});
@@ -147,16 +184,20 @@ export class GameAlerts {
   async poll() {
     await this.flush();
     const games = await this.schedule(), now = Date.now();
+    const pre = await this.stagePregame(games, now);
+    if (pre) await this.flush(); // same wake: the early return below is not in the live-game flush path
+    // Wake at each window even when the live poll would stay idle until five minutes before puck drop.
+    this._nextPregame = nextPregameAt(games, Date.parse(this.env.GAME_ALERTS_SINCE), now);
     const game = games.find(g => eligibleGame(g, this.env.GAME_ALERTS_SINCE, now));
-    if (!game || await this.storage.get("finished:" + game.id)) return {active: false, staged: 0};
+    if (!game || await this.storage.get("finished:" + game.id)) return {active: false, staged: pre};
     const g = await this.nhl(`gamecenter/${game.id}/play-by-play`);
     if (g.id !== game.id || !g.homeTeam || !g.awayTeam || !Array.isArray(g.plays)) throw new Error("Invalid NHL play-by-play");
     const staged = await this.stage(g);
     await this.flush();
     if (FINAL.includes(g.gameState) || g.plays.some(p => p.typeDescKey === "game-end")) {
-      await this.storage.put("finished:" + game.id, true); return {active: false, staged};
+      await this.storage.put("finished:" + game.id, true); return {active: false, staged: staged + pre};
     }
-    return {active: LIVE.includes(g.gameState) || now >= Date.parse(game.startTimeUTC) - 5 * 60000, staged};
+    return {active: LIVE.includes(g.gameState) || now >= Date.parse(game.startTimeUTC) - 5 * 60000, staged: staged + pre};
   }
   async run(scheduledTime = Date.now()) {
     if (this.producer) return {busy: true};
@@ -178,6 +219,7 @@ export class GameAlerts {
     } while (Date.now() < deadline);
     const pending = (await this.storage.list({prefix: "pending:", limit: 1})).size;
     if (active || pending) await this.storage.setAlarm(Date.now() + (active ? INTERVAL : 60000));
+    else if (this._nextPregame > Date.now()) await this.storage.setAlarm(this._nextPregame);
     else await this.storage.deleteAlarm();
     const result = {active, polls, staged, pending: !!pending};
     console.log("game-alerts tick", JSON.stringify(result)); return result;

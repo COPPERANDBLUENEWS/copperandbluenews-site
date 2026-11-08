@@ -12,17 +12,24 @@
 //                    still makes sure that id is in the array, so a crash between the two puts can heal.
 // KV is eventually consistent (a write can take up to ~60 s to show everywhere). Dedupe retries from
 // GitHub Actions come minutes apart, and the pipeline keeps its own sent-id state too.
-export const TYPES = ["puck_drop", "goal", "period_end", "final", "lineup", "odds", "gameday"];
+export const TYPES = ["puck_drop", "goal", "period_end", "final", "lineup", "odds", "gameday", "pregame_60", "pregame_15"];
 // Defaults when a sign-up doesn't say: betting odds are opt-in (off), everything else on.
-export const DEFAULTS = {puck_drop: true, goal: true, period_end: true, final: true, lineup: true, odds: false, gameday: true};
+export const DEFAULTS = {puck_drop: true, goal: true, period_end: true, final: true, lineup: true, odds: false, gameday: true, pregame_60: true, pregame_15: true};
 const SUB = "sub:", EVT = "evt:", SND = "snd:", ALOG = "alog:", ALERTS = "alerts:log";
 const LOG_MAX = 400;
 const META_MAX = 1000;
+// Added after v2. Older masks have no bits for them, so those sign-ups stay opted in until they save again.
+const ADDED_ON = new Set(["pregame_60", "pregame_15"]);
 
 const toMask = prefs => TYPES.reduce((m, t, i) => m | (prefs[t] ? 1 << i : 0), 0);
 // v1 records (before Nov 5, 2026) only had the first 5 bits: they get gameday ON (core game alert) and odds OFF.
-const fromMask = (m, v) => Object.fromEntries(TYPES.map((t, i) => [t, !v && t === "gameday" ? true : !!(m & (1 << i))]));
-const compact = r => ({v: 2, e: r.endpoint, k: r.p256dh, a: r.auth, m: toMask(r.prefs), n: r.email || "", c: r.created_at, u: r.updated_at});
+// v2 records predate the pre-game reminders: those two default ON. v3 stores the checkbox the fan saved.
+const fromMask = (m, v) => Object.fromEntries(TYPES.map((t, i) => {
+  if (!v && t === "gameday") return [t, true];
+  if ((v || 0) < 3 && ADDED_ON.has(t)) return [t, true];
+  return [t, !!(m & (1 << i))];
+}));
+const compact = r => ({v: 3, e: r.endpoint, k: r.p256dh, a: r.auth, m: toMask(r.prefs), n: r.email || "", c: r.created_at, u: r.updated_at});
 const expand = (id, x) => ({id, endpoint: x.e, p256dh: x.k, auth: x.a, prefs: fromMask(x.m, x.v), email: x.n || null, created_at: x.c, updated_at: x.u});
 
 export async function putSub(env, id, rec, now) {

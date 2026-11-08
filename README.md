@@ -77,8 +77,10 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   for a three-hour game uses ~3,600 requests: about 27 viewer-sessions maximum before other traffic.
   Home, Scores and Live each use one live request per poll, not continuous half-second polling.
   Hidden tabs stop polling; pre-game live cards also consume requests while open.
-- **Push alerts:** the Worker now owns puck drop, goals, period ends and final scores. A minute cron
-  wakes one SQLite-backed Durable Object, which polls the NHL directly every 15 seconds near/during games.
+- **Push alerts:** the Worker now owns puck drop, goals, period ends and final scores, plus a
+  1 hour and a 15 minute reminder before every Oilers puck drop. A minute cron wakes one SQLite-backed
+  Durable Object, which polls the NHL directly every 15 seconds near/during games and sets an alarm from
+  the schedule's `startTimeUTC` so those reminders still fire on days that would otherwise be idle.
   A strongly consistent event journal, recoverable queue outbox and per-recipient delivery checkpoints
   fence overlapping runs/retries. GitHub still handles lineup, gameday and pregame odds, not game events.
   The activation floor starts at VAN@EDM on Nov 7 (8 PM PT); no old Actions-cache game can replay at cutover.
@@ -118,7 +120,7 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
 - "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home. Each card opens that post's article. See **Instagram articles** below. The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=46`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- Cache-bust: CSS/JS URLs use `?v=47`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 - **Standings and leaders** (Scores tab): `standings.html` and `leaders.html`. `update_data.py` writes `data/standings.json` and `data/leaders.json` from the public NHL API (`standings/now`, `skater-stats-leaders/current`, `goalie-stats-leaders/current`) on the same schedule as the other JSON. The browser still cannot call the NHL API. These are not on the live Worker relay: they change a few times a day, and the relay's request budget is for the rink.
 - **Notifications inbox:** the header bell (top left) opens `notifications.html`. Unread ids are in `localStorage` key `cbn-alerts-read`. The list is `GET /alerts/log` on the alerts Worker. That Worker change is in `worker/` and is **not** deployed by GitHub Pages. See `worker/README.md`. Until it is deployed the page is empty; `?sample=1` shows labeled examples.
 
@@ -299,7 +301,7 @@ so later goals are allowed. Touch on the rink does not call preventDefault.
 `&hold=1` with `demo` and `at` freezes that simulated frame (no extra stepping) so a
 player-goal banner can be captured; it does not change scoring. Example:
 `play.html?demo=1&seed=2&at=3.4&hold=1`.
-The page, JS, config, Copper SVG and rink WAVs are precached for offline play in cbn-v46.
+The page, JS, config, Copper SVG and rink WAVs are precached for offline play in cbn-v47.
 `js/airhockey-online.js` is precached with them. A live match still needs the network.
 
 ### Play online

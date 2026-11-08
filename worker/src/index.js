@@ -19,6 +19,7 @@
 import {deliver} from "./delivery.js";
 import {gameStub} from "./game-alerts.js";
 import {GAME_TYPES} from "./game-events.js";
+import {PREGAME_TYPES} from "./pregame.js";
 export {GameAlerts} from "./game-alerts.js";
 export {AirHockeyLobby} from "./airhockey-lobby.js";
 export {AirHockeyMatch} from "./airhockey-match.js";
@@ -29,7 +30,7 @@ import * as fgs from "./fgs.js";
 import * as live from "./live.js";
 import * as newsletter from "./newsletter.js";
 
-const TYPES = store.TYPES; // puck_drop, goal, period_end, final, lineup, odds, gameday
+const TYPES = store.TYPES; // puck_drop, goal, period_end, final, lineup, odds, gameday, pregame_60, pregame_15
 const ORIGINS = ["https://copperandbluenews.com", "https://www.copperandbluenews.com"];
 // Known browser push services. Anything else is refused so the Worker can't be used to POST to arbitrary URLs.
 const PUSH_HOSTS = [/(^|\.)fcm\.googleapis\.com$/, /(^|\.)android\.googleapis\.com$/, /(^|\.)push\.services\.mozilla\.com$/,
@@ -100,7 +101,7 @@ async function unsubscribe(req, env) {
 async function notify(req, env, ctx) {
   if (!(await safeEqual(bearer(req), env.NOTIFY_SECRET))) throw new HttpError(401, "unauthorized");
   const b = await readJson(req);
-  if (env.GAME_ALERTS_ENABLED === "1" && GAME_TYPES.includes(b.type)) return {ok: true, ignored: true, reason: "Worker owns game events"};
+  if (env.GAME_ALERTS_ENABLED === "1" && (GAME_TYPES.includes(b.type) || PREGAME_TYPES.includes(b.type))) return {ok: true, ignored: true, reason: "Worker owns game events"};
   if (!TYPES.includes(b.type)) throw new HttpError(400, `type must be one of ${TYPES.join(", ")}`);
   if (typeof b.title !== "string" || !b.title.trim()) throw new HttpError(400, "title required");
   const id = typeof b.id === "string" && b.id ? b.id.slice(0, 120) : null;

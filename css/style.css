@@ -426,6 +426,8 @@ body.rink-immersive.rink-paused,.rink-paused .pong-arena{touch-action:pan-y}
 .alert-title{font-weight:650;font-size:.92rem;line-height:1.3}
 .alert-type{font:800 10px Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--copper)}
 .alert-type.goal{color:#ffb088}.alert-type.final{color:#f4b37c}.alert-type.puck_drop{color:#9fb0cc}
+.alert-type.pregame_60{color:#f0d78c}.alert-type.pregame_15{color:#9ad7c8}
+.alert-type.pregame_60::before,.alert-type.pregame_15::before{content:"⏱ ";letter-spacing:0}
 .alert-detail{background:var(--navy2);border:1px solid var(--line);border-top:3px solid var(--copper);border-radius:12px;padding:14px}
 .alert-detail h2{font:600 1.25rem/1.3 Inter,sans-serif;text-transform:none;letter-spacing:0;margin:6px 0}
 .alert-kicker{display:flex;justify-content:space-between;gap:8px;align-items:center;margin:0}
