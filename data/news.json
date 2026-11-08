@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-08T18:50:27Z",
+ "updated": "2026-11-08T19:22:21Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (5)",
-  "Google News (89)"
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
@@ -20,7 +20,7 @@
    "title": "What has changed in the Edmonton Oilers’ goaltending procurement?",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeFBiRGJnZzdNM2RfTUd6d3NUT2lqbzVqQnN0QndZSkZzalhlQ2RqczlSYmxvU2ZoLVdRT1ZfQXNLaXpUUVNkOFZHdDJ2T0hSdGtzLVY5X01JNlFXbURCLXhNWDE0aHktNWd3Yl9pTG9MRDJJalA3bkFoTW1wcGNTeDdOQUlyN3cyY0FUVGRMOTBCeUctSVJuZVFRR0p3NXc?oc=5",
    "source": "The New York Times",
-   "published": "2026-11-08T16:00:48Z",
+   "published": "2026-11-08T16:24:06Z",
    "snippet": "",
    "via": "google"
   },
@@ -161,8 +161,8 @@
   },
   {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-08T07:04:00Z",
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   },
