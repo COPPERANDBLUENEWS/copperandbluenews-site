@@ -3,7 +3,7 @@
   "id": 2026020276,
   "startTimeUTC": "2026-11-08T03:00:00Z",
   "gameDate": "2026-11-07",
-  "state": "FUT",
+  "state": "PRE",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -236,20 +236,6 @@
    "status": "IR"
   },
   {
-   "id": 8475786,
-   "name": "Zach Hyman",
-   "num": 18,
-   "pos": "L",
-   "status": "IR"
-  },
-  {
-   "id": 8482221,
-   "name": "Devon Levi",
-   "num": 27,
-   "pos": "G",
-   "status": "IR"
-  },
-  {
    "id": 8483455,
    "name": "Isaac Howard",
    "num": 53,
@@ -263,8 +249,8 @@
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Bob Stauffer",
-   "updatedAt": "2026-11-07T17:15:09.927Z"
+   "basis": "Edmonton Oilers",
+   "updatedAt": "2026-11-08T02:41:28.158Z"
   },
   {
    "name": "DailyFaceoff",
@@ -322,9 +308,9 @@
   "forwards": [
    [
     {
-     "id": 8478498,
-     "name": "Jake DeBrusk",
-     "num": 74,
+     "id": 8483395,
+     "name": "Arshdeep Bains",
+     "num": 13,
      "pos": "LW"
     },
     {
@@ -342,6 +328,26 @@
    ],
    [
     {
+     "id": 8478498,
+     "name": "Jake DeBrusk",
+     "num": 74,
+     "pos": "LW"
+    },
+    {
+     "id": 8481032,
+     "name": "Paul Cotter",
+     "num": 47,
+     "pos": "C"
+    },
+    {
+     "id": null,
+     "name": "Jonathan Lekkerimaki",
+     "num": 88,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
      "id": 8483499,
      "name": "Liam Ohgren",
      "num": 92,
@@ -354,9 +360,9 @@
      "pos": "C"
     },
     {
-     "id": null,
-     "name": "Jonathan Lekkerimaki",
-     "num": 88,
+     "id": 8475848,
+     "name": "Brendan Gallagher",
+     "num": 7,
      "pos": "RW"
     }
    ],
@@ -368,9 +374,9 @@
      "pos": "LW"
     },
     {
-     "id": 8484901,
-     "name": "Jacob Quillan",
-     "num": 62,
+     "id": 8484136,
+     "name": "Max Sasson",
+     "num": 63,
      "pos": "C"
     },
     {
@@ -379,34 +385,14 @@
      "num": 94,
      "pos": "RW"
     }
-   ],
-   [
-    {
-     "id": 8481032,
-     "name": "Paul Cotter",
-     "num": 47,
-     "pos": "LW"
-    },
-    {
-     "id": 8484136,
-     "name": "Max Sasson",
-     "num": 63,
-     "pos": "C"
-    },
-    {
-     "id": 8475848,
-     "name": "Brendan Gallagher",
-     "num": 7,
-     "pos": "RW"
-    }
    ]
   ],
   "defence": [
    [
     {
-     "id": 8483678,
-     "name": "Elias Pettersson",
-     "num": 25,
+     "id": 8484798,
+     "name": "Zeev Buium",
+     "num": 8,
      "pos": "LD"
     },
     {
@@ -418,29 +404,29 @@
    ],
    [
     {
-     "id": 8478465,
-     "name": "Guillaume Brisebois",
-     "num": 55,
-     "pos": "LD"
-    },
-    {
-     "id": 8484798,
-     "name": "Zeev Buium",
-     "num": 8,
-     "pos": "RD"
-    }
-   ],
-   [
-    {
      "id": 8476467,
      "name": "Jamie Oleksiak",
      "num": 4,
      "pos": "LD"
     },
     {
-     "id": 8483768,
-     "name": "Victor Mancini",
-     "num": 90,
+     "id": 8478465,
+     "name": "Guillaume Brisebois",
+     "num": 55,
+     "pos": "RD"
+    }
+   ],
+   [
+    {
+     "id": 8483678,
+     "name": "Elias Pettersson",
+     "num": 25,
+     "pos": "LD"
+    },
+    {
+     "id": 8474568,
+     "name": "Luke Schenn",
+     "num": 2,
      "pos": "RD"
     }
    ]
@@ -467,8 +453,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/vancouver-canucks/line-combinations",
     "what": "line combinations",
-    "basis": "Last Game (2026-11-05)",
-    "updatedAt": "2026-11-06T14:52:55.515Z"
+    "basis": "Brendan Batchelor",
+    "updatedAt": "2026-11-08T02:43:57.439Z"
    },
    {
     "name": "DailyFaceoff",
@@ -483,15 +469,15 @@
     "num": null,
     "pos": null
    },
-   "status": "Likely",
+   "status": "Confirmed",
    "backup": {
     "id": 8480947,
     "name": "Kevin Lankinen",
     "num": 32,
     "pos": "G"
    },
-   "note": "Merilainen was the first goalie off the ice at Vancouver's morning skate. "
+   "note": "Merilainen will start in Edmonton on Saturday. "
   }
  },
- "updated": "2026-11-07T18:50:22Z"
+ "updated": "2026-11-08T02:54:13Z"
 }
