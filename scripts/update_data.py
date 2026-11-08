@@ -13,6 +13,7 @@ Writes:
   data/odds.json         today's Oilers betting odds (NHL partner feed, FanDuel CA) or game null
   data/pbp/<id>.json     slim play-by-play (events + x/y coords + rosters) for the
                          Live rink tracker (tracker.html); same caching rules
+  data/mcdavid.json      McDavid 2026-27 point chase vs Gretzky's 215 (mcdavid.html)
 Prints LIVE=1 to $GITHUB_OUTPUT when an Oilers game is live or about to start.
 """
 import json, os, pathlib, sys, urllib.request
@@ -218,12 +219,258 @@ def players(extra_ids=()):
     print("players", len(ids))
 
 
+MCDAVID_ID, GRETZKY_ID = 8478402, 8447400
+RECORD, RECORD_SEASON = 215, 19851986
+
+
+def _read_json(path):
+    try:
+        return json.loads(path.read_text())
+    except Exception:
+        return None
+
+
+def _num(v):
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        return 0
+
+
+def _season_label(sid):
+    s = str(sid)
+    return f"{s[:4]}-{s[6:]}" if len(s) == 8 else s
+
+
+def _cum_games(log):
+    """Oldest first. Cumulative points are the sum of the NHL game log, nothing estimated."""
+    rows = sorted(log or [], key=lambda g: (g.get("gameDate") or "", g.get("gameId") or 0))
+    out, cum, goals, assists = [], 0, 0, 0
+    for g in rows:
+        team = g.get("teamAbbrev")
+        if team and team != "EDM":
+            continue
+        p, gl, a = _num(g.get("points")), _num(g.get("goals")), _num(g.get("assists"))
+        cum += p
+        goals += gl
+        assists += a
+        opp = g.get("opponentCommonName")
+        out.append({"gp": len(out) + 1, "date": g.get("gameDate"), "gameId": g.get("gameId"),
+                    "opp": g.get("opponentAbbrev") or "",
+                    "oppName": (opp or {}).get("default") or g.get("opponentAbbrev") or "",
+                    "home": g.get("homeRoadFlag") == "H", "g": gl, "a": a, "p": p, "cum": cum})
+    return out, goals, assists, cum
+
+
+def _games_needed(points, gp, target):
+    """Smallest number of additional games for points/gp pace to reach target. None if it can't."""
+    if points >= target:
+        return 0
+    if points <= 0 or gp <= 0:
+        return None
+    num = gp * (target - points)
+    return (num + points - 1) // points
+
+
+def _pace_target(points, gp, games_left, remaining, target):
+    """On-pace game, or how many points short the current pace finishes."""
+    if gp <= 0:
+        projected = 0
+    else:
+        projected = points * (gp + games_left) / gp
+    k = _games_needed(points, gp, target)
+    game = None
+    if k == 0:
+        on = True
+    elif k is not None and k <= games_left and k >= 1:
+        on = True
+        game = remaining[k - 1]
+    else:
+        on = False
+    off = None if on else round(target - projected, 4)
+    return {"target": target, "onPace": on, "offBy": off, "gamesNeeded": k, "game": game,
+            "projected": round(projected, 4)}
+
+
+def _gretzky_block(prev):
+    """Real 1985-86 game log, or None so the page draws a labeled 215/80 average."""
+    cached = (prev or {}).get("gretzky") or {}
+    if os.environ.get("LIVE_RUN") == "1" and cached.get("pace") == "game-log" and _gretzky_ok(cached):
+        return cached
+    try:
+        log = get(f"player/{GRETZKY_ID}/game-log/{RECORD_SEASON}/2")["gameLog"]
+        games, goals, assists, points = _cum_games(log)
+        block = {"playerId": GRETZKY_ID, "name": "Wayne Gretzky", "seasonId": RECORD_SEASON,
+                 "season": _season_label(RECORD_SEASON), "goals": goals, "assists": assists,
+                 "points": points, "gamesPlayed": len(games), "pace": "game-log",
+                 "cumulative": [g["cum"] for g in games],
+                 "source": f"player/{GRETZKY_ID}/game-log/{RECORD_SEASON}/2"}
+        if _gretzky_ok(block):
+            return block
+        print("gretzky log failed validation", goals, assists, points, len(games), file=sys.stderr)
+    except Exception as e:
+        print("gretzky log failed:", e, file=sys.stderr)
+    if cached.get("pace") == "game-log" and _gretzky_ok(cached):
+        print("keeping previous Gretzky game log", file=sys.stderr)
+        return cached
+    return {"playerId": GRETZKY_ID, "name": "Wayne Gretzky", "seasonId": RECORD_SEASON,
+            "season": _season_label(RECORD_SEASON), "goals": 52, "assists": 163,
+            "points": RECORD, "gamesPlayed": 80, "pace": "average",
+            "source": "season line only; game log unavailable"}
+
+
+def _gretzky_ok(block):
+    cum = block.get("cumulative") or []
+    return (block.get("gamesPlayed") == 80 and block.get("points") == RECORD
+            and block.get("goals") == 52 and block.get("assists") == 163
+            and len(cum) == 80 and cum[-1] == RECORD and all(cum[i] <= cum[i + 1] for i in range(79)))
+
+
+def _season_rows(landing):
+    rows = []
+    for s in landing.get("seasonTotals") or []:
+        if s.get("leagueAbbrev") != "NHL" or s.get("gameTypeId") != 2:
+            continue
+        sid = s.get("season")
+        rows.append({"seasonId": sid, "season": _season_label(sid), "gp": _num(s.get("gamesPlayed")),
+                     "g": _num(s.get("goals")), "a": _num(s.get("assists")), "p": _num(s.get("points"))})
+    return rows
+
+
+def _best_log(best, prev):
+    """Game-by-game cumulative for his best prior season, cached once it validates."""
+    if not best:
+        return None
+    cached = (prev or {}).get("careerBest") or {}
+    if (cached.get("seasonId") == best["seasonId"] and cached.get("points") == best["p"]
+            and cached.get("gamesPlayed") == best["gp"] and len(cached.get("cumulative") or []) == best["gp"]
+            and cached["cumulative"][-1] == best["p"]):
+        return cached
+    try:
+        log = get(f"player/{MCDAVID_ID}/game-log/{best['seasonId']}/2")["gameLog"]
+        games, goals, assists, points = _cum_games(log)
+        block = {"seasonId": best["seasonId"], "season": best["season"], "goals": goals, "assists": assists,
+                 "points": points, "gamesPlayed": len(games), "cumulative": [g["cum"] for g in games],
+                 "source": f"player/{MCDAVID_ID}/game-log/{best['seasonId']}/2"}
+        if len(games) == best["gp"] and points == best["p"] and goals == best["g"] and assists == best["a"]:
+            return block
+        print("career-best log failed validation", best["seasonId"], points, len(games), file=sys.stderr)
+    except Exception as e:
+        print("career-best log failed:", e, file=sys.stderr)
+    return None
+
+
+def _box_line(gid):
+    box = get(f"gamecenter/{gid}/boxscore")
+    for side in (box.get("playerByGameStats") or {}).values():
+        if not isinstance(side, dict):
+            continue
+        for group in side.values():
+            if not isinstance(group, list):
+                continue
+            for p in group:
+                if isinstance(p, dict) and p.get("playerId") == MCDAVID_ID:
+                    return {"goals": _num(p.get("goals")), "assists": _num(p.get("assists")),
+                            "points": _num(p.get("points"))}
+    return None
+
+
+def _opp(g):
+    home = g["home"]["abbrev"] == "EDM"
+    opp = g["away"] if home else g["home"]
+    return {"id": g["id"], "startTimeUTC": g["startTimeUTC"], "opp": opp.get("abbrev") or "",
+            "oppName": opp.get("name") or opp.get("abbrev") or "", "home": home, "state": g.get("state")}
+
+
+def mcdavid_chase(sched, stamp):
+    """data/mcdavid.json for mcdavid.html. Runs on the 3-hour build and on the live loop."""
+    path = DATA / "mcdavid.json"
+    prev = _read_json(path)
+    try:
+        log = get(f"player/{MCDAVID_ID}/game-log/{SEASON}/2")["gameLog"]
+    except Exception as e:
+        print("mcdavid log failed:", e, file=sys.stderr)
+        if prev:
+            print("keeping previous mcdavid.json", file=sys.stderr)
+            return
+        raise
+    games, goals, assists, points = _cum_games(log)
+    logged = {g["gameId"] for g in games}
+    reg = [g for g in sched if g.get("gameType") == 2 and (not g.get("scheduleState") or g.get("scheduleState") == "OK")]
+    live_src = next((g for g in reg if g.get("state") in LIVE and g["id"] not in logged), None)
+    remaining = [_opp(g) for g in reg if g["id"] not in logged and g.get("state") not in FINAL]
+    remaining.sort(key=lambda g: g["startTimeUTC"])
+    missed = sum(1 for g in reg if g.get("state") in FINAL and g["id"] not in logged)
+    live = None
+    if live_src:
+        try:
+            line = _box_line(live_src["id"])
+            if line:
+                live = {**_opp(live_src), **line,
+                        "toTie": RECORD - (points + line["points"]),
+                        "toBreak": RECORD + 1 - (points + line["points"])}
+        except Exception as e:
+            print("mcdavid live box failed:", e, file=sys.stderr)
+            old = (prev or {}).get("live") or {}
+            if old.get("id") == live_src["id"]:
+                live = old
+
+    live_run = os.environ.get("LIVE_RUN") == "1"
+    seasons = (prev or {}).get("seasons") if live_run and (prev or {}).get("seasons") else None
+    if not seasons:
+        try:
+            seasons = _season_rows(get(f"player/{MCDAVID_ID}/landing"))
+        except Exception as e:
+            print("mcdavid landing failed:", e, file=sys.stderr)
+            seasons = (prev or {}).get("seasons") or []
+    prior = [s for s in seasons if str(s.get("seasonId")) != SEASON]
+    prior.sort(key=lambda s: (-s["p"], -s["gp"]))
+    best = prior[0] if prior else None
+    best_log = _best_log(best, prev)
+    gretzky = _gretzky_block(prev)
+
+    gp = len(games)
+    games_left = len(remaining)
+    summary = {"goals": goals, "assists": assists, "points": points, "gp": gp,
+               "gamesLeft": games_left, "seasonGames": len(reg), "missed": missed,
+               "toTie": RECORD - points, "toBreak": RECORD + 1 - points,
+               "ppg": round(points / gp, 4) if gp else None,
+               "tie": _pace_target(points, gp, games_left, remaining, RECORD),
+               "break": _pace_target(points, gp, games_left, remaining, RECORD + 1)}
+    if gretzky.get("pace") == "game-log" and 1 <= gp <= len(gretzky.get("cumulative") or []):
+        summary["gretzkyThrough"] = gretzky["cumulative"][gp - 1]
+    else:
+        summary["gretzkyThrough"] = None
+    if best_log and 1 <= gp <= len(best_log["cumulative"]):
+        summary["careerBestThrough"] = best_log["cumulative"][gp - 1]
+    else:
+        summary["careerBestThrough"] = None
+
+    obj = {"updated": stamp, "season": SEASON, "seasonLabel": _season_label(SEASON),
+           "playerId": MCDAVID_ID, "name": "Connor McDavid", "record": RECORD,
+           "summary": summary, "live": live, "games": games, "remaining": remaining,
+           "gretzky": gretzky, "careerBest": best_log, "seasons": seasons,
+           "sources": {"gameLog": f"player/{MCDAVID_ID}/game-log/{SEASON}/2",
+                       "landing": f"player/{MCDAVID_ID}/landing",
+                       "schedule": f"club-schedule-season/EDM/{SEASON}"}}
+    write(path, obj)
+    print("mcdavid", f"{goals}-{assists}-{points}", "gp", gp, "left", games_left,
+          "proj", summary["tie"]["projected"], "gretzkyThrough", summary["gretzkyThrough"])
+
+
 def main():
     now = datetime.now(timezone.utc)
     games = get(f"club-schedule-season/EDM/{SEASON}")["games"]
     sched = [slim(g) for g in games]
     stamp = now.isoformat(timespec="seconds")
     write(DATA / "schedule.json", {"season": SEASON, "updated": stamp, "games": sched})
+
+    # McDavid's record chase. Same schedule as the other JSON, including the live loop
+    # (so a game that just hit the NHL game log is on the site with the next deploy).
+    try:
+        mcdavid_chase(sched, stamp)
+    except Exception as e:
+        print("mcdavid failed:", e, file=sys.stderr)
 
     # Box scores: fetch finished games once, always refresh live/just-started ones.
     live_game = None

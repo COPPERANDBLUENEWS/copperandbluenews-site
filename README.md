@@ -4,7 +4,7 @@ Static fan site for [@copperandbluenews](https://www.instagram.com/copperandblue
 Fan run. Not affiliated with the Edmonton Oilers or the NHL. Don't add official NHL/Oilers logos.
 
 ## Files
-- `index.html`, `schedule.html`, `scores.html`, `players.html`, `cap.html`, `player.html?id=PLAYERID`, `game.html?id=GAMEID` (box score), `tracker.html` (Live rink tracker, see below), `play.html` (AirHockey with Copper), `stats.html`, `posts.html`, `article.html?id=POSTID` and `articles/<id>.html` (one page per Instagram post; see Instagram articles), `history.html` (timeline from `data/history.json`, hand-curated with a source link per entry), `about.html`: pages
+- `index.html`, `schedule.html`, `scores.html`, `mcdavid.html` (McDavid Chase, see below), `players.html`, `cap.html`, `player.html?id=PLAYERID`, `game.html?id=GAMEID` (box score), `tracker.html` (Live rink tracker, see below), `play.html` (AirHockey with Copper), `stats.html`, `posts.html`, `article.html?id=POSTID` and `articles/<id>.html` (one page per Instagram post; see Instagram articles), `history.html` (timeline from `data/history.json`, hand-curated with a source link per entry), `about.html`: pages
 - `css/style.css`, `js/main.js`: styles and scripts
 - `posts.json`: the posts feed (newest first by `date`)
 - `data.json`: next game, latest result and standings (generated)
@@ -25,7 +25,7 @@ Put the graphic in `images/`, then add an entry to `posts.json`:
 ## Game data (CORS)
 The NHL API (`api-web.nhle.com`) sends **no `Access-Control-Allow-Origin` header** (tested Nov 4, 2026), so
 browsers can't call it. `scripts/update_data.py` (standard library only) fetches it and writes static JSON:
-`data.json` (home cards), `data/schedule.json`, `data/stats.json`, `data/standings.json` (league table), `data/leaders.json` (NHL skater and goalie leaders), `data/roster.json`, `data/players/<id>.json`, `data/live.json` and `data/games/<id>.json`
+`data.json` (home cards), `data/schedule.json`, `data/stats.json`, `data/standings.json` (league table), `data/leaders.json` (NHL skater and goalie leaders), `data/mcdavid.json` (McDavid Chase), `data/roster.json`, `data/players/<id>.json`, `data/live.json` and `data/games/<id>.json`
 (box scores: boxscore + landing + right-rail). Finished games are cached in the repo and not refetched.
 
 Pages are deployed by GitHub Actions (Settings > Pages > Source: **GitHub Actions**):
@@ -118,9 +118,31 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
 - "Latest on Instagram" (`js/instagram.js`): posts.html grid (up to 12) + Follow button and a 3-post strip on Home. Each card opens that post's article. See **Instagram articles** below. The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests.
-- Cache-bust: CSS/JS URLs use `?v=46`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
+- Cache-bust: CSS/JS URLs use `?v=49`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 - **Standings and leaders** (Scores tab): `standings.html` and `leaders.html`. `update_data.py` writes `data/standings.json` and `data/leaders.json` from the public NHL API (`standings/now`, `skater-stats-leaders/current`, `goalie-stats-leaders/current`) on the same schedule as the other JSON. The browser still cannot call the NHL API. These are not on the live Worker relay: they change a few times a day, and the relay's request budget is for the rink.
+- **McDavid Chase** (Home card and the Chase tab next to Scores): `mcdavid.html` and `data/mcdavid.json`. See below. No Worker route. The browser still cannot call the NHL API.
 - **Notifications inbox:** the header bell (top left) opens `notifications.html`. Unread ids are in `localStorage` key `cbn-alerts-read`. The list is `GET /alerts/log` on the alerts Worker. That Worker change is in `worker/` and is **not** deployed by GitHub Pages. See `worker/README.md`. Until it is deployed the page is empty; `?sample=1` shows labeled examples.
+
+## McDavid Chase (`mcdavid.html`)
+
+Connor McDavid's 2026-27 points against Wayne Gretzky's NHL single-season record of 215 (1985-86: 52 goals, 163 assists, 80 games). The home page has a compact card (points to go and a progress bar). Scores, Stats, Standings and Leaders link it as the Chase tab.
+
+`scripts/update_data.py` writes `data/mcdavid.json` from the public NHL API on the same runs as the other JSON:
+
+- `.github/workflows/site.yml` every 3 hours, on push, and on demand. It commits `data/` when the file changes.
+- `.github/workflows/live.yml` while an Oilers game is on (about every 2 minutes). That deploy is not committed; the next site run commits the log. `news.yml` also refreshes it before deploying.
+- The page and the home card re-read `data/mcdavid.json` (every 30 seconds while the file has a live game, otherwise every 5 minutes).
+
+Sources, all `https://api-web.nhle.com/v1`:
+
+- McDavid game log: `player/8478402/game-log/20262027/2` (the countdown, the pace, and the cumulative chart).
+- McDavid landing: `player/8478402/landing` (regular-season totals, including the 2022-23 career best). The 2022-23 game log is fetched once and kept only if it adds up to that season line.
+- Oilers schedule: `club-schedule-season/EDM/20262027`. Games left and the pace date are the remaining regular-season games (`gameType` 2), not a hard-coded 82. The 2026-27 schedule in the API is 84 games.
+- Gretzky 1985-86 game log: `player/8447400/game-log/19851986/2`. It is used only when it is 80 games and sums to 52 goals, 163 assists and 215 points. If that check fails, the chart uses a straight 215/80 line labeled as an average pace. Game-by-game numbers are never filled in.
+
+A game that is live and not in the log yet adds a "tonight" line from `gamecenter/<id>/boxscore`. That line does not change the countdown until the game log includes the game, so a partial period cannot swing the pace.
+
+No Worker change. Game alerts, notification URLs, the CNAME and `ADMIN_SECRET` are untouched. `mcdavid.html` and `js/mcdavid.js` are in the service-worker precache (cbn-v49). `data/mcdavid.json` is network-first, same as the other data JSON.
 
 ## Cap & contracts (manual, sources: public reports)
 The NHL API has no contract data. `data/contracts.json` is filled by hand from **public reports**:
@@ -299,7 +321,7 @@ so later goals are allowed. Touch on the rink does not call preventDefault.
 `&hold=1` with `demo` and `at` freezes that simulated frame (no extra stepping) so a
 player-goal banner can be captured; it does not change scoring. Example:
 `play.html?demo=1&seed=2&at=3.4&hold=1`.
-The page, JS, config, Copper SVG and rink WAVs are precached for offline play in cbn-v46.
+The page, JS, config, Copper SVG and rink WAVs are precached for offline play in cbn-v49.
 `js/airhockey-online.js` is precached with them. A live match still needs the network.
 
 ### Play online
