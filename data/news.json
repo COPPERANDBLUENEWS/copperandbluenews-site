@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-08T17:14:27Z",
+ "updated": "2026-11-08T18:10:32Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (8)",
-  "Google News (92)"
+  "Sportsnet (7)",
+  "Google News (91)"
  ],
  "errors": [],
  "items": [
@@ -25,18 +25,18 @@
    "via": "google"
   },
   {
-   "title": "Oilers Sunday Census: First impressions of the Edmonton Oilers' new Hometown Remix jerseys",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRUxMNkN2UFBWX2NkWUM4UUpfSjlBTkVQbnVaaUtGb3IzQm03OFRZbjBqVlBwYzRWajFfOURZZmRqTXdvNlJlVHpHVnZUc3h5NmkxWHJYQ1lVcTVfWUVjWVNXM0hTaVctWktwLXdPLUFQdEFubEtodmtRcVk4QXNrRi0tRi02dVZ5Q1Y0TmRDMmZTMkhrVEFOaWVKbEoyWUFTQkdKRGduWVRtZVhBcE55VDl3dFVNTnBuVS13Z3FR?oc=5",
-   "source": "The Oil Rig",
-   "published": "2026-11-08T15:31:08Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "NHL Game Recap: Vancouver Canucks at Edmonton Oilers with Line Combinations 11/07/2026",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWDFRREJkd2RrWjVMTGh0QVhHWnl6bFBXNVViZ0tJSUtpRXU0X2lWbkowbnJ3ckxzSE9nejVEa3lBX3Q0c3FScGFGYmljSHFZTzl3WnN3bzNldWtNNVZoRE8wdVNjRTlPMGo0OU5rcVk1b2xmdjNINWM2eUU4VTY1a3hibDBtYlRBLWIxRmZsVkpvaGF5bzliWlpua0ozeTFtVGRYSzR3b2JRaHBQNGlrMXpR?oc=5",
    "source": "Inside The Rink",
    "published": "2026-11-08T15:30:34Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Canucks match effort by high-powered Oilers but crumble in third period",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWnh0NGxBVFBRR080RlljRVZKVnFyRjdGWjFyUVMyMHZVMGZBQ1kwMThyTnJuYl9uaUxQT1pZV0M3eXhpRlhWVThGNGdSM09VYmR0TWlZTVkxTUxMcWtrcXAtelJTX2t0OUNVMWMtSFdUcHB5eVNJbldVVzJhVGFIWlA2WFR2bVhnUHVXZW93YUJPNUItaGJXaV90Mm1hMmdsMFZkNDVEOTYyZUtoQnc?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-08T15:03:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -160,13 +160,6 @@
    "via": "google"
   },
   {
-   "title": "Canucks match effort by high-powered Oilers but crumble in third period",
-   "url": "https://www.sportsnet.ca/nhl/article/canucks-match-effort-by-high-powered-oilers-but-crumble-in-third-period/",
-   "source": "Sportsnet",
-   "published": "2026-11-08T07:54:17Z",
-   "snippet": "It was a distinctly better effort than the Canucks managed in Thursday’s lifeless loss. But their opponent was much better too."
-  },
-  {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
    "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
    "source": "EdmontonOilers.com",
@@ -186,13 +179,6 @@
    "source": "Sportsnet",
    "published": "2026-11-08T06:07:37Z",
    "snippet": ""
-  },
-  {
-   "title": "NHL Highlights: Oilers 4, Canucks 2",
-   "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-oilers-4-canucks-2-2/",
-   "source": "Sportsnet",
-   "published": "2026-11-08T05:59:12Z",
-   "snippet": "Leon Draisaitl scored twice and added an assist, while Connor McDavid had three helpers to extend his assist streak to 18 games. Devon Levi made 20 saves in his return from IR as the…"
   },
   {
    "title": "Edmonton Oilers dump Canucks, complete clean sweep of Vancouver teams",
@@ -277,6 +263,20 @@
    "source": "Edmonton Journal",
    "published": "2026-11-07T21:04:40Z",
    "snippet": "TNA: Destination X goes Sunday, Nov. 15 at 4 p.m. at the Edmonton Expo Centre. Tickets are available at Ticketmaster.com"
+  },
+  {
+   "title": "Canucks at Oilers projected lineups",
+   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-preview-november-7-2026",
+   "source": "NHL.com",
+   "published": "2026-11-07T19:30:24.446Z",
+   "snippet": "CANUCKS (3-14-1) at OILERS (11-3-3) 10 p.m. ET; TVAS, SN Canucks projected lineup Arshdeep Bains -- Elias Pettersson -- Brock Boeser Liam Ohgren -- Marco Rossi -- Linus Karlsson Drew…"
+  },
+  {
+   "title": "RELEASE: Oilers place Atro Leppanen on waivers",
+   "url": "https://www.nhl.com/oilers/news/release-oilers-place-atro-leppanen-on-waivers",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-07T18:57:04.06Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers have placed defenceman Atro Leppanen on waivers for the purpose of assignment to the Bakersfield Condors, the team announced on Saturday."
   }
  ]
 }
