@@ -57,9 +57,9 @@
   ],
   [
    {
-    "id": 8479368,
-    "name": "Max Jones",
-    "num": 46,
+    "id": 8480029,
+    "name": "Alex Formenton",
+    "num": 26,
     "pos": "LW"
    },
    {
@@ -77,9 +77,9 @@
   ],
   [
    {
-    "id": 8480029,
-    "name": "Alex Formenton",
-    "num": 26,
+    "id": 8479368,
+    "name": "Max Jones",
+    "num": 46,
     "pos": "LW"
    },
    {
@@ -243,14 +243,16 @@
    "status": "Day-to-day"
   }
  ],
- "notes": [],
+ "notes": [
+  "Projection is based on the Last Game (2026-11-07) lineup until morning skate or practice updates."
+ ],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Edmonton Oilers",
-   "updatedAt": "2026-11-08T02:41:28.158Z"
+   "basis": "Last Game (2026-11-07)",
+   "updatedAt": "2026-11-08T15:51:29.808Z"
   },
   {
    "name": "DailyFaceoff",
@@ -500,5 +502,5 @@
    "note": null
   }
  },
- "updated": "2026-11-08T15:14:33Z"
+ "updated": "2026-11-08T16:14:54Z"
 }
