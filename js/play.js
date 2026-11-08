@@ -183,7 +183,7 @@
       for(let x=W/2-GOAL/2+6;x<W/2+GOAL/2;x+=7){c.beginPath();c.moveTo(x,y);c.lineTo(x,y+WALL);c.stroke();}}
   }
   drawRink();
-  let game=null,immersive=false,nativeEntered=false,savedScroll=0,raf=0,last=0,acc=0,activePointer=null,trails=[],audio=null,scoreKey='',finishShown=false,bannerOn=false;
+  let game=null,immersive=false,nativeEntered=false,savedScroll=0,raf=0,last=0,acc=0,activePointer=null,trails=[],audio=null,scoreKey='',finishShown=false,bannerOn=false,fallbackNote='';
   const keys=new Set(),params=new URLSearchParams(location.search),demo=params.get('demo')==='1';
   const demoSpeed=demo?clamp(Number(params.get('speed'))||1,1,20):1;
   const demoSeed=Number(params.get('seed'))||42;
@@ -364,7 +364,19 @@
     game=create({difficulty:$('playMood').value,demo,demoDifficulty:'normal',...(demo?{rng:seeded(demoSeed)}:{}),
       onPaddle(speed){playContact('clack',speed);},onBoard(speed){playContact('thud',speed);},
       onGoal(side,s){syncScore();if(side==='you')playHorn();else playAww();const text=cheers[side][Math.floor(Math.random()*cheers[side].length)];$('arenaComment').textContent=text;$('gameLive').textContent=`${side==='you'?'You score':'Copper scores'}. You ${s.score.you}, Copper ${s.score.copper}. ${text}`;trails=[];},onFinish:finish,onFreeze(){ $('arenaComment').textContent='Frozen puck. Fresh centre-ice faceoff!'; }});
-    $('arenaMood').textContent=MOODS[game.state.difficulty].name+(demo?' · demo':'');$('arenaComment').textContent='Drag your paddle. Own your half.';syncScore();$('pongPanel').hidden=true;$('pauseGame').textContent='Pause';$('pauseGame').disabled=false;$('shareStatus').textContent='';if(immersive)animate();
+    $('arenaMood').textContent=MOODS[game.state.difficulty].name+(fallbackNote?' · computer':'')+(demo?' · demo':'');
+    $('arenaComment').textContent=fallbackNote||'Drag your paddle. Own your half.';
+    if(fallbackNote&&$('gameLive'))$('gameLive').textContent=fallbackNote;
+    if(fallbackNote){
+      if($('oppLabel'))$('oppLabel').textContent='COPPER';
+      if($('youLabel'))$('youLabel').textContent='YOU';
+      if($('copperMark'))$('copperMark').hidden=false;
+      if($('scoreClock'))$('scoreClock').hidden=true;
+      if($('netHud'))$('netHud').hidden=true;
+      if($('youTag'))$('youTag').hidden=true;
+      document.body.classList.remove('ah-online');
+    }
+    syncScore();$('pongPanel').hidden=true;$('pauseGame').textContent='Pause';$('pauseGame').disabled=false;$('shareStatus').textContent='';if(immersive)animate();
   }
   function showPanel(kind) {
     document.body.classList.add('rink-paused');
@@ -376,7 +388,7 @@
     const mascot=$('panelMascot');if(mascot&&!onlineOwns())mascot.hidden=false;
     const exitBtn=$('panelExit');if(exitBtn&&!onlineOwns())exitBtn.textContent='Exit rink';
     const rec=$('arenaRecord');if(rec&&!onlineOwns())rec.hidden=false;
-    $('panelCopy').textContent=over?`${s.score.you}–${s.score.copper}. ${win?'Copper: “What a beauty! Rematch?”':'Copper: “Good game! Your next win is coming.”'}${demo?' Demo only — not added to your record.':''}`:kind==='restart'?'Restart this match at 0–0? Your saved record stays.':'Copper is keeping your spot. Resume when you’re ready.';
+    $('panelCopy').textContent=over?`${s.score.you}–${s.score.copper}. ${win?'Copper: “What a beauty! Rematch?”':'Copper: “Good game! Your next win is coming.”'}${demo?' Demo only — not added to your record.':''}${fallbackNote?' This was the computer, so your online record stays the same.':''}`:kind==='restart'?'Restart this match at 0–0? Your saved record stays.':'Copper is keeping your spot. Resume when you’re ready.';
     $('resumeGame').hidden=over;$('resumeGame').textContent=kind==='restart'?'Keep playing':'Resume';$('againGame').textContent=over?'Play again':'Restart match';$('shareGame').hidden=!over;
     $('resumeGame').hidden?$('againGame').focus():$('resumeGame').focus();
   }
@@ -404,7 +416,7 @@
     resize();animate();if(newMatch)canvas.focus({preventScroll:true});
   }
   function exit() {
-    if(!immersive)return;pauseGame();immersive=false;nativeEntered=false;cancelAnimationFrame(raf);raf=0;keys.clear();activePointer=null;arena.hidden=true;
+    if(!immersive)return;fallbackNote='';pauseGame();immersive=false;nativeEntered=false;cancelAnimationFrame(raf);raf=0;keys.clear();activePointer=null;arena.hidden=true;
     document.body.classList.remove('rink-immersive');document.body.classList.remove('rink-paused');document.documentElement.classList.remove('rink-lock');
     if(document.fullscreenElement===arena)try{document.exitFullscreen().catch(()=>{});}catch(_){}
     try{screen.orientation?.unlock();}catch(_){}
@@ -457,6 +469,12 @@
   window.addEventListener('resize',resize);window.visualViewport?.addEventListener('resize',resize);
   if(typeof ResizeObserver!=='undefined')new ResizeObserver(resize).observe($('pongRink'));
   lib.drawSnapshot=draw;lib.clearTrails=()=>{trails.length=0;};lib.playHorn=playHorn;lib.playAww=playAww;lib.playContact=playContact;lib.unlockAudio=unlockAudio;lib.fitCanvas=resize;
+  lib.playCopper=note=>{
+    if(onlineOwns()||immersive)return false;
+    fallbackNote=note||'No one else is online. This is Copper, the computer. It does not change your online record.';
+    enter(true,true);
+    return true;
+  };
   if(demo){
     enter(true,false);
     unlockAudio();

@@ -224,7 +224,7 @@ Head-to-head play uses two new SQLite Durable Objects. `GameAlerts` is not migra
 | `POST /airhockey/login` | the rink | username + device token, or username + recovery code (recovery replaces the device token) |
 | `GET /airhockey/me` | the rink | `Authorization: Bearer` device token |
 | `GET /airhockey/leaderboard` | the rink | top 25 plus the caller’s rank when a token is sent |
-| `POST/GET/DELETE /airhockey/quick` | the rink | quick-match queue |
+| `POST/GET/DELETE /airhockey/quick` | the rink | quick-match queue. A player waits 8 seconds. Another player in that window is a human match. After that the queue row is removed and the rink starts Copper. Computer games are not written to the leaderboard. |
 | `POST/GET/DELETE /airhockey/room` | the rink | friend room code |
 | `POST /airhockey/join` | the rink | `{code}` joins `play.html?room=CODE` |
 | `GET /airhockey/ws/:matchId` | the rink | WebSocket. The match object simulates the puck |

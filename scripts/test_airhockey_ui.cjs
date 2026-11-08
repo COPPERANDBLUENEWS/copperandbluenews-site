@@ -110,5 +110,18 @@ function setup({search='',storageDenied=false,storage=null,AudioContext=null,med
  assert.equal(loud(quiet.nodes.puckClack).length,0);
  assert.equal(loud(quiet.nodes.boardThud).length,0);
  assert.equal(loud(quiet.nodes.copperAww).length,0);
+ const fallback=setup();
+ assert.equal(typeof fallback.c.CopperAirHockey.playCopper,'function');
+ assert.equal(fallback.nodes.pongArena.hidden,true);
+ assert.equal(fallback.c.CopperAirHockey.playCopper('No one else is online. This is Copper, the computer. It does not change your online record.'),true);
+ assert.equal(fallback.nodes.pongArena.hidden,false);
+ assert.match(fallback.nodes.arenaMood.textContent,/computer/);
+ assert.match(fallback.nodes.arenaComment.textContent,/Copper, the computer/);
+ assert.match(fallback.nodes.gameLive.textContent,/online record/);
+ assert.equal(fallback.nodes.oppLabel.textContent,'COPPER');
+ assert.equal(fallback.nodes.youLabel.textContent,'YOU');
+ assert.equal(fallback.nodes.scoreClock.hidden,true);
+ assert.equal(fallback.c.document.body.classList.contains('ah-online'),false);
+ assert.equal(fallback.c.CopperAirHockey.playCopper('again'),false,'a Copper game already on the ice is not started twice');
  console.log('AIRHOCKEY UI PASS: DPR, immersive fallback, native-fullscreen exit, Esc, pause/resume/restart, hidden-tab stop with explicit resume, zero idle RAF, genuine win/loss screens, exact share text, denied-storage recovery, best-win/streak persistence, goal horn, Copper tone, mute memory and goal banner.');
 })().catch(e=>{console.error(e);process.exitCode=1;});

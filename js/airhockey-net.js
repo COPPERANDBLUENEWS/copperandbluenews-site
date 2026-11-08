@@ -101,7 +101,15 @@
     return err;
   }
 
-  const api = {createBuffer, pushSample, sampleBuffer, isStale, reconnectDelay, pingBars, stepPaddle, reconcile};
+  // Server decides. A queued search that comes back copper or idle starts Copper.
+  // matched always wins, including when a human arrived on the same poll.
+  function quickSearchAction(status) {
+    if (status === 'matched') return 'match';
+    if (status === 'copper' || status === 'idle') return 'copper';
+    return 'wait';
+  }
+
+  const api = {createBuffer, pushSample, sampleBuffer, isStale, reconnectDelay, pingBars, stepPaddle, reconcile, quickSearchAction};
   root.CbnAirNet = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);
