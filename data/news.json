@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-08T15:33:13Z",
+ "updated": "2026-11-08T15:43:46Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (8)",
-  "Google News (93)"
+  "Google News (94)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers Sunday Census: First impressions of the Edmonton Oilers' new Hometown Remix jerseys",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRUxMNkN2UFBWX2NkWUM4UUpfSjlBTkVQbnVaaUtGb3IzQm03OFRZbjBqVlBwYzRWajFfOURZZmRqTXdvNlJlVHpHVnZUc3h5NmkxWHJYQ1lVcTVfWUVjWVNXM0hTaVctWktwLXdPLUFQdEFubEtodmtRcVk4QXNrRi0tRi02dVZ5Q1Y0TmRDMmZTMkhrVEFOaWVKbEoyWUFTQkdKRGduWVRtZVhBcE55VDl3dFVNTnBuVS13Z3FR?oc=5",
+   "source": "The Oil Rig",
+   "published": "2026-11-08T15:31:08Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL Game Recap: Vancouver Canucks at Edmonton Oilers with Line Combinations 11/07/2026",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWDFRREJkd2RrWjVMTGh0QVhHWnl6bFBXNVViZ0tJSUtpRXU0X2lWbkowbnJ3ckxzSE9nejVEa3lBX3Q0c3FScGFGYmljSHFZTzl3WnN3bzNldWtNNVZoRE8wdVNjRTlPMGo0OU5rcVk1b2xmdjNINWM2eUU4VTY1a3hibDBtYlRBLWIxRmZsVkpvaGF5bzliWlpua0ozeTFtVGRYSzR3b2JRaHBQNGlrMXpR?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-08T15:30:34Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers Week Ahead: Schedule & Storylines – Frederic Scratched, Michaels Struggles, Injury Updates, & More",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZk1QTFdXOFNlMmpudjl6NGRVZVNiWDNLU2oxOGdqM0hBaWV2dndjUTZaeXJ2NXZ0YjZtWElwaVYxeHZaenF3SlJwZWtyZzN2OXdxQ202N1lpRlRhdWRaWi1WS3JaQi0ybkpDRXFtakVOekNuUWdQUEZrbmN4ajBZczZQUE1OaDlOM2poOGlmZm40VkxHZHBlY1kyRHhpWXFZUTZxRlJoTmNKSENLb0w5S1BNR2lzSWhDekRzNGFVVUw3eUk?oc=5",
@@ -128,6 +144,14 @@
    "via": "google"
   },
   {
+   "title": "New York brings 3-game win streak into matchup against Edmonton",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN211UUJncU9mTENtenVJUjFGcmZxODNlN0JFOWd6OGRtbGRQTE5wX2YzOTJDZ1E5ei0zWVJRd0VyaHRmTDVwNkdiUjllWHRZVGJyMVNuLTdZamp1QTZBWVl4VHp2M05hMmljYXZleXJhRm5fZ1RiOFJaRUs2bUl2OGxLUGRrZFltaHlDMXdEdlM5UdIBlwFBVV95cUxPREstdmlFRDV6ZkVCX1RFSU9PaGRIQW5jMnhna2wxVTJHSk1RbUlnaU1lZVNEN3o5S21YSXpQQUVOS2hweFlYY0xFbVlJVXBzSmxTaFJ0SF9KSXhBWV9ZTUxzc0FBZU45MDFUYWpSWHRkUkpkNGFQWnFtNnZ6ZFM5dUV0MHZSalJaaW9pcHExdWsyTkFRWHo4?oc=5",
+   "source": "ABC News - Breaking News, Latest News and Videos",
+   "published": "2026-11-08T10:10:20Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "QUICK RECAP: Oilers 4, Canucks 2 | Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uQzdPQzhuSV9YLTZyTTBlRHlKOFY0cHAwUEU3anUxYllvaTMtbmR6S3NjRTdHXzZUSW5IcmFYYzlTVzEzbGpxdXlCeFYyTzhYalBnVm9RbXhydGZlOElhS2RTV0htV2JYWUx6dmppclJheXhnYS02MUFRYw?oc=5",
    "source": "NHL.com",
@@ -136,28 +160,18 @@
    "via": "google"
   },
   {
-   "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONUVIcVNoZ1FZbzYzQXVkeEZnVHE4REtTWGZzRlRhelFvUktDc1llcWJqNURzdzJlbFdTcGJxRnl5VTRvTmNldVJpcU5xNmFldUJFQVJYa0t5UGRWcndGUVNDMzdneG03X3YwS2ZVcDI5Z3NIbGhOU3pCNkloTnk3NlZtMlFQcFlNZEpEU2RR?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-08T09:23:40Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Nugent-Hopkins Leaves Oilers Game After Puck Strikes Head",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbjJuX0VfN0R6dUI1dWh2M29NWE1aZWV2YnNTQXRuLTkyVkstOTYxZEJFQlZXZG9HV3duTXR3X2FPZUJBR3BSRnd5cEVvYjM2bWl3eTJQUDhPdVlzTzFwVDBnWW4xVGpTMWh0bG5NTXNkRjBzZXJQLWYwOEhXcWNYM1M4b3RoT2c?oc=5",
-   "source": "RG.org",
-   "published": "2026-11-08T08:23:26Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Canucks match effort by high-powered Oilers but crumble in third period",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWnh0NGxBVFBRR080RlljRVZKVnFyRjdGWjFyUVMyMHZVMGZBQ1kwMThyTnJuYl9uaUxQT1pZV0M3eXhpRlhWVThGNGdSM09VYmR0TWlZTVkxTUxMcWtrcXAtelJTX2t0OUNVMWMtSFdUcHB5eVNJbldVVzJhVGFIWlA2WFR2bVhnUHVXZW93YUJPNUItaGJXaV90Mm1hMmdsMFZkNDVEOTYyZUtoQnc?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-08T08:06:00Z",
-   "snippet": "",
-   "via": "google"
+   "url": "https://www.sportsnet.ca/nhl/article/canucks-match-effort-by-high-powered-oilers-but-crumble-in-third-period/",
+   "source": "Sportsnet",
+   "published": "2026-11-08T07:54:17Z",
+   "snippet": "It was a distinctly better effort than the Canucks managed in Thursday’s lifeless loss. But their opponent was much better too."
+  },
+  {
+   "title": "Draisaitl scores twice, Oilers hold off Canucks",
+   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-08T07:04:00Z",
+   "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   },
   {
    "title": "Oilers’ McDavid continues record start with three more points vs. Canucks",
@@ -263,20 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-07T19:30:24.446Z",
    "snippet": "CANUCKS (3-14-1) at OILERS (11-3-3) 10 p.m. ET; TVAS, SN Canucks projected lineup Arshdeep Bains -- Elias Pettersson -- Brock Boeser Liam Ohgren -- Marco Rossi -- Linus Karlsson Drew…"
-  },
-  {
-   "title": "RELEASE: Oilers place Atro Leppanen on waivers",
-   "url": "https://www.nhl.com/oilers/news/release-oilers-place-atro-leppanen-on-waivers",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T18:57:04.06Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers have placed defenceman Atro Leppanen on waivers for the purpose of assignment to the Bakersfield Condors, the team announced on Saturday."
-  },
-  {
-   "title": "PROJECTED LINEUP: Levi to start & Hyman returns for Saturday's meeting with Canucks",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-levi-to-start-hyman-returns-for-saturday-s-meeting-with-canucks-11-01-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T18:52:10.923Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers will have netminder Devon Levi and forward Zach Hyman back in their lineup on Saturday night after both are activated from Injured Reserve ahead of a…"
   }
  ]
 }
