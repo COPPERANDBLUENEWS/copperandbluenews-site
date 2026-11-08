@@ -1,18 +1,41 @@
 {
- "updated": "2026-11-08T04:30:39Z",
+ "updated": "2026-11-08T05:27:35Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (4)",
-  "Google News (84)"
+  "Sportsnet (5)",
+  "Google News (81)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "CFL division final takeaways: Alouettes, Elks rise to occasion, reach Grey Cup",
+   "url": "https://www.sportsnet.ca/cfl/article/cfl-division-final-takeaways-alouettes-elks-rise-to-occasion-to-reach-grey-cup/",
+   "source": "Sportsnet",
+   "published": "2026-11-08T04:41:47Z",
+   "snippet": "The Montreal Alouettes and Edmonton Elks are headed to the Grey Cup after two very different victories. Here are six takeaways from a playoff weekend that delivered big performances, costly…"
+  },
   {
    "title": "Oilers' Connor McDavid ties Adam Oates with assists in 18 consecutive games",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVC1PTDdqOHp0WUpkQ3ZpRW5kbURZeU1YWlhlTW41aGNhX1pMZ2NVSDlJUGpjZ01iVFBoYW00STk0Wk54XzZYdlMzc2hzbjVYS3NaRnd6Q3dMZXhMWm9YcWtVY3FyZndRU3JaYmU2OUVoTEtEMVU4RmxWV05OMzk3cFZvRmJPdnBlV2J4N3luTVpZa0oySldUMHdNRmszUVRHX2d3S21PNFpJeDJHcjI3RXpR?oc=5",
    "source": "Sportsnet.ca",
    "published": "2026-11-08T04:07:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vancouver Canucks 1 - Edmonton Oilers 1: End 1st",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-08T03:56:46Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vancouver Canucks vs. Edmonton Oilers Box Score & Stats - November 7, 2026",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9MOTVPS2Vld21heDI4cHo2NFBjaF94MXFVMmtvMWhJZmRyWWs0OWs5TjA4ODlRZDJtM25PY0xKMWFMUWdaQXVULUZ5YnBYb2pXU05KSGl5c1pqTWhjNW01RTNNVk56enBqaEl3c2kwVzhrdkJyS0R5V3dtNkg?oc=5",
+   "source": "CBS Sports",
+   "published": "2026-11-08T03:16:21Z",
    "snippet": "",
    "via": "google"
   },
@@ -46,14 +69,6 @@
    "source": "Sportsnet",
    "published": "2026-11-08T02:47:30Z",
    "snippet": ""
-  },
-  {
-   "title": "Ryan Nugent-Hopkins posts two assists Thursday against Ducks",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOblJCcXJEZFNWa3RzM2R2bFlLeERRNmFvUnRzbDRfSW9IQjVXb1doRlFkRHhQQzdGTUMzRkpDeG5lZ3lWampRdlhRNzlxRFk5LXpzUzVUOHhEVzZfWkRuWEdPYllVSmFnZDdtQ3JheVd5YklhbGkyb0hpakNlQ1k5a0FHQ3FxZnRpOGVSYW9FYVZKUEludlRhMTRfTm0zcGhGVGdHaVJ3eG14c0hr0gGyAUFVX3lxTE9kTzNHMEFnLWNRSWtOQXc3S0ZhRWhuejVqNWF5b3dBZHdSMzEzNWxYYkt3bDJWYXp1YnZsZEM0M0MtczNLem9CcTNFMGNMZEtHYTJGRjRIck85MFJZQlQ0dkt6WXBlYUhGcGZfQ25LbHhVb2hKdHpFNjhoeW5EaXhCOTdZdW5tS1VHeDRkMjlCUFNCNWV4NV9TRjI5VXE0N083d1NmT09NSEVRNDFINWtfSXc?oc=5",
-   "source": "FantasyPros",
-   "published": "2026-11-08T02:45:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Evan Bouchard notches two points in Thursday's loss to Ducks",
@@ -117,14 +132,6 @@
    "snippet": "Watch as Edmonton Elks quarterback Cody Fajardo runs outside the tackles into the end-zone for six, the first touchdown of the West Final between the Elks and Lions."
   },
   {
-   "title": "Vancouver Canucks @ Edmonton Oilers: Live game updates, stats, play-by-play",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-08T00:56:46Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers Play First Of Many 9PM Starts",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQnc2UXZZM2I1Z0RwS1l3bHl5YmdtTjZTbkg4ZXZZMnBYWnEtdjlhYXlqRnNzazNvay01THlfMUNJeldUbFFEV3F0TFpzWnZzaFBsYXBiZUVlVkpxbnZXWEZNc3ZHMW10RUw5WjRPdWtwRU80aGZtTFZaalg5OFFTWThhSVVBN3FOVktlQWhLVDVUZDRLSmtiZ093?oc=5",
    "source": "The Hockey News",
@@ -133,33 +140,10 @@
    "via": "google"
   },
   {
-   "title": "Flames goalie Devin Cooley most interesting man in hockey",
-   "url": "http://edmontonjournal.com/sports/hockey/nhl/flames-goalie-devin-cooley-most-interesting-man-in-hockey/wcm/2f976173-78be-4d03-8e73-57c1eb4f6b4e",
-   "source": "Edmonton Journal",
-   "published": "2026-11-08T00:26:02Z",
-   "snippet": "California-born netminder insightful, at ease, and possessed of a certain existential acceptance"
-  },
-  {
    "title": "Why the Oilers should split up Connor Murphy and Ryan Shea",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQl93MFFWS2Z3Z3N0dmJZZl9jdDlOeE81MkhmaUVZQkVMYWQtYW1rNDdHSFRnS09xeWphTmZvTkFtZkV6QWh4QVVQdllaQ2hEblRuM09MMXA1anhNQ1BIOU4ydTdjdkdMTVZkcnpyY1Z2Vk11U2hkMHdHV3k0SFJMQWxqeGtjZUtUN1dJME1GZ0F1a0tqNTFGM3M0UGJZZTNTOUZV?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-08T00:17:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks Visit Edmonton Oilers on Saturday",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRXhpenA1RWNndWpSOXhDYVFDbG1COWtNWDRiTnpWamFEMkRVeTkxaTdWYlVGN1RMb0FpWkFsOEFFMkVELVJHNC1BczdpUUxXbWozaTg1Y1JBUjdicE80LXZPQUlTQkYyQktwb0JZYVhPTWRzck9yMTZXNnpQWGMxeGJPWnJQdlEyWF9VTzVzdTZ0RTBhNEpPNDlIR0FSRS1vc3NWMjBqRzNFX1lUQ2c?oc=5",
-   "source": "Yardbarker",
-   "published": "2026-11-08T00:12:27Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-08T00:04:45Z",
    "snippet": "",
    "via": "google"
   },
@@ -188,6 +172,14 @@
    "via": "google"
   },
   {
+   "title": "Oilers activate Zach Hyman, Devon Levi off IR",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOGZodnhZb2NpV0p4RkV4Zms1R1FOd3ZmNzliaUh3SFV5NHdKVXEyNWNkSlduRVFCREU5N3BRc1ZJS1ZaNXo4V3R4YXlORGt5Qmdoc1VmR0JYNnYzdkdhSS11QVRIQWFsSU5LQTJ2a19Ec2NUbUM3VUE3M3pQRExVNGtxSVl4Mm43U3l5aWRYTzFXQUxtZ0I3ek84UGk0TksxbC1ReWkwNHk1SUR4Z3FTaHl2czQ3Q0dKY0JJ?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-07T23:00:16Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "RELEASE: Oilers activate Levi & Hyman off IR; Tomkins loaned to Condors",
    "url": "https://www.nhl.com/oilers/news/release-oilers-activate-devon-levi-zach-hyman-off-ir",
    "source": "EdmontonOilers.com",
@@ -196,10 +188,11 @@
   },
   {
    "title": "Oilers notebook: Zach Hyman returns to the lineup, Walman situation getting dicey",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers-zach-hyman-returns-jake-walman-situation",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOejJUR0dUZnByQkJZR3N3RXFTYXFQWHlzZ19QU1lhMlFCN0MzVno5NkxuWmN1OWZON2NTNHVJcjhLZ0g2a2t2NE5WcnBTdmVxTkJPcURBeXFCZ3pWaDh2SVNtZ3N4aE9BNms3RWFoOGtFSC05dDdFYzU3WGFaejVzaTlnRnRhbmZmMWNySUpWVWVYcnE2cDVzbFFmVUg0dXhnMkhNOQ?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-07T21:31:16Z",
-   "snippet": "“Great to be back, obviously. Been unfortunate with the injuries but it’s a lot easier to be out when the team’s winning,” said Hyman"
+   "published": "2026-11-07T21:33:11Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "TNA Wrestling returns to its roots with Destination X at Edmonton's Expo Centre",
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-06T20:41:56Z",
    "snippet": "Eleven years has passed since the then-Eskimos defended home turf in the West Division final, before going on to win the Grey Cup"
+  },
+  {
+   "title": "RELEASE: Hockey Fights Cancer Mega 50/50 raffle returns",
+   "url": "https://www.nhl.com/oilers/news/release-hockey-fights-cancer-mega-50-50-raffle-returns",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-06T18:11:04.536Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) announced today the return of the Oilers “Hockey Fights Cancer” MEGA 50/50, running from the Oilers Hockey Fights Cancer game…"
   }
  ]
 }
