@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:14:40Z",
+ "updated": "2026-11-08T21:43:19Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,14 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "The Statsies: Max Sasson’s line stands out as Canucks fall to Oilers",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQR0dhLXR3UmotYVN2MUVFMkk1OGRvb3kwc1ZOcHNrWFc5T0xLdkt4ZDYydmlZbnBuYkpWa3NDODBmWDQyMEdOdzZndlcxYTEtQ3V1bGhDWTNONHQ4SUdCVXQzQTRCVWZ5c0wyaEZUQ0ZwZTMzQUNEOU1FeWZqQzBzdFI0VVNfTVliN2MwZWtBclFDSjlSWTZuV1dJb0J4cVk5?oc=5",
+   "source": "Canucks Army",
+   "published": "2026-11-08T21:33:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Connor McDavid keeps producing at a historic pace for the Oilers",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82aE1Kd0hLcG0xdlFacWNLNGk3LWNVSFBOZEl6ZkpPNDZsTWhSSjBwNFh5Z1RFbTZfMWhfNGd4RkhjQjJDamJuOHk3U29WUkhWS1BDYmZfODlUWEpJeUVVZkt4aURPblZBd0lZM2VRVDMzcHlVckt1cElsdzNvM1E?oc=5",
@@ -145,14 +153,6 @@
    "via": "google"
   },
   {
-   "title": "McDavid sets active-player season-opening streak mark as Oilers beat Canucks",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcDh0T2pYQlJobUdVSVV0UFFlb1RhbGdfNWxvV0xmeGdtUFVIeEdHbU1ibkJwLWwxRWRlaWNGLXNEdmlXYUxFYjlZN3ZwcXoxb0haWk5tRVEwQnEya2FVbWxVTURua1FXZXcxMDdwN3ZmRWtfTHk1aDJxbnhNRzh6NXFLdHpxeWEtbUt3MkxEUThINWlCbTlkbkZ5d3ZHTWtwd21xLVd5YWM3V3VDLTZydFBHazJ6ekVBTGc?oc=5",
-   "source": "NetNewsLedger",
-   "published": "2026-11-08T11:22:04Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "It is long past time that the NHL protected its stars better than its referees: 9 Things",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/it-is-long-past-time-that-the-nhl-protected-its-stars-better-than-its-referees-9-things-connor-mcdavid",
    "source": "Edmonton Journal",
@@ -161,8 +161,8 @@
   },
   {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
+   "source": "NHL.com",
    "published": "2026-11-08T07:04:00Z",
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   },

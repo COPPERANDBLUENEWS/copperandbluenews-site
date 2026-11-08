@@ -294,12 +294,6 @@
    "name": "Jake Walman",
    "num": 96,
    "pos": "D"
-  },
-  {
-   "id": 8477035,
-   "name": "Matt Tomkins",
-   "num": 90,
-   "pos": "G"
   }
  ],
  "opponent": {
@@ -502,5 +496,5 @@
    "note": null
   }
  },
- "updated": "2026-11-08T16:14:54Z"
+ "updated": "2026-11-08T21:43:19Z"
 }
