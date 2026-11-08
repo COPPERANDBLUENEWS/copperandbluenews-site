@@ -1,13 +1,36 @@
 {
- "updated": "2026-11-08T10:22:19Z",
+ "updated": "2026-11-08T11:16:49Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (8)",
-  "Google News (91)"
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "It is long past time that the NHL protected its stars better than its referees: 9 Things",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/it-is-long-past-time-that-the-nhl-protected-its-stars-better-than-its-referees-9-things-connor-mcdavid",
+   "source": "Edmonton Journal",
+   "published": "2026-11-08T11:00:57Z",
+   "snippet": ""
+  },
+  {
+   "title": "Vancouver Canucks 2 - Edmonton Oilers 4: Final score, results, recap, box score, stats",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-08T09:56:47Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-08T09:54:57Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "QUICK RECAP: Oilers 4, Canucks 2 | Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uQzdPQzhuSV9YLTZyTTBlRHlKOFY0cHAwUEU3anUxYllvaTMtbmR6S3NjRTdHXzZUSW5IcmFYYzlTVzEzbGpxdXlCeFYyTzhYalBnVm9RbXhydGZlOElhS2RTV0htV2JYWUx6dmppclJheXhnYS02MUFRYw?oc=5",
@@ -29,14 +52,6 @@
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUjdNTlI2TFl5TjJiOHRtLXhGR0FHRDN5c2Q5UGRTWlV4MTFkYy1MZVdqbUxLNUQya3gyb3ZEU0t3MzlReXNfdEt5S2xpQUlwcXNqV0JwOGpMM05XRk9WWmlrLWd1eVZBZ1Q1UWJ5TFNoS2tsbXBJUldWRmNLMVJmMUVnWTdDdzBhaHNVNHFFYThxV3pidGZUbEQ1dzE1SW9lbUpV?oc=5",
    "source": "FOX Sports",
    "published": "2026-11-08T09:11:16Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks 2 - Edmonton Oilers 4: Final score, results, recap, box score, stats",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-08T08:26:47Z",
    "snippet": "",
    "via": "google"
   },
@@ -141,14 +156,6 @@
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWE5pVkZWODhPV0FaWmYxenVYdWZxc3NCRlNSLTZUY2xpOFR1NEJ3OUMxVWVZblFFZk85SkdSUFJBYW1vSjd0ZzlPR1FKZkkzV2k3WVBRelJPV09QdE90Nm1zYzU3SElEX1lZNnNHUjZldzBKdnpSWDEtMXd1VFh5VXdhNVoxOHl0SlJfZTNMRUJUVEFMZFBJT2RFOXliRnZ0?oc=5",
    "source": "Castanet",
    "published": "2026-11-08T06:12:45Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Goes 2-0 vs Vancouver: Oilers and Elks Both Pick Up Wins",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSmJqNGJtSEU5S1pwaW95aHhBbWx5REVnSE9nYlJBR0FvcHhlbm1TbXJRUlhNeTJXVEMwdEZmbG8zQm5wdnNPcEZjWG9jdGt2aVRuS01vUmRaVnhQT3BYSXZtd3JrRjlDdkJ5Szd6cmQ1bHZOODdMOVVXQ1k1cDZDSk5kSFhSbWJCNFJ2eXQ1Z3VvY3BsMEdGQkVGclU0Yk5VNmM2VGdxNThWcGpFQkE?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-08T06:10:17Z",
    "snippet": "",
    "via": "google"
   },
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-07T03:36:41.45Z",
    "snippet": "The Edmonton Oilers continue their four-game homestand at Rogers Place on Saturday with a visit from the Vancouver Canucks. You can watch the game live on Sportsnet at 9:00 PM MT or listen…"
-  },
-  {
-   "title": "'Throwing up in my mouth': Podkolzin gets support across Canada for beat down of Anaheim aggressor",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/throwing-up-in-my-mouth-podkolzin-gets-mass-support-across-canada-for-beat-down-of-anaheim-aggressor",
-   "source": "Edmonton Journal",
-   "published": "2026-11-07T03:15:28Z",
-   "snippet": ""
   }
  ]
 }
