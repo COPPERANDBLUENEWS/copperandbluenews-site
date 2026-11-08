@@ -212,6 +212,7 @@
   function onlineOwns(){return !!(root.CbnAirOnline&&root.CbnAirOnline.ownsArena);}
   function draw(snap) {
     const s=snap||(game&&game.state);if(!s)return;const scale=canvas.width/W;ctx.setTransform(scale,0,0,scale,0,0);ctx.drawImage(art,0,0,W,H);
+    if(s.online){ctx.fillStyle='rgba(70,120,180,.12)';ctx.fillRect(WALL,WALL,W-WALL*2,H/2-WALL);ctx.fillStyle='rgba(200,118,58,.12)';ctx.fillRect(WALL,H/2,W-WALL*2,H/2-WALL);}
     if(s.phase==='playing'&&!s.paused){trails.push({x:s.puck.x,y:s.puck.y});if(trails.length>7)trails.shift();}
     trails.forEach((p,i)=>{ctx.fillStyle=`rgba(11,26,51,${.035+i*.015})`;ctx.beginPath();ctx.arc(p.x,p.y,R*(i+1)/trails.length,0,Math.PI*2);ctx.fill();});
     for(const [p,you] of [[s.copper,false],[s.you,true]]) {
@@ -229,7 +230,13 @@
     ctx.fillStyle='#0b1a33';ctx.beginPath();ctx.arc(q.x,q.y,R,0,Math.PI*2);ctx.fill();ctx.strokeStyle='#45607b';ctx.lineWidth=2;ctx.stroke();
     if((s.phase==='faceoff'||s.phase==='goal')&&!s.hideCall){
       ctx.fillStyle='rgba(11,26,51,.87)';rounded(ctx,52,H/2-50,W-104,100,16);ctx.fill();ctx.textAlign='center';ctx.fillStyle='#fff4df';ctx.font='800 29px system-ui';
-      ctx.fillText(s.phase==='goal'?'GOAL!':'FACEOFF',W/2,H/2-4);ctx.font='600 13px system-ui';ctx.fillStyle='#f4b37c';ctx.fillText(s.phase==='goal'?(s.lastGoal==='you'?(s.bannerYou||'YOU LIGHT THE LAMP'):(s.bannerOpp||'COPPER LIGHTS THE LAMP')):'First to 7. Let’s play.',W/2,H/2+24);
+      ctx.fillText(s.phase==='goal'?'GOAL!':'FACEOFF',W/2,H/2-4);ctx.font='600 13px system-ui';ctx.fillStyle='#f4b37c';ctx.fillText(s.phase==='goal'?(s.lastGoal==='you'?(s.bannerYou||'YOU LIGHT THE LAMP'):(s.bannerOpp||'COPPER LIGHTS THE LAMP')):(s.faceoffText||'First to 7. Let’s play.'),W/2,H/2+24);
+    }
+    if(s.online){
+      ctx.save();ctx.textAlign='center';ctx.font='800 13px system-ui';
+      ctx.fillStyle='rgba(90,148,206,.95)';ctx.fillRect(WALL,16,W-WALL*2,6);ctx.fillStyle='#d7e6f8';ctx.fillText(String(s.oppName||'OPPONENT').toUpperCase(),W/2,40);
+      ctx.fillStyle='rgba(200,118,58,.95)';ctx.fillRect(WALL,H-20,W-WALL*2,6);ctx.fillStyle='#c8763a';ctx.fillText('YOU',W/2,H-28);
+      ctx.restore();
     }
     if(!snap)syncCelebration();
   }
@@ -363,6 +370,12 @@
     document.body.classList.add('rink-paused');
     const s=game.state,over=kind==='over',win=s.winner==='you';
     $('pongPanel').hidden=false;$('panelTitle').textContent=over?(win?'You beat Copper!':'Copper takes this one!'):kind==='restart'?'Fresh ice?':'Taking a breather';
+    const kick=$('panelKicker');if(kick&&!onlineOwns()){kick.hidden=true;kick.textContent='';}
+    const big=$('panelScore');if(big&&!onlineOwns()){big.hidden=true;big.textContent='';}
+    const delta=$('panelDelta');if(delta&&!onlineOwns()){delta.hidden=true;delta.textContent='';}
+    const mascot=$('panelMascot');if(mascot&&!onlineOwns())mascot.hidden=false;
+    const exitBtn=$('panelExit');if(exitBtn&&!onlineOwns())exitBtn.textContent='Exit rink';
+    const rec=$('arenaRecord');if(rec&&!onlineOwns())rec.hidden=false;
     $('panelCopy').textContent=over?`${s.score.you}–${s.score.copper}. ${win?'Copper: “What a beauty! Rematch?”':'Copper: “Good game! Your next win is coming.”'}${demo?' Demo only — not added to your record.':''}`:kind==='restart'?'Restart this match at 0–0? Your saved record stays.':'Copper is keeping your spot. Resume when you’re ready.';
     $('resumeGame').hidden=over;$('resumeGame').textContent=kind==='restart'?'Keep playing':'Resume';$('againGame').textContent=over?'Play again':'Restart match';$('shareGame').hidden=!over;
     $('resumeGame').hidden?$('againGame').focus():$('resumeGame').focus();

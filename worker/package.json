@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy",
-    "test": "node test/webpush.test.mjs && node test/live.test.mjs && node test/game-alerts.test.mjs && node test/pregame.test.mjs && node test/alert-log.test.mjs && node test/newsletter.test.mjs && node test/newsletter-ui.test.mjs && node test/fgs.test.mjs && node test/airhockey.test.mjs",
+    "test": "node test/webpush.test.mjs && node test/live.test.mjs && node test/game-alerts.test.mjs && node test/pregame.test.mjs && node test/alert-log.test.mjs && node test/newsletter.test.mjs && node test/newsletter-ui.test.mjs && node test/fgs.test.mjs && node test/airhockey.test.mjs && node test/airhockey-net.test.mjs",
     "test:integration": "node test/integration.test.mjs",
     "test:game-runtime": "wrangler deploy --dry-run --outdir /tmp/cbn-game-alerts-bundle && node test/game-runtime.test.mjs && node test/newsletter-runtime.test.mjs"
   },

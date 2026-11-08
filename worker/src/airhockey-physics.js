@@ -158,6 +158,11 @@ export function step(state, dt, events) {
   }
   move(state.south, PADDLE_SPEED, dt, true);
   move(state.north, PADDLE_SPEED, dt, false);
+  if (state.phase === "versus") {
+    state.timer -= dt;
+    if (state.timer <= 0) { state.phase = "faceoff"; state.timer = 0.9; }
+    return events;
+  }
   if (state.phase !== "playing") {
     state.timer -= dt;
     if (state.timer <= 0) {
@@ -210,7 +215,7 @@ export function step(state, dt, events) {
 
 const r1 = v => Math.round(v * 10) / 10;
 export function packState(state, events) {
-  const ph = {waiting: "w", faceoff: "f", playing: "p", goal: "g", over: "o", abandoned: "a"}[state.phase] || "w";
+  const ph = {waiting: "w", versus: "v", faceoff: "f", playing: "p", goal: "g", over: "o", abandoned: "a"}[state.phase] || "w";
   const q = state.puck, a = state.south, b = state.north;
   const msg = {
     t: "s", ph, sc: [state.score.south, state.score.north],
