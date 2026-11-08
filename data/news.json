@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-08T08:28:49Z",
+ "updated": "2026-11-08T09:25:58Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (8)",
-  "Google News (89)"
+  "Google News (92)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Vancouver Canucks 2 - Edmonton Oilers 4: Final score, results, recap, box score, stats",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-08T08:47:51Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Nugent-Hopkins Leaves Oilers Game After Puck Strikes Head",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbjJuX0VfN0R6dUI1dWh2M29NWE1aZWV2YnNTQXRuLTkyVkstOTYxZEJFQlZXZG9HV3duTXR3X2FPZUJBR3BSRnd5cEVvYjM2bWl3eTJQUDhPdVlzTzFwVDBnWW4xVGpTMWh0bG5NTXNkRjBzZXJQLWYwOEhXcWNYM1M4b3RoT2c?oc=5",
@@ -20,7 +28,15 @@
    "title": "Canucks match effort by high-powered Oilers but crumble in third period",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWnh0NGxBVFBRR080RlljRVZKVnFyRjdGWjFyUVMyMHZVMGZBQ1kwMThyTnJuYl9uaUxQT1pZV0M3eXhpRlhWVThGNGdSM09VYmR0TWlZTVkxTUxMcWtrcXAtelJTX2t0OUNVMWMtSFdUcHB5eVNJbldVVzJhVGFIWlA2WFR2bVhnUHVXZW93YUJPNUItaGJXaV90Mm1hMmdsMFZkNDVEOTYyZUtoQnc?oc=5",
    "source": "Sportsnet.ca",
-   "published": "2026-11-08T07:56:00Z",
+   "published": "2026-11-08T08:06:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Nugent-Hopkins leaves game for Oilers after being struck in head by puck",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYzJmZmIySnR5MnJUWl9IQmh4dHJpRFBQQlV0cXlmbjdpNWtUM3ZkQjZWZ1FtSmg1RkRFQUtSc2Z0SnBUSTh6cEtidmxEemVwTzhTMV9HdzRzYU51X3RRQ0pnemlMcWhPSGZxOFRocElKdHQyZWpBNmxlWFpZaUcxR1d5VnZnak1FMXNDbjVnWVVMLWo2TDg3QWp3?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-08T08:03:40Z",
    "snippet": "",
    "via": "google"
   },
@@ -44,7 +60,15 @@
    "title": "Edmonton Oilers dump Canucks, complete clean sweep of Vancouver teams",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hY2V5aGZia3U2QUdQbUx0TC1fbVJRc1dzWVJwRFNDSzk0QllvN1NtbkJvSUJrTy0wWVlCNlpsNXVWeHl3eWFLOWp1NmlzWlNibS1NTWJ2SFRIMV9ySUJEeldzak1fbmx2czFQM01wSHEtVU43eTdMOEx5a2hlQQ?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-08T07:18:45Z",
+   "published": "2026-11-08T07:25:56Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "OILERS TODAY | Post-Game vs VAN",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbHZJOUhWUHRZdUN4WlNXczM4TXlTVHRMNW9mNWcwZHE2R2JfSFpMb1lzTFRoWXpDaHNWZ0FfbUNCOVM4WDg0Rzd6UlFpcGdJWmItNTJnYmY1V0NJeVNmQnEwLTNHbHNRY0FTVlloaXB0Z2s5TmFWcENtWDF2elQ1R0VR?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-08T07:23:13Z",
    "snippet": "",
    "via": "google"
   },
@@ -143,42 +167,11 @@
    "via": "google"
   },
   {
-   "title": "Draisaitl powers Oilers past Canucks",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9HVzR2djIwZlJqYkRhdTV1YXJQTXI1VXRvLTA4eGdDWjEybUFyTXQtbEZtTng3STV5RDJXd3ZjYUNVU1gyZExxMkI1NjY3LTM2STNWS1RtT0hoeGpIYXI1U29DR2ZqbkZiOFhNcHVCWGR3SUFYaW5zYUlESHR4dw?oc=5",
-   "source": "Global News",
-   "published": "2026-11-08T05:58:18Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Draisaitl nets 2 as Edmonton Oilers dump Vancouver Canucks 4-2",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQm1lV0lXVHlWYVlPN3RGVVlDVm9walBLdzY3SHZqakpnVjdIV2E4QVMtal9RVlg3QmV5eEwxOTNCMTdEdzQ1MlR3VFFDTkN3WklkaGxtNmZ1QUhRWmlyajY2c0pLTFlCSW9MM2ZGV190UWFwUGV0b2UyM1BrRWhfckZienZJS2FlLVp0WUNUa01iWWhsNHVnOWRjS2VPdlFENzZDRVJn?oc=5",
-   "source": "Fort St. James Caledonia Courier",
-   "published": "2026-11-08T05:52:35Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Instant Reaction: Canucks battle hard and make late push in 4-2 loss to Oilers",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRWVpNzRWTTcycW5BSGRPNXdvTVZxbnhudXMxc3h0Ykt5X2RoalZ3UHhYZTY2Ym10ZEV0NTdRNFZVcWRBczRmZ3BqMWZWdm9GM1FOX3RnUm1rQjJHTWg5S0FYajZLbm1aZW5sYUkzNU9OcnA5QmtxUWZzWWdoYjhVNl9xMFY1a3B5N0Z5R2JPaHB5SU5pQ2hSLVZnandJa1pwYmsyZ1NQYTByTmZzNjlz?oc=5",
-   "source": "Canucks Army",
-   "published": "2026-11-08T05:52:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Player grades: Edmonton big guns McDavid, Draisaitl, Bouchard lead Oilers to 4-2 win over Canucks",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-vancouver-canucks-player-grades",
    "source": "Edmonton Journal",
    "published": "2026-11-08T05:43:26Z",
    "snippet": ""
-  },
-  {
-   "title": "Nugent-Hopkins leaves game for Oilers after being struck in head by puck",
-   "url": "https://www.nhl.com/news/oilers-ryan-nugent-hopkins-injured-after-being-struck-in-head-by-puck",
-   "source": "NHL.com",
-   "published": "2026-11-08T05:35:00Z",
-   "snippet": "EDMONTON -- Ryan Nugent-Hopkins sustained an apparent head injury 45 seconds into the second period of a 4-2 win for the Edmonton Oilers against the Vancouver Canucks at Rogers Place on…"
   },
   {
    "title": "CFL division final takeaways: Alouettes, Elks rise to occasion, reach Grey Cup",
@@ -277,6 +270,13 @@
    "source": "NHL.com",
    "published": "2026-11-07T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
+  },
+  {
+   "title": "PREVIEW: Oilers vs. Canucks",
+   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-canucks-11-06-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-07T03:36:41.45Z",
+   "snippet": "The Edmonton Oilers continue their four-game homestand at Rogers Place on Saturday with a visit from the Vancouver Canucks. You can watch the game live on Sportsnet at 9:00 PM MT or listen…"
   }
  ]
 }
