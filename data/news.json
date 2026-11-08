@@ -1,19 +1,67 @@
 {
- "updated": "2026-11-08T03:58:20Z",
+ "updated": "2026-11-08T05:50:02Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (4)",
-  "Google News (84)"
+  "Sportsnet (5)",
+  "Google News (82)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Oilers’ Connor McDavid ties Adam Oates with assists in 18 consecutive games",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-connor-mcdavid-ties-adam-oates-with-assists-in-18-consecutive-games/",
+   "title": "Edmonton Oilers Vancouver Canucks player grades",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbFRyZ3lVYWgwTUZ4S2RxcmNJZEZwZnpSaTBzTVFfNEZSSTV2dHZQelVQbzZlWV9IaGhoYkxSd0xQTU5ZcnpaN1NXWTR6YTRhcllpWHItRzFaWVRRYndJRDJjSDlEaEZrUkVtUkt4MXFzTzNDZWdhZWFXTnV3a3VHTXRqTkdIeDNobko5eHVNOVhaY3BONmNaZzJKWGx3U21YSEV4dUNieW1RM1Ut?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-08T05:45:28Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Nugent-Hopkins leaves game for Oilers after being struck in head by puck",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYzJmZmIySnR5MnJUWl9IQmh4dHJpRFBQQlV0cXlmbjdpNWtUM3ZkQjZWZ1FtSmg1RkRFQUtSc2Z0SnBUSTh6cEtidmxEemVwTzhTMV9HdzRzYU51X3RRQ0pnemlMcWhPSGZxOFRocElKdHQyZWpBNmxlWFpZaUcxR1d5VnZnak1FMXNDbjVnWVVMLWo2TDg3QWp3?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-08T05:42:08Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-08T05:00:24Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "CFL division final takeaways: Alouettes, Elks rise to occasion, reach Grey Cup",
+   "url": "https://www.sportsnet.ca/cfl/article/cfl-division-final-takeaways-alouettes-elks-rise-to-occasion-to-reach-grey-cup/",
    "source": "Sportsnet",
-   "published": "2026-11-08T03:50:13Z",
-   "snippet": ""
+   "published": "2026-11-08T04:41:47Z",
+   "snippet": "The Montreal Alouettes and Edmonton Elks are headed to the Grey Cup after two very different victories. Here are six takeaways from a playoff weekend that delivered big performances, costly…"
+  },
+  {
+   "title": "Oilers' Connor McDavid ties Adam Oates with assists in 18 consecutive games",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVC1PTDdqOHp0WUpkQ3ZpRW5kbURZeU1YWlhlTW41aGNhX1pMZ2NVSDlJUGpjZ01iVFBoYW00STk0Wk54XzZYdlMzc2hzbjVYS3NaRnd6Q3dMZXhMWm9YcWtVY3FyZndRU3JaYmU2OUVoTEtEMVU4RmxWV05OMzk3cFZvRmJPdnBlV2J4N3luTVpZa0oySldUMHdNRmszUVRHX2d3S21PNFpJeDJHcjI3RXpR?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-08T04:07:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vancouver Canucks 1 - Edmonton Oilers 1: End 1st",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-08T03:56:46Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vancouver Canucks vs. Edmonton Oilers Box Score & Stats - November 7, 2026",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9MOTVPS2Vld21heDI4cHo2NFBjaF94MXFVMmtvMWhJZmRyWWs0OWs5TjA4ODlRZDJtM25PY0xKMWFMUWdaQXVULUZ5YnBYb2pXU05KSGl5c1pqTWhjNW01RTNNVk56enBqaEl3c2kwVzhrdkJyS0R5V3dtNkg?oc=5",
+   "source": "CBS Sports",
+   "published": "2026-11-08T03:16:21Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Canucks vs. Oilers (Nov 7, 2026) Live Score",
@@ -40,12 +88,11 @@
    "via": "google"
   },
   {
-   "title": "Vancouver Canucks @ Edmonton Oilers: Live game updates, stats, play-by-play",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-08T02:51:54Z",
-   "snippet": "",
-   "via": "google"
+   "title": "QUICK RECAP: Oilers 4, Canucks 2",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-canucks-11-07-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-08T02:55:14.8Z",
+   "snippet": "The Edmonton Oilers continue their four-game homestand against the Vancouver Canucks on Saturday at Rogers Place. Follow along for live updates, highlights, stats and more, then check back…"
   },
   {
    "title": "Saturday Night Hockey on Sportsnet: Canucks vs. Oilers",
@@ -53,22 +100,6 @@
    "source": "Sportsnet",
    "published": "2026-11-08T02:47:30Z",
    "snippet": ""
-  },
-  {
-   "title": "Ryan Nugent-Hopkins posts two assists Thursday against Ducks",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOblJCcXJEZFNWa3RzM2R2bFlLeERRNmFvUnRzbDRfSW9IQjVXb1doRlFkRHhQQzdGTUMzRkpDeG5lZ3lWampRdlhRNzlxRFk5LXpzUzVUOHhEVzZfWkRuWEdPYllVSmFnZDdtQ3JheVd5YklhbGkyb0hpakNlQ1k5a0FHQ3FxZnRpOGVSYW9FYVZKUEludlRhMTRfTm0zcGhGVGdHaVJ3eG14c0hr0gGyAUFVX3lxTE9kTzNHMEFnLWNRSWtOQXc3S0ZhRWhuejVqNWF5b3dBZHdSMzEzNWxYYkt3bDJWYXp1YnZsZEM0M0MtczNLem9CcTNFMGNMZEtHYTJGRjRIck85MFJZQlQ0dkt6WXBlYUhGcGZfQ25LbHhVb2hKdHpFNjhoeW5EaXhCOTdZdW5tS1VHeDRkMjlCUFNCNWV4NV9TRjI5VXE0N083d1NmT09NSEVRNDFINWtfSXc?oc=5",
-   "source": "FantasyPros",
-   "published": "2026-11-08T02:45:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Evan Bouchard notches two points in Thursday's loss to Ducks",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWWt5anIwNWl6NXhvbjhOLWFUZEd3clA4TVpKSEtZa2huVEdTaS11dWRwWllYMVEtT1R2VFFWNWtkOVZ6T3pnRXJFZFY2Y3BKam43eUw1d1VNQ1NVQXZqQjR5N3pna0pTZ29WY3VCNXJBeVdtNEh0MmZILU16T3NwRWQ4WFZoTzdKcEJNWHpCcEJTa3ZoOXhONGo5WVZzVzdldmFVaVlVONIBrAFBVV95cUxORHFzRFU3VFZ0a1loaGNFSGMzcjRoN0hpSjcyTkFYamtZTy01ZjR4N3BBSk8wVlJYVmtfU0w1eW5HMGJRekVkTVo4VUVUSVFQbWdiZUNwXzJvUTdIRU40dWhDS2E5TXFMVGU3aGVJbTZ1cEZmV1FxTUNRWXNUUU5KSFNOTG80Y2ZsRW9XNGZpdEI1T0QxZkNldERTMmlRano5S2txX0ROUGJXWDR2?oc=5",
-   "source": "FantasyPros",
-   "published": "2026-11-08T02:42:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Edmonton Elks down Lions in front of 40,000, punch ticket to Grey Cup",
@@ -90,14 +121,6 @@
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLTdrcmxyY3FDMUNGbHNHeUg4RzdrSWdkRXVScmc5S2JuYm91NC1iaTQ2T2pBRHZSeUNVcThZZWxoR1ZjaHFWSlludUU1TkYxbXFvX0xtOTFaRUo2ZEJTaTBVQU16NEtYU1k5SFBmNTNvMGxna2ZpZm9KNC1ELWI1TWwtblpWWjUwN3V0OVZzTQ?oc=5",
    "source": "Inside The Rink",
    "published": "2026-11-08T02:39:29Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Leon Draisaitl tallies two points in Thursday's loss to Ducks",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUjhrWjJxWU1Bb1dnVjhsLWVYWG9kU2pzRHBscm5tMDR0M1VqNzdnTml2eXZ3MnYwT3pIazlsajJqVEozcGV6VUs3RjQzUVI5bl95NXJNQV9pUms3Y0c5SFQ0YlFpQmN5LVBGQm1XbjhLa0lJX204Ml8wd3B1Q0tzcl9sQ2RDRnVBU0doSDdaUkFMZG9QWlNWWGxuVWVETFNyb2VSa1RYYmzSAa4BQVVfeXFMTkNuU0pNb1IzSGtkZ2VFQU9LZ2RPeTVycFZnMno5cnJ2U3RrQVFsRHhOUVpoTUZnbU9sc2ozWTVDZjY3U0Jvd3NJNzBGR3IwR3o2UjBRS1BlVW9lOWNha1dxMHowRVVzSlR4Qm9VWmNJalNCLWx3ZmZvSUYzcjE3NzVyVjdIcTV4cnY4dzNZTWZqWmd1MFdlSGRtMHJXaVF6dXlSZ2tWenZKREVHYzRB?oc=5",
-   "source": "FantasyPros",
-   "published": "2026-11-08T02:39:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -140,22 +163,6 @@
    "via": "google"
   },
   {
-   "title": "Vancouver Canucks Visit Edmonton Oilers on Saturday",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRXhpenA1RWNndWpSOXhDYVFDbG1COWtNWDRiTnpWamFEMkRVeTkxaTdWYlVGN1RMb0FpWkFsOEFFMkVELVJHNC1BczdpUUxXbWozaTg1Y1JBUjdicE80LXZPQUlTQkYyQktwb0JZYVhPTWRzck9yMTZXNnpQWGMxeGJPWnJQdlEyWF9VTzVzdTZ0RTBhNEpPNDlIR0FSRS1vc3NWMjBqRzNFX1lUQ2c?oc=5",
-   "source": "Yardbarker",
-   "published": "2026-11-08T00:12:27Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-08T00:04:45Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Former Canuck Vasily Podkolzin has more than found a home in Edmonton",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObHZQX0hETG9ob19BdHBWSko5MVRwa2VMYTZ4TDExOC1ZWWd2MnZYbjBKV3F3ZFlZMndEVTBwV0R3R0IwM1psQUNSZy1GMmg5bUIzQWFPb1VQN1RkaXFMblA4VzFaZUpoMUxWM21qSHFsYlRXVERoTGREWkN4WjN0alpqOEJKdmwyVVRmbWw2SW5PbVltaFhja280ZW80Zw?oc=5",
    "source": "Canucks Army",
@@ -168,14 +175,6 @@
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOFhPR3F6aTFLTmhma2J3M2tsU1BjNVBTa0U1aWpWTDhTZXpHeEM0elFJRDRfcFVETHZZSk5iRkdBUUFSR0EtN2FLRzViVGl0VkRUb0VnQ1A0SjVnTHozOVdEWVZacmFvX05ZSGQ1WkpEMUJaTkNLSDl5UmVvUjBzSTF3?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-07T23:07:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T23:00:24Z",
    "snippet": "",
    "via": "google"
   },
@@ -196,10 +195,11 @@
   },
   {
    "title": "Oilers notebook: Zach Hyman returns to the lineup, Walman situation getting dicey",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers-zach-hyman-returns-jake-walman-situation",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOejJUR0dUZnByQkJZR3N3RXFTYXFQWHlzZ19QU1lhMlFCN0MzVno5NkxuWmN1OWZON2NTNHVJcjhLZ0g2a2t2NE5WcnBTdmVxTkJPcURBeXFCZ3pWaDh2SVNtZ3N4aE9BNms3RWFoOGtFSC05dDdFYzU3WGFaejVzaTlnRnRhbmZmMWNySUpWVWVYcnE2cDVzbFFmVUg0dXhnMkhNOQ?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-07T21:31:16Z",
-   "snippet": "“Great to be back, obviously. Been unfortunate with the injuries but it’s a lot easier to be out when the team’s winning,” said Hyman"
+   "published": "2026-11-07T21:33:11Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "TNA Wrestling returns to its roots with Destination X at Edmonton's Expo Centre",
