@@ -3,7 +3,7 @@
   "id": 2026020276,
   "startTimeUTC": "2026-11-08T03:00:00Z",
   "gameDate": "2026-11-07",
-  "state": "PRE",
+  "state": "LIVE",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -13,7 +13,7 @@
   },
   "puckDropPT": "Sat Nov 7, 8 PM PT"
  },
- "status": "Projected",
+ "status": "Confirmed",
  "forwards": [
   [
    {
@@ -243,8 +243,15 @@
    "status": "Day-to-day"
   }
  ],
- "notes": [],
+ "notes": [
+  "Dressed players and starting goalie are official (NHL game sheet). Line combinations are DailyFaceoff's; the NHL doesn't publish lines."
+ ],
  "sources": [
+  {
+   "name": "NHL.com Gamecenter",
+   "url": "https://www.nhl.com/gamecenter/2026020276",
+   "what": "official dressed lineup"
+  },
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
@@ -304,7 +311,7 @@
   "abbrev": "VAN",
   "name": "Canucks",
   "place": "Vancouver",
-  "status": "Projected",
+  "status": "Confirmed",
   "forwards": [
    [
     {
@@ -340,8 +347,8 @@
      "pos": "C"
     },
     {
-     "id": null,
-     "name": "Jonathan Lekkerimaki",
+     "id": 8483476,
+     "name": "Jonathan Lekkerimäki",
      "num": 88,
      "pos": "RW"
     }
@@ -450,6 +457,11 @@
   "notes": [],
   "sources": [
    {
+    "name": "NHL.com Gamecenter",
+    "url": "https://www.nhl.com/gamecenter/2026020276",
+    "what": "official dressed lineup"
+   },
+   {
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/vancouver-canucks/line-combinations",
     "what": "line combinations",
@@ -479,5 +491,5 @@
    "note": "Merilainen will start in Edmonton on Saturday. "
   }
  },
- "updated": "2026-11-08T02:54:13Z"
+ "updated": "2026-11-08T03:29:04Z"
 }
