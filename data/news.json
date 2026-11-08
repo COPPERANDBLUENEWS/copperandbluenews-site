@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-08T20:15:11Z",
+ "updated": "2026-11-08T21:14:40Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (3)",
-  "Google News (86)"
+  "Sportsnet (2)",
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Connor McDavid keeps producing at a historic pace for the Oilers",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82aE1Kd0hLcG0xdlFacWNLNGk3LWNVSFBOZEl6ZkpPNDZsTWhSSjBwNFh5Z1RFbTZfMWhfNGd4RkhjQjJDamJuOHk3U29WUkhWS1BDYmZfODlUWEpJeUVVZkt4aURPblZBd0lZM2VRVDMzcHlVckt1cElsdzNvM1E?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-08T19:13:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
@@ -29,14 +37,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdXo2Mkp3YnpwN1NwTms1R2s5UDNNdW1mdVdOS09RYkN0dTVZNGI4VHZ2R0pELVBIeVNTZ1dmUmNUVHVvWmlwS3Jjd05BNUFiVW83UElOUDlicHp3M1EyY0ZfY01UeU0xeHhFN3JuWHc3cGZFVVNEa0dBQ3VyZFBfRFhDUXd4aVZYWE5fSWgzbFRPb05qa0Jkd1ZNR3dBamh1M3lyX3RRNE5tY00?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-08T16:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Sunday Census: First impressions of the Edmonton Oilers' new Hometown Remix jerseys",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRUxMNkN2UFBWX2NkWUM4UUpfSjlBTkVQbnVaaUtGb3IzQm03OFRZbjBqVlBwYzRWajFfOURZZmRqTXdvNlJlVHpHVnZUc3h5NmkxWHJYQ1lVcTVfWUVjWVNXM0hTaVctWktwLXdPLUFQdEFubEtodmtRcVk4QXNrRi0tRi02dVZ5Q1Y0TmRDMmZTMkhrVEFOaWVKbEoyWUFTQkdKRGduWVRtZVhBcE55VDl3dFVNTnBuVS13Z3FR?oc=5",
-   "source": "The Oil Rig",
-   "published": "2026-11-08T15:31:08Z",
    "snippet": "",
    "via": "google"
   },
@@ -167,13 +167,6 @@
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   },
   {
-   "title": "Oilers’ Nugent-Hopkins exits early vs. Canucks after taking puck to head",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-nugent-hopkins-exits-early-vs-canucks-after-taking-puck-to-head/",
-   "source": "Sportsnet",
-   "published": "2026-11-08T06:07:37Z",
-   "snippet": ""
-  },
-  {
    "title": "Edmonton Oilers dump Canucks, complete clean sweep of Vancouver teams",
    "url": "https://edmontonjournal.com/sports/edmonton-oilers-vancouver-canucks-elks",
    "source": "Edmonton Journal",
@@ -277,6 +270,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-07T03:36:41.45Z",
    "snippet": "The Edmonton Oilers continue their four-game homestand at Rogers Place on Saturday with a visit from the Vancouver Canucks. You can watch the game live on Sportsnet at 9:00 PM MT or listen…"
+  },
+  {
+   "title": "'Throwing up in my mouth': Podkolzin gets support across Canada for beat down of Anaheim aggressor",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/throwing-up-in-my-mouth-podkolzin-gets-mass-support-across-canada-for-beat-down-of-anaheim-aggressor",
+   "source": "Edmonton Journal",
+   "published": "2026-11-07T03:15:28Z",
+   "snippet": ""
   }
  ]
 }
