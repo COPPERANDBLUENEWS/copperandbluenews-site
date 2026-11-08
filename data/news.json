@@ -1,13 +1,45 @@
 {
- "updated": "2026-11-08T00:11:20Z",
+ "updated": "2026-11-08T01:10:16Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (4)",
+  "Sportsnet (3)",
   "Google News (86)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers Play First Of Many 9PM Starts",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQnc2UXZZM2I1Z0RwS1l3bHl5YmdtTjZTbkg4ZXZZMnBYWnEtdjlhYXlqRnNzazNvay01THlfMUNJeldUbFFEV3F0TFpzWnZzaFBsYXBiZUVlVkpxbnZXWEZNc3ZHMW10RUw5WjRPdWtwRU80aGZtTFZaalg5OFFTWThhSVVBN3FOVktlQWhLVDVUZDRLSmtiZ093?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-08T00:27:22Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vancouver Canucks Visit Edmonton Oilers on Saturday",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRXhpenA1RWNndWpSOXhDYVFDbG1COWtNWDRiTnpWamFEMkRVeTkxaTdWYlVGN1RMb0FpWkFsOEFFMkVELVJHNC1BczdpUUxXbWozaTg1Y1JBUjdicE80LXZPQUlTQkYyQktwb0JZYVhPTWRzck9yMTZXNnpQWGMxeGJPWnJQdlEyWF9VTzVzdTZ0RTBhNEpPNDlIR0FSRS1vc3NWMjBqRzNFX1lUQ2c?oc=5",
+   "source": "Yardbarker",
+   "published": "2026-11-08T00:12:27Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-08T00:04:45Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vancouver Canucks @ Edmonton Oilers: Live game updates, stats, play-by-play",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-07T23:38:48Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Former Canuck Vasily Podkolzin has more than found a home in Edmonton",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObHZQX0hETG9ob19BdHBWSko5MVRwa2VMYTZ4TDExOC1ZWWd2MnZYbjBKV3F3ZFlZMndEVTBwV0R3R0IwM1psQUNSZy1GMmg5bUIzQWFPb1VQN1RkaXFMblA4VzFaZUpoMUxWM21qSHFsYlRXVERoTGREWkN4WjN0alpqOEJKdmwyVVRmbWw2SW5PbVltaFhja280ZW80Zw?oc=5",
@@ -32,35 +64,19 @@
    "via": "google"
   },
   {
+   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-07T23:00:24Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "RELEASE: Oilers activate Devon Levi & Zach Hyman off IR",
    "url": "https://www.nhl.com/oilers/news/release-oilers-activate-devon-levi-zach-hyman-off-ir",
    "source": "EdmontonOilers.com",
    "published": "2026-11-07T22:56:48.658Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers have activated goalie Devon Levi and forward Zach Hyman off Injured Reserve, the team announced on Saturday. Goalie Matt Tomkins has also been loaned to…"
-  },
-  {
-   "title": "Vancouver Canucks @ Edmonton Oilers: Live game updates, stats, play-by-play",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-07T21:56:43Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks - Edmonton Oilers - Nov 7, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04UUFyVU5pc01ld2JaQkdPNG5rMjV5ck1sdUdXQnJYUG12M3dMMEl4VlprZ0oyNFBqVEk3a0YxVXRnMmJyT1dVQ1lHbF9McnZCb3FtT1N5RWJnWXFUZmE3WDdscmc3aV9fTmV4RDNXby0?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T21:54:57Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T21:54:46Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "New York Rangers Trade Pitch Lands Joonas Korpisalo Insurance From Oilers",
@@ -134,6 +150,14 @@
    "via": "google"
   },
   {
+   "title": "Major shake-up on Edmonton Oilers, hot shot goalie, top winger back, struggling vets rotate as healthy scratches",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQk81U0p5YmJsVHltWXpxY0lmSWVPT0JzLUNYS2JDaW1rNHdLb0FkT1RIQXNuSk5BY05lLTU2NUVldmdfX0hIRjA1Z0Q5dG1jYm9rZWpuNW9CSlhjdTZ6X1VCeUhBLXZlMjE3ajdYQTR4T2J2TkhiUkhfRW9sYTdfWkRnWVg1U0FraXduSkpkQ05ZSEh6d3ZoTEs4WmlsSThfSHBSWVRyODlnRmpCUTg3Snhsel9HM3dHNURMQVdOTUVITzJONy10T2E0OGtaXzBkS09J?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-07T19:00:16Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "RELEASE: Oilers place Atro Leppanen on waivers",
    "url": "https://www.nhl.com/oilers/news/release-oilers-place-atro-leppanen-on-waivers",
    "source": "EdmontonOilers.com",
@@ -153,37 +177,6 @@
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYkRWMFRIQ1BpendDVU9QeWJVS1NrdjhGSEJTQnZ5QzdkaWEweS1FdWEzQ2gyNDV5M2N4V0Y0VHFHTHJsLVlRc0dMQ24yemtqSFVwVi16MkwxRGUzb1AtNmZXZk13UnZBcV9LN0l5Ti1INjlSOEdnRlJJNTVINDZqSktqeGM4U1MxM0l4X0doUkVwVlFXY20zVVhMWGdHcFF6WWM5OHlYVk5IRU5rR0htVUpEdw?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-07T18:19:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Appear to Be Getting Big Pieces Back vs. Canucks",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUUySVVKRVBjY29YMlYwYlJVVWtZaEllV1lHSXN1REZUc3NmcmhQVXh0c1h0M281ZWVBM1lidnNwYk9ZMms0RkZUV0htLUczeWhlQXFUc1ZzU1pfRFkzdTczRGNtVTNaX0ZWczNodlEyai1vdWxCVFpvcHo4WmRRVExCOEU3Umho?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-07T18:04:24Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Did Oilers' McDavid Overreact To Helleson And Ducks Incident?",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ19yTTh0SnlEZGt6TlY0X2tFdHZzMnZXYkFzWm9pcGNpanN6TmQ3UFBNdUpBN2sxazZ4anhvU0ItX1E3OWZRTXk0ZWxUU3JZMV84X2pEUUFXeW9VWTFobVJUUE5GYXZMNkpYUW5tU0hyNDdWNUxIU1p3eEJONjA2REJ0UTU1ZlpnUUFOTVRGOTZzdUtxTWI4a01ZUmpteTdKUWRkUA?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-07T18:00:27Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Major shake-up on Edmonton Oilers, hot shot goalie, top winger back, struggling vets rotate as healthy scratches",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-devon-levi-zach-hyman-jake-walman-trent-frederic-colton-dach",
-   "source": "Edmonton Journal",
-   "published": "2026-11-07T17:29:16Z",
-   "snippet": ""
-  },
-  {
-   "title": "The Edmonton Oilers could acquire three Blue Jackets players in one trade",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcjR2RG9lZTVVVDRmMC1NR1ZUeFp3OC1pbGpMcE5PdXp2bXM3eEVsYXhINlF2OHJoUkhhdTRaNkU4V2xqZ3NORGY2aG1CLTJrZ1BXVUktSWNHTllhYTRJVkR4aGtyUnF4VmdnSTgzQUNYRUlLVlk2Qmp3OW1uNEt2WG5TTk5BUTdqM0ZESXFlb1E?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-07T17:25:42Z",
    "snippet": "",
    "via": "google"
   },
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-06T04:10:18Z",
    "snippet": ""
+  },
+  {
+   "title": "Mintyukov, Sennecke Power Ducks to 5-4 Victory Over Oilers",
+   "url": "https://www.nhl.com/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026-x1332",
+   "source": "NHL.com",
+   "published": "2026-11-06T04:09:34.996Z",
+   "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
   }
  ]
 }
