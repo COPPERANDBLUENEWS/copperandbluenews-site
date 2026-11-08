@@ -86,7 +86,7 @@
 </div>
 <p id="accountMsg" class="play-help ah-status" role="status"></p>
 </div>
-<p class="play-help" id="playHelp"><b>How to play:</b> drag your orange paddle around your half. Mouse works too; arrow keys or WASD on desktop. On touch, the paddle stays slightly above your finger. Score through the goal mouth. Against Copper, first to 7 wins. Online is two minutes. More goals when the clock hits 0:00 wins. A tie goes to sudden-death overtime, next goal, with a one-minute cap, then it is a tie. You each sit at the bottom of your own screen.</p>
+<p class="play-help" id="playHelp"><b>How to play:</b> drag your orange paddle around your half. Mouse works too; arrow keys or WASD on desktop. On touch, the paddle stays slightly above your finger. Score through the goal mouth. Against Copper, first to 7 wins. Online is two minutes on the clock, after a short VS intro. More goals when the clock hits 0:00 wins. A tie goes to sudden-death overtime, next goal, with a one-minute cap, then it is a tie. You each sit at the bottom of your own screen. If someone drops, the clock pauses for 15 seconds while they reconnect. Same username and device, same score.</p>
 <p class="play-help">Full-screen rink. Your goals sound an oil-field horn, and the puck clacks off paddles and boards. Mute turns all of that off and stays on this device. Pause anytime. Exit with ✕ or Esc. Plays offline after the app has cached this update.</p>
 <p class="play-privacy">Your Copper record stays on this device. Online play uses a username, a secret stored in this browser, and a recovery code you can save for another device. Email comes later. Copper is an original Copper &amp; Blue News character — no team logos or official mascots. <a href="privacy.html#airhockey">Privacy</a></p>
 <noscript><p class="notice">Please enable JavaScript to play AirHockey with Copper.</p></noscript>
@@ -95,16 +95,19 @@
 <section id="pongArena" class="pong-arena" aria-label="AirHockey with Copper full-screen game" hidden>
 <header class="pong-hud">
 <button id="exitGame" class="pong-icon" type="button" aria-label="Exit game">✕</button>
-<div class="pong-score" aria-label="Score"><span><span id="youLabel">YOU</span> <b id="youScore">0</b></span><span class="pong-score-vs">vs</span><span><img id="copperMark" src="copper.svg?v=49" alt="" width="25" height="25"> <span id="oppLabel">COPPER</span> <b id="copperScore">0</b></span></div>
+<div class="pong-score" aria-label="Score"><span class="ah-side ah-side-you"><span id="youTag" class="ah-you-tag" hidden>YOU</span><span id="youLabel">YOU</span> <b id="youScore">0</b></span><span class="pong-score-mid"><span class="pong-score-vs">vs</span><span id="scoreClock" class="ah-clock" hidden>2:00</span></span><span class="ah-side ah-side-opp"><b id="copperScore">0</b> <span id="oppLabel">COPPER</span> <img id="copperMark" src="copper.svg?v=49" alt="" width="25" height="25"></span></div>
 <button id="pauseGame" class="pong-control" type="button">Pause</button>
 </header>
-<div class="pong-topline"><span id="arenaMood">Copper</span><span id="arenaRule">FIRST TO 7</span><button id="restartGame" type="button">Restart</button></div>
+<div class="pong-topline"><span id="arenaMood">Copper</span><span id="netHud" class="ah-net" hidden><span class="ah-ping ah-ping-you"><span class="ah-bars" id="barsYou" data-bars="0"><i></i><i></i><i></i><i></i></span><span class="ah-ping-tag">YOU</span> <span id="pingYou">–</span></span><span class="ah-ping ah-ping-opp"><span class="ah-bars" id="barsOpp" data-bars="0"><i></i><i></i><i></i><i></i></span><span id="pingOppName" class="ah-ping-tag">OPP</span> <span id="pingOpp">–</span></span></span><span id="arenaRule">FIRST TO 7</span><button id="restartGame" type="button">Restart</button></div>
 <div id="pongRink" class="pong-rink">
 <canvas id="pongCanvas" width="720" height="1240" tabindex="0" aria-label="AirHockey with Copper. Your paddle is at the bottom. Drag or use arrow keys. Space to pause, Escape to exit.">Canvas is required to play.</canvas>
-<div id="goalBanner" class="goal-banner" hidden aria-hidden="true"><div class="goal-banner-card"><p class="goal-banner-kicker">Goal</p><p class="goal-banner-title" id="goalBannerTitle">You light the lamp</p></div></div>
+<div id="vsIntro" class="ah-vs" hidden><p class="ah-vs-kicker">Head to head</p><div class="ah-vs-row"><article class="ah-vs-card ah-vs-you"><p class="ah-you-tag">YOU</p><h2 id="vsYouName">You</h2><p id="vsYouRec" class="ah-vs-rec">0-0-0-0</p><p id="vsYouElo" class="ah-vs-elo">Elo 1000</p></article><p class="ah-vs-mark">VS</p><article class="ah-vs-card ah-vs-opp"><p class="ah-opp-tag">OPP</p><h2 id="vsOppName">Opponent</h2><p id="vsOppRec" class="ah-vs-rec">0-0-0-0</p><p id="vsOppElo" class="ah-vs-elo">Elo 1000</p></article></div><p class="ah-vs-sub">W-L-T-OTL</p></div>
+<div id="linkBanner" class="ah-link" hidden role="status"><p id="linkBannerText">Opponent reconnecting… (15s)</p></div>
+<div id="goalBanner" class="goal-banner" hidden aria-hidden="true"><div class="goal-banner-card"><p class="goal-banner-kicker" id="goalBannerKicker">Goal</p><p class="goal-banner-title" id="goalBannerTitle">You light the lamp</p></div></div>
 <div id="pongPanel" class="pong-panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" hidden><div class="pong-panel-inner">
-<img src="copper.svg?v=49" alt="Copper cheers you on" width="115" height="115">
-<h2 id="panelTitle">Taking a breather</h2><p id="panelCopy"></p>
+<img id="panelMascot" src="copper.svg?v=49" alt="Copper cheers you on" width="115" height="115">
+<p id="panelKicker" class="ah-kicker" hidden></p>
+<h2 id="panelTitle">Taking a breather</h2><p id="panelScore" class="ah-final-score" hidden></p><p id="panelCopy"></p><p id="panelDelta" class="ah-delta" hidden></p>
 <div class="pong-panel-actions"><button id="resumeGame" class="btn" type="button">Resume</button><button id="againGame" class="play-secondary" type="button">Play again</button><button id="shareGame" class="play-secondary" type="button" hidden>Share score</button><button id="panelExit" class="play-secondary" type="button">Exit rink</button></div>
 <p id="shareStatus" class="play-help" role="status"></p><p id="arenaRecord" class="play-record"></p>
 </div></div>
@@ -124,5 +127,6 @@
 <script src="js/config.js?v=49"></script>
 <script src="js/pwa.js?v=49"></script>
 <script src="js/play.js?v=49"></script>
+<script src="js/airhockey-net.js?v=49"></script>
 <script src="js/airhockey-online.js?v=49"></script>
 </body></html>

@@ -10,6 +10,8 @@
     {id: "sample:goal:opp", type: "goal", title: "Canucks goal. EDM 1, VAN 1", body: "Q. Hughes (4) from Pettersson · 2nd 8:02", url: "/tracker.html", at: "2026-11-08T03:51:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "goal", team: "VAN", scorer: "Q. Hughes", assists: ["Pettersson"], time: "8:02", period: "2nd", strength: "even strength", awayAbbrev: "VAN", homeAbbrev: "EDM", awayScore: 1, homeScore: 1}},
     {id: "sample:period", type: "period_end", title: "End of 1st: EDM 1, VAN 0", body: "Oilers vs Canucks · Shots: EDM 11, VAN 7.", url: "/tracker.html", at: "2026-11-08T03:40:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "period_end", period: "1st", awayAbbrev: "VAN", homeAbbrev: "EDM", awayScore: 0, homeScore: 1, shots: "EDM 11, VAN 7"}},
     {id: "sample:puck", type: "puck_drop", title: "Puck drop: Canucks @ Oilers", body: "Oilers vs Canucks is underway at Rogers Place. Follow it live on the rink tracker.", url: "/tracker.html", at: "2026-11-08T03:02:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "puck_drop", venue: "Rogers Place"}},
+    {id: "sample:pregame15", type: "pregame_15", title: "15 minutes to puck drop: VAN @ EDM", body: "VAN @ EDM at Rogers Place. Puck drop 9 PM MT | 8 PM PT. Starting goalie: Devon Levi.", url: "/tracker.html?id=2026020276", at: "2026-11-08T02:45:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "pregame_15", venue: "Rogers Place", when: "9 PM MT | 8 PM PT", starter: "Devon Levi", starterStatus: "Confirmed", matchup: "VAN @ EDM"}},
+    {id: "sample:pregame60", type: "pregame_60", title: "1 hour to puck drop: VAN @ EDM", body: "VAN @ EDM at Rogers Place. Puck drop 9 PM MT | 8 PM PT. Starting goalie: Devon Levi.", url: "/tracker.html?id=2026020276", at: "2026-11-08T02:00:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "pregame_60", venue: "Rogers Place", when: "9 PM MT | 8 PM PT", starter: "Devon Levi", starterStatus: "Confirmed", matchup: "VAN @ EDM"}},
     {id: "sample:starter", type: "lineup", title: "Confirmed starter: Devon Levi in goal for the Oilers", body: "Devon Levi starts vs Canucks, puck drop 8 PM PT. Thatcher Demko is expected for the Canucks. Lines and pairs on the Players tab.", url: "/players.html", at: "2026-11-07T22:15:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "starter", starter: "Devon Levi", opponent: "Canucks", opponentStarter: "Thatcher Demko", opponentStatus: "Likely", when: "8 PM PT", venue: "Rogers Place"}},
     {id: "sample:final", type: "final", title: "FINAL: EDM 4, ANA 5", body: "Oilers fall 4-5 vs the Ducks. Box score and every goal on the site.", url: "/game.html?id=2026020260", at: "2026-11-06T03:45:00.000Z", game: "2026020260", matchup: "Ducks @ Oilers", away: "ANA", home: "EDM", detail: {kind: "final", result: "Oilers fall", awayAbbrev: "ANA", homeAbbrev: "EDM", awayScore: 5, homeScore: 4, extra: ""}},
   ];
@@ -37,7 +39,7 @@
   function kindLabel(a) {
     if (a.type === "lineup" && (a.detail?.kind === "starter" || String(a.id).endsWith(":goalie"))) return "Starting goalie";
     if (a.type === "lineup") return "Lineup";
-    return {puck_drop: "Puck drop", goal: "Goal", period_end: "Period", final: "Final", odds: "Odds", gameday: "Game day"}[a.type] || "Alert";
+    return {puck_drop: "Puck drop", goal: "Goal", period_end: "Period", final: "Final", odds: "Odds", gameday: "Game day", pregame_60: "1 hour", pregame_15: "15 min"}[a.type] || "Alert";
   }
   function gameHref(a) {
     if (!a.game) return (a.url || "tracker.html").replace(/^\//, "");
@@ -82,6 +84,10 @@
     if (d.kind === "period_end") return facts([["Period", d.period ? "End of " + d.period : ""], ["Score", score(d)], ["Shots", d.shots]]);
     if (d.kind === "final") return `<p class="big">${esc(score(d) || a.title)}</p>` + facts([["Result", [d.result, d.extra].filter(Boolean).join(" ")]]);
     if (d.kind === "puck_drop") return facts([["Game", a.matchup], ["Venue", d.venue]]);
+    if (d.kind === "pregame_60" || d.kind === "pregame_15") {
+      const goalieLabel = d.starterStatus === "Likely" ? "Likely starter" : "Starting goalie";
+      return facts([["Game", d.matchup || a.matchup], ["Venue", d.venue], ["Puck drop", d.when], [goalieLabel, d.starter]]);
+    }
     return `<p class="alert-body">${esc(a.body || "")}</p>`;
   }
   function links(a) {
@@ -132,7 +138,7 @@
       root.innerHTML = `${banner}<p>Couldn't load notifications. Try again in a minute.</p><button type="button" class="btn" id="inboxRetry">Retry</button>${settings}`;
       $("inboxRetry").onclick = () => load(true);
     } else if (!alerts.length) {
-      root.innerHTML = `${banner}<p class="inbox-empty">No alerts yet. Puck drop, goals, period ends, finals, confirmed starting goalies and lineup alerts show up here after they're sent.</p>${settings}`;
+      root.innerHTML = `${banner}<p class="inbox-empty">No alerts yet. 1 hour and 15 minute reminders, puck drop, goals, period ends, finals, confirmed starting goalies and lineup alerts show up here after they're sent.</p>${settings}`;
     } else {
       const seen = readIds();
       root.innerHTML = `${banner}<p class="meta inbox-lead">Newest first, grouped by game. Tap one for the details.</p>` + groups(alerts).map(([, items]) => {

@@ -56,7 +56,8 @@
 
   // ---------- game alerts ----------
   // [key, label, default]. Betting odds are opt-in (off by default).
-  const PREFS = [["gameday", "Game day morning (9 AM PT)", true], ["lineup", "Lineup &amp; starting goalie", true], ["puck_drop", "Puck drop", true],
+  const PREFS = [["gameday", "Game day morning (9 AM PT)", true], ["pregame_60", "1 hour to puck drop", true], ["pregame_15", "15 minutes to puck drop", true],
+    ["lineup", "Lineup &amp; starting goalie", true], ["puck_drop", "Puck drop", true],
     ["goal", "Goals (both teams)", true], ["period_end", "Period ends", true], ["final", "Final score", true],
     ["odds", "Betting odds <small>(pre-game, 19+ · Play responsibly)</small>", false]];
   const STORE = "cbn-alerts";

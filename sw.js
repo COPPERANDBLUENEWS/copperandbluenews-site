@@ -12,7 +12,7 @@ const STATIC = `${VERSION}-static`, PAGES = `${VERSION}-pages`, DATA = `${VERSIO
 const PRECACHE = [
   "/offline.html", "/play.html", "/notifications.html", "/standings.html", "/leaders.html", "/mcdavid.html", "/article.html",
   "/js/mcdavid.js?v=49",
-  "/js/play.js?v=49", "/js/airhockey-online.js?v=49", "/js/home-play.js?v=49", "/js/config.js?v=49", "/copper.svg?v=49", "/css/style.css?v=49", "/js/main.js?v=49", "/js/pwa.js?v=49", "/js/newsletter.js?v=49",
+  "/js/play.js?v=49", "/js/airhockey-net.js?v=49", "/js/airhockey-online.js?v=49", "/js/home-play.js?v=49", "/js/config.js?v=49", "/copper.svg?v=49", "/css/style.css?v=49", "/js/main.js?v=49", "/js/pwa.js?v=49", "/js/newsletter.js?v=49",
   "/js/standings.js?v=49", "/js/leaders.js?v=49", "/js/inbox.js?v=49",
   "/js/article.js?v=49", "/js/article-render.js?v=49",
   "/audio/goal-horn.wav?v=49", "/audio/copper-aww.wav?v=49", "/audio/puck-clack.wav?v=49", "/audio/board-thud.wav?v=49",

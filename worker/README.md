@@ -17,9 +17,9 @@ Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this f
 | `POST /fgs` | the home-page poll | same site CORS | `{game, voter, player}` → one pick per device until puck drop. `player` is an NHL id or `"other"` |
 | `GET /fgs?game=ID` | the home-page poll | same site CORS; public read-only | crowd totals, cached about 60 s before puck drop and 15 s after, plus the Oilers' first goal once the play-by-play has it |
 
-- `type` is one of `puck_drop`, `goal`, `period_end`, `final`, `lineup`, `odds`, `gameday` (same keys as the panel's checkboxes).
-- Defaults when a sign-up leaves a key out: `odds` **off** (betting odds are opt-in, 19+), everything else on.
-  Records saved before Nov 5, 2026 (no `v` field) read as `gameday` on and `odds` off; they're rewritten as `v: 2` on the next save.
+- `type` is one of `puck_drop`, `goal`, `period_end`, `final`, `lineup`, `odds`, `gameday`, `pregame_60`, `pregame_15` (same keys as the panel's checkboxes).
+- Defaults when a sign-up leaves a key out: `odds` **off** (betting odds are opt-in, 19+), everything else on, including the 1 hour and 15 minute reminders.
+  Records saved before Nov 5, 2026 (no `v` field) read as `gameday` on and `odds` off. Records saved before the pre-game reminders (`v` 1 or 2) read those two as on. The next save rewrites the row as `v: 3`.
 - `id` (e.g. `2026020260:goal:211`) is stored in KV as `evt:<id>` for 45 days; a repeated id returns `{"duplicate":true}`
   and nothing is sent. This suppresses sequential repeats; KV is not an atomic lock for concurrent producers.
 - Push: `src/webpush.js` implements RFC 8291 (aes128gcm) + RFC 8292 (VAPID, ES256) with WebCrypto only, no npm
@@ -123,7 +123,7 @@ Domains & Routes), e.g. `alerts.copperandbluenews.com`, and use that as `WORKER_
 curl -H "Authorization: Bearer $ADMIN_SECRET" $W/export -o cbn-alerts-signups.csv
 ```
 
-Columns: `id, email, puck_drop, goal, period_end, final, lineup, odds, gameday, created_at, updated_at, endpoint, p256dh, auth`
+Columns: `id, email, puck_drop, goal, period_end, final, lineup, odds, gameday, pregame_60, pregame_15, created_at, updated_at, endpoint, p256dh, auth`
 (the last three let you move the subscriptions to another push sender with the same VAPID keys).
 
 ## Local testing
@@ -148,6 +148,15 @@ npm run test:integration                    # subscribe/CORS/notify/dedupe/410 c
 - The active window is five minutes before puck drop through final (at most eight hours after scheduled
   start). The first eligible game is **2026020276, VAN@EDM, Nov 7 at 8 PM PT**. `GAME_ALERTS_SINCE` is that
   scheduled start in UTC. Every older game is excluded, regardless of old Actions cache or KV visibility.
+- Two extra alerts fire from that same schedule, before the live window: **1 hour to puck drop**
+  (`pregame_60`) and **15 minutes to puck drop** (`pregame_15`). Each is one Durable Object `seen:` id
+  per game (`GAMEID:pregame_60`, `GAMEID:pregame_15`). The window stays open for 2 minutes after the
+  mark (so a minute-late cron still sends) and then closes: a wake at 16 minutes, or after puck drop,
+  does not send the hour alert. On an idle day the actor sets its alarm to the next window from
+  `startTimeUTC` instead of deleting it. The body is the abbrev matchup, venue, and the same MT | PT
+  clock the site uses, plus the Oilers starter when the NHL boxscore has flagged one or the published
+  lineup says Confirmed/Likely. The push URL is that game's Live view, `/tracker.html?id=GAMEID`.
+  Push TTL is 2 minutes so a delayed device does not show a stale countdown. Both checkboxes default on.
 - `src/game-events.js` ports Python `game_events` and `add_odds`: identical titles, bodies, IDs, URLs,
   scorer/assist formatting, PP/SH/EN, shootout exclusions, final result and optional odds variants.
   Stable event IDs are never re-sent after scorer edits, goal removal or reappearance, matching Python.
@@ -191,6 +200,8 @@ still open `/players.html`.
 
 - `npm test`: push crypto, live relay, and game producer tests. Replays **296 incremental snapshots** of
   real EDM game 2026020260 and compares against actual Python output: **14 exact alerts**, once each.
+  `test/pregame.test.mjs` checks the 1 hour and 15 minute windows at 61, 59, 16, 14 and -1 minutes
+  before start, plus one-time dedupe and the idle alarm.
   Also tests scorer corrections/reversals, legacy cutover, overlapping runs, enqueue ambiguity, partial
   delivery failure, durable restart and crash-after-last-checkpoint recovery. Sending is stubbed.
 - `npm run test:game-runtime`: bundles locally, then runs real workerd SQLite DO + KV + Queue and actual
@@ -218,13 +229,13 @@ Head-to-head play uses two new SQLite Durable Objects. `GameAlerts` is not migra
 | `POST /airhockey/join` | the rink | `{code}` joins `play.html?room=CODE` |
 | `GET /airhockey/ws/:matchId` | the rink | WebSocket. The match object simulates the puck |
 
-`AirHockeyLobby` (one instance, `idFromName("airhockey-lobby")`) holds accounts, the queue, room codes, results, and the leaderboard. The user row has `email` and `email_verified_at`, both null until email login exists. Device tokens and recovery codes are stored as SHA-256 hashes. `AirHockeyMatch` is one object per match (`idFromName(matchId)`): 60 Hz physics, ~30 Hz broadcasts, a 2 minute server clock, sudden-death overtime (1 minute, then a tie), 15 s reconnect grace, then forfeit. `AIRHOCKEY_REG_SEC` and `AIRHOCKEY_OT_SEC` override those lengths for local testing only; leave them unset in production.
+`AirHockeyLobby` (one instance, `idFromName("airhockey-lobby")`) holds accounts, the queue, room codes, results, and the leaderboard. The user row has `email` and `email_verified_at`, both null until email login exists. Device tokens and recovery codes are stored as SHA-256 hashes. `AirHockeyMatch` is one object per match (`idFromName(matchId)`): 60 Hz physics, ~30 Hz snapshots (`n` sequence, `ts` timestamp), a 2 minute server clock that runs only while the puck is in play, a 3 second VS intro that does not spend the clock, sudden-death overtime (1 minute, then a tie), and a 15 s reconnect grace. The clock freezes while either seat is disconnected. The same device token rejoins that match with the score and the remaining clock intact. A socket that sends nothing for 5 seconds is closed, and that close starts the same grace. Miss it and the match is a forfeit. Sockets use the hibernation API (`acceptWebSocket`, `webSocketMessage`, `webSocketClose`). The 60 Hz loop keeps a live game awake. Grace and the waiting room use an alarm so the actor can hibernate. Clients predict their own paddle and render the puck about 100 ms behind. `AIRHOCKEY_REG_SEC` and `AIRHOCKEY_OT_SEC` override the period lengths for local testing only; leave them unset in production.
 
 Both classes are new SQLite Durable Object exports, the same declaration `GameAlerts` already uses. Wrangler 4 treats `[[migrations]]` and `exports` as mutually exclusive, so a migration tag cannot be added without removing the `GameAlerts` export. That export stays. On `npx wrangler deploy`, exports reconciliation creates `AirHockeyLobby` and `AirHockeyMatch` and leaves `GameAlerts` alone. No new KV namespace and no new secret.
 
 Deploy from this folder with `npx wrangler deploy`. GitHub Pages does not deploy the Worker. Until that deploy, the page still plays against Copper and online buttons get a clear error. Sign-ups are capped at 6 per hour per network, new matches at 20 per 10 minutes, and each socket at about 40 messages per second. Raw IP addresses are not stored.
 
-Local: `npx wrangler dev --port 8787`, then open `play.html?api=http://127.0.0.1:8787` from a local static server. `node test/airhockey.test.mjs` covers names, Elo, and physics. `node test/airhockey-browser.mjs` plays a short match with two headless browsers (wrangler must already be running).
+Local: `npx wrangler dev --port 8787`, then open `play.html?api=http://127.0.0.1:8787` from a local static server. `node test/airhockey.test.mjs` covers names, Elo, and physics. `node test/airhockey-net.test.mjs` runs two simulated clients through latency, jitter, packet loss, a forced disconnect, and a reconnect that keeps the score and the clock. `node test/airhockey-browser.mjs` plays a short match with two headless browsers (wrangler must already be running).
 
 ## Send stats (KV)
 

@@ -84,6 +84,10 @@ export function describeAlert(game, event) {
   if (!event) return meta;
   if (event.type === "goal") meta.detail = goalDetail(game, event);
   else if (event.type === "puck_drop") meta.detail = {kind: "puck_drop", venue: game.venue?.default || ""};
+  else if (event.type === "pregame_60" || event.type === "pregame_15") {
+    const venue = game.venue?.default || (typeof game.venue === "string" ? game.venue : "");
+    meta.detail = {kind: event.type, venue, when: event.when || "", starter: event.starter || "", starterStatus: event.starterStatus || "", matchup: event.abbrev || ""};
+  }
   else if (event.type === "period_end") {
     const n = Number(String(event.id).split(":").pop());
     const p = (game.plays || []).find(x => x.typeDescKey === "period-end" && x.periodDescriptor?.number === n);
