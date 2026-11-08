@@ -77,8 +77,10 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   for a three-hour game uses ~3,600 requests: about 27 viewer-sessions maximum before other traffic.
   Home, Scores and Live each use one live request per poll, not continuous half-second polling.
   Hidden tabs stop polling; pre-game live cards also consume requests while open.
-- **Push alerts:** the Worker now owns puck drop, goals, period ends and final scores. A minute cron
-  wakes one SQLite-backed Durable Object, which polls the NHL directly every 15 seconds near/during games.
+- **Push alerts:** the Worker now owns puck drop, goals, period ends and final scores, plus a
+  1 hour and a 15 minute reminder before every Oilers puck drop. A minute cron wakes one SQLite-backed
+  Durable Object, which polls the NHL directly every 15 seconds near/during games and sets an alarm from
+  the schedule's `startTimeUTC` so those reminders still fire on days that would otherwise be idle.
   A strongly consistent event journal, recoverable queue outbox and per-recipient delivery checkpoints
   fence overlapping runs/retries. GitHub still handles lineup, gameday and pregame odds, not game events.
   The activation floor starts at VAN@EDM on Nov 7 (8 PM PT); no old Actions-cache game can replay at cutover.
