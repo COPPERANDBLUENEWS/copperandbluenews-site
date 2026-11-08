@@ -127,7 +127,7 @@ $("yr").textContent = new Date().getFullYear();
   const here = path.split("/").pop() || "./";
   const nested = path.includes("/articles/");
   const newsTab = here === "posts.html" || here === "article.html" || nested;
-  let cur = here === "index.html" ? "./" : (here === "game.html" || here === "stats.html" || here === "standings.html" || here === "leaders.html") ? "scores.html" : here === "player.html" ? "players.html" : newsTab ? "news.html" : here;
+  let cur = here === "index.html" ? "./" : (here === "game.html" || here === "stats.html" || here === "standings.html" || here === "leaders.html" || here === "mcdavid.html") ? "scores.html" : here === "player.html" ? "players.html" : newsTab ? "news.html" : here;
   if (nested) cur = cur === "./" ? "../" : "../" + cur;
   document.querySelectorAll(".topnav a, .tabbar a, .more-menu a").forEach(a => { if (a.getAttribute("href") === cur) a.classList.add("on"); });
   const menu = document.getElementById("more-menu"); if (!menu) return;

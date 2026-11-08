@@ -25,7 +25,7 @@
 <meta name="application-name" content="C&amp;B News">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=48">
+<link rel="stylesheet" href="css/style.css?v=49">
 </head>
 <body>
 <header class="nav"><button type="button" class="bell" id="cbn-bell" aria-label="Notifications" title="Notifications"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22Zm7-6V11a7 7 0 0 0-5.5-6.84V3.5a1.5 1.5 0 0 0-3 0v.66A7 7 0 0 0 5 11v5l-2 2v1h18v-1l-2-2Z"/></svg><span class="bell-t">Alerts</span></button><a class="brand" href="./"><img src="logo.jpg" alt="" width="36" height="36"><span>Copper &amp; Blue <b>News</b></span></a>
@@ -35,9 +35,14 @@
 <section class="hero"><img class="hero-logo" src="logo.jpg" alt="The Copper &amp; Blue News logo" width="160" height="160">
 <h1>The Copper &amp; Blue News</h1><p class="tag">Edmonton Oilers coverage, every game</p><a class="btn" href="https://www.instagram.com/copperandbluenews/" target="_blank" rel="noopener">Follow on Instagram</a> <a class="btn btn-ghost" href="#alerts" data-alerts>Get game alerts</a></section>
 <article class="card live-card" id="live" hidden></article>
+<a class="card chase-card" id="chase" href="mcdavid.html">
+<div class="chase-top"><h2>McDavid Chase</h2><b class="chase-go" id="chaseGo">…<small>to tie 215</small></b></div>
+<div class="chase-track" id="chaseTrack" role="img" aria-label="Points toward 215"><span class="chase-fill" id="chaseFill"></span><span class="chase-tick" id="chaseTick" hidden></span></div>
+<p class="meta" id="chaseMeta">Loading…</p>
+</a>
 <article class="card fgs" id="fgs" hidden></article>
 <article class="card play-home" id="play-home">
-<div class="play-home-row"><img src="copper.svg?v=48" width="84" height="84" alt="Copper, our smiling oil-drop mascot"><div><p class="play-eyebrow">AirHockey with Copper</p><h2>Hit the ice</h2><p>Two minutes online, or first to seven against Copper.</p></div></div>
+<div class="play-home-row"><img src="copper.svg?v=49" width="84" height="84" alt="Copper, our smiling oil-drop mascot"><div><p class="play-eyebrow">AirHockey with Copper</p><h2>Hit the ice</h2><p>Two minutes online, or first to seven against Copper.</p></div></div>
 <div class="play-home-actions"><a class="btn" href="play.html">Play vs Copper</a><a class="btn btn-ghost" href="play.html?online=1">Play Online</a></div>
 <ol class="play-home-board" id="homeBoard" hidden></ol>
 </article>
@@ -55,14 +60,15 @@
 <p><a href="https://www.instagram.com/copperandbluenews/" target="_blank" rel="noopener">@copperandbluenews on Instagram</a></p>
 <p class="disc">The Copper &amp; Blue News is a fan-run page. Not affiliated with the Edmonton Oilers or the NHL. Schedule data via the public NHL API.</p>
 <p class="disc">&copy; <span id="yr">2026</span> The Copper &amp; Blue News</p></footer>
-<script src="js/main.js?v=48"></script>
-<script src="js/config.js?v=48"></script>
-<script src="js/home-play.js?v=48"></script>
-<script src="js/newsletter.js?v=48"></script>
-<script src="js/pwa.js?v=48"></script>
-<script src="js/article-render.js?v=48"></script>
-<script src="js/instagram.js?v=48"></script>
-<script src="js/odds.js?v=48"></script>
-<script src="js/fgs.js?v=48"></script>
+<script src="js/main.js?v=49"></script>
+<script src="js/config.js?v=49"></script>
+<script src="js/home-play.js?v=49"></script>
+<script src="js/newsletter.js?v=49"></script>
+<script src="js/pwa.js?v=49"></script>
+<script src="js/article-render.js?v=49"></script>
+<script src="js/instagram.js?v=49"></script>
+<script src="js/odds.js?v=49"></script>
+<script src="js/fgs.js?v=49"></script>
+<script src="js/mcdavid.js?v=49"></script>
 <!-- Cloudflare Web Analytics --><script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"63f156cfaaad47ffac9a9a15053e67a8"}'></script><!-- End Cloudflare Web Analytics -->
 </body></html>

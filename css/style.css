@@ -420,12 +420,13 @@ body.ah-online #arenaRule{position:absolute!important;width:1px;height:1px;overf
 /* Only a paused/results dialog may scroll on small screens; the rink itself never pans. */
 body.rink-immersive.rink-paused,.rink-paused .pong-arena{touch-action:pan-y}
 
-/* Scores views: four equal tabs on a phone, under the header and above the bottom tab bar. */
+/* Scores views: a scrolling row on a phone (Scores, Stats, Standings, Leaders, Chase). */
 .nav{justify-content:flex-start}
 .nav nav.topnav{margin-left:auto}
-.score-views{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;margin:0 0 12px;position:sticky;top:54px;z-index:4;background:rgba(11,26,51,.96);padding:4px 0 8px}
-.score-views a{display:block;text-align:center;padding:8px 2px;border-radius:10px;font-size:12.5px;line-height:1.15;white-space:nowrap}
-@media(min-width:761px){.score-views{display:flex;top:64px}.score-views a{flex:0 0 auto;padding:7px 14px;border-radius:999px;font-size:13px}}
+.score-views{display:flex;gap:4px;margin:0 0 12px;position:sticky;top:54px;z-index:4;background:rgba(11,26,51,.96);padding:4px 0 8px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.score-views::-webkit-scrollbar{display:none}
+.score-views a{flex:1 0 auto;display:block;text-align:center;padding:8px 10px;border-radius:10px;font-size:12.5px;line-height:1.15;white-space:nowrap}
+@media(min-width:761px){.score-views{top:64px;overflow:visible}.score-views a{flex:0 0 auto;padding:7px 14px;border-radius:999px;font-size:13px}}
 @media(display-mode:standalone){.score-views{top:calc(54px + env(safe-area-inset-top,0px))}}
 .board-note{margin:0 0 10px}
 .div-h{font-size:.95rem;color:var(--muted);margin:12px 0 6px}
@@ -522,3 +523,56 @@ body.rink-immersive.rink-paused,.rink-paused .pong-arena{touch-action:pan-y}
 .art-feature-body p{margin:0 0 8px;color:#d6deeb;font-size:.95rem}
 .ig-feature-badge{position:absolute;top:8px;left:8px;z-index:1}
 @media(min-width:760px){.art-feature-card{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}.art-feature-media{aspect-ratio:auto;min-height:100%}.art-feature-body{padding:22px 22px 20px;display:flex;flex-direction:column;justify-content:center}.art-feature-body h2{font-size:2rem}}
+
+/* McDavid Chase */
+a.chase-card{display:block;color:inherit;text-decoration:none;margin:0 0 14px}
+a.chase-card:hover,a.chase-card:focus-visible{border-color:var(--copper);color:inherit}
+a.chase-card:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
+.chase-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.chase-card h2{margin:0}
+.chase-go{font:700 1.7rem/1 Oswald,sans-serif;color:#fff;text-align:right;font-variant-numeric:tabular-nums}
+.chase-go small{display:block;margin-top:4px;font:600 .68rem/1.2 Inter,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.chase-track{position:relative;height:10px;margin:10px 0 8px;background:#0f2142;border-radius:99px;overflow:visible}
+.chase-fill{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,#c8763a,#FF4C00)}
+.chase-tick{position:absolute;top:-3px;width:2px;height:16px;background:#e8c4a4;border-radius:1px;transform:translateX(-1px)}
+.chase-card .meta{margin:0}
+@media(min-width:760px){
+  a.chase-card{display:grid;grid-template-columns:minmax(150px,200px) minmax(0,1fr);column-gap:18px;align-items:center}
+  .chase-top{grid-column:1;grid-row:1 / span 2;display:block}
+  .chase-go{text-align:left;font-size:2.1rem}
+  .chase-track{grid-column:2;grid-row:1;margin:0}
+  a.chase-card .meta{grid-column:2;grid-row:2;margin:0}
+}
+.chase-kicker{color:var(--muted);margin:0 0 12px}
+.chase-status{color:var(--muted)}
+.chase-hero{text-align:center}
+.chase-ring-wrap{position:relative;width:min(220px,72vw);margin:0 auto 8px}
+.chase-ring-wrap svg{width:100%;height:auto;display:block}
+.chase-ring-num{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;pointer-events:none}
+.chase-ring-num b{font:700 clamp(2.7rem,12vw,3.7rem)/.85 Oswald,sans-serif;color:#fff;font-variant-numeric:tabular-nums}
+.chase-ring-num span{margin-top:4px;font:700 .72rem/1.2 Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--orange)}
+.chase-break{margin:0;color:var(--muted)}
+.chase-line{font:700 1.15rem/1.3 Oswald,sans-serif;text-transform:uppercase;letter-spacing:.03em;margin:8px 0 0}
+.chase-note{color:var(--muted);font-size:.88rem;margin:8px 0 0}
+.chase-live{margin:12px 0 0;padding:10px 12px;border:1px solid var(--line);border-left:3px solid var(--orange);border-radius:8px;background:#0f2142;color:#f4b37c;font-size:.9rem;text-align:left}
+.chase-share{margin-top:12px}
+.chase-share .art-share-btn{min-height:44px;padding:12px 18px}
+.chase-split{display:grid;gap:14px;margin-top:14px}
+@media(min-width:760px){.chase-split{grid-template-columns:1fr 1fr}#chaseApp{max-width:760px}}
+.chase-pace-num{font:700 clamp(2rem,7vw,2.6rem)/1 Oswald,sans-serif;color:#fff;margin:0}
+.chase-pace-num span{color:var(--orange);font-size:.55em}
+.chase-predict p{margin:.45em 0}
+.chase-off{color:#f4b37c;font-weight:700}
+.chase-on{color:#4ade80;font-weight:700}
+.chase-chart{width:100%;height:auto;display:block;touch-action:manipulation}
+.chase-legend{display:flex;flex-wrap:wrap;gap:8px 16px;margin:8px 0 0;font-size:.8rem;color:var(--muted)}
+.chase-legend i{display:inline-block;width:18px;height:3px;margin-right:6px;vertical-align:middle;border-radius:2px}
+.chase-legend .me{background:#FF4C00}
+.chase-legend .him{background:repeating-linear-gradient(90deg,#9fb0cc 0 4px,transparent 4px 7px);height:3px}
+.chase-read{min-height:2.7em;margin:8px 0 0;font-size:.92rem}
+.chase-cmp{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.chase-cmp li{display:grid;grid-template-columns:72px minmax(0,1fr);gap:10px;align-items:center;background:#0f2142;border:1px solid var(--line);border-radius:10px;padding:10px}
+.chase-cmp b{font:700 1.45rem/1 Oswald,sans-serif;color:var(--orange);text-align:right;font-variant-numeric:tabular-nums}
+.chase-cmp span{font-size:.9rem}
+#chaseApp .card{margin-bottom:14px}
+#chaseApp .card h2{margin-bottom:8px}
