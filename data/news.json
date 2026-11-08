@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-08T16:14:54Z",
+ "updated": "2026-11-08T17:14:27Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (8)",
-  "Google News (93)"
+  "Google News (92)"
  ],
  "errors": [],
  "items": [
@@ -13,6 +13,14 @@
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeFBiRGJnZzdNM2RfTUd6d3NUT2lqbzVqQnN0QndZSkZzalhlQ2RqczlSYmxvU2ZoLVdRT1ZfQXNLaXpUUVNkOFZHdDJ2T0hSdGtzLVY5X01JNlFXbURCLXhNWDE0aHktNWd3Yl9pTG9MRDJJalA3bkFoTW1wcGNTeDdOQUlyN3cyY0FUVGRMOTBCeUctSVJuZVFRR0p3NXc?oc=5",
    "source": "The New York Times",
    "published": "2026-11-08T16:00:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "The Day After 18.0: Devon Levi’s solid start in return sparks Oilers past Canucks",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdXo2Mkp3YnpwN1NwTms1R2s5UDNNdW1mdVdOS09RYkN0dTVZNGI4VHZ2R0pELVBIeVNTZ1dmUmNUVHVvWmlwS3Jjd05BNUFiVW83UElOUDlicHp3M1EyY0ZfY01UeU0xeHhFN3JuWHc3cGZFVVNEa0dBQ3VyZFBfRFhDUXd4aVZYWE5fSWgzbFRPb05qa0Jkd1ZNR3dBamh1M3lyX3RRNE5tY00?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-08T16:00:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -61,6 +69,14 @@
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUFQcTI2bUp2RVdsd0Q1b0ZHb0ZUbmwyU0pYOU96dmhCeHNaXzNiUmNta29acHczd2JGYnhSNzBWaW9iQ003Sm0tX0lfaFk0ckZDd3A1N1JON2J3cDVBMHlXREM3UHc2b2d5MU1xa09UdkVuZUJpUGgtVEhYSVFrMnVSZnlacGJv?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-08T13:55:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Excited Levi shines in return to Oilers' net, beat Canucks 4-2",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdHdueEtoNnRWWVI5Rmw1S2JRbEgzS2FuU2VPSXVlaWUzWWpLTVplUG5xUGU1NE9RVUJmelcxOW9hWjdiMTFHeUZfQk5ndXpFN3Z5RndFMFRsRzBkSEdYS1piempwSDF4NDk3cjJOb3RQdWktMEM2R1dITGNPWGJuYUZhT1NqVUJ4NW43Wm9SaERndWxXNjJEbHJXNnZSYl9ENHMw?oc=5",
+   "source": "CTV News",
+   "published": "2026-11-08T13:49:46Z",
    "snippet": "",
    "via": "google"
   },
@@ -144,22 +160,6 @@
    "via": "google"
   },
   {
-   "title": "NHL Highlights: Oilers 4, Canucks 2",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91S0R4OFFTeS1Xb0FOQXdEQmgzY1JkVlo4NER0ZWVUN3lGVGswbm8ta2hGT25Gcm9ROXREb05LRF82R2lTR0RyeTFGbldjWHhwY0dpcHd2T01paHlwT3NOV252RFRkQ215ZzROekU0N0x1R3JFZ1NsU19rOA?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-08T10:29:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "New York brings 3-game win streak into matchup against Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN211UUJncU9mTENtenVJUjFGcmZxODNlN0JFOWd6OGRtbGRQTE5wX2YzOTJDZ1E5ei0zWVJRd0VyaHRmTDVwNkdiUjllWHRZVGJyMVNuLTdZamp1QTZBWVl4VHp2M05hMmljYXZleXJhRm5fZ1RiOFJaRUs2bUl2OGxLUGRrZFltaHlDMXdEdlM5UdIBlwFBVV95cUxPREstdmlFRDV6ZkVCX1RFSU9PaGRIQW5jMnhna2wxVTJHSk1RbUlnaU1lZVNEN3o5S21YSXpQQUVOS2hweFlYY0xFbVlJVXBzSmxTaFJ0SF9KSXhBWV9ZTUxzc0FBZU45MDFUYWpSWHRkUkpkNGFQWnFtNnZ6ZFM5dUV0MHZSalJaaW9pcHExdWsyTkFRWHo4?oc=5",
-   "source": "ABC News - Breaking News, Latest News and Videos",
-   "published": "2026-11-08T10:10:20Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Canucks match effort by high-powered Oilers but crumble in third period",
    "url": "https://www.sportsnet.ca/nhl/article/canucks-match-effort-by-high-powered-oilers-but-crumble-in-third-period/",
    "source": "Sportsnet",
@@ -186,6 +186,13 @@
    "source": "Sportsnet",
    "published": "2026-11-08T06:07:37Z",
    "snippet": ""
+  },
+  {
+   "title": "NHL Highlights: Oilers 4, Canucks 2",
+   "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-oilers-4-canucks-2-2/",
+   "source": "Sportsnet",
+   "published": "2026-11-08T05:59:12Z",
+   "snippet": "Leon Draisaitl scored twice and added an assist, while Connor McDavid had three helpers to extend his assist streak to 18 games. Devon Levi made 20 saves in his return from IR as the…"
   },
   {
    "title": "Edmonton Oilers dump Canucks, complete clean sweep of Vancouver teams",
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-07T21:04:40Z",
    "snippet": "TNA: Destination X goes Sunday, Nov. 15 at 4 p.m. at the Edmonton Expo Centre. Tickets are available at Ticketmaster.com"
-  },
-  {
-   "title": "Canucks at Oilers projected lineups",
-   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-preview-november-7-2026",
-   "source": "NHL.com",
-   "published": "2026-11-07T19:30:24.446Z",
-   "snippet": "CANUCKS (3-14-1) at OILERS (11-3-3) 10 p.m. ET; TVAS, SN Canucks projected lineup Arshdeep Bains -- Elias Pettersson -- Brock Boeser Liam Ohgren -- Marco Rossi -- Linus Karlsson Drew…"
   }
  ]
 }
