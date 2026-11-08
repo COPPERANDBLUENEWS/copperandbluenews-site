@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T03:58:20Z",
+ "updated": "2026-11-08T04:30:39Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -9,11 +9,12 @@
  "errors": [],
  "items": [
   {
-   "title": "Oilers’ Connor McDavid ties Adam Oates with assists in 18 consecutive games",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-connor-mcdavid-ties-adam-oates-with-assists-in-18-consecutive-games/",
-   "source": "Sportsnet",
-   "published": "2026-11-08T03:50:13Z",
-   "snippet": ""
+   "title": "Oilers' Connor McDavid ties Adam Oates with assists in 18 consecutive games",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVC1PTDdqOHp0WUpkQ3ZpRW5kbURZeU1YWlhlTW41aGNhX1pMZ2NVSDlJUGpjZ01iVFBoYW00STk0Wk54XzZYdlMzc2hzbjVYS3NaRnd6Q3dMZXhMWm9YcWtVY3FyZndRU3JaYmU2OUVoTEtEMVU4RmxWV05OMzk3cFZvRmJPdnBlV2J4N3luTVpZa0oySldUMHdNRmszUVRHX2d3S21PNFpJeDJHcjI3RXpR?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-08T04:07:00Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Canucks vs. Oilers (Nov 7, 2026) Live Score",
@@ -36,14 +37,6 @@
    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZUFJeVVxalE0bjhSc0FMck5zT0YteVRSdXpuQW14czRFdWpnV01iZHZPbnFYNzdHbGt0eVZXam5lT1JrOE03Vl9vZ0ROVDFVbkZkc1BNbG9OSnBmSDdockZ6S19pRWFTeU8tS1pBUkRSZ3lQWXdILThYcEpZMHdnSzZwVnB6RjZZNUpjYTVmTXZQeGp2N1g2YXZ0UVNpcE84TmFpR2c2RkJLdEV1MFp5SnhRbTJQRGNVV2M1Wi1QZWcxQzBXbmJvUmt1eEszT3RjcEYwdnZ3RDZoMXlHR1VDak5BWU5pXzZlc2hmSHJR?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-08T02:56:51Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks @ Edmonton Oilers: Live game updates, stats, play-by-play",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-08T02:51:54Z",
    "snippet": "",
    "via": "google"
   },
@@ -124,12 +117,27 @@
    "snippet": "Watch as Edmonton Elks quarterback Cody Fajardo runs outside the tackles into the end-zone for six, the first touchdown of the West Final between the Elks and Lions."
   },
   {
+   "title": "Vancouver Canucks @ Edmonton Oilers: Live game updates, stats, play-by-play",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-08T00:56:46Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers Play First Of Many 9PM Starts",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQnc2UXZZM2I1Z0RwS1l3bHl5YmdtTjZTbkg4ZXZZMnBYWnEtdjlhYXlqRnNzazNvay01THlfMUNJeldUbFFEV3F0TFpzWnZzaFBsYXBiZUVlVkpxbnZXWEZNc3ZHMW10RUw5WjRPdWtwRU80aGZtTFZaalg5OFFTWThhSVVBN3FOVktlQWhLVDVUZDRLSmtiZ093?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-08T00:27:22Z",
    "snippet": "",
    "via": "google"
+  },
+  {
+   "title": "Flames goalie Devin Cooley most interesting man in hockey",
+   "url": "http://edmontonjournal.com/sports/hockey/nhl/flames-goalie-devin-cooley-most-interesting-man-in-hockey/wcm/2f976173-78be-4d03-8e73-57c1eb4f6b4e",
+   "source": "Edmonton Journal",
+   "published": "2026-11-08T00:26:02Z",
+   "snippet": "California-born netminder insightful, at ease, and possessed of a certain existential acceptance"
   },
   {
    "title": "Why the Oilers should split up Connor Murphy and Ryan Shea",
@@ -176,14 +184,6 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
    "source": "NHL.com",
    "published": "2026-11-07T23:00:24Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers activate Zach Hyman, Devon Levi off IR",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOGZodnhZb2NpV0p4RkV4Zms1R1FOd3ZmNzliaUh3SFV5NHdKVXEyNWNkSlduRVFCREU5N3BRc1ZJS1ZaNXo4V3R4YXlORGt5Qmdoc1VmR0JYNnYzdkdhSS11QVRIQWFsSU5LQTJ2a19Ec2NUbUM3VUE3M3pQRExVNGtxSVl4Mm43U3l5aWRYTzFXQUxtZ0I3ek84UGk0TksxbC1ReWkwNHk1SUR4Z3FTaHl2czQ3Q0dKY0JJ?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-07T23:00:16Z",
    "snippet": "",
    "via": "google"
   },
