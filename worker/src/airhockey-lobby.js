@@ -422,8 +422,11 @@ export class AirHockeyLobby {
     else if (match.north_id === row.id) seat = "north";
     else return fail(403, "You're not in this match.");
     const opp = seat === "south" ? match.north_name : match.south_name;
+    const oppId = seat === "south" ? match.north_id : match.south_id;
+    const oppRow = oppId ? this.one("SELECT * FROM users WHERE id = ?", oppId) : null;
     const stats = career(row);
-    return json({ok: true, userId: row.id, username: row.username, seat, opponent: opp, ...stats});
+    const oppStats = oppRow ? career(oppRow) : {id: oppId, username: opp, wins: 0, losses: 0, ties: 0, otl: 0, gp: 0, rating: 1000};
+    return json({ok: true, userId: row.id, username: row.username, seat, opponent: opp, ...stats, oppStats});
   }
 
   recompute(id) {

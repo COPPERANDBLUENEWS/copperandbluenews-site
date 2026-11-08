@@ -2,7 +2,7 @@
 import assert from "node:assert/strict";
 import {validateUsername, normalizeName} from "../src/airhockey-names.js";
 import {elo, eloPoints, START_RATING} from "../src/airhockey-elo.js";
-import {createGame, expireClock, setTarget, step, viewToWorld, W, H, PR, WALL, PADDLE_SPEED, REG_MS, OT_MS} from "../src/airhockey-physics.js";
+import {createGame, expireClock, packState, setTarget, step, viewToWorld, W, H, PR, WALL, PADDLE_SPEED, REG_MS, OT_MS} from "../src/airhockey-physics.js";
 
 assert.equal(validateUsername("ab").error.includes("3–16"), true);
 assert.equal(validateUsername("this_name_is_too_long").error.includes("3–16"), true);
@@ -73,5 +73,22 @@ const tied = eloPoints(1000, 1000, 0.5);
 assert.equal(tied.a, 1000);
 assert.equal(tied.b, 1000);
 assert.equal(elo(1000, 1000).winner, 1016);
+
+const intro = createGame();
+intro.phase = "versus";
+intro.timer = 3;
+intro.clock = REG_MS;
+let introT = 0;
+while (intro.phase === "versus" && introT < 5) {
+  step(intro, 1 / 120, []);
+  step(intro, 1 / 120, []);
+  introT += 1 / 60;
+}
+assert.ok(Math.abs(introT - 3) < 0.05, "VS intro is 3 seconds, got " + introT);
+assert.equal(intro.phase, "faceoff");
+assert.equal(intro.clock, REG_MS);
+assert.equal(packState(intro, []).ph, "f");
+intro.phase = "versus";
+assert.equal(packState(intro, []).ph, "v");
 
 console.log("airhockey unit pass");
