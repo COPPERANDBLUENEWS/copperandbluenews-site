@@ -1,33 +1,104 @@
 {
- "updated": "2026-11-08T06:00:36Z",
+ "updated": "2026-11-08T06:27:23Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (5)",
-  "Google News (82)"
+  "Sportsnet (8)",
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "Oilers 4, Canucks 2: The best defensive effort of the season couldn't overcome Connor McDavid",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPRURHTE5mV3hWeTBLWDlJU2k0ZGRYMU1JelRvY19TdUJMS05iSUNrQnBrVlo2cUhjVm1Qcjd1SXJTRGdpc0NlN0VXSlZTbFpOblhxTmxFc1VCN3dYNnVtT1hUVm5uWVNQUEI1bzA2QnN2LXZPbFhFUFQwRkQ3WVlIUng3aGlUajljYl83RC1FMmFfV1FadWFSRWE2QUpYRFJJcS16WFNIZG5JdmhUeUx5bXVBdXFtemdkWEc4aUZYTVgtNlYycXF0RkszcS1KN3VsNTZTU20zeW1Nc09CdDYwbkY1UmE?oc=5",
+   "source": "The Province",
+   "published": "2026-11-08T06:13:46Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL Highlights: Oilers 4, Canucks 2",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91S0R4OFFTeS1Xb0FOQXdEQmgzY1JkVlo4NER0ZWVUN3lGVGswbm8ta2hGT25Gcm9ROXREb05LRF82R2lTR0RyeTFGbldjWHhwY0dpcHd2T01paHlwT3NOV252RFRkQ215ZzROekU0N0x1R3JFZ1NsU19rOA?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-08T06:12:34Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Goes 2-0 vs Vancouver: Oilers and Elks Both Pick Up Wins",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSmJqNGJtSEU5S1pwaW95aHhBbWx5REVnSE9nYlJBR0FvcHhlbm1TbXJRUlhNeTJXVEMwdEZmbG8zQm5wdnNPcEZjWG9jdGt2aVRuS01vUmRaVnhQT3BYSXZtd3JrRjlDdkJ5Szd6cmQ1bHZOODdMOVVXQ1k1cDZDSk5kSFhSbWJCNFJ2eXQ1Z3VvY3BsMEdGQkVGclU0Yk5VNmM2VGdxNThWcGpFQkE?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-08T06:10:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Canucks Put Forth Strong Effort But Fall 4-2 To The Oilers",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa1NGRG1QUkl6OGNMS3JCYTd2YlNPemJfNTBjUjdGT2RSR3lHYU92blVORGJYSUdxTEpBdVIzNHVWcEJiSG9BR2RTSFlpUEhHQlRMbFZiYzVoRTFNNHRxNHYwNHZCWDQ0bGU0SzNmdE53WC14OF9jaHljcnNBc1U2WVJjTnVVdTlzOGtBY0ZRM2JKSXZOVWoxTUZGZEhwNF9xeEJoMnJnZU9ZYlU5dFU1aFpqeVJVZw?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-08T06:08:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ McDavid continues record start with three more points vs. Canucks",
+   "url": "https://www.sportsnet.ca/nhl/video/is-mcdavid-on-pace-to-break-gretzkys-single-season-points-record/",
+   "source": "Sportsnet",
+   "published": "2026-11-08T06:08:14Z",
+   "snippet": "Ron MacLean, Elliotte Friedman, Luke Gazdic and Erik Johnson discuss Connor McDavid’s pursuit of Wayne Gretzky’s single-season record of 215 points and the potential debate over the number…"
+  },
+  {
+   "title": "Oilers’ Nugent-Hopkins exits early vs. Canucks after taking puck to head",
+   "url": "https://www.sportsnet.ca/nhl/article/oilers-nugent-hopkins-exits-early-vs-canucks-after-taking-puck-to-head/",
+   "source": "Sportsnet",
+   "published": "2026-11-08T06:07:37Z",
+   "snippet": ""
+  },
+  {
+   "title": "McDavid extends assist streak, Oilers double up slumping Canucks",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQTBEcEF4eDNCWmFkVkRJMlN4bVlLLVp0U0ppV2RJeDlJck9FUEs2VHk0NjRhSFlqUkgyb2JFU2Y1ZkJzenZkOWkzaFJkSkN3cldnUVN0aTg3VnFMVnpTUnRkaUZwT3AxbFdMVnlTVDNhSGc4ajhZNnBIaWlDTVVMM0tpX1Y3TUtnOGZHdklnamtlZHU5UXd4TVlpTHdWRXBtODlj?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-08T06:07:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid's assist streak to 18 games as Oilers handle Canucks",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNFlJMnVwcHJZU0txcS1aSjNTODQ2OGdwRHRYZmdHaFlKVUdxQ2Z4aDk3dUJkeEV4UzdVMUlfT0t5NU1iTTFyYXp1X1JEZ1VFU19GaG1KUTlNWFNoaXNzb25EalZOYW11U3ZUSFZrbjMwcUVMRW1HejBJZ0t5Y1JCMUZxUkttNGltV1EtTmFYZGxETW0yeXFONFlPSUZzc3lCbDFCemM1ZFp6NWJpakVFSE1B?oc=5",
+   "source": "Reuters",
+   "published": "2026-11-08T06:04:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONUVIcVNoZ1FZbzYzQXVkeEZnVHE4REtTWGZzRlRhelFvUktDc1llcWJqNURzdzJlbFdTcGJxRnl5VTRvTmNldVJpcU5xNmFldUJFQVJYa0t5UGRWcndGUVNDMzdneG03X3YwS2ZVcDI5Z3NIbGhOU3pCNkloTnk3NlZtMlFQcFlNZEpEU2RR?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-08T05:59:48.479Z",
-   "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
+   "published": "2026-11-08T06:03:11Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Edmonton Oilers dump Canucks, complete clean sweep of Vancouver teams",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hY2V5aGZia3U2QUdQbUx0TC1fbVJRc1dzWVJwRFNDSzk0QllvN1NtbkJvSUJrTy0wWVlCNlpsNXVWeHl3eWFLOWp1NmlzWlNibS1NTWJ2SFRIMV9ySUJEeldzak1fbmx2czFQM01wSHEtVU43eTdMOEx5a2hlQQ?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-08T05:56:11Z",
+   "published": "2026-11-08T05:58:21Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Draisaitl scores twice to power Oilers past Canucks 4-2",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSDJrRElvR1gwQ0ZRZERTdTM5NGZWazlwZlVpM3pUa0VPWFJLSXFzaExuTDRqeG81S3lUbWV5OThXTXc3aWlFLWNBdVVFQk9LbFpSZ2cyMktqMzd5SGIzOHExME9ScVgyM294TWVGVXpjTWlsMHFENEl2a2diekFQVG8zMElCYXRRY0E3ZW15MkZhelJ5LTJBU1Z4NFE3VTNQSm9vVjdhUWhDQjBvNmpPbm1Kc0FTd0otV2l0c2xQZVBMRDYtb0FHMXhRUTJ2dWlER0cwR2ctNXdCVXc?oc=5",
+   "source": "Toronto Star",
+   "published": "2026-11-08T05:57:05Z",
    "snippet": "",
    "via": "google"
   },
   {
    "title": "Draisaitl nets 2 as Edmonton Oilers dump Vancouver Canucks 4-2",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY2tjTFlxc3FpdERXODJXc3RZQmR2M2ZLZXJzOXIzbUttNnlOVjdVTy1KYmdqN19uelNjcFBLN05DaDZvTUhhT0VMOHQ4a3hrclZjRlVvNU5DN0Rzc0Z3S2pTelZycTZCazlIYk1mTExDWVJ1R2ZidWg0a1JBUlNuWUhtZkp1TnhVRzlxUHJiZlY5YVNyQjRBY3p6WE1FdFU?oc=5",
-   "source": "Chilliwack Progress",
-   "published": "2026-11-08T05:52:29Z",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQm1lV0lXVHlWYVlPN3RGVVlDVm9walBLdzY3SHZqakpnVjdIV2E4QVMtal9RVlg3QmV5eEwxOTNCMTdEdzQ1MlR3VFFDTkN3WklkaGxtNmZ1QUhRWmlyajY2c0pLTFlCSW9MM2ZGV190UWFwUGV0b2UyM1BrRWhfckZienZJS2FlLVp0WUNUa01iWWhsNHVnOWRjS2VPdlFENzZDRVJn?oc=5",
+   "source": "Fort St. James Caledonia Courier",
+   "published": "2026-11-08T05:52:35Z",
    "snippet": "",
    "via": "google"
   },
@@ -40,25 +111,58 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers Vancouver Canucks player grades",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbFRyZ3lVYWgwTUZ4S2RxcmNJZEZwZnpSaTBzTVFfNEZSSTV2dHZQelVQbzZlWV9IaGhoYkxSd0xQTU5ZcnpaN1NXWTR6YTRhcllpWHItRzFaWVRRYndJRDJjSDlEaEZrUkVtUkt4MXFzTzNDZWdhZWFXTnV3a3VHTXRqTkdIeDNobko5eHVNOVhaY3BONmNaZzJKWGx3U21YSEV4dUNieW1RM1Ut?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-08T05:45:28Z",
+   "title": "Leevi Merilainen with a Goalie Save vs. Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTmU3eHBkeWxHT1NBME0wZTFrOGRqNU9TdUQ5QnoxSmZ6UU0tMXlOaGx0OE12b21RZnZ0d0xqSUZ6dGgwWUl6MkNPTnpUR3VMZlFkR2U2cmJyMDljdFR2TmlCUmhsb1hyS1FvblU3a3ZDMGRqSUZMSXBpYVJzS2NiaHc5TS0?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-08T05:49:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vancouver Canucks 1 - Edmonton Oilers 1: End 1st",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-08T05:47:55Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers vs. Vancouver Canucks - Game Highlights",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSEN5eE9GOVZHUVZuNDR2b3VqRTJyNnNtZTZzSm5wLTNtQ1AyUk96MVB0b1VITUVSZnE4UWtCVDlDa1l4TWZSQk9zeVhGTHM2SEV1NEZQUm5PVzdDZmJRZWJrazlWOGkyTTlJOWloX21ybWV0YmhuN2NnRHVsQTgzQ3k2Z1VER1Nxc2FF?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-08T05:47:26Z",
    "snippet": "",
    "via": "google"
   },
   {
    "title": "Player grades: Edmonton big guns McDavid, Draisaitl, Bouchard lead Oilers to 4-2 win over Canucks",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-vancouver-canucks-player-grades",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbFRyZ3lVYWgwTUZ4S2RxcmNJZEZwZnpSaTBzTVFfNEZSSTV2dHZQelVQbzZlWV9IaGhoYkxSd0xQTU5ZcnpaN1NXWTR6YTRhcllpWHItRzFaWVRRYndJRDJjSDlEaEZrUkVtUkt4MXFzTzNDZWdhZWFXTnV3a3VHTXRqTkdIeDNobko5eHVNOVhaY3BONmNaZzJKWGx3U21YSEV4dUNieW1RM1Ut?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-08T05:43:26Z",
-   "snippet": ""
+   "published": "2026-11-08T05:44:07Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Nugent-Hopkins leaves game for Oilers after being struck in head by puck",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYzJmZmIySnR5MnJUWl9IQmh4dHJpRFBQQlV0cXlmbjdpNWtUM3ZkQjZWZ1FtSmg1RkRFQUtSc2Z0SnBUSTh6cEtidmxEemVwTzhTMV9HdzRzYU51X3RRQ0pnemlMcWhPSGZxOFRocElKdHQyZWpBNmxlWFpZaUcxR1d5VnZnak1FMXNDbjVnWVVMLWo2TDg3QWp3?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-08T05:42:08Z",
+   "published": "2026-11-08T05:43:11Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Instant reaction: Jason Dickinson’s revenge game goal fuels Oilers in 4-2 win over Canucks",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMXdVSGd2Y0lkcURoTl9NYlkyOHZvT2wzQUhmYng2LTkwSHBHcnZodXkyOHFhbDc2eFRrWFdtTDhDemVoV25TZlBOak5NYkxnNE5XQXpsR1BzNXBzVHdjd0xZaF9UbWI4SkFHV1ZvQVZ2ZkZOYTgyYmlXRlp4TGNxRGRueEZDWG1QXzhkX3ZHaGF2Vl9GX3VVTHNqbjlsczFJTW5ZOVRZN2pibVFvZ1E?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-08T05:04:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-08T05:00:24Z",
    "snippet": "",
    "via": "google"
   },
@@ -70,52 +174,11 @@
    "snippet": "The Montreal Alouettes and Edmonton Elks are headed to the Grey Cup after two very different victories. Here are six takeaways from a playoff weekend that delivered big performances, costly…"
   },
   {
-   "title": "Oilers' Connor McDavid ties Adam Oates with assists in 18 consecutive games",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVC1PTDdqOHp0WUpkQ3ZpRW5kbURZeU1YWlhlTW41aGNhX1pMZ2NVSDlJUGpjZ01iVFBoYW00STk0Wk54XzZYdlMzc2hzbjVYS3NaRnd6Q3dMZXhMWm9YcWtVY3FyZndRU3JaYmU2OUVoTEtEMVU4RmxWV05OMzk3cFZvRmJPdnBlV2J4N3luTVpZa0oySldUMHdNRmszUVRHX2d3S21PNFpJeDJHcjI3RXpR?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-08T04:07:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks 1 - Edmonton Oilers 1: End 1st",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lbkk0VHpiN0dWWlNPaUZnOHMwVmhIWUpJZHc4V2MtZFBtdHJubWhaTjRheUpMNlVmOXNBQmRFcmlISkVWU0R4WG5zeWlsTlVTWVlpOHdhSG9LRmFvSFlXSlAyNHFyNE1CSl9HSkhxb1l5MDc1NXJiSzAzMXpfQUk?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-08T03:56:46Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vancouver Canucks vs. Edmonton Oilers Box Score & Stats - November 7, 2026",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9MOTVPS2Vld21heDI4cHo2NFBjaF94MXFVMmtvMWhJZmRyWWs0OWs5TjA4ODlRZDJtM25PY0xKMWFMUWdaQXVULUZ5YnBYb2pXU05KSGl5c1pqTWhjNW01RTNNVk56enBqaEl3c2kwVzhrdkJyS0R5V3dtNkg?oc=5",
-   "source": "CBS Sports",
-   "published": "2026-11-08T03:16:21Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Canucks vs. Oilers (Nov 7, 2026) Live Score",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBjRWNNWWM5OGJRcmJFNHlLSkFtbXd6Q1YxTHZJZ3dxYmNUcU9aSEtFY1RrWENRdFhWcEJwX0VDUWZNczZ0alZGWVlqSnhRbnh6eTNPTl9lb2ppbG95?oc=5",
-   "source": "ESPN",
-   "published": "2026-11-08T03:13:37Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "LIVE UPDATES: Oilers vs. Canucks",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uQzdPQzhuSV9YLTZyTTBlRHlKOFY0cHAwUEU3anUxYllvaTMtbmR6S3NjRTdHXzZUSW5IcmFYYzlTVzEzbGpxdXlCeFYyTzhYalBnVm9RbXhydGZlOElhS2RTV0htV2JYWUx6dmppclJheXhnYS02MUFRYw?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-08T03:01:26Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Lineup Notes: Willander To Miss Third Consecutive Game, Bains Slots Back In As Canucks Face The Oilers",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZUFJeVVxalE0bjhSc0FMck5zT0YteVRSdXpuQW14czRFdWpnV01iZHZPbnFYNzdHbGt0eVZXam5lT1JrOE03Vl9vZ0ROVDFVbkZkc1BNbG9OSnBmSDdockZ6S19pRWFTeU8tS1pBUkRSZ3lQWXdILThYcEpZMHdnSzZwVnB6RjZZNUpjYTVmTXZQeGp2N1g2YXZ0UVNpcE84TmFpR2c2RkJLdEV1MFp5SnhRbTJQRGNVV2M1Wi1QZWcxQzBXbmJvUmt1eEszT3RjcEYwdnZ3RDZoMXlHR1VDak5BWU5pXzZlc2hmSHJR?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-08T02:56:51Z",
-   "snippet": "",
-   "via": "google"
+   "title": "Oilers’ McDavid sets up Ekholm for 18th straight game with assist",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-sets-up-ekholm-for-18th-straight-game-with-assist/",
+   "source": "Sportsnet",
+   "published": "2026-11-08T04:03:59Z",
+   "snippet": "Watch as the Oilers move up the ice before Connor McDavid finds Mattias Ekholm for a one-timer, extending his assist streak to 18 games."
   },
   {
    "title": "QUICK RECAP: Oilers 4, Canucks 2",
@@ -125,34 +188,11 @@
    "snippet": "EDMONTON, AB – Goaltender Devon Levi recorded 20 saves in his return from injury, while Connor McDavid & Leon Draisaitl had respective three-assist & two-goal efforts on Saturday night as…"
   },
   {
-   "title": "Saturday Night Hockey on Sportsnet: Canucks vs. Oilers",
-   "url": "https://www.sportsnet.ca/hockey/nhl/games/8a5fe348-82f8-4f90-a538-3249bbf54541/",
-   "source": "Sportsnet",
-   "published": "2026-11-08T02:47:30Z",
-   "snippet": ""
-  },
-  {
    "title": "Edmonton Elks down Lions in front of 40,000, punch ticket to Grey Cup",
    "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-b-c-lions-west-division-final-grey-cup",
    "source": "Edmonton Journal",
    "published": "2026-11-08T02:41:58Z",
    "snippet": "Playing in their first post-season game since 2019, the Elks won 28-16 over the B.C. Lions in the West Division final on Saturday at Commonwealth Stadium"
-  },
-  {
-   "title": "Edmonton Oilers NHL Line Combinations",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-08T02:41:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers vs. Maple Leafs: Start Time, TV & Preview, Nov. 14, 2026",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLTdrcmxyY3FDMUNGbHNHeUg4RzdrSWdkRXVScmc5S2JuYm91NC1iaTQ2T2pBRHZSeUNVcThZZWxoR1ZjaHFWSlludUU1TkYxbXFvX0xtOTFaRUo2ZEJTaTBVQU16NEtYU1k5SFBmNTNvMGxna2ZpZm9KNC1ELWI1TWwtblpWWjUwN3V0OVZzTQ?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-08T02:39:29Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Elks’ Fajardo finds Mack with a deep throw against Lions",
@@ -167,46 +207,6 @@
    "source": "Sportsnet",
    "published": "2026-11-08T01:48:04Z",
    "snippet": "Watch as Edmonton Elks quarterback Cody Fajardo runs outside the tackles into the end-zone for six, the first touchdown of the West Final between the Elks and Lions."
-  },
-  {
-   "title": "Oilers Play First Of Many 9PM Starts",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQnc2UXZZM2I1Z0RwS1l3bHl5YmdtTjZTbkg4ZXZZMnBYWnEtdjlhYXlqRnNzazNvay01THlfMUNJeldUbFFEV3F0TFpzWnZzaFBsYXBiZUVlVkpxbnZXWEZNc3ZHMW10RUw5WjRPdWtwRU80aGZtTFZaalg5OFFTWThhSVVBN3FOVktlQWhLVDVUZDRLSmtiZ093?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-08T00:27:22Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Why the Oilers should split up Connor Murphy and Ryan Shea",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQl93MFFWS2Z3Z3N0dmJZZl9jdDlOeE81MkhmaUVZQkVMYWQtYW1rNDdHSFRnS09xeWphTmZvTkFtZkV6QWh4QVVQdllaQ2hEblRuM09MMXA1anhNQ1BIOU4ydTdjdkdMTVZkcnpyY1Z2Vk11U2hkMHdHV3k0SFJMQWxqeGtjZUtUN1dJME1GZ0F1a0tqNTFGM3M0UGJZZTNTOUZV?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-08T00:17:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Former Canuck Vasily Podkolzin has more than found a home in Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObHZQX0hETG9ob19BdHBWSko5MVRwa2VMYTZ4TDExOC1ZWWd2MnZYbjBKV3F3ZFlZMndEVTBwV0R3R0IwM1psQUNSZy1GMmg5bUIzQWFPb1VQN1RkaXFMblA4VzFaZUpoMUxWM21qSHFsYlRXVERoTGREWkN4WjN0alpqOEJKdmwyVVRmbWw2SW5PbVltaFhja280ZW80Zw?oc=5",
-   "source": "Canucks Army",
-   "published": "2026-11-07T23:31:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers get healthier to face the Canucks",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOFhPR3F6aTFLTmhma2J3M2tsU1BjNVBTa0U1aWpWTDhTZXpHeEM0elFJRDRfcFVETHZZSk5iRkdBUUFSR0EtN2FLRzViVGl0VkRUb0VnQ1A0SjVnTHozOVdEWVZacmFvX05ZSGQ1WkpEMUJaTkNLSDl5UmVvUjBzSTF3?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-07T23:07:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-07T23:00:24Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "RELEASE: Oilers activate Levi & Hyman off IR; Tomkins loaned to Condors",

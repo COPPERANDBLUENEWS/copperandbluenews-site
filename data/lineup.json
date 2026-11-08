@@ -3,7 +3,7 @@
   "id": 2026020276,
   "startTimeUTC": "2026-11-08T03:00:00Z",
   "gameDate": "2026-11-07",
-  "state": "FINAL",
+  "state": "OFF",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -279,7 +279,7 @@
    "num": 35,
    "pos": "G"
   },
-  "note": "Levi will start vs. Vancouver on Saturday. "
+  "note": null
  },
  "scratches": [
   {
@@ -476,10 +476,10 @@
   ],
   "goalie": {
    "starter": {
-    "id": null,
-    "name": "Leevi Merilainen",
-    "num": null,
-    "pos": null
+    "id": 8482447,
+    "name": "Leevi Meriläinen",
+    "num": 31,
+    "pos": "G"
    },
    "status": "Confirmed",
    "backup": {
@@ -488,8 +488,8 @@
     "num": 32,
     "pos": "G"
    },
-   "note": "Merilainen will start in Edmonton on Saturday. "
+   "note": null
   }
  },
- "updated": "2026-11-08T05:50:03Z"
+ "updated": "2026-11-08T06:27:24Z"
 }
