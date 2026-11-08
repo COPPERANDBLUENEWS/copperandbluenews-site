@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-07T23:50:30Z",
+ "updated": "2026-11-08T00:11:20Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (5)",
-  "Google News (85)"
+  "Sportsnet (4)",
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
@@ -134,21 +134,6 @@
    "via": "google"
   },
   {
-   "title": "Hyman focused on consistent health ahead of return to Oilers’ lineup",
-   "url": "https://www.sportsnet.ca/nhl/video/hyman-focused-on-consistent-health-ahead-of-return-to-oilers-lineup/",
-   "source": "Sportsnet",
-   "published": "2026-11-07T19:30:34Z",
-   "snippet": "Edmonton Oilers forward Zach Hyman speaks with the media ahead of his return to the lineup, discussing how coming back to a winning team always helps and why consistent health remains a…"
-  },
-  {
-   "title": "Major shake-up on Edmonton Oilers, hot shot goalie, top winger back, struggling vets rotate as healthy scratches",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOQk81U0p5YmJsVHltWXpxY0lmSWVPT0JzLUNYS2JDaW1rNHdLb0FkT1RIQXNuSk5BY05lLTU2NUVldmdfX0hIRjA1Z0Q5dG1jYm9rZWpuNW9CSlhjdTZ6X1VCeUhBLXZlMjE3ajdYQTR4T2J2TkhiUkhfRW9sYTdfWkRnWVg1U0FraXduSkpkQ05ZSEh6d3ZoTEs4WmlsSThfSHBSWVRyODlnRmpCUTg3Snhsel9HM3dHNURMQVdOTUVITzJONy10T2E0OGtaXzBkS09J?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-07T19:00:16Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "RELEASE: Oilers place Atro Leppanen on waivers",
    "url": "https://www.nhl.com/oilers/news/release-oilers-place-atro-leppanen-on-waivers",
    "source": "EdmontonOilers.com",
@@ -184,6 +169,21 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ19yTTh0SnlEZGt6TlY0X2tFdHZzMnZXYkFzWm9pcGNpanN6TmQ3UFBNdUpBN2sxazZ4anhvU0ItX1E3OWZRTXk0ZWxUU3JZMV84X2pEUUFXeW9VWTFobVJUUE5GYXZMNkpYUW5tU0hyNDdWNUxIU1p3eEJONjA2REJ0UTU1ZlpnUUFOTVRGOTZzdUtxTWI4a01ZUmpteTdKUWRkUA?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-07T18:00:27Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Major shake-up on Edmonton Oilers, hot shot goalie, top winger back, struggling vets rotate as healthy scratches",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-devon-levi-zach-hyman-jake-walman-trent-frederic-colton-dach",
+   "source": "Edmonton Journal",
+   "published": "2026-11-07T17:29:16Z",
+   "snippet": ""
+  },
+  {
+   "title": "The Edmonton Oilers could acquire three Blue Jackets players in one trade",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcjR2RG9lZTVVVDRmMC1NR1ZUeFp3OC1pbGpMcE5PdXp2bXM3eEVsYXhINlF2OHJoUkhhdTRaNkU4V2xqZ3NORGY2aG1CLTJrZ1BXVUktSWNHTllhYTRJVkR4aGtyUnF4VmdnSTgzQUNYRUlLVlk2Qmp3OW1uNEt2WG5TTk5BUTdqM0ZESXFlb1E?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-07T17:25:42Z",
    "snippet": "",
    "via": "google"
   },
