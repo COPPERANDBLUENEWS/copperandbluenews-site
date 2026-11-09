@@ -267,14 +267,14 @@
    "num": 27,
    "pos": "G"
   },
-  "status": "Unconfirmed",
+  "status": "Confirmed",
   "backup": {
    "id": 8477465,
    "name": "Tristan Jarry",
    "num": 35,
    "pos": "G"
   },
-  "note": null
+  "note": "Levi will start vs. New York on Monday. "
  },
  "scratches": [
   {
@@ -496,5 +496,5 @@
    "note": null
   }
  },
- "updated": "2026-11-08T21:43:19Z"
+ "updated": "2026-11-09T16:56:43Z"
 }
