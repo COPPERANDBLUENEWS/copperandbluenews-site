@@ -1,19 +1,43 @@
 {
- "updated": "2026-11-09T01:49:55Z",
+ "updated": "2026-11-09T03:29:56Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (87)"
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "Edmonton Oilers goalies prospects wow with stellar performances",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-goalies-prospects-wow-with-stellar-performances",
+   "source": "Edmonton Journal",
+   "published": "2026-11-09T03:25:11Z",
+   "snippet": ""
+  },
+  {
+   "title": "Red-hot Connor McDavid, Oilers host streaking Rangers",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOelZvb0NRMU1aSkJoYVE1bkl3c3pZOWExdkdGNDVvVnpuRS0zb19SRmprYTZPTlZCa3ZKOEJRWDdUeTdkNGE5c2hYTE1ZZ0otdEVWT20wcU1HQ0ZuTUFYWDRCb3V1bmtqRWU0eHdxOUlmWVVlcGI1SnZGV1VrUURRMUdqZ3hvR29XdkJOQmNCMEMyZjBmR0hvX3Q2TjQ?oc=5",
+   "source": "KNBR",
+   "published": "2026-11-09T02:56:32Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Is The Oilers' Goaltending Just Cursed?",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSGZ1MXB0dXhaTG9rWXFRdGF0eDlxSVRrQk9WZG11VlJfTDNnaXFvTFBENkZUWUY1X3IwZVRlaFlmVVMwTHVUTE1mcTY0MnhLcjlWUXRweHBxTTlQRF91Z01keXJ6QVJBdV9NaF9jNTV2Nk1jNUljalNPeUhxc1Nrek1UaEFmOVVEbTZKRTlnRVB0b0pQWmpLbk5aMA?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-09T02:27:42Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "PREVIEW: Oilers vs. Rangers",
-   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-rangers-11-01-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-09T01:11:50.551Z",
-   "snippet": "The Edmonton Oilers host the New York Rangers at Rogers Place on Monday night. You can watch the game live on Sportsnet at 7:00 PM MT or listen on the Oilers Radio Network, including…"
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5FUWdoRnUxZmNkNmx1MnpBRFdVbXBCb1Fsc0xIR3o1MmxkOC1HU2l5dnhKVmNZQlhjS1dBRGZERzl2cl9kT0tpdUVUMW5tYnprV21kQVFlek5aOFkxVk9xeFlJSHQyMHI2Rmt6YWxVU09VNGhx?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-09T01:56:38Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
@@ -136,30 +160,6 @@
    "via": "google"
   },
   {
-   "title": "NHL Week 7 Odds: Oilers Vs Leafs, Wild Vs Canadiens, Helsinki",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT05RN0tjQlhKR3pXT0FENGhqZmszVUNkWW9zMHJScWQ1RWNBeEVYd2VveHRjdkY5SUpPRmNwVk9DSmRORHhWUFhTSTVvWjlSWjhXR0NGMU9IQ0p1WWlXa25JWVN2NnhpcUFieE1ZcGZIOE03VDNMbExpc1BveW1ZX3VmMGd3M1VvdzhKMW9pSXZQb0JRZTJhRjctWWY1bkJiQ2c?oc=5",
-   "source": "RG.org",
-   "published": "2026-11-08T12:37:01Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "3 Standouts From Game #19: Oilers 4, Canucks 2",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTTExczNXc2NZOTIzQVg4QWxDQ1MtTEY4YW1FSGo0ZDNfY0JwMjIxUGFjYzlwVnVnMlNSVTE3TGZtbURfYW05WDQ4STZxZmpKRVhyT1poQTZZcVVuSUo1ZlRERm9kTmZKYV9QRVRHTjJTWmNTYy0wdDhrNmRLN05Qc0JENnV2dWZLSTZhUXl1ai1wZ2JKaEdoQU9MRkJhVERON0E?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-08T12:02:53Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Devon Levi shines, Oilers get Zach Hyman back too, and Ryan Nugent-Hopkins takes puck to the face",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN2EycWJMcUpIQm4yWHRGZVV6Z3F0dGhjLWtrZE02T0xBMVF2RTJ5NEV3S2V4anJMY213bE1vVWNfZFQ5NkxXXzM4NzhMSzVQN2NHUmd0UDBSQjBTNm0xWXlxV2t6NERUUmJieV9KdnEwTldQYkRkT2VfVDdNd3ZFSEdUZktqcEhXeEcxVFRyMWlTbmlGVjVwSVRMZGhtaGVRaDV2OXpPenA5NzZTZkkteUkydlB6R2p0WDZINzNjR1BZNjg?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-08T12:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "It is long past time that the NHL protected its stars better than its referees: 9 Things",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/it-is-long-past-time-that-the-nhl-protected-its-stars-better-than-its-referees-9-things-connor-mcdavid",
    "source": "Edmonton Journal",
@@ -272,11 +272,11 @@
    "snippet": ""
   },
   {
-   "title": "Oilers Colton Dach the poster boy for upward mobility",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/edmonton-oilers-colton-dach-vasily-podkolzin",
+   "title": "Ex-Oilers forward earning big bucks, but healthy scratch tonight for new team",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-buffalo-sabres-ryan-mcleod-matthew-savoie",
    "source": "Edmonton Journal",
-   "published": "2026-11-06T21:21:41Z",
-   "snippet": "Does Dach, 23, have more offensive ability than the coach thought? Maybe."
+   "published": "2026-11-06T20:55:35Z",
+   "snippet": ""
   }
  ]
 }
