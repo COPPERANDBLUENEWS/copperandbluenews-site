@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-09T07:59:20Z",
+ "updated": "2026-11-09T09:40:41Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (89)"
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
@@ -12,7 +12,15 @@
    "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-09T05:00:24Z",
+   "published": "2026-11-09T07:13:12Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Rangers have great chance to reverse momentum issues with Oilers up next",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNUhkTnljc1kycVdsSEUyalRxZVhyZUFZbnhxU2c4aDBaMWd0RUZHOGpEc0dnSmNGaTRKdUN3bE9yYUNYUVdoSFFKMUZQSVJvSUEtd2VOMkFEMmhlT3NpWHpMbG1LbERzUExVOGxJZWtKVVNIWE1ZcUQxVEV6ZWdaR2lzczF1QTdtb0FVNXBxaw?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-09T05:16:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -42,9 +50,9 @@
   },
   {
    "title": "Is The Oilers' Goaltending Just Cursed?",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSGZ1MXB0dXhaTG9rWXFRdGF0eDlxSVRrQk9WZG11VlJfTDNnaXFvTFBENkZUWUY1X3IwZVRlaFlmVVMwTHVUTE1mcTY0MnhLcjlWUXRweHBxTTlQRF91Z01keXJ6QVJBdV9NaF9jNTV2Nk1jNUljalNPeUhxc1Nrek1UaEFmOVVEbTZKRTlnRVB0b0pQWmpLbk5aMA?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-09T02:27:42Z",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMjFSZGNhb1kwNUhySHJYYVF2MWpCWVhUU2F4TV8xYmlrZER3c0FHWEtlNnFlNHlKTk83dmJ2bFRneVpnZ2JEbUlnX0JrOVIxTC1EY3g0QTJ4VlhPcDM2M1MwMUNOZnVDbWktX3hwdVBYMmowZnppZk5HaXlUUHJtTUZHSzNxdw?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-09T02:26:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -141,14 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUFQcTI2bUp2RVdsd0Q1b0ZHb0ZUbmwyU0pYOU96dmhCeHNaXzNiUmNta29acHczd2JGYnhSNzBWaW9iQ003Sm0tX0lfaFk0ckZDd3A1N1JON2J3cDVBMHlXREM3UHc2b2d5MU1xa09UdkVuZUJpUGgtVEhYSVFrMnVSZnlacGJv?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-08T13:55:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Excited Levi shines in return to Oilers' net, beat Canucks 4-2",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdHdueEtoNnRWWVI5Rmw1S2JRbEgzS2FuU2VPSXVlaWUzWWpLTVplUG5xUGU1NE9RVUJmelcxOW9hWjdiMTFHeUZfQk5ndXpFN3Z5RndFMFRsRzBkSEdYS1piempwSDF4NDk3cjJOb3RQdWktMEM2R1dITGNPWGJuYUZhT1NqVUJ4NW43Wm9SaERndWxXNjJEbHJXNnZSYl9ENHMw?oc=5",
-   "source": "CTV News",
-   "published": "2026-11-08T13:49:46Z",
    "snippet": "",
    "via": "google"
   },
