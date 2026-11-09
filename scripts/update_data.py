@@ -14,6 +14,7 @@ Writes:
   data/pbp/<id>.json     slim play-by-play (events + x/y coords + rosters) for the
                          Live rink tracker (tracker.html); same caching rules
   data/mcdavid.json      McDavid 2026-27 point chase vs Gretzky's 215 (mcdavid.html)
+  data/scoreboard.json   today's NHL scoreboard for the header strip (no logos)
 Prints LIVE=1 to $GITHUB_OUTPUT when an Oilers game is live or about to start.
 """
 import json, os, pathlib, sys, urllib.request
@@ -458,12 +459,54 @@ def mcdavid_chase(sched, stamp):
           "proj", summary["tie"]["projected"], "gretzkyThrough", summary["gretzkyThrough"])
 
 
+def _slim_score_games(games):
+    """Abbrev, score, clock and period only. Skip postponed or cancelled games. No logos."""
+    out = []
+    for g in games or []:
+        if g.get("gameScheduleState") not in (None, "OK"):
+            continue
+        away, home = g.get("awayTeam") or {}, g.get("homeTeam") or {}
+        if not away.get("abbrev") or not home.get("abbrev"):
+            continue
+        clock, period = g.get("clock"), g.get("periodDescriptor")
+        out.append({
+            "id": g.get("id"),
+            "startTimeUTC": g.get("startTimeUTC"),
+            "state": g.get("gameState"),
+            "period": None if not period else {"number": period.get("number"), "periodType": period.get("periodType")},
+            "clock": None if not clock else {"timeRemaining": clock.get("timeRemaining") or "",
+                                              "inIntermission": bool(clock.get("inIntermission"))},
+            "lastPeriod": (g.get("gameOutcome") or {}).get("lastPeriodType"),
+            "away": {"abbrev": away.get("abbrev"), "score": away.get("score")},
+            "home": {"abbrev": home.get("abbrev"), "score": home.get("score")},
+        })
+    return out
+
+
+def league_scoreboard(stamp):
+    """Today's NHL slate for the header strip. If today is empty, the next date that has games."""
+    d = get("score/now")
+    games = _slim_score_games(d.get("games"))
+    date, next_day = d.get("currentDate"), False
+    if not games and d.get("nextDate"):
+        nxt = get(f"score/{d['nextDate']}")
+        nxt_games = _slim_score_games(nxt.get("games"))
+        if nxt_games:
+            games, date, next_day = nxt_games, nxt.get("currentDate") or d.get("nextDate"), True
+    return {"updated": stamp, "date": date, "nextDay": next_day, "games": games}
+
+
 def main():
     now = datetime.now(timezone.utc)
     games = get(f"club-schedule-season/EDM/{SEASON}")["games"]
     sched = [slim(g) for g in games]
     stamp = now.isoformat(timespec="seconds")
     write(DATA / "schedule.json", {"season": SEASON, "updated": stamp, "games": sched})
+    # League header strip. Same pipeline as the other JSON (the browser cannot call the NHL API).
+    try:
+        write(DATA / "scoreboard.json", league_scoreboard(stamp))
+    except Exception as e:
+        print("scoreboard failed:", e, file=sys.stderr)
 
     # McDavid's record chase. Same schedule as the other JSON, including the live loop
     # (so a game that just hit the NHL game log is on the site with the next deploy).

@@ -152,3 +152,70 @@ CBN.injBadge = r => r ? `<span class="ibadge ${({IR: "ir", LTIR: "ltir", "Day-to
 (() => { const nav = document.querySelector(".nav nav"); if (!nav || nav.querySelector('a[href="tracker.html"]')) return;
   const a = document.createElement("a"); a.href = "tracker.html"; a.textContent = "Live";
   const after = nav.querySelector('a[href="scores.html"]'); after ? after.after(a) : nav.appendChild(a); })();
+
+// League score strip: today's NHL games, sticky above the header on every page.
+// The NHL API sends no CORS headers and the alerts Worker does not proxy a league scoreboard,
+// so this reads same-origin data/scoreboard.json (written by scripts/update_data.py).
+(() => {
+  if (!document.querySelector("header.nav")) return;
+  const strip = document.createElement("div");
+  strip.id = "lg-strip";
+  strip.className = "lg-strip";
+  strip.hidden = true;
+  strip.setAttribute("role", "region");
+  strip.setAttribute("aria-label", "NHL scores");
+  const row = document.createElement("div");
+  row.className = "lg-row";
+  strip.appendChild(row);
+  document.body.insertBefore(strip, document.body.firstChild);
+  const sync = () => document.documentElement.style.setProperty("--lg-h", strip.hidden ? "0px" : strip.offsetHeight + "px");
+  if (window.ResizeObserver) new ResizeObserver(sync).observe(strip);
+  addEventListener("resize", sync);
+  const liveHref = () => document.querySelector('a[href*="tracker.html"]')?.getAttribute("href") || "tracker.html";
+  const isEdm = g => g?.away?.abbrev === "EDM" || g?.home?.abbrev === "EDM";
+  const scoreText = n => (n == null || n === "") ? "–" : String(n);
+  const localStart = iso => {
+    const d = new Date(iso);
+    if (!iso || Number.isNaN(d.getTime())) return "TBD";
+    return d.toLocaleTimeString(undefined, {hour: "numeric", minute: "2-digit"}).replace(":00", "");
+  };
+  const statusText = g => {
+    if (CBN.isFinal(g.state)) return g.lastPeriod === "SO" ? "F/SO" : g.lastPeriod === "OT" ? "F/OT" : "FINAL";
+    if (CBN.isLive(g.state)) {
+      if (g.clock?.inIntermission) return "INT";
+      return [CBN.periodName(g.period), g.clock?.timeRemaining].filter(Boolean).join(" ") || "LIVE";
+    }
+    return localStart(g.startTimeUTC);
+  };
+  CBN.leagueStatus = statusText;
+  const chip = g => {
+    const status = statusText(g), live = CBN.isLive(g.state), final = CBN.isFinal(g.state);
+    const cls = `lg-chip${isEdm(g) ? " edm" : ""}${live ? " live" : ""}${final ? " final" : ""}`;
+    const inner = `<span class="lg-side"><b>${esc(g.away?.abbrev)}</b><span>${esc(scoreText(g.away?.score))}</span></span><span class="lg-at" aria-hidden="true">@</span><span class="lg-side"><b>${esc(g.home?.abbrev)}</b><span>${esc(scoreText(g.home?.score))}</span></span><span class="lg-status">${esc(status)}</span>`;
+    if (!isEdm(g)) return `<div class="${cls}">${inner}</div>`;
+    const label = `Oilers game, ${g.away?.abbrev} at ${g.home?.abbrev}, ${status}. Open Live`;
+    return `<a class="${cls}" href="${esc(liveHref())}" aria-label="${esc(label)}">${inner}</a>`;
+  };
+  const render = d => {
+    const edm = [], rest = [];
+    for (const g of d?.games || []) (isEdm(g) ? edm : rest).push(g);
+    const games = edm.concat(rest);
+    strip.hidden = false;
+    if (!games.length) {
+      strip.setAttribute("aria-label", "NHL scores");
+      row.innerHTML = `<p class="lg-empty">No NHL games today</p>`;
+    } else {
+      const when = d.nextDay && d.date ? new Date(d.date + "T12:00:00").toLocaleDateString(undefined, {weekday: "short", month: "short", day: "numeric"}) : "";
+      strip.setAttribute("aria-label", when ? `NHL games for ${when}` : "NHL scores");
+      row.innerHTML = `${when ? `<span class="lg-when">${esc(when)}</span>` : ""}${games.map(chip).join("")}`;
+    }
+    sync();
+    return games.some(g => CBN.isLive(g.state));
+  };
+  let live = false;
+  CBN.pollVisible(async () => {
+    try { live = render(await getJSON("/data/scoreboard.json")); }
+    catch { /* keep the last slate; a failed refresh stays quiet */ }
+    return live ? 45000 : 300000;
+  });
+})();
