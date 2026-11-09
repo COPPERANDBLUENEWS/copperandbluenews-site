@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-09T21:28:52Z",
+ "updated": "2026-11-09T21:54:25Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (88)"
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "New York Rangers Announce Dylan Garand News For Edmonton Oilers Game",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVkc3eHFJQkptUVhHWVNjS3FQVWEzZHNfYW1wMWdYQlJRaDl5ZmJZMUhmQkcxNEcyckhpLUdDZC1BSkpxX2Z3THpHNzZMS2g0dm84VWd2ZUpOYVk2R3BEVzJzejNNTVN2dC1MZ3VBQUVlcVJqZTV4MXRmbjctNGFhUXFlWG1XTXNYLWlV?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-09T21:15:40Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers coach Mike Babcock explains Jake Walman scratch vs. Rangers",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNWtGcG9MV01MN3VYbGt3aUpmSDlQWU1CZU1SQ1dlWm5EWjc3eV9jckZuYWJNX0xSUGdRSXo5SThwQk9aZXRPckt4M1FBRWZGRk9UVGJLSEtVM3Y5TUJkSGs5LWFUTU4tSlNLejVNM3hwbVN5MG1RWVliZTgwRkkxV3lpZkRKV3NjNG1B?oc=5",
@@ -118,14 +126,6 @@
    "via": "google"
   },
   {
-   "title": "New York Rangers Announce Dylan Garand News For Edmonton Oilers Game",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd1JOMWJadUxIb29MMnBqVHRSWFhscHdyNU5qREc2M1hBNmdsVXY4RkVwTDYzM1pNTFNRUVRKaWZqSHVNRkdublhoM0dLcHJiZ1lubUlmY1d3Rjl3OGhZWGtycnVjX2tDSXpZaVpMTjg1WEI2VG5vejV5YWNhUGZHLWNnajFVRF9qSTh6SEVZLVZwalI2RFZYOW1B?oc=5",
-   "source": "Heavy.com",
-   "published": "2026-11-09T18:15:40Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "PRE-RAW | Ryan Nugent-Hopkins 11.09.26 | Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNVNGRUxnS2g3M2FjNnJOX3BxMFVZNjBmQTBRTVdTOG9neUdiR0UzaWRDakNjWlNhZVRBVnFUZ1ktTjRkY3NRa2d2eEhuRzdDeFBVLW1iemRHdjYtNEN0eFNXTG80YXZlSzJGUUQtOHBUTk9RTGYwX0UtaTNxbzhVSU5zTDVKc05pZUxj?oc=5",
    "source": "NHL.com",
@@ -196,8 +196,8 @@
   },
   {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-08T07:04:00Z",
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   },
