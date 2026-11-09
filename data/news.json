@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T00:13:07Z",
+ "updated": "2026-11-09T01:13:58Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,13 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "PREVIEW: Oilers vs. Rangers",
+   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-rangers-11-01-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-09T01:11:50.551Z",
+   "snippet": "The Edmonton Oilers host the New York Rangers at Rogers Place on Monday night. You can watch the game live on Sportsnet at 7:00 PM MT or listen on the Oilers Radio Network, including…"
+  },
   {
    "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
@@ -161,8 +168,8 @@
   },
   {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
+   "source": "NHL.com",
    "published": "2026-11-08T07:04:00Z",
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   },
@@ -256,13 +263,6 @@
    "source": "NHL.com",
    "published": "2026-11-07T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "PREVIEW: Oilers vs. Canucks",
-   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-canucks-11-06-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T03:36:41.45Z",
-   "snippet": "The Edmonton Oilers continue their four-game homestand at Rogers Place on Saturday with a visit from the Vancouver Canucks. You can watch the game live on Sportsnet at 9:00 PM MT or listen…"
   },
   {
    "title": "'Throwing up in my mouth': Podkolzin gets support across Canada for beat down of Anaheim aggressor",
