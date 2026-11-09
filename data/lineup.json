@@ -282,12 +282,6 @@
    "pos": "C"
   },
   {
-   "id": 8482703,
-   "name": "Colton Dach",
-   "num": 34,
-   "pos": "C"
-  },
-  {
    "id": 8478013,
    "name": "Jake Walman",
    "num": 96,
@@ -374,9 +368,9 @@
      "pos": "C"
     },
     {
-     "id": 8482460,
-     "name": "Matt Rempe",
-     "num": 73,
+     "id": 8476822,
+     "name": "Luke Glendening",
+     "num": 43,
      "pos": "RW"
     }
    ]
@@ -459,7 +453,7 @@
     "name": "Alberts Smits",
     "num": 12,
     "pos": "D",
-    "status": "Day-to-day"
+    "status": "Out"
    }
   ],
   "notes": [],
@@ -468,8 +462,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/new-york-rangers/line-combinations",
     "what": "line combinations",
-    "basis": "Last Game (2026-11-07)",
-    "updatedAt": "2026-11-08T15:07:36.756Z"
+    "basis": "Vince Mercogliano",
+    "updatedAt": "2026-11-09T18:36:47.442Z"
    },
    {
     "name": "DailyFaceoff",
@@ -494,5 +488,5 @@
    "note": "Garand will start in Edmonton on Monday. "
   }
  },
- "updated": "2026-11-09T18:25:11Z"
+ "updated": "2026-11-09T18:59:41Z"
 }
