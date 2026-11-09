@@ -7,7 +7,7 @@
 // - Web push: shows Game alerts. A click opens that alert in the notifications inbox when the
 //   payload has an id. The notification's own url is unchanged (lineup stays /players.html,
 //   final stays /game.html?id=). Older notifications with no id still open their url.
-const VERSION = "cbn-v51";
+const VERSION = "cbn-v52";
 const STATIC = `${VERSION}-static`, PAGES = `${VERSION}-pages`, DATA = `${VERSION}-data`;
 const PRECACHE = [
   "/offline.html", "/play.html", "/notifications.html", "/standings.html", "/leaders.html", "/mcdavid.html", "/article.html",
