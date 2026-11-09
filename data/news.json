@@ -1,18 +1,50 @@
 {
- "updated": "2026-11-09T11:30:33Z",
+ "updated": "2026-11-09T12:35:41Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (91)"
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "How to watch tonight's streaming-only Oilers-Rangers game",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tNkxxQXZ3Z0o0QkxMVTMwVHR6MzVVUVdUUGF0T1M4QnotS3JGY3pCMWF2elJITFRXenRvSTFmaERfWV9mMXZ2TlFvLUlDbUttLVZ6dElfQloxWFo3SEJQUkliWTV0WS1wV25DUy1XZjZIU04zajV4V3NLalo?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-09T12:08:26Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL Trade Rumors: Blackhawks Trades, Binnington to Oilers or Rangers, & Red Wings Holdouts",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWkJGNVo2RHVwQ29XYjVCa2twNTJQb055QWRNcjBTX1J0cEY3c0FGXzZQbEtwOURUWXdsa3VnZ0dXcEl6VUJYNGI4cjFubWI0WXFwNVYydU5RU0RGTXdOdjJ1Z3JEX0s4bGZVOHJMc01rbEJWaVRhalVhM3YtN2gxN2xFMlVVUmRlX3JHbEtIMTg0X1BZVGU3eVA5UUFqQUxDNjVXSy1fdWZQQjVPWTFWcjc2cVE4elNrbXJUSHNJY0h1aWFQQ3hZNFBTcF9mdEduRGJLQ2Y1Y1dsNnJk?oc=5",
+   "source": "Heavy.com",
+   "published": "2026-11-09T12:01:33Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Beyond the obvious, which Edmonton Oilers players does Mike Babcock trust?",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTXpoV0huMHoybTI2Q3hqRkNEU0R5YXhCMnVmVmEwemszU3p2TGN3b29EcXdCV09FUnlFSmhHUEtvZHY2Y0hjcThuQWxrMmZIRXpaNnBCTVlPZnhSZThhLXdSX2hUV2l6MVQ3RW9TcWg2WTVmUTgzWTZia2RLWktfVl9qMVhJTHhnZmJrbThnUEVKQkU5cTJYUEM3a1BIWDNVcFVGeDBn?oc=5",
+   "source": "The New York Times",
+   "published": "2026-11-09T12:00:19Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "NHL Tonight: Guide to Rangers-Oilers, Flyers-Canucks, Islanders-Sharks",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRXRvVlBjX2JyMUstcWJHUDV5VVNTeDQxMHh3aFhSemhmaU8xN2FzTkt5NjRMWG45V08wZkw4WERCYU9qSEtyNmZCV2gtTFVNdkZEX3BwOEtYLVdjWHhnZ3dkMGtDTDhaYmNNX0dwWXB2bnU0Mk9iSEZwMXYwWEhIVzduT0UzVDk4VzBrUlFsdkczY0kyaFIwY2F6cFg?oc=5",
-   "source": "6abc Philadelphia",
-   "published": "2026-11-09T11:01:10Z",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOFpxU1J6b1FGZ1lIM0VJT0J4QjZHcE1zTW1DOTdSS296aTlydlhKazctVUZRUkFIM01lNklTVnkyUjVSS1VDS3dmZlpRbzZ6MzhxR2Fna2ZYanBLamNqZGplOWN5aG9JNXNVQ3MwQTZnTExSc0lUYXBFemg0OWd6d3VzWjVwcjdudkdWMXdFOVotd2JvUU56bFh4UzdjS0VIbWc?oc=5",
+   "source": "ABC7 Bay Area",
+   "published": "2026-11-09T11:17:12Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Philadelphia Flyers - Edmonton Oilers - Nov 11, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYVGh1VDdqS1RCV3NXUHY1VndRUVlZNlljeDFzek9IVks1WnZVODFMNHlxM2lqNTZFYmhnelZtWEl3cmNwRTM5bm9TMmVQQ1VJNVkyUy1tMkRVWExxZXozWC1lSDN3a3l4QTctdGFVWTk?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-09T11:05:39Z",
    "snippet": "",
    "via": "google"
   },
@@ -45,14 +77,6 @@
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnZya05acWxhQW8tRks2RmtXRTJVNGRBbmVtbFdORk01NENYdVFheWZBY1FmSUlSMFlqUFRldGtISDlUX1hrN3VKQWphVVpKbk9qbG9hZzJJa2JoVlVPQ0ctTGtJNDdpTzBUbC05RHozcThsYmJiWHc4WU4tb0doeS1TdFlqUVhLTzE1cmtnUkloa3VhWjBHMlcxdTRJb0FvZXRqSUdNMHptWUhVeWZWSGFsbGk5SUR1dmhnYkVxVnA2QQ?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-09T03:27:54Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "New York Rangers Suddenly Promote 27-Year-Old Before Oilers Game",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR0VWVUJvUC0yR2tESDdObUtYVzlhWS1rbTZjQUZ5cHJFcG1MdUNoMzMtTHlwdDZPQUNjWWg2ZXo2dURhWG8tbVA5aUJ0OE9YdkdBVnc4U2h6a0xMd29EWmxSWnhJaEdkQkVEVzJQNUlMcDJ4VFZPY1BNdkg1SWRWZms5UlJqYmdO?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-09T02:58:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -121,34 +145,10 @@
    "via": "google"
   },
   {
-   "title": "Oilers Sunday Census: First impressions of the Edmonton Oilers' new Hometown Remix jerseys",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRUxMNkN2UFBWX2NkWUM4UUpfSjlBTkVQbnVaaUtGb3IzQm03OFRZbjBqVlBwYzRWajFfOURZZmRqTXdvNlJlVHpHVnZUc3h5NmkxWHJYQ1lVcTVfWUVjWVNXM0hTaVctWktwLXdPLUFQdEFubEtodmtRcVk4QXNrRi0tRi02dVZ5Q1Y0TmRDMmZTMkhrVEFOaWVKbEoyWUFTQkdKRGduWVRtZVhBcE55VDl3dFVNTnBuVS13Z3FR?oc=5",
-   "source": "The Oil Rig",
-   "published": "2026-11-08T15:31:08Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "NHL Game Recap: Vancouver Canucks at Edmonton Oilers with Line Combinations 11/07/2026",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWDFRREJkd2RrWjVMTGh0QVhHWnl6bFBXNVViZ0tJSUtpRXU0X2lWbkowbnJ3ckxzSE9nejVEa3lBX3Q0c3FScGFGYmljSHFZTzl3WnN3bzNldWtNNVZoRE8wdVNjRTlPMGo0OU5rcVk1b2xmdjNINWM2eUU4VTY1a3hibDBtYlRBLWIxRmZsVkpvaGF5bzliWlpua0ozeTFtVGRYSzR3b2JRaHBQNGlrMXpR?oc=5",
    "source": "Inside The Rink",
    "published": "2026-11-08T15:30:34Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Canucks match effort by high-powered Oilers but crumble in third period",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWnh0NGxBVFBRR080RlljRVZKVnFyRjdGWjFyUVMyMHZVMGZBQ1kwMThyTnJuYl9uaUxQT1pZV0M3eXhpRlhWVThGNGdSM09VYmR0TWlZTVkxTUxMcWtrcXAtelJTX2t0OUNVMWMtSFdUcHB5eVNJbldVVzJhVGFIWlA2WFR2bVhnUHVXZW93YUJPNUItaGJXaV90Mm1hMmdsMFZkNDVEOTYyZUtoQnc?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-08T15:03:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Week Ahead: Schedule & Storylines – Frederic Scratched, Michaels Struggles, Injury Updates, & More",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZk1QTFdXOFNlMmpudjl6NGRVZVNiWDNLU2oxOGdqM0hBaWV2dndjUTZaeXJ2NXZ0YjZtWElwaVYxeHZaenF3SlJwZWtyZzN2OXdxQ202N1lpRlRhdWRaWi1WS3JaQi0ybkpDRXFtakVOekNuUWdQUEZrbmN4ajBZczZQUE1OaDlOM2poOGlmZm40VkxHZHBlY1kyRHhpWXFZUTZxRlJoTmNKSENLb0w5S1BNR2lzSWhDekRzNGFVVUw3eUk?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-08T14:55:00Z",
    "snippet": "",
    "via": "google"
   },
