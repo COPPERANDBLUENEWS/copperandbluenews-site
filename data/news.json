@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-09T19:37:08Z",
+ "updated": "2026-11-09T20:29:33Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (88)"
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "The Wild West: Scorching Ducks, Oilers, and More",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX2JRazR2eElrRzBySXI4VlBWeWxuaGJlb3FNOW5lMXRYTXlTTG1nZi1aNUhnSENGTEFXeVB2RWVhNmN4OVh5OXNLaE9ld1lCMjlqd3N2ZGtwY0ZQZkRlcUd0c3dhOTlGcUJZRW5OOHZzZ2JBcnBOb1FBc0VzbEEwRlN1dkxhSlpzUVE?oc=5",
+   "source": "DobberHockey",
+   "published": "2026-11-09T20:02:30Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers' Nugent-Hopkins will wear a bubble after getting hit in the face with puck",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTjdaSHhMOGJLbWtkSkxvYU9mcGl4TmV0Tml6MllSd2JRT1l6SThpSTNOYkVvM0tRNmI2MFh1MEJxVERFbFh6U0MtWTJtZGdhZjBOTHk5TkR6Z1o5c1UwQUhablRmdjZQbU1FTUFBaU56SzdOQ1NyZnVzUU1xdlFqb1BPdURDZXFrbXp4bkd3czdOeHg4N2ppNkpneHc2a2dhRlBmQ0tTZE52dEljR21SclB2QzVwUQ?oc=5",
@@ -33,9 +41,17 @@
    "via": "google"
   },
   {
+   "title": "GDB 19.0: Oilers look to improve home record vs. Rangers (7 pm, SN+)",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS0NKZHVUZDhOLUFRdjN4QjNTTDJsT0M4RkNQV2tKaWhoRzYtV290b2ZFd3FROHhSemFXMlkyaXdrRHB5cEFnSnFDVUUwU1ZCWkwxR3lSektHRExJNmNsSGpXQ194cWowUXA1MnNzMjExVGFDckpnZWhpWXQ3TS01VGM0aENtN0Exa0xIbDVzeFZveW11XzA2anh4RmZnNkE?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-09T18:49:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "POST CAST: Pettersson's Truth Finally Comes Out [Vancouver Canucks vs Edmonton Oilers]",
-   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNdVpGaW53cVpPdHJEUThUMkJnUVExcnYwdFZiMldXM05UeXUtWENPWHZVZVFaenpOLUJnVnYtcUxDVFV6VzlrTk1CclZjVlNpUEc4aV9yelFXVHRRT2ktRjdlUkg2ZjlDZDBZc09qZjVLbjQ5NXA0R2VZaGpYZnpyQ1ZlVGlSWGhjTF82MzNITlZkdjdwblJVaXZUNG80RTl1VE5qNzNZWjNKd0lUWGwzdEs5aXI4R214U25aQmROVjNmaTczSnI1b1QzMUNKWDdjVG9QVjdaQVB1eHFCeXNpZW1zam4ydHJMd0o3WjlrZ05hdVIydUd5RmJEdzNySFpCVklTdnZKY1RlRHJIOEdtREowS3B1Q0lIOFBfdEhtRDluNnE2?oc=5",
-   "source": "13newsnow.com",
+   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNbFpNNkJ4SWFCMkx1RUNXSUZ0RDZZa1UwSzRhVWl6RnZfbHc4MUJDTUVEaUpoNk0zSnNnZTZLRlVLRDhGbHhENW16UmhfM1VPdkc3alNkOEVJQVVGS2gwbF9iTU1rSGNTamNXZVFxZjZadE5fRjJqTlBuaVFDZFI1VUJoR0ZOQTEyWVRCc3EwcklWdWNYakxGTDQ5eGNybUVjQWlxVmtFLS0xRndOR2w3b05KUXpyckJTUzZJbGtZODFUVE1NSUNrRkZhMFpzSWx3bTkwQWRvZTgxSUo2am1LbkZPdXA1WTRTLXZRSEE4bkNiRl9UdFpKSGdGbGNOTERLWFZkalNjR0dVUmJYcnRGYjM5SVJNTU1Qa3J4cVlB?oc=5",
+   "source": "KREM",
    "published": "2026-11-09T18:48:00Z",
    "snippet": "",
    "via": "google"
@@ -49,25 +65,18 @@
    "via": "google"
   },
   {
-   "title": "New York Rangers Announce Dylan Garand News For Edmonton Oilers Game",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd1JOMWJadUxIb29MMnBqVHRSWFhscHdyNU5qREc2M1hBNmdsVXY4RkVwTDYzM1pNTFNRUVRKaWZqSHVNRkdublhoM0dLcHJiZ1lubUlmY1d3Rjl3OGhZWGtycnVjX2tDSXpZaVpMTjg1WEI2VG5vejV5YWNhUGZHLWNnajFVRF9qSTh6SEVZLVZwalI2RFZYOW1B?oc=5",
-   "source": "Heavy.com",
-   "published": "2026-11-09T18:15:40Z",
+   "title": "PROJECTED LINEUP: Nugent-Hopkins good to go for Monday's matchup with Rangers",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNkZjWkhYSV9KTGt2SXNlWDVnaGdDTGxnRmtPU3VHcEtrcHpwSTdWYTJmMThNbmRtYmVlYnhmMnE5WFRYbDZpRll6OXdYLVl5QTNtdmx4MlFGSjBqaEg4OExhV2JvQUthRWsxamtwNWw0WnVSWmg1OHQ5dTRPRFZVQkRBOUYxS3NvUFphUWhwOTJvMXRUOHlVM0N0REZfMnUyOGlyTzh0ZnRQS0xuMElnbTYxTUJDbmFw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-09T18:16:17Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "PROJECTED LINEUP: Nugent-Hopkins good to go for Monday's matchup with Rangers",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-good-to-go-for-monday-s-matchup-with-rangers-11-09-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-09T18:12:20.005Z",
-   "snippet": "EDMONTON, AB – Just a bruise for Nuge. Forward Ryan Nugent-Hopkins (upper body) appears to have avoided major injury and will be good to go tonight, while Colton Dach (illness) will be a…"
-  },
-  {
-   "title": "GDB 19.0: Oilers look to improve home record vs. Rangers (7 pm, SN+)",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS0NKZHVUZDhOLUFRdjN4QjNTTDJsT0M4RkNQV2tKaWhoRzYtV290b2ZFd3FROHhSemFXMlkyaXdrRHB5cEFnSnFDVUUwU1ZCWkwxR3lSektHRExJNmNsSGpXQ194cWowUXA1MnNzMjExVGFDckpnZWhpWXQ3TS01VGM0aENtN0Exa0xIbDVzeFZveW11XzA2anh4RmZnNkE?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-09T18:08:00Z",
+   "title": "New York Rangers Announce Dylan Garand News For Edmonton Oilers Game",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd1JOMWJadUxIb29MMnBqVHRSWFhscHdyNU5qREc2M1hBNmdsVXY4RkVwTDYzM1pNTFNRUVRKaWZqSHVNRkdublhoM0dLcHJiZ1lubUlmY1d3Rjl3OGhZWGtycnVjX2tDSXpZaVpMTjg1WEI2VG5vejV5YWNhUGZHLWNnajFVRF9qSTh6SEVZLVZwalI2RFZYOW1B?oc=5",
+   "source": "Heavy.com",
+   "published": "2026-11-09T18:15:40Z",
    "snippet": "",
    "via": "google"
   },
@@ -115,7 +124,7 @@
    "title": "Gavin McKenna Watch: McDavid, Oilers await Maple Leafs for rematch",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSGw3Y2tGM2w5MFpOVjZQM3dfT3lCWWhkbmE1Y3ItTDd2OVVjclkwZUF5TXFzY1V5b2FRcHhELWZZV0tPV2JmMGprNkNPakliR2JoZ0hqQXpRcmI2NzE4Vjh0ekhrZnIzVy0wSTlpb2F2bW1MSkhUQTRtVURCcWphZXUxM3JTOVBTY3hGb0NVbHB0RmNvcW5nckFPc1duNnF4N0xfX19zRk5tdC1DVk9ub043NA?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-09T17:03:45Z",
+   "published": "2026-11-09T17:15:56Z",
    "snippet": "",
    "via": "google"
   },
@@ -144,22 +153,6 @@
    "via": "google"
   },
   {
-   "title": "NHL On Tap: McDavid looks to extend season-opening point streak for Oilers",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JV0N5VXFPX1ZvUzhSTGdVd0w2c1NUQmNpaUVKTmJRc3A0bG5kdURlQ2ZwZEFLZHA5RVBoZy13TTVfN0VfRU1pc2NRdVIwLXNOOE1NR1Q4eElmaG5oZnJscVB5VjdhZWl5STA2SC14bm5nNWw0?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-09T15:15:56Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers looking to build momentum against Rangers",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNGliOFBRNHF6ajV4NU5PcnlQcDdRTzVaRjZCTEo4NGJvQ3JHSGV1dHExMzdKZjFQUkJ4ZVRSVTBQT29WeXE5aFNhWWNnQXQtczFZOWZZbFZRTk1FVDhBZHFRa2ZzUEdyVF9qRG5yb0hoeUw0bDBXakV1d09HWlhvLU5qeU9tcFY5SENscnVGdFd6ay1KUGc4czZnT0FlOTg?oc=5",
-   "source": "CTV News",
-   "published": "2026-11-09T15:13:40Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Edmonton Oilers goalie prospects wow with stellar performances",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-goalies-prospects-wow-with-stellar-performances",
    "source": "Edmonton Journal",
@@ -182,8 +175,8 @@
   },
   {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-08T07:04:00Z",
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   },
@@ -277,6 +270,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-06T18:11:04.536Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) announced today the return of the Oilers “Hockey Fights Cancer” MEGA 50/50, running from the Oilers Hockey Fights Cancer game…"
+  },
+  {
+   "title": "Short Shifts Power Rankings: November 6",
+   "url": "https://www.nhl.com/news/short-shifts-power-rankings-november-6-2026",
+   "source": "NHL.com",
+   "published": "2026-11-06T17:01:00Z",
+   "snippet": "Throw out the Xs and Os and join Short Shifts for our own weekly power rankings. What is our criteria? Whatever makes us smile, laugh, cry or any other wholesome feeling. This list is…"
   }
  ]
 }
