@@ -1,20 +1,83 @@
 {
- "updated": "2026-11-09T16:42:05Z",
+ "updated": "2026-11-09T18:27:27Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (88)"
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "PROJECTED LINEUP: Nugent-Hopkins good to go for Monday's matchup with Rangers",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNkZjWkhYSV9KTGt2SXNlWDVnaGdDTGxnRmtPU3VHcEtrcHpwSTdWYTJmMThNbmRtYmVlYnhmMnE5WFRYbDZpRll6OXdYLVl5QTNtdmx4MlFGSjBqaEg4OExhV2JvQUthRWsxamtwNWw0WnVSWmg1OHQ5dTRPRFZVQkRBOUYxS3NvUFphUWhwOTJvMXRUOHlVM0N0REZfMnUyOGlyTzh0ZnRQS0xuMElnbTYxTUJDbmFw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-09T18:16:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "New York Rangers Announce Dylan Garand News For Edmonton Oilers Game",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd1JOMWJadUxIb29MMnBqVHRSWFhscHdyNU5qREc2M1hBNmdsVXY4RkVwTDYzM1pNTFNRUVRKaWZqSHVNRkdublhoM0dLcHJiZ1lubUlmY1d3Rjl3OGhZWGtycnVjX2tDSXpZaVpMTjg1WEI2VG5vejV5YWNhUGZHLWNnajFVRF9qSTh6SEVZLVZwalI2RFZYOW1B?oc=5",
+   "source": "Heavy.com",
+   "published": "2026-11-09T18:15:40Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers Prospect Caden Harvey Goal (4) | 2026 Windsor Spitfires vs Kingston Frontenacs | Nov 8",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTTF2XzBwbVozNXNqLUlXQmlmeXJyX2cwSGxyUE1CdDVYdWZ5UWpud25rVWFJVTVybmVESEgwcjU4SFFvUTJydFJIaWg1c1pUVWd6TlUtNzZfbXZzQmVzMGVlQkNDbEpSbVRpMEtRYkFQdVBDQWJGWmVKVklPSUp5MGRUbUtNblpnZHJWWHBn?oc=5",
+   "source": "FloHockey",
+   "published": "2026-11-09T17:37:32Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Thoughts: Vasily Podkolzin’s response, Leon Draisaitl’s finishing, and more",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZmlFSUJqRlA2cVZNZFhTM0c2Tm92UmVQYUIzUFRwd3J6U3VjNVdTdWlBeFNkeTI5aXZMNHJCTXoyTFFSMTRvTHNiUTk1cmVTRmlqYXZBelBwQmRha1J4MGs1WnNlc2wyTVhpaVlsRGhBZWc4Wm5sX2VWS293bU5icjl4ejJBLXdEbjI3NXBFNUxkY1lqLWplTzVXc1pHaGNERWh5cnZpaEdBbFJSMFN4dm5n?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-09T17:21:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Why the Edmonton Oilers have to wait before moving for Jordan Binnington",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ2xEcXIwaWFyRlpwdnZKUFNvNzJRcGZxTk1hdDM3LTUxVS1lRkxGMGEwNDRyX1BQNHNzVk1HVTZERjFDUDdoTWlyODloWDVTYnVUbDBrazZIV0tvQ0FEV2x1bEpzRUdEVTRCcWlRcVpCZWNSVU1wM3QtR2xUczBXcjJQN251TmlTa1BRWkVfZUFzb09mMjBVbnlKZGhvTEFWa3JZREZ5ZmJmeUNO?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-09T17:18:55Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Philadelphia Flyers - Edmonton Oilers - Nov 11, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYVGh1VDdqS1RCV3NXUHY1VndRUVlZNlljeDFzek9IVks1WnZVODFMNHlxM2lqNTZFYmhnelZtWEl3cmNwRTM5bm9TMmVQQ1VJNVkyUy1tMkRVWExxZXozWC1lSDN3a3l4QTctdGFVWTk?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-09T17:05:39Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Gavin McKenna Watch: McDavid, Oilers await Maple Leafs for rematch",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSGw3Y2tGM2w5MFpOVjZQM3dfT3lCWWhkbmE1Y3ItTDd2OVVjclkwZUF5TXFzY1V5b2FRcHhELWZZV0tPV2JmMGprNkNPakliR2JoZ0hqQXpRcmI2NzE4Vjh0ekhrZnIzVy0wSTlpb2F2bW1MSkhUQTRtVURCcWphZXUxM3JTOVBTY3hGb0NVbHB0RmNvcW5nckFPc1duNnF4N0xfX19zRk5tdC1DVk9ub043NA?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-09T16:40:52Z",
+   "published": "2026-11-09T17:03:45Z",
    "snippet": "",
    "via": "google"
+  },
+  {
+   "title": "High-priced Edmonton Oiler deep in Mike Babcock's dog house, healty scratched vs New York Rangers",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdllOVV9ycnJSb3cxemtINDVSdWwwN2ZHLXMyWVV3ZkZnczdCZmcxZjZMNmFXcG1EbnI3SWs5eDhhYUpIZFB1OFRvdk5sdFRRbVBPUWpVN3dLTlFhLTJZSzFNRTlfcVEzb1RrTkk3c1lqV0dkS2tqMFFfMjVaRFMzSkZkbzAyd2NVOXdWcW1jYmREZXhxYzRQS2FKeERMSmpoNkdtUUYxVS1TZDdDOTlMbjFDRWdGTGhJWVE?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-09T17:01:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "High-priced Edmonton Oiler hasn't thrown a hit all year, healthy scratched again",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-mike-babcock-new-york-rangers-jake-walman",
+   "source": "Edmonton Journal",
+   "published": "2026-11-09T16:46:06Z",
+   "snippet": ""
   },
   {
    "title": "Oilers Unlikely to Land $36 Million Star on Trade Block",
@@ -49,6 +112,14 @@
    "via": "google"
   },
   {
+   "title": "Oilers looking to build momentum against Rangers",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNGliOFBRNHF6ajV4NU5PcnlQcDdRTzVaRjZCTEo4NGJvQ3JHSGV1dHExMzdKZjFQUkJ4ZVRSVTBQT29WeXE5aFNhWWNnQXQtczFZOWZZbFZRTk1FVDhBZHFRa2ZzUEdyVF9qRG5yb0hoeUw0bDBXakV1d09HWlhvLU5qeU9tcFY5SENscnVGdFd6ay1KUGc4czZnT0FlOTg?oc=5",
+   "source": "CTV News",
+   "published": "2026-11-09T15:13:40Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "NHL Game Preview: New York Rangers at Edmonton Oilers with Line Combinations 11/09/2026",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQblI0WW80ZVYwekFJcHJIbENJLWVjYVJaYjZFeEtfS2RYOS1LR3RneWtBSmpvYms0SXh2aE02T24wb2Vqd2YzNDZPSnEzem43MkZaUnhybVFyNjRVUFBYQ2hOVXlhX21tWFktcHVub3RSOER1YWlzeXp0MWdCTlM5bklfSXIyZ3pCbmJLckN4Y043aFR0NElkazUxcnRwVkN1YzYzem5XcVFjdk5uMWpRZW4tUVJlQQ?oc=5",
    "source": "Inside The Rink",
@@ -61,14 +132,6 @@
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaWtNa1lMbVRTYXQzTUx1X1cyRl9EampIY3hody02RENlaWozaGljSUJRUjZqcWJpamFJc3dnYWhCbkNUTmpycW4wa3RVeEtHZ09yWWFVV0lCUjBuSUZhTHJod096aGlxelZ2UlhSQ3FrS3hKOTFRVDVJNkdhWTluYzByNG9rbXhDanRzSGVROGU?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-09T14:55:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Insider Sets Record Straight About Oilers Interest in Binnington",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSTZfY2huZ1BJOGZLd1JwYWlqTjBsWUJaTDdPaThTbmc4SHhoeml2MTVFalliNkdYTlFGN1htcFlPeE1hVU5pMlpCWkt1QzFJMmxMSXpzMXpjQUdiLXlXZUs0RWpBcG5aOWtZSklyTW1jSk9IT19pa1otYXI5UXhLWEdKcXczZE13aDVhQkxSX0ZxYUxsMF9vUU02LTdZeVczU2d3VGQ3MGdtOFV1N2RLRzlNY3JTQlJuRTk5YVlPYw?oc=5",
-   "source": "Yardbarker",
-   "published": "2026-11-09T14:42:07Z",
    "snippet": "",
    "via": "google"
   },
@@ -97,62 +160,6 @@
    "via": "google"
   },
   {
-   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-09T13:16:27Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "How to watch tonight's streaming-only Oilers-Rangers game",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tNkxxQXZ3Z0o0QkxMVTMwVHR6MzVVUVdUUGF0T1M4QnotS3JGY3pCMWF2elJITFRXenRvSTFmaERfWV9mMXZ2TlFvLUlDbUttLVZ6dElfQloxWFo3SEJQUkliWTV0WS1wV25DUy1XZjZIU04zajV4V3NLalo?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-09T13:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Red-hot Connor McDavid, Oilers host streaking Rangers",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSXNlS1lCTk0yNGhXVE1zaEdRT0dZSllYOTZ3TUxuMk9ORzlINzZPVjVxRHhSenpkSkx4S0JnTG9qU1pydWJ3TWJycUUzMFUwd2lwal9KMmQ5dnpmSjNIb3FlRUNER3JLVks0SEVjaVBiQ3FQM18yaGR3WWpFY1hHb2RrMnhrVTRZVUo2aFVBZUIwc3JUWUJYTw?oc=5",
-   "source": "CTV News",
-   "published": "2026-11-09T12:43:34Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL Trade Rumors: Blackhawks Trades, Binnington to Oilers or Rangers, & Red Wings Holdouts",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWkJGNVo2RHVwQ29XYjVCa2twNTJQb055QWRNcjBTX1J0cEY3c0FGXzZQbEtwOURUWXdsa3VnZ0dXcEl6VUJYNGI4cjFubWI0WXFwNVYydU5RU0RGTXdOdjJ1Z3JEX0s4bGZVOHJMc01rbEJWaVRhalVhM3YtN2gxN2xFMlVVUmRlX3JHbEtIMTg0X1BZVGU3eVA5UUFqQUxDNjVXSy1fdWZQQjVPWTFWcjc2cVE4elNrbXJUSHNJY0h1aWFQQ3hZNFBTcF9mdEduRGJLQ2Y1Y1dsNnJk?oc=5",
-   "source": "Heavy.com",
-   "published": "2026-11-09T12:01:33Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Beyond the obvious, which Edmonton Oilers players does Mike Babcock trust?",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTXpoV0huMHoybTI2Q3hqRkNEU0R5YXhCMnVmVmEwemszU3p2TGN3b29EcXdCV09FUnlFSmhHUEtvZHY2Y0hjcThuQWxrMmZIRXpaNnBCTVlPZnhSZThhLXdSX2hUV2l6MVQ3RW9TcWg2WTVmUTgzWTZia2RLWktfVl9qMVhJTHhnZmJrbThnUEVKQkU5cTJYUEM3a1BIWDNVcFVGeDBn?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-09T12:00:19Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Monday Mailbag: What are Ryan Nugent-Hopkins best moments with the Oilers?",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaDBvanVsa015bGF2XzRHalhxS0hGQW5tcEVkb2Q4OWxzZWIwMHFLSThpZGJXMmFTZFFpVC12S2N3TFBhOFJVQ3RJNndQbWhJbWlPdHZUMldFMTRWRXY0NkhVN2kwb3cyZnhGSmdjYTExa1lzM1BtbE5Mc0dlVlRmeERhQVBjR0JPZUVtdHhrLVo3R28yUXBZMF8tWXB2Mms?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-09T12:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Philadelphia Flyers - Edmonton Oilers - Nov 11, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYVGh1VDdqS1RCV3NXUHY1VndRUVlZNlljeDFzek9IVks1WnZVODFMNHlxM2lqNTZFYmhnelZtWEl3cmNwRTM5bm9TMmVQQ1VJNVkyUy1tMkRVWExxZXozWC1lSDN3a3l4QTctdGFVWTk?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-09T11:05:39Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Edmonton Oilers goalie prospects wow with stellar performances",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-goalies-prospects-wow-with-stellar-performances",
    "source": "Edmonton Journal",
@@ -175,8 +182,8 @@
   },
   {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-08T07:04:00Z",
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   },
@@ -270,13 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-07T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "'Throwing up in my mouth': Podkolzin gets support across Canada for beat down of Anaheim aggressor",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/throwing-up-in-my-mouth-podkolzin-gets-mass-support-across-canada-for-beat-down-of-anaheim-aggressor",
-   "source": "Edmonton Journal",
-   "published": "2026-11-07T03:15:28Z",
-   "snippet": ""
   }
  ]
 }
