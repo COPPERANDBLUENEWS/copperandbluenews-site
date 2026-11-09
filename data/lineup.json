@@ -240,19 +240,17 @@
    "name": "Isaac Howard",
    "num": 53,
    "pos": "L",
-   "status": "Day-to-day"
+   "status": "IR"
   }
  ],
- "notes": [
-  "Projection is based on the Last Game (2026-11-07) lineup until morning skate or practice updates."
- ],
+ "notes": [],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Last Game (2026-11-07)",
-   "updatedAt": "2026-11-08T15:51:29.808Z"
+   "basis": "Jason Gregor",
+   "updatedAt": "2026-11-09T18:18:25.913Z"
   },
   {
    "name": "DailyFaceoff",
@@ -486,15 +484,15 @@
     "num": 33,
     "pos": "G"
    },
-   "status": "Unconfirmed",
+   "status": "Confirmed",
    "backup": {
     "id": 8476914,
     "name": "Joonas Korpisalo",
     "num": 70,
     "pos": "G"
    },
-   "note": null
+   "note": "Garand will start in Edmonton on Monday. "
   }
  },
- "updated": "2026-11-09T16:56:43Z"
+ "updated": "2026-11-09T18:25:11Z"
 }
