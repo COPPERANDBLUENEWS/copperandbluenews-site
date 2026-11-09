@@ -328,7 +328,7 @@ a.mu-p:hover{color:rgb(230,120,50)}.mu-p.empty{color:var(--muted)}
 .tabbar{display:none}
 .more-menu{position:fixed;inset:0;z-index:60}
 .more-menu[hidden]{display:none}
-.more-panel{position:absolute;top:58px;right:16px;min-width:200px;background:var(--navy2);border:1px solid var(--line);border-top:3px solid var(--copper);border-radius:12px;padding:8px;box-shadow:0 14px 34px rgba(0,0,0,.5);display:flex;flex-direction:column}
+.more-panel{position:absolute;top:calc(58px + var(--lg-h, 0px));right:16px;min-width:200px;background:var(--navy2);border:1px solid var(--line);border-top:3px solid var(--copper);border-radius:12px;padding:8px;box-shadow:0 14px 34px rgba(0,0,0,.5);display:flex;flex-direction:column}
 .more-panel a{color:var(--text);text-decoration:none;font:500 15px Oswald,sans-serif;text-transform:uppercase;letter-spacing:.03em;padding:10px 12px;border-radius:8px}
 .more-panel a:hover{background:var(--navy)}.more-panel a.on{color:var(--orange)}
 .more-h{display:none}
@@ -577,3 +577,34 @@ a.chase-card:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
 .chase-cmp span{font-size:.9rem}
 #chaseApp .card{margin-bottom:14px}
 #chaseApp .card h2{margin-bottom:8px}
+/* Home: Next Game is the first block. Card chrome is unchanged; it sits above the hero. */
+main>#next{margin:14px 0 0}
+/* League score strip. Sticky, full width, above the header on every page. */
+.lg-strip{position:sticky;top:0;z-index:7;flex:0 0 auto;width:100%;background:rgba(11,26,51,.98);border-bottom:1px solid var(--line)}
+.lg-strip[hidden]{display:none}
+.lg-row{display:flex;align-items:center;gap:6px;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none;overscroll-behavior-x:contain;padding:6px 10px;scroll-snap-type:x proximity}
+.lg-row::-webkit-scrollbar{display:none}
+.lg-chip{flex:0 0 auto;scroll-snap-align:start;display:flex;align-items:center;gap:6px;background:#12264a;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:5px 10px;min-height:32px;white-space:nowrap;font:600 12px/1 Inter,system-ui,sans-serif}
+a.lg-chip{text-decoration:none;color:inherit}
+a.lg-chip:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
+.lg-chip.edm{border-color:var(--copper);box-shadow:0 0 0 1px var(--copper)}
+.lg-side{display:flex;align-items:baseline;gap:4px}
+.lg-side b{font:700 13px Oswald,sans-serif;letter-spacing:.03em}
+.lg-side span{font:700 13px Oswald,sans-serif;font-variant-numeric:tabular-nums}
+.lg-at{color:var(--muted);font-size:11px}
+.lg-status{color:var(--muted);font:700 10px Inter,sans-serif;letter-spacing:.04em}
+.lg-chip.live .lg-status{color:#ff3b3b}
+.lg-chip.final .lg-status{color:var(--copper)}
+.lg-when{flex:0 0 auto;color:var(--copper);font:700 11px Oswald,sans-serif;text-transform:uppercase;letter-spacing:.06em}
+.lg-empty{margin:0;padding:2px 4px;color:var(--muted);font:600 12px/32px Inter,system-ui,sans-serif}
+.nav{top:var(--lg-h, 0px)}
+.score-views{top:calc(54px + var(--lg-h, 0px))}
+@media(min-width:761px){.score-views{top:calc(64px + var(--lg-h, 0px))}}
+@media(display-mode:standalone){
+  .lg-strip{padding-top:env(safe-area-inset-top, 0px)}
+  body:has(#lg-strip:not([hidden])) .nav{padding-top:8px}
+  .score-views{top:calc(54px + var(--lg-h, 0px))}
+}
+.hcard{scroll-margin-top:calc(110px + var(--lg-h, 0px))}
+.fgs{scroll-margin-top:calc(74px + var(--lg-h, 0px))}
+.nl-card{scroll-margin-top:calc(82px + var(--lg-h, 0px))}
