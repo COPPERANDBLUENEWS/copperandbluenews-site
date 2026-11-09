@@ -1,19 +1,20 @@
 {
- "updated": "2026-11-09T03:29:56Z",
+ "updated": "2026-11-09T04:00:05Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (88)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Edmonton Oilers goalies prospects wow with stellar performances",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-goalies-prospects-wow-with-stellar-performances",
+   "title": "Edmonton Oilers goalie prospects wow with stellar performances",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnZya05acWxhQW8tRks2RmtXRTJVNGRBbmVtbFdORk01NENYdVFheWZBY1FmSUlSMFlqUFRldGtISDlUX1hrN3VKQWphVVpKbk9qbG9hZzJJa2JoVlVPQ0ctTGtJNDdpTzBUbC05RHozcThsYmJiWHc4WU4tb0doeS1TdFlqUVhLTzE1cmtnUkloa3VhWjBHMlcxdTRJb0FvZXRqSUdNMHptWUhVeWZWSGFsbGk5SUR1dmhnYkVxVnA2QQ?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-09T03:25:11Z",
-   "snippet": ""
+   "published": "2026-11-09T03:27:54Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Red-hot Connor McDavid, Oilers host streaking Rangers",
@@ -43,7 +44,7 @@
    "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-08T23:00:24Z",
+   "published": "2026-11-09T01:14:19Z",
    "snippet": "",
    "via": "google"
   },
@@ -148,14 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMWlTZm9lemFFSXVUeVpTXzM0d1lmNGlPd1ZxQVpNWUhHckFBcnhVUmVXbUtiZ1ZTSVZnd2k1Y2ZrRnhpczJaWmM0NUJLSjJMY25jc3VQU2N0MS16RnA5UzVXdVlidXRHOWpWQUhnQWM1RVZPT2l1UzFNYVFlQ2NOTXpFZmJtNUU4bUp1VG1TMDhyN2NVOXI4bnFLRUxEQ003OGhBaHRleVdRSE5C?oc=5",
    "source": "RG.org",
    "published": "2026-11-08T13:18:32Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers Place 38-Point Defenseman On Waivers",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1XTHpFMzYtbElXeVRla3ZzX1MwMmktWjQzcktwM1JkVk0xWWk2VDdZY2xfRkVEYThhLV9Ddy1fMWpEcWZuNTlFQ0FPWnUwLTAxV0pIRDdHNkIwdlNVSU9fZnFyUF9KT3V5bU9PMm1LMFIzVjJmRE1FNlQyVQ?oc=5",
-   "source": "NHL Trade Rumors",
-   "published": "2026-11-08T12:47:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-06T20:55:35Z",
    "snippet": ""
+  },
+  {
+   "title": "RELEASE: Hockey Fights Cancer Mega 50/50 raffle returns",
+   "url": "https://www.nhl.com/oilers/news/release-hockey-fights-cancer-mega-50-50-raffle-returns",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-06T18:11:04.536Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) announced today the return of the Oilers “Hockey Fights Cancer” MEGA 50/50, running from the Oilers Hockey Fights Cancer game…"
   }
  ]
 }
