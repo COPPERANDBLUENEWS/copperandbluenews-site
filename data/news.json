@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-09T10:31:39Z",
+ "updated": "2026-11-09T11:30:33Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (90)"
+  "Google News (91)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "NHL Tonight: Guide to Rangers-Oilers, Flyers-Canucks, Islanders-Sharks",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRXRvVlBjX2JyMUstcWJHUDV5VVNTeDQxMHh3aFhSemhmaU8xN2FzTkt5NjRMWG45V08wZkw4WERCYU9qSEtyNmZCV2gtTFVNdkZEX3BwOEtYLVdjWHhnZ3dkMGtDTDhaYmNNX0dwWXB2bnU0Mk9iSEZwMXYwWEhIVzduT0UzVDk4VzBrUlFsdkczY0kyaFIwY2F6cFg?oc=5",
+   "source": "6abc Philadelphia",
+   "published": "2026-11-09T11:01:10Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
@@ -37,6 +45,14 @@
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnZya05acWxhQW8tRks2RmtXRTJVNGRBbmVtbFdORk01NENYdVFheWZBY1FmSUlSMFlqUFRldGtISDlUX1hrN3VKQWphVVpKbk9qbG9hZzJJa2JoVlVPQ0ctTGtJNDdpTzBUbC05RHozcThsYmJiWHc4WU4tb0doeS1TdFlqUVhLTzE1cmtnUkloa3VhWjBHMlcxdTRJb0FvZXRqSUdNMHptWUhVeWZWSGFsbGk5SUR1dmhnYkVxVnA2QQ?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-09T03:27:54Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "New York Rangers Suddenly Promote 27-Year-Old Before Oilers Game",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR0VWVUJvUC0yR2tESDdObUtYVzlhWS1rbTZjQUZ5cHJFcG1MdUNoMzMtTHlwdDZPQUNjWWg2ZXo2dURhWG8tbVA5aUJ0OE9YdkdBVnc4U2h6a0xMd29EWmxSWnhJaEdkQkVEVzJQNUlMcDJ4VFZPY1BNdkg1SWRWZms5UlJqYmdO?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-09T02:58:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -133,22 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZk1QTFdXOFNlMmpudjl6NGRVZVNiWDNLU2oxOGdqM0hBaWV2dndjUTZaeXJ2NXZ0YjZtWElwaVYxeHZaenF3SlJwZWtyZzN2OXdxQ202N1lpRlRhdWRaWi1WS3JaQi0ybkpDRXFtakVOekNuUWdQUEZrbmN4ajBZczZQUE1OaDlOM2poOGlmZm40VkxHZHBlY1kyRHhpWXFZUTZxRlJoTmNKSENLb0w5S1BNR2lzSWhDekRzNGFVVUw3eUk?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-08T14:55:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "4 Takeaways From Oilers’ 4-2 Win Over Canucks",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPM2h3ZHRRSUhYcExHT0ZDYmRfX0N1SlIyU01BanltRG1XUWFFNXVMMy1Ed0lXdlZ4Ui10WWszcWVXb2xyOVQxZHlQbXdJYklLZC12Wlo5b3hlRjA0RGhRNTlMcWJWSV9sUTM3N3ptVE1XaFBIeTZaYkNMTnBMZVhDMDl0NnZLX0FFaXgzY0ZB?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-08T14:25:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Should Call the Penguins About Evgeni Malkin",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSUFQcTI2bUp2RVdsd0Q1b0ZHb0ZUbmwyU0pYOU96dmhCeHNaXzNiUmNta29acHczd2JGYnhSNzBWaW9iQ003Sm0tX0lfaFk0ckZDd3A1N1JON2J3cDVBMHlXREM3UHc2b2d5MU1xa09UdkVuZUJpUGgtVEhYSVFrMnVSZnlacGJv?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-08T13:55:00Z",
    "snippet": "",
    "via": "google"
   },
