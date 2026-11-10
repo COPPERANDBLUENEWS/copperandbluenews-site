@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-10T19:32:32Z",
+ "updated": "2026-11-10T20:25:49Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (94)"
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Can Oilers’ McDavid reach 100 points before Christmas?",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeHVNWHVvUXhjNWROcjhMTl8wXzEzaTJ3UWNnc04zeDdWREQyTEpsS0gwakJZSWRHaHUzZjBHVHh2NW1lV00yYkVOZ21xVWNCQ1E3NF9DSHJnNUlQRktMdWp3bTBaRk5va1ROLWl5UmJqMlU0akdkYWJMUXd1S0dDeklfeGdGTE1jRVJlbVdRWG56bGNYcV9IdHQ4OVozWTNUMFNFcw?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-10T20:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ Devon Levi Shows Potential Sabres Gave Up On",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS2pmaV9Xc0dVU2dQaVhBZ3FyMkJZTXBqYlZDdUlrSUlKOTJUbmtHSWFYN3lCZzlnVWIzNFFQaVZqdklST0U0NnB5dXNDZTk4SUdiRFJpMU9HN0ZiYUJDM2xnTzZsWU1oOG1ScWdwTkRwVDFza3ljVGVfbVhpcjFhY2NPcGR3RzhGUUE?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-10T19:26:09Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Edmonton Oilers coach Babcock demotes or scratches all his struggling forwards",
    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZlludEhPUUdHUHcwZElZNG9uTlplT3pfOEhEUWozMUk2ZXpXQkVhcEZXSTdSOGU3R0ZKSVZPdFBVZnNDVmhvMl9YX3E4bUN1b0xKVm5ZMlJ5WHN6clRsV1FqU1hEZG9BNzU4VTBkUFIyRGdjWFltcWFCY3RWQ0lXUkVqdmpvcDliYlRJU2lOTmU3ako1WFFwd09MNG5kOEx5TzJYR3BQQlI3bDBkRlNwS1lYY2d4ZEVwSnhPRXdONmFXLUdDY0ttN1hrSmtaN0FTM0NnOVk4NA?oc=5",
@@ -17,10 +33,25 @@
    "via": "google"
   },
   {
+   "title": "Accountabilty Babcock-style; Edmonton coach demotes or scratches all struggling Oilers forwards",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-demote-alex-formenton-matheiu-joseph-owen-michaels-mike-babcock",
+   "source": "Edmonton Journal",
+   "published": "2026-11-10T19:21:36Z",
+   "snippet": ""
+  },
+  {
    "title": "Have the Oilers found their long-term star goalie in Devon Levi?",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR19RSndRMFBWcVZDUHA1VDZlclpvYmUzM0ZFSHJORXFHUUI2M010YTNLQUQzaENzUXBfdWNac3d6bUpRakR6SGpWUF81eWw3R1NrZms4b0pZZm5GVzRELTI2c1J4bTYxbzhVWHhuU3lFRkh5MnBRdkJHcTNuUkhheTctSXQxVUd3NEc4eWt3dUdRcVVlbmRwSDhjZEtkQms5WjVrZA?oc=5",
    "source": "Daily Faceoff",
    "published": "2026-11-10T19:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "How Connor Murphy has been an unsung difference-maker in the Oilers’ last two wins",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON3p4S1REUUVnU3dxZUFOdjMtMU5CSDVFMmxRT2UwSHRtRDdYTWVkS3FFNGtZNFZUcHpvQzNnSm5QdUhabnFPalRtZHIwOXluejY2TjVPa05JYU5xR1VzVDdfc21OQ2RENHFuNnpMS2t2NXVaUmZfbVA4X0dhTWJ3U2xvZUxOSDYySW96SGZuSXdPZk9yZk9YNlVqZjVSQTVGVUZoem53?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-10T18:36:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -45,14 +76,6 @@
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORDRGNFRLNEVZbTEyd0hTTWJfanFJY3NMbXBHRlNmc1p0Zm1sOUdaeVlKNy1yTTZ5dG1QQ1Q4bl8zd1hFem1oS0JKTmxlQTgwQjI4R19YcUZIVWdMdVB6d3RtNlBjcTdxZ0JXLTlfVUFnQVQzckw3TW1RQWFYZXN4TzBsUnoybmVrNExybTZTSHFxaDQ?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-10T18:08:06Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NY Rangers Glaring Lack of Finishing on Display Against Oilers",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUmI3TWVWekl2M1lMdnpyNWp2WGMwTG96LXdBeDcwU0IxRG9vNUNqN2pnSjFZdmdYVVdhN2w4MDFfdXExRUJjb2JiMk9OOHZUdUxGbWVXR2VkRzdkUmo5V3Z1Q1Uyamh2LVIwRFpDUlZLTUdnM3d4aVAxNVItVjR2TTRUNF84UnZOTVpkU055VjNjQVVvOFVZUkphdmN4bEJPNnduVlpn?oc=5",
-   "source": "Sports Illustrated",
-   "published": "2026-11-10T18:00:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -113,21 +136,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers’ Devon Levi Shows Potential Sabres Gave Up On",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLURjWF92Umx3ZzdQQ3h0LTBtSzJNQ2hENFVJTy1HS2h6NWtHUHJtcGN3aVBXcUdnSHluZzdfUXBmeGItd1NXc3NGVGIweVV4Q1Q4NldDNVJxc1dsdHZOLWl0Q0gycXdnVTdodTA3Yk4xT2gxTGhnaUVJV0o4d0xSZmdHXzRITnNtMTVhOUpaNTBubU9BUkFiblRTd1o5UQ?oc=5",
-   "source": "Heavy.com",
-   "published": "2026-11-10T16:26:09Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Rock 'n' Red Deer: Brier headed back to central Alberta in 2028",
-   "url": "http://edmontonjournal.com/sports/curling/brier-headed-back-to-red-deer-in-2028/wcm/254a3cf7-e641-4a7b-a312-c0c5e015da96",
-   "source": "Edmonton Journal",
-   "published": "2026-11-10T16:13:02Z",
-   "snippet": "Curling Canada has announced that the 2028 Montana’s Brier will run Feb. 25-March 5."
-  },
-  {
    "title": "Oilers Emerge as Potential Jake DeBrusk Fit",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ja3NvdFZYRERaM1RNNXhSY2o4ZkpzTHlja3VWQ3R5ZENRZ2Z2S0V3MF93dl9BMTB5eVgxMjk5Zk9iVXpDZ3dVY2hPdkhOT1ZmVmxkSm1BLXJhU3E3OWxnOHFMUWN5M0dKX19LWWdyaXN2cVhIanZneWdHem9Gdw?oc=5",
    "source": "The Hockey Writers",
@@ -148,14 +156,6 @@
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSF9xVjh0ekNCeWgxRW5FNnNqTjB6cVVoejd2NFZPM2t5T0lpOXV3V0lPNUhrUlFZbVRTTjFkSWwwS2JYSlNXTVRsWmhNWmY1QzVMYnVGdVJiak4zazhBWGw4SGd5eThrNEczUlhZZkhLV3poYW1zR2FvQXh2X1c5SnpaVDBzUEJ3TlZ6Z1VmYm5tckg0Tkp6cU9jWG1Fck8ydzRRQjl0bk1jN0wxc09aZl90T2tDeWwyRC1N?oc=5",
    "source": "TSN",
    "published": "2026-11-10T15:38:54Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers net back-to-back wins",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYTN5LWhUcFpRaE1zXy1iLXJXcWxJX3BZcm9mZmRucnhHbzB3dzRJVXE0MU1mRm0xRkYyVE9oT3g5bUdhT0NldU81dXYtWHdwaDV6MmYyNlkzYkRjaGNYSTJaaEhaRUx2cWNybVJtbk1iamdOWmNYUWdaZkdNVWZIVHdaRU4?oc=5",
-   "source": "CTV News",
-   "published": "2026-11-10T15:38:12Z",
    "snippet": "",
    "via": "google"
   },
@@ -230,11 +230,11 @@
    "snippet": "The Edmonton Oilers host the New York Rangers at Rogers Place on Monday night. You can watch the game live on Sportsnet at 7:00 PM MT or listen on the Oilers Radio Network, including…"
   },
   {
-   "title": "Tale of the tape for the 113th Grey Cup in Calgary: Edmonton Elks vs. Montreal Alouettes",
-   "url": "http://edmontonjournal.com/sports/football/cfl/tale-tape-113th-grey-cup-calgary-edmonton-elks-montreal-alouettes/wcm/50fb01e6-fb80-4a7f-82c0-280373e520b9",
+   "title": "It is long past time that the NHL protected its stars better than its referees: 9 Things",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/it-is-long-past-time-that-the-nhl-protected-its-stars-better-than-its-referees-9-things-connor-mcdavid",
    "source": "Edmonton Journal",
-   "published": "2026-11-08T20:43:42Z",
-   "snippet": "The Edmonton Elks and Montreal Alouettes will meet in the 113th Grey Cup at McMahon Stadium in Calgary to decide who is the best team of the 2026 CFL season"
+   "published": "2026-11-08T11:00:57Z",
+   "snippet": ""
   },
   {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
@@ -242,6 +242,13 @@
    "source": "NHL.com",
    "published": "2026-11-08T07:04:00Z",
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
+  },
+  {
+   "title": "Player grades: Edmonton big guns McDavid, Draisaitl, Bouchard lead Oilers to 4-2 win over Canucks",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-vancouver-canucks-player-grades",
+   "source": "Edmonton Journal",
+   "published": "2026-11-08T05:43:26Z",
+   "snippet": ""
   },
   {
    "title": "Nugent-Hopkins leaves game for Oilers after being struck in head by puck",
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-07T18:57:04.06Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers have placed defenceman Atro Leppanen on waivers for the purpose of assignment to the Bakersfield Condors, the team announced on Saturday."
-  },
-  {
-   "title": "PROJECTED LINEUP: Levi to start & Hyman returns for Saturday's meeting with Canucks",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-levi-to-start-hyman-returns-for-saturday-s-meeting-with-canucks-11-01-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T18:52:10.923Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers will have netminder Devon Levi and forward Zach Hyman back in their lineup on Saturday night after both are activated from Injured Reserve ahead of a…"
   }
  ]
 }

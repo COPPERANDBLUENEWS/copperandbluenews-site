@@ -57,9 +57,9 @@
   ],
   [
    {
-    "id": 8480029,
-    "name": "Alex Formenton",
-    "num": 26,
+    "id": 8482703,
+    "name": "Colton Dach",
+    "num": 34,
     "pos": "LW"
    },
    {
@@ -69,17 +69,17 @@
     "pos": "C"
    },
    {
-    "id": 8478472,
-    "name": "Mathieu Joseph",
-    "num": 21,
+    "id": 8479365,
+    "name": "Trent Frederic",
+    "num": 10,
     "pos": "RW"
    }
   ],
   [
    {
-    "id": 8479368,
-    "name": "Max Jones",
-    "num": 46,
+    "id": 8480029,
+    "name": "Alex Formenton",
+    "num": 26,
     "pos": "LW"
    },
    {
@@ -89,9 +89,9 @@
     "pos": "C"
    },
    {
-    "id": 8479365,
-    "name": "Trent Frederic",
-    "num": 10,
+    "id": 8478472,
+    "name": "Mathieu Joseph",
+    "num": 21,
     "pos": "RW"
    }
   ]
@@ -181,9 +181,9 @@
     "pos": "R"
    },
    {
-    "id": 8479365,
-    "name": "Trent Frederic",
-    "num": 10,
+    "id": 8482703,
+    "name": "Colton Dach",
+    "num": 34,
     "pos": "C"
    },
    {
@@ -282,6 +282,12 @@
    "name": "Filip Hallander",
    "num": 19,
    "pos": "C"
+  },
+  {
+   "id": 8479368,
+   "name": "Max Jones",
+   "num": 46,
+   "pos": "L"
   },
   {
    "id": 8478013,
@@ -469,5 +475,5 @@
    "note": null
   }
  },
- "updated": "2026-11-10T15:23:35Z"
+ "updated": "2026-11-10T20:25:50Z"
 }
