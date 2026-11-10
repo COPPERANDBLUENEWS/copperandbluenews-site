@@ -243,14 +243,16 @@
    "status": "IR"
   }
  ],
- "notes": [],
+ "notes": [
+  "Projection is based on the Last Game (2026-11-09) lineup until morning skate or practice updates."
+ ],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Jason Gregor",
-   "updatedAt": "2026-11-09T18:18:25.913Z"
+   "basis": "Last Game (2026-11-09)",
+   "updatedAt": "2026-11-10T15:16:57.088Z"
   },
   {
    "name": "DailyFaceoff",
@@ -441,8 +443,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/philadelphia-flyers/line-combinations",
     "what": "line combinations",
-    "basis": "Jackie Spiegel",
-    "updatedAt": "2026-11-10T02:14:46.975Z"
+    "basis": "Last Game (2026-11-09)",
+    "updatedAt": "2026-11-10T15:17:59.241Z"
    },
    {
     "name": "DailyFaceoff",
@@ -452,20 +454,20 @@
   ],
   "goalie": {
    "starter": {
-    "id": 8479361,
-    "name": "Joseph Woll",
-    "num": 53,
-    "pos": "G"
-   },
-   "status": "Unconfirmed",
-   "backup": {
     "id": 8478435,
     "name": "Dan Vladar",
     "num": 80,
     "pos": "G"
    },
+   "status": "Unconfirmed",
+   "backup": {
+    "id": 8479361,
+    "name": "Joseph Woll",
+    "num": 53,
+    "pos": "G"
+   },
    "note": null
   }
  },
- "updated": "2026-11-10T07:14:35Z"
+ "updated": "2026-11-10T15:23:35Z"
 }
