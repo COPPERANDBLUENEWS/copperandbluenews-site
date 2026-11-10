@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-10T03:26:20Z",
+ "updated": "2026-11-10T03:56:37Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (3)",
-  "Google News (98)"
+  "Google News (99)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Once again, Devon Levi outshines everyone in an Edmonton Oilers victory",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSndCeExVenJBVGxZaDNPRTFoQTFkS3pLajB2N0QxRXpjVTRldkloTVpfZDg1Z1dDSVNwYmE5TkNTRnRwM3pPeTlERGltTDktejVOSEpCc2d1MjdkUTVDcl94SDU2RER0Sm5MWmc3WUpHcmFDT3R0OVE5RDBsN0NVU3JmUjU?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-10T03:51:04Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "LIVE.UDPATE***Oilers vs Rangers Live Free Play-by-Play in NHL",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa3VVUndoQzA0cmRxaUtsN3ZQM1Ryd2hVMmV5emRKdXBmTlM5Q09kV1hwOVJ3eEFsTVFaZVp2WVhUaXBqU3ZRR3FaT1VGZ3pfY0tabmVLNVlPT09FN2ZMSGU3dVJpb2FKeTlMUmFrdzhOYnZsV0hHN05rWmRjYUluN19aMA?oc=5",
@@ -105,8 +113,8 @@
   },
   {
    "title": "Oilers vs Rangers LIVE, Score Updates and Play-by HERE",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GLWxzNUNCTmFNS1NRczdUTHRLMnBHWG5vdDAzSW9PX01SOEF6YndYT3VCck93OWRhU0szaVdUX0UtUER3ZjlZSlV2bllvMWI3STJXTEZ5RmlyWVg2dXA1dHdoVHoyNDhTZUJxUXFzWWc2bUl5VUV2TTB1SEg?oc=5",
-   "source": "PelhamToday.ca",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBsejMwb28yckZKdU5Ldk5MN29CeTVtbXFNWnJzWWpTQkR2eHA1emFjT1pJTkItMFFrV0lVVGczNERhMXVKbkh0Z3E3UTlhWk9yYXRXZGJveW11eUIwdVI3TWJQb1JFdzdkOHhyTFo4eUdjSF9uM1UybnZ1bw?oc=5",
+   "source": "Rocky Mountain Outlook",
    "published": "2026-11-10T01:53:42Z",
    "snippet": "",
    "via": "google"
@@ -143,19 +151,26 @@
    "snippet": "Watch as Edmonton Oilers captain Connor McDavid scores an easy goal after New York Rangers goalie Dylan Garand committed a brutal turnover."
   },
   {
+   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-10T01:18:24Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "QUICK RECAP: Oilers 3, Rangers 1",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-rangers-11-09-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-10T00:49:43.658Z",
+   "snippet": "EDMONTON, AB – Devon Levi made 28 saves in the victory, while Leon Draisaitl scored two goals, including the game-winner, for the Edmonton Oilers in a 3-1 win over the New York Rangers on…"
+  },
+  {
    "title": "Monday Night Hockey on Sportsnet: Oilers vs. Rangers",
    "url": "https://www.sportsnet.ca/hockey/nhl/games/8e440888-dc8d-42bb-9a06-0892c0c45405",
    "source": "Sportsnet",
    "published": "2026-11-10T00:47:18Z",
    "snippet": ""
-  },
-  {
-   "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-09T23:00:24Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "GDB 19.0: Oilers look to improve home record vs. Rangers (7 pm, SN+)",
@@ -167,11 +182,10 @@
   },
   {
    "title": "Edmonton Oilers solid on road, still seeking answers on home ice",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNdktaRnNBa1dNM3dUOFBDVlZROHRMdlBmMV9nMzBjRV9PMFp0YTlzWWYzOTl4LS1vQmRhVHN3dWFoNjcwUFNfcWFoRWZQVFZPTkpWZERCY3NtYnFOTTRWM00wYXYzZk56YXFiMlliZWdIcFk?oc=5",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-home-struggles",
    "source": "Edmonton Journal",
-   "published": "2026-11-09T20:30:56Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-09T20:29:52Z",
+   "snippet": "'Are we cuter with the puck? What goes on in the second period? So, we go through all those things'"
   },
   {
    "title": "Oilers' Nugent-Hopkins will wear a bubble after getting hit in the face with puck",
@@ -214,13 +228,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-09T01:11:50.551Z",
    "snippet": "The Edmonton Oilers host the New York Rangers at Rogers Place on Monday night. You can watch the game live on Sportsnet at 7:00 PM MT or listen on the Oilers Radio Network, including…"
-  },
-  {
-   "title": "Tale of the tape for the 113th Grey Cup in Calgary: Edmonton Elks vs. Montreal Alouettes",
-   "url": "http://edmontonjournal.com/sports/football/cfl/tale-tape-113th-grey-cup-calgary-edmonton-elks-montreal-alouettes/wcm/50fb01e6-fb80-4a7f-82c0-280373e520b9",
-   "source": "Edmonton Journal",
-   "published": "2026-11-08T20:43:42Z",
-   "snippet": "The Edmonton Elks and Montreal Alouettes will meet in the 113th Grey Cup at McMahon Stadium in Calgary to decide who is the best team of the 2026 CFL season"
   },
   {
    "title": "It is long past time that the NHL protected its stars better than its referees: 9 Things",
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-08T02:41:58Z",
    "snippet": "Playing in their first post-season game since 2019, the Elks won 28-16 over the B.C. Lions in the West Division final on Saturday at Commonwealth Stadium"
-  },
-  {
-   "title": "Flames goalie Devin Cooley most interesting man in hockey",
-   "url": "http://edmontonjournal.com/sports/hockey/nhl/flames-goalie-devin-cooley-most-interesting-man-in-hockey/wcm/2f976173-78be-4d03-8e73-57c1eb4f6b4e",
-   "source": "Edmonton Journal",
-   "published": "2026-11-08T00:26:02Z",
-   "snippet": "California-born netminder insightful, at ease, and possessed of a certain existential acceptance"
   }
  ]
 }
