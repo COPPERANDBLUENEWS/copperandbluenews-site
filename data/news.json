@@ -1,18 +1,113 @@
 {
- "updated": "2026-11-10T01:07:58Z",
+ "updated": "2026-11-10T01:44:59Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (85)"
+  "Google News (97)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "[4K] New York Rangers vs Edmonton Oilers Live Free",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE81YTNPT0dRU2FnSnpGZkNDLTFFdXNrdmpoWXFfQnV1aW9tNHljMDEwaFlnakgwZi1pZDhHSkQ2LU9xelJhelh0ZHpiTkhpZ09FaERNUXZsY2owS0tVYlo4eENOVFdpSmZVeDliTTRYSE5LNDZTX0sw?oc=5",
-   "source": "Powell River Peak",
-   "published": "2026-11-10T01:07:07Z",
+   "title": "++LIVESTREA.Ms!) Oilers vs Rangers Live Updates and Play-by-Play in NHL (1-0)",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIeC1XQUJjOEFMa3NsM2JSSGc4QURsTTl4TUl3QTd4OExSZXdjeW1EWEd6cks5OUpfT3doeDMxREFsWG5hclh3RGdCUDdBbzF6ZUdDVG9zV2hfb25ZOG54SEFrbXNFYUpJenlYa2xQYTZHM280SlNCSFhMSENfWkk?oc=5",
+   "source": "Oakville News",
+   "published": "2026-11-10T01:40:42Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "(NHL=) Edmonton Oilers vs New York Rangers Live Free Online",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd3lEYTVDQ0JLWDJMYTZjdkFNYVpCOEJsTTBIdkRDRFdGVlRjS3VNNVJTa1VhUW1nOXJOOHROa3JpRFZjQTFqX0x4cFBPeWdGSzQ3NHJ5dC0yQTBaZGo4NFhUSi11bFF6ZW83cWZ6UXZLaHVZWnhGNndjREtiQU0zSm9mOW5NY00?oc=5",
+   "source": "Vancouver Is Awesome",
+   "published": "2026-11-10T01:39:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Rangers vs Oilers Live Online NHL Odds for Monday, November 9",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOGQ3bTVMMEJoWGRxTU51WHpQSGx4MW05RHNQZ25pRkxYX0JkSXUwUDQydzIxNDZ5X0M2YkV6X3dOcVlpN2dsVXowOE45RlUtbzh5bU9UVnhHVVIzZWFTM3lKNXFMbmFlcmg0YTNaRDBBNWxaMk5RR25JeHp4UTlzcnF4Smo2T1h3c25aazU4ZHNKcnAx?oc=5",
+   "source": "Northwest Ontario News",
+   "published": "2026-11-10T01:31:18Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers vs Rangers Live NHL Game On TV Channel Nov 09.2026",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMkpnbHg5aHhhVW5uSFBwdVR6R1huM3Q2YUJmOVRkOThjTkEyWnFoY1FUeUs5WjQzdTNGd1NkbFgtOU8yNWd5N3RKUG1jV0g4M3BwQUNZVTJZVkpuZ01hTmNBX0N4X1FJYWFUcjBzTHItNjV3ZFREUkpwbTJ0a0NiSGRPdHVkeVBVMzRvMjhrQ2hwMmo4?oc=5",
+   "source": "Northwest Ontario News",
+   "published": "2026-11-10T01:30:26Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ McDavid gifted easy goal off Garand’s brutal giveaway",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-gifted-easy-goal-off-garands-brutal-giveaway/",
+   "source": "Sportsnet",
+   "published": "2026-11-10T01:28:38Z",
+   "snippet": "Watch as Edmonton Oilers captain Connor McDavid scores an easy goal after New York Rangers goalie Dylan Garand committed a brutal turnover."
+  },
+  {
+   "title": "+[LIVE.STREA.M!] New York Rangers vs Edmonton Oilers Live Free TV CHANNEL",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZHlOZmZjWVplX1JMVTUxN19fekZ4b3ZQX3dlX09HclR5aDdEdGdMUHp4dzlMNXpsZHdDbnVfQjI1QkpTT1dhX2R4a2RCdmJZTlRGS2tQQnV0MmdGcmt3UXZuYXdOSGNRVEN0LUtBdnpaUjI0Zk16blo4Tzk4NnpxcjRrQXlLeUE?oc=5",
+   "source": "Vancouver Is Awesome",
+   "published": "2026-11-10T01:25:34Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "LIVE UPDATES: Oilers vs. Rangers Live Free",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUEZfaTVtZ1NXN3A0cmN0OThXbm45TGJMUk9KYk9ETEtiRkhIR2ZFVGo0VUU1UWQ5VTJZLTdILUJYb3IwcmE3bTBPTDQ3dUpJbFNfME9OY3o4N3NfaGZMVlNGWE9faU5ianJxekRjSkZfaWthanBidFo3MzRhTnpyLU1QdVBpNnM?oc=5",
+   "source": "Vancouver Is Awesome",
+   "published": "2026-11-10T01:23:12Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "How to watch Oilers vs Rangers Live TV channel November 9, 2026",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdkJNcU04Rkw3N0JHQUJqNkg0VzU2dTNqTWVVSG9QU3NDN3N5TExheEtGLXBMWnlLU3dpajB1aVlSQ1R4SVpmMWFXRGo0SEtrRjBPMzFQMGFRYnVZYU9VcGdkTERMYlpxVVJETWNlUUJHSlJiOGdwbkRQd3Y3a3ZIZFBYYl80TlJXdTY5Qm90VmRudEV3?oc=5",
+   "source": "Oakville News",
+   "published": "2026-11-10T01:18:42Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "[FREE-TV]**Rangers vs. Oilers Live Nov 9, 2026",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSEdoRjFJdk41LVdXb213MTZMMG8yMF9ET2xnUWgxQ0hoSEhPUW4wMjF2eDhDMXFVUmlTLWFMeUU4ME5DUDFQVmMyNnJvdjZyazFtdURjZGtoTWRXMHk4QmhGSmc2Nmk3UzQtYzgyenZYTE9lQ1VnWml2ZnhPRnpfbV9DR0lvcXBsSk1qTVpkaXd6T0U?oc=5",
+   "source": "Thunder Bay News - TBNewsWatch.com",
+   "published": "2026-11-10T01:17:25Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Rangers vs Oilers LIVE Strea.m Updates and Play-by-Play in NHL",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZDdBWGV3T3hGSEpmRUluanVnNkRGN1dpU2NpR2UzQXdaNEZJSVpWX0pZZTJWbE1fMzdzVWlrbGFrUnQ4VXI1bjQ4Q3YzcjZjTi0tUEN2VUxlQml5NXdndC1CS2x6NU1zMkp3T2JFSmg2RFl6SVNGM1puWmREN2ctYlRXNkE2Z0NCUTctanNMa2JueUdx?oc=5",
+   "source": "Northwest Ontario News",
+   "published": "2026-11-10T01:16:36Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "*FREE* Rangers vs Oilers Live Strea.ming",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55TE1iOGVYUVVwRmlDQTVjRkF6NzI2VGpYMmdQOVlRRlhiRFNsWmtDY2d5NTFyakpicTdKVHk3WnpBTGFRRkszQTJhS0xvYkNBWGNsMFpBbDVNYlRqR1UtcHdNSHFwaGxENDZEYTFzb0ZUaUpfV01USVhlU1RHeVE?oc=5",
+   "source": "Oakville News",
+   "published": "2026-11-10T01:16:16Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "New York Rangers vs. Edmonton Oilers Box Score & Stats - November 9, 2026",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5NN1Q0T29WdWhiUkk3LWI3NFJOa01DZmhjYTNXSHZrNm9JaXNWRnB3SXJETzNTWXN3V1VYaFU5YzBTWGRNZ01PcENoMElaRTFIbzlmalRDYVFWN3RyVExzY21KOUtwNkJvMF9CaE14c082aVdHVDFRSVVacWo?oc=5",
+   "source": "CBS Sports",
+   "published": "2026-11-10T01:13:53Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Rangers vs Oilers Live Monday, November 9",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWGFGUE80RkJ2ZHFrWnJLUTlxVFhoVTh0TnlYbVFUM2dtNkRGUmJfeEJxVkVXWHdwem1tUmtzQWxVTHRLcTBaRXFEZzZWeXp3b0hBcHAzZS1LT01SU3JZcmVYRUtpMHFfUDFqbVdELW5mRXBqT2pWYlZHeVZ6OFNyWllZVWVrUTZkd1h4RlFWOUU?oc=5",
+   "source": "SooLeader.com",
+   "published": "2026-11-10T01:07:30Z",
    "snippet": "",
    "via": "google"
   },
@@ -25,11 +120,20 @@
    "via": "google"
   },
   {
-   "title": "LIVE UPDATES: Oilers vs. Rangers",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-rangers-11-09-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-10T00:49:43.658Z",
-   "snippet": "The Edmonton Oilers play host to the New York Rangers at Rogers Place on Monday. Follow along for live updates, highlights, stats and more, then check back after the final buzzer for the…"
+   "title": "[4K] New York Rangers vs Edmonton Oilers Live Free",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWUF3Zi10UVhDOUx6VkRJSXY5Qm80VWlQZWI4dDV1SFotTVR6WndaVUF1RUltdGxxZVFocUlnRUJxemM3VVdFM0phazdaSURYTl9jOXR3blk1QUxPeWVPOXVPTzJiQ1JsYUo4Q19veFZyX0VpdlBsbWhtM2czeUVJQW12bTY4bnkzT1NsMXFRbUs?oc=5",
+   "source": "Rocky Mountain Outlook",
+   "published": "2026-11-10T01:03:03Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "dmonton Oilers vs New York Rangers Hockey Live FREE 9 November 2026",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeWI5WnNUWWFkZGxBcVJJbUNuVG53UFprY2RhYmM2OGlBZkNNUEJQWGQ5aVB2dWUzSHFGTldxeTJmaDRwMUVOV0I3U2NnSkNuMUxMMVNfakVXeXFFZC1Rb2tNUFJIUjZfM29ubWdLdUphVVV1aDR6bkw5VE9IVm9LQ2dVYWt0X3VWZFdWUm92ZVo?oc=5",
+   "source": "Rocky Mountain Outlook",
+   "published": "2026-11-10T01:01:34Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Monday Night Hockey on Sportsnet: Oilers vs. Rangers",
@@ -37,14 +141,6 @@
    "source": "Sportsnet",
    "published": "2026-11-10T00:47:18Z",
    "snippet": ""
-  },
-  {
-   "title": "Game #19: New York Rangers vs. Edmonton Oilers Open Thread",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXZZSHZUaERCXzhPUFlFOTNhUmF0R2dTaUJ1WTctVFg1RkhUblhDbkF6aWgxZDJOMlNqZ1JUSTZ1Qk8yUU9HNks0d3AxaGZJQTRkR2RwUzVKZjBCX2lpYlVWcTZMcVNDZlpncHkyMENGR2dzRGpBSjNZUlNYZFVRSGdQYzEyX1puNHhtRHNleXhhZlcy?oc=5",
-   "source": "Blueshirt Banter",
-   "published": "2026-11-10T00:30:47Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "NHL Notebook: Oilers drop in power rankings, Hellebuyck sits, and HHOF inductions",
@@ -58,7 +154,7 @@
    "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-09T22:20:01Z",
+   "published": "2026-11-09T23:00:24Z",
    "snippet": "",
    "via": "google"
   },
@@ -71,99 +167,25 @@
    "via": "google"
   },
   {
-   "title": "Oilers’ Nugent-Hopkins good to go after being hit by puck from teammate Shea",
-   "url": "https://www.sportsnet.ca/nhl/video/oilers-nugent-hopkins-good-to-go-after-being-hit-by-puck-from-teammate-shea/",
-   "source": "Sportsnet",
-   "published": "2026-11-09T20:43:47Z",
-   "snippet": "Ryan Nugent-Hopkins and Ryan Shea talk to the media ahead of hosting the New York Rangers to discuss the unfortunate puck-to-the-face incident, playing better on home ice, and Shea’s more…"
-  },
-  {
-   "title": "GDB 19.0: Oilers look to improve home record vs. Rangers (7 pm, SN+)",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS0NKZHVUZDhOLUFRdjN4QjNTTDJsT0M4RkNQV2tKaWhoRzYtV290b2ZFd3FROHhSemFXMlkyaXdrRHB5cEFnSnFDVUUwU1ZCWkwxR3lSektHRExJNmNsSGpXQ194cWowUXA1MnNzMjExVGFDckpnZWhpWXQ3TS01VGM0aENtN0Exa0xIbDVzeFZveW11XzA2anh4RmZnNkE?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-09T20:42:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Edmonton Oilers solid on road, still seeking answers on home ice",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNdktaRnNBa1dNM3dUOFBDVlZROHRMdlBmMV9nMzBjRV9PMFp0YTlzWWYzOTl4LS1vQmRhVHN3dWFoNjcwUFNfcWFoRWZQVFZPTkpWZERCY3NtYnFOTTRWM00wYXYzZk56YXFiMlliZWdIcFk?oc=5",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-home-struggles",
    "source": "Edmonton Journal",
-   "published": "2026-11-09T20:30:56Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Elliotte Friedman shuts down the Jordan Binnington to Edmonton talk ... for now",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeHdaMjFOMDhQTFIwdlZSTGpCVDBIYnRXWHVEX0FIa3R2a3pTejk4ellNWDNYMS12UnRRVlN0LXlpbEJJNHc2SER5dUtVLTVOUjlTZ1NlOTlLVHBlYS1Fc2YzckR0YnhsOC1wQVBtc1VCWmxWM29RakNlOGhGTEFoR2VDUUZwbmhYVjc1Y0J5eWpnYkhyLXBSOWhqUUdSc0RmMkhkeEVUODVScV92OVlhbQ?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-09T20:24:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Wild West: Scorching Ducks, Oilers, and More",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNX2JRazR2eElrRzBySXI4VlBWeWxuaGJlb3FNOW5lMXRYTXlTTG1nZi1aNUhnSENGTEFXeVB2RWVhNmN4OVh5OXNLaE9ld1lCMjlqd3N2ZGtwY0ZQZkRlcUd0c3dhOTlGcUJZRW5OOHZzZ2JBcnBOb1FBc0VzbEEwRlN1dkxhSlpzUVE?oc=5",
-   "source": "DobberHockey",
-   "published": "2026-11-09T20:02:30Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-09T20:29:52Z",
+   "snippet": "'Are we cuter with the puck? What goes on in the second period? So, we go through all those things'"
   },
   {
    "title": "Oilers' Nugent-Hopkins will wear a bubble after getting hit in the face with puck",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTjdaSHhMOGJLbWtkSkxvYU9mcGl4TmV0Tml6MllSd2JRT1l6SThpSTNOYkVvM0tRNmI2MFh1MEJxVERFbFh6U0MtWTJtZGdhZjBOTHk5TkR6Z1o5c1UwQUhablRmdjZQbU1FTUFBaU56SzdOQ1NyZnVzUU1xdlFqb1BPdURDZXFrbXp4bkd3czdOeHg4N2ppNkpneHc2a2dhRlBmQ0tTZE52dEljR21SclB2QzVwUQ?oc=5",
+   "url": "https://edmontonjournal.com/sports/oilers-nugent-hopkins-will-wear-a-bubble-after-getting-hit-in-the-face-with-puck",
    "source": "Edmonton Journal",
-   "published": "2026-11-09T19:10:33Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Rangers lines, notes, how to watch visit vs. Oilers, trying to win 4th straight",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb3ZtRVF1bU9lUW9NUFdkemdDeFlaQ1h1MDByWlZVN1lvQzdjM1lpcHp6dVNvX0N3SDNkSnhvdmdkN3ZJY3ZBa1EzVU1Tck1lSHE3ejdmMlJzMVVBWnp4M3FLZ2xRTHZ0NDhUcndPU0xxcnpLMFppbkFUX2w5Yms2UGdEM2dFOUtmUDZfbzR6NHllcWgxTmRUalRQOGpTQXk2dDZjWndQeW5IaGsyTWR1ZmtVSTZTdXlaSmhDQTVZMThxdVE?oc=5",
-   "source": "Forever Blueshirts",
-   "published": "2026-11-09T19:08:19Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "POST CAST: Pettersson's Truth Finally Comes Out [Vancouver Canucks vs Edmonton Oilers]",
-   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNdVpGaW53cVpPdHJEUThUMkJnUVExcnYwdFZiMldXM05UeXUtWENPWHZVZVFaenpOLUJnVnYtcUxDVFV6VzlrTk1CclZjVlNpUEc4aV9yelFXVHRRT2ktRjdlUkg2ZjlDZDBZc09qZjVLbjQ5NXA0R2VZaGpYZnpyQ1ZlVGlSWGhjTF82MzNITlZkdjdwblJVaXZUNG80RTl1VE5qNzNZWjNKd0lUWGwzdEs5aXI4R214U25aQmROVjNmaTczSnI1b1QzMUNKWDdjVG9QVjdaQVB1eHFCeXNpZW1zam4ydHJMd0o3WjlrZ05hdVIydUd5RmJEdzNySFpCVklTdnZKY1RlRHJIOEdtREowS3B1Q0lIOFBfdEhtRDluNnE2?oc=5",
-   "source": "13newsnow.com",
-   "published": "2026-11-09T18:48:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NY Rangers Share Dylan Garand, Sean Durzi Updates Ahead of Oilers Game",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNejFtYXBiVmhzOFE5RU1yU2hGM2xtVks1b21keGcxeGlyRmtXWHpWN1Y2M3hzTHpnRURQTmJxQXhPNm1NWlBONUVkakU3R0hzeExtdlI2NUItZklhOTZLRDZjTGNvSV9wT2g4ZXZvTkRJWF9VN1Y5V2hveUVKUnpJRWVTZl9Hb1ZYZE96QmVlbkhjSGVfb1VUS0xmNDJYSFJ5OWc4RjdZY3lLcXZNVFhmb1FNcw?oc=5",
-   "source": "Sports Illustrated",
-   "published": "2026-11-09T18:47:57Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "How to watch Rangers vs. Oilers: TV channel and streaming options for November 9",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd0lqSHlISGdGbzFJNFNGNWlCMGU2ZXdfNkNfNWtHbmdUM3B5TUNiUFFTRXl2QWlqdlhYWXBFRV9tMkI5N0RhQWZDVGV3REZaTFRXck1pVDgyaWFiRUxjakNmZ182b1NWYUNuNVdueTRlY0FzSDZnZ3pZb0NBczhaSGtHLW5VRkJOcy1PRFE2d3N1dXVnT1E1SVF4RGQ?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-09T18:45:03Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-09T19:08:42Z",
+   "snippet": "'The bubble is a little warmer, a little claustrophobic. Definitely some spots (vision) are blocked but overall I’m pretty surprised with how good it (bubble) felt'"
   },
   {
    "title": "Rangers at Oilers projected lineups",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaGZYRHhxTERfZ1I3V3ZyQ0FSamhDNGJBZmNaNGZSUXJGaWRDOFI2WktIbFZKYVBCMmRWeEdhTkZwRXJhRTh1TXIxazZRbUozWVpKNFVmQU82VW1NaklrRnJGdnpwYjhJRV9iaGxQZVduOXBiZnZwQ3JzLWx4OTJaZmJBVVkyaWt3LTNaMGF5VQ?oc=5",
+   "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-preview-november-9-2026",
    "source": "NHL.com",
-   "published": "2026-11-09T18:38:28Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers NHL Line Combinations",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-09T18:18:00Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-09T18:29:30.34Z",
+   "snippet": "RANGERS (10-7-1) at OILERS (12-3-3) 8 p.m. ET; TVAS, SN+, MSG Rangers projected lineup Gabe Perreault -- Mika Zibanejad -- Alexis Lafreniere Tye Kartye -- J.T. Miller -- Oliver Bjorkstrand…"
   },
   {
    "title": "PROJECTED LINEUP: Nugent-Hopkins good to go for Monday's matchup with Rangers",
@@ -174,11 +196,10 @@
   },
   {
    "title": "High-priced Edmonton Oiler hasn't thrown a hit all year, healthy scratched again",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdllOVV9ycnJSb3cxemtINDVSdWwwN2ZHLXMyWVV3ZkZnczdCZmcxZjZMNmFXcG1EbnI3SWs5eDhhYUpIZFB1OFRvdk5sdFRRbVBPUWpVN3dLTlFhLTJZSzFNRTlfcVEzb1RrTkk3c1lqV0dkS2tqMFFfMjVaRFMzSkZkbzAyd2NVOXdWcW1jYmREZXhxYzRQS2FKeERMSmpoNkdtUUYxVS1TZDdDOTlMbjFDRWdGTGhJWVE?oc=5",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-mike-babcock-new-york-rangers-jake-walman",
    "source": "Edmonton Journal",
-   "published": "2026-11-09T17:55:32Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-09T16:46:06Z",
+   "snippet": ""
   },
   {
    "title": "Edmonton Oilers goalie prospects wow with stellar performances",
@@ -256,27 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-07T21:31:16Z",
    "snippet": "“Great to be back, obviously. Been unfortunate with the injuries but it’s a lot easier to be out when the team’s winning,” said Hyman"
-  },
-  {
-   "title": "TNA Wrestling returns to its roots with Destination X at Edmonton's Expo Centre",
-   "url": "https://edmontonjournal.com/sports/tna-wrestling-destination-x-edmonton",
-   "source": "Edmonton Journal",
-   "published": "2026-11-07T21:04:40Z",
-   "snippet": "TNA: Destination X goes Sunday, Nov. 15 at 4 p.m. at the Edmonton Expo Centre. Tickets are available at Ticketmaster.com"
-  },
-  {
-   "title": "RELEASE: Oilers place Atro Leppanen on waivers",
-   "url": "https://www.nhl.com/oilers/news/release-oilers-place-atro-leppanen-on-waivers",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T18:57:04.06Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers have placed defenceman Atro Leppanen on waivers for the purpose of assignment to the Bakersfield Condors, the team announced on Saturday."
-  },
-  {
-   "title": "PROJECTED LINEUP: Levi to start & Hyman returns for Saturday's meeting with Canucks",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-levi-to-start-hyman-returns-for-saturday-s-meeting-with-canucks-11-01-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T18:52:10.923Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers will have netminder Devon Levi and forward Zach Hyman back in their lineup on Saturday night after both are activated from Injured Reserve ahead of a…"
   }
  ]
 }
