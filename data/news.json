@@ -1,13 +1,51 @@
 {
- "updated": "2026-11-10T00:13:33Z",
+ "updated": "2026-11-10T01:07:58Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (1)",
-  "Google News (84)"
+  "Sportsnet (2)",
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "[4K] New York Rangers vs Edmonton Oilers Live Free",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE81YTNPT0dRU2FnSnpGZkNDLTFFdXNrdmpoWXFfQnV1aW9tNHljMDEwaFlnakgwZi1pZDhHSkQ2LU9xelJhelh0ZHpiTkhpZ09FaERNUXZsY2owS0tVYlo4eENOVFdpSmZVeDliTTRYSE5LNDZTX0sw?oc=5",
+   "source": "Powell River Peak",
+   "published": "2026-11-10T01:07:07Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers vs Rangers Live Free Play-by-Play in NHL",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT1NBenpidTcwMkVad2JsVjRCY3Z6TERwYjBNNEIycERqcThQa19JazFWZXB2UEFLd3ctZXFqR0xQcndSeEFLclJ3bGpSc1k3T3dDa0dycmZIRUNSQUxfOTJxS0tnSmJsZllfSU5uaU5lR3VwRU4xM2ZkcHdUeEk2X1E5eUtzWWI3d2hkTHZ5SzJNMEk?oc=5",
+   "source": "The Albertan",
+   "published": "2026-11-10T01:03:34Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "LIVE UPDATES: Oilers vs. Rangers",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-rangers-11-09-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-10T00:49:43.658Z",
+   "snippet": "The Edmonton Oilers play host to the New York Rangers at Rogers Place on Monday. Follow along for live updates, highlights, stats and more, then check back after the final buzzer for the…"
+  },
+  {
+   "title": "Monday Night Hockey on Sportsnet: Oilers vs. Rangers",
+   "url": "https://www.sportsnet.ca/hockey/nhl/games/8e440888-dc8d-42bb-9a06-0892c0c45405",
+   "source": "Sportsnet",
+   "published": "2026-11-10T00:47:18Z",
+   "snippet": ""
+  },
+  {
+   "title": "Game #19: New York Rangers vs. Edmonton Oilers Open Thread",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVXZZSHZUaERCXzhPUFlFOTNhUmF0R2dTaUJ1WTctVFg1RkhUblhDbkF6aWgxZDJOMlNqZ1JUSTZ1Qk8yUU9HNks0d3AxaGZJQTRkR2RwUzVKZjBCX2lpYlVWcTZMcVNDZlpncHkyMENGR2dzRGpBSjNZUlNYZFVRSGdQYzEyX1puNHhtRHNleXhhZlcy?oc=5",
+   "source": "Blueshirt Banter",
+   "published": "2026-11-10T00:30:47Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "NHL Notebook: Oilers drop in power rankings, Hellebuyck sits, and HHOF inductions",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSWV2aGVfZFJnNWVQZFJsbUVsc1ZQRENhU0hzS21iQjh0VVlub1dGaTFlY3U0WFZOdTFQZS1ZQzNtZWR2d1dWem5LN0Fjc0VaSUYtS3JsbVhHUEdsMHNybDFlWFRJNzltMFFyelZoVjBzQ202ZTJ6V3oyZ3F6TzlxQVJyWUNZZ0dyczlDZFVxX3FGdEQxY3VyTFpqSDlBTGwwYUxUZ1VsTFY5bzJD?oc=5",
@@ -20,7 +58,7 @@
    "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-09T23:00:24Z",
+   "published": "2026-11-09T22:20:01Z",
    "snippet": "",
    "via": "google"
   },
@@ -49,10 +87,11 @@
   },
   {
    "title": "Edmonton Oilers solid on road, still seeking answers on home ice",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-home-struggles",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNdktaRnNBa1dNM3dUOFBDVlZROHRMdlBmMV9nMzBjRV9PMFp0YTlzWWYzOTl4LS1vQmRhVHN3dWFoNjcwUFNfcWFoRWZQVFZPTkpWZERCY3NtYnFOTTRWM00wYXYzZk56YXFiMlliZWdIcFk?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-09T20:29:52Z",
-   "snippet": "'Are we cuter with the puck? What goes on in the second period? So, we go through all those things'"
+   "published": "2026-11-09T20:30:56Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Elliotte Friedman shuts down the Jordan Binnington to Edmonton talk ... for now",
@@ -88,8 +127,8 @@
   },
   {
    "title": "POST CAST: Pettersson's Truth Finally Comes Out [Vancouver Canucks vs Edmonton Oilers]",
-   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNbFpNNkJ4SWFCMkx1RUNXSUZ0RDZZa1UwSzRhVWl6RnZfbHc4MUJDTUVEaUpoNk0zSnNnZTZLRlVLRDhGbHhENW16UmhfM1VPdkc3alNkOEVJQVVGS2gwbF9iTU1rSGNTamNXZVFxZjZadE5fRjJqTlBuaVFDZFI1VUJoR0ZOQTEyWVRCc3EwcklWdWNYakxGTDQ5eGNybUVjQWlxVmtFLS0xRndOR2w3b05KUXpyckJTUzZJbGtZODFUVE1NSUNrRkZhMFpzSWx3bTkwQWRvZTgxSUo2am1LbkZPdXA1WTRTLXZRSEE4bkNiRl9UdFpKSGdGbGNOTERLWFZkalNjR0dVUmJYcnRGYjM5SVJNTU1Qa3J4cVlB?oc=5",
-   "source": "KREM",
+   "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNdVpGaW53cVpPdHJEUThUMkJnUVExcnYwdFZiMldXM05UeXUtWENPWHZVZVFaenpOLUJnVnYtcUxDVFV6VzlrTk1CclZjVlNpUEc4aV9yelFXVHRRT2ktRjdlUkg2ZjlDZDBZc09qZjVLbjQ5NXA0R2VZaGpYZnpyQ1ZlVGlSWGhjTF82MzNITlZkdjdwblJVaXZUNG80RTl1VE5qNzNZWjNKd0lUWGwzdEs5aXI4R214U25aQmROVjNmaTczSnI1b1QzMUNKWDdjVG9QVjdaQVB1eHFCeXNpZW1zam4ydHJMd0o3WjlrZ05hdVIydUd5RmJEdzNySFpCVklTdnZKY1RlRHJIOEdtREowS3B1Q0lIOFBfdEhtRDluNnE2?oc=5",
+   "source": "13newsnow.com",
    "published": "2026-11-09T18:48:00Z",
    "snippet": "",
    "via": "google"
@@ -128,41 +167,16 @@
   },
   {
    "title": "PROJECTED LINEUP: Nugent-Hopkins good to go for Monday's matchup with Rangers",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNkZjWkhYSV9KTGt2SXNlWDVnaGdDTGxnRmtPU3VHcEtrcHpwSTdWYTJmMThNbmRtYmVlYnhmMnE5WFRYbDZpRll6OXdYLVl5QTNtdmx4MlFGSjBqaEg4OExhV2JvQUthRWsxamtwNWw0WnVSWmg1OHQ5dTRPRFZVQkRBOUYxS3NvUFphUWhwOTJvMXRUOHlVM0N0REZfMnUyOGlyTzh0ZnRQS0xuMElnbTYxTUJDbmFw?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-09T18:16:17Z",
-   "snippet": "",
-   "via": "google"
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-good-to-go-for-monday-s-matchup-with-rangers-11-09-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-09T18:12:20.005Z",
+   "snippet": "EDMONTON, AB – Just a bruise for Nuge. Forward Ryan Nugent-Hopkins (upper body) appears to have avoided major injury and will be good to go tonight, while Colton Dach (illness) will be a…"
   },
   {
    "title": "High-priced Edmonton Oiler hasn't thrown a hit all year, healthy scratched again",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdllOVV9ycnJSb3cxemtINDVSdWwwN2ZHLXMyWVV3ZkZnczdCZmcxZjZMNmFXcG1EbnI3SWs5eDhhYUpIZFB1OFRvdk5sdFRRbVBPUWpVN3dLTlFhLTJZSzFNRTlfcVEzb1RrTkk3c1lqV0dkS2tqMFFfMjVaRFMzSkZkbzAyd2NVOXdWcW1jYmREZXhxYzRQS2FKeERMSmpoNkdtUUYxVS1TZDdDOTlMbjFDRWdGTGhJWVE?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-09T17:55:32Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers Prospect Caden Harvey Goal (4) | 2026 Windsor Spitfires vs Kingston Frontenacs | Nov 8",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTTF2XzBwbVozNXNqLUlXQmlmeXJyX2cwSGxyUE1CdDVYdWZ5UWpud25rVWFJVTVybmVESEgwcjU4SFFvUTJydFJIaWg1c1pUVWd6TlUtNzZfbXZzQmVzMGVlQkNDbEpSbVRpMEtRYkFQdVBDQWJGWmVKVklPSUp5MGRUbUtNblpnZHJWWHBn?oc=5",
-   "source": "FloHockey",
-   "published": "2026-11-09T17:37:32Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Thoughts: Vasily Podkolzin’s response, Leon Draisaitl’s finishing, and more",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZmlFSUJqRlA2cVZNZFhTM0c2Tm92UmVQYUIzUFRwd3J6U3VjNVdTdWlBeFNkeTI5aXZMNHJCTXoyTFFSMTRvTHNiUTk1cmVTRmlqYXZBelBwQmRha1J4MGs1WnNlc2wyTVhpaVlsRGhBZWc4Wm5sX2VWS293bU5icjl4ejJBLXdEbjI3NXBFNUxkY1lqLWplTzVXc1pHaGNERWh5cnZpaEdBbFJSMFN4dm5n?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-09T17:21:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Why the Edmonton Oilers have to wait before moving for Jordan Binnington",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQ2xEcXIwaWFyRlpwdnZKUFNvNzJRcGZxTk1hdDM3LTUxVS1lRkxGMGEwNDRyX1BQNHNzVk1HVTZERjFDUDdoTWlyODloWDVTYnVUbDBrazZIV0tvQ0FEV2x1bEpzRUdEVTRCcWlRcVpCZWNSVU1wM3QtR2xUczBXcjJQN251TmlTa1BRWkVfZUFzb09mMjBVbnlKZGhvTEFWa3JZREZ5ZmJmeUNO?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-09T17:18:55Z",
    "snippet": "",
    "via": "google"
   },
@@ -189,8 +203,8 @@
   },
   {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-08T07:04:00Z",
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   },
@@ -263,20 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-07T18:52:10.923Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers will have netminder Devon Levi and forward Zach Hyman back in their lineup on Saturday night after both are activated from Injured Reserve ahead of a…"
-  },
-  {
-   "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
-   "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
-   "source": "NHL.com",
-   "published": "2026-11-07T05:00:00Z",
-   "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "RELEASE: Hockey Fights Cancer Mega 50/50 raffle returns",
-   "url": "https://www.nhl.com/oilers/news/release-hockey-fights-cancer-mega-50-50-raffle-returns",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-06T18:11:04.536Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) announced today the return of the Oilers “Hockey Fights Cancer” MEGA 50/50, running from the Oilers Hockey Fights Cancer game…"
   }
  ]
 }

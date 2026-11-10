@@ -3,7 +3,7 @@
   "id": 2026020283,
   "startTimeUTC": "2026-11-10T01:00:00Z",
   "gameDate": "2026-11-09",
-  "state": "PRE",
+  "state": "LIVE",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -13,7 +13,7 @@
   },
   "puckDropPT": "Mon Nov 9, 6 PM PT"
  },
- "status": "Projected",
+ "status": "Confirmed",
  "forwards": [
   [
    {
@@ -243,8 +243,15 @@
    "status": "IR"
   }
  ],
- "notes": [],
+ "notes": [
+  "Dressed players and starting goalie are official (NHL game sheet). Line combinations are DailyFaceoff's; the NHL doesn't publish lines."
+ ],
  "sources": [
+  {
+   "name": "NHL.com Gamecenter",
+   "url": "https://www.nhl.com/gamecenter/2026020283",
+   "what": "official dressed lineup"
+  },
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
@@ -292,7 +299,7 @@
   "abbrev": "NYR",
   "name": "Rangers",
   "place": "New York",
-  "status": "Projected",
+  "status": "Confirmed",
   "forwards": [
    [
     {
@@ -459,6 +466,11 @@
   "notes": [],
   "sources": [
    {
+    "name": "NHL.com Gamecenter",
+    "url": "https://www.nhl.com/gamecenter/2026020283",
+    "what": "official dressed lineup"
+   },
+   {
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/new-york-rangers/line-combinations",
     "what": "line combinations",
@@ -488,5 +500,5 @@
    "note": "Garand will start in Edmonton on Monday. "
   }
  },
- "updated": "2026-11-10T01:02:10Z"
+ "updated": "2026-11-10T01:07:59Z"
 }

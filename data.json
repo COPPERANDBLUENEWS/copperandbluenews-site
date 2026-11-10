@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T21:54:14+00:00",
+  "updated": "2026-11-10T01:07:47+00:00",
   "next": {
     "id": 2026020283,
     "gameType": 2,
@@ -8,20 +8,20 @@
     "timeMT": "7 PM MT",
     "timePT": "6 PM PT",
     "venue": "Rogers Place",
-    "state": "FUT",
+    "state": "LIVE",
     "scheduleState": "OK",
     "lastPeriod": null,
     "away": {
       "abbrev": "NYR",
       "name": "Rangers",
       "place": "New York",
-      "score": null
+      "score": 0
     },
     "home": {
       "abbrev": "EDM",
       "name": "Oilers",
       "place": "Edmonton",
-      "score": null
+      "score": 0
     }
   },
   "last": {
