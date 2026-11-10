@@ -1,18 +1,26 @@
 {
- "updated": "2026-11-10T12:30:10Z",
+ "updated": "2026-11-10T13:08:14Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (97)"
+  "Google News (94)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "Draisaitl scores twice as Oilers beat Rangers 3-1 for a season-series sweep",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLXhmTzhiOWxTdnJJcGdJVDczR0pzbXNuRnVaS2FJeGNqNURyRnVvLTNFNWg0UTR5UXJJUmR1dmNkTUpoMHZNUVZMRVNjdEppMEVSVmJGTzFiZ2Rxem9KTzZiUWRnMmRWNmJqOTY1cDlNTlVyalNPZjRGTG5PY1VnRWw0UTVxbTJYellqVFN1RlRBMElaUW15M1A2Vl9tUWtob2N4RXJXeVhFMUVDUzRDLWhQNkgwT0k?oc=5",
+   "source": "CTV News",
+   "published": "2026-11-10T12:37:58Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "New York Rangers - Edmonton Oilers - Nov 9, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZ041N1VzUXNzNFJRSk9CNnEyXzhvejZ2ZEFSa0FjTEhDbmdwY0pxWm9BNGVKNzQydVVFQ3pzN0ZUTlN3ZTVYOHJqZG83NU9lZTBBQms2MmRYaDFBcldUZ3dfQ3pZYmZQSUJFTjBjMTI?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-10T10:20:40Z",
+   "published": "2026-11-10T11:00:24Z",
    "snippet": "",
    "via": "google"
   },
@@ -21,14 +29,6 @@
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMmFoaTB0cUFKUzBUNFpkaXdkWmx1QVUzeC0wRkJrdFQ2X01wY0JGRXZ4aTl1emJWaHN4VlpJX3MtQnpRd2tYZ0VXNTdKNlprSXdHUXFPUkR6dUQwYlNaajJQd2JGaHFCSUl5b3RkZk1xUDdCZ09PUUEwUGtBdjRneFpQb3p3SFhmaDlNVVU1QnVLb1htbE8wZA?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-10T10:04:49Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Draisaitl scores twice as Oilers beat Rangers 3-1 for a season-series sweep",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUlZaQTZwV05fZDZyR2dmSXpLVFZZdkozdzlkaVpwY2xhSFhJMnRtZUNTSUlVS1NYTEYwUlJBdzNQQ2dTMnpxWHA4bkt3TTRRYzl5QTRfZ1pXREVjdGk2ZHhIY2hkZ0t3amNmSlR5NWpHNjBnVjVXM2pIaThaUkZ2R1RxMWFiYVRJVk90UGVKdXVQY2tIWHdNMUUtM2dIUThyWkE?oc=5",
-   "source": "NanaimoNewsNOW",
-   "published": "2026-11-10T07:27:34Z",
    "snippet": "",
    "via": "google"
   },
@@ -69,6 +69,14 @@
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSndCeExVenJBVGxZaDNPRTFoQTFkS3pLajB2N0QxRXpjVTRldkloTVpfZDg1Z1dDSVNwYmE5TkNTRnRwM3pPeTlERGltTDktejVOSEpCc2d1MjdkUTVDcl94SDU2RER0Sm5MWmc3WUpHcmFDT3R0OVE5RDBsN0NVU3JmUjU?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-10T05:21:43Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "‘We have so much trust in him’: Levi boosts Oilers’ confidence in their crease",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY0l5MXdieFdwZG9MWktZLXBCYnlVRnBZSjhEU1FMdEtVUk0tN1RWenl3Y2VhaTkyTFE0cEtDTWQxX3NNVjFtQXJaRjRSVUxEdG9KM21jemJwanE1YjBXa2JPQ1N6TzJXNFJSWl81ZGc2Y2NxSHRoRFdHTjAxcndUaVBFa19MdTBSdERPWU1Uc3JfbGc?oc=5",
+   "source": "TSN",
+   "published": "2026-11-10T05:09:42Z",
    "snippet": "",
    "via": "google"
   },
@@ -148,14 +156,6 @@
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWWl4a19YajVWWVJTb2kwXzJ2VVpJX2hsdGVXNW5vUzV5cHlTTFdsdUZDOTd1dGlFVWRMRlZlSEotY2o5U1JidWt1Q1M4RXJfdHNBT2JCOF9DaDc2Yk9rUVNvdS1qX1dsRHd4aGVyUUJZWnRWelFHN3VWc29RWlFSWlpDZVE2cC1paF9OQWZqVjlxd0t6MVdCaFcyc1N0WXNJa19SaUdwX0NtdTh1cnVz?oc=5",
    "source": "NHL.com",
    "published": "2026-11-10T02:32:37Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "LIVE UPDATES: Oilers vs. Rangers Live Free",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ITGt3WE5TSnpZMG1aODFlejhNVkhHeUpFcFhNZ3JnalZPVm10dEZ0ekFOYURSMjgtcEhEdjdWYWwycjFKREZWQUQwQmlEZ0k1ZmhXV001SWh2SDVJcU5RZUtoR0lYckZtNF96Ukx0V3Q0X0drY2Vj?oc=5",
-   "source": "Powell River Peak",
-   "published": "2026-11-10T02:04:46Z",
    "snippet": "",
    "via": "google"
   },
