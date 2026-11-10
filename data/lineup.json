@@ -1,19 +1,19 @@
 {
  "game": {
-  "id": 2026020283,
-  "startTimeUTC": "2026-11-10T01:00:00Z",
-  "gameDate": "2026-11-09",
-  "state": "OFF",
+  "id": 2026020295,
+  "startTimeUTC": "2026-11-12T02:00:00Z",
+  "gameDate": "2026-11-11",
+  "state": "FUT",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
-   "abbrev": "NYR",
-   "name": "Rangers",
-   "place": "New York"
+   "abbrev": "PHI",
+   "name": "Flyers",
+   "place": "Philadelphia"
   },
-  "puckDropPT": "Mon Nov 9, 6 PM PT"
+  "puckDropPT": "Wed Nov 11, 7 PM PT"
  },
- "status": "Confirmed",
+ "status": "Projected",
  "forwards": [
   [
    {
@@ -243,15 +243,8 @@
    "status": "IR"
   }
  ],
- "notes": [
-  "Dressed players and starting goalie are official (NHL game sheet). Line combinations are DailyFaceoff's; the NHL doesn't publish lines."
- ],
+ "notes": [],
  "sources": [
-  {
-   "name": "NHL.com Gamecenter",
-   "url": "https://www.nhl.com/gamecenter/2026020283",
-   "what": "official dressed lineup"
-  },
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
@@ -261,7 +254,7 @@
   },
   {
    "name": "DailyFaceoff",
-   "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-09",
+   "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-11",
    "what": "starting goalie"
   }
  ],
@@ -272,7 +265,7 @@
    "num": 27,
    "pos": "G"
   },
-  "status": "Confirmed",
+  "status": "Unconfirmed",
   "backup": {
    "id": 8477465,
    "name": "Tristan Jarry",
@@ -296,88 +289,88 @@
   }
  ],
  "opponent": {
-  "abbrev": "NYR",
-  "name": "Rangers",
-  "place": "New York",
-  "status": "Confirmed",
+  "abbrev": "PHI",
+  "name": "Flyers",
+  "place": "Philadelphia",
+  "status": "Projected",
   "forwards": [
    [
     {
-     "id": 8484210,
-     "name": "Gabe Perreault",
+     "id": 8478047,
+     "name": "Michael Bunting",
+     "num": 58,
+     "pos": "LW"
+    },
+    {
+     "id": 8477989,
+     "name": "Christian Dvorak",
+     "num": 22,
+     "pos": "C"
+    },
+    {
+     "id": 8480015,
+     "name": "Owen Tippett",
+     "num": 74,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
+     "id": 8482159,
+     "name": "Tyson Foerster",
+     "num": 71,
+     "pos": "LW"
+    },
+    {
+     "id": 8481533,
+     "name": "Trevor Zegras",
+     "num": 46,
+     "pos": "C"
+    },
+    {
+     "id": 8478439,
+     "name": "Travis Konecny",
+     "num": 11,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
+     "id": 8485406,
+     "name": "Porter Martone",
      "num": 94,
      "pos": "LW"
     },
     {
-     "id": 8476459,
-     "name": "Mika Zibanejad",
-     "num": 93,
+     "id": 8480220,
+     "name": "Noah Cates",
+     "num": 27,
      "pos": "C"
     },
     {
-     "id": 8482109,
-     "name": "Alexis Lafrenière",
-     "num": 13,
+     "id": 8484387,
+     "name": "Matvei Michkov",
+     "num": 39,
      "pos": "RW"
     }
    ],
    [
     {
-     "id": 8481789,
-     "name": "Tye Kartye",
-     "num": 24,
+     "id": 8484142,
+     "name": "Denver Barkey",
+     "num": 86,
      "pos": "LW"
     },
     {
-     "id": 8476468,
-     "name": "J.T. Miller",
-     "num": 10,
+     "id": 8476461,
+     "name": "Sean Couturier",
+     "num": 14,
      "pos": "C"
     },
     {
-     "id": 8481604,
-     "name": "Pavel Dorofeyev",
-     "num": 16,
-     "pos": "RW"
-    }
-   ],
-   [
-    {
-     "id": 8482157,
-     "name": "Will Cuylle",
-     "num": 50,
-     "pos": "LW"
-    },
-    {
-     "id": 8483690,
-     "name": "Noah Laba",
-     "num": 42,
-     "pos": "C"
-    },
-    {
-     "id": 8477416,
-     "name": "Oliver Bjorkstrand",
-     "num": 28,
-     "pos": "RW"
-    }
-   ],
-   [
-    {
-     "id": 8480009,
-     "name": "Eeli Tolvanen",
-     "num": 17,
-     "pos": "LW"
-    },
-    {
-     "id": 8476822,
-     "name": "Luke Glendening",
-     "num": 43,
-     "pos": "C"
-    },
-    {
-     "id": 8482877,
-     "name": "Jaroslav Chmelar",
-     "num": 49,
+     "id": 8478569,
+     "name": "Noel Acciari",
+     "num": 52,
      "pos": "RW"
     }
    ]
@@ -385,120 +378,94 @@
   "defence": [
    [
     {
-     "id": 8478882,
-     "name": "Vladislav Gavrikov",
+     "id": 8477948,
+     "name": "Travis Sanheim",
+     "num": 6,
+     "pos": "LD"
+    },
+    {
+     "id": 8482142,
+     "name": "Jamie Drysdale",
+     "num": 9,
+     "pos": "RD"
+    }
+   ],
+   [
+    {
+     "id": 8481546,
+     "name": "Cam York",
+     "num": 8,
+     "pos": "LD"
+    },
+    {
+     "id": 8484148,
+     "name": "Oliver Bonk",
+     "num": 59,
+     "pos": "RD"
+    }
+   ],
+   [
+    {
+     "id": 8476372,
+     "name": "Nick Seeler",
+     "num": 24,
+     "pos": "LD"
+    },
+    {
+     "id": 8481122,
+     "name": "Simon Benoit",
      "num": 44,
-     "pos": "LD"
-    },
-    {
-     "id": 8479323,
-     "name": "Adam Fox",
-     "num": 23,
-     "pos": "RD"
-    }
-   ],
-   [
-    {
-     "id": 8477969,
-     "name": "Marcus Pettersson",
-     "num": 26,
-     "pos": "LD"
-    },
-    {
-     "id": 8482073,
-     "name": "Braden Schneider",
-     "num": 4,
-     "pos": "RD"
-    }
-   ],
-   [
-    {
-     "id": 8481525,
-     "name": "Matthew Robertson",
-     "num": 29,
-     "pos": "LD"
-    },
-    {
-     "id": 8482666,
-     "name": "Scott Morrow",
-     "num": 60,
      "pos": "RD"
     }
    ]
   ],
   "injured": [
    {
-    "id": 8478048,
-    "name": "Igor Shesterkin",
-    "num": 31,
-    "pos": "G",
+    "id": 8483733,
+    "name": "Nikita Grebenkin",
+    "num": 17,
+    "pos": "RW",
     "status": "IR"
    },
    {
-    "id": 8480813,
-    "name": "Joseph Veleno",
-    "num": 90,
-    "pos": "C",
-    "status": "IR"
-   },
-   {
-    "id": 8483669,
-    "name": "Adam Sykora",
-    "num": 38,
-    "pos": "LW",
-    "status": "IR"
-   },
-   {
-    "id": 8480434,
-    "name": "Sean Durzi",
-    "num": 5,
+    "id": 8477499,
+    "name": "Rasmus Ristolainen",
+    "num": 55,
     "pos": "D",
     "status": "IR"
-   },
-   {
-    "id": 8485957,
-    "name": "Alberts Smits",
-    "num": 12,
-    "pos": "D",
-    "status": "Out"
    }
   ],
   "notes": [],
   "sources": [
    {
-    "name": "NHL.com Gamecenter",
-    "url": "https://www.nhl.com/gamecenter/2026020283",
-    "what": "official dressed lineup"
-   },
-   {
     "name": "DailyFaceoff",
-    "url": "https://www.dailyfaceoff.com/teams/new-york-rangers/line-combinations",
+    "url": "https://www.dailyfaceoff.com/teams/philadelphia-flyers/line-combinations",
     "what": "line combinations",
-    "basis": "Vince Mercogliano",
-    "updatedAt": "2026-11-10T00:36:29.093Z"
+    "basis": "Jackie Spiegel",
+    "updatedAt": "2026-11-10T02:14:46.975Z"
    },
    {
     "name": "DailyFaceoff",
-    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-09",
+    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-11",
     "what": "starting goalie"
    }
   ],
   "goalie": {
    "starter": {
-    "id": 8482193,
-    "name": "Dylan Garand",
-    "num": 33,
+    "id": 8479361,
+    "name": "Joseph Woll",
+    "num": 53,
     "pos": "G"
    },
-   "status": "Confirmed",
+   "status": "Unconfirmed",
    "backup": {
-    "id": 8476914,
-    "name": "Joonas Korpisalo",
-    "num": 70,
+    "id": 8478435,
+    "name": "Dan Vladar",
+    "num": 80,
     "pos": "G"
    },
    "note": null
   }
  },
- "updated": "2026-11-10T04:29:45Z"
+ "updated": "2026-11-10T07:14:35Z"
 }

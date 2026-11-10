@@ -1,18 +1,26 @@
 {
- "updated": "2026-11-10T06:33:01Z",
+ "updated": "2026-11-10T07:14:34Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (99)"
+  "Google News (100)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "QUICK RECAP: Oilers 3, Rangers 1 | Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4TjlvcGtpLWJEQzZXcWk0QmhfZU04VWl3Y1c2QlpMMVplMDMwU2p6YmtYVW5RTkdXT0tBSVd3YUFudWhENk42Vy1vbFVjUmVLVXhRQjVxZHFlWGxub3pVUngtUkJvdWszSV93cTEyNjRLXzNseUQ3M0RHWQ?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-10T06:48:45Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "NHL roundup: Draisaitl scores twice as Oilers beat Rangers 3-1",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUlZaQTZwV05fZDZyR2dmSXpLVFZZdkozdzlkaVpwY2xhSFhJMnRtZUNTSUlVS1NYTEYwUlJBdzNQQ2dTMnpxWHA4bkt3TTRRYzl5QTRfZ1pXREVjdGk2ZHhIY2hkZ0t3amNmSlR5NWpHNjBnVjVXM2pIaThaUkZ2R1RxMWFiYVRJVk90UGVKdXVQY2tIWHdNMUUtM2dIUThyWkE?oc=5",
-   "source": "NanaimoNewsNOW",
-   "published": "2026-11-10T06:29:06Z",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNVdxRE1ieVIwMzFCWU1NWWxhd1ZXMmk3dGtMZm5uN0JxOXhrX3pFeUJMOGtjWVpmZjZDOFl6QkFuOUxfWmRqdnVLbXFGYlNrQ25mVE4zcTJyUDVVMUpndGZILUI3UkdSU20wMW1aRTlQdGtoTDB4MHZVbFI5Q3FBNG41WmlDNjl3Wmc?oc=5",
+   "source": "Yahoo",
+   "published": "2026-11-10T06:33:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -36,7 +44,7 @@
    "title": "Once again, Devon Levi outshines everyone in an Edmonton Oilers victory",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSndCeExVenJBVGxZaDNPRTFoQTFkS3pLajB2N0QxRXpjVTRldkloTVpfZDg1Z1dDSVNwYmE5TkNTRnRwM3pPeTlERGltTDktejVOSEpCc2d1MjdkUTVDcl94SDU2RER0Sm5MWmc3WUpHcmFDT3R0OVE5RDBsN0NVU3JmUjU?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-10T05:15:00Z",
+   "published": "2026-11-10T05:21:43Z",
    "snippet": "",
    "via": "google"
   },
@@ -89,12 +97,11 @@
    "via": "google"
   },
   {
-   "title": "QUICK RECAP: Oilers 3, Rangers 1 | Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4TjlvcGtpLWJEQzZXcWk0QmhfZU04VWl3Y1c2QlpMMVplMDMwU2p6YmtYVW5RTkdXT0tBSVd3YUFudWhENk42Vy1vbFVjUmVLVXhRQjVxZHFlWGxub3pVUngtUkJvdWszSV93cTEyNjRLXzNseUQ3M0RHWQ?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-10T04:18:45Z",
-   "snippet": "",
-   "via": "google"
+   "title": "NHL Highlights: Oilers 3, Rangers 1",
+   "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-oilers-3-rangers-1-2/",
+   "source": "Sportsnet",
+   "published": "2026-11-10T04:14:04Z",
+   "snippet": "Connor McDavid opened the scoring before Leon Draisaitl added two goals to take the league lead with 18 on the season and put the Edmonton Oilers over the New York Rangers."
   },
   {
    "title": "McDavid’s historic assist streak ends in Oilers’ win over Rangers",
@@ -136,6 +143,14 @@
    "via": "google"
   },
   {
+   "title": "HIGHLIGHTS | Draisaitl Goal",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc2ZFbjVMTFZ0SEFGc3FZaTI4TXpkR011N0Z0YkNoRGZPNUpiWHVzV1FwRk1jSlFTQVhjeGJKV1N4MTdvbG4xbnk1UGJIZlNQYWlZTDFLUnJJUm95ZThyUUlMOE10ZG85NEI1TUdFbnJqdHRDSjhYMThfM3AtM2tqckJSVVhvbWVfUG1jajJkSzhodzdxcElGUw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-10T02:48:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "[[FREE]] Oilers vs Rangers Live Updates and Play-by-Play in NHL (2-0)",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNm1Kbm5makh2NVlsaWlhZmlQcVFnd1JQSEI3N25zUXRzV2FsUXZNRlpFM3V4amxXdl9WZWNicFpuZkJZU1F5cW53SUlJQWFPQ016RlRSdjROZlFGN2RlUGhJNE92dnJwODIzRy1KN3RkOXI4NVQ2U2hxc29YcWtXV2RRclprRldCOFY0UzdzWk9ablU0?oc=5",
    "source": "Northwest Ontario News",
@@ -144,25 +159,10 @@
    "via": "google"
   },
   {
-   "title": "Oilers’ Draisaitl nets league-leading 17th goal of the season",
-   "url": "https://www.sportsnet.ca/nhl/video/oilers-draisaitl-nets-league-leading-17th-goal-of-the-season/",
-   "source": "Sportsnet",
-   "published": "2026-11-10T02:20:43Z",
-   "snippet": "Watch as Edmonton Oilers star Leon Draisaitl fires in his league-leading 17th goal of the season against the New York Rangers."
-  },
-  {
    "title": "Oilers v Rangers Live Free Play-by-Play in NHL",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUm91N0xlZG5MbnlHS1VydjJ2R3l4UVlrYnJHYVNGT2dONjdycV85dGlfcUlXR2oxbDcxaVEtNEJiRE0xZjNzbl9WdzlrUFU0cWhPN0hnd0Q0c0dISG8zS01xeThVZTV6RGhrWTFlcFdDMmc3VU51azhIM055OGZKdg?oc=5",
    "source": "NewmarketToday.ca",
    "published": "2026-11-10T02:20:31Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "LIVE UPDATES: Oilers vs. Rangers Live Free",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWEh3WGtTYVdVOHp3dk5yRjFldHlQblFsS2haMzB1aDhhd2lEc0ZSeVZhQUFfYlNqTE1HcHQzV2phTGx6RlRtaTNOWjRfUXFEbWNmcTdEcUhLNWVDWXRLRVVTU2hTWWZHeUN2dzlPcEdwLUVzWlVxaEx5bmlkY3lMR1FJZTBEWTZKcUktNE93TDJETmhU?oc=5",
-   "source": "Oakville News",
-   "published": "2026-11-10T02:11:46Z",
    "snippet": "",
    "via": "google"
   },
