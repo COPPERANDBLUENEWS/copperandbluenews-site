@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T07:14:34Z",
+ "updated": "2026-11-10T07:50:50Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,22 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "McDavid pushes season-opening point streak to 19 in Oilers win against Rangers",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORG9CQXA1Ukc5OWRZeEpnRkVkVFZldEtodDNxLUJiSTJhRklkSVFXU2Fralh6M3QtVkdFV0hxc1A1MDFmamJ3ZGNIME1hWXIyRHlCc3czR1VCcWtGYVhBaG1udVZVb2oxczV0TlkxM0tEMEVrNm5qZHBldkgxVWRKbEI3VzlQWXdUZl81aw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-10T07:18:45Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL roundup: Oilers win, but Connor McDavid's assist streak ends",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM25Zb09iQklGZ3V4bVU4SGFYeFpNdjJKcElIZUU1LVByTnNBUHdsMnZHOEo1VUxHRTRpUl94X2VjNFJnb0RuMGdMQ1dnWDNMdkU5Nk02M1VWakxGNWQ1VjJnT2RnbTljdjhtcHdUMFVIbl9YZzgxSGhJUGZXY0luUU1ESElhekJnRFhLY281ekN0X3BISnVJT2hlVThHWnhwbG5tU0FDNzk?oc=5",
+   "source": "Reuters",
+   "published": "2026-11-10T07:12:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "QUICK RECAP: Oilers 3, Rangers 1 | Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4TjlvcGtpLWJEQzZXcWk0QmhfZU04VWl3Y1c2QlpMMVplMDMwU2p6YmtYVW5RTkdXT0tBSVd3YUFudWhENk42Vy1vbFVjUmVLVXhRQjVxZHFlWGxub3pVUngtUkJvdWszSV93cTEyNjRLXzNseUQ3M0RHWQ?oc=5",
@@ -21,14 +37,6 @@
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNVdxRE1ieVIwMzFCWU1NWWxhd1ZXMmk3dGtMZm5uN0JxOXhrX3pFeUJMOGtjWVpmZjZDOFl6QkFuOUxfWmRqdnVLbXFGYlNrQ25mVE4zcTJyUDVVMUpndGZILUI3UkdSU20wMW1aRTlQdGtoTDB4MHZVbFI5Q3FBNG41WmlDNjl3Wmc?oc=5",
    "source": "Yahoo",
    "published": "2026-11-10T06:33:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "McDavid pushes season-opening point streak to 19 in Oilers win against Rangers",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUkNUT01ZaUJTekdlZERodk1YTWlTc1FZWjlSLVZRMHh5eHhSbmd4dHF3LW5TbW90eWd4NWZjSm5sTkJ3cm5FalRqdnlzZUpXaHdld3g5ZzdaZW5LaG02dVRFZjNBQ2p6TmI1NkpQWV94MFZzOFNTUUVMYjNDUUpTMVljbTdMLVVsMGxzczc2Q3pCMEdpaS1hZzRuTXdqQQ?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-10T06:02:45Z",
    "snippet": "",
    "via": "google"
   },
@@ -73,6 +81,14 @@
    "via": "google"
   },
   {
+   "title": "McDavid's historic assist streak ends in Oilers' win over Rangers",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSFMyaE5QMmppZkdtMkZYVXBZb2VMaEJSbjUyemNYbHJORWJYaTcwSlRVUjFkSTY4Z1d5NjgyUHBoMUVhaGZxU3JHV2pfZGEzWUF0VDA5Nms4MlQ5bHdjZGRtOEVTMGI5TDhMMVBMMkZKVEk5eEI2TDBLUEQ1aE9OZHRXVDJCRnQ0aVJDblBtaVpMYk5wdDNtaDlKTzNPMDdsNmIw?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-10T04:28:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Connor McDavid’s assist streak ends, but Oilers defeat Rangers",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSW44Z1d5MENkeHVCY0dRRzBJaWoxR1lxUjJrUmxwRzVwTHp5WHBqUjRyQjRIeDZTWkFEd0g2THZCUjhRUlpfcXAxX255bFNVNGoxRVo5OUxQS2RuR3M2RThpUDl0Ym51VUpfUUdYcGl2QWpnVVhUZnhJaEIyaTRhVkM5UlpFTFdqOU1aUUgwRTBwOFFxTXJfLUNFTGZycGhiTnVkUkswTQ?oc=5",
    "source": "KNBR",
@@ -104,13 +120,6 @@
    "snippet": "Connor McDavid opened the scoring before Leon Draisaitl added two goals to take the league lead with 18 on the season and put the Edmonton Oilers over the New York Rangers."
   },
   {
-   "title": "McDavid’s historic assist streak ends in Oilers’ win over Rangers",
-   "url": "https://www.sportsnet.ca/nhl/article/mcdavids-historic-assist-streak-ends-in-oilers-win-over-rangers/",
-   "source": "Sportsnet",
-   "published": "2026-11-10T04:08:10Z",
-   "snippet": ""
-  },
-  {
    "title": "Draisaitl scores twice as Oilers stop rolling Rangers with 3-1 victory",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS1RpbnNvSmwxWVlLQUVJMlowaEIzemNoUlpNeG91OTdOQnFGd0w4MVZJYWVOUEt5bkQ2c1JiUE5tTGg2OGdBR3NRZ0dNN0pyZHRVaS1GWGdKWDVoTE9rWTdFSG5hblREQ3JfQ3ZNZDd2RG9RclZRRGI2ZHZnRUN1UXcyYVRnSnFXc1hhanFnaTZ2YmxSa1lwamw2TXRQOXJ4d1NIanpBUjVYWkVjY290aWdESzA?oc=5",
    "source": "Castanet",
@@ -127,7 +136,7 @@
    "via": "google"
   },
   {
-   "title": "NYR@EDM: Draisaitl scores empty-net goal",
+   "title": "HIGHLIGHTS | Draisaitl Goal (2)",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOazFWQUg4V21wREcySHFNeDVPVW5QbjE2dExHMkxQVU9iNl85b3BpOG9ZT19SdWlnak15N29LVUpsNkRUNThmZThuaHZiTHpGZGFJMzd6bWVMN2NRQ2UySGxYRVBuWU1LZ244RjZKRlFYM0JKc0dvdmZDeHY1WUlaR28yR0c4MDZYVzAtNmJyWQ?oc=5",
    "source": "NHL.com",
    "published": "2026-11-10T03:55:05Z",
@@ -143,26 +152,10 @@
    "via": "google"
   },
   {
-   "title": "HIGHLIGHTS | Draisaitl Goal",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc2ZFbjVMTFZ0SEFGc3FZaTI4TXpkR011N0Z0YkNoRGZPNUpiWHVzV1FwRk1jSlFTQVhjeGJKV1N4MTdvbG4xbnk1UGJIZlNQYWlZTDFLUnJJUm95ZThyUUlMOE10ZG85NEI1TUdFbnJqdHRDSjhYMThfM3AtM2tqckJSVVhvbWVfUG1jajJkSzhodzdxcElGUw?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-10T02:48:15Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "[[FREE]] Oilers vs Rangers Live Updates and Play-by-Play in NHL (2-0)",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNm1Kbm5makh2NVlsaWlhZmlQcVFnd1JQSEI3N25zUXRzV2FsUXZNRlpFM3V4amxXdl9WZWNicFpuZkJZU1F5cW53SUlJQWFPQ016RlRSdjROZlFGN2RlUGhJNE92dnJwODIzRy1KN3RkOXI4NVQ2U2hxc29YcWtXV2RRclprRldCOFY0UzdzWk9ablU0?oc=5",
    "source": "Northwest Ontario News",
    "published": "2026-11-10T02:24:52Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers v Rangers Live Free Play-by-Play in NHL",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUm91N0xlZG5MbnlHS1VydjJ2R3l4UVlrYnJHYVNGT2dONjdycV85dGlfcUlXR2oxbDcxaVEtNEJiRE0xZjNzbl9WdzlrUFU0cWhPN0hnd0Q0c0dISG8zS01xeThVZTV6RGhrWTFlcFdDMmc3VU51azhIM055OGZKdg?oc=5",
-   "source": "NewmarketToday.ca",
-   "published": "2026-11-10T02:20:31Z",
    "snippet": "",
    "via": "google"
   },
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-08T02:41:58Z",
    "snippet": "Playing in their first post-season game since 2019, the Elks won 28-16 over the B.C. Lions in the West Division final on Saturday at Commonwealth Stadium"
+  },
+  {
+   "title": "RELEASE: Oilers activate Levi & Hyman off IR; Tomkins loaned to Condors",
+   "url": "https://www.nhl.com/oilers/news/release-oilers-activate-devon-levi-zach-hyman-off-ir",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-07T22:56:48.658Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers have activated goalie Devon Levi and forward Zach Hyman off Injured Reserve, the team announced on Saturday. Goalie Matt Tomkins has also been loaned to…"
   }
  ]
 }
