@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-10T18:21:33Z",
+ "updated": "2026-11-10T18:58:53Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (93)"
+  "Google News (95)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers Coach Mike Babcock Appears to Have Found His New Whipping Boy",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPckxnX3ZER3hJZ1hBSG9vSDhxdEZQMUFTanMwajZ6Rnd3RmxmRnpJaExfQWF2aVVNNWZJWjJmTFYxY3piYS1KLUc3OTNrOGhZcUNmSlRHUlBLWEZ5VFlLeEYzcmZMOHZuV0t1WVNGVjBjN3o5bkFMdzFQRWNUYUc1THlLVmlYa2RJNlZ3dA?oc=5",
+   "source": "Heavy.com",
+   "published": "2026-11-10T18:35:35Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers fans crowned most foul-mouthed supporters in the world",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92b3ZnSjN1UGFoR1ZqQWJXSldPazMyZnB4OGNUdnRNWHNhR0tYQ19GOWx3ek1TSTJPRTFiX3Exb2h5Zk5NMEdPb3NCVUswbjZ1d2VWT1JPNk9Gc2F2NkQzTnhMYmRlZGlyVm4tbw?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-10T18:20:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Edmonton Oilers slow to put the New York Rangers away",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORDRGNFRLNEVZbTEyd0hTTWJfanFJY3NMbXBHRlNmc1p0Zm1sOUdaeVlKNy1yTTZ5dG1QQ1Q4bl8zd1hFem1oS0JKTmxlQTgwQjI4R19YcUZIVWdMdVB6d3RtNlBjcTdxZ0JXLTlfVUFnQVQzckw3TW1RQWFYZXN4TzBsUnoybmVrNExybTZTSHFxaDQ?oc=5",
@@ -133,22 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdml5bUZiSWlBbWJWVUF3ODFRMWNHVlEyWXJaWjhxRE1IbWVVMFhJZHNScGxCRkNjMV9iT2RmS1dSWHhEblcwSDB4TEJUcUlFYmltNEJEdGpza1Z2cVNSbnRZeTczUFNPLUR0cmhnc3FqdC11NkdFZGRtZjBGN3lfd0RrV0JDb0lSVzlHRHpabUdlck8wNEZ6WW9oZXlqbnhPeVcta21hbHFEVGF5Q3djeW15Rzk2Z1RSUlE4WFNwTjVKWTF5aGlldUxmM3d3MEFYNEVCRW1qSVlXZw?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-10T14:38:26Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Ex-Canucks, Oilers F Kane signs in KHL after 16 NHL seasons",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOFJDdDlhbG1YR0dqTzRaVUtTWEktVFdpelpmZWZpcVVmc2lMV1h1VHlVMWZEMHJobUtzbEVLNTVnNkdCX25ydENvV2NoNGNPSEVIV3J4eEpNNXlfYXVrb29wUFgwRHZmMG5QaU91bHVIOURwcUtMV3U5VE11MWFwa0pGNlNvaUhEdmNEU2VKZGN4SHVj?oc=5",
-   "source": "TSN",
-   "published": "2026-11-10T14:16:14Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "3 Takeaways From Oilers’ 3-1 Victory Over the Rangers",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZzZOMW9zUGIzT0lzMFhoVExvV3B1Y2ktZ3NXd3FnN3k4cXV2SGZvRW5MY0tPemlwYXdrRmd1MkRJdU9WWmdCbVBfUHprbkZtS3lDcmtxOFRzXzhTRUpUSXNNRmtOQlhvUHN1eUN4eWpWYk5vVVdtOWYzZ1FwbGZWc2pGclE?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-10T14:15:00Z",
    "snippet": "",
    "via": "google"
   },
