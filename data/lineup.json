@@ -3,7 +3,7 @@
   "id": 2026020283,
   "startTimeUTC": "2026-11-10T01:00:00Z",
   "gameDate": "2026-11-09",
-  "state": "LIVE",
+  "state": "FINAL",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -500,5 +500,5 @@
    "note": "Garand will start in Edmonton on Monday. "
   }
  },
- "updated": "2026-11-10T01:07:59Z"
+ "updated": "2026-11-10T03:53:14Z"
 }
