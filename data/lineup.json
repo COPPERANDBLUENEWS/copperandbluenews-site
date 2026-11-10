@@ -3,7 +3,7 @@
   "id": 2026020283,
   "startTimeUTC": "2026-11-10T01:00:00Z",
   "gameDate": "2026-11-09",
-  "state": "FUT",
+  "state": "PRE",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -328,6 +328,26 @@
      "pos": "C"
     },
     {
+     "id": 8481604,
+     "name": "Pavel Dorofeyev",
+     "num": 16,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
+     "id": 8482157,
+     "name": "Will Cuylle",
+     "num": 50,
+     "pos": "LW"
+    },
+    {
+     "id": 8483690,
+     "name": "Noah Laba",
+     "num": 42,
+     "pos": "C"
+    },
+    {
      "id": 8477416,
      "name": "Oliver Bjorkstrand",
      "num": 28,
@@ -342,35 +362,15 @@
      "pos": "LW"
     },
     {
-     "id": 8482157,
-     "name": "Will Cuylle",
-     "num": 50,
+     "id": 8476822,
+     "name": "Luke Glendening",
+     "num": 43,
      "pos": "C"
     },
-    {
-     "id": 8481604,
-     "name": "Pavel Dorofeyev",
-     "num": 16,
-     "pos": "RW"
-    }
-   ],
-   [
     {
      "id": 8482877,
      "name": "Jaroslav Chmelar",
      "num": 49,
-     "pos": "LW"
-    },
-    {
-     "id": 8483690,
-     "name": "Noah Laba",
-     "num": 42,
-     "pos": "C"
-    },
-    {
-     "id": 8476822,
-     "name": "Luke Glendening",
-     "num": 43,
      "pos": "RW"
     }
    ]
@@ -463,7 +463,7 @@
     "url": "https://www.dailyfaceoff.com/teams/new-york-rangers/line-combinations",
     "what": "line combinations",
     "basis": "Vince Mercogliano",
-    "updatedAt": "2026-11-09T18:36:47.442Z"
+    "updatedAt": "2026-11-10T00:36:29.093Z"
    },
    {
     "name": "DailyFaceoff",
@@ -488,5 +488,5 @@
    "note": "Garand will start in Edmonton on Monday. "
   }
  },
- "updated": "2026-11-09T18:59:41Z"
+ "updated": "2026-11-10T01:02:10Z"
 }
