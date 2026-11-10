@@ -1,13 +1,45 @@
 {
- "updated": "2026-11-10T20:25:49Z",
+ "updated": "2026-11-10T21:21:22Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (93)"
+  "Google News (94)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "NHL Norris Trophy Rankings: Wild's Hughes Closing Gap On Oilers' Bouchard",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVHIwYUd0VC13VWdHTXhkaXpRZGhzaGpBNS1ObTFlZ0hnWnB4WU93OWtUZDJleU9kdTR3WmhVOTcwV2Vra2pzQ3lBNU1aTXdaVTAyUy1CVE1Pa29oVmpicGFNSFZBWWNHR2djVE5nZ3Y4MWxEWXY5Q3E5aHpTZlhleUZDNF9Pb1BOM0lGbmJieHJDeTlLay1kdHN1SFhNWkE0ZjhjaU11elZ0MXozLUoyTzkxOA?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-10T21:03:04Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers injury update: Savoie, Andersen, Janmark not close to returning",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDBwZGU5TWpGRzJiRmV0TWtPVWVwMHRQdWNmZU96UlpzcXNkX1dYeFFYZVYzR2xPWV83OVhlU0g2VTVuQTNVM3BDUmF0cXBULWJ4c3JIRjlMZkYxX0ptRkdEcU9PbkRCdXR2ZUFOTUc3a3FvMldENFBfVlJOemRMSmZycDFlZWxDejNKLVJzeEQwYkNoMDV5eUFqR1JZY1hUcE52X2FhaWVkQXFyeFo2dU1KN21HTkViTDRObUY0OA?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-10T21:02:57Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Accountabilty Babcock-style; Edmonton coach demotes or scratches all struggling Oilers forwards",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZlludEhPUUdHUHcwZElZNG9uTlplT3pfOEhEUWozMUk2ZXpXQkVhcEZXSTdSOGU3R0ZKSVZPdFBVZnNDVmhvMl9YX3E4bUN1b0xKVm5ZMlJ5WHN6clRsV1FqU1hEZG9BNzU4VTBkUFIyRGdjWFltcWFCY3RWQ0lXUkVqdmpvcDliYlRJU2lOTmU3ako1WFFwd09MNG5kOEx5TzJYR3BQQlI3bDBkRlNwS1lYY2d4ZEVwSnhPRXdONmFXLUdDY0ttN1hrSmtaN0FTM0NnOVk4NA?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-10T20:48:45Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers: The Good, the Bad and the Ugly -Week 6",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUHpnelF1MDNnNGwzdTRkWGNNTlI4OHdOWkxVVmx0M3RKYWdqZHo2ZEpDejBFaXljVlV2TVliTm5xN3E2Zjd1Y2ltUnVXRUpKdExLUk5XRDd4eWJUd2NrOHlmYTBtUHpJdG9ZNHVhc1dLMkNqbmx0ZDNQaGhwSlNDb1FpZEgxdw?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-10T20:31:27Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Can Oilers’ McDavid reach 100 points before Christmas?",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeHVNWHVvUXhjNWROcjhMTl8wXzEzaTJ3UWNnc04zeDdWREQyTEpsS0gwakJZSWRHaHUzZjBHVHh2NW1lV00yYkVOZ21xVWNCQ1E3NF9DSHJnNUlQRktMdWp3bTBaRk5va1ROLWl5UmJqMlU0akdkYWJMUXd1S0dDeklfeGdGTE1jRVJlbVdRWG56bGNYcV9IdHQ4OVozWTNUMFNFcw?oc=5",
@@ -23,21 +55,6 @@
    "published": "2026-11-10T19:26:09Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers coach Babcock demotes or scratches all his struggling forwards",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZlludEhPUUdHUHcwZElZNG9uTlplT3pfOEhEUWozMUk2ZXpXQkVhcEZXSTdSOGU3R0ZKSVZPdFBVZnNDVmhvMl9YX3E4bUN1b0xKVm5ZMlJ5WHN6clRsV1FqU1hEZG9BNzU4VTBkUFIyRGdjWFltcWFCY3RWQ0lXUkVqdmpvcDliYlRJU2lOTmU3ako1WFFwd09MNG5kOEx5TzJYR3BQQlI3bDBkRlNwS1lYY2d4ZEVwSnhPRXdONmFXLUdDY0ttN1hrSmtaN0FTM0NnOVk4NA?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-10T19:22:44Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Accountabilty Babcock-style; Edmonton coach demotes or scratches all struggling Oilers forwards",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-demote-alex-formenton-matheiu-joseph-owen-michaels-mike-babcock",
-   "source": "Edmonton Journal",
-   "published": "2026-11-10T19:21:36Z",
-   "snippet": ""
   },
   {
    "title": "Have the Oilers found their long-term star goalie in Devon Levi?",
@@ -76,6 +93,14 @@
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORDRGNFRLNEVZbTEyd0hTTWJfanFJY3NMbXBHRlNmc1p0Zm1sOUdaeVlKNy1yTTZ5dG1QQ1Q4bl8zd1hFem1oS0JKTmxlQTgwQjI4R19YcUZIVWdMdVB6d3RtNlBjcTdxZ0JXLTlfVUFnQVQzckw3TW1RQWFYZXN4TzBsUnoybmVrNExybTZTSHFxaDQ?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-10T18:08:06Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NY Rangers Glaring Lack of Finishing on Display Against Oilers",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUmI3TWVWekl2M1lMdnpyNWp2WGMwTG96LXdBeDcwU0IxRG9vNUNqN2pnSjFZdmdYVVdhN2w4MDFfdXExRUJjb2JiMk9OOHZUdUxGbWVXR2VkRzdkUmo5V3Z1Q1Uyamh2LVIwRFpDUlZLTUdnM3d4aVAxNVItVjR2TTRUNF84UnZOTVpkU055VjNjQVVvOFVZUkphdmN4bEJPNnduVlpn?oc=5",
+   "source": "Sports Illustrated",
+   "published": "2026-11-10T18:00:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -124,38 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT2xKdmtLdzNlQjh0Z2ttbTZBSkl4Y2w4d2ctOFhKd2c5ZGVSZjJEZmhFX19Sd2FGbUdpcUQ5ZG5ndl9XNFd4a3pBSF96dVBqdnpKT1oxZmRsSkRWRHlwb1dkM2wtby01SFRaS2plWVdKVUozVi1XNU0tR0tYbzBuWjJsV2lUdEUwR2tnZFFlbFZRQVA4cTJJb1lFSkdqNXhtUm0zRGx0djdFOEhCekVkX0FiQWg?oc=5",
    "source": "NetNewsLedger",
    "published": "2026-11-10T16:36:07Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Lightning Call Up Former Oilers First-Round Pick",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONmw1dm42MHFTaGVjeHhZQmNZaENBTm9SRzFJY0lfNVFISngzU0lVNlVuUVdob1BqRkl1S2JOYkNnSzAwU2JRSEVuSHdNOUlQNWYzYzJqQzAzRGUteEV4djN6RXpqbm5NWkFZM2ItMVFPQmtueE9pOXdiVTdGMERYQ2hzemp6SjgwbWMwRTlkUVNhSU44RVo5UjdFNDZqczlraWZYc1Zhb05Kd2lmVDhF?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-10T16:30:38Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Emerge as Potential Jake DeBrusk Fit",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ja3NvdFZYRERaM1RNNXhSY2o4ZkpzTHlja3VWQ3R5ZENRZ2Z2S0V3MF93dl9BMTB5eVgxMjk5Zk9iVXpDZ3dVY2hPdkhOT1ZmVmxkSm1BLXJhU3E3OWxnOHFMUWN5M0dKX19LWWdyaXN2cVhIanZneWdHem9Gdw?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-10T15:55:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Leon Draisaitl Says Devon Levi 'He’s Been Incredible For Us’ After Edmonton Oilers Beat New York Rangers",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaGJUNklXczkxVDBaaXF3czZuZ1Nta0JXQkRtdHdzbXpuM3J6bkFLbmRKdlpqeDdXMl94R2hqMXNiNEJ5SXhHdnY0YVFhMVQwOUJGaVgwT3ZMaGpxYlUzZmkzSnE3Wnotd0NEMlFfVWJaX2JZN3ZZeW9IZXRaXzUxVFFpTlM2dEpGVnZpdEQyczdCYS05Y0paLURTSkREZ1NORmVqS1Q1alR3enB2bnpnWXlwTFViQURBa1QyRXlRWWQzd3AtcjBWaEJyUzNXSVpoQ2lEODlrZ0FVdw?oc=5",
-   "source": "NDTV Sports",
-   "published": "2026-11-10T15:49:32Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Lightning place F Point on IR, recall ex-Oilers prospect O’Reilly for potential NHL debut",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSF9xVjh0ekNCeWgxRW5FNnNqTjB6cVVoejd2NFZPM2t5T0lpOXV3V0lPNUhrUlFZbVRTTjFkSWwwS2JYSlNXTVRsWmhNWmY1QzVMYnVGdVJiak4zazhBWGw4SGd5eThrNEczUlhZZkhLV3poYW1zR2FvQXh2X1c5SnpaVDBzUEJ3TlZ6Z1VmYm5tckg0Tkp6cU9jWG1Fck8ydzRRQjl0bk1jN0wxc09aZl90T2tDeWwyRC1N?oc=5",
-   "source": "TSN",
-   "published": "2026-11-10T15:38:54Z",
    "snippet": "",
    "via": "google"
   },
@@ -277,6 +270,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-07T18:57:04.06Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers have placed defenceman Atro Leppanen on waivers for the purpose of assignment to the Bakersfield Condors, the team announced on Saturday."
+  },
+  {
+   "title": "PROJECTED LINEUP: Levi to start & Hyman returns for Saturday's meeting with Canucks",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-levi-to-start-hyman-returns-for-saturday-s-meeting-with-canucks-11-01-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-07T18:52:10.923Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers will have netminder Devon Levi and forward Zach Hyman back in their lineup on Saturday night after both are activated from Injured Reserve ahead of a…"
   }
  ]
 }
