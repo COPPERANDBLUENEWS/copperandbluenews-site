@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T13:08:14Z",
+ "updated": "2026-11-10T13:47:12Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,22 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers Facing Another Darnell Nurse Situation with Jake Walman",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNlRKcHIyMDl0QTlCOEJBbVdEZGx5dkIwaUd3RnhsTVhfOG56bmhKSFRTT0g4emd1ZjUtZ2U0ZVN1NlBycmhOcUNFZHBzSm1DUkQtXzlUcUlhR2k0SlFLaUJXRnFIclg5T2dwN1Rod1BqMFd5QzRWVlIyb2trZTYyYi1EOThLMno1ZXF2MkptSEdvdnllVTk0?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-10T13:45:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL Game Recap: New York Rangers at Edmonton Oilers with Line Combinations 11/09/2026",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT1F4djFWOHp1WTRxRk5UdVU1cW1uQkNnNWYxekxEY1NtRlhCNDZRcTdVMXJ5c1Z4YnFKWDU1VUlNT3RzbmpQNEk1Qnl0YmFXM0VzNkptNkNVbkpiUGVkV1pNQ1RiRklaWTlwYUpsWTVxZVUwbFUxOE4yNWZhLWhGME5HdXpjRVhxT3B5blpiLW5lY2x5T21YZnRTWTdOd3ppemlMT0hxdHhjNjdmZW5VRg?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-10T13:29:37Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Draisaitl scores twice as Oilers beat Rangers 3-1 for a season-series sweep",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOLXhmTzhiOWxTdnJJcGdJVDczR0pzbXNuRnVaS2FJeGNqNURyRnVvLTNFNWg0UTR5UXJJUmR1dmNkTUpoMHZNUVZMRVNjdEppMEVSVmJGTzFiZ2Rxem9KTzZiUWRnMmRWNmJqOTY1cDlNTlVyalNPZjRGTG5PY1VnRWw0UTVxbTJYellqVFN1RlRBMElaUW15M1A2Vl9tUWtob2N4RXJXeVhFMUVDUzRDLWhQNkgwT0k?oc=5",
@@ -73,18 +89,18 @@
    "via": "google"
   },
   {
-   "title": "‘We have so much trust in him’: Levi boosts Oilers’ confidence in their crease",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY0l5MXdieFdwZG9MWktZLXBCYnlVRnBZSjhEU1FMdEtVUk0tN1RWenl3Y2VhaTkyTFE0cEtDTWQxX3NNVjFtQXJaRjRSVUxEdG9KM21jemJwanE1YjBXa2JPQ1N6TzJXNFJSWl81ZGc2Y2NxSHRoRFdHTjAxcndUaVBFa19MdTBSdERPWU1Uc3JfbGc?oc=5",
-   "source": "TSN",
-   "published": "2026-11-10T05:09:42Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Levi stands tall as Oilers hold off Rangers with 'B' game",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWHRKc3RWelEzendNdUVFS1dlZDliNzVYN2xHWnFIOEdvcHhXSmdEQ0ZHWFN6ZzlhNDNaWHhDN2t6VmxPQ092dTNpOUQ4cEhmb0xIeTBsc0E2bHB4cGsxSUp1Y21PdHZrQWRXdlZiSFlkR2pYdDFFV2RDTGxKS3FVWHgzRVpBa3pJTl9jMlVPX3JhTVgyTXVoUA?oc=5",
    "source": "Sportsnet.ca",
    "published": "2026-11-10T05:07:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Levi gives Oilers confidence in the crease",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV09GdDNJaVJ5VHU2VmlCUndaZDRCOFJRRXNsM25EVW02cGFFeXlBM3VqT2FxMUVuSlJjUGtlblQ4U2d2VkE0TTc5OC1JQWxkdXNIdlFZSlRrb3p3Y2VKV0hNcUh4eUJONjZ5QTQ1ZFdyNkVvWjQtek5fc2w4Tkpwc09vcFJ3Zw?oc=5",
+   "source": "Global News",
+   "published": "2026-11-10T05:05:42Z",
    "snippet": "",
    "via": "google"
   },
@@ -140,22 +156,6 @@
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMkZOTUdXd1gtQUNKajdveElhVlpSWWhkbFZCV1RmWks4cXZMNFlfSVVZOGxmRDlPUi1YOEh2ZkVQSVhnazluci1Xc2VNWVU2VThIc0FTdkwyNGZnZk1WelpGUWdnQ1pOWkVFQTdvNWt4d1NqZnNFR0IzTmxRZlVlWEloT2daZlJJai1j?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-10T03:58:06Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Instant Reaction: Devon Levi slams door in Oilers’ 3-1 win over Rangers",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNlZFRF96ZEpId0pJWlo4U1R3em4zdjV1S2wyM3BEYm02RWhGOFctNW13SVU1b2tEdjk2MzVwelZOQzlTSHg0ZzJOWFRjajFtZTFCdTFVbE9FT0dJNWJ1Q1d3WjNLVVh3LVNybUdKSFBCbTk0Mk5rYm9qZDcxSEZUUmRFZ2lYRWxBUGdGSUFITU1ENXJFRjBsWEhMbGVLa3NaT0JWUEZ1QkE?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-10T03:07:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Leon Draisaitl with a Goal vs. New York Rangers",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWWl4a19YajVWWVJTb2kwXzJ2VVpJX2hsdGVXNW5vUzV5cHlTTFdsdUZDOTd1dGlFVWRMRlZlSEotY2o5U1JidWt1Q1M4RXJfdHNBT2JCOF9DaDc2Yk9rUVNvdS1qX1dsRHd4aGVyUUJZWnRWelFHN3VWc29RWlFSWlpDZVE2cC1paF9OQWZqVjlxd0t6MVdCaFcyc1N0WXNJa19SaUdwX0NtdTh1cnVz?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-10T02:32:37Z",
    "snippet": "",
    "via": "google"
   },
