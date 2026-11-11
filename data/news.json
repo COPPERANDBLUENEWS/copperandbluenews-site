@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-11T03:29:46Z",
+ "updated": "2026-11-11T04:00:04Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (89)"
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
@@ -12,7 +12,7 @@
    "title": "PREVIEW: Oilers vs. Flyers",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00a0VSSDk1REh1VEVWMHdWTnJvNmVxWGRkZTNSdjVmVEJkeGxqbU9LSlQ0LXBuNjhnZDM4ektJa182N0NTUnRoLUFJd1ZmdmgzZDZKWXJIQlRPMk5Kd3htUGxjNDRGZHdFa3duLXRha0lDRWM?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-11T03:11:39Z",
+   "published": "2026-11-11T03:28:19Z",
    "snippet": "",
    "via": "google"
   },
@@ -96,13 +96,6 @@
    "via": "google"
   },
   {
-   "title": "Why the Edmonton Elks' trip south is driving a Grey Cup ticket surge",
-   "url": "http://edmontonjournal.com/sports/football/cfl/edmonton-elks-trip-south-driving-a-grey-cup-tickets/wcm/0ec05954-9c8f-40fd-8841-f335e28e6c75",
-   "source": "Edmonton Journal",
-   "published": "2026-11-10T21:35:35Z",
-   "snippet": "Tourism Calgary expects roughly 30,000 visitors and more than $50 million in economic impact from the festival and game."
-  },
-  {
    "title": "Roman Josi could be interesting Edmonton Oilers trade target",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Oa1d5bVNHNDV1YkxDLVN4LWZQMFBWZzJSNFN4RlJJYjlMNnB3TnhNSWZYRFY2bWJKeTRtOWRiZF9tX3VrVDNUcFY5UEx1bFJ4bDVKTE5FZlBXdUtQOHNGUGR1TW9lNzRCclczUXN4bGFWOU83a1FOV1Nlamp2dw?oc=5",
    "source": "Daily Hive",
@@ -167,13 +160,6 @@
    "via": "google"
   },
   {
-   "title": "Rock 'n' Red Deer: Brier headed back to central Alberta in 2028",
-   "url": "http://edmontonjournal.com/sports/curling/brier-headed-back-to-red-deer-in-2028/wcm/254a3cf7-e641-4a7b-a312-c0c5e015da96",
-   "source": "Edmonton Journal",
-   "published": "2026-11-10T16:13:02Z",
-   "snippet": "Curling Canada has announced that the 2028 Montana’s Brier will run Feb. 25-March 5."
-  },
-  {
    "title": "'Best environment to play': Edmonton Oilers finally making it easier for their goalies",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/best-environment-to-play-edmonton-oilers-finally-making-it-easier-for-their-goalies",
    "source": "Edmonton Journal",
@@ -182,8 +168,8 @@
   },
   {
    "title": "McDavid pushes season-opening point streak to 19 in Oilers win against Rangers",
-   "url": "https://www.nhl.com/oilers/news/new-york-rangers-edmonton-oilers-game-recap-november-9-2026-x1076",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-recap-november-9-2026",
+   "source": "NHL.com",
    "published": "2026-11-10T05:46:00Z",
    "snippet": "EDMONTON -- Connor McDavid scored a goal to extend his season-opening point streak to 19 games, helping the Edmonton Oilers to a 3-1 win against the New York Rangers at Rogers Place on…"
   },
@@ -216,6 +202,13 @@
    "snippet": "'Are we cuter with the puck? What goes on in the second period? So, we go through all those things'"
   },
   {
+   "title": "Oilers' Nugent-Hopkins will wear a bubble after getting hit in the face with puck",
+   "url": "https://edmontonjournal.com/sports/oilers-nugent-hopkins-will-wear-a-bubble-after-getting-hit-in-the-face-with-puck",
+   "source": "Edmonton Journal",
+   "published": "2026-11-09T19:08:42Z",
+   "snippet": "'The bubble is a little warmer, a little claustrophobic. Definitely some spots (vision) are blocked but overall I’m pretty surprised with how good it (bubble) felt'"
+  },
+  {
    "title": "Rangers at Oilers projected lineups",
    "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-preview-november-9-2026",
    "source": "NHL.com",
@@ -237,9 +230,16 @@
    "snippet": ""
   },
   {
+   "title": "Edmonton Oilers goalie prospects wow with stellar performances",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-goalies-prospects-wow-with-stellar-performances",
+   "source": "Edmonton Journal",
+   "published": "2026-11-09T03:25:11Z",
+   "snippet": ""
+  },
+  {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
+   "source": "NHL.com",
    "published": "2026-11-08T07:04:00Z",
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   },
