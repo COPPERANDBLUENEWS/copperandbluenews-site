@@ -1,20 +1,52 @@
 {
- "updated": "2026-11-10T23:15:26Z",
+ "updated": "2026-11-11T00:13:07Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (0)"
+  "Sportsnet (0)",
+  "Google News (89)"
  ],
- "errors": [
-  "Google News: HTTP Error 503: Service Unavailable"
- ],
+ "errors": [],
  "items": [
   {
+   "title": "Tape Room: Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTlZkbk9OSVFTTEFjcllySnZ0cG5Ja3R0R3lXbFVqN3FSeXBGczJqM3lzN1hFaE1JYlZvOS04c1dKbWlMNmltS0hScDVla1JQRDk4WThXN0RXaXE3UG1TbG5TeFdSMTJETG5NUzZ5MWNnT1N1elFEaGxvelNtcGFSZlVHLTQzRUV3dFZxUEdLaXp4UWQwUEk2TkxHYw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-11T00:06:37Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers getting healthier as Dach set to return against Flyers",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNckpyc0R1dDFDWXFsNExBS21Dd1JFSDlUY2NqY3lLSnd2ekJYRlktdGhxcjZiTTdTNVdoS1N4dnFUM0NFOU43RGZxN25xN0VoYXZqVTZ2RkdqcVVfb25iWkpPN240blVlLWF1cWpIUnZrYjR3WGRzU2JKWk0yNWNPVVNnaGhrY0l1YTdtSUw2ZTFjOFRRN19mY2JHXy1GNV9fNXB3TE1mN2NkeVpMbXc?oc=5",
+   "source": "CTV News",
+   "published": "2026-11-10T23:02:27Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers notebook: Red-hot netminder Devon Levi refuses to back down",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/edmonton-oilers-devon-levi-connor-mcdavid-bobby-sheehan",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMi0yYmNMMEpPVFZ0emtXNXJoVE9UbHNVbVBrY2kybVBnNGdvaWVBVXRvMDFWTmY1TEpIT0tqSm93TW5GN1JpbDBLYjBJSzVxUlNUNmlfRnBna1dFbWFjUnFTbE96c09iWEJNLXdleXN1SGxremc5aWUtaVl0T3A3M1Y5NHpIMGhYRlhOVlQ4UzUyMVB3ZTZiRElIMUwtZUZWRUxXZThWVDJQYUZUU29QSHBfc2VHRFhu?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-10T22:32:11Z",
-   "snippet": "Oilers goalie taking seven-game unbeaten streak into Wednesday’s home game against the visiting Philadelphia Flyers"
+   "published": "2026-11-10T22:33:52Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers injury update: Savoie, Andersen, Janmark not close to returning",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDBwZGU5TWpGRzJiRmV0TWtPVWVwMHRQdWNmZU96UlpzcXNkX1dYeFFYZVYzR2xPWV83OVhlU0g2VTVuQTNVM3BDUmF0cXBULWJ4c3JIRjlMZkYxX0ptRkdEcU9PbkRCdXR2ZUFOTUc3a3FvMldENFBfVlJOemRMSmZycDFlZWxDejNKLVJzeEQwYkNoMDV5eUFqR1JZY1hUcE52X2FhaWVkQXFyeFo2dU1KN21HTkViTDRObUY0OA?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-10T22:13:50Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Former Lakers goalie new Oilers EBUG",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS2puU1BwQmp3RlI4WVh0YUtMbHVOTzhtcnpzNlo1UDJ6elhoWWgyS1FweGlWTkdGUmV3bHZ3QjljRnBzT2tMRG9USTlUanhkUHVUaDRSTjRNUzYxdGZ2MldHYXpLN3BEMWdKcEVwZWJWbWR1SFdSOG5mQW16Ul84RDJ3?oc=5",
+   "source": "BayToday.ca",
+   "published": "2026-11-10T22:02:08Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Edmonton Elks QB Fajardo manifested Grey Cup showdown against old team",
@@ -24,11 +56,108 @@
    "snippet": "'I couldn't help but think there's a reason why I'm here leading this ball club, there's a reason why they're in the Grey Cup and we're in'"
   },
   {
+   "title": "Levi On A Hot Streak With The Oilers",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNS3FFMVdaOE9ZRkxRZmRORnF2MHV0bm1jUlNnaUdJd3NCeG5mWlNlaUN1dVZTZy1XWHF1WTZsTDRUQUZLOXI3TkJzLXprMnhMZmxsR1IzYXJSdmRMa0hHV3hjVmtKZXV2dl82MUJOWTg3c0p5TFQ1ZVc3VU9wLU4zcDV5d3U5TlBtR2FVaEpNYlF4cTRFTk5rVQ?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-10T21:37:11Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Roman Josi could be interesting Edmonton Oilers trade target",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Oa1d5bVNHNDV1YkxDLVN4LWZQMFBWZzJSNFN4RlJJYjlMNnB3TnhNSWZYRFY2bWJKeTRtOWRiZF9tX3VrVDNUcFY5UEx1bFJ4bDVKTE5FZlBXdUtQOHNGUGR1TW9lNzRCclczUXN4bGFWOU83a1FOV1Nlamp2dw?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-10T21:15:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Is Devon Levi The Goalie The Oilers Have Desperately Been Searching For? : The Hockey News Wraparound",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaTZaTFBFWG5JTTJEVEQ3Mm1IdjVjTlNKMEVCLUVZWk5MMDYyazc2eUR3NEVDUzJzaXF4OFl2QmFwb0YwN2Z6UUN4S1VPeE9YdlJoc2VHQlE1dlFXbkJuNWFtOXJyQTZBdG84amV0amlQd2hkdWtmNzk2OE12ejRPckMtQmpPNlN6TnN3blFyODR0cEgwZzdtcGVQNEd6OHNjUGxRSUVETENfVWtmR083alU4NkNObjcxYzJTOFk2eFZYR0NxWkdHenhKbVpNTjUwOC13?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-10T21:03:35Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL Norris Trophy Rankings: Wild's Hughes Closing Gap On Oilers' Bouchard",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVHIwYUd0VC13VWdHTXhkaXpRZGhzaGpBNS1ObTFlZ0hnWnB4WU93OWtUZDJleU9kdTR3WmhVOTcwV2Vra2pzQ3lBNU1aTXdaVTAyUy1CVE1Pa29oVmpicGFNSFZBWWNHR2djVE5nZ3Y4MWxEWXY5Q3E5aHpTZlhleUZDNF9Pb1BOM0lGbmJieHJDeTlLay1kdHN1SFhNWkE0ZjhjaU11elZ0MXozLUoyTzkxOA?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-10T21:03:35Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Accountabilty Babcock-style; Edmonton coach demotes or scratches all struggling Oilers forwards",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-demote-alex-formenton-matheiu-joseph-owen-michaels-mike-babcock",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNZlludEhPUUdHUHcwZElZNG9uTlplT3pfOEhEUWozMUk2ZXpXQkVhcEZXSTdSOGU3R0ZKSVZPdFBVZnNDVmhvMl9YX3E4bUN1b0xKVm5ZMlJ5WHN6clRsV1FqU1hEZG9BNzU4VTBkUFIyRGdjWFltcWFCY3RWQ0lXUkVqdmpvcDliYlRJU2lOTmU3ako1WFFwd09MNG5kOEx5TzJYR3BQQlI3bDBkRlNwS1lYY2d4ZEVwSnhPRXdONmFXLUdDY0ttN1hrSmtaN0FTM0NnOVk4NA?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-10T19:21:36Z",
-   "snippet": ""
+   "published": "2026-11-10T20:53:02Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers: The Good, the Bad and the Ugly -Week 6",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUHpnelF1MDNnNGwzdTRkWGNNTlI4OHdOWkxVVmx0M3RKYWdqZHo2ZEpDejBFaXljVlV2TVliTm5xN3E2Zjd1Y2ltUnVXRUpKdExLUk5XRDd4eWJUd2NrOHlmYTBtUHpJdG9ZNHVhc1dLMkNqbmx0ZDNQaGhwSlNDb1FpZEgxdw?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-10T20:31:27Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Can Oilers’ McDavid reach 100 points before Christmas?",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPeHVNWHVvUXhjNWROcjhMTl8wXzEzaTJ3UWNnc04zeDdWREQyTEpsS0gwakJZSWRHaHUzZjBHVHh2NW1lV00yYkVOZ21xVWNCQ1E3NF9DSHJnNUlQRktMdWp3bTBaRk5va1ROLWl5UmJqMlU0akdkYWJMUXd1S0dDeklfeGdGTE1jRVJlbVdRWG56bGNYcV9IdHQ4OVozWTNUMFNFcw?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-10T20:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ Devon Levi Shows Potential Sabres Gave Up On",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS2pmaV9Xc0dVU2dQaVhBZ3FyMkJZTXBqYlZDdUlrSUlKOTJUbmtHSWFYN3lCZzlnVWIzNFFQaVZqdklST0U0NnB5dXNDZTk4SUdiRFJpMU9HN0ZiYUJDM2xnTzZsWU1oOG1ScWdwTkRwVDFza3ljVGVfbVhpcjFhY2NPcGR3RzhGUUE?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-10T19:26:09Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Have the Oilers found their long-term star goalie in Devon Levi?",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR19RSndRMFBWcVZDUHA1VDZlclpvYmUzM0ZFSHJORXFHUUI2M010YTNLQUQzaENzUXBfdWNac3d6bUpRakR6SGpWUF81eWw3R1NrZms4b0pZZm5GVzRELTI2c1J4bTYxbzhVWHhuU3lFRkh5MnBRdkJHcTNuUkhheTctSXQxVUd3NEc4eWt3dUdRcVVlbmRwSDhjZEtkQms5WjVrZA?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-10T19:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "How Connor Murphy has been an unsung difference-maker in the Oilers’ last two wins",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON3p4S1REUUVnU3dxZUFOdjMtMU5CSDVFMmxRT2UwSHRtRDdYTWVkS3FFNGtZNFZUcHpvQzNnSm5QdUhabnFPalRtZHIwOXluejY2TjVPa05JYU5xR1VzVDdfc21OQ2RENHFuNnpMS2t2NXVaUmZfbVA4X0dhTWJ3U2xvZUxOSDYySW96SGZuSXdPZk9yZk9YNlVqZjVSQTVGVUZoem53?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-10T18:36:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ Coach Babcock Appears to Have Found His New Whipping Boy",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPckxnX3ZER3hJZ1hBSG9vSDhxdEZQMUFTanMwajZ6Rnd3RmxmRnpJaExfQWF2aVVNNWZJWjJmTFYxY3piYS1KLUc3OTNrOGhZcUNmSlRHUlBLWEZ5VFlLeEYzcmZMOHZuV0t1WVNGVjBjN3o5bkFMdzFQRWNUYUc1THlLVmlYa2RJNlZ3dA?oc=5",
+   "source": "Heavy.com",
+   "published": "2026-11-10T18:35:35Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers fans crowned most foul-mouthed supporters in the world",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92b3ZnSjN1UGFoR1ZqQWJXSldPazMyZnB4OGNUdnRNWHNhR0tYQ19GOWx3ek1TSTJPRTFiX3Exb2h5Zk5NMEdPb3NCVUswbjZ1d2VWT1JPNk9Gc2F2NkQzTnhMYmRlZGlyVm4tbw?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-10T18:20:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers slow to put the New York Rangers away",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORDRGNFRLNEVZbTEyd0hTTWJfanFJY3NMbXBHRlNmc1p0Zm1sOUdaeVlKNy1yTTZ5dG1QQ1Q4bl8zd1hFem1oS0JKTmxlQTgwQjI4R19YcUZIVWdMdVB6d3RtNlBjcTdxZ0JXLTlfVUFnQVQzckw3TW1RQWFYZXN4TzBsUnoybmVrNExybTZTSHFxaDQ?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-10T18:08:06Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "'Best environment to play': Edmonton Oilers finally making it easier for their goalies",
@@ -148,104 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-07T18:57:04.06Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers have placed defenceman Atro Leppanen on waivers for the purpose of assignment to the Bakersfield Condors, the team announced on Saturday."
-  },
-  {
-   "title": "PROJECTED LINEUP: Levi to start & Hyman returns for Saturday's meeting with Canucks",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-levi-to-start-hyman-returns-for-saturday-s-meeting-with-canucks-11-01-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T18:52:10.923Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers will have netminder Devon Levi and forward Zach Hyman back in their lineup on Saturday night after both are activated from Injured Reserve ahead of a…"
-  },
-  {
-   "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
-   "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
-   "source": "NHL.com",
-   "published": "2026-11-07T05:00:00Z",
-   "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "RELEASE: Hockey Fights Cancer Mega 50/50 raffle returns",
-   "url": "https://www.nhl.com/oilers/news/release-hockey-fights-cancer-mega-50-50-raffle-returns",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-06T18:11:04.536Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) announced today the return of the Oilers “Hockey Fights Cancer” MEGA 50/50, running from the Oilers Hockey Fights Cancer game…"
-  },
-  {
-   "title": "Short Shifts Power Rankings: November 6",
-   "url": "https://www.nhl.com/news/short-shifts-power-rankings-november-6-2026",
-   "source": "NHL.com",
-   "published": "2026-11-06T17:01:00Z",
-   "snippet": "Throw out the Xs and Os and join Short Shifts for our own weekly power rankings. What is our criteria? Whatever makes us smile, laugh, cry or any other wholesome feeling. This list is…"
-  },
-  {
-   "title": "McDavid continues torrid pace following 'dangerous' hit from Helleson of Ducks",
-   "url": "https://www.nhl.com/news/oilers-connor-mcdavid-continues-torrid-pace-despite-hit-from-ducks-drew-helleson",
-   "source": "NHL.com",
-   "published": "2026-11-06T06:12:00Z",
-   "snippet": "EDMONTON -- Connor McDavid continued his torrid pace to start the season on Thursday, although he had to pick himself up off the ice to do so."
-  },
-  {
-   "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
-   "url": "https://www.nhl.com/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026",
-   "source": "NHL.com",
-   "published": "2026-11-06T05:41:00Z",
-   "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
-  },
-  {
-   "title": "Mintyukov, Sennecke Power Ducks to 5-4 Victory Over Oilers",
-   "url": "https://www.nhl.com/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026-x1332",
-   "source": "NHL.com",
-   "published": "2026-11-06T04:09:34.996Z",
-   "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
-  },
-  {
-   "title": "Oilers fans give Nugent-Hopkins standing ovation for setting team record",
-   "url": "https://www.nhl.com/news/oilers-fans-give-ryan-nugent-hopkins-standing-ovation",
-   "source": "NHL.com",
-   "published": "2026-11-06T02:03:00Z",
-   "snippet": "Edmonton Oilers fans were excited to celebrate their longest-tenured player on Thursday. Ryan Nugent-Hopkins received a standing ovation from fans at Rogers Place after becoming the…"
-  },
-  {
-   "title": "QUICK RECAP: Ducks 5, Oilers 4",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-ducks-11-05-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-06T01:01:30.504Z",
-   "snippet": "EDMONTON, AB – Connor McDavid recorded a goal & three assists, while Evan Bouchard, Ryan Nugent-Hopkins and Leon Draisaitl each posted multiple points, but the Oilers couldn't come away…"
-  },
-  {
-   "title": "RELEASE: Howard placed on IR; Epp activated",
-   "url": "https://www.nhl.com/oilers/news/release-howard-placed-on-ir-epp-activated",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-05T23:59:01.568Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers have placed forward Isaac Howard on Injured Reserve and activated emergency back-up goaltender (EBUG) Brett Epp, the team announced Thursday. Epp, 29, was…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Oilers vs. Ducks",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-vs-ducks-11-05-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-05T19:10:46.345Z",
-   "snippet": "EDMONTON, AB – Goalie Matt Tomkins will get the start against the Anaheim Ducks on Thursday as the Edmonton Oilers return home to begin a four-game homestand at Rogers Place against their…"
-  },
-  {
-   "title": "RELEASE: EOCF & Alberta Cancer Foundation bring 'The Time Store' to Rogers Place",
-   "url": "https://www.nhl.com/oilers/news/release-eocf-alberta-cancer-foundation-bring-the-time-store-to-rogers-place",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-05T17:25:26.84Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) has announced an initiative with the Alberta Cancer Foundation to bring The Time Store to Rogers Place for two upcoming…"
-  },
-  {
-   "title": "PREVIEW: Oilers vs. Ducks",
-   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-ducks-11-05-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-04T19:00:58.054Z",
-   "snippet": "The Edmonton Oilers return to Rogers Place to begin a four-game homestand against the Anaheim Ducks on Thursday night. You can watch the game live on Sportsnet at 7:00 PM MT or listen on…"
-  },
-  {
-   "title": "Nugent-Hopkins makes Oilers history, can ‘feel the love’ of teammates",
-   "url": "https://www.nhl.com/news/ryan-nugent-hopkins-set-to-make-edmonton-oilers-history",
-   "source": "NHL.com",
-   "published": "2026-11-04T17:00:00Z",
-   "snippet": "NEWARK, N.J. -- Ryan Nugent-Hopkins felt the significance of his next game and the milestone it represents for the Edmonton Oilers when he saw his teammates Tuesday morning. There they…"
   }
  ]
 }
