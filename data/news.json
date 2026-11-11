@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-11T04:00:04Z",
+ "updated": "2026-11-11T04:35:49Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (88)"
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
@@ -13,6 +13,14 @@
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00a0VSSDk1REh1VEVWMHdWTnJvNmVxWGRkZTNSdjVmVEJkeGxqbU9LSlQ0LXBuNjhnZDM4ektJa182N0NTUnRoLUFJd1ZmdmgzZDZKWXJIQlRPMk5Kd3htUGxjNDRGZHdFa3duLXRha0lDRWM?oc=5",
    "source": "NHL.com",
    "published": "2026-11-11T03:28:19Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Philadelphia Flyers - Edmonton Oilers - Nov 11, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYVGh1VDdqS1RCV3NXUHY1VndRUVlZNlljeDFzek9IVks1WnZVODFMNHlxM2lqNTZFYmhnelZtWEl3cmNwRTM5bm9TMmVQQ1VJNVkyUy1tMkRVWExxZXozWC1lSDN3a3l4QTctdGFVWTk?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-11T03:26:52Z",
    "snippet": "",
    "via": "google"
   },
@@ -37,14 +45,6 @@
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nbXMta3I2dndWekdQa3MxajlyU0dpTUFpMVlXRHVqUjR1aU4yZ0ZqVksxNFB0WTFoejE4VFlMY0JLenJBVFM3RVVqU2hYZ1VYUVNUeWE3b0JzWWFOaDRLX1Q0WmdjV2VNZDFkcFBKdVgwSFE?oc=5",
    "source": "NHL.com",
    "published": "2026-11-11T00:06:37Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Philadelphia Flyers - Edmonton Oilers - Nov 11, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYVGh1VDdqS1RCV3NXUHY1VndRUVlZNlljeDFzek9IVks1WnZVODFMNHlxM2lqNTZFYmhnelZtWEl3cmNwRTM5bm9TMmVQQ1VJNVkyUy1tMkRVWExxZXozWC1lSDN3a3l4QTctdGFVWTk?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-10T23:05:39Z",
    "snippet": "",
    "via": "google"
   },
@@ -144,18 +144,18 @@
    "via": "google"
   },
   {
-   "title": "Oilers’ Devon Levi Shows Potential Sabres Gave Up On",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS2pmaV9Xc0dVU2dQaVhBZ3FyMkJZTXBqYlZDdUlrSUlKOTJUbmtHSWFYN3lCZzlnVWIzNFFQaVZqdklST0U0NnB5dXNDZTk4SUdiRFJpMU9HN0ZiYUJDM2xnTzZsWU1oOG1ScWdwTkRwVDFza3ljVGVfbVhpcjFhY2NPcGR3RzhGUUE?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-10T19:26:09Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Have the Oilers found their long-term star goalie in Devon Levi?",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR19RSndRMFBWcVZDUHA1VDZlclpvYmUzM0ZFSHJORXFHUUI2M010YTNLQUQzaENzUXBfdWNac3d6bUpRakR6SGpWUF81eWw3R1NrZms4b0pZZm5GVzRELTI2c1J4bTYxbzhVWHhuU3lFRkh5MnBRdkJHcTNuUkhheTctSXQxVUd3NEc4eWt3dUdRcVVlbmRwSDhjZEtkQms5WjVrZA?oc=5",
    "source": "Daily Faceoff",
    "published": "2026-11-10T19:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "How Connor Murphy has been an unsung difference-maker in the Oilers’ last two wins",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON3p4S1REUUVnU3dxZUFOdjMtMU5CSDVFMmxRT2UwSHRtRDdYTWVkS3FFNGtZNFZUcHpvQzNnSm5QdUhabnFPalRtZHIwOXluejY2TjVPa05JYU5xR1VzVDdfc21OQ2RENHFuNnpMS2t2NXVaUmZfbVA4X0dhTWJ3U2xvZUxOSDYySW96SGZuSXdPZk9yZk9YNlVqZjVSQTVGVUZoem53?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-10T18:36:00Z",
    "snippet": "",
    "via": "google"
   },
