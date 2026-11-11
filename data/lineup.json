@@ -262,16 +262,16 @@
  ],
  "goalie": {
   "starter": {
-   "id": 8482221,
-   "name": "Devon Levi",
-   "num": 27,
+   "id": 8477465,
+   "name": "Tristan Jarry",
+   "num": 35,
    "pos": "G"
   },
   "status": "Unconfirmed",
   "backup": {
-   "id": 8477465,
-   "name": "Tristan Jarry",
-   "num": 35,
+   "id": 8482221,
+   "name": "Devon Levi",
+   "num": 27,
    "pos": "G"
   },
   "note": null
@@ -475,5 +475,5 @@
    "note": null
   }
  },
- "updated": "2026-11-10T20:25:50Z"
+ "updated": "2026-11-11T12:35:27Z"
 }
