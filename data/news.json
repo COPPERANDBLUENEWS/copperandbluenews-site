@@ -1,26 +1,25 @@
 {
- "updated": "2026-11-11T21:08:33Z",
+ "updated": "2026-11-11T22:11:52Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (90)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Michkov, Seeler all good as brief storm on Flyers bench blows over",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/michkov-seeler-all-good-as-brief-storm-on-flyers-bench-blows-over",
+   "source": "Edmonton Journal",
+   "published": "2026-11-11T21:17:18Z",
+   "snippet": ""
+  },
   {
    "title": "Matvei Michkov Trade Speculation Could Help Edmonton In Oilers vs Flyers Matchup",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOUxnSS1SNXgxcHlTTnM0YWpZZlVmektGdGlWdHpLQTNQbWMwelF1d2V4bl9rS2V6LUsyOEFzVU45TFMzQXJUY3VUYkZMU0RRSTdLUkY2anl4RTJET0RKNzVoQkpkaEVKbjZOZTE3RkZCeGhpek5XNHplbWJKYWlnaHhRaWlTd0pNWlZmYTZOUjF3cXJMZWJvWDUzLUJnRlZKTjE4OWMtTHRMNWJDTkVNTndwNUE0bHV1S3VyOGltM1NHdlAxcGxUbFdoNmM?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-11T20:46:40Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "'Pretty good deal by Stan': Edmonton Oilers coach Mike Babcock praises Darnell Nurse trade",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWl9qeE5zSGJYU0JvRDhPdjYtbFJHZVNheWhTMUNKdl9IZ1pEbF9DVmwyVXdEZy1jQ0VCcU9CbnBHc1JCU0w4NzcwdTZpSkRfUXdvT2dxZ3Q5OW1DbmZlZmp6OUdELVBRR05QcndaTHRKcW83N09pM1kxeC1oSVR2Rjc0azNhRk1Yd3V5MFhmSng2WHpPNEQxQlEybk1MVkxKdnNVR2k3MWd0V1FoSDdVTk9ZX2FDYnZaMFJSOWQ3MlE?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-11T20:21:02Z",
    "snippet": "",
    "via": "google"
   },
@@ -150,9 +149,9 @@
   },
   {
    "title": "Mike Sullivan Saw What NY Rangers Could Become Against Oilers",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWjM3OWlsMnJIckc2R1g5RnhQSnMtaUlzVWM1cWpIYThwa3VZdTd6RkFxTDBjTWVPUEhYaXpZREpzS0JmaWxYdElFaWk3alhHN2piUVhlQ09uTHNXanU1UWMwVC02QWlkTnE2bFFSRUhzYVZEX0hPejhwdGVOZjNqd3hxQVgyOVdndW9JY3phZVdTWm9iaGV6UFNhalhQS1BZaTZUeQ?oc=5",
-   "source": "Sports Illustrated",
-   "published": "2026-11-11T16:00:02Z",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSUdiS0dJREt1SEM3dXFiWVByMkF1dVBSQjRHS0sybEJ2d2RkNEYzeHVLeTFYTHZJcndKZVpyYUhLYjZyZmxVdXlvY1RmeTRRUm83Wk4tdVppWnVoZjZ5alVOMlBYU1dockdTNUZJVVNhdWdvWXd2Vld2RkhkVlRELVprNA?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-11T16:00:05Z",
    "snippet": "",
    "via": "google"
   },
@@ -177,6 +176,14 @@
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMk5jMENjY0VZV1lvRWxILWQ5bXM0Ry1KbHdVTHZqcWJaa3R2ZFpaWUFVLWFPVUhsaFNzQVA1bnB1aTc1VDg3ZTV4YzJjUFpJZWNGMllaUWk3YkJpMnlHMGRFTFNGekFXcGNaenZtU004c3hNUmZBZ0RmdVhqaXhWTlBhVUNvSGpB?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-11T14:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL Game Preview: Philadelphia Flyers at Edmonton Oilers with Line Combinations 11/11/2026",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdk9zQVJjeEU0LTRkbXgzekllMi1jakZLUS14ejU2dHYxRHVCZS1NUW5WNGxoSlNkMC1YSi1CRXMzWnFqUWFLa3ZseEU3MzJyclFPVGZwM3dGNnNadF9yaDFtYmlpaWlfR2VVeHFUVFlNcEhReEtFV2duMlQ1VG1oQXdRcmRfMDRJX0xtNnZKejJQQ0dTMXlrS2IxM1liOEJlMXpYTWJqNUFtd2pDeWFYZlI4QW8teEk?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-11T13:42:22Z",
    "snippet": "",
    "via": "google"
   },
@@ -249,13 +256,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-09T18:12:20.005Z",
    "snippet": "EDMONTON, AB – Just a bruise for Nuge. Forward Ryan Nugent-Hopkins (upper body) appears to have avoided major injury and will be good to go tonight, while Colton Dach (illness) will be a…"
-  },
-  {
-   "title": "High-priced Edmonton Oiler hasn't thrown a hit all year, healthy scratched again",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-mike-babcock-new-york-rangers-jake-walman",
-   "source": "Edmonton Journal",
-   "published": "2026-11-09T16:46:06Z",
-   "snippet": ""
   },
   {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
