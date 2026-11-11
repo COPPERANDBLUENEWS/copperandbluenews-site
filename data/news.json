@@ -1,13 +1,35 @@
 {
- "updated": "2026-11-11T19:02:20Z",
+ "updated": "2026-11-11T19:39:43Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (0)",
-  "Google News (91)"
+  "Sportsnet (2)",
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Babcock on Oilers injury situation with Savoie, Andersen, Howard, Janmark",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWU05aGJXcHRNZnNtUGJCNDZocWZsdTlsQXRoX0J5UkF6QWRXSE9YMzlhY3ZwRXRqcnF4T0VjVWNHbkNuUl8tN2puS3FNUUp4c21weC1RYlJndnpUTlNUb1gxUGs5UnZGaGh1ZjBQc1RqMkJ5Uk5kV2Q5SkJmX1N3VUFpcjVxb0pKMU9kOVdCLXVtRkEyMmpTWnRmd3hPTnlLcjlJSFNqNXE?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-11T19:34:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "‘We’ve done well’: Oilers’ Babcock on team’s start, health progress",
+   "url": "https://www.sportsnet.ca/nhl/video/weve-done-well-oilers-babcock-on-teams-start-health-progress/",
+   "source": "Sportsnet",
+   "published": "2026-11-11T19:22:06Z",
+   "snippet": "Edmonton Oilers head coach Mike Babcock meets with the media and discusses his goaltenders, Matthew Savoie and Frederik Andersen’s progress, how he feels about his team a quarter of the way…"
+  },
+  {
+   "title": "Oilers’ McDavid on Levi, season progress, playoff-style hockey",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-on-levi-season-progress-playoff-style-hockey/",
+   "source": "Sportsnet",
+   "published": "2026-11-11T19:09:06Z",
+   "snippet": "Edmonton Oilers star Connor McDavid meets with the media and discusses Devon Levi’s play in net, how he feels about the team a quarter of the way into the season, playing playoff-style…"
+  },
   {
    "title": "Flyers at Oilers projected lineups",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPODRQR3J4SWVlZWxTY1ZUbkhuemxzQkFhUTd3NVc4bnNGNHdRaVZiZTljWXJEOWlHMl92eUpCSVVHeFV4NUwtbVBXOExlYkZXeGIyYWl2Zi1hMlZUMW55SzlXVHA3Z0QxXzdOX2Rvc20yZWttSF9MaWM2SlFWRUkyUFlUaW1BZ0VRaGozUS0xdG5xNGFD?oc=5",
@@ -17,7 +39,7 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers D Jake Walman set for sixth healthy scratch in eight games Wednesday vs. Philadelphia Flyers",
+   "title": "Oilers D Walman set for sixth healthy scratch in eight games Wednesday vs. Flyers",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOGNaay1kXzBxS01fTVAtQzF2Zmw1WHNBM0dwSV9pVFRGZUUwQTF4Zm02UWlBRVNoNnIxa0JnNE02aEw5TDZibGpSZHVaR1Bka2t4ZURaZVlfaDFNZ0M5ZlAxZnh1OEFHaHR4NU5NNTdIUnowRVE4MDNfdUFRR1E4ZDMta1E3TkxoRGpwdFZjNlZGa1dVUmZTaDRoSFlGSmZsRE9Gbm5USEczQk13TmVmeEF3?oc=5",
    "source": "TSN",
    "published": "2026-11-11T18:50:31Z",
@@ -152,14 +174,6 @@
    "via": "google"
   },
   {
-   "title": "NHL Game Preview: Philadelphia Flyers at Edmonton Oilers with Line Combinations 11/11/2026",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdk9zQVJjeEU0LTRkbXgzekllMi1jakZLUS14ejU2dHYxRHVCZS1NUW5WNGxoSlNkMC1YSi1CRXMzWnFqUWFLa3ZseEU3MzJyclFPVGZwM3dGNnNadF9yaDFtYmlpaWlfR2VVeHFUVFlNcEhReEtFV2duMlQ1VG1oQXdRcmRfMDRJX0xtNnZKejJQQ0dTMXlrS2IxM1liOEJlMXpYTWJqNUFtd2pDeWFYZlI4QW8teEk?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-11T13:42:22Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "PREVIEW: Oilers vs. Flyers",
    "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-flyers-11-11-26",
    "source": "EdmontonOilers.com",
@@ -244,13 +258,6 @@
    "snippet": ""
   },
   {
-   "title": "Edmonton Oilers goalie prospects wow with stellar performances",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-goalies-prospects-wow-with-stellar-performances",
-   "source": "Edmonton Journal",
-   "published": "2026-11-09T03:25:11Z",
-   "snippet": ""
-  },
-  {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
    "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
    "source": "NHL.com",
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-08T02:55:14.8Z",
    "snippet": "EDMONTON, AB – Goaltender Devon Levi recorded 20 saves in his return from injury, while Connor McDavid & Leon Draisaitl each had three points as the Edmonton Oilers ended a mini two-game…"
-  },
-  {
-   "title": "RELEASE: Oilers activate Levi & Hyman off IR; Tomkins loaned to Condors",
-   "url": "https://www.nhl.com/oilers/news/release-oilers-activate-devon-levi-zach-hyman-off-ir",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T22:56:48.658Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers have activated goalie Devon Levi and forward Zach Hyman off Injured Reserve, the team announced on Saturday. Goalie Matt Tomkins has also been loaned to…"
   }
  ]
 }

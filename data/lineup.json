@@ -267,14 +267,14 @@
    "num": 35,
    "pos": "G"
   },
-  "status": "Unconfirmed",
+  "status": "Confirmed",
   "backup": {
    "id": 8482221,
    "name": "Devon Levi",
    "num": 27,
    "pos": "G"
   },
-  "note": null
+  "note": "Jarry will start vs. Philadelphia on Wednesday. "
  },
  "scratches": [
   {
@@ -475,5 +475,5 @@
    "note": "Vladar is in the starter's crease at Philadelphia's morning skate. "
   }
  },
- "updated": "2026-11-11T17:57:33Z"
+ "updated": "2026-11-11T19:39:43Z"
 }
