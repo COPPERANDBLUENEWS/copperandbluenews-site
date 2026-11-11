@@ -1,18 +1,34 @@
 {
- "updated": "2026-11-11T00:13:07Z",
+ "updated": "2026-11-11T01:10:10Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (89)"
+  "Google News (91)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "Oilers injury update: Savoie, Andersen, Janmark not close to returning",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDBwZGU5TWpGRzJiRmV0TWtPVWVwMHRQdWNmZU96UlpzcXNkX1dYeFFYZVYzR2xPWV83OVhlU0g2VTVuQTNVM3BDUmF0cXBULWJ4c3JIRjlMZkYxX0ptRkdEcU9PbkRCdXR2ZUFOTUc3a3FvMldENFBfVlJOemRMSmZycDFlZWxDejNKLVJzeEQwYkNoMDV5eUFqR1JZY1hUcE52X2FhaWVkQXFyeFo2dU1KN21HTkViTDRObUY0OA?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-11T00:24:41Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Tape Room: Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTlZkbk9OSVFTTEFjcllySnZ0cG5Ja3R0R3lXbFVqN3FSeXBGczJqM3lzN1hFaE1JYlZvOS04c1dKbWlMNmltS0hScDVla1JQRDk4WThXN0RXaXE3UG1TbG5TeFdSMTJETG5NUzZ5MWNnT1N1elFEaGxvelNtcGFSZlVHLTQzRUV3dFZxUEdLaXp4UWQwUEk2TkxHYw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nbXMta3I2dndWekdQa3MxajlyU0dpTUFpMVlXRHVqUjR1aU4yZ0ZqVksxNFB0WTFoejE4VFlMY0JLenJBVFM3RVVqU2hYZ1VYUVNUeWE3b0JzWWFOaDRLX1Q0WmdjV2VNZDFkcFBKdVgwSFE?oc=5",
    "source": "NHL.com",
    "published": "2026-11-11T00:06:37Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Philadelphia Flyers - Edmonton Oilers - Nov 11, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYVGh1VDdqS1RCV3NXUHY1VndRUVlZNlljeDFzek9IVks1WnZVODFMNHlxM2lqNTZFYmhnelZtWEl3cmNwRTM5bm9TMmVQQ1VJNVkyUy1tMkRVWExxZXozWC1lSDN3a3l4QTctdGFVWTk?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-10T23:05:39Z",
    "snippet": "",
    "via": "google"
   },
@@ -33,27 +49,19 @@
    "via": "google"
   },
   {
-   "title": "Oilers injury update: Savoie, Andersen, Janmark not close to returning",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeDBwZGU5TWpGRzJiRmV0TWtPVWVwMHRQdWNmZU96UlpzcXNkX1dYeFFYZVYzR2xPWV83OVhlU0g2VTVuQTNVM3BDUmF0cXBULWJ4c3JIRjlMZkYxX0ptRkdEcU9PbkRCdXR2ZUFOTUc3a3FvMldENFBfVlJOemRMSmZycDFlZWxDejNKLVJzeEQwYkNoMDV5eUFqR1JZY1hUcE52X2FhaWVkQXFyeFo2dU1KN21HTkViTDRObUY0OA?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-10T22:13:50Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Former Lakers goalie new Oilers EBUG",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS2puU1BwQmp3RlI4WVh0YUtMbHVOTzhtcnpzNlo1UDJ6elhoWWgyS1FweGlWTkdGUmV3bHZ3QjljRnBzT2tMRG9USTlUanhkUHVUaDRSTjRNUzYxdGZ2MldHYXpLN3BEMWdKcEVwZWJWbWR1SFdSOG5mQW16Ul84RDJ3?oc=5",
-   "source": "BayToday.ca",
-   "published": "2026-11-10T22:02:08Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Edmonton Elks QB Fajardo manifested Grey Cup showdown against old team",
    "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-grey-cup-montreal-alouettes-cody-fajardo-calgary",
    "source": "Edmonton Journal",
    "published": "2026-11-10T22:00:48Z",
    "snippet": "'I couldn't help but think there's a reason why I'm here leading this ball club, there's a reason why they're in the Grey Cup and we're in'"
+  },
+  {
+   "title": "Former Lakers goalie new Oilers EBUG",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPS2puU1BwQmp3RlI4WVh0YUtMbHVOTzhtcnpzNlo1UDJ6elhoWWgyS1FweGlWTkdGUmV3bHZ3QjljRnBzT2tMRG9USTlUanhkUHVUaDRSTjRNUzYxdGZ2MldHYXpLN3BEMWdKcEVwZWJWbWR1SFdSOG5mQW16Ul84RDJ3?oc=5",
+   "source": "BayToday.ca",
+   "published": "2026-11-10T22:00:00Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Levi On A Hot Streak With The Oilers",
@@ -148,14 +156,6 @@
    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92b3ZnSjN1UGFoR1ZqQWJXSldPazMyZnB4OGNUdnRNWHNhR0tYQ19GOWx3ek1TSTJPRTFiX3Exb2h5Zk5NMEdPb3NCVUswbjZ1d2VWT1JPNk9Gc2F2NkQzTnhMYmRlZGlyVm4tbw?oc=5",
    "source": "Daily Hive",
    "published": "2026-11-10T18:20:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers slow to put the New York Rangers away",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORDRGNFRLNEVZbTEyd0hTTWJfanFJY3NMbXBHRlNmc1p0Zm1sOUdaeVlKNy1yTTZ5dG1QQ1Q4bl8zd1hFem1oS0JKTmxlQTgwQjI4R19YcUZIVWdMdVB6d3RtNlBjcTdxZ0JXLTlfVUFnQVQzckw3TW1RQWFYZXN4TzBsUnoybmVrNExybTZTSHFxaDQ?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-10T18:08:06Z",
    "snippet": "",
    "via": "google"
   },
