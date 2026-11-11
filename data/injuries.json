@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-11T18:28:43Z",
+ "updated": "2026-11-11T19:02:20Z",
  "basis": {
   "name": "NHL.com projected lineups",
-  "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-preview-november-9-2026",
-  "date": "2026-11-09",
-  "title": "Rangers at Oilers projected lineups"
+  "url": "https://www.nhl.com/news/philadelphia-flyers-edmonton-oilers-game-preview-november-11-2026",
+  "date": "2026-11-11",
+  "title": "Flyers at Oilers projected lineups "
  },
  "players": [
   {
@@ -13,12 +13,12 @@
    "injury": "undisclosed",
    "status": "Out",
    "expectedReturn": "\"Maybe December\" (Babcock, Sep 29)",
-   "updated": "2026-11-09",
+   "updated": "2026-11-11",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-preview-november-9-2026",
-     "date": "2026-11-09"
+     "url": "https://www.nhl.com/news/philadelphia-flyers-edmonton-oilers-game-preview-november-11-2026",
+     "date": "2026-11-11"
     },
     {
      "name": "Edmonton Journal",
@@ -26,23 +26,7 @@
      "date": "2026-09-29"
     }
    ],
-   "note": null
-  },
-  {
-   "name": "Colton Dach",
-   "id": 8482703,
-   "injury": "illness",
-   "status": "Out",
-   "expectedReturn": null,
-   "updated": "2026-11-09",
-   "sources": [
-    {
-     "name": "NHL.com",
-     "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-preview-november-9-2026",
-     "date": "2026-11-09"
-    }
-   ],
-   "note": null
+   "note": "Babcock also said Andersen is expected to remain out until the new year following offseason knee surgery."
   },
   {
    "name": "Isaac Howard",
@@ -50,12 +34,12 @@
    "injury": "lower body",
    "status": "Out",
    "expectedReturn": "\"A couple weeks\" (Babcock, Nov 3)",
-   "updated": "2026-11-09",
+   "updated": "2026-11-11",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-preview-november-9-2026",
-     "date": "2026-11-09"
+     "url": "https://www.nhl.com/news/philadelphia-flyers-edmonton-oilers-game-preview-november-11-2026",
+     "date": "2026-11-11"
     },
     {
      "name": "Sportsnet",
@@ -63,7 +47,7 @@
      "date": "2026-11-03"
     }
    ],
-   "note": null
+   "note": "Oilers coach Mike Babcock said Howard, a forward who will miss his sixth game since getting injured in a 4-0 win at the New York Islanders Oct. 31, will begin practicing with the team later this week and is expected to rejoin the roster during their upcoming…"
   },
   {
    "name": "Mattias Janmark",
@@ -71,12 +55,12 @@
    "injury": "undisclosed",
    "status": "Out",
    "expectedReturn": "\"A ways away\", no date (Babcock, Sep 29)",
-   "updated": "2026-11-09",
+   "updated": "2026-11-11",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-preview-november-9-2026",
-     "date": "2026-11-09"
+     "url": "https://www.nhl.com/news/philadelphia-flyers-edmonton-oilers-game-preview-november-11-2026",
+     "date": "2026-11-11"
     },
     {
      "name": "Edmonton Journal",
@@ -92,12 +76,12 @@
    "injury": "undisclosed",
    "status": "LTIR",
    "expectedReturn": null,
-   "updated": "2026-11-09",
+   "updated": "2026-11-11",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-preview-november-9-2026",
-     "date": "2026-11-09"
+     "url": "https://www.nhl.com/news/philadelphia-flyers-edmonton-oilers-game-preview-november-11-2026",
+     "date": "2026-11-11"
     },
     {
      "name": "EdmontonOilers.com",
@@ -113,12 +97,12 @@
    "injury": "undisclosed",
    "status": "Out",
    "expectedReturn": null,
-   "updated": "2026-11-09",
+   "updated": "2026-11-11",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-preview-november-9-2026",
-     "date": "2026-11-09"
+     "url": "https://www.nhl.com/news/philadelphia-flyers-edmonton-oilers-game-preview-november-11-2026",
+     "date": "2026-11-11"
     }
    ],
    "note": null
