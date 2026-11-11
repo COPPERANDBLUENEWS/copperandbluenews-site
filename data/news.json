@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-11T22:32:58Z",
+ "updated": "2026-11-11T23:28:25Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (88)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Connor McDavid’s minutes are up under Mike Babcock, but is it a problem?",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVjV0T2o2T1M2enozaXdqSUMxYmx2ZUZDNUlpRmNnaFBmdE9GQm1BSjFPVU03elFkbTAwakNuTGtUX29KdXZsdW96YmdyTnhmRmJ6dnAweTZ0UjlMcWs4dDNKeFhOWXRGQlFBbS0yenJ3YzBNV19SNWZsUXV2d1EteUdJR1RYbDVPZ2hqaHlqNUxIczIyMllzbA?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-11T21:48:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "'Pretty good deal by Stan': Mike Babcock praises trade of veteran Edmonton Oilers d-man",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWl9qeE5zSGJYU0JvRDhPdjYtbFJHZVNheWhTMUNKdl9IZ1pEbF9DVmwyVXdEZy1jQ0VCcU9CbnBHc1JCU0w4NzcwdTZpSkRfUXdvT2dxZ3Q5OW1DbmZlZmp6OUdELVBRR05QcndaTHRKcW83N09pM1kxeC1oSVR2Rjc0azNhRk1Yd3V5MFhmSng2WHpPNEQxQlEybk1MVkxKdnNVR2k3MWd0V1FoSDdVTk9ZX2FDYnZaMFJSOWQ3MlE?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-11T21:45:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Michkov, Seeler all good as brief storm on Flyers bench blows over",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/michkov-seeler-all-good-as-brief-storm-on-flyers-bench-blows-over",
@@ -22,13 +38,6 @@
    "published": "2026-11-11T20:46:40Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "'Pretty good deal by Stan': Mike Babcock praises trade of veteran Edmonton Oilers d-man",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-coach-mike-babcock-praises-darnell-nurse-trade",
-   "source": "Edmonton Journal",
-   "published": "2026-11-11T20:20:33Z",
-   "snippet": ""
   },
   {
    "title": "Babcock on Oilers injury situation with Savoie, Andersen, Janmark, Howard",
@@ -172,22 +181,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers injury rumours are a cause for concern",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMk5jMENjY0VZV1lvRWxILWQ5bXM0Ry1KbHdVTHZqcWJaa3R2ZFpaWUFVLWFPVUhsaFNzQVA1bnB1aTc1VDg3ZTV4YzJjUFpJZWNGMllaUWk3YkJpMnlHMGRFTFNGekFXcGNaenZtU004c3hNUmZBZ0RmdVhqaXhWTlBhVUNvSGpB?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-11T14:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL Game Preview: Philadelphia Flyers at Edmonton Oilers with Line Combinations 11/11/2026",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdk9zQVJjeEU0LTRkbXgzekllMi1jakZLUS14ejU2dHYxRHVCZS1NUW5WNGxoSlNkMC1YSi1CRXMzWnFqUWFLa3ZseEU3MzJyclFPVGZwM3dGNnNadF9yaDFtYmlpaWlfR2VVeHFUVFlNcEhReEtFV2duMlQ1VG1oQXdRcmRfMDRJX0xtNnZKejJQQ0dTMXlrS2IxM1liOEJlMXpYTWJqNUFtd2pDeWFYZlI4QW8teEk?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-11T13:42:22Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "PREVIEW: Oilers vs. Flyers",
    "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-flyers-11-11-26",
    "source": "EdmontonOilers.com",
@@ -277,6 +270,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-08T02:55:14.8Z",
    "snippet": "EDMONTON, AB – Goaltender Devon Levi recorded 20 saves in his return from injury, while Connor McDavid & Leon Draisaitl each had three points as the Edmonton Oilers ended a mini two-game…"
+  },
+  {
+   "title": "RELEASE: Oilers activate Levi & Hyman off IR; Tomkins loaned to Condors",
+   "url": "https://www.nhl.com/oilers/news/release-oilers-activate-devon-levi-zach-hyman-off-ir",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-07T22:56:48.658Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers have activated goalie Devon Levi and forward Zach Hyman off Injured Reserve, the team announced on Saturday. Goalie Matt Tomkins has also been loaned to…"
   }
  ]
 }
