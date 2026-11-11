@@ -420,9 +420,9 @@
      "pos": "LD"
     },
     {
-     "id": 8481122,
-     "name": "Simon Benoit",
-     "num": 44,
+     "id": 8477499,
+     "name": "Rasmus Ristolainen",
+     "num": 55,
      "pos": "RD"
     }
    ]
@@ -449,8 +449,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/philadelphia-flyers/line-combinations",
     "what": "line combinations",
-    "basis": "Last Game (2026-11-09)",
-    "updatedAt": "2026-11-10T15:17:59.241Z"
+    "basis": "Jackie Spiegel",
+    "updatedAt": "2026-11-11T17:37:38.641Z"
    },
    {
     "name": "DailyFaceoff",
@@ -465,15 +465,15 @@
     "num": 80,
     "pos": "G"
    },
-   "status": "Unconfirmed",
+   "status": "Likely",
    "backup": {
     "id": 8479361,
     "name": "Joseph Woll",
     "num": 53,
     "pos": "G"
    },
-   "note": null
+   "note": "Vladar is in the starter's crease at Philadelphia's morning skate. "
   }
  },
- "updated": "2026-11-11T12:35:27Z"
+ "updated": "2026-11-11T17:57:33Z"
 }
