@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-12T16:39:21Z",
+ "updated": "2026-11-12T17:33:14Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (93)"
+  "Google News (94)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Edmonton Oilers withstand pressure from the Flyers and earn a victory",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZEZQM1lJVjRXbURZZzc1LUcwMWVZVFEyNjRwNmk4dHBkVFpDaXRQYzNwZHVablZRYlhuRFQ3RDJmNGZnMHA5and0ajM3YmNJQTN6Nmp5ZEJKcXFSbExkQ0tVbURCSjdmZENpMDRyYXhrNVNQZjBOOEM5VWItNEtqWm9wNG1iVmFZSU5XeG52ZnpiRGNMclY2REpNNEtGa0dFcXFpeDByUTQ?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-12T17:10:39Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "The Oilers Are A Bunch Of Squirts And A Couple Of Gods",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOb3NINDRkdGUydnFTQ1VETzQwaEh4X1pHYWZhdWJsX2U4dnM0amxheHBrbjdlZnk4alhxNjg0WHdfVmtzSGYxa0FBcnBnQ3Z4TkJLX21HVndTdFBWS3dtWmVHX1BFVk43OHdTOFpWcUtnR2F6RnM2dVJuZjRMejVFcQ?oc=5",
+   "source": "Defector",
+   "published": "2026-11-12T16:41:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers’ Early Success Raises Sustainability Questions",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOTFPZlE3OTVFSGlxUE1kajhROFJxNXpvZzdnNlI2Y1hKR3gxbElvVjg3NzhUaUMtdVlhSFBNdkQwTGVXTFN4aURLRkUydlFPMWNhd2dfVG5QSWNXd0ctWVlIc0h1c3FyWHpnYXdWcmdjQXRuVzJ3SmpadHBGVWh5REttZWJ2aDNsdEE?oc=5",
@@ -151,22 +167,6 @@
    "via": "google"
   },
   {
-   "title": "Watch Philadelphia Flyers vs. Edmonton Oilers | Disney+",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLVM1dmxNYTNoRjhEQ0NMMWRRcGdGTlE5dWhFdkZYT1hLTDhqT0N6LTZiRy1NX1VVYlgtclEzTndYcl9MRFdLMVI3SkpvZzEzUUlNSUQtOE5ySVgyU0w4OEFIRWhFRXhnc210UHBOMmgxelVhUW1KeWtRSmd3bkgtUzBEaHNQdnl6amlF?oc=5",
-   "source": "Disney Plus",
-   "published": "2026-11-12T05:41:35Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Jarry Bails Out Oilers, But Babcock Wants Less Goaltending Heroics",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcUdfSU8wRVJ4NkEzeXRFRXZCTFl1SmJpc2NycUlhUDA4N3ZkdUhaQnF0MXBPenZnWGluTFBZUW5fdW1KVDJSVzFoWTZ4MHRUZk9HRGV2UkZMd3VKZmtjT0FhdW5qeHlacGRldUdxLTJuTkswTEpuSDJtV1VZTXJ2bDVIRWhScHc?oc=5",
-   "source": "Yahoo",
-   "published": "2026-11-12T05:41:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "NHL Highlights: Oilers 3, Flyers 2 (OT)",
    "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-oilers-3-flyers-2-ot/",
    "source": "Sportsnet",
@@ -273,8 +273,8 @@
   },
   {
    "title": "McDavid pushes season-opening point streak to 19 in Oilers win against Rangers",
-   "url": "https://www.nhl.com/oilers/news/new-york-rangers-edmonton-oilers-game-recap-november-9-2026-x1076",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-recap-november-9-2026",
+   "source": "NHL.com",
    "published": "2026-11-10T05:46:00Z",
    "snippet": "EDMONTON -- Connor McDavid scored a goal to extend his season-opening point streak to 19 games, helping the Edmonton Oilers to a 3-1 win against the New York Rangers at Rogers Place on…"
   }
