@@ -1,20 +1,34 @@
 {
- "updated": "2026-11-12T22:25:05Z",
+ "updated": "2026-11-12T23:21:10Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (2)",
-  "Google News (88)"
+  "Sportsnet (3)",
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Edmonton Oilers coach Mike Babcock's tough love approach faces its biggest challenge",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVW13TUxaeVhzVnZLYThOV0xUWUlKa1B5SU1KX1Bxakpid1pTcXpJOW5OTk1QTXlKRzB4RFBBWDRMcURWTDJsc2pNSG94RHVHTEVMdUdjckF0QjZMZWhZUDVHb2lZVFVaVC1ncHNPUF9mN1RMR1Z5bS1JS0I5NzhVdGFtMWdTRlZtZmRROUlWa2JpUzdMQktSYWxoaWJvd29RczBPRi1DVHZzQzk2RHlSSFBURWUyMTFIZm4xYTYyVmNKYXFRRExLbGI1SElMek4wN2tsNVVB?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-12T22:19:02Z",
+   "title": "Elks QB Fajardo carrying extra motivation into Grey Cup",
+   "url": "https://www.sportsnet.ca/cfl/article/elks-qb-fajardo-carrying-extra-motivation-into-grey-cup/",
+   "source": "Sportsnet",
+   "published": "2026-11-12T22:39:13Z",
+   "snippet": "After helping Montreal win a Grey Cup, Cody Fajardo believed he had done enough to remain its starting quarterback until they decided to hand the keys to Davis Alexander. Now, with…"
+  },
+  {
+   "title": "How Much Credit Does Mike Babcock Deserve For The Edmonton Oilers' Early Success?",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNR1dZeGZtYnE5VFU1OEN2LXh5VHEzUGRsMXJYdURXQ2lBSnRoSTF5bl9KeEpWMXpEVU53ZDhfTlNOUnppaVpaZEpQSlllRVI3Ti1yMU5Ldlk1ejB4UWtQb0dBYjVkMF9RbHVuWmFZS2hOamhGX3hOWmV2WFJSTlJBZnRIUQ?oc=5",
+   "source": "Yahoo",
+   "published": "2026-11-12T22:36:54Z",
    "snippet": "",
    "via": "google"
+  },
+  {
+   "title": "Babcock's tough love approach faces its biggest challenge",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-coach-mike-babcocks-owen-michales-alex-formenton-connor-murphy",
+   "source": "Edmonton Journal",
+   "published": "2026-11-12T22:18:50Z",
+   "snippet": ""
   },
   {
    "title": "Oilers' McDavid is chasing a Gretzky record that seems impossible to break",
@@ -263,20 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-10T22:00:48Z",
    "snippet": "'I couldn't help but think there's a reason why I'm here leading this ball club, there's a reason why they're in the Grey Cup and we're in'"
-  },
-  {
-   "title": "McDavid pushes season-opening point streak to 19 in Oilers win against Rangers",
-   "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-recap-november-9-2026",
-   "source": "NHL.com",
-   "published": "2026-11-10T05:46:00Z",
-   "snippet": "EDMONTON -- Connor McDavid scored a goal to extend his season-opening point streak to 19 games, helping the Edmonton Oilers to a 3-1 win against the New York Rangers at Rogers Place on…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Nugent-Hopkins good to go for Monday's matchup with Rangers",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-good-to-go-for-monday-s-matchup-with-rangers-11-09-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-09T18:12:20.005Z",
-   "snippet": "EDMONTON, AB – Just a bruise for Nuge. Forward Ryan Nugent-Hopkins (upper body) appears to have avoided major injury and will be good to go tonight, while Colton Dach (illness) will be a…"
   }
  ]
 }
