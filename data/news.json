@@ -1,26 +1,26 @@
 {
- "updated": "2026-11-11T23:28:25Z",
+ "updated": "2026-11-12T00:29:42Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (87)"
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "'Pretty good deal by Stan': Mike Babcock praises trade of veteran Edmonton Oilers d-man",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWl9qeE5zSGJYU0JvRDhPdjYtbFJHZVNheWhTMUNKdl9IZ1pEbF9DVmwyVXdEZy1jQ0VCcU9CbnBHc1JCU0w4NzcwdTZpSkRfUXdvT2dxZ3Q5OW1DbmZlZmp6OUdELVBRR05QcndaTHRKcW83N09pM1kxeC1oSVR2Rjc0azNhRk1Yd3V5MFhmSng2WHpPNEQxQlEybk1MVkxKdnNVR2k3MWd0V1FoSDdVTk9ZX2FDYnZaMFJSOWQ3MlE?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-11T21:48:47Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Connor McDavid’s minutes are up under Mike Babcock, but is it a problem?",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVjV0T2o2T1M2enozaXdqSUMxYmx2ZUZDNUlpRmNnaFBmdE9GQm1BSjFPVU03elFkbTAwakNuTGtUX29KdXZsdW96YmdyTnhmRmJ6dnAweTZ0UjlMcWs4dDNKeFhOWXRGQlFBbS0yenJ3YzBNV19SNWZsUXV2d1EteUdJR1RYbDVPZ2hqaHlqNUxIczIyMllzbA?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-11T21:48:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "'Pretty good deal by Stan': Mike Babcock praises trade of veteran Edmonton Oilers d-man",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWl9qeE5zSGJYU0JvRDhPdjYtbFJHZVNheWhTMUNKdl9IZ1pEbF9DVmwyVXdEZy1jQ0VCcU9CbnBHc1JCU0w4NzcwdTZpSkRfUXdvT2dxZ3Q5OW1DbmZlZmp6OUdELVBRR05QcndaTHRKcW83N09pM1kxeC1oSVR2Rjc0azNhRk1Yd3V5MFhmSng2WHpPNEQxQlEybk1MVkxKdnNVR2k3MWd0V1FoSDdVTk9ZX2FDYnZaMFJSOWQ3MlE?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-11T21:45:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -150,6 +150,14 @@
    "via": "google"
   },
   {
+   "title": "Philadelphia Flyers at Edmonton Oilers - NHL Game Summary - Nov 11, 2026",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOVjh1OWFRZ2pSNGtvMmJhbkRaVjVKNk5SdFQyckExc0pDSVRUSFVWVXp4ek50WmJCWERhUHByZTF0ZlRXVWNhZTVnNUw5MVZvdENUWEVVN2MtMHB5SFZjZGRtM3NPRVFWd0NieGdKQ1NTQ1pwSDRTZTA2bEF1Si1mTDhiQWQ3VG4zWWZ3RjRSaHhQcGxIOTY4T2E0ZXJYQlNKTzktaUM2UEdKSHl2Mzh4MVdPb215aDFxc19GOG1qdUlaM2RCQ3NsZW9LRkc5Q25HT3FGTlV4YUFvUEJRRXNhZjN0bVlrNGx1YXp5Vw?oc=5",
+   "source": "USA Today",
+   "published": "2026-11-11T16:04:47Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "RELEASE: EOCF donates $100,000 to CFB Wainwright Support Fund",
    "url": "https://www.nhl.com/oilers/news/release-eocf-donates-100-000-to-cfb-wainwright-support-fund",
    "source": "EdmontonOilers.com",
@@ -169,14 +177,6 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVjlYV2hQb2tCb05nMlVKS2hwcFlMSmlSMDJqVHprQ3NfYm1WZ2hfNy13YnRiZHJVLV9EVGtSRGNpQjlWdW9oZWJlcnN1RkdjZ05qZm9lZGJfVXF0RVM2TldtNzduQUFMdnBhZHIyU09VVE1hZmVubXRlaU1ZTlJJTlNPeUNlOFI1RDdVZ2ZtanJGZVdTekc0NVBZbkM?oc=5",
    "source": "The New York Times",
    "published": "2026-11-11T15:00:05Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers’ Ryan Shea Has Quickly Become Team’s Number Two Defender",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZm90ejRtRVpITl9OOU5DVjhBVmMyTHlDbllGaVhaTllyTnRzLWNLYmhKc2VIUGtncl9wSF9vYjJOZUd4RnVJMGw1TS1ZSHg5eVM4ZVlNWF82VUVpeWpMcXE3U0M2dVFtZlRxX1prLVpSQjd2X0lDQThCcFE5YlNNcmJQXy1OaTRXYlVfQ0F3VE9rdnpvU1E?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-11T14:25:00Z",
    "snippet": "",
    "via": "google"
   },
