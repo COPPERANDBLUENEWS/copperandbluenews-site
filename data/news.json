@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-12T19:34:19Z",
+ "updated": "2026-11-12T20:26:55Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (10)",
+  "Edmonton Journal (50)",
   "Sportsnet (3)",
-  "Google News (93)"
+  "Google News (92)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Connor McDavid’s hot start is driving Oilers’ success",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSkJLRHA3MERYWTlVSXd5SnJwMnFBR0xnRFVHeGJpLURXUWtTejBHaHFZODEwNFZFRldONEwxUzFqZldpV0k5Qy0tM3RNVHJXblU0YzFzQXU5OERjRHVLbE1URVppdlFQMnZHcGxQYnhOdndTdG1wV1BDWkhSbXgyN05VV19WUU9PMFp4Y1JvbVAwX3BVbUZnSkxn?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-12T20:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Grateful For Zach Hyman, Again",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMS1Ieks4NXhuV0k3TGUtaUJuX2dnMFNQWnZYVy1rVHRBcE16bER2YWMzS1ZnaTlXYUxqMmRHTmEzOW9fMWp0OVBmTFViaUt6NUpQRlF4dDlMeXZzUFQtME9nN2VMa2JyblJ3OFVUNzdVLVF2aUFEbkVzc28tLWVVWHVwWm5lTEZkbmpEbV93ZnJCV3p6aU9oOTV3?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-12T19:54:18Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "20 games later, Mike Babcock and the Edmonton Oilers seem a perfect match",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYlZqMkdQd1RFNjN6VTRKTG9HWW9FRnBsb0FpcEpfSlR3eEllOXl0VGJGYkRNR0ZTbXB0UDNzOVJELWIzSWtnbVJpY29UUUVaaVB5Y3g4aUhBVjltWU1meUVNS3E0UFlyVVpjdHoxTU5mOFRKSG1TTDNFUGdwTHJ2VndGNjE2am9YeG9SUnFqQndnM3lv?oc=5",
@@ -144,22 +160,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers Beat Flyers in Overtime for Third Straight Win",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd0FXMEtCWk0tc1NFSWthbjM5ZlJYMXZhM2E1UE5QVmZLbXBMSTNEUEh2TWx2NTVTNFVWdEJNYTJUTmNqXzJ0N0NmR05vM19kZk9SVlk3NDdlQXM2M2l4VlR3OS1FNnMxb0p6eW9HN2J2UlM5czdWYTFEc2x1WDZOLVU0YkhNX0tHNWpkX3FHaktDVzRrOW5lN3RaVUx5WjJHRW1sVDBR?oc=5",
-   "source": "SportsNews",
-   "published": "2026-11-12T09:58:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "QUICK RECAP: Oilers 3, Flyers 2 (OT)",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EZ2t4dUNHQ0ttVnNOclNQcUdMTkRmR1JmWTVsb3kwRTVNSmZBZjctSm83RG1oOF9vemZQUXZvaUJndFg3OW9rYzFzMjdxeThidzk1NjluOUZpNVFmdkl3Y2ZjYXloYlRSUTRsOUtJN0c3cTdCcWhlT3Jn?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-12T08:18:17Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "McDavid’s season-opening point streak hits 20, Oilers top Flyers in OT",
    "url": "https://www.nhl.com/news/philadelphia-flyers-edmonton-oilers-game-recap-november-11-2026",
    "source": "NHL.com",
@@ -193,6 +193,13 @@
    "source": "Sportsnet",
    "published": "2026-11-12T03:48:51Z",
    "snippet": "Watch as Edmonton Oilers captain Connor McDavid extends his point streak to 20 games with an assist on Zach Hyman’s second goal of the night against the Philadelphia Flyers."
+  },
+  {
+   "title": "QUICK RECAP: Oilers 3, Flyers 2 (OT)",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-flyers-11-11-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-12T01:56:05.523Z",
+   "snippet": "EDMONTON, AB – Flying high. Zach Hyman scored two goals, while Tristan Jarry made 30 saves, but it was Evan Bouchard's decisive winner just 47 seconds into overtime that ultimately gave the…"
   },
   {
    "title": "Fajardo giving Edmonton Elks a long lost sense of identity at Grey Cup",
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-10T22:00:48Z",
    "snippet": "'I couldn't help but think there's a reason why I'm here leading this ball club, there's a reason why they're in the Grey Cup and we're in'"
-  },
-  {
-   "title": "McDavid pushes season-opening point streak to 19 in Oilers win against Rangers",
-   "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-recap-november-9-2026",
-   "source": "NHL.com",
-   "published": "2026-11-10T05:46:00Z",
-   "snippet": "EDMONTON -- Connor McDavid scored a goal to extend his season-opening point streak to 19 games, helping the Edmonton Oilers to a 3-1 win against the New York Rangers at Rogers Place on…"
   }
  ]
 }
