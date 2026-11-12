@@ -37,9 +37,9 @@
   ],
   [
    {
-    "id": 8477953,
-    "name": "Kasperi Kapanen",
-    "num": 42,
+    "id": 8482703,
+    "name": "Colton Dach",
+    "num": 34,
     "pos": "LW"
    },
    {
@@ -57,9 +57,9 @@
   ],
   [
    {
-    "id": 8482703,
-    "name": "Colton Dach",
-    "num": 34,
+    "id": 8477953,
+    "name": "Kasperi Kapanen",
+    "num": 42,
     "pos": "LW"
    },
    {
@@ -69,9 +69,9 @@
     "pos": "C"
    },
    {
-    "id": 8478472,
-    "name": "Mathieu Joseph",
-    "num": 21,
+    "id": 8479365,
+    "name": "Trent Frederic",
+    "num": 10,
     "pos": "RW"
    }
   ],
@@ -89,9 +89,9 @@
     "pos": "C"
    },
    {
-    "id": 8479365,
-    "name": "Trent Frederic",
-    "num": 10,
+    "id": 8478472,
+    "name": "Mathieu Joseph",
+    "num": 21,
     "pos": "RW"
    }
   ]
@@ -243,14 +243,16 @@
    "status": "IR"
   }
  ],
- "notes": [],
+ "notes": [
+  "Projection is based on the Last Game (2026-11-11) lineup until morning skate or practice updates."
+ ],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "@EdmontonOilers",
-   "updatedAt": "2026-11-12T01:46:35.879Z"
+   "basis": "Last Game (2026-11-11)",
+   "updatedAt": "2026-11-12T14:36:55.072Z"
   },
   {
    "name": "DailyFaceoff",
@@ -260,16 +262,16 @@
  ],
  "goalie": {
   "starter": {
-   "id": 8477465,
-   "name": "Tristan Jarry",
-   "num": 35,
+   "id": 8482221,
+   "name": "Devon Levi",
+   "num": 27,
    "pos": "G"
   },
   "status": "Unconfirmed",
   "backup": {
-   "id": 8482221,
-   "name": "Devon Levi",
-   "num": 27,
+   "id": 8477465,
+   "name": "Tristan Jarry",
+   "num": 35,
    "pos": "G"
   },
   "note": null
@@ -495,5 +497,5 @@
    "note": null
   }
  },
- "updated": "2026-11-12T13:19:22Z"
+ "updated": "2026-11-12T15:33:52Z"
 }

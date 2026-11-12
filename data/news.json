@@ -1,13 +1,36 @@
 {
- "updated": "2026-11-12T13:52:56Z",
+ "updated": "2026-11-12T15:33:52Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (95)"
+  "Google News (94)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
+   "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
+   "source": "NHL.com",
+   "published": "2026-11-12T15:05:00Z",
+   "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
+  },
+  {
+   "title": "The Oilers Have Found Something the Maple Leafs Are Still Missing",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSmg1V2RTWnAteTBQbUJYNWFJMkpocGpDQldUa3FMVy0zdjdKSDQ4cWtYWktDb3BJQ2dlZ0NCbWpEN3M2ektnZE9UcmtkS1hNUWFqbTY5QnNNU1BqZ3JWcHFld3RzR3BpTmtnb3VMTklNcm12VmRNN0xKaWoyN0QycGpfcUFIbkFzdEVHTlhGQzFyeW55cnlodUNNRQ?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-12T14:25:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Top 100 Oilers: No. 13 — Doug Weight",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQXl5RHJVckE1TmhCcExSaXF3dURId1p1bE9SYmIteGFmTFcwalppTEE3YmJmcGhNREg2OUxwejlYZ1JmRzh4LU5QaktFVFE2WGlmdE9oUjJxby1XeGlqX1dmMmFxN19nd3hTVnZ6ejZjTjIwUUlncFNETDhoM3ZTanN3?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-12T14:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "3 Takeaways From Oilers’ 3-2 Overtime Win Against Flyers",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY3JLOVg1N0hBa3BZZG10cGRIX3hzYVY3aGwyWEZSQU1aS2dmOGxxdzFUcFUyVVNpUzhUZUpWOXVxVXVodnZRa3RwTlp2QjJ4aHE5Q2dwOURYbzYzelg3ZVAtWEpMZ3dMUWhqMDQzemkxRkw0b3BhaGhlQVpCZTJtMlVlSTRIR2dUSGdrQ2R3?oc=5",
@@ -64,26 +87,10 @@
    "via": "google"
   },
   {
-   "title": "Philadelphia Flyers - Edmonton Oilers - Nov 11, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYVGh1VDdqS1RCV3NXUHY1VndRUVlZNlljeDFzek9IVks1WnZVODFMNHlxM2lqNTZFYmhnelZtWEl3cmNwRTM5bm9TMmVQQ1VJNVkyUy1tMkRVWExxZXozWC1lSDN3a3l4QTctdGFVWTk?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-12T11:05:39Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
    "source": "NHL.com",
    "published": "2026-11-12T11:00:51Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL Highlights: Oilers 3, Flyers 2 (OT)",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1OEFpRHdWRnhDOEtzRTU1X3dPTkdXdmhpYkdZX0drbGI1ZXNFWjNOamxhNjU0T1F4LTdOek9iVWc5eTFIbE91b1pYVVRVX1BscGU2eHRpVmlLNTV1VS1IQkpzajNJOUs3SEROQi1PcGZhVUVJX0lWX0p5Zw?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-12T10:39:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -120,26 +127,10 @@
    "via": "google"
   },
   {
-   "title": "Instant Reaction: Oilers need overtime to snag 3-2 win over Flyers",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUEwwdnNZNDZMZ2ZLVnhDVnlyUmllTldYSHg5UHlGcTB4N0dOQ2dXZEk1MG0xYTF3TU1rR3BfcTVqdTZOZ0lQU0dQUDY5SzZibTlmMUloOFNtUFRHZ0lJTW9RQkdvbVRIQ2dVZzN0NVRaNnRCMnhsQU9faWtLWFhDc0E1WHJGUkFYck94OWNHbWZ3RFVESUVDSjV5QV95Sk9HS1NkbmNQNXR6OUFWbVFB?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-12T07:13:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers beat Flyers in OT as goaltending shows signs of stability",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYk1nRUU5VG9Qc3VuMDl3WS1VN0NOd0NfWHJCQWVFRWh4c21JaUtldnJVOUp1dkpINnFWZU5zYml2WHVIS0lEa2RZSFFvWWw2R3dBNTZmSlRWUEF3TU5icXRKa1M1dkRMbFlpUS1CQlNjM1BzUWw5OGt3Z1RuWXhiWjFEY2RNZklIRUo0TS0xejN1cjN6TUkxQkdMNkZPSzFzVm5JWQ?oc=5",
    "source": "Sportsnet.ca",
    "published": "2026-11-12T06:57:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Do the Oilers have anything to worry about despite being top of the league?",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbURyOGpsUzd2SUZGa2hpbW11czh5RURFRWRzVTNxeDRlUVFXbHk5M0dsN3djZk1GcWN3TUowampub29lR0NvTUMydlBXeGFhS28tVHVFVlg0SWpJZnJNdXRid05DRGJSc0VLXzBqTE9uQzZQNkJ0a2paZWdtUTVnZ1NvS2MzdHFhTEF1c01vMHZ3OHB6TVFkNEg2Ty1jVUd6cEg5X05kaFRkdWFSU1g0?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-12T06:39:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -156,6 +147,29 @@
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVnFSdC1RMkowUmY3MThkZVo0YjAyNGtYTFdoUTB2eTEwNlBVaGZuZGV6QnA1Ymx6OXpsZTVvWWRIOFFCaV9PdFNCckdKd1l4X2dvRG80WHcwcllLbXNSQThTVEdHalVuakRKSWszV1BTLXk4VUNTQ0RqT25mWkljcUJGSzJRUWFYSlM0UTlNUnhfYWhnSy1KUUgyaXdkZXRCbWpKc2xuVlFteXQtVTRnN3lZMTQwV1VEMWZOTWRHZzQ?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-12T05:42:36Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Watch Philadelphia Flyers vs. Edmonton Oilers | Disney+",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLVM1dmxNYTNoRjhEQ0NMMWRRcGdGTlE5dWhFdkZYT1hLTDhqT0N6LTZiRy1NX1VVYlgtclEzTndYcl9MRFdLMVI3SkpvZzEzUUlNSUQtOE5ySVgyU0w4OEFIRWhFRXhnc210UHBOMmgxelVhUW1KeWtRSmd3bkgtUzBEaHNQdnl6amlF?oc=5",
+   "source": "Disney Plus",
+   "published": "2026-11-12T05:41:35Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL Highlights: Oilers 3, Flyers 2 (OT)",
+   "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-oilers-3-flyers-2-ot/",
+   "source": "Sportsnet",
+   "published": "2026-11-12T05:11:26Z",
+   "snippet": "Zach Hyman opened the scoring with two goals in the second period, while Evan Bouchard potted the game-winner in overtime for his second point of the night as the Edmonton Oilers held on…"
+  },
+  {
+   "title": "Photos: Oilers defeat Flyers 3-2 in OT",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zUnpaU3NOemJnSlp4MVZLdEtNNklybno4RXAzT1E0UzU5RkFDS3U1R3lfdmg1UFlpNmpQc0hESGU2TFM5cTRya1F3elhYX0txVVNFaG1lb2x3R3N0WjRUUjNjanJZQ3NLV3UtUEhnczhvUDMzWFhHUlZ3Qy1QZw?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-12T05:09:01Z",
    "snippet": "",
    "via": "google"
   },
@@ -182,7 +196,7 @@
   },
   {
    "title": "Michkov, Seeler all good as brief storm on Flyers bench blows over",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/michkov-seeler-all-good-as-brief-storm-on-flyers-bench-blows-over",
+   "url": "https://edmontonjournal.com/sports/michkov-seeler-all-good-as-brief-storm-on-flyers-bench-blows-over",
    "source": "Edmonton Journal",
    "published": "2026-11-11T21:17:18Z",
    "snippet": ""
@@ -263,20 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-10T05:46:00Z",
    "snippet": "EDMONTON -- Connor McDavid scored a goal to extend his season-opening point streak to 19 games, helping the Edmonton Oilers to a 3-1 win against the New York Rangers at Rogers Place on…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Nugent-Hopkins good to go for Monday's matchup with Rangers",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-good-to-go-for-monday-s-matchup-with-rangers-11-09-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-09T18:12:20.005Z",
-   "snippet": "EDMONTON, AB – Just a bruise for Nuge. Forward Ryan Nugent-Hopkins (upper body) appears to have avoided major injury and will be good to go tonight, while Colton Dach (illness) will be a…"
-  },
-  {
-   "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-08T07:04:00Z",
-   "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   }
  ]
 }
