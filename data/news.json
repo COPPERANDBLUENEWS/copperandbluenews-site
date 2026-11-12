@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T07:26:28Z",
+ "updated": "2026-11-12T07:58:22Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -9,10 +9,26 @@
  "errors": [],
  "items": [
   {
+   "title": "Oilers vs. Flyers (Nov. 11)",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONTdYTHJXMkVUeF8taGxyeVU2STVuLXZaSmdlTFdrYy1fTE1uRnBYRWQ3ZWcxVFA2SjRNanhCa3RJZXYyTDdyNkV1QU1RWVlKVFdISXhVbEZDc1AzdDQ4dkpNcHRWcHBjc2tlTml4YURkRHhsZXo4MHYtS25VWWZvYk1B?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-12T07:49:20Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "McDavid’s season-opening point streak hits 20, Oilers top Flyers in OT",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZXVqQXh4SUlPZFlFeGJiWTFUdUwxMHlXczVWSEpFVm9MdTVCZDdHQ1dieFBQdkVSamViUmNYY0pRWXc2UFBZenB6bkFEUm9HS25FM3VyWktFbC1TaHRhVk9XckF3d1NCTFR5QUJCWnNHaHZBQ0RSZ0RWczlleV9GUkpCV3kyalBkS3EyRjdWVnY4STQ1NjBDMVc1dkdnU3RzWjRR?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-12T07:18:45Z",
+   "published": "2026-11-12T07:20:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers beat Flyers in OT as goaltending shows signs of stability",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYk1nRUU5VG9Qc3VuMDl3WS1VN0NOd0NfWHJCQWVFRWh4c21JaUtldnJVOUp1dkpINnFWZU5zYml2WHVIS0lEa2RZSFFvWWw2R3dBNTZmSlRWUEF3TU5icXRKa1M1dkRMbFlpUS1CQlNjM1BzUWw5OGt3Z1RuWXhiWjFEY2RNZklIRUo0TS0xejN1cjN6TUkxQkdMNkZPSzFzVm5JWQ?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-12T06:57:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -21,14 +37,6 @@
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMVlaeXhpeWhUX1pTVElkbktMekJIejJoU3Y0eHZMaGtCXzdnbkV6eVVMZEhoS050bTh4XzBzU2xIZ3o3RThvZGRPMnZVZUpaZTJCSG52RHhKbVl4NFJYMEJoZGIyN1g3Sk0xUjBSaU9HNHRWUDBJMy0yMUJPaUxYanlB?oc=5",
    "source": "NHL.com",
    "published": "2026-11-12T06:51:09Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers beat Flyers in OT as goaltending shows signs of stability",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYk1nRUU5VG9Qc3VuMDl3WS1VN0NOd0NfWHJCQWVFRWh4c21JaUtldnJVOUp1dkpINnFWZU5zYml2WHVIS0lEa2RZSFFvWWw2R3dBNTZmSlRWUEF3TU5icXRKa1M1dkRMbFlpUS1CQlNjM1BzUWw5OGt3Z1RuWXhiWjFEY2RNZklIRUo0TS0xejN1cjN6TUkxQkdMNkZPSzFzVm5JWQ?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-12T06:46:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -159,14 +167,6 @@
    "via": "google"
   },
   {
-   "title": "[LIVESTREA.Ms!!!!!] Philadelphia Flyers vs Edmonton Oilers Live Online",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9DX0lpN0VRYW80cmQxa19NWlVreWlla3J5eTE3Ul91VGRRbTR1T1p2T1ZRMzFaemphSnVYREw3bEEtSDFMek1zQmxRS3Y4TnFXZFBqNVE5VU5wdkRseWlpcnZIS2tmSkNGOEFPZUtUOWxXdWk1U1NjQno1MA?oc=5",
-   "source": "ThoroldToday.ca",
-   "published": "2026-11-12T02:19:43Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Fajardo giving Edmonton Elks a long lost sense of identity at Grey Cup",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/fajardo-giving-edmonton-elks-a-long-lost-sense-of-identity-at-grey-cup",
    "source": "Edmonton Journal",
@@ -252,8 +252,8 @@
   },
   {
    "title": "McDavid pushes season-opening point streak to 19 in Oilers win against Rangers",
-   "url": "https://www.nhl.com/oilers/news/new-york-rangers-edmonton-oilers-game-recap-november-9-2026-x1076",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-recap-november-9-2026",
+   "source": "NHL.com",
    "published": "2026-11-10T05:46:00Z",
    "snippet": "EDMONTON -- Connor McDavid scored a goal to extend his season-opening point streak to 19 games, helping the Edmonton Oilers to a 3-1 win against the New York Rangers at Rogers Place on…"
   },
@@ -266,8 +266,8 @@
   },
   {
    "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026",
+   "source": "NHL.com",
    "published": "2026-11-08T07:04:00Z",
    "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
   },
