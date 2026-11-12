@@ -480,20 +480,20 @@
   ],
   "goalie": {
    "starter": {
-    "id": 8475683,
-    "name": "Sergei Bobrovsky",
-    "num": 72,
-    "pos": "G"
-   },
-   "status": "Unconfirmed",
-   "backup": {
     "id": 8476932,
     "name": "Anthony Stolarz",
     "num": 41,
     "pos": "G"
    },
+   "status": "Unconfirmed",
+   "backup": {
+    "id": 8475683,
+    "name": "Sergei Bobrovsky",
+    "num": 72,
+    "pos": "G"
+   },
    "note": null
   }
  },
- "updated": "2026-11-12T07:26:29Z"
+ "updated": "2026-11-12T13:19:22Z"
 }
