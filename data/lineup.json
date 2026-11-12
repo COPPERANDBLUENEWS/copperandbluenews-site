@@ -3,7 +3,7 @@
   "id": 2026020295,
   "startTimeUTC": "2026-11-12T02:00:00Z",
   "gameDate": "2026-11-11",
-  "state": "CRIT",
+  "state": "OFF",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -279,7 +279,7 @@
    "num": 27,
    "pos": "G"
   },
-  "note": "Jarry will start vs. Philadelphia on Wednesday. "
+  "note": null
  },
  "scratches": [
   {
@@ -475,8 +475,8 @@
     "num": 53,
     "pos": "G"
    },
-   "note": "Vladar starts Wednesday in Edmonton. "
+   "note": null
   }
  },
- "updated": "2026-11-12T04:36:39Z"
+ "updated": "2026-11-12T05:38:01Z"
 }
