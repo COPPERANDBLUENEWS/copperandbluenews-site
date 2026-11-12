@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T01:19:12+00:00",
+  "updated": "2026-11-12T03:59:30+00:00",
   "next": {
     "id": 2026020295,
     "gameType": 2,
@@ -8,20 +8,20 @@
     "timeMT": "8 PM MT",
     "timePT": "7 PM PT",
     "venue": "Rogers Place",
-    "state": "FUT",
+    "state": "LIVE",
     "scheduleState": "OK",
     "lastPeriod": null,
     "away": {
       "abbrev": "PHI",
       "name": "Flyers",
       "place": "Philadelphia",
-      "score": null
+      "score": 0
     },
     "home": {
       "abbrev": "EDM",
       "name": "Oilers",
       "place": "Edmonton",
-      "score": null
+      "score": 2
     }
   },
   "last": {
