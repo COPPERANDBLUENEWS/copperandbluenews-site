@@ -1,13 +1,59 @@
 {
- "updated": "2026-11-12T05:38:01Z",
+ "updated": "2026-11-12T06:40:12Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (2)",
+  "Sportsnet (3)",
   "Google News (99)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers beat Flyers in OT as goaltending shows signs of stability",
+   "url": "https://www.sportsnet.ca/nhl/article/oilers-beat-flyers-in-ot-as-goaltending-shows-signs-of-stability/",
+   "source": "Sportsnet",
+   "published": "2026-11-12T06:36:52Z",
+   "snippet": "After consecutive wins where an Oilers goalie was the best player on the ice, it’s starting to look like Edmonton might finally have found some stability in the crease."
+  },
+  {
+   "title": "McDavid’s season-opening point streak hits 20, Oilers top Flyers in OT",
+   "url": "https://www.nhl.com/news/philadelphia-flyers-edmonton-oilers-game-recap-november-11-2026",
+   "source": "NHL.com",
+   "published": "2026-11-12T06:35:00Z",
+   "snippet": "EDMONTON -- Connor McDavid had an assist to extend his season-opening point streak to 20 games for the Edmonton Oilers, who defeated the Philadelphia Flyers 3-2 in overtime at Rogers Place…"
+  },
+  {
+   "title": "Philadelphia Flyers dominate Edmonton Oilers but Tristan Jarry saves the day",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRzhoeVhjcGNqOEw2RnNSOVppZjRtVTFhSzZvbmZrazQtZWlTMlg3V0JtVjJBaUtKTVJrUXI4OUFfaHMxakJKUFE4aU95MnMwU254UkhYVkRlUlR1R1d6OTM3WHpvaGE1aUM4ZG15eGpnVWRGTnM2RDltYUN3Q1dXVDVZVDVLd19ZSHVVS0M2eG1lc3BqTmc0b3BTNVVnNjA0UldSMmR3?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-12T06:19:54Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "PHI@EDM: Bouchard scores goal against Dan Vladar",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSFA5d0xmQTBGdGp6LXhnUU5yOWZKcUtoZkx3VjVMek1uNjdvZ3R4VFBjdE1ZcjRYblFVd2pYX3M4UzRscEpsdmtOUldfWFVjemVfbUNhT2N5bWVHV05PZVRMWHBOVVJFLTJLU0VhQjZ6dFdxNF9PczJPZVhVQTFnYW9adGVfM2hJRk02aEJ4dkFhb0VYU2pOekZRUWZPekh4MUd3c1hyZGRyWEUyQXlvLQ?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-12T05:52:53Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Jarry Bails Out Oilers, But Babcock Wants Less Goaltending Heroics",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVnFSdC1RMkowUmY3MThkZVo0YjAyNGtYTFdoUTB2eTEwNlBVaGZuZGV6QnA1Ymx6OXpsZTVvWWRIOFFCaV9PdFNCckdKd1l4X2dvRG80WHcwcllLbXNSQThTVEdHalVuakRKSWszV1BTLXk4VUNTQ0RqT25mWkljcUJGSzJRUWFYSlM0UTlNUnhfYWhnSy1KUUgyaXdkZXRCbWpKc2xuVlFteXQtVTRnN3lZMTQwV1VEMWZOTWRHZzQ?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-12T05:42:36Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Watch Philadelphia Flyers vs. Edmonton Oilers | Disney+",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLVM1dmxNYTNoRjhEQ0NMMWRRcGdGTlE5dWhFdkZYT1hLTDhqT0N6LTZiRy1NX1VVYlgtclEzTndYcl9MRFdLMVI3SkpvZzEzUUlNSUQtOE5ySVgyU0w4OEFIRWhFRXhnc210UHBOMmgxelVhUW1KeWtRSmd3bkgtUzBEaHNQdnl6amlF?oc=5",
+   "source": "Disney Plus",
+   "published": "2026-11-12T05:41:35Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "QUICK RECAP: Oilers 3, Flyers 2 (OT)",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EZ2t4dUNHQ0ttVnNOclNQcUdMTkRmR1JmWTVsb3kwRTVNSmZBZjctSm83RG1oOF9vemZQUXZvaUJndFg3OW9rYzFzMjdxeThidzk1NjluOUZpNVFmdkl3Y2ZjYXloYlRSUTRsOUtJN0c3cTdCcWhlT3Jn?oc=5",
@@ -17,12 +63,19 @@
    "via": "google"
   },
   {
-   "title": "McDavid’s season-opening point streak hits 20, Oilers top Flyers in OT",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQzRJSXNoS1ExY3I2Sm1jYVRwWC1mVUtfQzY4UXFlU0xpUG1vUWZCaS1GaERiTnE5VlVjTTNNOTg3WE1lN3VSYzB3cU5jc3RnOGw4aXVxc2Y2N0twb1FJVGo1LUd6Uk1kU295ckpUZDFXNzZrY1lMbU15d0NyM0YwSXNFUkVweXMyRWVPYjc0NThJUQ?oc=5",
-   "source": "NHL.com",
+   "title": "Bouchard nets OT winner as Oilers hold off Flyers for 3-2 victory",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUkRDd0xKa0pCdk9qdWVBOFNMd0Z2THRmWkRwbmg1VnZsdzN1dDNzRE41cllUWm9ycGQ1UzVKay1Ld3ZRTFF0ZzlnN01TczJZUUxseGxVOUNyaEl2VURzdkZTbzBtVmUwUzRfNzNpTG5IaXJzdG5STmZCNFMyNmc1cnJMbE5lcDFtZUFibk5ZLW4yZnF5UnMtaE1jSmU4cUNud3FUQnlpSkxlVVQ5eHFfOTlEeWRuclBheDVmdw?oc=5",
+   "source": "The Globe and Mail",
    "published": "2026-11-12T05:17:06Z",
    "snippet": "",
    "via": "google"
+  },
+  {
+   "title": "NHL Highlights: Oilers 3, Flyers 2 (OT)",
+   "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-oilers-3-flyers-2-ot/",
+   "source": "Sportsnet",
+   "published": "2026-11-12T05:11:26Z",
+   "snippet": "Zach Hyman opened the scoring with two goals in the second period, while Evan Bouchard potted the game-winner in overtime for his second point of the night as the Edmonton Oilers held on…"
   },
   {
    "title": "Photos: Oilers defeat Flyers 3-2 in OT",
@@ -33,25 +86,18 @@
    "via": "google"
   },
   {
-   "title": "Bouchard nets OT winner to lift Oilers past Flyers",
-   "url": "https://www.sportsnet.ca/nhl/article/bouchard-nets-ot-winner-as-oilers-hold-off-flyers/",
-   "source": "Sportsnet",
+   "title": "Philadelphia Flyers - Edmonton Oilers - Nov 11, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYVGh1VDdqS1RCV3NXUHY1VndRUVlZNlljeDFzek9IVks1WnZVODFMNHlxM2lqNTZFYmhnelZtWEl3cmNwRTM5bm9TMmVQQ1VJNVkyUy1tMkRVWExxZXozWC1lSDN3a3l4QTctdGFVWTk?oc=5",
+   "source": "NHL.com",
    "published": "2026-11-12T05:05:39Z",
-   "snippet": ""
-  },
-  {
-   "title": "Player grades: Jarry comes with best Oilers goalie game of the year, 3-2 over Flyers",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNmxEMzE4VXNTam5mdGtTUXY1Ujc5RTFzQmc3WUtWMXU5Q1hCNm9VS3I3UmtlR2NOaDQwcUJHUDY5M1JTTE5kZlFjMGhmTDlIWjRuOTA3U0Q4OTg3MURXRy1DU1lBTEFGQlIwT3BwQ1JabklJaXNIQzFfUEhudE9IajRrRUNqb0tFMENlXzZPcXJsd1U4M1BNaTJTamlNRnRURzRtaV9iNkVrVl82NlJoYVlTbmxvUTJJOUZHdTZSYXM3bVpzb3VCYVdmUVh0UmVHUnQ2cnpMblFZckE?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-12T04:57:43Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Philadelphia Flyers dominate Edmonton Oilers but Tristan Jarry saves the day",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRzhoeVhjcGNqOEw2RnNSOVppZjRtVTFhSzZvbmZrazQtZWlTMlg3V0JtVjJBaUtKTVJrUXI4OUFfaHMxakJKUFE4aU95MnMwU254UkhYVkRlUlR1R1d6OTM3WHpvaGE1aUM4ZG15eGpnVWRGTnM2RDltYUN3Q1dXVDVZVDVLd19ZSHVVS0M2eG1lc3BqTmc0b3BTNVVnNjA0UldSMmR3?oc=5",
+   "title": "Player grades: Jarry with best Oilers goalie game of the year, 3-2 over Flyers",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNmxEMzE4VXNTam5mdGtTUXY1Ujc5RTFzQmc3WUtWMXU5Q1hCNm9VS3I3UmtlR2NOaDQwcUJHUDY5M1JTTE5kZlFjMGhmTDlIWjRuOTA3U0Q4OTg3MURXRy1DU1lBTEFGQlIwT3BwQ1JabklJaXNIQzFfUEhudE9IajRrRUNqb0tFMENlXzZPcXJsd1U4M1BNaTJTamlNRnRURzRtaV9iNkVrVl82NlJoYVlTbmxvUTJJOUZHdTZSYXM3bVpzb3VCYVdmUVh0UmVHUnQ2cnpMblFZckE?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-12T04:57:27Z",
+   "published": "2026-11-12T04:57:43Z",
    "snippet": "",
    "via": "google"
   },
@@ -95,10 +141,10 @@
    "via": "google"
   },
   {
-   "title": "Philadelphia Flyers vs. Edmonton Oilers live Reddit Strea.m",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HQjRaakF6UFRfZVRzVWNELXBmbm90Tm94cWpNbzIyQ0RNUkZOaFdPWDRmSXYyZW5Yb1lqSTdEQ2otVUJnVUxQc0dDNkJ6WDNjUnNlVDdTWDJIN2YySC1wUllJdG1XbEUwY3JJMU96UHJENzA3YVlUSllB?oc=5",
-   "source": "PelhamToday.ca",
-   "published": "2026-11-12T02:30:34Z",
+   "title": "NH.GAMES!! Philadelphia Flyers vs. Edmonton Oilers live Reddit Strea.m",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNFhiY3U3Tmtwck9ycXF3cjNjelFtcXpZTTc1YmgzTnFLeWZSR1V0UDVCUmt0WTM3RW9sMXdUZzRJQkdNZ2xEa2lNVTdheWx0Q1VBZFZVUDlkaG1FV0xPUk4yU2gwZFQwX0lPcXN6RTRfeFFoSWg3VHdzTEVvaUpEbEpPSkVQSm1SY2xv?oc=5",
+   "source": "Northern Ontario Business",
+   "published": "2026-11-12T02:30:31Z",
    "snippet": "",
    "via": "google"
   },
@@ -119,6 +165,14 @@
    "via": "google"
   },
   {
+   "title": "Flyers vs Edmonton Oilers Live Free Online NHL Game 11 November 2026",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSlQxV3JFVTZzLWJLUEF3X3lkSWdtXzJLNjEtV1JfWnZQVXpUTFJxSWxzY1BmaVZDMUZPeU5GUk5nQ2dsSkhzYXAyQXhEVlpXLUtxRDR4MG1uU3dBRTdsckI1SzM0cWwxM1liZ19ublkzYTc3OVhRb2pBY3hlcXFXcTVTSUhycTRWZkRRbmdjcnp0TGphekE?oc=5",
+   "source": "Times Colonist",
+   "published": "2026-11-12T01:54:03Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Edmonton Oilers NHL Line Combinations",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
    "source": "Daily Faceoff",
@@ -134,30 +188,6 @@
    "snippet": "\"We're a resilient bunch that just finds ways to win football games any way necessary.\""
   },
   {
-   "title": "Oilers forward depth faces major test with busy schedule ahead",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmdocFVZZTRZZm4yaGNrYzdoVVk5c21DWm13YWd2S1FUMmNTczJnLV9LX2dDOVdSUE9QVjI1SDhKNElnVUJ1cURqdmRUSGJiekNjZjJsR1huSm10LUNmMDIxTkRGbnRvcGl1WFdnX3p2X0xYSi1ac1JuM3RQX05jUWtfM1d4dnh3SlBTN1NRVGFacG81Tlow?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-12T00:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "GDB 20.0: Oilers need to show they are the better team (8 PM, SNW)",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNczhLRGhZd0JRVHBkUjBKNUxaUzZMUnVyWHBSYWlaSlNDN0lDYWVQT19MNWZFR2IxbVZzYmhFWkUyWTlCcENDZ3EzaE9xME1XU0ppeXNfRWJsdmdvVDhhV0ZXNUk5VzJoRThEWFVVcVN5dGhwMUl2c2tITFo2eHl0MWtocUNfRHFERjN6S2N0a1RfN0t1My10eHR4TEk?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-11T22:16:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "'Pretty good deal by Stan': Mike Babcock praises trade of veteran Edmonton Oilers d-man",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWl9qeE5zSGJYU0JvRDhPdjYtbFJHZVNheWhTMUNKdl9IZ1pEbF9DVmwyVXdEZy1jQ0VCcU9CbnBHc1JCU0w4NzcwdTZpSkRfUXdvT2dxZ3Q5OW1DbmZlZmp6OUdELVBRR05QcndaTHRKcW83N09pM1kxeC1oSVR2Rjc0azNhRk1Yd3V5MFhmSng2WHpPNEQxQlEybk1MVkxKdnNVR2k3MWd0V1FoSDdVTk9ZX2FDYnZaMFJSOWQ3MlE?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-11T21:48:47Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Michkov, Seeler all good as brief storm on Flyers bench blows over",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/michkov-seeler-all-good-as-brief-storm-on-flyers-bench-blows-over",
    "source": "Edmonton Journal",
@@ -165,20 +195,18 @@
    "snippet": ""
   },
   {
-   "title": "Babcock on Oilers injury situation with Savoie, Andersen, Janmark, Howard",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWU05aGJXcHRNZnNtUGJCNDZocWZsdTlsQXRoX0J5UkF6QWRXSE9YMzlhY3ZwRXRqcnF4T0VjVWNHbkNuUl8tN2puS3FNUUp4c21weC1RYlJndnpUTlNUb1gxUGs5UnZGaGh1ZjBQc1RqMkJ5Uk5kV2Q5SkJmX1N3VUFpcjVxb0pKMU9kOVdCLXVtRkEyMmpTWnRmd3hPTnlLcjlJSFNqNXE?oc=5",
+   "title": "'Pretty good deal by Stan': Mike Babcock praises trade of veteran Edmonton Oilers d-man",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-coach-mike-babcock-praises-darnell-nurse-trade",
    "source": "Edmonton Journal",
-   "published": "2026-11-11T19:34:17Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-11T20:20:33Z",
+   "snippet": ""
   },
   {
-   "title": "Oilers D Walman set for sixth healthy scratch in eight games Wednesday vs. Flyers",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOGNaay1kXzBxS01fTVAtQzF2Zmw1WHNBM0dwSV9pVFRGZUUwQTF4Zm02UWlBRVNoNnIxa0JnNE02aEw5TDZibGpSZHVaR1Bka2t4ZURaZVlfaDFNZ0M5ZlAxZnh1OEFHaHR4NU5NNTdIUnowRVE4MDNfdUFRR1E4ZDMta1E3TkxoRGpwdFZjNlZGa1dVUmZTaDRoSFlGSmZsRE9Gbm5USEczQk13TmVmeEF3?oc=5",
-   "source": "TSN",
-   "published": "2026-11-11T18:50:31Z",
-   "snippet": "",
-   "via": "google"
+   "title": "Babcock on Oilers injury situation with Savoie, Andersen, Janmark, Howard",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/babcock-oilers-savoie-anderson-howard-jamma",
+   "source": "Edmonton Journal",
+   "published": "2026-11-11T19:31:10Z",
+   "snippet": "Howard is the closest to playing after escaping serious damage on that knee-on-knee hit from Islanders Emil Heineman 10 days ago"
   },
   {
    "title": "Flyers at Oilers projected lineups ",
@@ -249,34 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-09T18:12:20.005Z",
    "snippet": "EDMONTON, AB – Just a bruise for Nuge. Forward Ryan Nugent-Hopkins (upper body) appears to have avoided major injury and will be good to go tonight, while Colton Dach (illness) will be a…"
-  },
-  {
-   "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-08T07:04:00Z",
-   "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
-  },
-  {
-   "title": "Nugent-Hopkins leaves game for Oilers after being struck in head by puck",
-   "url": "https://www.nhl.com/news/oilers-ryan-nugent-hopkins-injured-after-being-struck-in-head-by-puck",
-   "source": "NHL.com",
-   "published": "2026-11-08T05:35:00Z",
-   "snippet": "EDMONTON -- Ryan Nugent-Hopkins sustained an apparent head injury 45 seconds into the second period of a 4-2 win for the Edmonton Oilers against the Vancouver Canucks at Rogers Place on…"
-  },
-  {
-   "title": "QUICK RECAP: Oilers 4, Canucks 2",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-canucks-11-07-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-08T02:55:14.8Z",
-   "snippet": "EDMONTON, AB – Goaltender Devon Levi recorded 20 saves in his return from injury, while Connor McDavid & Leon Draisaitl each had three points as the Edmonton Oilers ended a mini two-game…"
-  },
-  {
-   "title": "RELEASE: Oilers activate Levi & Hyman off IR; Tomkins loaned to Condors",
-   "url": "https://www.nhl.com/oilers/news/release-oilers-activate-devon-levi-zach-hyman-off-ir",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T22:56:48.658Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers have activated goalie Devon Levi and forward Zach Hyman off Injured Reserve, the team announced on Saturday. Goalie Matt Tomkins has also been loaned to…"
   }
  ]
 }
