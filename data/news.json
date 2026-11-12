@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-12T15:33:52Z",
+ "updated": "2026-11-12T15:57:37Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (94)"
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers’ Early Success Raises Sustainability Questions",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOTFPZlE3OTVFSGlxUE1kajhROFJxNXpvZzdnNlI2Y1hKR3gxbElvVjg3NzhUaUMtdVlhSFBNdkQwTGVXTFN4aURLRkUydlFPMWNhd2dfVG5QSWNXd0ctWVlIc0h1c3FyWHpnYXdWcmdjQXRuVzJ3SmpadHBGVWh5REttZWJ2aDNsdEE?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-12T15:45:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
    "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
@@ -143,18 +151,18 @@
    "via": "google"
   },
   {
-   "title": "Jarry Bails Out Oilers, But Babcock Wants Less Goaltending Heroics",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVnFSdC1RMkowUmY3MThkZVo0YjAyNGtYTFdoUTB2eTEwNlBVaGZuZGV6QnA1Ymx6OXpsZTVvWWRIOFFCaV9PdFNCckdKd1l4X2dvRG80WHcwcllLbXNSQThTVEdHalVuakRKSWszV1BTLXk4VUNTQ0RqT25mWkljcUJGSzJRUWFYSlM0UTlNUnhfYWhnSy1KUUgyaXdkZXRCbWpKc2xuVlFteXQtVTRnN3lZMTQwV1VEMWZOTWRHZzQ?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-12T05:42:36Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Watch Philadelphia Flyers vs. Edmonton Oilers | Disney+",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLVM1dmxNYTNoRjhEQ0NMMWRRcGdGTlE5dWhFdkZYT1hLTDhqT0N6LTZiRy1NX1VVYlgtclEzTndYcl9MRFdLMVI3SkpvZzEzUUlNSUQtOE5ySVgyU0w4OEFIRWhFRXhnc210UHBOMmgxelVhUW1KeWtRSmd3bkgtUzBEaHNQdnl6amlF?oc=5",
    "source": "Disney Plus",
    "published": "2026-11-12T05:41:35Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Jarry Bails Out Oilers, But Babcock Wants Less Goaltending Heroics",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcUdfSU8wRVJ4NkEzeXRFRXZCTFl1SmJpc2NycUlhUDA4N3ZkdUhaQnF0MXBPenZnWGluTFBZUW5fdW1KVDJSVzFoWTZ4MHRUZk9HRGV2UkZMd3VKZmtjT0FhdW5qeHlacGRldUdxLTJuTkswTEpuSDJtV1VZTXJ2bDVIRWhScHc?oc=5",
+   "source": "Yahoo",
+   "published": "2026-11-12T05:41:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -164,14 +172,6 @@
    "source": "Sportsnet",
    "published": "2026-11-12T05:11:26Z",
    "snippet": "Zach Hyman opened the scoring with two goals in the second period, while Evan Bouchard potted the game-winner in overtime for his second point of the night as the Edmonton Oilers held on…"
-  },
-  {
-   "title": "Photos: Oilers defeat Flyers 3-2 in OT",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zUnpaU3NOemJnSlp4MVZLdEtNNklybno4RXAzT1E0UzU5RkFDS3U1R3lfdmg1UFlpNmpQc0hESGU2TFM5cTRya1F3elhYX0txVVNFaG1lb2x3R3N0WjRUUjNjanJZQ3NLV3UtUEhnczhvUDMzWFhHUlZ3Qy1QZw?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-12T05:09:01Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Player grades: Jarry with best Oilers goalie game of the year, 3-2 over Flyers",
