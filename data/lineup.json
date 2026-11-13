@@ -477,8 +477,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/toronto-maple-leafs/line-combinations",
     "what": "line combinations",
-    "basis": "David Alter",
-    "updatedAt": "2026-11-12T23:38:23.790Z"
+    "basis": "Last Game (2026-11-12)",
+    "updatedAt": "2026-11-13T14:25:21.770Z"
    },
    {
     "name": "DailyFaceoff",
@@ -488,20 +488,20 @@
   ],
   "goalie": {
    "starter": {
-    "id": 8476932,
-    "name": "Anthony Stolarz",
-    "num": 41,
-    "pos": "G"
-   },
-   "status": "Unconfirmed",
-   "backup": {
     "id": 8475683,
     "name": "Sergei Bobrovsky",
     "num": 72,
     "pos": "G"
    },
+   "status": "Unconfirmed",
+   "backup": {
+    "id": 8476932,
+    "name": "Anthony Stolarz",
+    "num": 41,
+    "pos": "G"
+   },
    "note": null
   }
  },
- "updated": "2026-11-13T00:21:55Z"
+ "updated": "2026-11-13T15:24:23Z"
 }

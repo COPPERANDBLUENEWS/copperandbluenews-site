@@ -1,13 +1,37 @@
 {
- "updated": "2026-11-13T13:50:42Z",
+ "updated": "2026-11-13T15:24:22Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (4)",
-  "Google News (89)"
+  "Sportsnet (2)",
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers' Walman needs to find a way to work himself back into lineup",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR1ZKUXFNRWs1Q21Lc2tJc1pkOXFQM09UVWxqZmpGdzZ6Qlh3WF9xdlhUQjAwTGZTZHhJWUQ4cUowNGsxbEV5MFdXRi1RQTZJZTZnU21zVUthOU1FZUJIOHFLQkNJZmRtWjgyU2ZCVGliN0NWUVV5SmhfZUsxSXJ4TkJ1MTRVcTg?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-13T15:15:24Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL Weekend Odds vs. A Goals Model: Jets, Oilers, Canucks",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNclhYME51ZW0yRC1kcm9uZjlzSkZhX1dHdnZIbUNuUGt4N1JUM3lfbVg0LWlWY1llck8tSG1WNzAzdzZ2aWNiNXZtOTcwOERqbkRSc3loQXZEMmFqSEVMTmJOY1JTdER4R1hHMDJucVhGaWhPakR6RE9DU3FMWFdaSDg1My1LbzdyY2ZxUjZhNVhXWnFFRTZEbkJXS3R1a0M1TE04aFM0dDZKejBtUzcw?oc=5",
+   "source": "RG.org",
+   "published": "2026-11-13T14:57:28Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Looking at the Oilers’ Best 20-Game Starts in Franchise History",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNek1VZXoteVg5X21ueVRQUWRmaUNrRUZta3JKdFY1cDlwenhJRUhkdm5jcU4zZm1OZGdGZmZhTVF0c1djb0hmelo5dGhRT29YekhfcmlhUFZRQ1MtZEdaUE9tWFhNMGYwS2dRd09fV2Z0TXZTaWZPSzFLT3p6S3RJX3BIWlpDamFpR0haNFRtWEV0c0hSa3JR?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-13T14:45:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Edmonton Oilers rookie Owen Michaels continues to struggle",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaGhmSEJaUXhlM2JfZ1hSSVlpbWdPYlVKUElTbWwtd0kzYnZMZVVvQ1ZXdmZpMVg0Q1NYVTI2cXAycWlGdXFoM1lnSGY5RV9OOWkzNUhfVXg1eUYwbGtrRVJyMmpCTUY1TnJxLWh3RDdqa09fVGcwZGh2OUVZaGpyXzhmaF9tSHA1M3JHYVVYRzkwQm1Wc1pseDFn?oc=5",
@@ -150,49 +174,18 @@
   },
   {
    "title": "Oilers Grateful For Zach Hyman, Again",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMS1Ieks4NXhuV0k3TGUtaUJuX2dnMFNQWnZYVy1rVHRBcE16bER2YWMzS1ZnaTlXYUxqMmRHTmEzOW9fMWp0OVBmTFViaUt6NUpQRlF4dDlMeXZzUFQtME9nN2VMa2JyblJ3OFVUNzdVLVF2aUFEbkVzc28tLWVVWHVwWm5lTEZkbmpEbV93ZnJCV3p6aU9oOTV3?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-12T19:54:18Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Connor McDavid's wife shuts down hopeful Toronto Maple Leafs fans",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQlFNbmNGSlg3Nks1c0hHSk9VTWtHU0k3dGpyRUx1andVZFpoWUFtclZIYndKTzNaTnZBblU2b0JsUThZWHNzMjZqUFJNQldjLTVmbHQ5dmRhTUxkaC01Sk90c3NsTW8xdjZUdk16dzF0S0p3ZWE3eEpUblM1YjRYU1NaTXJFMUpCcWxKalBINm52RHByNXM4?oc=5",
-   "source": "blogTO",
-   "published": "2026-11-12T18:57:06Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Six potential Oilers targets from Daily Faceoff’s NHL trade board",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYXVIOTVZaHREaEphNTgwT25NcjBlOVFkYm5nRVRad19iSXNWUXlFWVF5alhmWnc4U1QzakJmdVBpem1LOHNDNXNQUnZ1TDNGaHBncHZmQlZ0aWdvMG1qdzVYWUcyazR2eUw4Zktzd2R5M2ttVHNSa05qXzYwdVhyZ1YwSTdscXVNZ3dLdTI2VXYzU1oxUzhLbGYySHVKY0RWelJTYlR6SFg?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-12T18:52:00Z",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMHdjSldlWG12UUxVNHZCODF2c0k3Mm80STRiTjAzUmlxZ3A3ZGp4RGdNM0RvaGlETUNMMlVXODRFNUJUUng0Yi1wanViZDhkMlphTjZTSHRXR2ZMeW9EMTBNWEwxcFN0WjF5WUFsa2RNYVpPZHM0Z1NhaUhQbjlrTXNhWEoyX0U1?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-12T19:50:40Z",
    "snippet": "",
    "via": "google"
   },
   {
    "title": "20 games later, Mike Babcock and the Edmonton Oilers seem a perfect match",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYlZqMkdQd1RFNjN6VTRKTG9HWW9FRnBsb0FpcEpfSlR3eEllOXl0VGJGYkRNR0ZTbXB0UDNzOVJELWIzSWtnbVJpY29UUUVaaVB5Y3g4aUhBVjltWU1meUVNS3E0UFlyVVpjdHoxTU5mOFRKSG1TTDNFUGdwTHJ2VndGNjE2am9YeG9SUnFqQndnM3lv?oc=5",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/mike-babcock-edmonton-oilers-a-perfect-match",
    "source": "Edmonton Journal",
-   "published": "2026-11-12T18:14:15Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers quarter-mark report card: Edmonton off to very promising start",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-quarter-mark-report-card-edmonton-off-to-very-promising-start/",
-   "source": "Sportsnet",
-   "published": "2026-11-12T17:48:28Z",
-   "snippet": "Twice before, the Oilers have managed only three regulation losses through 20 games — and both seasons ended with a Stanley Cup. Is history bound to repeat itself? Sportsnet’s Mark Spector…"
-  },
-  {
-   "title": "32 Thoughts Podcast: Latest on Michkov, McDavid, Hellebuyck",
-   "url": "https://www.sportsnet.ca/podcasts/32-thoughts/more-theses-than-an-academic-journal/",
-   "source": "Sportsnet",
-   "published": "2026-11-12T13:12:30Z",
-   "snippet": ""
+   "published": "2026-11-12T18:12:21Z",
+   "snippet": "“Twenty games in is real,” said head coach Mike Babcock. “With the injuries we’ve had, we’ve done well. In saying that, we have a long, long way to go\""
   },
   {
    "title": "McDavid’s season-opening point streak hits 20, Oilers top Flyers in OT",
@@ -251,13 +244,6 @@
    "snippet": ""
   },
   {
-   "title": "Babcock on Oilers injury situation with Savoie, Andersen, Janmark, Howard",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/babcock-oilers-savoie-anderson-howard-jamma",
-   "source": "Edmonton Journal",
-   "published": "2026-11-11T19:31:10Z",
-   "snippet": "Howard is the closest to playing after escaping serious damage on that knee-on-knee hit from Islanders Emil Heineman 10 days ago"
-  },
-  {
    "title": "Flyers at Oilers projected lineups ",
    "url": "https://www.nhl.com/news/philadelphia-flyers-edmonton-oilers-game-preview-november-11-2026",
    "source": "NHL.com",
@@ -277,6 +263,20 @@
    "source": "Edmonton Journal",
    "published": "2026-11-11T16:58:37Z",
    "snippet": ""
+  },
+  {
+   "title": "RELEASE: EOCF donates $100,000 to CFB Wainwright Support Fund",
+   "url": "https://www.nhl.com/oilers/news/release-eocf-donates-100-000-to-cfb-wainwright-support-fund",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-11T16:01:55.573Z",
+   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) has donated $100,000 to the CFB Wainwright Support Fund through True Patriot Love Foundation. The CFB Wainwright Support Fund…"
+  },
+  {
+   "title": "PREVIEW: Oilers vs. Flyers",
+   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-flyers-11-11-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-11T03:07:12.992Z",
+   "snippet": "The Edmonton Oilers wrap up their four-game homestand against the Philadelphia Flyers on Wednesday at Rogers Place. You can watch the game live on Sportsnet at 8:00 PM MT or listen on the…"
   }
  ]
 }
