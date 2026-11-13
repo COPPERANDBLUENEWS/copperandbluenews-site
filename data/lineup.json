@@ -374,6 +374,12 @@
      "name": "Teddy Blueger",
      "num": 73,
      "pos": "C"
+    },
+    {
+     "id": 8479772,
+     "name": "Zack MacEwen",
+     "num": 19,
+     "pos": "RW"
     }
    ]
   ],
@@ -414,9 +420,9 @@
      "pos": "LD"
     },
     {
-     "id": 8475690,
-     "name": "Chris Tanev",
-     "num": 8,
+     "id": 8484287,
+     "name": "Cole McWard",
+     "num": 82,
      "pos": "RD"
     }
    ]
@@ -458,10 +464,10 @@
     "status": "Day-to-day"
    },
    {
-    "id": 8479772,
-    "name": "Zack MacEwen",
-    "num": 19,
-    "pos": "RW",
+    "id": 8475690,
+    "name": "Chris Tanev",
+    "num": 8,
+    "pos": "D",
     "status": "Day-to-day"
    }
   ],
@@ -471,8 +477,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/toronto-maple-leafs/line-combinations",
     "what": "line combinations",
-    "basis": "Mark Masters",
-    "updatedAt": "2026-11-11T17:28:09.180Z"
+    "basis": "David Alter",
+    "updatedAt": "2026-11-12T23:38:23.790Z"
    },
    {
     "name": "DailyFaceoff",
@@ -497,5 +503,5 @@
    "note": null
   }
  },
- "updated": "2026-11-12T15:33:52Z"
+ "updated": "2026-11-13T00:21:55Z"
 }
