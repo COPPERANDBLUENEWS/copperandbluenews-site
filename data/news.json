@@ -1,13 +1,50 @@
 {
- "updated": "2026-11-13T18:58:41Z",
+ "updated": "2026-11-13T19:35:33Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (2)",
-  "Google News (87)"
+  "Sportsnet (5)",
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Amid Concerning Recent Struggles, Jim Hiller And Maple Leafs 'Haven't Decided' On Starting Goaltender Against Oilers",
+   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPVWM4WGttbnZ5TXhmaEhtVjFvUXd1QmN0bGZLMGxxMkh6cEh3RHB2bmFrbW1uaGxTdWY2d1A1WjFtM09KdWpHX0ExNXdnNUVuTkdMN1UzTjROU2dIbTA3Y1RIekV5Yi16T2dJRmR2SHY3RENxY0RSdzk2a000dFRCNEI2cDFsVnFTUUlxS1dzTDh1NFYyS2duSTcwb2xFU0xhd2xNM1JWQ2d4OWRkSmpIS0ROdmJoXzRYbzhvdVAyQ2tjeXNaYmxkTXdEa0pRc09QVnh6TGJBdlFoWnhwd1gyUDlPRW4ydkNJamNiQVdtM2IzalRCVWlGa1U3U0hWU0tHOGx2aw?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-13T19:30:21Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Hiller expects best version of Leafs, after team outing to Rogers Centre",
+   "url": "https://www.sportsnet.ca/nhl/video/hiller-expects-best-version-of-leafs-after-team-outing-to-rogers-centre/",
+   "source": "Sportsnet",
+   "published": "2026-11-13T19:16:53Z",
+   "snippet": "Toronto Maple Leafs head coach Jim Hiller spoke to media before the team’s workout Friday morning at the Rogers Centre, telling reporters they’re focusing on getting ready for their matchup…"
+  },
+  {
+   "title": "Maple Leafs keeping it light at Rogers Centre ahead of matchup vs. Oilers",
+   "url": "https://www.sportsnet.ca/nhl/video/maple-leafs-keeping-it-light-at-rogers-centre-ahead-of-matchup-vs-oilers/",
+   "source": "Sportsnet",
+   "published": "2026-11-13T19:13:37Z",
+   "snippet": "Toronto Maple Leafs players Darren Raddysh, Auston Matthews and Nick Paul speak to media after workout at Rogers Centre on Friday morning."
+  },
+  {
+   "title": "RAW | Connor McDavid 11.13.26",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vMERGV3FGZlppY1c0M2xTY2NjVkp0WWpqMGZJQmdIajhCNlRvS2duU3dxaHpJa0c2YmdXUlBsci0tS0hLeFBxNGxlTmVPaDY4VnVWT3liOEtXeU5WdFlrY3QzQWx5NmxaT0FxNERvYW5BTGNlbGF0X1V3WUZYOFU?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-13T19:11:18Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Keys to victory: How Alouettes can beat Elks in Grey Cup",
+   "url": "https://www.sportsnet.ca/cfl/article/keys-to-victory-how-alouettes-can-beat-elks-in-grey-cup/",
+   "source": "Sportsnet",
+   "published": "2026-11-13T19:01:37Z",
+   "snippet": "After falling short against the Saskatchewan Roughriders in last year’s Grey Cup, the Alouettes are back with a chance at redemption on Sunday. Here’s what the Als must do to top the…"
+  },
   {
    "title": "Babcock sticks with struggling Edmonton Oilers d-man but keeps on scratching another",
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOEZ5LUlra1VKamlXRE5JTVhndWRsdW9ycjlmcVFQNk42Zm9UZ2ZUVWswbURBX2M3ZUxtcHpjVGs4RzRNMURudlcyVGxEQ3lFYWpHbGlHMUdwVFM3NUpTS3BBcmRVcU5DU2JrbDRkZHBqWjlraUQ5RDhMQ0lobW5GM0dhUG95TFJwYmQ5WUxKQVNMNnpVU09rRk9LQk40NkthRG9YVEJES1JxUkwyMEVROXFJMEs1QQ?oc=5",
@@ -136,13 +173,6 @@
    "snippet": ""
   },
   {
-   "title": "Keys to victory: How Elks can beat Alouettes in Grey Cup",
-   "url": "https://www.sportsnet.ca/cfl/article/keys-to-victory-how-elks-can-beat-alouettes-in-grey-cup/",
-   "source": "Sportsnet",
-   "published": "2026-11-13T00:49:37Z",
-   "snippet": "For the first time in 11 years, the Edmonton Elks are back on the CFL’s biggest stage. To get you set, Kellen Forrest has three keys to victory for the Elks in Sunday’s Grey Cup against the…"
-  },
-  {
    "title": "Oilers quarter-mark review: Far more positives than negatives",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdnc4RFpJVUVzekNLRjhGWFhlLWk2MnZ4UzNtZC0ybG40ZTBxaDk1NzZWWFhXbDFWQ19IMGJwWGM4QS14SGlFRWszZnctVG5JQWlTdmMxRGhwbmRlSGdHVU9NT3BEV1hzVXNZb1UzZGVnVFJjTDdkOTA5Z0RrcncweHFQbjZDLUtRR1BLXzFsTnFWZ2RBSi10aW1JVU1BZDJSbUEwTzBCMkpRQkk?oc=5",
    "source": "Oilers Nation",
@@ -158,27 +188,11 @@
    "snippet": "After helping Montreal win a Grey Cup, Cody Fajardo believed he had done enough to remain its starting quarterback until they decided to hand the keys to Davis Alexander. Now, with…"
   },
   {
-   "title": "How Much Credit Does Mike Babcock Deserve For The Edmonton Oilers' Early Success?",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQ0xIVWJzTEFMWk9JMU50RFMtUy0tT2lKTUxlQWJhTjhFQzlZejBDQUF1Z3pSVXZRRDNNSlotQ3QxX0tfUzg2TVdZSDJfV2JZUzhfajI0d1lzaWd2WXhRTnVWMWtUaTkxX0J4akptNTBoemhRQ0ZncUdPUGVCLXVrN2ZKQkdDMEFoanBfRWtXWUpTQjZKRFhMR3BycksySVh6NkpwRVFhX1hnNWkybC0teTBnV0J5cGhEYzB3U0VIZw?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-12T22:37:28Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Babcock's tough love approach faces its biggest challenge",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-coach-mike-babcocks-owen-michales-alex-formenton-connor-murphy",
    "source": "Edmonton Journal",
    "published": "2026-11-12T22:18:50Z",
    "snippet": ""
-  },
-  {
-   "title": "Oilers' McDavid is chasing a Gretzky record that seems impossible to break",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRU83WFVkaTdwcWRLdWdNU3M0SVlrNExjVnhkM0tDZXpTU0Q1aTd0cjlDQ1podHNXdmRlTUo0SEMxdFd0VkFVMlhOV0ctTXpHbmUxV3RUclNtRUlTM2JmZDFObUVwbjJoVDMwR0JvRFFQazhfX0twTHJabWQzOHQ0eVQzWmROQQ?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-12T22:08:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "20 games later, Mike Babcock and the Edmonton Oilers seem a perfect match",
@@ -263,20 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-11T16:01:55.573Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) has donated $100,000 to the CFB Wainwright Support Fund through True Patriot Love Foundation. The CFB Wainwright Support Fund…"
-  },
-  {
-   "title": "PREVIEW: Oilers vs. Flyers",
-   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-flyers-11-11-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-11T03:07:12.992Z",
-   "snippet": "The Edmonton Oilers wrap up their four-game homestand against the Philadelphia Flyers on Wednesday at Rogers Place. You can watch the game live on Sportsnet at 8:00 PM MT or listen on the…"
-  },
-  {
-   "title": "McDavid pushes season-opening point streak to 19 in Oilers win against Rangers",
-   "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-recap-november-9-2026",
-   "source": "NHL.com",
-   "published": "2026-11-10T05:46:00Z",
-   "snippet": "EDMONTON -- Connor McDavid scored a goal to extend his season-opening point streak to 19 games, helping the Edmonton Oilers to a 3-1 win against the New York Rangers at Rogers Place on…"
   }
  ]
 }
