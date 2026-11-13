@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-13T04:37:24Z",
+ "updated": "2026-11-13T05:39:02Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (88)"
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
@@ -14,14 +14,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-13T03:18:37Z",
    "snippet": ""
-  },
-  {
-   "title": "McDavid's wife shuts down delusional Leafs fans",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNkN1cFYtb1N2MWpHcnA4U2NPSnZqd05xd2JhYWRiaHRReUhIdHFtekphNm4yRThIeVlTdEw1dC1weWhKd1puNm5fYlN6VVVFX2ROOFQxZzhYdmJGaldibW5HU2tnLUtQbFlJaUdaRVpDaWEwT1JFbzNuNnloME03Yg?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-13T03:06:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Keys to victory: How Elks can beat Alouettes in Grey Cup",
@@ -101,6 +93,14 @@
    "via": "google"
   },
   {
+   "title": "Oiler Tristan Jarry continues team's strong goaltending in win over Flyers",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBLTHg2Y1FiMldYSFZOQnVNcUZoY3ZxZlhSMDJNWGprSVBfRjd4UEdocGFxZ1BUOHV3c2NURWhMZ3NqQ09KTkQ0WEZhU3EwcGJEaURhZmJtdTlxbk9KMnBIbkI4WDZqelZXRnRlemFSaUNDdUZ6bTNhZkh6Sm4?oc=5",
+   "source": "CBC",
+   "published": "2026-11-12T20:24:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Connor McDavid’s hot start is driving Oilers’ success",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSkJLRHA3MERYWTlVSXd5SnJwMnFBR0xnRFVHeGJpLURXUWtTejBHaHFZODEwNFZFRldONEwxUzFqZldpV0k5Qy0tM3RNVHJXblU0YzFzQXU5OERjRHVLbE1URVppdlFQMnZHcGxQYnhOdndTdG1wV1BDWkhSbXgyN05VV19WUU9PMFp4Y1JvbVAwX3BVbUZnSkxn?oc=5",
    "source": "Daily Faceoff",
@@ -113,6 +113,14 @@
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMS1Ieks4NXhuV0k3TGUtaUJuX2dnMFNQWnZYVy1rVHRBcE16bER2YWMzS1ZnaTlXYUxqMmRHTmEzOW9fMWp0OVBmTFViaUt6NUpQRlF4dDlMeXZzUFQtME9nN2VMa2JyblJ3OFVUNzdVLVF2aUFEbkVzc28tLWVVWHVwWm5lTEZkbmpEbV93ZnJCV3p6aU9oOTV3?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-12T19:54:18Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid's wife shuts down hopeful Toronto Maple Leafs fans",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQlFNbmNGSlg3Nks1c0hHSk9VTWtHU0k3dGpyRUx1andVZFpoWUFtclZIYndKTzNaTnZBblU2b0JsUThZWHNzMjZqUFJNQldjLTVmbHQ5dmRhTUxkaC01Sk90c3NsTW8xdjZUdk16dzF0S0p3ZWE3eEpUblM1YjRYU1NaTXJFMUpCcWxKalBINm52RHByNXM4?oc=5",
+   "source": "blogTO",
+   "published": "2026-11-12T19:51:42Z",
    "snippet": "",
    "via": "google"
   },
@@ -169,14 +177,6 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYk1nRUU5VG9Qc3VuMDl3WS1VN0NOd0NfWHJCQWVFRWh4c21JaUtldnJVOUp1dkpINnFWZU5zYml2WHVIS0lEa2RZSFFvWWw2R3dBNTZmSlRWUEF3TU5icXRKa1M1dkRMbFlpUS1CQlNjM1BzUWw5OGt3Z1RuWXhiWjFEY2RNZklIRUo0TS0xejN1cjN6TUkxQkdMNkZPSzFzVm5JWQ?oc=5",
    "source": "Sportsnet.ca",
    "published": "2026-11-12T16:53:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers’ Early Success Raises Sustainability Questions",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOTFPZlE3OTVFSGlxUE1kajhROFJxNXpvZzdnNlI2Y1hKR3gxbElvVjg3NzhUaUMtdVlhSFBNdkQwTGVXTFN4aURLRkUydlFPMWNhd2dfVG5QSWNXd0ctWVlIc0h1c3FyWHpnYXdWcmdjQXRuVzJ3SmpadHBGVWh5REttZWJ2aDNsdEE?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-12T15:45:00Z",
    "snippet": "",
    "via": "google"
   },
