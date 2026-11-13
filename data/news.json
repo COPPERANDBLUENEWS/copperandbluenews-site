@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-13T07:57:16Z",
+ "updated": "2026-11-13T09:34:11Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (50)",
+  "Edmonton Journal (10)",
   "Sportsnet (4)",
   "Google News (90)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers look to keep win streak going, visit the Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPR291NmV2ZUlQNFhGcUVoanJRWHVpd0ZwNGZsbVNLT1dmcHRhRWN5XzVsbTJVZnNRcl9ZaWRvRHZtYjBiWEVCd1M2SW05c3ExcGJCby0zX0QySlZKZ0RzcXNTcFRlRHdoWktpdWJ4OGNoQ1lTeHhLdW1ndXo5eUpuNEdGR2RNYkpVVnV1d0V3d19NNVQzWm5KM0RHZG82Zw?oc=5",
+   "source": "FOX Sports",
+   "published": "2026-11-13T09:11:06Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
@@ -93,10 +101,10 @@
    "via": "google"
   },
   {
-   "title": "Oiler Tristan Jarry continues team's strong goaltending in win over Flyers",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBLTHg2Y1FiMldYSFZOQnVNcUZoY3ZxZlhSMDJNWGprSVBfRjd4UEdocGFxZ1BUOHV3c2NURWhMZ3NqQ09KTkQ0WEZhU3EwcGJEaURhZmJtdTlxbk9KMnBIbkI4WDZqelZXRnRlemFSaUNDdUZ6bTNhZkh6Sm4?oc=5",
-   "source": "CBC",
-   "published": "2026-11-12T20:24:48Z",
+   "title": "The Day After 20.0: Oilers finding ways to win, but cracks start to show",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeE45YS1BSmxjSHByblVLYWNpM0hYMWQyeG5mX0duQUh0aGhORk45WE5UTEdQNGxvSHFBUUtXWG9lX2tQV05PX21USkJLQzFLMkxZYlZPR3k1eHdzdHliNEdJNERXUHdaTFZwb3VYODZIczVMb0I4S0U3SURuOVkzYjFPbXNtWG5DN1A4SUtHNTdaRncwY0NPZ0lzc1JGaFZjazd2MTY4X3hiNXc?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-12T20:15:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -169,14 +177,6 @@
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQXl5RHJVckE1TmhCcExSaXF3dURId1p1bE9SYmIteGFmTFcwalppTEE3YmJmcGhNREg2OUxwejlYZ1JmRzh4LU5QaktFVFE2WGlmdE9oUjJxby1XeGlqX1dmMmFxN19nd3hTVnZ6ejZjTjIwUUlncFNETDhoM3ZTanN3?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-12T17:02:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers beat Flyers in OT as goaltending shows signs of stability",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYk1nRUU5VG9Qc3VuMDl3WS1VN0NOd0NfWHJCQWVFRWh4c21JaUtldnJVOUp1dkpINnFWZU5zYml2WHVIS0lEa2RZSFFvWWw2R3dBNTZmSlRWUEF3TU5icXRKa1M1dkRMbFlpUS1CQlNjM1BzUWw5OGt3Z1RuWXhiWjFEY2RNZklIRUo0TS0xejN1cjN6TUkxQkdMNkZPSzFzVm5JWQ?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-12T16:53:00Z",
    "snippet": "",
    "via": "google"
   },
