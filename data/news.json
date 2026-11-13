@@ -1,14 +1,21 @@
 {
- "updated": "2026-11-13T06:39:51Z",
+ "updated": "2026-11-13T07:23:05Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (4)"
+  "Sportsnet (4)",
+  "Google News (90)"
  ],
- "errors": [
-  "Google News: HTTP Error 503: Service Unavailable"
- ],
+ "errors": [],
  "items": [
+  {
+   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-13T05:00:51Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "A tell-all tale of Ed Hervey's Grey Cup journey coming full circle",
    "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/a-tell-all-tale-of-ed-herveys-grey-cup-journey-coming-full-circle",
@@ -24,11 +31,27 @@
    "snippet": "For the first time in 11 years, the Edmonton Elks are back on the CFL’s biggest stage. To get you set, Kellen Forrest has three keys to victory for the Elks in Sunday’s Grey Cup against the…"
   },
   {
+   "title": "Oilers quarter-mark review: Far more positives than negatives",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdnc4RFpJVUVzekNLRjhGWFhlLWk2MnZ4UzNtZC0ybG40ZTBxaDk1NzZWWFhXbDFWQ19IMGJwWGM4QS14SGlFRWszZnctVG5JQWlTdmMxRGhwbmRlSGdHVU9NT3BEV1hzVXNZb1UzZGVnVFJjTDdkOTA5Z0RrcncweHFQbjZDLUtRR1BLXzFsTnFWZ2RBSi10aW1JVU1BZDJSbUEwTzBCMkpRQkk?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-12T22:43:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Elks QB Fajardo carrying extra motivation into Grey Cup",
    "url": "https://www.sportsnet.ca/cfl/article/elks-qb-fajardo-carrying-extra-motivation-into-grey-cup/",
    "source": "Sportsnet",
    "published": "2026-11-12T22:39:13Z",
    "snippet": "After helping Montreal win a Grey Cup, Cody Fajardo believed he had done enough to remain its starting quarterback until they decided to hand the keys to Davis Alexander. Now, with…"
+  },
+  {
+   "title": "How Much Credit Does Mike Babcock Deserve For The Edmonton Oilers' Early Success?",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQ0xIVWJzTEFMWk9JMU50RFMtUy0tT2lKTUxlQWJhTjhFQzlZejBDQUF1Z3pSVXZRRDNNSlotQ3QxX0tfUzg2TVdZSDJfV2JZUzhfajI0d1lzaWd2WXhRTnVWMWtUaTkxX0J4akptNTBoemhRQ0ZncUdPUGVCLXVrN2ZKQkdDMEFoanBfRWtXWUpTQjZKRFhMR3BycksySVh6NkpwRVFhX1hnNWkybC0teTBnV0J5cGhEYzB3U0VIZw?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-12T22:37:28Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Babcock's tough love approach faces its biggest challenge",
@@ -38,18 +61,124 @@
    "snippet": ""
   },
   {
+   "title": "Oilers' McDavid is chasing a Gretzky record that seems impossible to break",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRU83WFVkaTdwcWRLdWdNU3M0SVlrNExjVnhkM0tDZXpTU0Q1aTd0cjlDQ1podHNXdmRlTUo0SEMxdFd0VkFVMlhOV0ctTXpHbmUxV3RUclNtRUlTM2JmZDFObUVwbjJoVDMwR0JvRFFQazhfX0twTHJabWQzOHQ0eVQzWmROQQ?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-12T22:08:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "3 Potential Trade Destinations for Oilers Defenceman Jake Walman",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONDNzTHFFUC1Qa0NuSlprbHpxMDgwODdXcWYtSkhJNUF6UjQ0YlFLTEl4cUM3ZVRIUGhsaFgzaDAtSnVVb3hUeFZVT0E3X2h2OUNJQkJwSDY5S2lkTDlrM0UxU0ljSUNoeVdvVUZWazBWcjNoYl82eVVRNnFFYnhvQXJXTHFrRmRMTEZRNjRiM05WdUlWNDJiQllR?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-12T21:24:07Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid's 200-Point Chase: Can The Edmonton Oilers Star Make NHL History?",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObVE4d2Q4WUZiWnoyMUZYMHlRRGdSVVlEd3RIdUJ4UHNyRVd2dFo0cmRyRjFsSllZY3BvekpuaTFaVmxIVkZ1WkVCUUlwdlNLS0xCdF9BQnR3N2c4amR2UGlUSGdVWktac2ZIOENfX3dsZzFKVFFJN2tsTld2SW1sbi1xenkxQlFTNy1zdDljbFRPUG5Jd0ExRjZpWDRlR3hjNG9BWWhaTXBXYWd1QUtQanIzOUxFYUoy?oc=5",
+   "source": "NDTV Sports",
+   "published": "2026-11-12T21:17:52Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Will Soon Have a Very Interesting Dilemma Between the Pipes",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTlpZN1EwZ0xGc1VrYUtESnNtMTV4aWprWkU3eHJzWnJZQzFKeW9fcDdmUEg0cjBOaTlweGcybkJtNko1NFNkaHhIYUFSem4xb3AwNmFPWnMwS2ZMWmtNSXVHNVVsRXBBWGQxMGNNVmJCTzBISG9BZTg3RzJtaGlQaVhHRWl2VVZOYU9yOXcwTDVSem9Cay1yS09tNGw?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-12T20:35:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oiler Tristan Jarry continues team's strong goaltending in win over Flyers",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBLTHg2Y1FiMldYSFZOQnVNcUZoY3ZxZlhSMDJNWGprSVBfRjd4UEdocGFxZ1BUOHV3c2NURWhMZ3NqQ09KTkQ0WEZhU3EwcGJEaURhZmJtdTlxbk9KMnBIbkI4WDZqelZXRnRlemFSaUNDdUZ6bTNhZkh6Sm4?oc=5",
+   "source": "CBC",
+   "published": "2026-11-12T20:24:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid’s hot start is driving Oilers’ success",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSkJLRHA3MERYWTlVSXd5SnJwMnFBR0xnRFVHeGJpLURXUWtTejBHaHFZODEwNFZFRldONEwxUzFqZldpV0k5Qy0tM3RNVHJXblU0YzFzQXU5OERjRHVLbE1URVppdlFQMnZHcGxQYnhOdndTdG1wV1BDWkhSbXgyN05VV19WUU9PMFp4Y1JvbVAwX3BVbUZnSkxn?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-12T20:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Grateful For Zach Hyman, Again",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMS1Ieks4NXhuV0k3TGUtaUJuX2dnMFNQWnZYVy1rVHRBcE16bER2YWMzS1ZnaTlXYUxqMmRHTmEzOW9fMWp0OVBmTFViaUt6NUpQRlF4dDlMeXZzUFQtME9nN2VMa2JyblJ3OFVUNzdVLVF2aUFEbkVzc28tLWVVWHVwWm5lTEZkbmpEbV93ZnJCV3p6aU9oOTV3?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-12T19:54:18Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid's wife shuts down hopeful Toronto Maple Leafs fans",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQlFNbmNGSlg3Nks1c0hHSk9VTWtHU0k3dGpyRUx1andVZFpoWUFtclZIYndKTzNaTnZBblU2b0JsUThZWHNzMjZqUFJNQldjLTVmbHQ5dmRhTUxkaC01Sk90c3NsTW8xdjZUdk16dzF0S0p3ZWE3eEpUblM1YjRYU1NaTXJFMUpCcWxKalBINm52RHByNXM4?oc=5",
+   "source": "blogTO",
+   "published": "2026-11-12T18:55:34Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Six potential Oilers targets from Daily Faceoff’s NHL trade board",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYXVIOTVZaHREaEphNTgwT25NcjBlOVFkYm5nRVRad19iSXNWUXlFWVF5alhmWnc4U1QzakJmdVBpem1LOHNDNXNQUnZ1TDNGaHBncHZmQlZ0aWdvMG1qdzVYWUcyazR2eUw4Zktzd2R5M2ttVHNSa05qXzYwdVhyZ1YwSTdscXVNZ3dLdTI2VXYzU1oxUzhLbGYySHVKY0RWelJTYlR6SFg?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-12T18:52:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "20 games later, Mike Babcock and the Edmonton Oilers seem a perfect match",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/mike-babcock-edmonton-oilers-a-perfect-match",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYlZqMkdQd1RFNjN6VTRKTG9HWW9FRnBsb0FpcEpfSlR3eEllOXl0VGJGYkRNR0ZTbXB0UDNzOVJELWIzSWtnbVJpY29UUUVaaVB5Y3g4aUhBVjltWU1meUVNS3E0UFlyVVpjdHoxTU5mOFRKSG1TTDNFUGdwTHJ2VndGNjE2am9YeG9SUnFqQndnM3lv?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-12T18:12:21Z",
-   "snippet": "“Twenty games in is real,” said head coach Mike Babcock. “With the injuries we’ve had, we’ve done well. In saying that, we have a long, long way to go\""
+   "published": "2026-11-12T18:14:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers have to decide if Jake Walman is part of their winning strategy",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMzlhZ2dMdmMzU1ZpbTV3QkFUNFFQTXV0TFVZMC1Kdm1PRU1USEdCSVljb2hRZTRWeVpBS3l0eVoxUnY1M19aS081b09IcTRWVnkxaDFWR1VyRXMzTTJ1YXA0WXBrckZWVVN6V2QtQ0xYYmt2bUtPN3B4NmxoR0h1V1JyMEhvd0x2YmZwempKeW5iWkRVWXJ0OXlFWC0wMGJoS29rc0pHLXFlUQ?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-12T17:59:49Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Oilers quarter-mark report card: Edmonton off to very promising start",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-quarter-mark-report-card-edmonton-off-to-very-promising-start/",
-   "source": "Sportsnet",
-   "published": "2026-11-12T17:48:28Z",
-   "snippet": "Twice before, the Oilers have managed only three regulation losses through 20 games — and both seasons ended with a Stanley Cup. Is history bound to repeat itself? Sportsnet’s Mark Spector…"
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZVRfaWdXaE91dE56eTBXbDkwMVktYkFqVmZ2T0RBU2lOcmdGenpKRW04SXM2aWVUeUd0bWcxNFhJTm9BdlA4WFVMcG8xNEh0M1BYcmFKanVVV1kwbnFaZ2JHWFVqOF9abjFkVDNkZDlFWkNLb1RZSWROZENscmdaU0dPRThRd1REc1d2Nmpqa3RNcXhFTTZKY1BvbFlHTEJaTVF1d3I1VjNQdw?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-12T17:52:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers withstand pressure from the Flyers and earn a victory",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZEZQM1lJVjRXbURZZzc1LUcwMWVZVFEyNjRwNmk4dHBkVFpDaXRQYzNwZHVablZRYlhuRFQ3RDJmNGZnMHA5and0ajM3YmNJQTN6Nmp5ZEJKcXFSbExkQ0tVbURCSjdmZENpMDRyYXhrNVNQZjBOOEM5VWItNEtqWm9wNG1iVmFZSU5XeG52ZnpiRGNMclY2REpNNEtGa0dFcXFpeDByUTQ?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-12T17:10:39Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Top 100 Oilers: No. 13 — Doug Weight",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQXl5RHJVckE1TmhCcExSaXF3dURId1p1bE9SYmIteGFmTFcwalppTEE3YmJmcGhNREg2OUxwejlYZ1JmRzh4LU5QaktFVFE2WGlmdE9oUjJxby1XeGlqX1dmMmFxN19nd3hTVnZ6ejZjTjIwUUlncFNETDhoM3ZTanN3?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-12T17:02:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers beat Flyers in OT as goaltending shows signs of stability",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYk1nRUU5VG9Qc3VuMDl3WS1VN0NOd0NfWHJCQWVFRWh4c21JaUtldnJVOUp1dkpINnFWZU5zYml2WHVIS0lEa2RZSFFvWWw2R3dBNTZmSlRWUEF3TU5icXRKa1M1dkRMbFlpUS1CQlNjM1BzUWw5OGt3Z1RuWXhiWjFEY2RNZklIRUo0TS0xejN1cjN6TUkxQkdMNkZPSzFzVm5JWQ?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-12T16:53:00Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "32 Thoughts Podcast: Latest on Michkov, McDavid, Hellebuyck",
@@ -148,118 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-11T16:01:55.573Z",
    "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) has donated $100,000 to the CFB Wainwright Support Fund through True Patriot Love Foundation. The CFB Wainwright Support Fund…"
-  },
-  {
-   "title": "PREVIEW: Oilers vs. Flyers",
-   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-flyers-11-11-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-11T03:07:12.992Z",
-   "snippet": "The Edmonton Oilers wrap up their four-game homestand against the Philadelphia Flyers on Wednesday at Rogers Place. You can watch the game live on Sportsnet at 8:00 PM MT or listen on the…"
-  },
-  {
-   "title": "McDavid pushes season-opening point streak to 19 in Oilers win against Rangers",
-   "url": "https://www.nhl.com/news/new-york-rangers-edmonton-oilers-game-recap-november-9-2026",
-   "source": "NHL.com",
-   "published": "2026-11-10T05:46:00Z",
-   "snippet": "EDMONTON -- Connor McDavid scored a goal to extend his season-opening point streak to 19 games, helping the Edmonton Oilers to a 3-1 win against the New York Rangers at Rogers Place on…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Nugent-Hopkins good to go for Monday's matchup with Rangers",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-good-to-go-for-monday-s-matchup-with-rangers-11-09-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-09T18:12:20.005Z",
-   "snippet": "EDMONTON, AB – Just a bruise for Nuge. Forward Ryan Nugent-Hopkins (upper body) appears to have avoided major injury and will be good to go tonight, while Colton Dach (illness) will be a…"
-  },
-  {
-   "title": "Draisaitl scores twice, Oilers hold off Canucks",
-   "url": "https://www.nhl.com/oilers/news/vancouver-canucks-edmonton-oilers-game-recap-november-7-2026-x8113",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-08T07:04:00Z",
-   "snippet": "EDMONTON – Leon Draisaitl had two goals and an assist, Connor McDavid added three assists, and the Edmonton Oilers won 4-2 against the Vancouver Canucks at Rogers Place on Saturday."
-  },
-  {
-   "title": "Nugent-Hopkins leaves game for Oilers after being struck in head by puck",
-   "url": "https://www.nhl.com/news/oilers-ryan-nugent-hopkins-injured-after-being-struck-in-head-by-puck",
-   "source": "NHL.com",
-   "published": "2026-11-08T05:35:00Z",
-   "snippet": "EDMONTON -- Ryan Nugent-Hopkins sustained an apparent head injury 45 seconds into the second period of a 4-2 win for the Edmonton Oilers against the Vancouver Canucks at Rogers Place on…"
-  },
-  {
-   "title": "QUICK RECAP: Oilers 4, Canucks 2",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-canucks-11-07-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-08T02:55:14.8Z",
-   "snippet": "EDMONTON, AB – Goaltender Devon Levi recorded 20 saves in his return from injury, while Connor McDavid & Leon Draisaitl each had three points as the Edmonton Oilers ended a mini two-game…"
-  },
-  {
-   "title": "RELEASE: Oilers activate Levi & Hyman off IR; Tomkins loaned to Condors",
-   "url": "https://www.nhl.com/oilers/news/release-oilers-activate-devon-levi-zach-hyman-off-ir",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T22:56:48.658Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers have activated goalie Devon Levi and forward Zach Hyman off Injured Reserve, the team announced on Saturday. Goalie Matt Tomkins has also been loaned to…"
-  },
-  {
-   "title": "RELEASE: Oilers place Atro Leppanen on waivers",
-   "url": "https://www.nhl.com/oilers/news/release-oilers-place-atro-leppanen-on-waivers",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T18:57:04.06Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers have placed defenceman Atro Leppanen on waivers for the purpose of assignment to the Bakersfield Condors, the team announced on Saturday."
-  },
-  {
-   "title": "PROJECTED LINEUP: Levi to start & Hyman returns for Saturday's meeting with Canucks",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-levi-to-start-hyman-returns-for-saturday-s-meeting-with-canucks-11-01-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T18:52:10.923Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers will have netminder Devon Levi and forward Zach Hyman back in their lineup on Saturday night after both are activated from Injured Reserve ahead of a…"
-  },
-  {
-   "title": "PREVIEW: Oilers vs. Canucks",
-   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-canucks-11-06-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-07T03:36:41.45Z",
-   "snippet": "The Edmonton Oilers continue their four-game homestand at Rogers Place on Saturday with a visit from the Vancouver Canucks. You can watch the game live on Sportsnet at 9:00 PM MT or listen…"
-  },
-  {
-   "title": "RELEASE: Hockey Fights Cancer Mega 50/50 raffle returns",
-   "url": "https://www.nhl.com/oilers/news/release-hockey-fights-cancer-mega-50-50-raffle-returns",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-06T18:11:04.536Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) announced today the return of the Oilers “Hockey Fights Cancer” MEGA 50/50, running from the Oilers Hockey Fights Cancer game…"
-  },
-  {
-   "title": "Short Shifts Power Rankings: November 6",
-   "url": "https://www.nhl.com/news/short-shifts-power-rankings-november-6-2026",
-   "source": "NHL.com",
-   "published": "2026-11-06T17:01:00Z",
-   "snippet": "Throw out the Xs and Os and join Short Shifts for our own weekly power rankings. What is our criteria? Whatever makes us smile, laugh, cry or any other wholesome feeling. This list is…"
-  },
-  {
-   "title": "McDavid continues torrid pace following 'dangerous' hit from Helleson of Ducks",
-   "url": "https://www.nhl.com/news/oilers-connor-mcdavid-continues-torrid-pace-despite-hit-from-ducks-drew-helleson",
-   "source": "NHL.com",
-   "published": "2026-11-06T06:12:00Z",
-   "snippet": "EDMONTON -- Connor McDavid continued his torrid pace to start the season on Thursday, although he had to pick himself up off the ice to do so."
-  },
-  {
-   "title": "Sennecke has three points, Ducks withstand late rally from Oilers",
-   "url": "https://www.nhl.com/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026",
-   "source": "NHL.com",
-   "published": "2026-11-06T05:41:00Z",
-   "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
-  },
-  {
-   "title": "Mintyukov, Sennecke Power Ducks to 5-4 Victory Over Oilers",
-   "url": "https://www.nhl.com/news/anaheim-ducks-edmonton-oilers-game-recap-november-5-2026-x1332",
-   "source": "NHL.com",
-   "published": "2026-11-06T04:09:34.996Z",
-   "snippet": "EDMONTON -- Beckett Sennecke had two goals and an assist, and the Anaheim Ducks withstood a late rally from the Edmonton Oilers for a 5-4 win at Rogers Place on Thursday."
-  },
-  {
-   "title": "Oilers fans give Nugent-Hopkins standing ovation for setting team record",
-   "url": "https://www.nhl.com/news/oilers-fans-give-ryan-nugent-hopkins-standing-ovation",
-   "source": "NHL.com",
-   "published": "2026-11-06T02:03:00Z",
-   "snippet": "Edmonton Oilers fans were excited to celebrate their longest-tenured player on Thursday. Ryan Nugent-Hopkins received a standing ovation from fans at Rogers Place after becoming the…"
   }
  ]
 }
