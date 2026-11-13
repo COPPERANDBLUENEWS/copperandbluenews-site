@@ -1,13 +1,36 @@
 {
- "updated": "2026-11-13T00:21:55Z",
+ "updated": "2026-11-13T01:15:50Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (3)",
-  "Google News (87)"
+  "Sportsnet (4)",
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Connor McDavid's 200-Point Chase: Can The Edmonton Oilers Star Make NHL History?",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObVE4d2Q4WUZiWnoyMUZYMHlRRGdSVVlEd3RIdUJ4UHNyRVd2dFo0cmRyRjFsSllZY3BvekpuaTFaVmxIVkZ1WkVCUUlwdlNLS0xCdF9BQnR3N2c4amR2UGlUSGdVWktac2ZIOENfX3dsZzFKVFFJN2tsTld2SW1sbi1xenkxQlFTNy1zdDljbFRPUG5Jd0ExRjZpWDRlR3hjNG9BWWhaTXBXYWd1QUtQanIzOUxFYUoy?oc=5",
+   "source": "NDTV Sports",
+   "published": "2026-11-13T01:11:35Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Keys to victory: How Elks can beat Alouettes in Grey Cup",
+   "url": "https://www.sportsnet.ca/cfl/article/keys-to-victory-how-elks-can-beat-alouettes-in-grey-cup/",
+   "source": "Sportsnet",
+   "published": "2026-11-13T00:49:37Z",
+   "snippet": "For the first time in 11 years, the Edmonton Elks are back on the CFL’s biggest stage. To get you set, Kellen Forrest has three keys to victory for the Elks in Sunday’s Grey Cup against the…"
+  },
+  {
+   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-12T23:00:51Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers quarter-mark review: Far more positives than negatives",
    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdnc4RFpJVUVzekNLRjhGWFhlLWk2MnZ4UzNtZC0ybG40ZTBxaDk1NzZWWFhXbDFWQ19IMGJwWGM4QS14SGlFRWszZnctVG5JQWlTdmMxRGhwbmRlSGdHVU9NT3BEV1hzVXNZb1UzZGVnVFJjTDdkOTA5Z0RrcncweHFQbjZDLUtRR1BLXzFsTnFWZ2RBSi10aW1JVU1BZDJSbUEwTzBCMkpRQkk?oc=5",
@@ -47,10 +70,26 @@
    "via": "google"
   },
   {
+   "title": "3 Potential Trade Destinations for Oilers Defenceman Jake Walman",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONDNzTHFFUC1Qa0NuSlprbHpxMDgwODdXcWYtSkhJNUF6UjQ0YlFLTEl4cUM3ZVRIUGhsaFgzaDAtSnVVb3hUeFZVT0E3X2h2OUNJQkJwSDY5S2lkTDlrM0UxU0ljSUNoeVdvVUZWazBWcjNoYl82eVVRNnFFYnhvQXJXTHFrRmRMTEZRNjRiM05WdUlWNDJiQllR?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-12T21:24:07Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers Will Soon Have a Very Interesting Dilemma Between the Pipes",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTlpZN1EwZ0xGc1VrYUtESnNtMTV4aWprWkU3eHJzWnJZQzFKeW9fcDdmUEg0cjBOaTlweGcybkJtNko1NFNkaHhIYUFSem4xb3AwNmFPWnMwS2ZMWmtNSXVHNVVsRXBBWGQxMGNNVmJCTzBISG9BZTg3RzJtaGlQaVhHRWl2VVZOYU9yOXcwTDVSem9Cay1yS09tNGw?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-12T20:35:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oiler Tristan Jarry continues team's strong goaltending in win over Flyers",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBLTHg2Y1FiMldYSFZOQnVNcUZoY3ZxZlhSMDJNWGprSVBfRjd4UEdocGFxZ1BUOHV3c2NURWhMZ3NqQ09KTkQ0WEZhU3EwcGJEaURhZmJtdTlxbk9KMnBIbkI4WDZqelZXRnRlemFSaUNDdUZ6bTNhZkh6Sm4?oc=5",
+   "source": "CBC",
+   "published": "2026-11-12T20:24:48Z",
    "snippet": "",
    "via": "google"
   },
@@ -119,14 +158,6 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-12T17:00:51Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers beat Flyers in OT as goaltending shows signs of stability",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYk1nRUU5VG9Qc3VuMDl3WS1VN0NOd0NfWHJCQWVFRWh4c21JaUtldnJVOUp1dkpINnFWZU5zYml2WHVIS0lEa2RZSFFvWWw2R3dBNTZmSlRWUEF3TU5icXRKa1M1dkRMbFlpUS1CQlNjM1BzUWw5OGt3Z1RuWXhiWjFEY2RNZklIRUo0TS0xejN1cjN6TUkxQkdMNkZPSzFzVm5JWQ?oc=5",
    "source": "Sportsnet.ca",
@@ -135,34 +166,10 @@
    "via": "google"
   },
   {
-   "title": "The Oilers Are A Bunch Of Squirts And A Couple Of Gods",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOb3NINDRkdGUydnFTQ1VETzQwaEh4X1pHYWZhdWJsX2U4dnM0amxheHBrbjdlZnk4alhxNjg0WHdfVmtzSGYxa0FBcnBnQ3Z4TkJLX21HVndTdFBWS3dtWmVHX1BFVk43OHdTOFpWcUtnR2F6RnM2dVJuZjRMejVFcQ?oc=5",
-   "source": "Defector",
-   "published": "2026-11-12T16:41:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers’ Early Success Raises Sustainability Questions",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOTFPZlE3OTVFSGlxUE1kajhROFJxNXpvZzdnNlI2Y1hKR3gxbElvVjg3NzhUaUMtdVlhSFBNdkQwTGVXTFN4aURLRkUydlFPMWNhd2dfVG5QSWNXd0ctWVlIc0h1c3FyWHpnYXdWcmdjQXRuVzJ3SmpadHBGVWh5REttZWJ2aDNsdEE?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-12T15:45:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Oilers Have Found Something the Maple Leafs Are Still Missing",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSmg1V2RTWnAteTBQbUJYNWFJMkpocGpDQldUa3FMVy0zdjdKSDQ4cWtYWktDb3BJQ2dlZ0NCbWpEN3M2ektnZE9UcmtkS1hNUWFqbTY5QnNNU1BqZ3JWcHFld3RzR3BpTmtnb3VMTklNcm12VmRNN0xKaWoyN0QycGpfcUFIbkFzdEVHTlhGQzFyeW55cnlodUNNRQ?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-12T14:25:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "3 Takeaways From Oilers’ 3-2 Overtime Win Against Flyers",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY3JLOVg1N0hBa3BZZG10cGRIX3hzYVY3aGwyWEZSQU1aS2dmOGxxdzFUcFUyVVNpUzhUZUpWOXVxVXVodnZRa3RwTlp2QjJ4aHE5Q2dwOURYbzYzelg3ZVAtWEpMZ3dMUWhqMDQzemkxRkw0b3BhaGhlQVpCZTJtMlVlSTRIR2dUSGdrQ2R3?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-12T13:45:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-11T03:07:12.992Z",
    "snippet": "The Edmonton Oilers wrap up their four-game homestand against the Philadelphia Flyers on Wednesday at Rogers Place. You can watch the game live on Sportsnet at 8:00 PM MT or listen on the…"
-  },
-  {
-   "title": "Edmonton Elks QB Fajardo manifested Grey Cup showdown against old team",
-   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-grey-cup-montreal-alouettes-cody-fajardo-calgary",
-   "source": "Edmonton Journal",
-   "published": "2026-11-10T22:00:48Z",
-   "snippet": "'I couldn't help but think there's a reason why I'm here leading this ball club, there's a reason why they're in the Grey Cup and we're in'"
   }
  ]
 }
