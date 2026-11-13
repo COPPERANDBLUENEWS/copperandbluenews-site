@@ -1,13 +1,72 @@
 {
- "updated": "2026-11-13T21:27:52Z",
+ "updated": "2026-11-13T21:52:39Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (6)",
-  "Google News (85)"
+  "Sportsnet (11)",
+  "Google News (83)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "McDavid fired up to play Leafs in Toronto: 'It means more'",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4xeUVfLUtaRF85RE10WUJCUm0xa3ZWZFJlbWNTUU82LXJ2dy1jaU9NQ2UwN0JLMF9MaE1JWW5QRWZyQ29GMmhFdGRVYWctQQ?oc=5",
+   "source": "theScore",
+   "published": "2026-11-13T21:46:49Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers superstar Connor McDavid brings his Gretzky vibe to Toronto",
+   "url": "https://www.sportsnet.ca/nhl/article/oilers-superstar-connor-mcdavid-brings-his-gretzky-vibe-to-toronto/",
+   "source": "Sportsnet",
+   "published": "2026-11-13T21:44:54Z",
+   "snippet": "There will never be another Wayne Gretzky, but, as Mark Spector writes, there’s definitely a Gretzkian vibe around Connor McDavid right now."
+  },
+  {
+   "title": "Edmonton Oilers and Mike Babcock riding high while Maple Leafs stumble",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN2U2S2I4Sjk2eTl6RXVKWlZrZHhUYVJQcXNDN2FRbWtwdXFfZW1oNU4wUU90SC1UNlB6SFNINUlEQzAxMVBCVkNVU083eWYzc1FmMWpPM0dCNXdjRXJBQmplZTdRdDdUeEVqUGJ1UTI5WFR6WHUzV1N2d2w2ZS1vWENNTDQ1OFUwOEtjbWZoNjllX0FJZmpaZDFYRzFhdw?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-13T21:43:37Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Maple Leafs-Oilers (home)",
+   "url": "https://www.sportsnet.ca/?sn-collection=maple-leafs-oilers-home",
+   "source": "Sportsnet",
+   "published": "2026-11-13T21:35:24Z",
+   "snippet": ""
+  },
+  {
+   "title": "Oilers insider Bob Stauffer has fans talking after posting epic slow-motion video",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50YTRpQ18yOEIwODE2OFVOd011d1IzTDRiWDVvbG1JVTdsSG1OaVRST0tKbnI2MkdvWXNHblBzM3RHbDZacEJEeFNTblFVY2VwNGxhbHNIQWNFR1NfQ3QxaXhkVHFzRXctdmc2Q3RKb2Z2SlFXX3J2RlJKRTI4aUU?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-13T21:25:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "‘Really enjoyed my time here’: Babcock reflects on eventful tenure with Leafs",
+   "url": "https://www.sportsnet.ca/nhl/video/really-enjoyed-my-time-here-babcock-reflects-on-eventful-tenure-with-leafs/",
+   "source": "Sportsnet",
+   "published": "2026-11-13T21:18:22Z",
+   "snippet": "Edmonton Oilers head coach Mike Babcock reflects on his time with the Maple Leafs ahead of his first game back in Toronto, sharing what he enjoyed about his tenure and why he’s happy to…"
+  },
+  {
+   "title": "‘Always special to play here’: McDavid on facing hometown Leafs in primetime",
+   "url": "https://www.sportsnet.ca/nhl/video/always-special-to-play-here-mcdavid-on-facing-hometown-leafs-in-primetime/",
+   "source": "Sportsnet",
+   "published": "2026-11-13T21:15:03Z",
+   "snippet": "Edmonton Oilers captain Connor McDavid shares his excitement for Saturday night’s primetime matchup with the Toronto Maple Leafs and explains why facing the team he grew up cheering for is…"
+  },
+  {
+   "title": "Hyman details how Babcock’s bringing best out of Oilers on and off the ice",
+   "url": "https://www.sportsnet.ca/nhl/video/hyman-details-how-babcocks-bringing-best-out-of-oilers-on-and-off-the-ice/",
+   "source": "Sportsnet",
+   "published": "2026-11-13T21:13:28Z",
+   "snippet": "Edmonton Oilers forward Zach Hyman discusses Mike Babcock’s positive influence on the team’s locker-room culture and reflects on the coach’s belief in his game during their time with the…"
+  },
   {
    "title": "What’s gone into Oilers’ much-improved goaltending this season?",
    "url": "https://www.sportsnet.ca/nhl/video/whats-gone-into-oilers-much-improved-goaltending-this-season/",
@@ -21,6 +80,14 @@
    "source": "Edmonton Journal",
    "published": "2026-11-13T20:38:18Z",
    "snippet": "'It's been a really long road, but it just felt like redemption, especially for us long time fans who've been through the darkest times with this team'"
+  },
+  {
+   "title": "Oilers blue line changes: Comparing Ryan Shea to Darnell Nurse, and a Mukhamadullin update",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeDBLTHhfYWQ4MTQxdXhYTlFaMnBvYWEwY2JDRkx0d1Zpbk54azZGbGJGTDBPOVdkWDlqcFZLcEk3aUdrWUIzLWx2UG1JdVFtR0pEdnVuZ0RfWDROenJXRXZBYkxkV1FmVkpWSFlHTXhlcm9GZ0hONVJtY29LWkVkLUJjRWwxQkprVmJyVWJ5SzgtTENmNmtFZWRuRjk?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-13T20:35:00Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Oilers’ Zach Hyman credits Mike Babcock for bringing ‘new life to locker room’",
@@ -171,35 +238,17 @@
   },
   {
    "title": "Oilers' Walman needs to find a way to work himself back into lineup",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR1ZKUXFNRWs1Q21Lc2tJc1pkOXFQM09UVWxqZmpGdzZ6Qlh3WF9xdlhUQjAwTGZTZHhJWUQ4cUowNGsxbEV5MFdXRi1RQTZJZTZnU21zVUthOU1FZUJIOHFLQkNJZmRtWjgyU2ZCVGliN0NWUVV5SmhfZUsxSXJ4TkJ1MTRVcTg?oc=5",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-jake-walman-healthy-scratches",
    "source": "Edmonton Journal",
-   "published": "2026-11-13T15:15:24Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-13T15:12:32Z",
+   "snippet": "After signing a seven-year $49-million extension with the Edmonton Oilers, Jake Walman is struggling to find a spot in the lineup this year."
   },
   {
-   "title": "As the Edmonton Oilers’ schedule gets more difficult, will they tweak their lines?",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSmt6VXJsRTdKSjA3dkFlTC1SdEZuLTRkSXlVaDR4b1ZIUlUySHVJS1J1U1hOd3R4Yk83QkZ6NVVHMThBSE1JdGhLeGZzNHI3bzJVNmdaN0VWVHVaUFBweDVfR0NYZWYzMkNvUUFBbmVyUXotY1ZMdWJFOWpMYkFndFlveUYwb2lWdzVoWWdINllyQQ?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-13T15:00:40Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL Weekend Odds vs. A Goals Model: Jets, Oilers, Canucks",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNclhYME51ZW0yRC1kcm9uZjlzSkZhX1dHdnZIbUNuUGt4N1JUM3lfbVg0LWlWY1llck8tSG1WNzAzdzZ2aWNiNXZtOTcwOERqbkRSc3loQXZEMmFqSEVMTmJOY1JTdER4R1hHMDJucVhGaWhPakR6RE9DU3FMWFdaSDg1My1LbzdyY2ZxUjZhNVhXWnFFRTZEbkJXS3R1a0M1TE04aFM0dDZKejBtUzcw?oc=5",
-   "source": "RG.org",
-   "published": "2026-11-13T14:57:28Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Looking at the Oilers’ Best 20-Game Starts in Franchise History",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNek1VZXoteVg5X21ueVRQUWRmaUNrRUZta3JKdFY1cDlwenhJRUhkdm5jcU4zZm1OZGdGZmZhTVF0c1djb0hmelo5dGhRT29YekhfcmlhUFZRQ1MtZEdaUE9tWFhNMGYwS2dRd09fV2Z0TXZTaWZPSzFLT3p6S3RJX3BIWlpDamFpR0haNFRtWEV0c0hSa3JR?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-13T14:45:00Z",
-   "snippet": "",
-   "via": "google"
+   "title": "By the numbers: A head-to-head historical look at the 2026 Grey Cup finalists",
+   "url": "http://edmontonjournal.com/sports/by-the-numbers-a-head-to-head-historical-look-at-the-2026-grey-cup-finalists/wcm/a8ac627a-6aed-41aa-b42f-3d32f7cd36c9",
+   "source": "Edmonton Journal",
+   "published": "2026-11-13T13:28:22Z",
+   "snippet": "The franchises are meeting to fight for the Grey Cup for a 12th time, making this one of the CFL's great championship rivalries."
   },
   {
    "title": "A tell-all tale of Ed Hervey's Grey Cup journey coming full circle",
@@ -228,55 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-12T18:12:21Z",
    "snippet": "“Twenty games in is real,” said head coach Mike Babcock. “With the injuries we’ve had, we’ve done well. In saying that, we have a long, long way to go\""
-  },
-  {
-   "title": "McDavid’s season-opening point streak hits 20, Oilers top Flyers in OT",
-   "url": "https://www.nhl.com/oilers/news/philadelphia-flyers-edmonton-oilers-game-recap-november-11-2026-x1348",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-12T06:35:00Z",
-   "snippet": "EDMONTON -- Connor McDavid had an assist to extend his season-opening point streak to 20 games for the Edmonton Oilers, who defeated the Philadelphia Flyers 3-2 in overtime at Rogers Place…"
-  },
-  {
-   "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
-   "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
-   "source": "NHL.com",
-   "published": "2026-11-12T05:00:00Z",
-   "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "Player grades: Jarry with best Oilers goalie game of the year, 3-2 over Flyers",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/player-grades-jarry-comes-with-best-oilers-goalie-game-of-the-year-3-2-over-flyers",
-   "source": "Edmonton Journal",
-   "published": "2026-11-12T04:49:29Z",
-   "snippet": ""
-  },
-  {
-   "title": "QUICK RECAP: Oilers 3, Flyers 2 (OT)",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-flyers-11-11-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-12T01:56:05.523Z",
-   "snippet": "EDMONTON, AB – Flying high. Zach Hyman scored two goals, while Tristan Jarry made 30 saves, but it was Evan Bouchard's decisive winner just 47 seconds into overtime that ultimately gave the…"
-  },
-  {
-   "title": "Michkov, Seeler all good as brief storm on Flyers bench blows over",
-   "url": "https://edmontonjournal.com/sports/michkov-seeler-all-good-as-brief-storm-on-flyers-bench-blows-over",
-   "source": "Edmonton Journal",
-   "published": "2026-11-11T21:17:18Z",
-   "snippet": ""
-  },
-  {
-   "title": "'Pretty good deal by Stan': Mike Babcock praises trade of veteran Edmonton Oilers d-man",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-coach-mike-babcock-praises-darnell-nurse-trade",
-   "source": "Edmonton Journal",
-   "published": "2026-11-11T20:20:33Z",
-   "snippet": ""
-  },
-  {
-   "title": "Flyers at Oilers projected lineups ",
-   "url": "https://www.nhl.com/news/philadelphia-flyers-edmonton-oilers-game-preview-november-11-2026",
-   "source": "NHL.com",
-   "published": "2026-11-11T18:50:25.155Z",
-   "snippet": "FLYERS (5-10-5) at OILERS (13-3-3) 9 p.m. ET; SNW, NBCSP Flyers projected lineup Michael Bunting -- Christian Dvorak -- Owen Tippett Tyson Foerster -- Trevor Zegras -- Travis Konecny Porter…"
   }
  ]
 }
