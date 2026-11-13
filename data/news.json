@@ -1,13 +1,35 @@
 {
- "updated": "2026-11-13T20:31:36Z",
+ "updated": "2026-11-13T21:27:52Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (5)",
+  "Sportsnet (6)",
   "Google News (85)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "What’s gone into Oilers’ much-improved goaltending this season?",
+   "url": "https://www.sportsnet.ca/nhl/video/whats-gone-into-oilers-much-improved-goaltending-this-season/",
+   "source": "Sportsnet",
+   "published": "2026-11-13T21:04:12Z",
+   "snippet": "Bob Stauffer joins the Frankly Hockey show and discusses the play of Oilers goaltenders Tristan Jarry and Devon Levi, and expresses how impressed he has been with how well the tandem has…"
+  },
+  {
+   "title": "'Worth all the tears': Edmonton Elks fans are relishing chance at Grey Cup",
+   "url": "https://edmontonjournal.com/news/local-news/edmonton-elks-fans-grey-cup-ed-hervey-chris-morris",
+   "source": "Edmonton Journal",
+   "published": "2026-11-13T20:38:18Z",
+   "snippet": "'It's been a really long road, but it just felt like redemption, especially for us long time fans who've been through the darkest times with this team'"
+  },
+  {
+   "title": "Oilers’ Zach Hyman credits Mike Babcock for bringing ‘new life to locker room’",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcHZDUVkyRl9WWUhjWXRSbkdjR2hJTTludGFOR3VxdFBJMnpuR1BRWFoyTEpXWEhmQUhuY3FfZi00MVFMQkN6SGdYcnJWUnNSbmZ5Rjdfd0VCQ09NcWNhZ0xSTGdZb0hzVHlIdTZSSzJ6RlgyNlRYQjNHUjR0VkRybg?oc=5",
+   "source": "The Big Lead",
+   "published": "2026-11-13T20:33:13Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Edmonton Elks locker-room poll: What's your go-to snack for Grey Cup?",
    "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks-grey-cup-snacks",
@@ -116,6 +138,14 @@
    "via": "google"
   },
   {
+   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-13T17:00:51Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Edmonton Oilers NHL Line Combinations",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
    "source": "Daily Faceoff",
@@ -172,22 +202,6 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers rookie Owen Michaels continues to struggle",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaGhmSEJaUXhlM2JfZ1hSSVlpbWdPYlVKUElTbWwtd0kzYnZMZVVvQ1ZXdmZpMVg0Q1NYVTI2cXAycWlGdXFoM1lnSGY5RV9OOWkzNUhfVXg1eUYwbGtrRVJyMmpCTUY1TnJxLWh3RDdqa09fVGcwZGh2OUVZaGpyXzhmaF9tSHA1M3JHYVVYRzkwQm1Wc1pseDFn?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-13T13:00:01Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "A former Oilers prospect made his NHL debut on Wednesday",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRmxKQjBEY0NlSzZLNGNKWmNFQkpIWDZqS21mRW9JX00xa3c2Y0hDa0FqU1Z6Y0NxcnQtak5faElSdGVncVBxdnlhQ0dsRHIzd1FOWXQtUGtZcE5DNDBaWDkxeGhuUEFNM2ZLZElaS0pKbDlGVzJIUXQxVk9yZFFrSDV5UWQ3N3BQcnBLNkt0WnlSMXNMZkZV?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-13T12:00:06Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "A tell-all tale of Ed Hervey's Grey Cup journey coming full circle",
    "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/a-tell-all-tale-of-ed-herveys-grey-cup-journey-coming-full-circle",
    "source": "Edmonton Journal",
@@ -230,13 +244,6 @@
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
   },
   {
-   "title": "Philadelphia Flyers dominate Edmonton Oilers but Tristan Jarry saves the day",
-   "url": "https://edmontonjournal.com/sports/philadelphia-flyers-dominate-edmonton-oilers-tristan-jarry-saves-day",
-   "source": "Edmonton Journal",
-   "published": "2026-11-12T04:56:32Z",
-   "snippet": ""
-  },
-  {
    "title": "Player grades: Jarry with best Oilers goalie game of the year, 3-2 over Flyers",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/player-grades-jarry-comes-with-best-oilers-goalie-game-of-the-year-3-2-over-flyers",
    "source": "Edmonton Journal",
@@ -270,13 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-11T18:50:25.155Z",
    "snippet": "FLYERS (5-10-5) at OILERS (13-3-3) 9 p.m. ET; SNW, NBCSP Flyers projected lineup Michael Bunting -- Christian Dvorak -- Owen Tippett Tyson Foerster -- Trevor Zegras -- Travis Konecny Porter…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Oilers vs. Flyers",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-vs-flyers-11-11-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-11T17:36:21.556Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers will turn to Tristan Jarry in goal and welcome Colton Dach back to the lineup on Wednesday when they host the Philadelphia Flyers at Rogers Place, looking…"
   }
  ]
 }
