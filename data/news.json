@@ -1,13 +1,44 @@
 {
- "updated": "2026-11-13T21:52:39Z",
+ "updated": "2026-11-13T22:24:32Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (11)",
-  "Google News (83)"
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "'I'm having fun': Mike Babcock back in Toronto with Oilers to face Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU0lBQ0NCS3FhRHJpZDYtRTlOQTYxUDlXaTZneUlBYXo3UlFOdkpRX2FENk9tWk1BNjhtbnA1WWJkZ0xTamVVLVB2TnBtVEZFRWt5d0NOX1ZqNm00OWpoa2xGT1NUS3NIN2lvaENPZXhoWExqUHphZDZxR1gzNndHY2JKYWdsS2NicTVPVWhiZm1rcnhieGV4RTRfWDlBMEV4NFlyMXJGWnlXUEZvMUVYazhpVVRHd3ktMnc?oc=5",
+   "source": "Castanet",
+   "published": "2026-11-13T22:21:41Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "BLOG: Babcock 'having fun' with Oilers ahead of making his return to Toronto",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYUVlR1g5Q2NyeFJRWC1VTmNhdXM2YXZad2xWdmhLd2hfRjNUSk1XbjU2TzhpUTV0Rmk1VWE1NlVEbTlIOU84aEJyelYzOXBhcVduaEFqYjR3OTBkRzd0UVR3MkhYcXJXZXBTQjJ6dkNlUnZpbjcwZUhQQkFReHpGQkNTeWViRDM4Tzg2LWxXNENfVENtRmJsTnc4Ml9VdllIcG1aVmwyajM?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-13T22:15:33Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Elks ride to the rescue to save Calgary Grey Cup ticket sales",
+   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-ride-to-the-rescue-to-save-calgary-grey-cup-ticket-sales",
+   "source": "Edmonton Journal",
+   "published": "2026-11-13T22:12:20Z",
+   "snippet": ""
+  },
+  {
+   "title": "Babcock back in Toronto with Oilers to face Leafs",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdXk1NmVCZS1zR3hSV0RQLXBLSDQ1YlBlc1dZS3dLc2ltem5QZjJ6YzJpOHB5ek5vOTNzbVBqdzlNQVZrWm9FUnF4Tm9hUldIbmdwdmluQUtTYTlEakh6QWt0U0t1NFJGcTZRZkFFNmZnd2M4aHM0Q2NtTGwzRGRMaExYZWlaMUVoR3MzZHhlaw?oc=5",
+   "source": "Global News",
+   "published": "2026-11-13T22:07:16Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "McDavid fired up to play Leafs in Toronto: 'It means more'",
    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4xeUVfLUtaRF85RE10WUJCUm0xa3ZWZFJlbWNTUU82LXJ2dy1jaU9NQ2UwN0JLMF9MaE1JWW5QRWZyQ29GMmhFdGRVYWctQQ?oc=5",
@@ -18,16 +49,17 @@
   },
   {
    "title": "Oilers superstar Connor McDavid brings his Gretzky vibe to Toronto",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-superstar-connor-mcdavid-brings-his-gretzky-vibe-to-toronto/",
-   "source": "Sportsnet",
-   "published": "2026-11-13T21:44:54Z",
-   "snippet": "There will never be another Wayne Gretzky, but, as Mark Spector writes, there’s definitely a Gretzkian vibe around Connor McDavid right now."
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0h4ai0tLUhETlk4S3A2LXBGRnRPVFQxa3NmSDM3M01yU180b3dzUlpVdXdFWnFTMmstdmxHc3FiLWRjN3FyY0lYaVNzbGo1cEZrWGFZQ0FXWlV6Rkpjc2QzYTJnWk4zaUo4eElyVFQ3Mkl2Q3hRQ3dqTl9nTVdqTHdLT1hRMzZ0Vm9aUmIyN2JMRk52RF9IT2VWS0RYam5DMTNJSEpTOA?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-13T21:46:00Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Edmonton Oilers and Mike Babcock riding high while Maple Leafs stumble",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN2U2S2I4Sjk2eTl6RXVKWlZrZHhUYVJQcXNDN2FRbWtwdXFfZW1oNU4wUU90SC1UNlB6SFNINUlEQzAxMVBCVkNVU083eWYzc1FmMWpPM0dCNXdjRXJBQmplZTdRdDdUeEVqUGJ1UTI5WFR6WHUzV1N2d2w2ZS1vWENNTDQ1OFUwOEtjbWZoNjllX0FJZmpaZDFYRzFhdw?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-13T21:43:37Z",
+   "published": "2026-11-13T21:45:12Z",
    "snippet": "",
    "via": "google"
   },
@@ -192,7 +224,7 @@
    "title": "Which Oilers players are leaders in the dressing room?",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWkk0LXN5bG8xejJFNUtscW9MQmcwRUQ1ZG4wczUxVkZUSHp4U3FndGFzb0s2Ums4TFFhalNjbkVfdXBrWlB5d0dTRmhnQmFuZXI4TTNLYTlOeGJJTlhELVcxWVVfekNVTEwzQXZKaGJicmhwdFpUSkwwYUpGRkUtY21aUThCa1lMYTRBN1piVk5Fb28?oc=5",
    "source": "Oilers Nation",
-   "published": "2026-11-13T17:20:00Z",
+   "published": "2026-11-13T17:34:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -201,38 +233,6 @@
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQWx3d1FyOUc3QXFLNmdqUjRxbTE4R1hjX0EzbHg2azZJeEE2dHhNYUhWeU8wWFc4SGlxNlhkbm5qdG9iSW9YSEo5azIydnNrT3hTaDkteHVzZkFVX0ZwemVZNVI1MGRFeDE4SUZWMlRrSy1aXzBGSXVyQ3NDZXV2akhmc0pvSGZybDV4ZE9qMXNjbHNId2syN2p1U0VrWUJwTUJfcDJYTEk4MWtsWGlmSkhfVnloZnhqQzZYMk1B?oc=5",
    "source": "The Leafs Nation",
    "published": "2026-11-13T17:02:38Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-13T17:00:51Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers NHL Line Combinations",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-13T16:59:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "“I know that they have their own friendship”: Connor McDavid's wife Lauren Kyle reunites with Leon Draisa",
-   "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOb1BRYWtuUDUzOEtmaDAzQ2RGMEVnaG5fMU94ZjZud2dPQ2g1X0d0Zmh1OU9CbEJjTThlblN0RGR0R2NyMFRQaldaZjcwc1lrX0VBbXh5cjdJR2hTaDBUYWF1dm01VU1TSFF6UVRxUUxyWnNGSm00bkRiMFRhd2tKWVN2M2Nkd1NLYVRtUVFRMk1fMlE0b0pVUkpWeTZVakFBSHpueGJVNmozcmUxSGZIWmJkam9nd2hhMDlnSnBnTnpuZFlmRmJ4X0RtOXpmdDI5YXQwVE9fbE5qak05NnFfVUtsaWl3X0V1QmVQc1A4RzE3ZTFhOWxGbXc1NjR4eUVnclNVeVhUcGNzQi1xdjhtWk8zMExFaWxwOFUzYWR0enNuc1BrVUhDUkw1Q3dyMnB1YUtyeDJSMHZQLXBUSzlUaWtxOEhQRl9UcEI1YnQtTVlhZUxBbnJweE5ra9IB4AJBVV95cUxNQmlEZTVydi02V2tndGZiMlQ2Z1dUcWVBSkk0RkltV2JqQm80ODVQTWJTZExEdm8weVVsR3NfT1MyMWZlVy1ObUFJUDR5ZXlhQ1R4MXR0NElZZDZaMzdKX3J5aEx2eHJSY0RUaWVtb3k5UlQ1b0xqSTZTc0lzRDFjRUhzXzVtMHdkRjNmZTNsdFZKY1BRT3o3Y2lta3M4cmF1YlJGN3BzejdUckY1UDIyY2FBbHRqSWFoVzc4bEhHZ3dzd1pXTXlnVlZPMTN2UksxVGk3WXBnZjNRUE9NNVlnMDVMc3VFYzA3eEFyZ0U4U2FCVU13cm9qeWF2MzBWYW5XZkZVUURCNG5FU0VYbUxXRGVUU3NnOVRhQlhoZHI4MDdUOWlpVDM4NzNiNzBCU1hlT2VicHduTDFrbjBZX2FJZzRYSWNmS2IyY3h6NDlJSklQM2JuRDA3OVFDdW5kUE9L?oc=5",
-   "source": "The Times of India",
-   "published": "2026-11-13T16:35:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Is Connor Murphy a “Black Hole” for the Oilers, or Just Stuck in a Tough Spot?",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVHM0Wml2Y2RsWF80ZTI5M21mUW9OdjROUDhXUll3cTFYdm1MbkFzc2lseHloVzdRVTc4SXNFblo4TG9pRWtXZ0ZNMlFLYTdTRkJqd2xDWkFqck5pN2MyV3ByR1g2RUVVUFhrbk12ck9ublpPdkZTOE55RnM4RlNrTm9EdE1VQktTdkFwWmY5V081bDRSVWt5WFFvdkZPRVZtR3pfTDVYWDFNeDIyYzRnd3F6THVRTXJhTXJxZzFEY3E5SW0taGxnODNWbzI?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-13T15:42:55Z",
    "snippet": "",
    "via": "google"
   },
