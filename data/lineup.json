@@ -486,20 +486,20 @@
   ],
   "goalie": {
    "starter": {
-    "id": 8475683,
-    "name": "Sergei Bobrovsky",
-    "num": 72,
-    "pos": "G"
-   },
-   "status": "Unconfirmed",
-   "backup": {
     "id": 8476932,
     "name": "Anthony Stolarz",
     "num": 41,
     "pos": "G"
    },
-   "note": null
+   "status": "Likely",
+   "backup": {
+    "id": 8475683,
+    "name": "Sergei Bobrovsky",
+    "num": 72,
+    "pos": "G"
+   },
+   "note": "Stolarz will likely start Saturday vs. the Oilers. "
   }
  },
- "updated": "2026-11-13T18:27:00Z"
+ "updated": "2026-11-14T15:36:07Z"
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T15:18:01Z",
+ "updated": "2026-11-14T15:36:07Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,14 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Saturday’s Picks/Props: Pick the Over for Oilers/Leafs",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOHlLXzNFeTlhTWt4X1FYV2xrU2hYSktiTG9qVHlqY1NRM01XRWdDNFh4V3JxcU92Ny1QMnQxcVZJQ2UzX1V2NUhQZ0RVYlphM0JfZU9HcElZdkZKOFJJNEY5VkdUMUZoYkxscXB1YVN0RXNVUXBfQ2FndjhBYzRqZGVkSk5LeDd3dEpQeGlKaFJUQkk?oc=5",
+   "source": "DobberHockey",
+   "published": "2026-11-14T15:33:31Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "PREVIEW: Oilers at Maple Leafs",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hb1dYWXdfMV9HZXhEVzN3NF9tZDBOcWRoY210aXd6VEVjbmhkekF3eFVNallzTUpJVGN0MjF6MzZqQmg4SldkU1BMWWUzMFBmSHNBeUhRejZTRzBPV1BtellqMzd4Z1EzNFI4WWRNN2VsUURUYTFlbkpR?oc=5",
@@ -152,14 +160,6 @@
    "via": "google"
   },
   {
-   "title": "Mike Babcock Returns to Toronto as Oilers Coach to Face Leafs",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVlUyTGZvZEZMdVdISGtJNWJqNU1CdTVsLWhjWEdPbTJrT1VPWndLaEZ6c2QzRHlmYVZWWHpUNlZBOVpZdnlVeWRvNGtwbFIyX2RrNXFaUUJFZVRoNUZHUjdVX2JNSkRHUVBKS3dleXZ0T1VPUV9FS2RrbTVtakNicnptdnUzQTdKMjhNc0NPeWpzMURWTG84SU5kSQ?oc=5",
-   "source": "BVM Sports",
-   "published": "2026-11-13T23:55:45Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "‘I’m sure he will’: Oilers great Jari Kurri optimistic McDavid reaches 200 points",
    "url": "https://www.sportsnet.ca/nhl/article/im-sure-he-will-oilers-great-jari-kurri-optimistic-mcdavid-reaches-200-points/",
    "source": "Sportsnet",
@@ -245,8 +245,8 @@
   },
   {
    "title": "'No reason why' McDavid can't reach 200 points for Oilers, Kurri says",
-   "url": "https://www.nhl.com/oilers/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland-x8709",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland",
+   "source": "NHL.com",
    "published": "2026-11-13T19:50:42.033Z",
    "snippet": "HELSINKI -- Five-time Stanley Cup winners Jari Kurri and Esa Tikkanen each had an up-close view when Wayne Gretzky set an NHL record with 215 points for the Edmonton Oilers in 1985-86.…"
   },
