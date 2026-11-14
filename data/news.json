@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-14T01:44:16Z",
+ "updated": "2026-11-14T03:27:47Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (10)",
+  "Edmonton Journal (50)",
   "Sportsnet (13)",
   "Google News (86)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers Legend Jari Kurri Says Connor McDavid Can Get 200 Points",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdkluem1pSHdQdVM2XzlPeTk3MTB2VEJtaFZuMWtab0dmNUpIS3lKT0x5dFFNb0FTTkI4UHlDUjNSbEhwLW5DakJnSkU4VzVfOE54aDZjbUJlNWo5YWhJWnVXN2xrVkJkeGxRck9qeTZwR1NibkpIaXBFaE13c25jcWgtV04?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-14T03:02:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Despite McDavid’s exploits, ennui and expense eating at Edmonton",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbldWUURQa29qU3l4TExvVEVNZ3JsbXRYMjJjT1BNMUEweVZUY0lvV2QxWDhQTFBiTXVoZVpaWHN1SEVweXVkZlVCdElONGRVQ1FNYkozb0x1d09JWGtYeU53Y1hfUU5DXzdZczk1bkRCVVFYcEpjVTk4Vy1YYXJTTHBtRmNTV3VCYTZFdG9xOGRUdjBtd2FTZWwxVUFIMG1uZ3lhWDBtQnhIR29UR3lyTmNHSUlmS19s?oc=5",
+   "source": "The Globe and Mail",
+   "published": "2026-11-14T02:26:35Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Leafs staring down dubious franchise history as Oilers roll into town",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGFrTEhyMmhuYTBtSEZhNVBCV054YzdTaG5XNjhkd1JMMXJaTmNRX2ZzblNpWkdObU1MUjhCY3Z2NmRDcmZPMXp4U2xhT2pGVmxoLXF2VTE5RDY0N3QzaG52OE1mQ0JhY1hwZThlNF94YlhScjJDX2p3cEVhVWx4YmpQeE5TS2t4MjNmX2JoZzVMRDBpLU5qeGRhTFo3UmFyb01aNlJkWVllVklMNVAtM3NiVQ?oc=5",
@@ -49,6 +65,14 @@
    "via": "google"
   },
   {
+   "title": "'I'm sure he will': Oilers great Jari Kurri optimistic McDavid reaches 200 points",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeldnMkdBTUFyejNyYWVlV3FILUxQcDJZRkFQYnNyZTQ3NjduVUVRWVI5ZldiSzJjU0hBbHJHWE5NZDFPWkZxVEhGRl84aWYxNnZ0Y0tVaGFQWVpRWm11TWp1Qnl5Q3lOd1B0RC14S0hMMWdKeTYya0t4a0JLLWcwSVluZWQ0cmlYR2ZpS29sU0xXNGgtSGgzYnhYaUREMzFuUmNYTmJ6emdnSTEtYjdzVmVHVVRhQQ?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-13T22:59:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Maple Leafs Reset at Rogers Centre Before Oilers Test",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeFNuUndza1hiTUVwN1c0bDlYdHFzZ0o4WWwySEhTaXhVUjFiaDUxNUJNOUZrRGszcmJuaFdGMUFWUjVPZlA3Yk11LXZMNjRhRUtYUFQ4VHVacVl4Z0ptVGRvNUNfdndVa25BWGg2UFdOel9odml5RjlTeHM4NGxJSkFyYTB3RTN2LTFhTlkwTUI?oc=5",
    "source": "BVM Sports",
@@ -63,13 +87,6 @@
    "published": "2026-11-13T22:54:20Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "‘I’m sure he will’: Oilers great Jari Kurri optimistic McDavid reaches 200 points",
-   "url": "https://www.sportsnet.ca/nhl/article/im-sure-he-will-oilers-great-jari-kurri-optimistic-mcdavid-reaches-200-points/",
-   "source": "Sportsnet",
-   "published": "2026-11-13T22:45:17Z",
-   "snippet": "Connor McDavid’s torrid points pace seems to have everyone talking."
   },
   {
    "title": "Maple Leafs vs. Oilers Latest Odds & Possible Goal Scorers",
@@ -91,6 +108,14 @@
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYUVlR1g5Q2NyeFJRWC1VTmNhdXM2YXZad2xWdmhLd2hfRjNUSk1XbjU2TzhpUTV0Rmk1VWE1NlVEbTlIOU84aEJyelYzOXBhcVduaEFqYjR3OTBkRzd0UVR3MkhYcXJXZXBTQjJ6dkNlUnZpbjcwZUhQQkFReHpGQkNTeWViRDM4Tzg2LWxXNENfVENtRmJsTnc4Ml9VdllIcG1aVmwyajM?oc=5",
    "source": "NHL.com",
    "published": "2026-11-13T22:29:24Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Rosie DiManno: Mike Babcock has revitalized the Oilers but he doesn’t seem to have reinvented himself",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOTmRrVnNLOHBDNm90bkNGRExKUHNfYVdtLXVPSVFGSkpQN3MtYXVoa3RNbTdRdkxBOHdDSnhzNkI1cVhPWEtKNHBoakc1ZktHYUNQNVU5QWJtRUhObkFRTkI1MVBNaGVWZFQySlhFd3hLVmkzVGFLcm1LSWRKN0VfRVotT1lfODFKbGlmSlV2cGoxRHlVTzMyd1Y1RjJHLUdPQ3BvWF9wTlNqdndDM1JnbU9PTG5rNmp0VFBKb1dZWDRySW1iZE5taEJSMHBXVkVHb0lzd1phaHhwa09zb3BMelltZDJGRHlvWFNxSC0xWFJETTBtaUxJeFhGYVd2U09mQjBn?oc=5",
+   "source": "Toronto Star",
+   "published": "2026-11-13T22:15:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -149,14 +174,6 @@
    "snippet": ""
   },
   {
-   "title": "Oilers insider Bob Stauffer has fans talking after posting epic slow-motion video",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50YTRpQ18yOEIwODE2OFVOd011d1IzTDRiWDVvbG1JVTdsSG1OaVRST0tKbnI2MkdvWXNHblBzM3RHbDZacEJEeFNTblFVY2VwNGxhbHNIQWNFR1NfQ3QxaXhkVHFzRXctdmc2Q3RKb2Z2SlFXX3J2RlJKRTI4aUU?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-13T21:25:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "‘Really enjoyed my time here’: Babcock reflects on eventful tenure with Leafs",
    "url": "https://www.sportsnet.ca/nhl/video/really-enjoyed-my-time-here-babcock-reflects-on-eventful-tenure-with-leafs/",
    "source": "Sportsnet",
@@ -192,22 +209,6 @@
    "snippet": "'It's been a really long road, but it just felt like redemption, especially for us long time fans who've been through the darkest times with this team'"
   },
   {
-   "title": "Oilers blue line changes: Comparing Ryan Shea to Darnell Nurse, and a Mukhamadullin update",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeDBLTHhfYWQ4MTQxdXhYTlFaMnBvYWEwY2JDRkx0d1Zpbk54azZGbGJGTDBPOVdkWDlqcFZLcEk3aUdrWUIzLWx2UG1JdVFtR0pEdnVuZ0RfWDROenJXRXZBYkxkV1FmVkpWSFlHTXhlcm9GZ0hONVJtY29LWkVkLUJjRWwxQkprVmJyVWJ5SzgtTENmNmtFZWRuRjk?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-13T20:35:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers’ Zach Hyman credits Mike Babcock for bringing ‘new life to locker room’",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcHZDUVkyRl9WWUhjWXRSbkdjR2hJTTludGFOR3VxdFBJMnpuR1BRWFoyTEpXWEhmQUhuY3FfZi00MVFMQkN6SGdYcnJWUnNSbmZ5Rjdfd0VCQ09NcWNhZ0xSTGdZb0hzVHlIdTZSSzJ6RlgyNlRYQjNHUjR0VkRybg?oc=5",
-   "source": "The Big Lead",
-   "published": "2026-11-13T20:33:13Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Edmonton Elks locker-room poll: What's your go-to snack for Grey Cup?",
    "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks-grey-cup-snacks",
    "source": "Edmonton Journal",
@@ -215,17 +216,9 @@
    "snippet": "We caught up with the Edmonton Elks at McMahon Stadium ahead of Sunday's Grey Cup showdown against the Montreal Alouettes and conducted a locker-room poll"
   },
   {
-   "title": "Does Connor McDavid already have the Hart Trophy locked down?",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQX0JRcGZLd0ZsOUpFcDltcEo5a1k2ZUxTVkJsaW9MWTJZWkdhV3Q0bVFsNFNjcWdQTFNNa2ZEMnFUYVNsc3NsVXVCRkV3QlVQM3Eyd25OUkt2OVJYTEdFMVVUSnZ1SzhmT2xzTjMwT3VwNlVIS2V3TDItWTJnTmZ0S05XbEFlYnBCRlFqQTluQnQydExEN0Zic2dUZVJ3MEQ1SC1vMnNpcw?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-13T20:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "'No reason why' McDavid can't reach 200 points for Oilers, Kurri says",
-   "url": "https://www.nhl.com/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland-x8709",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-13T19:50:42.033Z",
    "snippet": "HELSINKI -- Five-time Stanley Cup winners Jari Kurri and Esa Tikkanen each had an up-close view when Wayne Gretzky set an NHL record with 215 points for the Edmonton Oilers in 1985-86.…"
   },
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-13T03:18:37Z",
    "snippet": ""
+  },
+  {
+   "title": "Elks QB Fajardo carrying extra motivation into Grey Cup",
+   "url": "https://www.sportsnet.ca/cfl/article/elks-qb-fajardo-carrying-extra-motivation-into-grey-cup/",
+   "source": "Sportsnet",
+   "published": "2026-11-12T22:39:13Z",
+   "snippet": "After helping Montreal win a Grey Cup, Cody Fajardo believed he had done enough to remain its starting quarterback until they decided to hand the keys to Davis Alexander. Now, with…"
   }
  ]
 }
