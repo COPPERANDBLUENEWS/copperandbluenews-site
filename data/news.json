@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-14T03:57:23Z",
+ "updated": "2026-11-14T04:30:09Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (13)",
-  "Google News (85)"
+  "Sportsnet (12)",
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
@@ -33,10 +33,10 @@
    "via": "google"
   },
   {
-   "title": "Leafs staring down dubious franchise history as Oilers roll into town",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGFrTEhyMmhuYTBtSEZhNVBCV054YzdTaG5XNjhkd1JMMXJaTmNRX2ZzblNpWkdObU1MUjhCY3Z2NmRDcmZPMXp4U2xhT2pGVmxoLXF2VTE5RDY0N3QzaG52OE1mQ0JhY1hwZThlNF94YlhScjJDX2p3cEVhVWx4YmpQeE5TS2t4MjNmX2JoZzVMRDBpLU5qeGRhTFo3UmFyb01aNlJkWVllVklMNVAtM3NiVQ?oc=5",
-   "source": "KNBR",
-   "published": "2026-11-14T01:17:03Z",
+   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-14T01:39:39Z",
    "snippet": "",
    "via": "google"
   },
@@ -44,7 +44,15 @@
    "title": "“We’re Not Going to Toronto”: Connor McDavid’s Wife Lauren Responds to Maple Leafs Speculation",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd3hEVzBfbkRzYURNWDVPUlU5V0NuSHFEaFBlT0dNR2s3QkJEX1dZVS0xdGFsZVYtbHlpdjhVY1N1RlRzU0xRRVU3d1FoMnJvVm1UMG9aejN3R09jRTRLRUJvZ2tpdXhrankyS1VFZEppOVlQOG5qOTYtM2g4S2g2bm9YWEVkS2wzdFJDNG1PWEY2T0FidFVic0N4OWZPaFUwOVBoWE9Kakh2NzZCcWZlamlWNHA4c2lZclJKX2hzcngxSkpuWkJsXw?oc=5",
    "source": "Culture Alberta",
-   "published": "2026-11-14T00:27:45Z",
+   "published": "2026-11-14T01:17:45Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Leafs staring down dubious franchise history as Oilers roll into town",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMGFrTEhyMmhuYTBtSEZhNVBCV054YzdTaG5XNjhkd1JMMXJaTmNRX2ZzblNpWkdObU1MUjhCY3Z2NmRDcmZPMXp4U2xhT2pGVmxoLXF2VTE5RDY0N3QzaG52OE1mQ0JhY1hwZThlNF94YlhScjJDX2p3cEVhVWx4YmpQeE5TS2t4MjNmX2JoZzVMRDBpLU5qeGRhTFo3UmFyb01aNlJkWVllVklMNVAtM3NiVQ?oc=5",
+   "source": "KNBR",
+   "published": "2026-11-14T01:17:03Z",
    "snippet": "",
    "via": "google"
   },
@@ -61,14 +69,6 @@
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVlUyTGZvZEZMdVdISGtJNWJqNU1CdTVsLWhjWEdPbTJrT1VPWndLaEZ6c2QzRHlmYVZWWHpUNlZBOVpZdnlVeWRvNGtwbFIyX2RrNXFaUUJFZVRoNUZHUjdVX2JNSkRHUVBKS3dleXZ0T1VPUV9FS2RrbTVtakNicnptdnUzQTdKMjhNc0NPeWpzMURWTG84SU5kSQ?oc=5",
    "source": "BVM Sports",
    "published": "2026-11-13T23:55:45Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-13T23:00:51Z",
    "snippet": "",
    "via": "google"
   },
@@ -224,8 +224,8 @@
   },
   {
    "title": "'No reason why' McDavid can't reach 200 points for Oilers, Kurri says",
-   "url": "https://www.nhl.com/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland-x8709",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-13T19:50:42.033Z",
    "snippet": "HELSINKI -- Five-time Stanley Cup winners Jari Kurri and Esa Tikkanen each had an up-close view when Wayne Gretzky set an NHL record with 215 points for the Edmonton Oilers in 1985-86.…"
   },
@@ -235,13 +235,6 @@
    "source": "Sportsnet",
    "published": "2026-11-13T19:16:53Z",
    "snippet": "Toronto Maple Leafs head coach Jim Hiller spoke to media before the team’s workout Friday morning at the Rogers Centre, telling reporters they’re focusing on getting ready for their matchup…"
-  },
-  {
-   "title": "Maple Leafs keeping it light at Rogers Centre ahead of matchup vs. Oilers",
-   "url": "https://www.sportsnet.ca/nhl/video/maple-leafs-keeping-it-light-at-rogers-centre-ahead-of-matchup-vs-oilers/",
-   "source": "Sportsnet",
-   "published": "2026-11-13T19:13:37Z",
-   "snippet": "Toronto Maple Leafs players Darren Raddysh, Auston Matthews and Nick Paul speak to media after workout at Rogers Centre on Friday morning."
   },
   {
    "title": "Keys to victory: How Alouettes can beat Elks in Grey Cup",
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-13T13:28:22Z",
    "snippet": "The franchises are meeting to fight for the Grey Cup for a 12th time, making this one of the CFL's great championship rivalries."
+  },
+  {
+   "title": "A tell-all tale of Ed Hervey's Grey Cup journey coming full circle",
+   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/a-tell-all-tale-of-ed-herveys-grey-cup-journey-coming-full-circle",
+   "source": "Edmonton Journal",
+   "published": "2026-11-13T03:18:37Z",
+   "snippet": ""
   }
  ]
 }
