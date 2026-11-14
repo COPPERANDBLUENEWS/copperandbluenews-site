@@ -1,26 +1,42 @@
 {
- "updated": "2026-11-14T14:23:57Z",
+ "updated": "2026-11-14T15:18:01Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (12)",
-  "Google News (87)"
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "PREVIEW: Oilers at Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hb1dYWXdfMV9HZXhEVzN3NF9tZDBOcWRoY210aXd6VEVjbmhkekF3eFVNallzTUpJVGN0MjF6MzZqQmg4SldkU1BMWWUzMFBmSHNBeUhRejZTRzBPV1BtellqMzd4Z1EzNFI4WWRNN2VsUURUYTFlbkpR?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-14T15:00:08Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Auston Matthews believes lighthearted day at Rogers Centre perfect way to reset ahead of Oilers showdown",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXNCWlFiMm96LWFhQXFuMXQ5TDluQzVxSm1nX1hia2ozQXdEemdOZE1jc202aG9nU3ktY3NhM2hFX1Q4Q3ZmWVJKNW1iVnVxcU9MODlDdWk0S3dDOGNxc2RTVWVQaXRpUi1QTjRQY25BX21SX0JLYnhQLVpreGR5YU90ZHpYWDFJdngzTFRibWlZOUt5U0JCbmNfR2xZaGd0Z2ZMWXRVbWlEMHhXTkZPZFpVQV9hSjhC?oc=5",
+   "source": "The Leafs Nation",
+   "published": "2026-11-14T15:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Four Oilers who could be on the hot seat when injured players return",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdjZkX0NfandCSGNFMFFrS2ZGUnJSV190N1JKZVdMcTNETUdRajhIek9XU1VIQ0ZueVZpWG0tNTNOenFlY3dVNGJQRHBzRHlZcTNHRnVzN2xybmFWYXd4RjRsaGxGNWk4UXU1aUdGeGR4ZlB3cl9ZeUJ6Vy1TY0M1bjBYZkpDdmprdWhtVUUtU210VXZNUHV2QUNhbmlYa1U?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-14T14:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Update: Panthers Captain Aleksander Barkov Could Return Tuesday Against Oilers, Report Says",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNalNKeXJjM1AyOFkzSUFXdFpxVHRKdU5fUURhWE5zZUgwYnNzQ2ZZNFhGcTVxV1EtQVNrYjlhQWFqSndlRWIwR1UyZGhHTkU2MWRxNUFNUy01X0ZhMWM0WVBLcTFSQngxaW5XSEZyak05d2lfREVvRU02NHdBWlcwZ0xIQkVPVDZaVmp3aVg2RmJaUE9Gc3Z1eQ?oc=5",
    "source": "RG.org",
    "published": "2026-11-14T13:46:03Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-14T13:45:47Z",
    "snippet": "",
    "via": "google"
   },
@@ -45,6 +61,22 @@
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeFNSNnhLMDZjSFZPUk0wT01xZVdYZHdZWFlfYnZLNUY3Mnh2U1JINXRtZjBoV2JzenE4Q1VaV2hqdFpvTXBCRlFJN19uMW5ucEptMXM3MHpVcUtQZVNtSXdzVWZGNHNTaFhCLUNsdlg2aWE5MzBGM3lKVzh6YS1Td2RGMHJqRjlaeUV0SW5veE43UjROM0NEZ1NB?oc=5",
    "source": "The New York Times",
    "published": "2026-11-14T11:16:08Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Letters: Edmonton pro teams’ performance a source of positive energy",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR3Jtb1Q5dmluTnlSSTZlVTlCUTVRa0I2S0JFc2tvWUZDUnFTVFhyR2ZDLWJUT1ZkUktxSG50RllOc1A2TEM2QVJFVGtGNVlIV1U2eWpwYVRBS3dQcDU1SmpUN1NmMjdaNmRnQ2xFRTRvQW9QcGU0SGVNX28tOWdvZ1dPRmZIenJqbWowUjBfSUVxSkdkMUNWMnFn?oc=5",
+   "source": "Edmonton Sun",
+   "published": "2026-11-14T11:05:33Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-14T08:41:46Z",
    "snippet": "",
    "via": "google"
   },
@@ -128,36 +160,11 @@
    "via": "google"
   },
   {
-   "title": "'I'm sure he will': Oilers great Jari Kurri optimistic McDavid reaches 200 points",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeldnMkdBTUFyejNyYWVlV3FILUxQcDJZRkFQYnNyZTQ3NjduVUVRWVI5ZldiSzJjU0hBbHJHWE5NZDFPWkZxVEhGRl84aWYxNnZ0Y0tVaGFQWVpRWm11TWp1Qnl5Q3lOd1B0RC14S0hMMWdKeTYya0t4a0JLLWcwSVluZWQ0cmlYR2ZpS29sU0xXNGgtSGgzYnhYaUREMzFuUmNYTmJ6emdnSTEtYjdzVmVHVVRhQQ?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-13T22:59:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Maple Leafs Reset at Rogers Centre Before Oilers Test",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeFNuUndza1hiTUVwN1c0bDlYdHFzZ0o4WWwySEhTaXhVUjFiaDUxNUJNOUZrRGszcmJuaFdGMUFWUjVPZlA3Yk11LXZMNjRhRUtYUFQ4VHVacVl4Z0ptVGRvNUNfdndVa25BWGg2UFdOel9odml5RjlTeHM4NGxJSkFyYTB3RTN2LTFhTlkwTUI?oc=5",
-   "source": "BVM Sports",
-   "published": "2026-11-13T22:55:33Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "'I'm having fun': Mike Babcock back in Toronto with Oilers to face Maple Leafs",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaS1TUU5yQnFTRWVrVFRwc0xWVFQtNGFoUHpSVktNd1V6V3JxeDdPR2xKcTF6cWMzRlE1Z1NoV3l3MTM3aEc4NWNYbnpEMVpNYTd3STRvVmc4SlFpbThUN0h4MGM4RzFqUGFpVGFQZW9NSzhRUFhkdU5IaWVVR1JLcHgyYlRJc0ZXamVsc09QNmdnN1RzM09GcExEblU5d1FWLXZpa1hKZXQ0WlpnWWVxcmt4VWxWVGZ1aDFEQg?oc=5",
-   "source": "Castanet",
-   "published": "2026-11-13T22:54:20Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Maple Leafs vs. Oilers Latest Odds & Possible Goal Scorers",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQU21xNC10WWFLMWJ5elNIMkdSZmhMWkE0Q0UzVjA2OUFhak1xQnNTd3pFWDg5U0hfUUFad213Z0dSY2xiM2FVQkRMN3FYeXJPV0tLdjhCaWQ1VmpXVkpWRGhYcFNFTHN0aVNia1ZpRmZDOTVYc1dqLXlaazlJQmpKc2ZVS2FpZWVabGdiRDZsMGRLSnBFMEpDbmZBZ0pRSkNLNkZIV0FiV0N4ZjVUUkMtTXppMUE4Y3dV?oc=5",
-   "source": "news.bet365.com",
-   "published": "2026-11-13T22:41:12Z",
-   "snippet": "",
-   "via": "google"
+   "title": "‘I’m sure he will’: Oilers great Jari Kurri optimistic McDavid reaches 200 points",
+   "url": "https://www.sportsnet.ca/nhl/article/im-sure-he-will-oilers-great-jari-kurri-optimistic-mcdavid-reaches-200-points/",
+   "source": "Sportsnet",
+   "published": "2026-11-13T22:45:17Z",
+   "snippet": "Connor McDavid’s torrid points pace seems to have everyone talking."
   },
   {
    "title": "Babcock returns to Toronto as head coach of Oilers",
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-13T17:02:36Z",
    "snippet": ""
-  },
-  {
-   "title": "Oilers' Walman needs to find a way to work himself back into lineup",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-jake-walman-healthy-scratches",
-   "source": "Edmonton Journal",
-   "published": "2026-11-13T15:12:32Z",
-   "snippet": "After signing a seven-year $49-million extension with the Edmonton Oilers, Jake Walman is struggling to find a spot in the lineup this year."
   }
  ]
 }
