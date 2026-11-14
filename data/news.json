@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:14:52Z",
+ "updated": "2026-11-14T23:13:14Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,21 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Are we seeing the death of the dual roles for some CFL head coaches?",
+   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/are-we-seeing-the-death-of-the-dual-roles-for-some-cfl-head-coaches",
+   "source": "Edmonton Journal",
+   "published": "2026-11-14T23:05:06Z",
+   "snippet": ""
+  },
+  {
+   "title": "NHL Game Preview: Edmonton Oilers at Toronto Maple Leafs with Line Combinations 11/14/2026",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTDJKS0ZhUXJJS0hGTWwxSEJ0Y3BJa2FYYWNSUW4wVXJ5bEdsbWVvZTNJOUdaRm5WOUpRQk13WG1ZQnhGV3VBVklqMUFyQ1lIbjk0Y0VINGVEVVhiWU9TWEpfOFBYUy00TEM0c2FHdzZNMGY2RWRfaGsyeXVzVllUWGd4RlZDWGl0RWVzZXBrMUZjRkF6N1d5eWdGazV4UG9VcUZRTm5DVFJrWWk3WlRHSDZCdVpWRHhqcEE?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-14T22:32:58Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Could Grey Cup Sunday mark an end for Edmonton Elks QB Cody Fajardo?",
    "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/could-grey-cup-sunday-mark-an-end-for-edmonton-elks-qb-cody-fajardo",
@@ -68,6 +83,14 @@
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQVNwMG1OUFVSVFByOXFXd3FMWW9odklmV1pmdEdBVkFXaWxLQVRhaWd4ekJUNXZqQ29yeFE2WEgwUk9MQllwWjhoV2hVU2d6ZlJKRGJCellISUxnSmRxMGl6dHgzdjBxaDBsalZZM0pnbFNWOHJRRkFjLWF4SlFiTnl1V05Pc0VKdFJYejY1RE5MLWRKc19pal9kb2VNc2ZSQ0pJNllQaDI1R3NrMzdtUVE5TmNaMXZDSGxXUmF3?oc=5",
    "source": "Maple Leaf Hot Stove",
    "published": "2026-11-14T19:47:52Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Toronto Maple Leafs Reveal Anthony Stolarz News Before Oilers Game",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQejJjYWZnZzEybkdUc3o0SkVaVWdHN1V2SHp1T0xyUVg2bWlsWGRYMUI4anRlRDZfMEJubVF5UEVpNjhJQTNxYlBma1RwWDFpZ3lmdHlRWmlCQl9OQ2ZyRjlGbzZsanJBV0daeTRtTGVMNGJoeVBQaGItRlhCSXRKODNCUmNqMnJqeWU4?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-14T19:46:25Z",
    "snippet": "",
    "via": "google"
   },
@@ -152,19 +175,17 @@
   },
   {
    "title": "Oilers at Maple Leafs projected lineups",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQmJYdldYSGI2Z1E0MmhuSGpNVlU5cHRpWHBacXBoNF9BWW11bDNrdlhuRGtOLVRRR2tvOXJpTWpfSk5uMmo0cUxXUWU3Tzc1dTUtejBacFA4bm5oNmVONUZFV29UNWlXZVViYTFnd0tEblVLSGQ2RjJYQUU3aXJOVE1mVjl3am95a2lmZFZRWFBWMTZ0?oc=5",
+   "url": "https://www.nhl.com/news/edmonton-oilers-toronto-maple-leafs-game-preview-november-14-2026",
    "source": "NHL.com",
-   "published": "2026-11-14T17:20:52Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-14T17:05:36.386Z",
+   "snippet": "OILERS (14-3-3) at MAPLE LEAFS (8-11-2) 7 p.m. ET; SNO, SNW, SNP, NHLN Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Ryan Nugent-Hopkins --…"
   },
   {
-   "title": "Preview: Oilers visit the Leafs",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TQXBJaXZkUGt4d2lXUjAzOWNHc0w4QmU4NUtBeXpQYWh2cjRTeThrckVwV2RkMmd0LUplNDh2NFRNeXc0ZnY5d19ubVBCNDg2VEtaSkJQQkdxM0VWTU44OTRTbWYyYkxzZjZyMnN0ZUl1MEtQ?oc=5",
-   "source": "PPP Leafs",
-   "published": "2026-11-14T17:17:48Z",
-   "snippet": "",
-   "via": "google"
+   "title": "PREVIEW: Oilers at Maple Leafs",
+   "url": "https://www.nhl.com/oilers/news/preview-oilers-at-maple-leafs-11-13-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-14T14:54:19.937Z",
+   "snippet": "The Edmonton Oilers begin a six-game road trip starting with the first of a weekend back-to-back against the Toronto Maple Leafs at Scotiabank Arena on Saturday. You can watch the game live…"
   },
   {
    "title": "Can Elks’ defence limit Alouettes’ explosive plays in Grey Cup?",
@@ -256,27 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-13T20:38:18Z",
    "snippet": "'It's been a really long road, but it just felt like redemption, especially for us long time fans who've been through the darkest times with this team'"
-  },
-  {
-   "title": "Edmonton Elks locker-room poll: What's your go-to snack for Grey Cup?",
-   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks-grey-cup-snacks",
-   "source": "Edmonton Journal",
-   "published": "2026-11-13T20:18:46Z",
-   "snippet": "We caught up with the Edmonton Elks at McMahon Stadium ahead of Sunday's Grey Cup showdown against the Montreal Alouettes and conducted a locker-room poll"
-  },
-  {
-   "title": "'No reason why' McDavid can't reach 200 points for Oilers, Kurri says",
-   "url": "https://www.nhl.com/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland",
-   "source": "NHL.com",
-   "published": "2026-11-13T19:50:42.033Z",
-   "snippet": "HELSINKI -- Five-time Stanley Cup winners Jari Kurri and Esa Tikkanen each had an up-close view when Wayne Gretzky set an NHL record with 215 points for the Edmonton Oilers in 1985-86.…"
-  },
-  {
-   "title": "Maple Leafs keeping it light at Rogers Centre ahead of matchup vs. Oilers",
-   "url": "https://www.sportsnet.ca/nhl/video/maple-leafs-keeping-it-light-at-rogers-centre-ahead-of-matchup-vs-oilers/",
-   "source": "Sportsnet",
-   "published": "2026-11-13T19:13:37Z",
-   "snippet": "Toronto Maple Leafs players Darren Raddysh, Auston Matthews and Nick Paul speak to media after workout at Rogers Centre on Friday morning."
   }
  ]
 }
