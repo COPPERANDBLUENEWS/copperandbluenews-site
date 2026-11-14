@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T04:30:09Z",
+ "updated": "2026-11-14T05:28:24Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,13 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Can Elks’ defence limit Alouettes’ explosive plays in Grey Cup?",
+   "url": "https://www.sportsnet.ca/cfl/video/can-elks-defence-limit-alouettes-explosive-plays-in-grey-cup/",
+   "source": "Sportsnet",
+   "published": "2026-11-14T05:16:32Z",
+   "snippet": "3Down Nation’s Justin Dunk reports from Calgary ahead of Sunday’s Grey Cup, breaking down the keys to the game for the Elks and Alouettes, including Montreal’s ability to create explosive…"
+  },
   {
    "title": "Connor McDavid continues to rewrite the record book",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWl93UDJlU3RjeVBUS0dCU2Utc1U1MXFPWEZOQXRYWHdYekJ1TUhqWEJGLXNPMEhQWFp3Qk96QWZWX2NidzFoWElaS2V2ZHlTbG41U3Y5TXJjNTJfTTJQdUhqcFU4VHU3NEJxRVN4OGIxOVQ1V05iSVNxa1pweEd5Mg?oc=5",
@@ -195,13 +202,6 @@
    "snippet": "Edmonton Oilers captain Connor McDavid shares his excitement for Saturday night’s primetime matchup with the Toronto Maple Leafs and explains why facing the team he grew up cheering for is…"
   },
   {
-   "title": "Hyman details how Babcock’s bringing best out of Oilers on and off the ice",
-   "url": "https://www.sportsnet.ca/nhl/video/hyman-details-how-babcocks-bringing-best-out-of-oilers-on-and-off-the-ice/",
-   "source": "Sportsnet",
-   "published": "2026-11-13T21:13:28Z",
-   "snippet": "Edmonton Oilers forward Zach Hyman discusses Mike Babcock’s positive influence on the team’s locker-room culture and reflects on the coach’s belief in his game during their time with the…"
-  },
-  {
    "title": "What’s gone into Oilers’ much-improved goaltending this season?",
    "url": "https://www.sportsnet.ca/nhl/video/whats-gone-into-oilers-much-improved-goaltending-this-season/",
    "source": "Sportsnet",
@@ -230,11 +230,11 @@
    "snippet": "HELSINKI -- Five-time Stanley Cup winners Jari Kurri and Esa Tikkanen each had an up-close view when Wayne Gretzky set an NHL record with 215 points for the Edmonton Oilers in 1985-86.…"
   },
   {
-   "title": "Hiller expects best version of Leafs, after team outing to Rogers Centre",
-   "url": "https://www.sportsnet.ca/nhl/video/hiller-expects-best-version-of-leafs-after-team-outing-to-rogers-centre/",
+   "title": "Maple Leafs keeping it light at Rogers Centre ahead of matchup vs. Oilers",
+   "url": "https://www.sportsnet.ca/nhl/video/maple-leafs-keeping-it-light-at-rogers-centre-ahead-of-matchup-vs-oilers/",
    "source": "Sportsnet",
-   "published": "2026-11-13T19:16:53Z",
-   "snippet": "Toronto Maple Leafs head coach Jim Hiller spoke to media before the team’s workout Friday morning at the Rogers Centre, telling reporters they’re focusing on getting ready for their matchup…"
+   "published": "2026-11-13T19:13:37Z",
+   "snippet": "Toronto Maple Leafs players Darren Raddysh, Auston Matthews and Nick Paul speak to media after workout at Rogers Centre on Friday morning."
   },
   {
    "title": "Keys to victory: How Alouettes can beat Elks in Grey Cup",
@@ -265,18 +265,18 @@
    "snippet": "After signing a seven-year $49-million extension with the Edmonton Oilers, Jake Walman is struggling to find a spot in the lineup this year."
   },
   {
-   "title": "By the numbers: A head-to-head historical look at the 2026 Grey Cup finalists",
-   "url": "http://edmontonjournal.com/sports/by-the-numbers-a-head-to-head-historical-look-at-the-2026-grey-cup-finalists/wcm/a8ac627a-6aed-41aa-b42f-3d32f7cd36c9",
-   "source": "Edmonton Journal",
-   "published": "2026-11-13T13:28:22Z",
-   "snippet": "The franchises are meeting to fight for the Grey Cup for a 12th time, making this one of the CFL's great championship rivalries."
-  },
-  {
    "title": "A tell-all tale of Ed Hervey's Grey Cup journey coming full circle",
    "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/a-tell-all-tale-of-ed-herveys-grey-cup-journey-coming-full-circle",
    "source": "Edmonton Journal",
    "published": "2026-11-13T03:18:37Z",
    "snippet": ""
+  },
+  {
+   "title": "Elks QB Fajardo carrying extra motivation into Grey Cup",
+   "url": "https://www.sportsnet.ca/cfl/article/elks-qb-fajardo-carrying-extra-motivation-into-grey-cup/",
+   "source": "Sportsnet",
+   "published": "2026-11-12T22:39:13Z",
+   "snippet": "After helping Montreal win a Grey Cup, Cody Fajardo believed he had done enough to remain its starting quarterback until they decided to hand the keys to Davis Alexander. Now, with…"
   }
  ]
 }
