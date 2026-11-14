@@ -1,18 +1,42 @@
 {
- "updated": "2026-11-14T20:14:47Z",
+ "updated": "2026-11-14T21:15:50Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (12)",
-  "Google News (85)"
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Leafs turn back to ‘vocal’ Stolarz in bid to beat Oilers again; Hiller defends Bobrovsky",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMUNnY3pUMjkzc0V3aWNjN3liVXM3UWZtSVFHYTl6bWRBLVZFTU5iSUllMVFvX0lkb1p1dnAxMWd0YVcxa253SkhhcFRGS2ZNakNpVTRwbHVxN1lPcFQ0cHQ3M054RFd2YWIyUjBGTVVPRkU2QXVsSGw1OFk4YWRuQlpvMFhOd1REbS1Ec3ZaM20tMEd2aTBNNXFpSDdOc0wtWmVBOGdpUllIYW1US1c2UE9wNXN6dXkw?oc=5",
+   "source": "TSN",
+   "published": "2026-11-14T20:57:51Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "GAME DAY vs Oilers | Nov. 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE85RGhtdnAwNUJBaUVvZXBvdUpZX1lBVHNnam1BSXFuam9jQ19vMTBVLVBxczlYeFZ2RDNJSnhsbnhkeXJfczhkMGVHQWpFamZyZEhjTGVYdVJWUzM1bDNnWEM2THNXWmZwTlFiRDdyRThzVEdO?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-14T20:52:01Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Breaking Down The Oilers' Drastic Defensive Improvements",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeWxKeGdvdjZxMlZsektkZVd1WVJPYWJMOVdXRmVCbkJCcTE2R3VnTEFHY1NzZE5xelB1QUM2N3hVZWo2UUx2Zk1FYWgycml3UzY0RXF3UVljRWtRRjlxZFVCcGZ5WEZ5Ty1nZHRNam9LR0tsOHB1TGpId0dBYkxKX0JoUEZVTVNRQTdDSDY4elZuYXM3YlRwaWUtd3ZnWlE?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-14T20:03:09Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers @ Toronto Maple Leafs: Live game updates, stats, play-by-play",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-14T19:57:41Z",
    "snippet": "",
    "via": "google"
   },
@@ -60,14 +84,6 @@
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkEzSTlPbUZIeFpPMzZ6QmZqVnlqV253dG41c1dSMWhNRVVCd2ZuaDd3VVJJRVFLR0lKejJLeUQ2eENGZy0zR0RsTUFuWHA4MnFHRjB0YlZWTkx5aVYySkdkWWpWdEw2UkdVOW1hMU9ManJ4RXd0S0dWMmo3NzlsNWdveVNtY1hwdEhpTndDcTN1M3JOVHZIdEo0ODJhVEdIUHNGeXFHOWNTOXVwX2lScnFxR1M?oc=5",
    "source": "BVM Sports",
    "published": "2026-11-14T18:56:35Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers @ Toronto Maple Leafs: Live game updates, stats, play-by-play",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-14T18:26:38Z",
    "snippet": "",
    "via": "google"
   },
@@ -140,22 +156,6 @@
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS3Ntb0gxM2pucndRTDRGX1dDaGlmT0RDZ1Z3M1dhZ3RicVVsOWswY21lcldmNmF6eGNJQWJFTkl2dXNDZW5YcThGMXhzQ3ZpODY0NHhYaEcxTTlQMjZ5Mjd5cXBQeEZnMXJDT3dlMGw3SVluWUltYWloRmx0cFZMNjR6VTQwbkRuZm5YM3RmU01HUHczYnczRUdleWJSNjRTcVdz?oc=5",
    "source": "The Leafs Nation",
    "published": "2026-11-14T17:10:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "GDB 21.0: Oilers kick off their road trip with rematch against the Leafs (6PM MT, SNW)",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOc3ZzZkY4ODRkSkRXTDl1Umx5c2JPS3VFenI3WktrOVZQa1gtWlhCWVNRc0NWQXdOOFpNMUhnZFJ3bkZHRXB6dnJLZ3ZRU3kzWHpUTzdPdnZQbW94UW8xNl9DOGVQZjhTdGpqMzdvYXJxeGYtbl9yLVBaOVIwbFY2NVU1ZmlkdnY3XzFmT01wVV81dGpPMndSTVRqX2l4N2tQSjNRcUkteFhNN0ZVNXZqcTdReW9xYk1WMWx6bTVZQTRPaVJCRTE2VWdsUk1FeFNs?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-14T17:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-14T16:48:37Z",
    "snippet": "",
    "via": "google"
   },
