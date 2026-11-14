@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T12:57:24Z",
+ "updated": "2026-11-14T13:31:44Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,14 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers vs Maple Leafs, Prediction, Odds & Best Bets Today - NHL, Nov. 14",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVlpic1l5UTJqbGtIQU8xZGFPRTZ2c3AxYzk5X1Q0RENmc1RweWxSemRGR2ZaTFQzMHg1b2VYaDFUY2R6V3pfTVhiYllwUXkwWm5QM0lDTjU2WkhLLUU3cTdaWkptbHF4Y0NzVWM3TXZsZlBFOGJQZkdVdUIyRUU5ZDBfNlR0WGtzeTNOT0hjQ2dPZjNLdjBYTlpERQ?oc=5",
+   "source": "sports.betmgm.com",
+   "published": "2026-11-14T13:05:54Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "The Oilers' upcoming road trip will determine their place in the Stanley Cup race",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaGFlaVp6eUpzUlVwdmxVMHRjQ3N6aWNxeDBiME11QTd4RTM5WHcwTTF5RGE2OWo1cXk3X19ISjNRcGpuLUNOSHVOaWZKWTZkRl9jYnl4Zm1kQ3VialVrRnNvLTU0UWtzWGJNRXZJbmM2T3BiZmtRc0ctT1BrWFE1WUhVeGlKakhaNW5Nb3NNeTRrNzRVN1c0OWh4WXQ2QjF3SGtFY1NIRXpmNVg0cmFXVWt5MVZEWDQ?oc=5",
@@ -159,14 +167,6 @@
    "via": "google"
   },
   {
-   "title": "Rosie DiManno: Mike Babcock has revitalized the Oilers but he doesn’t seem to have reinvented himself",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOTmRrVnNLOHBDNm90bkNGRExKUHNfYVdtLXVPSVFGSkpQN3MtYXVoa3RNbTdRdkxBOHdDSnhzNkI1cVhPWEtKNHBoakc1ZktHYUNQNVU5QWJtRUhObkFRTkI1MVBNaGVWZFQySlhFd3hLVmkzVGFLcm1LSWRKN0VfRVotT1lfODFKbGlmSlV2cGoxRHlVTzMyd1Y1RjJHLUdPQ3BvWF9wTlNqdndDM1JnbU9PTG5rNmp0VFBKb1dZWDRySW1iZE5taEJSMHBXVkVHb0lzd1phaHhwa09zb3BMelltZDJGRHlvWFNxSC0xWFJETTBtaUxJeFhGYVd2U09mQjBn?oc=5",
-   "source": "Toronto Star",
-   "published": "2026-11-13T22:15:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Edmonton Elks ride to the rescue to save Calgary Grey Cup ticket sales",
    "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-ride-to-the-rescue-to-save-calgary-grey-cup-ticket-sales",
    "source": "Edmonton Journal",
@@ -231,8 +231,8 @@
   },
   {
    "title": "'No reason why' McDavid can't reach 200 points for Oilers, Kurri says",
-   "url": "https://www.nhl.com/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland-x8709",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-13T19:50:42.033Z",
    "snippet": "HELSINKI -- Five-time Stanley Cup winners Jari Kurri and Esa Tikkanen each had an up-close view when Wayne Gretzky set an NHL record with 215 points for the Edmonton Oilers in 1985-86.…"
   },
