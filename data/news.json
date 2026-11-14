@@ -1,18 +1,73 @@
 {
- "updated": "2026-11-14T19:23:58Z",
+ "updated": "2026-11-14T20:14:47Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (12)",
-  "Google News (84)"
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Breaking Down The Oilers' Drastic Defensive Improvements",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeWxKeGdvdjZxMlZsektkZVd1WVJPYWJMOVdXRmVCbkJCcTE2R3VnTEFHY1NzZE5xelB1QUM2N3hVZWo2UUx2Zk1FYWgycml3UzY0RXF3UVljRWtRRjlxZFVCcGZ5WEZ5Ty1nZHRNam9LR0tsOHB1TGpId0dBYkxKX0JoUEZVTVNRQTdDSDY4elZuYXM3YlRwaWUtd3ZnWlE?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-14T20:03:09Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Toronto Maple Leafs vs. Edmonton Oilers — Game #22 Projected Lines, Preview & TV Info",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQVNwMG1OUFVSVFByOXFXd3FMWW9odklmV1pmdEdBVkFXaWxLQVRhaWd4ekJUNXZqQ29yeFE2WEgwUk9MQllwWjhoV2hVU2d6ZlJKRGJCellISUxnSmRxMGl6dHgzdjBxaDBsalZZM0pnbFNWOHJRRkFjLWF4SlFiTnl1V05Pc0VKdFJYejY1RE5MLWRKc19pal9kb2VNc2ZSQ0pJNllQaDI1R3NrMzdtUVE5TmNaMXZDSGxXUmF3?oc=5",
+   "source": "Maple Leaf Hot Stove",
+   "published": "2026-11-14T19:47:52Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Five-time Stanley Cup champion Tikkanen drops puck at Global Series Finland",
+   "url": "https://www.nhl.com/news/esa-tikkanen-puck-drop-global-series-finland",
+   "source": "NHL.com",
+   "published": "2026-11-14T19:35:00Z",
+   "snippet": "Finland cheered for one of it's greatest winners on Saturday. Five-time Stanley Cup champion and Helsinki native Esa Tikkanen dropped the puck before the 2026 NHL Global Series game between…"
+  },
+  {
+   "title": "Toronto Maple Leafs vs Edmonton Oilers Postgame Show ft. Jay Rosehill | Game 22 | After Dark",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaHhjbGNmTnBseENzcWZXV01wTnBIVlkzQ3pzOS1zLU9QV2djWk5jc1I0SmlMRUtSN3labG1raC15Vm9NMmJvVElqdDN0MzZsekxoN3NHUlMtREtTUkY4Yk5SekJ0djJ1djVEWnkwQVVPVkZYWG9McV93RUdQYWV6b0dDa3NoVUI4ckVaTlFWdkpEZkZ5aDZka2ZuRDNkd3BtaVBpVG83bWNyRWpWZlBxYlVXM1ZFY3Q2RVI4akhn?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-14T19:34:29Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "NHL On Tap: McDavid eyes point in 21st straight for Oilers at Maple Leafs",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jUDRBeUE4MmY0RVZLMzJsclZRdTBzNXFSZ1lxM2tHZU1hVTl0cEdycnEwMW5EY0ViN3Q3azBpWlVua1g4LUZ2Mmp0cnB6NDA5NXp1S3VzTk1qY3VGUWg0LUhlUUlobFQ3VFgwQ3JKUUROVk5tM1E?oc=5",
    "source": "NHL.com",
    "published": "2026-11-14T19:05:51Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Three players to keep an eye on as Oilers trade targets",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbTdBSDM3dVpRUDZwVTJGdGpGLU85YnloOG9BQUFOX0x3R3VyQ3o0OGpWbFc4WUNadmRtMFpYVXBXUF9yRXZVRGNlNnkzMnJMcmhWX1huMnpHSjBUeUM2U1RLSFd5Y0NkSnZCMGJYRFRKbWlCazEyN2V2M2NoVFNuSFdtUWk5enFNcUpoS3NvQ0dFeUJBSkFqN1oxTzNMRXFKTWQyQlgwOEQ0TTNLSzdV?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-14T19:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Maple Leafs Full Media Availability | Pre Game vs Edmonton Oilers | November 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMkEzSTlPbUZIeFpPMzZ6QmZqVnlqV253dG41c1dSMWhNRVVCd2ZuaDd3VVJJRVFLR0lKejJLeUQ2eENGZy0zR0RsTUFuWHA4MnFHRjB0YlZWTkx5aVYySkdkWWpWdEw2UkdVOW1hMU9ManJ4RXd0S0dWMmo3NzlsNWdveVNtY1hwdEhpTndDcTN1M3JOVHZIdEo0ODJhVEdIUHNGeXFHOWNTOXVwX2lScnFxR1M?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-14T18:56:35Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers @ Toronto Maple Leafs: Live game updates, stats, play-by-play",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-14T18:26:38Z",
    "snippet": "",
    "via": "google"
   },
@@ -65,18 +120,18 @@
    "via": "google"
   },
   {
-   "title": "Connor McDavid Gets Major Endorsement From Edmonton Oilers Legend As Historic 200-Point Chase Gains Momentum",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVGVYLThrSkNlMDdQVlNlamIwckFfSWx1WldCTGNuVzRldkpCTHgzLXVVM2R1bEpsUHNqbk9YVzRMcTlGZy0tbXgwSmZrUUhwQVhnd251cDJILU9MMkZSNlZVcWR0alhtc2dYSGFBY0xQSm5xUmpqSHdVWTVPdU5xUTBGNDhHdkF0X25hSlpaYlNGZm9NSmM3NE0zNDQ2UGFEQjE0RUN1SFByQVFTbDBwbFM4azVCdmlyTjhHWFJzTVRvUjI5am5MeDF1ak1WbXFSUm14T0M2Rmd3YnVWTUg4NDNR?oc=5",
-   "source": "NDTV Sports",
-   "published": "2026-11-14T17:17:31Z",
+   "title": "Preview: Oilers visit the Leafs",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TQXBJaXZkUGt4d2lXUjAzOWNHc0w4QmU4NUtBeXpQYWh2cjRTeThrckVwV2RkMmd0LUplNDh2NFRNeXc0ZnY5d19ubVBCNDg2VEtaSkJQQkdxM0VWTU44OTRTbWYyYkxzZjZyMnN0ZUl1MEtQ?oc=5",
+   "source": "PPP Leafs",
+   "published": "2026-11-14T17:17:48Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Preview: Oilers visit the Leafs",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TQXBJaXZkUGt4d2lXUjAzOWNHc0w4QmU4NUtBeXpQYWh2cjRTeThrckVwV2RkMmd0LUplNDh2NFRNeXc0ZnY5d19ubVBCNDg2VEtaSkJQQkdxM0VWTU44OTRTbWYyYkxzZjZyMnN0ZUl1MEtQ?oc=5",
-   "source": "PPP Leafs",
-   "published": "2026-11-14T17:16:39Z",
+   "title": "Connor McDavid Gets Major Endorsement From Edmonton Oilers Legend As Historic 200-Point Chase Gains Momentum",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVGVYLThrSkNlMDdQVlNlamIwckFfSWx1WldCTGNuVzRldkpCTHgzLXVVM2R1bEpsUHNqbk9YVzRMcTlGZy0tbXgwSmZrUUhwQVhnd251cDJILU9MMkZSNlZVcWR0alhtc2dYSGFBY0xQSm5xUmpqSHdVWTVPdU5xUTBGNDhHdkF0X25hSlpaYlNGZm9NSmM3NE0zNDQ2UGFEQjE0RUN1SFByQVFTbDBwbFM4azVCdmlyTjhHWFJzTVRvUjI5am5MeDF1ak1WbXFSUm14T0M2Rmd3YnVWTUg4NDNR?oc=5",
+   "source": "NDTV Sports",
+   "published": "2026-11-14T17:17:31Z",
    "snippet": "",
    "via": "google"
   },
@@ -97,58 +152,10 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers @ Toronto Maple Leafs: Live game updates, stats, play-by-play",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-14T16:56:37Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
    "source": "NHL.com",
    "published": "2026-11-14T16:48:37Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "John Tavares, Jake McCabe expecting ‘tremendous challenge’ against Connor McDavid, Oilers ahead of final game of homestand",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWXA2MlhES3VraV9CSzNnSXROOXpmQ3JxblJXQjlsUjVISG80TnB3dzFDRVc5WHhETDM4cVMyOTNlWDU5azQySzhoRkJPWkFyYmlUR19xWG1BUTVwd29ReEFMVXV1ZnB6M1V3UzBzTzh2NGxxaldSazNhWWt3ZGd2Nl9fTVVuR1FVU2Z1NTg5LWYwc3ZjZHNEQVVNMzNXeEVr?oc=5",
-   "source": "The Leafs Nation",
-   "published": "2026-11-14T16:45:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Saturday’s Picks/Props: Pick the Over for Oilers/Leafs",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOHlLXzNFeTlhTWt4X1FYV2xrU2hYSktiTG9qVHlqY1NRM01XRWdDNFh4V3JxcU92Ny1QMnQxcVZJQ2UzX1V2NUhQZ0RVYlphM0JfZU9HcElZdkZKOFJJNEY5VkdUMUZoYkxscXB1YVN0RXNVUXBfQ2FndjhBYzRqZGVkSk5LeDd3dEpQeGlKaFJUQkk?oc=5",
-   "source": "DobberHockey",
-   "published": "2026-11-14T15:32:47Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers Stax",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTjdLQ3pHbEJKTFRDQ2JEbXMtcWZtaUxibHVLQjRKNVg4b1dQSTJqS1ZPWFhIUjJ2Y2FDMTcxbHhpVEM3U1NjeU4zU0FvbTV4eEVZYmVkSGJZLW5RSWtsSk1rWGpYTC0tQTI4dnB2TTFDT2V0bDJJZTBQcFZYa08zOFIxYlpQX1loYWFBY0cwOXdOYm5MQmozOHRtaldGRWhOZExnVGVrWFR2T21Qa2c?oc=5",
-   "source": "Oskaloosa Herald",
-   "published": "2026-11-14T15:15:50Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Auston Matthews believes lighthearted day at Rogers Centre perfect way to reset ahead of Oilers showdown",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXNCWlFiMm96LWFhQXFuMXQ5TDluQzVxSm1nX1hia2ozQXdEemdOZE1jc202aG9nU3ktY3NhM2hFX1Q4Q3ZmWVJKNW1iVnVxcU9MODlDdWk0S3dDOGNxc2RTVWVQaXRpUi1QTjRQY25BX21SX0JLYnhQLVpreGR5YU90ZHpYWDFJdngzTFRibWlZOUt5U0JCbmNfR2xZaGd0Z2ZMWXRVbWlEMHhXTkZPZFpVQV9hSjhC?oc=5",
-   "source": "The Leafs Nation",
-   "published": "2026-11-14T15:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers vs Maple Leafs Prediction, Picks, NHL Odds for Saturday, November 14",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVzRyU0JNRDU1NDRxTWpfWnFORDZNWmp2NGRhOXhnckY1dWtNYk94cktPRDMxZmpWckNXeXN3ekd2VVBEN1o3ZkM5c2lJS2JQaGFYV25KN09ibDRuUzNuXzZSc2lTNEZoc2ZYNmNET1JDS1RsXzh0aDBqMjNoazhhRjBTQUZTLVJU?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-14T14:48:30Z",
    "snippet": "",
    "via": "google"
   },
@@ -270,13 +277,6 @@
    "source": "Sportsnet",
    "published": "2026-11-13T19:01:37Z",
    "snippet": "After falling short against the Saskatchewan Roughriders in last year’s Grey Cup, the Alouettes are back with a chance at redemption on Sunday. Here’s what the Als must do to top the…"
-  },
-  {
-   "title": "Tikkanen moved to tears after receiving Borje Salming Courage Award",
-   "url": "https://www.nhl.com/oilers/news/esa-tikkanen-honored-as-fourth-recipient-of-borje-salming-courage-award-x4397",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-13T18:38:48.697Z",
-   "snippet": "HELSINKI -- Esa Tikkanen was a unique character who also was a clutch performer during his 14 seasons in the NHL. So, it was fitting that the ceremony at Helsinki City Hall on Friday…"
   }
  ]
 }
