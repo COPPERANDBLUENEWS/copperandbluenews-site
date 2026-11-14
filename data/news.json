@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-14T06:28:59Z",
+ "updated": "2026-11-14T07:06:42Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (10)",
+  "Edmonton Journal (50)",
   "Sportsnet (12)",
   "Google News (86)"
  ],
@@ -224,8 +224,8 @@
   },
   {
    "title": "'No reason why' McDavid can't reach 200 points for Oilers, Kurri says",
-   "url": "https://www.nhl.com/oilers/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland-x8709",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland",
+   "source": "NHL.com",
    "published": "2026-11-13T19:50:42.033Z",
    "snippet": "HELSINKI -- Five-time Stanley Cup winners Jari Kurri and Esa Tikkanen each had an up-close view when Wayne Gretzky set an NHL record with 215 points for the Edmonton Oilers in 1985-86.…"
   },
