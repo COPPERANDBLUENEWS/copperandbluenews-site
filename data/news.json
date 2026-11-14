@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T10:20:57Z",
+ "updated": "2026-11-14T11:16:24Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -158,14 +158,6 @@
    "via": "google"
   },
   {
-   "title": "Babcock returns to Toronto to face the Maple Leafs with McDavid and the Oilers",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZjJnN1RFQUU5QlFOeENEOUhVdjlQY3hINXZZbHRyLVFCSHJCSWFLNjY1cVBEN3NOQXV4Ry1yS0FwY1lJMXl2dDMwd0JyLXBoVUx3QlQyNmZKcDJfSkVzMTU1ekJja2tpRklNN0pCLWh2TVdXYVdJQU9uMC1RclJqeG1Pa1JCR09MUThqSFJvLXJyeWFFQV9mTkNIdU9JZzhtd040SzZtR2FQeUg2VDljRHFXci14cHhHQkU4eFUwVmZsS3dqM051SVAxZ0RRUXY4bTBDMFBCNE1saWVYVUtnNjRkellvWndERzZZOENYV1R4T3Rq?oc=5",
-   "source": "thecanadianpressnews.ca",
-   "published": "2026-11-13T22:06:08Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers superstar Connor McDavid brings his Gretzky vibe to Toronto",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0h4ai0tLUhETlk4S3A2LXBGRnRPVFQxa3NmSDM3M01yU180b3dzUlpVdXdFWnFTMmstdmxHc3FiLWRjN3FyY0lYaVNzbGo1cEZrWGFZQ0FXWlV6Rkpjc2QzYTJnWk4zaUo4eElyVFQ3Mkl2Q3hRQ3dqTl9nTVdqTHdLT1hRMzZ0Vm9aUmIyN2JMRk52RF9IT2VWS0RYam5DMTNJSEpTOA?oc=5",
    "source": "Sportsnet.ca",
@@ -175,10 +167,11 @@
   },
   {
    "title": "Edmonton Oilers and Mike Babcock riding high while Maple Leafs stumble",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers-toronto-maple-leafs-babcock-mcdavid",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN2U2S2I4Sjk2eTl6RXVKWlZrZHhUYVJQcXNDN2FRbWtwdXFfZW1oNU4wUU90SC1UNlB6SFNINUlEQzAxMVBCVkNVU083eWYzc1FmMWpPM0dCNXdjRXJBQmplZTdRdDdUeEVqUGJ1UTI5WFR6WHUzV1N2d2w2ZS1vWENNTDQ1OFUwOEtjbWZoNjllX0FJZmpaZDFYRzFhdw?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-13T21:42:57Z",
-   "snippet": "“It’s an important game, we have a lot of Toronto guys,” said McDavid. “This is a hometown game for a lot of guys and we want to make sure it’s a good one\""
+   "published": "2026-11-13T21:45:12Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Maple Leafs-Oilers (home)",
@@ -277,6 +270,13 @@
    "source": "Sportsnet",
    "published": "2026-11-12T22:39:13Z",
    "snippet": "After helping Montreal win a Grey Cup, Cody Fajardo believed he had done enough to remain its starting quarterback until they decided to hand the keys to Davis Alexander. Now, with…"
+  },
+  {
+   "title": "Babcock's tough love approach faces its biggest challenge",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-coach-mike-babcocks-owen-michales-alex-formenton-connor-murphy",
+   "source": "Edmonton Journal",
+   "published": "2026-11-12T22:18:50Z",
+   "snippet": ""
   }
  ]
 }
