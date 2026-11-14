@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T23:21:02Z",
+ "updated": "2026-11-14T00:15:33Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,22 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Babcock not getting sentimental over Toronto return with Oilers",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSFVORlJuWUVxbnA0eEs4eG1JNnR4Q202eURtQVg4bXlQSGM1X0pqMGlqNWdIMVBHT1l0cVNBaF9faWx1OExYS05TNXNaeXFVY2RQZVpYLVRCbFE2ZVU5bGZRWEpJbFEwZktnN1ZLVTgxWmQzZnVWZ191SENrZzNGY0YxcU9VTmNRSlJpWU1n?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-14T00:11:11Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-13T23:00:51Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Maple Leafs Reset at Rogers Centre Before Oilers Test",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeFNuUndza1hiTUVwN1c0bDlYdHFzZ0o4WWwySEhTaXhVUjFiaDUxNUJNOUZrRGszcmJuaFdGMUFWUjVPZlA3Yk11LXZMNjRhRUtYUFQ4VHVacVl4Z0ptVGRvNUNfdndVa25BWGg2UFdOel9odml5RjlTeHM4NGxJSkFyYTB3RTN2LTFhTlkwTUI?oc=5",
@@ -228,14 +244,6 @@
    "snippet": "After falling short against the Saskatchewan Roughriders in last year’s Grey Cup, the Alouettes are back with a chance at redemption on Sunday. Here’s what the Als must do to top the…"
   },
   {
-   "title": "McDavid prepares to dazzle in hometown return: ‘Toronto is a place where you get a little more juice’",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUjBLNHR6QVRaSGt1cER5RU5hcGtyMU56Q21fUnBfWVg4Q1dSM2NIUTdyQ19lZk8tV2hlMzJBZS1RZzFuUGJ5RzdfczA3RTRmRG56S0VkS1VDN1NWVVFzZ0Flcnh3RW9ERGtacXRiNFpTVWJnWlZsY1Z6RTFBNWZVd2RLNkhiUm1ENjRjWEZsOHhoTTE3bXZRdmtOSEVnQU1lUExaVA?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-13T19:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Tikkanen moved to tears after receiving Borje Salming Courage Award",
    "url": "https://www.nhl.com/oilers/news/esa-tikkanen-honored-as-fourth-recipient-of-borje-salming-courage-award-x4397",
    "source": "EdmontonOilers.com",
@@ -244,11 +252,10 @@
   },
   {
    "title": "Babcock sticks with struggling Edmonton Oilers d-man but keeps on scratching another",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOEZ5LUlra1VKamlXRE5JTVhndWRsdW9ycjlmcVFQNk42Zm9UZ2ZUVWswbURBX2M3ZUxtcHpjVGs4RzRNMURudlcyVGxEQ3lFYWpHbGlHMUdwVFM3NUpTS3BBcmRVcU5DU2JrbDRkZHBqWjlraUQ5RDhMQ0lobW5GM0dhUG95TFJwYmQ5WUxKQVNMNnpVU09rRk9LQk40NkthRG9YVEJES1JxUkwyMEVROXFJMEs1QQ?oc=5",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-mike-babcock-jake-walman-connor-murphy",
    "source": "Edmonton Journal",
-   "published": "2026-11-13T18:33:59Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-13T17:02:36Z",
+   "snippet": ""
   },
   {
    "title": "Oilers' Walman needs to find a way to work himself back into lineup",
@@ -270,13 +277,6 @@
    "source": "Sportsnet",
    "published": "2026-11-12T22:39:13Z",
    "snippet": "After helping Montreal win a Grey Cup, Cody Fajardo believed he had done enough to remain its starting quarterback until they decided to hand the keys to Davis Alexander. Now, with…"
-  },
-  {
-   "title": "Babcock's tough love approach faces its biggest challenge",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-coach-mike-babcocks-owen-michales-alex-formenton-connor-murphy",
-   "source": "Edmonton Journal",
-   "published": "2026-11-12T22:18:50Z",
-   "snippet": ""
   }
  ]
 }
