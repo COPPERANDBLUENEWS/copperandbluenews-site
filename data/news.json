@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-14T01:24:00Z",
+ "updated": "2026-11-14T01:44:16Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (13)",
-  "Google News (85)"
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
@@ -118,18 +118,18 @@
    "via": "google"
   },
   {
-   "title": "McDavid fired up to play Leafs in Toronto: 'It means more'",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPczBEXzRZdDcxMGM3bXk0czNPZDNqZzZ1dFRUQVBvU1A4WFhMRGY5X1NPRFBnOUd2NUhNOXZYVWx1NFhxdTlUX0wxRWlaM01OQVFQQnlKdW5LNFR4NlVKZy11UUt6VDJGNjFmNTdmZU1LckpNbU1DeFctV3hDV3lGakJMSzRDV3FYODJIMTh6WWhhQWo3a1JBeXhkaGwyenM?oc=5",
-   "source": "theScore",
-   "published": "2026-11-13T21:46:49Z",
+   "title": "Oilers superstar Connor McDavid brings his Gretzky vibe to Toronto",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0h4ai0tLUhETlk4S3A2LXBGRnRPVFQxa3NmSDM3M01yU180b3dzUlpVdXdFWnFTMmstdmxHc3FiLWRjN3FyY0lYaVNzbGo1cEZrWGFZQ0FXWlV6Rkpjc2QzYTJnWk4zaUo4eElyVFQ3Mkl2Q3hRQ3dqTl9nTVdqTHdLT1hRMzZ0Vm9aUmIyN2JMRk52RF9IT2VWS0RYam5DMTNJSEpTOA?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-13T21:51:00Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Oilers superstar Connor McDavid brings his Gretzky vibe to Toronto",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0h4ai0tLUhETlk4S3A2LXBGRnRPVFQxa3NmSDM3M01yU180b3dzUlpVdXdFWnFTMmstdmxHc3FiLWRjN3FyY0lYaVNzbGo1cEZrWGFZQ0FXWlV6Rkpjc2QzYTJnWk4zaUo4eElyVFQ3Mkl2Q3hRQ3dqTl9nTVdqTHdLT1hRMzZ0Vm9aUmIyN2JMRk52RF9IT2VWS0RYam5DMTNJSEpTOA?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-13T21:46:00Z",
+   "title": "McDavid fired up to play Leafs in Toronto: 'It means more'",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPczBEXzRZdDcxMGM3bXk0czNPZDNqZzZ1dFRUQVBvU1A4WFhMRGY5X1NPRFBnOUd2NUhNOXZYVWx1NFhxdTlUX0wxRWlaM01OQVFQQnlKdW5LNFR4NlVKZy11UUt6VDJGNjFmNTdmZU1LckpNbU1DeFctV3hDV3lGakJMSzRDV3FYODJIMTh6WWhhQWo3a1JBeXhkaGwyenM?oc=5",
+   "source": "theScore",
+   "published": "2026-11-13T21:46:49Z",
    "snippet": "",
    "via": "google"
   },
@@ -224,8 +224,8 @@
   },
   {
    "title": "'No reason why' McDavid can't reach 200 points for Oilers, Kurri says",
-   "url": "https://www.nhl.com/oilers/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland-x8709",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland",
+   "source": "NHL.com",
    "published": "2026-11-13T19:50:42.033Z",
    "snippet": "HELSINKI -- Five-time Stanley Cup winners Jari Kurri and Esa Tikkanen each had an up-close view when Wayne Gretzky set an NHL record with 215 points for the Edmonton Oilers in 1985-86.…"
   },
