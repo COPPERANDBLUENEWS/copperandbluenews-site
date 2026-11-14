@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-14T03:27:47Z",
+ "updated": "2026-11-14T03:57:23Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (50)",
+  "Edmonton Journal (10)",
   "Sportsnet (13)",
-  "Google News (86)"
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Connor McDavid continues to rewrite the record book",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWl93UDJlU3RjeVBUS0dCU2Utc1U1MXFPWEZOQXRYWHdYekJ1TUhqWEJGLXNPMEhQWFp3Qk96QWZWX2NidzFoWElaS2V2ZHlTbG41U3Y5TXJjNTJfTTJQdUhqcFU4VHU3NEJxRVN4OGIxOVQ1V05iSVNxa1pweEd5Mg?oc=5",
+   "source": "The Brock Press",
+   "published": "2026-11-14T03:48:25Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers Legend Jari Kurri Says Connor McDavid Can Get 200 Points",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdkluem1pSHdQdVM2XzlPeTk3MTB2VEJtaFZuMWtab0dmNUpIS3lKT0x5dFFNb0FTTkI4UHlDUjNSbEhwLW5DakJnSkU4VzVfOE54aDZjbUJlNWo5YWhJWnVXN2xrVkJkeGxRck9qeTZwR1NibkpIaXBFaE13c25jcWgtV04?oc=5",
@@ -160,11 +168,10 @@
   },
   {
    "title": "Edmonton Oilers and Mike Babcock riding high while Maple Leafs stumble",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPN2U2S2I4Sjk2eTl6RXVKWlZrZHhUYVJQcXNDN2FRbWtwdXFfZW1oNU4wUU90SC1UNlB6SFNINUlEQzAxMVBCVkNVU083eWYzc1FmMWpPM0dCNXdjRXJBQmplZTdRdDdUeEVqUGJ1UTI5WFR6WHUzV1N2d2w2ZS1vWENNTDQ1OFUwOEtjbWZoNjllX0FJZmpaZDFYRzFhdw?oc=5",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers-toronto-maple-leafs-babcock-mcdavid",
    "source": "Edmonton Journal",
-   "published": "2026-11-13T21:45:12Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-13T21:42:57Z",
+   "snippet": "“It’s an important game, we have a lot of Toronto guys,” said McDavid. “This is a hometown game for a lot of guys and we want to make sure it’s a good one\""
   },
   {
    "title": "Maple Leafs-Oilers (home)",
@@ -217,8 +224,8 @@
   },
   {
    "title": "'No reason why' McDavid can't reach 200 points for Oilers, Kurri says",
-   "url": "https://www.nhl.com/oilers/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland-x8709",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland",
+   "source": "NHL.com",
    "published": "2026-11-13T19:50:42.033Z",
    "snippet": "HELSINKI -- Five-time Stanley Cup winners Jari Kurri and Esa Tikkanen each had an up-close view when Wayne Gretzky set an NHL record with 215 points for the Edmonton Oilers in 1985-86.…"
   },
@@ -265,18 +272,11 @@
    "snippet": "After signing a seven-year $49-million extension with the Edmonton Oilers, Jake Walman is struggling to find a spot in the lineup this year."
   },
   {
-   "title": "A tell-all tale of Ed Hervey's Grey Cup journey coming full circle",
-   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/a-tell-all-tale-of-ed-herveys-grey-cup-journey-coming-full-circle",
+   "title": "By the numbers: A head-to-head historical look at the 2026 Grey Cup finalists",
+   "url": "http://edmontonjournal.com/sports/by-the-numbers-a-head-to-head-historical-look-at-the-2026-grey-cup-finalists/wcm/a8ac627a-6aed-41aa-b42f-3d32f7cd36c9",
    "source": "Edmonton Journal",
-   "published": "2026-11-13T03:18:37Z",
-   "snippet": ""
-  },
-  {
-   "title": "Elks QB Fajardo carrying extra motivation into Grey Cup",
-   "url": "https://www.sportsnet.ca/cfl/article/elks-qb-fajardo-carrying-extra-motivation-into-grey-cup/",
-   "source": "Sportsnet",
-   "published": "2026-11-12T22:39:13Z",
-   "snippet": "After helping Montreal win a Grey Cup, Cody Fajardo believed he had done enough to remain its starting quarterback until they decided to hand the keys to Davis Alexander. Now, with…"
+   "published": "2026-11-13T13:28:22Z",
+   "snippet": "The franchises are meeting to fight for the Grey Cup for a 12th time, making this one of the CFL's great championship rivalries."
   }
  ]
 }
