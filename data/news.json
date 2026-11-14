@@ -1,13 +1,28 @@
 {
- "updated": "2026-11-14T21:15:50Z",
+ "updated": "2026-11-14T21:43:25Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (12)",
-  "Google News (86)"
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Could Grey Cup Sunday mark an end for Edmonton Elks QB Cody Fajardo?",
+   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/could-grey-cup-sunday-mark-an-end-for-edmonton-elks-qb-cody-fajardo",
+   "source": "Edmonton Journal",
+   "published": "2026-11-14T21:14:03Z",
+   "snippet": ""
+  },
+  {
+   "title": "GAME DAY vs Oilers | Nov. 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE85RGhtdnAwNUJBaUVvZXBvdUpZX1lBVHNnam1BSXFuam9jQ19vMTBVLVBxczlYeFZ2RDNJSnhsbnhkeXJfczhkMGVHQWpFamZyZEhjTGVYdVJWUzM1bDNnWEM2THNXWmZwTlFiRDdyRThzVEdO?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-14T21:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Leafs turn back to ‘vocal’ Stolarz in bid to beat Oilers again; Hiller defends Bobrovsky",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMUNnY3pUMjkzc0V3aWNjN3liVXM3UWZtSVFHYTl6bWRBLVZFTU5iSUllMVFvX0lkb1p1dnAxMWd0YVcxa253SkhhcFRGS2ZNakNpVTRwbHVxN1lPcFQ0cHQ3M054RFd2YWIyUjBGTVVPRkU2QXVsSGw1OFk4YWRuQlpvMFhOd1REbS1Ec3ZaM20tMEd2aTBNNXFpSDdOc0wtWmVBOGdpUllIYW1US1c2UE9wNXN6dXkw?oc=5",
@@ -17,10 +32,10 @@
    "via": "google"
   },
   {
-   "title": "GAME DAY vs Oilers | Nov. 14, 2026",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE85RGhtdnAwNUJBaUVvZXBvdUpZX1lBVHNnam1BSXFuam9jQ19vMTBVLVBxczlYeFZ2RDNJSnhsbnhkeXJfczhkMGVHQWpFamZyZEhjTGVYdVJWUzM1bDNnWEM2THNXWmZwTlFiRDdyRThzVEdO?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-14T20:52:01Z",
+   "title": "Leafs vs Oilers Game 22 Preview: McDavid in Town, Stolarz Starts, Leafs in Crisis & Best Bets",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQW5UMXh6RjBSaW1NUzBNcWRuR2hqTllscHRReHdMMEtjM2QzOERfenFLQ0xvZU45OExUOE84TDJMYlJjV3cyQi1xcTJyd1NRV2MzNWMwTGFSZWd3dWxCakYxalQtWko3bDNkYml6a2pYaG9rZ1hvUGstbjVSWmtuNWNsMmZULXRtamVsYVJkNHR3dXVENGRZblVtQVZSVEVEelhLUWxFdWYzcmZyV1JLYkZ5YjBPZDcteXYzQm9rNA?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-14T20:47:48Z",
    "snippet": "",
    "via": "google"
   },
@@ -37,6 +52,14 @@
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-14T19:57:41Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-14T19:49:40Z",
    "snippet": "",
    "via": "google"
   },
@@ -140,22 +163,6 @@
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TQXBJaXZkUGt4d2lXUjAzOWNHc0w4QmU4NUtBeXpQYWh2cjRTeThrckVwV2RkMmd0LUplNDh2NFRNeXc0ZnY5d19ubVBCNDg2VEtaSkJQQkdxM0VWTU44OTRTbWYyYkxzZjZyMnN0ZUl1MEtQ?oc=5",
    "source": "PPP Leafs",
    "published": "2026-11-14T17:17:48Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Connor McDavid Gets Major Endorsement From Edmonton Oilers Legend As Historic 200-Point Chase Gains Momentum",
-   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVGVYLThrSkNlMDdQVlNlamIwckFfSWx1WldCTGNuVzRldkpCTHgzLXVVM2R1bEpsUHNqbk9YVzRMcTlGZy0tbXgwSmZrUUhwQVhnd251cDJILU9MMkZSNlZVcWR0alhtc2dYSGFBY0xQSm5xUmpqSHdVWTVPdU5xUTBGNDhHdkF0X25hSlpaYlNGZm9NSmM3NE0zNDQ2UGFEQjE0RUN1SFByQVFTbDBwbFM4azVCdmlyTjhHWFJzTVRvUjI5am5MeDF1ak1WbXFSUm14T0M2Rmd3YnVWTUg4NDNR?oc=5",
-   "source": "NDTV Sports",
-   "published": "2026-11-14T17:17:31Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Maple Leafs lineup news: Anthony Stolarz will start vs. Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS3Ntb0gxM2pucndRTDRGX1dDaGlmT0RDZ1Z3M1dhZ3RicVVsOWswY21lcldmNmF6eGNJQWJFTkl2dXNDZW5YcThGMXhzQ3ZpODY0NHhYaEcxTTlQMjZ5Mjd5cXBQeEZnMXJDT3dlMGw3SVluWUltYWloRmx0cFZMNjR6VTQwbkRuZm5YM3RmU01HUHczYnczRUdleWJSNjRTcVdz?oc=5",
-   "source": "The Leafs Nation",
-   "published": "2026-11-14T17:10:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -270,13 +277,6 @@
    "source": "Sportsnet",
    "published": "2026-11-13T19:13:37Z",
    "snippet": "Toronto Maple Leafs players Darren Raddysh, Auston Matthews and Nick Paul speak to media after workout at Rogers Centre on Friday morning."
-  },
-  {
-   "title": "Keys to victory: How Alouettes can beat Elks in Grey Cup",
-   "url": "https://www.sportsnet.ca/cfl/article/keys-to-victory-how-alouettes-can-beat-elks-in-grey-cup/",
-   "source": "Sportsnet",
-   "published": "2026-11-13T19:01:37Z",
-   "snippet": "After falling short against the Saskatchewan Roughriders in last year’s Grey Cup, the Alouettes are back with a chance at redemption on Sunday. Here’s what the Als must do to top the…"
   }
  ]
 }
