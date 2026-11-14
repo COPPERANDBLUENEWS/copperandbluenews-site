@@ -17,9 +17,9 @@ Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this f
 | `POST /fgs` | the home-page poll | same site CORS | `{game, voter, player}` → one pick per device until puck drop. `player` is an NHL id or `"other"` |
 | `GET /fgs?game=ID` | the home-page poll | same site CORS; public read-only | crowd totals, cached about 60 s before puck drop and 15 s after, plus the Oilers' first goal once the play-by-play has it |
 
-- `type` is one of `puck_drop`, `goal`, `period_end`, `final`, `lineup`, `odds`, `gameday`, `pregame_60`, `pregame_15` (same keys as the panel's checkboxes).
-- Defaults when a sign-up leaves a key out: `odds` **off** (betting odds are opt-in, 19+), everything else on, including the 1 hour and 15 minute reminders.
-  Records saved before Nov 5, 2026 (no `v` field) read as `gameday` on and `odds` off. Records saved before the pre-game reminders (`v` 1 or 2) read those two as on. The next save rewrites the row as `v: 3`.
+- `type` is one of `puck_drop`, `goal`, `period_end`, `final`, `lineup`, `odds`, `gameday`, `pregame_60`, `pregame_15`, `close_game`, `special_teams` (same keys as the panel's checkboxes).
+- Defaults when a sign-up leaves a key out: `odds` **off** (betting odds are opt-in, 19+), everything else on, including the 1 hour and 15 minute reminders, close-game alerts, and power play / penalty kill alerts.
+  Records saved before Nov 5, 2026 (no `v` field) read as `gameday` on and `odds` off. Records saved before the pre-game reminders (`v` 1 or 2) read those two as on. Records saved before close-game and special-teams alerts (`v` 3 or earlier) read those two as on. The next save rewrites the row as `v: 4`.
 - `id` (e.g. `2026020260:goal:211`) is stored in KV as `evt:<id>` for 45 days; a repeated id returns `{"duplicate":true}`
   and nothing is sent. This suppresses sequential repeats; KV is not an atomic lock for concurrent producers.
 - Push: `src/webpush.js` implements RFC 8291 (aes128gcm) + RFC 8292 (VAPID, ES256) with WebCrypto only, no npm
@@ -123,7 +123,7 @@ Domains & Routes), e.g. `alerts.copperandbluenews.com`, and use that as `WORKER_
 curl -H "Authorization: Bearer $ADMIN_SECRET" $W/export -o cbn-alerts-signups.csv
 ```
 
-Columns: `id, email, puck_drop, goal, period_end, final, lineup, odds, gameday, pregame_60, pregame_15, created_at, updated_at, endpoint, p256dh, auth`
+Columns: `id, email, puck_drop, goal, period_end, final, lineup, odds, gameday, pregame_60, pregame_15, close_game, special_teams, created_at, updated_at, endpoint, p256dh, auth`
 (the last three let you move the subscriptions to another push sender with the same VAPID keys).
 
 ## Local testing
@@ -157,11 +157,24 @@ npm run test:integration                    # subscribe/CORS/notify/dedupe/410 c
   clock the site uses, plus the Oilers starter when the NHL boxscore has flagged one or the published
   lineup says Confirmed/Likely. The push URL is that game's Live view, `/tracker.html?id=GAMEID`.
   Push TTL is 2 minutes so a delayed device does not show a stale countdown. Both checkboxes default on.
+- During a live game the same actor also sends a **close game** alert (`close_game`) once, when the
+  3rd period of regulation has 5:00 or less remaining and the score is tied or a 1-goal game
+  (`GAMEID:close_game`). Overtime, intermission, and a finished game do not qualify. If the score
+  only becomes close after the 5:00 mark, the alert still fires once at that later poll. The title
+  is `Tied 2-2 with 5:00 left in the 3rd` or `Close game alert: EDM 3-2 TOR, 5:00 left in the 3rd`.
+  The push URL is `/tracker.html?id=GAMEID`. The checkbox defaults on.
+- **Power play / penalty kill** alerts (`special_teams`) fire from NHL `penalty` plays. An opponent
+  penalty that leaves the Oilers with a strength advantage is `Oilers power play` (or `Oilers 5-on-3`);
+  an Oilers penalty that leaves them shorthanded is `Penalty kill`. Offsetting or coincidental
+  penalties that leave strength even, plus misconducts and penalty shots, are silent. Majors and
+  double minors keep their duration in the body (`5 min fighting`, `4 min high-sticking`). Each
+  alert is one Durable Object `seen:` id per penalty (`GAMEID:penalty:EVENTID`). The checkbox
+  defaults on. Lineup and final-score notification URLs are unchanged.
 - `src/game-events.js` ports Python `game_events` and `add_odds`: identical titles, bodies, IDs, URLs,
   scorer/assist formatting, PP/SH/EN, shootout exclusions, final result and optional odds variants.
   Stable event IDs are never re-sent after scorer edits, goal removal or reappearance, matching Python.
 - `notify_alerts.py --game` sends nothing (dry-run generation remains for testing). `live.yml` calls only
-  `--pregame` at that step. The Worker's authenticated `/notify` also refuses the four managed game types,
+  `--pregame` at that step. The Worker's authenticated `/notify` also refuses the managed game types (puck drop, goals, period ends, finals, pre-game reminders, close game, and special teams),
   fencing even an old Actions run already in flight. Lineup/gameday/pregame odds remain unchanged.
 
 ### Dedupe and failure recovery

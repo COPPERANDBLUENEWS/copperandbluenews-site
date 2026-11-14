@@ -147,7 +147,9 @@ try {
   const prev = await store.getSub({ALERTS_KV: old}, "old");
   assert.equal(prev.prefs.pregame_60, true);
   assert.equal(prev.prefs.pregame_15, true);
+  assert.equal(prev.prefs.close_game, true);
+  assert.equal(prev.prefs.special_teams, true);
   assert.equal(prev.prefs.odds, false);
   assert.equal(prev.prefs.gameday, true);
-  console.log("Older sign-ups: 1 hour and 15 minute reminders default on");
+  console.log("Older sign-ups: 1 hour, 15 minute, close game and special teams reminders default on");
 } finally { Date.now = realNow; }

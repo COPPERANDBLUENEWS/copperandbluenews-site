@@ -2,11 +2,27 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {execFileSync} from 'node:child_process';
 import {gameEvents, addOdds, oddsGame} from '../src/game-events.js';
+import {closeGameEvent} from '../src/close-game.js';
+import {specialTeamsEvents} from '../src/special-teams.js';
 import {GameAlerts, eligibleGame} from '../src/game-alerts.js';
 import * as store from '../src/store.js';
 import worker from '../src/index.js';
 const fixture = JSON.parse(fs.readFileSync(new URL('../../data/pbp/2026020260.json', import.meta.url)));
-const snapshots = Array.from({length:fixture.plays.length+1}, (_, i) => ({...structuredClone(fixture),
+function withClock(g) {
+  const last = (g.plays || []).at(-1);
+  if (!last) {
+    g.clock = {timeRemaining: "20:00", secondsRemaining: 1200, running: false, inIntermission: false};
+    g.periodDescriptor = {number: 1, periodType: "REG", maxRegulationPeriods: 3};
+    return g;
+  }
+  const rem = last.timeRemaining || "00:00";
+  const m = /^(\d+):(\d{2})$/.exec(rem);
+  g.periodDescriptor = {...last.periodDescriptor};
+  g.clock = {timeRemaining: rem, secondsRemaining: m ? +m[1] * 60 + +m[2] : 0,
+    running: !["period-end", "game-end"].includes(last.typeDescKey), inIntermission: last.typeDescKey === "period-end"};
+  return g;
+}
+const snapshots = Array.from({length:fixture.plays.length+1}, (_, i) => withClock({...structuredClone(fixture),
   plays:fixture.plays.slice(0,i), gameState:i===0?'FUT':i===fixture.plays.length?fixture.gameState:'LIVE'}));
 const pyImport = `import sys,json,importlib.util\nfrom pathlib import Path\np=Path('../scripts/notify_alerts.py').resolve();s=importlib.util.spec_from_file_location('notify',p);m=importlib.util.module_from_spec(s);s.loader.exec_module(m)\n`;
 const python = (code, data) => JSON.parse(execFileSync('python3',['-c',pyImport+code], {input:JSON.stringify(data),encoding:'utf8',maxBuffer:20*1024*1024}));
@@ -44,7 +60,12 @@ try{
   for(let i=0;i<snapshots.length;i++){
     await x.actor.stage(snapshots[i]);
     for(const [,row]of await x.storage.list({prefix:'pending:'})){const {topic,renotify,ts,...e}=row.payload;actual.push(e);}
-    for(const {order,...e}of expected[i])if(!seen.has(e.id)){seen.add(e.id);wanted.push(e);}
+    const newly=[];
+    for(const {order,...e}of expected[i])if(!seen.has(e.id)){seen.add(e.id);newly.push(e);}
+    const extra=[...specialTeamsEvents(snapshots[i])];
+    const close=closeGameEvent(snapshots[i]); if(close) extra.push(close);
+    for(const e of extra){ if(seen.has(e.id)) continue; seen.add(e.id); const {id,type,title,body,url}=e; newly.push({id,type,title,body,url}); }
+    newly.sort((a,b)=>a.id.localeCompare(b.id)); wanted.push(...newly);
     await x.actor.flush();await drain(x);
   }
   assert.deepEqual(actual,wanted);assert.equal(x.accepted.length,wanted.length);assert.equal(new Set(x.accepted).size,wanted.length);

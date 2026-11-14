@@ -93,6 +93,15 @@ export function describeAlert(game, event) {
     const p = (game.plays || []).find(x => x.typeDescKey === "period-end" && x.periodDescriptor?.number === n);
     const [as, hs] = scoreAt(game, p?.eventId);
     meta.detail = {kind: "period_end", period: periodLabel(p?.periodDescriptor), awayAbbrev: a.abbrev || "", homeAbbrev: h.abbrev || "", awayScore: as, homeScore: hs, shots: shotsLine(game)};
+  } else if (event.type === "close_game") {
+    const [as, hs] = event.awayScore != null && event.homeScore != null ? [event.awayScore, event.homeScore] : scoreAt(game);
+    meta.detail = {kind: "close_game", timeRemaining: event.timeRemaining || "", period: "3rd", tied: !!event.tied,
+      awayAbbrev: a.abbrev || "", homeAbbrev: h.abbrev || "", awayScore: as, homeScore: hs};
+  } else if (event.type === "special_teams") {
+    meta.detail = {kind: event.kind || "power_play", team: event.team || "", player: event.player || "",
+      number: event.number ?? null, infraction: event.infraction || "", duration: event.duration ?? null,
+      time: event.time || "", period: event.period || "", fiveOnThree: !!event.fiveOnThree,
+      awayAbbrev: a.abbrev || "", homeAbbrev: h.abbrev || ""};
   } else if (event.type === "final") {
     const as = a.score, hs = h.score;
     const edmHome = h.abbrev === "EDM";

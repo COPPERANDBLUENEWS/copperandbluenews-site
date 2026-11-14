@@ -1,6 +1,8 @@
 // One SQLite-backed Durable Object: strongly consistent journal + outbox, not an eventually-consistent KV lease.
 // The cron Worker only makes one RPC; parsing, 15s polling and push crypto run under the DO CPU budget.
 import {gameEvents, addOdds, oddsGame} from "./game-events.js";
+import {closeGameEvent} from "./close-game.js";
+import {specialTeamsEvents} from "./special-teams.js";
 import {notificationPlan, deliver} from "./delivery.js";
 import {bytesToB64u} from "./webpush.js";
 import {describeAlert, entryFromPending} from "./alert-log.js";
@@ -65,7 +67,10 @@ export class GameAlerts {
   }
   async stage(g) {
     if (!eligibleGame(g, this.env.GAME_ALERTS_SINCE, Date.now())) return 0;
-    const fresh = await this.claimFresh(gameEvents(g));
+    const evs = [...gameEvents(g), ...specialTeamsEvents(g)];
+    const close = closeGameEvent(g);
+    if (close) evs.push(close);
+    const fresh = await this.claimFresh(evs);
     if (!fresh.length) return 0;
     const stateKey = "odds:" + g.id, state = await this.storage.get(stateKey) || {};
     if (fresh.some(e => ["puck_drop", "period_end"].includes(e.type))) {

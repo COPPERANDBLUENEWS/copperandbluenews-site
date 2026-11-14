@@ -13,6 +13,9 @@
     {id: "sample:pregame15", type: "pregame_15", title: "15 minutes to puck drop: VAN @ EDM", body: "VAN @ EDM at Rogers Place. Puck drop 9 PM MT | 8 PM PT. Starting goalie: Devon Levi.", url: "/tracker.html?id=2026020276", at: "2026-11-08T02:45:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "pregame_15", venue: "Rogers Place", when: "9 PM MT | 8 PM PT", starter: "Devon Levi", starterStatus: "Confirmed", matchup: "VAN @ EDM"}},
     {id: "sample:pregame60", type: "pregame_60", title: "1 hour to puck drop: VAN @ EDM", body: "VAN @ EDM at Rogers Place. Puck drop 9 PM MT | 8 PM PT. Starting goalie: Devon Levi.", url: "/tracker.html?id=2026020276", at: "2026-11-08T02:00:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "pregame_60", venue: "Rogers Place", when: "9 PM MT | 8 PM PT", starter: "Devon Levi", starterStatus: "Confirmed", matchup: "VAN @ EDM"}},
     {id: "sample:starter", type: "lineup", title: "Confirmed starter: Devon Levi in goal for the Oilers", body: "Devon Levi starts vs Canucks, puck drop 8 PM PT. Thatcher Demko is expected for the Canucks. Lines and pairs on the Players tab.", url: "/players.html", at: "2026-11-07T22:15:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "starter", starter: "Devon Levi", opponent: "Canucks", opponentStarter: "Thatcher Demko", opponentStatus: "Likely", when: "8 PM PT", venue: "Rogers Place"}},
+    {id: "sample:close", type: "close_game", title: "Close game alert: EDM 4-5 ANA, 0:45 left in the 3rd", body: "Oilers vs Ducks · Follow it live on the rink tracker.", url: "/tracker.html?id=2026020260", at: "2026-11-06T03:44:00.000Z", game: "2026020260", matchup: "Ducks @ Oilers", away: "ANA", home: "EDM", detail: {kind: "close_game", timeRemaining: "0:45", period: "3rd", tied: false, awayAbbrev: "ANA", homeAbbrev: "EDM", awayScore: 5, homeScore: 4}},
+    {id: "sample:pp", type: "special_teams", title: "Oilers power play", body: "Power play: VAN #43 Hughes, 2 min tripping, 12:34 2nd", url: "/tracker.html?id=2026020276", at: "2026-11-08T03:48:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "power_play", team: "VAN", player: "Hughes", number: 43, infraction: "tripping", duration: 2, time: "12:34", period: "2nd", fiveOnThree: false, awayAbbrev: "VAN", homeAbbrev: "EDM"}},
+    {id: "sample:pk", type: "special_teams", title: "Penalty kill", body: "Penalty kill: EDM #2 Bouchard, 2 min hooking, 3:50 1st", url: "/tracker.html?id=2026020276", at: "2026-11-08T03:12:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "penalty_kill", team: "EDM", player: "Bouchard", number: 2, infraction: "hooking", duration: 2, time: "3:50", period: "1st", fiveOnThree: false, awayAbbrev: "VAN", homeAbbrev: "EDM"}},
     {id: "sample:final", type: "final", title: "FINAL: EDM 4, ANA 5", body: "Oilers fall 4-5 vs the Ducks. Box score and every goal on the site.", url: "/game.html?id=2026020260", at: "2026-11-06T03:45:00.000Z", game: "2026020260", matchup: "Ducks @ Oilers", away: "ANA", home: "EDM", detail: {kind: "final", result: "Oilers fall", awayAbbrev: "ANA", homeAbbrev: "EDM", awayScore: 5, homeScore: 4, extra: ""}},
   ];
 
@@ -39,7 +42,8 @@
   function kindLabel(a) {
     if (a.type === "lineup" && (a.detail?.kind === "starter" || String(a.id).endsWith(":goalie"))) return "Starting goalie";
     if (a.type === "lineup") return "Lineup";
-    return {puck_drop: "Puck drop", goal: "Goal", period_end: "Period", final: "Final", odds: "Odds", gameday: "Game day", pregame_60: "1 hour", pregame_15: "15 min"}[a.type] || "Alert";
+    if (a.type === "special_teams") return a.detail?.kind === "penalty_kill" ? "Penalty kill" : "Power play";
+    return {puck_drop: "Puck drop", goal: "Goal", period_end: "Period", close_game: "Close game", final: "Final", odds: "Odds", gameday: "Game day", pregame_60: "1 hour", pregame_15: "15 min"}[a.type] || "Alert";
   }
   function gameHref(a) {
     if (!a.game) return (a.url || "tracker.html").replace(/^\//, "");
@@ -87,6 +91,12 @@
     if (d.kind === "pregame_60" || d.kind === "pregame_15") {
       const goalieLabel = d.starterStatus === "Likely" ? "Likely starter" : "Starting goalie";
       return facts([["Game", d.matchup || a.matchup], ["Venue", d.venue], ["Puck drop", d.when], [goalieLabel, d.starter]]);
+    }
+    if (d.kind === "close_game") return facts([["Score", score(d)], ["Time left", d.timeRemaining ? d.timeRemaining + " left in the " + (d.period || "3rd") : ""], ["Game", a.matchup]]);
+    if (d.kind === "power_play" || d.kind === "penalty_kill") {
+      const who = [d.number != null ? "#" + d.number : "", d.player].filter(Boolean).join(" ") || d.team;
+      const dur = d.duration != null ? d.duration + " min" : "";
+      return facts([["Type", d.kind === "power_play" ? (d.fiveOnThree ? "Oilers 5-on-3" : "Oilers power play") : (d.fiveOnThree ? "Penalty kill (3-on-5)" : "Penalty kill")], ["Player", who], ["Infraction", d.infraction], ["Duration", dur], ["Time", [d.period, d.time].filter(Boolean).join(" ")]]);
     }
     return `<p class="alert-body">${esc(a.body || "")}</p>`;
   }
@@ -138,7 +148,7 @@
       root.innerHTML = `${banner}<p>Couldn't load notifications. Try again in a minute.</p><button type="button" class="btn" id="inboxRetry">Retry</button>${settings}`;
       $("inboxRetry").onclick = () => load(true);
     } else if (!alerts.length) {
-      root.innerHTML = `${banner}<p class="inbox-empty">No alerts yet. 1 hour and 15 minute reminders, puck drop, goals, period ends, finals, confirmed starting goalies and lineup alerts show up here after they're sent.</p>${settings}`;
+      root.innerHTML = `${banner}<p class="inbox-empty">No alerts yet. 1 hour and 15 minute reminders, puck drop, goals, period ends, close games, power plays, penalty kills, finals, confirmed starting goalies and lineup alerts show up here after they're sent.</p>${settings}`;
     } else {
       const seen = readIds();
       root.innerHTML = `${banner}<p class="meta inbox-lead">Newest first, grouped by game. Tap one for the details.</p>` + groups(alerts).map(([, items]) => {
