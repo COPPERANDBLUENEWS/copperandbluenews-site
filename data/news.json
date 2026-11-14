@@ -1,13 +1,69 @@
 {
- "updated": "2026-11-14T17:16:08Z",
+ "updated": "2026-11-14T18:12:37Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (12)",
-  "Google News (86)"
+  "Google News (84)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers’ Connor McDavid points to goalie Devon Levi’s biggest strength after 8-1 start",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVTJlZ3hkamFsNkZNY0d1VnV6b3BLdjJFT1pmV1hCUkZDMEgtRE9EOXdPWmV6MTNWSWd3VkpWWWx1UXNkV2VrVkRLbFg0WFY1TE45SVN5LWppTURnR3VXdlE3cWJOS2RnTklrSG92dTF1eGVtZjByWkF1eEpTX3R1YVdSNEZHNmNFNmVIQw?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-14T18:04:27Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "John Tavares | Pre Game vs Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRTJSQUlzRm83eHFSUGRGTkdNMGVMSDBOdXRPNTdIX2otYlRJUXo0X0FLRHUxcVdlNUVkdmJ6Uno5aG9hM3RtVllUNElZTmVMOEw2VS1mcUwxSldIOFlrcmxsXzZNYlpIU0lSQWhfcmFETl9rMTlhLThpOGE3VVBia1VqOGpvOWxfREdMM3l0X0xrWlJzWHc?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-14T18:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid chasing history as Maple Leafs look to avoid historic home losing streak",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUW90NDdIVEx6cVdVbEdxcWFkUXR2Z1lZSFdCMF9DZkF6Vkp0bXpNVFQxQVBWZlJ3V3plcjh5MFhCcGxQbURJX2N0bHJuRlFvWUdzQ2J3UHlpZElGTncycVh2ZF95NlVNNzdrR1BsMWd4NHkydjREVXN1THp3dnBuNTlpVU1tRGdKU25Tajg4MWE2RlBKc0NDLV91QlNUU2pmT0oxUklvTGNhcHhxX0RxY2tBSUdULVk?oc=5",
+   "source": "TSN",
+   "published": "2026-11-14T17:51:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Trying to Avoid Repeat Performance and Buck Concerning Trend vs Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVktpMVBzSmxNWm9yQ000dVJ0VHRCYTB5eEdITzB6U09RREV5V3BjSVBDNFVQWWkzSmQ5VWRaemRRa3VGQnBoQVllU3JXaUZrVGx0UzZORkYzWHlSMjZJWjA3eGFHNnhpUHRoazVyYUNuRkgtY1hZemloUHkzck8yOExITlF3RlJXYWxLLXlQTnNkZFJKVWEyWHpDdVNxRzdZekRMbVpVX2lRZEhuV3pFUndkRXZkcEFaU0loOXBOcV9FWHoxTW96Z2F2b3djRVJyNGNvYlVNRQ?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-14T17:31:02Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers at Maple Leafs projected lineups",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQmJYdldYSGI2Z1E0MmhuSGpNVlU5cHRpWHBacXBoNF9BWW11bDNrdlhuRGtOLVRRR2tvOXJpTWpfSk5uMmo0cUxXUWU3Tzc1dTUtejBacFA4bm5oNmVONUZFV29UNWlXZVViYTFnd0tEblVLSGQ2RjJYQUU3aXJOVE1mVjl3am95a2lmZFZRWFBWMTZ0?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-14T17:20:52Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Preview: Oilers visit the Leafs",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TQXBJaXZkUGt4d2lXUjAzOWNHc0w4QmU4NUtBeXpQYWh2cjRTeThrckVwV2RkMmd0LUplNDh2NFRNeXc0ZnY5d19ubVBCNDg2VEtaSkJQQkdxM0VWTU44OTRTbWYyYkxzZjZyMnN0ZUl1MEtQ?oc=5",
+   "source": "PPP Leafs",
+   "published": "2026-11-14T17:17:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid Gets Major Endorsement From Edmonton Oilers Legend As Historic 200-Point Chase Gains Momentum",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVGVYLThrSkNlMDdQVlNlamIwckFfSWx1WldCTGNuVzRldkpCTHgzLXVVM2R1bEpsUHNqbk9YVzRMcTlGZy0tbXgwSmZrUUhwQVhnd251cDJILU9MMkZSNlZVcWR0alhtc2dYSGFBY0xQSm5xUmpqSHdVWTVPdU5xUTBGNDhHdkF0X25hSlpaYlNGZm9NSmM3NE0zNDQ2UGFEQjE0RUN1SFByQVFTbDBwbFM4azVCdmlyTjhHWFJzTVRvUjI5am5MeDF1ak1WbXFSUm14T0M2Rmd3YnVWTUg4NDNR?oc=5",
+   "source": "NDTV Sports",
+   "published": "2026-11-14T17:17:31Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Maple Leafs lineup news: Anthony Stolarz will start vs. Oilers",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS3Ntb0gxM2pucndRTDRGX1dDaGlmT0RDZ1Z3M1dhZ3RicVVsOWswY21lcldmNmF6eGNJQWJFTkl2dXNDZW5YcThGMXhzQ3ZpODY0NHhYaEcxTTlQMjZ5Mjd5cXBQeEZnMXJDT3dlMGw3SVluWUltYWloRmx0cFZMNjR6VTQwbkRuZm5YM3RmU01HUHczYnczRUdleWJSNjRTcVdz?oc=5",
@@ -17,11 +73,20 @@
    "via": "google"
   },
   {
-   "title": "Oilers at Maple Leafs projected lineups",
-   "url": "https://www.nhl.com/news/edmonton-oilers-toronto-maple-leafs-game-preview-november-14-2026",
+   "title": "GDB 21.0: Oilers kick off their road trip with rematch against the Leafs (6PM MT, SNW)",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOc3ZzZkY4ODRkSkRXTDl1Umx5c2JPS3VFenI3WktrOVZQa1gtWlhCWVNRc0NWQXdOOFpNMUhnZFJ3bkZHRXB6dnJLZ3ZRU3kzWHpUTzdPdnZQbW94UW8xNl9DOGVQZjhTdGpqMzdvYXJxeGYtbl9yLVBaOVIwbFY2NVU1ZmlkdnY3XzFmT01wVV81dGpPMndSTVRqX2l4N2tQSjNRcUkteFhNN0ZVNXZqcTdReW9xYk1WMWx6bTVZQTRPaVJCRTE2VWdsUk1FeFNs?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-14T17:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-14T17:05:36.386Z",
-   "snippet": "OILERS (14-3-3) at MAPLE LEAFS (8-11-2) 7 p.m. ET; SNO, SNW, SNP, NHLN Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Ryan Nugent-Hopkins --…"
+   "published": "2026-11-14T16:48:37Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "How to watch Oilers vs. Maple Leafs: TV channel and streaming options for November 14",
@@ -40,26 +105,10 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers at Toronto Maple Leafs - NHL Game Summary - Nov 14, 2026",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRjc5bDNZZlRzSTVsRlRKRktUQnM2MEtlNXEyOU94NlRhVzBhNlV3SHlsSHNFSnNVN2Q3SFNjUHNaQnV2NFlRLW81R1NNTy15NUl0dFJvdUcyZTBYTFhQMkxsUUZHVTZZWkN1NVFaaTVNRmxHdnpMWnJJcmZQZ1diLWFMZ2JOMFRHdzlXejhtYWxNZC1YMWkwWlA0S3g4M0JESm9FZ1lXaVUxc21mNlUxc2RGQV9xMzVFRE45RHZCM1FtbDN5OVZlWWRacGc5LXktcm9NakRIR2hMTDExMTdYZUNJSnhKd0JuQ2J0UA?oc=5",
-   "source": "USA Today",
-   "published": "2026-11-14T15:57:48Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "NHL On Tap: McDavid eyes point in 21st straight for Oilers at Maple Leafs",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jUDRBeUE4MmY0RVZLMzJsclZRdTBzNXFSZ1lxM2tHZU1hVTl0cEdycnEwMW5EY0ViN3Q3azBpWlVua1g4LUZ2Mmp0cnB6NDA5NXp1S3VzTk1qY3VGUWg0LUhlUUlobFQ3VFgwQ3JKUUROVk5tM1E?oc=5",
    "source": "NHL.com",
    "published": "2026-11-14T15:42:13Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "PREVIEW: Oilers at Maple Leafs",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5hb1dYWXdfMV9HZXhEVzN3NF9tZDBOcWRoY210aXd6VEVjbmhkekF3eFVNallzTUpJVGN0MjF6MzZqQmg4SldkU1BMWWUzMFBmSHNBeUhRejZTRzBPV1BtellqMzd4Z1EzNFI4WWRNN2VsUURUYTFlbkpR?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-14T15:33:45Z",
    "snippet": "",
    "via": "google"
   },
@@ -104,67 +153,11 @@
    "via": "google"
   },
   {
-   "title": "Update: Panthers Captain Aleksander Barkov Could Return Tuesday Against Oilers, Report Says",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNalNKeXJjM1AyOFkzSUFXdFpxVHRKdU5fUURhWE5zZUgwYnNzQ2ZZNFhGcTVxV1EtQVNrYjlhQWFqSndlRWIwR1UyZGhHTkU2MWRxNUFNUy01X0ZhMWM0WVBLcTFSQngxaW5XSEZyak05d2lfREVvRU02NHdBWlcwZ0xIQkVPVDZaVmp3aVg2RmJaUE9Gc3Z1eQ?oc=5",
-   "source": "RG.org",
-   "published": "2026-11-14T13:46:03Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Oilers' upcoming road trip will determine their place in the Stanley Cup race",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaGFlaVp6eUpzUlVwdmxVMHRjQ3N6aWNxeDBiME11QTd4RTM5WHcwTTF5RGE2OWo1cXk3X19ISjNRcGpuLUNOSHVOaWZKWTZkRl9jYnl4Zm1kQ3VialVrRnNvLTU0UWtzWGJNRXZJbmM2T3BiZmtRc0ctT1BrWFE1WUhVeGlKakhaNW5Nb3NNeTRrNzRVN1c0OWh4WXQ2QjF3SGtFY1NIRXpmNVg0cmFXVWt5MVZEWDQ?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-14T12:00:03Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Watching Mike Babcock succeed with the Oilers has to hurt Maple Leafs fans",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRFJCckVXV1RvSkNwb1FDNzRVdmVwR0pHc1F6WUZKanV0cGtLa3BZNWpoUTZCalM3dUlVS0prMWw2bXZad0JacjA2Y21oWkZfbkwxNXhaSjRpc3lkQ3RFY0x3OGdMQTRBUmI5b3gzYy1zTzNyRWdhTUV3dmw0aVhpbkd6d2MySnpQYWc1NE5aVlhtQ0c4NWo1dmx6UW1MLUIw?oc=5",
-   "source": "Editor In Leaf",
-   "published": "2026-11-14T11:31:13Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Is Mike Babcock’s early effect on the Oilers a foundation for success?",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeFNSNnhLMDZjSFZPUk0wT01xZVdYZHdZWFlfYnZLNUY3Mnh2U1JINXRtZjBoV2JzenE4Q1VaV2hqdFpvTXBCRlFJN19uMW5ucEptMXM3MHpVcUtQZVNtSXdzVWZGNHNTaFhCLUNsdlg2aWE5MzBGM3lKVzh6YS1Td2RGMHJqRjlaeUV0SW5veE43UjROM0NEZ1NB?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-14T11:16:08Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers vs. Hurricanes: Start Time, TV & Preview, Nov. 21, 2026",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYUJxNGtWYy03dTJjNGtUTlloLTNCRGNJbmxyWFVreU5HZWt3UlNMSjdnREdieVZKQ3RTRFRlYTFtb29jTFlPZ09MWjNNZ09lWHJpdUhUa2JCQlJQb1ZvTklWdHJQS3N2WG9LWVUwRXRYSzJsc3ZoS2JnOWpPWlg4dDVrT2pZTkpXUVloZ0pR?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-14T07:28:45Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Can Elks’ defence limit Alouettes’ explosive plays in Grey Cup?",
    "url": "https://www.sportsnet.ca/cfl/video/can-elks-defence-limit-alouettes-explosive-plays-in-grey-cup/",
    "source": "Sportsnet",
    "published": "2026-11-14T05:16:32Z",
    "snippet": "3Down Nation’s Justin Dunk reports from Calgary ahead of Sunday’s Grey Cup, breaking down the keys to the game for the Elks and Alouettes, including Montreal’s ability to create explosive…"
-  },
-  {
-   "title": "Connor McDavid continues to rewrite the record book",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWl93UDJlU3RjeVBUS0dCU2Utc1U1MXFPWEZOQXRYWHdYekJ1TUhqWEJGLXNPMEhQWFp3Qk96QWZWX2NidzFoWElaS2V2ZHlTbG41U3Y5TXJjNTJfTTJQdUhqcFU4VHU3NEJxRVN4OGIxOVQ1V05iSVNxa1pweEd5Mg?oc=5",
-   "source": "The Brock Press",
-   "published": "2026-11-14T03:48:25Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Legend Jari Kurri Says Connor McDavid Can Get 200 Points",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdkluem1pSHdQdVM2XzlPeTk3MTB2VEJtaFZuMWtab0dmNUpIS3lKT0x5dFFNb0FTTkI4UHlDUjNSbEhwLW5DakJnSkU4VzVfOE54aDZjbUJlNWo5YWhJWnVXN2xrVkJkeGxRck9qeTZwR1NibkpIaXBFaE13c25jcWgtV04?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-14T03:02:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Babcock not getting sentimental over Toronto return with Oilers",
@@ -277,6 +270,13 @@
    "source": "Sportsnet",
    "published": "2026-11-13T19:01:37Z",
    "snippet": "After falling short against the Saskatchewan Roughriders in last year’s Grey Cup, the Alouettes are back with a chance at redemption on Sunday. Here’s what the Als must do to top the…"
+  },
+  {
+   "title": "Tikkanen moved to tears after receiving Borje Salming Courage Award",
+   "url": "https://www.nhl.com/oilers/news/esa-tikkanen-honored-as-fourth-recipient-of-borje-salming-courage-award-x4397",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-13T18:38:48.697Z",
+   "snippet": "HELSINKI -- Esa Tikkanen was a unique character who also was a clutch performer during his 14 seasons in the NHL. So, it was fitting that the ceremony at Helsinki City Hall on Friday…"
   }
  ]
 }
