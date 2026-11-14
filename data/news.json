@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-14T07:06:42Z",
+ "updated": "2026-11-14T07:41:52Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (50)",
+  "Edmonton Journal (10)",
   "Sportsnet (12)",
   "Google News (86)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers vs. Hurricanes: Start Time, TV & Preview, Nov. 21, 2026",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYUJxNGtWYy03dTJjNGtUTlloLTNCRGNJbmxyWFVreU5HZWt3UlNMSjdnREdieVZKQ3RTRFRlYTFtb29jTFlPZ09MWjNNZ09lWHJpdUhUa2JCQlJQb1ZvTklWdHJQS3N2WG9LWVUwRXRYSzJsc3ZoS2JnOWpPWlg4dDVrT2pZTkpXUVloZ0pR?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-14T07:28:45Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Can Elks’ defence limit Alouettes’ explosive plays in Grey Cup?",
    "url": "https://www.sportsnet.ca/cfl/video/can-elks-defence-limit-alouettes-explosive-plays-in-grey-cup/",
@@ -151,8 +159,8 @@
   },
   {
    "title": "Babcock returns to Toronto to face the Maple Leafs with McDavid and the Oilers",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQW9SYk9OejFRcGdVc00zYnlURTJvdXRKV0poUzYyMmlIRUdZZndXdmFEaDFwMGZRNVI5d3poWUczTTJCVWh0d28yemwtcDZuR1dDVGV4blNjdHhFRlNKU25zLWNWMVV1S0ZkNHp5UzBvNjdjQXR5cHp5TlB3T3psdg?oc=5",
-   "source": "Yahoo News Canada",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZjJnN1RFQUU5QlFOeENEOUhVdjlQY3hINXZZbHRyLVFCSHJCSWFLNjY1cVBEN3NOQXV4Ry1yS0FwY1lJMXl2dDMwd0JyLXBoVUx3QlQyNmZKcDJfSkVzMTU1ekJja2tpRklNN0pCLWh2TVdXYVdJQU9uMC1RclJqeG1Pa1JCR09MUThqSFJvLXJyeWFFQV9mTkNIdU9JZzhtd040SzZtR2FQeUg2VDljRHFXci14cHhHQkU4eFUwVmZsS3dqM051SVAxZ0RRUXY4bTBDMFBCNE1saWVYVUtnNjRkellvWndERzZZOENYV1R4T3Rq?oc=5",
+   "source": "thecanadianpressnews.ca",
    "published": "2026-11-13T22:06:08Z",
    "snippet": "",
    "via": "google"
@@ -162,14 +170,6 @@
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPb0h4ai0tLUhETlk4S3A2LXBGRnRPVFQxa3NmSDM3M01yU180b3dzUlpVdXdFWnFTMmstdmxHc3FiLWRjN3FyY0lYaVNzbGo1cEZrWGFZQ0FXWlV6Rkpjc2QzYTJnWk4zaUo4eElyVFQ3Mkl2Q3hRQ3dqTl9nTVdqTHdLT1hRMzZ0Vm9aUmIyN2JMRk52RF9IT2VWS0RYam5DMTNJSEpTOA?oc=5",
    "source": "Sportsnet.ca",
    "published": "2026-11-13T21:51:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "McDavid fired up to play Leafs in Toronto: 'It means more'",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPczBEXzRZdDcxMGM3bXk0czNPZDNqZzZ1dFRUQVBvU1A4WFhMRGY5X1NPRFBnOUd2NUhNOXZYVWx1NFhxdTlUX0wxRWlaM01OQVFQQnlKdW5LNFR4NlVKZy11UUt6VDJGNjFmNTdmZU1LckpNbU1DeFctV3hDV3lGakJMSzRDV3FYODJIMTh6WWhhQWo3a1JBeXhkaGwyenM?oc=5",
-   "source": "theScore",
-   "published": "2026-11-13T21:46:49Z",
    "snippet": "",
    "via": "google"
   },
@@ -224,8 +224,8 @@
   },
   {
    "title": "'No reason why' McDavid can't reach 200 points for Oilers, Kurri says",
-   "url": "https://www.nhl.com/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland-x8709",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-13T19:50:42.033Z",
    "snippet": "HELSINKI -- Five-time Stanley Cup winners Jari Kurri and Esa Tikkanen each had an up-close view when Wayne Gretzky set an NHL record with 215 points for the Edmonton Oilers in 1985-86.…"
   },
