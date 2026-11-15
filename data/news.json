@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-15T07:09:40Z",
+ "updated": "2026-11-15T07:45:15Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (14)",
+  "Sportsnet (15)",
   "Google News (98)"
  ],
  "errors": [],
@@ -37,6 +37,14 @@
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMnExZExqNkZGb3d3d2NRWmlmWmNZU0gzSC1VbnhLc2xGMlptVFBNd2tRTnlweVlfMFdPc2MyWGpRdWJSNVJCWWlaS0hEYWx2ZW9Wel9KWkdMRi1aTlNMMWhza3VjSm5lSTZnTFR1VXhtUFdQb2xYWjdDbEJmUUJKWGY2cnR4VVF0SWN5ZHJVOENwNzdhWHhwNDc2bWNpU0JqeV94TE1sM0cyX1BTalNvekF3Ri0tTDBHYU1wcUo2aEEtbzQ?oc=5",
    "source": "Toronto Sun",
    "published": "2026-11-15T05:47:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers 1 - Toronto Maple Leafs 0: Final score, results, recap, box score, stats",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-15T05:32:51Z",
    "snippet": "",
    "via": "google"
   },
@@ -119,22 +127,6 @@
    "via": "google"
   },
   {
-   "title": "POST-RAW | Nugent-Hopkins 11.14.26",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNDRVbzJnRGU4SHN3eXJFWkViWk9rTUE1a0RiUF8yTHp5NG9UQWlHT043Q2dtNFA2TXhWN0ZpMHVJN0pLRFFUbl9WYzlTMnE3VjZQNm9ZUC00VDVjdXk5bTBpRnFPcUY5amw1V2YxUHpkSFRHZ2RqQy03TzhCcWMtcXpXY1Eya1VRczE5Zw?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-15T03:35:29Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers 1 - Toronto Maple Leafs 0: Final score, results, recap, box score, stats",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-15T03:29:31Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "NHL: Oilers 1-0 Maple Leafs, Bouchard scores",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3NfaEJiRkxZUGQxY2x2bmhhNVRqRE9GRF8wYzY2T2VjS1lhOTkxbTVVVzItRnN4Tkp5VHgxa0dudEs1TDV6Zk12RDNUMDU4dHZTVGlYS0ZRWExxQnE1RHZ3WGE0OG1KWE9STWpiSkNybkh5ZW5JQThLQWxYYmxxX0tYVUhnNHdSWkFwVzln?oc=5",
    "source": "Sofascore",
@@ -179,6 +171,14 @@
    "source": "Sportsnet",
    "published": "2026-11-15T02:58:55Z",
    "snippet": "Connor McDavid extended his point streak to 21 games with an assist on the games lone goal, and Devon Levi made 19 saves to earn his first career shutout as the Edmonton Oilers blanked the…"
+  },
+  {
+   "title": "Levi, McDavid help Oilers top Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbmJBMTlZdGI2ak56SjhJSDlSR3gyWVhhSXNTOVpZNU9xRkpHdDA5MWZheEhUSXdNaXNQVDVKa2hQc1RPYmVvVFZJLVp4WFZWRnZHTjlzNHZicFZDQXAzenBsYjdibmhwWU1jNFNkS1R5ekg1ZWJnQ1FMaDlxRm5UeExCTQ?oc=5",
+   "source": "Global News",
+   "published": "2026-11-15T02:47:20Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Maple Leafs’ Tavares has goal overturned for high stick vs. Oilers",
