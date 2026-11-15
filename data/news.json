@@ -1,13 +1,37 @@
 {
- "updated": "2026-11-15T17:16:02Z",
+ "updated": "2026-11-15T18:14:01Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (13)",
-  "Google News (85)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Devon Levi Makes Edmonton Oilers History As True 'Gladiator'",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWTVYZTkyMmV2SDBfTy16SXRZMjFQWkJTRENZQXZ4NWFiQnZFeEY2NmFDN3RSRi1aSHYzTTVZMkRiT0V2UVplcWY4V1BUUzQ5Ry11YXhTdHdKdVNDcUpyM0g5TTItNXE0MTZlMkd0TW1TeE1kNEM3SEZaMnNjcWFfeg?oc=5",
+   "source": "NHL Trade Rumors",
+   "published": "2026-11-15T17:51:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Owen Tippett to Edmonton? Nikishin to Maple Leafs Trade Fits",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa29kQXhmRXlvZjRaYXBROUFfZnB1eEROQ09mUEdkYlVLelR2S2pLNDFSNGs5MUtNUTBKWGZ3eHVLZXdRQ1ZSVTBBMUZUQmFvMVdER0VLVDAwMVhtZHNXczNqNFEtY1l2QTh4VU9wWnRjLVVCTFo4VnllLWNQd0tLMHJVbXhTZUlJOW1OTGlzN0wzdUNYUll1Yw?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-15T17:29:52Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Pre-Scout: Oilers stifling structure looks to sweep Flyers in quick rematch",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU0hpMnhkU01CaU5yb2FCVzNuMUp1a09LMTVsREpLUDJpa3dQdHpfTjd2TjRJZnpiZkhfcTR1N3FnYlEwZy1HdUUweUt5Z1FrSHRWbVZReEZfUllHY3dwRFRmMThJdGppZlhyS0JuaHRaM2hEaTVZeHpvRHBtV29GNUV1V0JGdUJFOTY4RERSSWVEUEFubm1XSVBjeDRTc25ZUkhKNE1R?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-15T16:46:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "3 Oilers Who Need to Elevate Their Offence",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GR3psOWtsSzFUdXQ1XzlLNFBjZUZSNHo1YkZPNlJjbk1Qd2dMYUNTMndpSlVNeWhEeW1GMFlpWXUzeUQ4ZnNaNzdPWlpLVDN1MDJ5cE5zeVFPTEtJWlMzOWt1cXhkZFBqRDl0VW8tSUFuMC13VjVVd3RVeHY?oc=5",
@@ -25,18 +49,18 @@
    "via": "google"
   },
   {
-   "title": "RAV4 Things: Flyers vs Oilers",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JWFM4d2FsT29XdnhWbjRhZEU4UFM3RF9wQlJpdDRjS2VDbDBhajV5RFp4MzdndzZ6UDdZdTdiRWlTYnFFSHpKVkJISzQ5U2JQTjBGZWlyT3VUVlJHWDR5TzhhNHJWUGpES3pQRjJJNlRWZW1q?oc=5",
+   "title": "NHL On Tap: McDavid looks to push 21-game point streak with Oilers at Flyers",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5haDB0ejZjUlQ1cXpScEJMX214dTJXcVlRYUJQczVXVlBybERHc2NwQkxBSjY2Z1VvOS1IVm4tdWkxeHotSm55LWpKWmhCX1JMZDZJYmtLNk1nVnpaYkYxSXVKOTlGWGRTWEwtVjZqbW9lODZvQnc?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-15T15:42:28Z",
+   "published": "2026-11-15T15:55:52Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "NHL On Tap: McDavid looks to push 21-game point streak with Oilers at Flyers",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5haDB0ejZjUlQ1cXpScEJMX214dTJXcVlRYUJQczVXVlBybERHc2NwQkxBSjY2Z1VvOS1IVm4tdWkxeHotSm55LWpKWmhCX1JMZDZJYmtLNk1nVnpaYkYxSXVKOTlGWGRTWEwtVjZqbW9lODZvQnc?oc=5",
+   "title": "RAV4 Things: Flyers vs Oilers",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JWFM4d2FsT29XdnhWbjRhZEU4UFM3RF9wQlJpdDRjS2VDbDBhajV5RFp4MzdndzZ6UDdZdTdiRWlTYnFFSHpKVkJISzQ5U2JQTjBGZWlyT3VUVlJHWDR5TzhhNHJWUGpES3pQRjJJNlRWZW1q?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-15T15:31:36Z",
+   "published": "2026-11-15T15:42:28Z",
    "snippet": "",
    "via": "google"
   },
@@ -61,6 +85,14 @@
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMFJZemRscnNET0gtTFVaWnozNTFnRXFCNzB5dDVMazNsX014N2xzRmZuWFhpTXJQWm4zU1ZVdllDbkI4ZS1acE9ub21WU0c5MTVjZ2dsaS1yQ0trRUZsU1BxUU1STHliZ0VpOW0wdUxDTnFCUndGV3Y5UHV3NHVXQldkMl81NTZrNXV4QW5DVjVOSUFDSU5fTTd1SzlHRzg?oc=5",
    "source": "The New York Times",
    "published": "2026-11-15T15:00:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Florida Panthers - Nov 17, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fc080OVpCN1JHa2JZek15eFRqUjZMWFJsN0hFSkstY2gzVnJTN1JrNmJKNW1Tc002TlNyQWNhMWtERE5rTGVPYlp0UU1TNWhYbDN2MjlqVlhUVE9zS19sRmZhNXM1X1Fra3RCRkpOR0o?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-15T14:42:01Z",
    "snippet": "",
    "via": "google"
   },
@@ -117,38 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOM0cybGU3RkJPQXpPMDFUZGZWRTlzU3NWVnVkTE9MbFdiaHplS1BfTXdnTFFodGRXOEV6Y19pMkhpd0R6S2QySUQwaVVLUjR2UlRYWmkwSDRPODhYanNsaWowc3d0SXdzNkJ5U3VsbzkxVTBmaGFvXzVnNVp5TWJEZE9mMGxsWTlUSlVRVVdIUWo2SnlOWUZXZFM1YS16ZjMzdlBZc203dTVpZlFsdDI2UlIwZjg2OGROaERQcHdKei1LVmtmSjdyTHBCcDgyeDhGaEh1YkxBejhFd1Z3eUdENmZreG1hajl3Zk9lWEdGQUZ4ZXJ1M095STFDMWRVbG5WSGFDNk1RUQ?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-15T13:04:55Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Anthony Stolarz says Maple Leafs need to build off performance in shutout loss to Oilers",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSGNYLTZjRXZHUDE5WGJKd2RsX0dfSEhZX2pta2FXRW5WMlNHZXNaVjFQSUQ5NDdJbTdrVy1jeWNZVXhZeXpQRVp5TnZQSkVQUE9kZ1VkcjNjdG5mcW9qekdjY0xvMUFCSHA2azF1cnUyRndTMDJUZDlyQTNBZnZZeXRkRFBXQVlwRXBWak1YWDVldGQ3VDF0YTcwV3M5aTZIYlRJT3kwVldzTEVOclRV?oc=5",
-   "source": "The Leafs Nation",
-   "published": "2026-11-15T13:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers capitalize on several series of scoring chances to win their rematch with the Toronto Maple Leafs",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUzFFak5SNVl0SF9zRVpRQklQSHdmTmpyUGNaVjBqSG9BUEZ2bG5Uc2ZncXpwUExMQ0hZeklVNWhJUVFqX1hHdVRLM203NGZtRGhXQ2xzSFlzcThvdktSbGNidE9tc19JajFqanN6RzBtVzdzMXUwWjFXREhXdFRiNzVkdV9lTHd1YVZVWVpRUThKUkhUZ0ZwWU9qOXlsbWp3eVRDcG1NRHJvaEVQbnc?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-15T12:00:04Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Maple Leafs play their best game in weeks and still lose to Oilers",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ0l1elBveWtraTl3c05tbWhOMXpxT0NCajdQcmZuWllKX1k0enI4bElYYnJ3ZFp1UTk1LTUyX2I1Q2V3aXNfb0JDTlBPRmJnRzVtcFctekVYVHBhQjlXelJKaGVXMmhkelpyek95S0NNeGpqeW1WY0xaYTN5MmlkX0VCaGVCYnc5elVGd3VLejh5QThIVUE?oc=5",
-   "source": "Editor In Leaf",
-   "published": "2026-11-15T11:52:55Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers vs. Maple Leafs Game Recap, Best 20-Game Starts & All-Time European Goalies",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1QeVEtWWxLbzJqNUl6Nl9aTHBaSS1MQzk0a2VQSUxtRW51d1dJYVJGZ3dqVl9KYnNodjBwMms4WU9ySDZobWFWVHhEblhDWWRBQTNDX3JVbVNiMVp5S0thSkJoMldzYWhyMHoxN0xOai1md2xBSE4tZVF0MEk?oc=5",
-   "source": "Substack",
-   "published": "2026-11-15T11:35:33Z",
    "snippet": "",
    "via": "google"
   },
