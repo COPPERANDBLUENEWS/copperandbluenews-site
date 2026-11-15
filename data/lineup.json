@@ -43,9 +43,9 @@
     "pos": "LW"
    },
    {
-    "id": 8476454,
-    "name": "Ryan Nugent-Hopkins",
-    "num": 93,
+    "id": 8482703,
+    "name": "Colton Dach",
+    "num": 34,
     "pos": "C"
    },
    {
@@ -57,9 +57,9 @@
   ],
   [
    {
-    "id": 8482703,
-    "name": "Colton Dach",
-    "num": 34,
+    "id": 8480842,
+    "name": "Filip Hallander",
+    "num": 19,
     "pos": "LW"
    },
    {
@@ -149,16 +149,16 @@
     "pos": "L"
    },
    {
-    "id": 8476454,
-    "name": "Ryan Nugent-Hopkins",
-    "num": 93,
-    "pos": "C"
-   },
-   {
     "id": 8477934,
     "name": "Leon Draisaitl",
     "num": 29,
     "pos": "C"
+   },
+   {
+    "id": 8477953,
+    "name": "Kasperi Kapanen",
+    "num": 42,
+    "pos": "R"
    },
    {
     "id": 8478402,
@@ -187,10 +187,10 @@
     "pos": "C"
    },
    {
-    "id": 8477953,
-    "name": "Kasperi Kapanen",
-    "num": 42,
-    "pos": "R"
+    "id": 8479365,
+    "name": "Trent Frederic",
+    "num": 10,
+    "pos": "C"
    },
    {
     "id": 8478854,
@@ -241,18 +241,23 @@
    "num": 53,
    "pos": "L",
    "status": "IR"
+  },
+  {
+   "id": 8476454,
+   "name": "Ryan Nugent-Hopkins",
+   "num": 93,
+   "pos": "C",
+   "status": "Out"
   }
  ],
- "notes": [
-  "Projection is based on the Last Game (11-14-26) lineup until morning skate or practice updates."
- ],
+ "notes": [],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Last Game (11-14-26)",
-   "updatedAt": "2026-11-15T13:17:27.009Z"
+   "basis": "Paige Martin",
+   "updatedAt": "2026-11-15T23:17:13.035Z"
   },
   {
    "name": "DailyFaceoff",
@@ -267,22 +272,16 @@
    "num": 35,
    "pos": "G"
   },
-  "status": "Unconfirmed",
+  "status": "Confirmed",
   "backup": {
    "id": 8482221,
    "name": "Devon Levi",
    "num": 27,
    "pos": "G"
   },
-  "note": null
+  "note": "Jarry will start in Philadelphia on Sunday. "
  },
  "scratches": [
-  {
-   "id": 8480842,
-   "name": "Filip Hallander",
-   "num": 19,
-   "pos": "C"
-  },
   {
    "id": 8479368,
    "name": "Max Jones",
@@ -475,5 +474,5 @@
    "note": "Vladar will start Sunday vs. the Oilers. "
   }
  },
- "updated": "2026-11-15T22:43:21Z"
+ "updated": "2026-11-15T23:18:30Z"
 }

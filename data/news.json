@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:15:35Z",
+ "updated": "2026-11-15T23:18:29Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,20 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Grey Cup Live Tracker: Elks vs. Alouettes",
+   "url": "https://www.sportsnet.ca/football/cfl/games/5d20943b-58f0-333a-b062-00ba924c684a/",
+   "source": "Sportsnet",
+   "published": "2026-11-15T22:47:11Z",
+   "snippet": "The Edmonton Elks meet the Montreal Alouettes in the 113th Grey Cup on Sunday in Calgary. Follow every play with Sportsnet’s live tracker beginning at 6 p.m. ET / 4 p.m. PCT."
+  },
+  {
+   "title": "Oilers at Flyers projected lineups",
+   "url": "https://www.nhl.com/news/edmonton-oilers-philadelphia-flyers-game-preview-november-15-2026",
+   "source": "NHL.com",
+   "published": "2026-11-15T22:35:00Z",
+   "snippet": "OILERS (15-3-3) at FLYERS (6-10-6) 7:30 p.m. ET; NBCSP, SNW, SNO, SNE, TVAS Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Ryan…"
+  },
   {
    "title": "Oilers vs Flyers Prediction, Odds & Sunday NHL Picks",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbW0tV19zcHFOZGxQSjMyc0pTeXNiWFVPV3JMbjlYd1paZktreVg0SEttMUlVT2RydnFTMUQwb3Z6ZmM0aEhvVnM0LVVHb2N4UnFfLXlvaS1fRzRZT3NuRkhid3BnLVlhYWZZRW1kd2NCRGRlbUdDVURtVVcycDFzcHZod2plV1ZSeUl3SXF6RHFlUWs?oc=5",
@@ -67,6 +81,14 @@
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWVjUVMtU1VoWjBwcGV3RTc0V2o1Y0M2T09ZLTA1MERKTUhJUWtlSUp3TmVHQ2Q4SjRkOUJhdWlCR3NteVhzTmV6bDVCWVhoWUtxSnNhUkVqVE9PT2VOdUZya0l1MzliS1RVbnNDd291azByQmVEVV9neG9xUHRuVTF0Njc?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-15T19:18:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid posts assist Saturday against Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU1BSaml4dEkzNi1Jb3RpLV9lRG13bUJmUEdqM1huU1pQMHZpSUtnSFdiNmZrNzNsczRoU1hRZFNSclg2SFpybTA3eVhiZE44TEFDaVNibEZIVjN6aldBVHdCNEFKeWJLVHBrelNqR0s3T1l1dWdyVnZwTlk2Um5sR29BVy1xTXNibUg1SGpURnJxc2t2M09vVFlBNFhPZUxQLTEzSG4wY9IBrAFBVV95cUxPdm9OUEdkcEk4NWx5VmFJcnRPZ21VakRFMFU3eklBbWFUT3NlVHIwZ29yUF8wWC1aOFR3b2FqeHhQejJMclVLZVlGUGd6TlhkQTMtQzlONlo4b1ZUMzNhSzdGUjBLOEZVZmZfWEJpUW4ydFU2Wm5QZk5sV2NWT2RwWHRFNzgwYU1UbnNjTk9BY3g2THQ3bWE4OHJia0QyYnpTbGhIeG5WU01FcGQt?oc=5",
+   "source": "FantasyPros",
+   "published": "2026-11-15T19:15:32Z",
    "snippet": "",
    "via": "google"
   },
@@ -151,14 +173,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers at Flyers projected lineups",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUkU5V2VacG9yZkdZejdUUFJHYXU2Qm00TEowSlpsY2xLUVpfWUtWdnQ0MHR0U1hYbXZ6YVU1Y2Zrb3IydHlMeWJKWnd1ZjVVX2lOd3JRSlJZNkN1Y1F5cl9SUllnR3RTYy1aMTJwZ3RCUjROaHMxRHJNSTJWem8xQnlKeFVCMnE4dDVEU0h0OXlSUFJX?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-15T15:26:06Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "How can the Edmonton Oilers add offence to their prospect pipeline?",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMFJZemRscnNET0gtTFVaWnozNTFnRXFCNzB5dDVMazNsX014N2xzRmZuWFhpTXJQWm4zU1ZVdllDbkI4ZS1acE9ub21WU0c5MTVjZ2dsaS1yQ0trRUZsU1BxUU1STHliZ0VpOW0wdUxDTnFCUndGV3Y5UHV3NHVXQldkMl81NTZrNXV4QW5DVjVOSUFDSU5fTTd1SzlHRzg?oc=5",
    "source": "The New York Times",
@@ -175,8 +189,8 @@
   },
   {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
-   "url": "https://www.nhl.com/oilers/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27-x3339",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
+   "source": "NHL.com",
    "published": "2026-11-15T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
   },
@@ -207,13 +221,6 @@
    "source": "Sportsnet",
    "published": "2026-11-15T02:12:20Z",
    "snippet": "On this edition of Saturday Headlines, Elliotte Friedman discusses the Senators looking to find a fresh start for Andre Burakovsky on a different team, Matvei Michkov’s intent to stay with…"
-  },
-  {
-   "title": "Oilers’ McDavid hits 50 points, sets personal-best point streak",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-mcdavid-hits-50-points-sets-personal-best-point-streak/",
-   "source": "Sportsnet",
-   "published": "2026-11-15T01:47:43Z",
-   "snippet": "Connor McDavid’s first point on Saturday against the Toronto Maple Leafs was a big one."
   },
   {
    "title": "QUICK RECAP: Oilers 1, Maple Leafs 0",
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-13T22:12:20Z",
    "snippet": ""
-  },
-  {
-   "title": "BLOG: Babcock 'having fun' with Oilers ahead of making his return to Toronto",
-   "url": "https://www.nhl.com/oilers/news/blog-babcock-having-fun-with-oilers-ahead-of-making-his-return-to-toronto",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-13T22:05:30.657Z",
-   "snippet": "TORONTO, ON – If you’re stuck in the past, you’re never going to improve, and have fun with the people around you while doing it. That was the morning message from Head Coach Mike Babcock,…"
   }
  ]
 }
