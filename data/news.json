@@ -1,42 +1,50 @@
 {
- "updated": "2026-11-15T03:57:44Z",
+ "updated": "2026-11-15T04:33:43Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (12)",
-  "Google News (97)"
+  "Google News (98)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "McDavid’s season-opening point streak hits 21, Oilers blank Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYjVBZHN6OUdKNDB2V1hVWmZJdm5XN0dGM1oyZDVRTlVYODZBbFktbzQyVDB5bzZ5Y3FKYXNmLWRLQ21wSkF4bHg5WXdJVm5WcXAxaXd0aHhLVVZnUnFoNlVlS0FBU0xrTmI5RVd5eFJTMG93N0JuOWZ3UXhYWmw4WFhNNUwyV2tIMmlKdVpWbjZYcFVtQndhY2x5THd5bFhkcEpj?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-15T04:31:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Boring but effective: Oilers choke the life out of hapless Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFBhVkZBYkFESmEwZm5qS2VkVHZmOWs1RmVOaGtlWVVOT0pCNEJqZjVVNkxkY2lsSmtveU9pMUxzUzAtX0xpSG1lbU42ekhkb2x1dlo0MDMySmJQUEdfaVBjNktjdkg2RVh6VkN0U1NXbUYyeG1vYnVTYlI3bHZ0cS1CaThxbFkxTXlGRGVlZFQ3MDRDaVhFS2hCeG1fWXUteFBPT3BDTEp2emhuUDBuVHBTN3JTVkFadUFIekNzNGxoUURpTWdMTGotWQ?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-15T04:18:45Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "John Tavares | Post Game vs Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaWlPT3A3MHB2d252cWtrLXAzQkVvZU1VcGhJNDh4STd4MzBtOGdNcEhoOExOQndjckZGUGVORE9KS184djRqeFFubWg5MlU0ZW8zel9xY1gyc09tZndzbEdyNjBzM2xYMmZIYjFfcGU3SWp3T3diUlhkZDNPS0k2MnNHaTFERHZmMEpnNUJfQUpiZmtiaU1j?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-15T04:10:31Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "QUICK RECAP: Oilers 1, Maple Leafs 0",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSmlfOWxVRGNUR0REOXRPd1pGY01nb1pqLTNyZjhEMEU4a1JBMjhtWFJTM25Yc1pPN3JkZTVycndSa3h2TW54WUhZTjdXelFIWmN6MVlIdkV2aUw0WnRjMUloSV9PTEkxYVp2dngwRE1yaVZUc2huR3QtZ2g2bV8yQg?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-15T03:54:25Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "POST-RAW | Nugent-Hopkins 11.14.26",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNDRVbzJnRGU4SHN3eXJFWkViWk9rTUE1a0RiUF8yTHp5NG9UQWlHT043Q2dtNFA2TXhWN0ZpMHVJN0pLRFFUbl9WYzlTMnE3VjZQNm9ZUC00VDVjdXk5bTBpRnFPcUY5amw1V2YxUHpkSFRHZ2RqQy03TzhCcWMtcXpXY1Eya1VRczE5Zw?oc=5",
    "source": "NHL.com",
    "published": "2026-11-15T03:35:29Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Devon Levi, Oilers hand Leafs sixth straight loss in shutout",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWTBUV25NUGlBdU5KemhlUUxScEl4WUN5b1FfWVR6NEJ3ckNxeXgyZWszaUNlZnlGNE1xNzNsVGNWSGY0aEwxMkRJZTd2WGt0UWNoeFU2TVRYbDA4NFNsdkg0MXlzQURpb1VJWS1kalJnRTdwcTdJVmVjV3dUaUxMUUNGS25JUXMxMUEza0pFTzZNOGNYblItY3RIdWh6Q3g4RTYxRTJ3?oc=5",
-   "source": "KNBR",
-   "published": "2026-11-15T03:32:24Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "McDavid’s season-opening point streak hits 21, Oilers blank Maple Leafs",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcjZmbEtmT05XN3BjYUdhRTNNZDYzS0lwLXV6aHVuaW5qNmFJWUdBdHczemNueDExV3hsZHdRM2tydVUwX0JWRUd6TG5XTVVYMUNhclR2bTIzOU8xQXo4SWtMaTIyd2VZOTZUeDdDOHZUVU8tamFfcTg0OGpNT1dpcFpPM0k0WTBNRHptTXhvdEhEUQ?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-15T03:22:23Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL: Oilers 1-0 Maple Leafs, Bouchard scores",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3NfaEJiRkxZUGQxY2x2bmhhNVRqRE9GRF8wYzY2T2VjS1lhOTkxbTVVVzItRnN4Tkp5VHgxa0dudEs1TDV6Zk12RDNUMDU4dHZTVGlYS0ZRWExxQnE1RHZ3WGE0OG1KWE9STWpiSkNybkh5ZW5JQThLQWxYYmxxX0tYVUhnNHdSWkFwVzln?oc=5",
-   "source": "Sofascore",
-   "published": "2026-11-15T03:22:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -87,14 +95,6 @@
    "snippet": "Connor McDavid extended his point streak to 21 games with an assist on the games lone goal, and Devon Levi made 19 saves to earn his first career shutout as the Edmonton Oilers blanked the…"
   },
   {
-   "title": "Boring but effective: Oilers choke the life out of hapless Maple Leafs",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFBhVkZBYkFESmEwZm5qS2VkVHZmOWs1RmVOaGtlWVVOT0pCNEJqZjVVNkxkY2lsSmtveU9pMUxzUzAtX0xpSG1lbU42ekhkb2x1dlo0MDMySmJQUEdfaVBjNktjdkg2RVh6VkN0U1NXbUYyeG1vYnVTYlI3bHZ0cS1CaThxbFkxTXlGRGVlZFQ3MDRDaVhFS2hCeG1fWXUteFBPT3BDTEp2emhuUDBuVHBTN3JTVkFadUFIekNzNGxoUURpTWdMTGotWQ?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-15T02:57:30Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Maple Leafs' horrible home stand ends with shutout loss to Oilers",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMnExZExqNkZGb3d3d2NRWmlmWmNZU0gzSC1VbnhLc2xGMlptVFBNd2tRTnlweVlfMFdPc2MyWGpRdWJSNVJCWWlaS0hEYWx2ZW9Wel9KWkdMRi1aTlNMMWhza3VjSm5lSTZnTFR1VXhtUFdQb2xYWjdDbEJmUUJKWGY2cnR4VVF0SWN5ZHJVOENwNzdhWHhwNDc2bWNpU0JqeV94TE1sM0cyX1BTalNvekF3Ri0tTDBHYU1wcUo2aEEtbzQ?oc=5",
    "source": "Toronto Sun",
@@ -119,10 +119,10 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers vs. Toronto Maple Leafs - NHL Game Recap - November 14, 2026",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5UaS1YMEpva1E3dGRzbVdpaWMxb2d0Wnp6QmhnUS1XQzk4LXFCMFBHN2FGTUNYOC1zQ0JzQXlqWWNaZ0RYbG5pSXNyTDQzZzNoeDJpc09KVmlxN2dwTDllVl9vUHhVUDQzVEhMWV9SbWhIYWFuNl9RYg?oc=5",
-   "source": "CBS Sports",
-   "published": "2026-11-15T02:44:23Z",
+   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-15T02:42:03Z",
    "snippet": "",
    "via": "google"
   },
@@ -186,13 +186,6 @@
    "published": "2026-11-15T01:19:02Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "QUICK RECAP: Oilers 1, Maple Leafs 0",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-maple-leafs-11-14-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-15T00:06:20.293Z",
-   "snippet": "TORONTO, ON - Our 'Leaves' were better than yours. Devon Levi made 19 saves for his first career shutout, while Evan Bouchard scored the game-winning and only goal as the Edmonton Oilers…"
   },
   {
    "title": "Are we seeing the death of the dual roles for some CFL head coaches?",
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-13T20:38:18Z",
    "snippet": "'It's been a really long road, but it just felt like redemption, especially for us long time fans who've been through the darkest times with this team'"
+  },
+  {
+   "title": "Edmonton Elks locker-room poll: What's your go-to snack for Grey Cup?",
+   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks-grey-cup-snacks",
+   "source": "Edmonton Journal",
+   "published": "2026-11-13T20:18:46Z",
+   "snippet": "We caught up with the Edmonton Elks at McMahon Stadium ahead of Sunday's Grey Cup showdown against the Montreal Alouettes and conducted a locker-room poll"
   }
  ]
 }
