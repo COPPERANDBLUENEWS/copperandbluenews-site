@@ -260,16 +260,16 @@
  ],
  "goalie": {
   "starter": {
-   "id": 8482221,
-   "name": "Devon Levi",
-   "num": 27,
+   "id": 8477465,
+   "name": "Tristan Jarry",
+   "num": 35,
    "pos": "G"
   },
   "status": "Unconfirmed",
   "backup": {
-   "id": 8477465,
-   "name": "Tristan Jarry",
-   "num": 35,
+   "id": 8482221,
+   "name": "Devon Levi",
+   "num": 27,
    "pos": "G"
   },
   "note": null
@@ -466,5 +466,5 @@
    "note": "Vladar will start Sunday vs. the Oilers. "
   }
  },
- "updated": "2026-11-15T07:09:41Z"
+ "updated": "2026-11-15T12:58:56Z"
 }
