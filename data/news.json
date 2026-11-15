@@ -1,18 +1,65 @@
 {
- "updated": "2026-11-15T14:24:34Z",
+ "updated": "2026-11-15T15:19:26Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (13)",
-  "Google News (91)"
+  "Google News (92)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers at Flyers projected lineups",
+   "url": "https://www.nhl.com/news/edmonton-oilers-philadelphia-flyers-game-preview-november-15-2026",
+   "source": "NHL.com",
+   "published": "2026-11-15T15:17:00Z",
+   "snippet": "OILERS (15-3-3) at FLYERS (6-10-6) 7:30 p.m. ET; NBCSP, SNW, SNO, SNE, TVAS Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Ryan…"
+  },
+  {
+   "title": "RAV4 Things: Flyers vs Oilers",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JWFM4d2FsT29XdnhWbjRhZEU4UFM3RF9wQlJpdDRjS2VDbDBhajV5RFp4MzdndzZ6UDdZdTdiRWlTYnFFSHpKVkJISzQ5U2JQTjBGZWlyT3VUVlJHWDR5TzhhNHJWUGpES3pQRjJJNlRWZW1q?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-15T15:08:06Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "How can the Edmonton Oilers add offence to their prospect pipeline?",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMFJZemRscnNET0gtTFVaWnozNTFnRXFCNzB5dDVMazNsX014N2xzRmZuWFhpTXJQWm4zU1ZVdllDbkI4ZS1acE9ub21WU0c5MTVjZ2dsaS1yQ0trRUZsU1BxUU1STHliZ0VpOW0wdUxDTnFCUndGV3Y5UHV3NHVXQldkMl81NTZrNXV4QW5DVjVOSUFDSU5fTTd1SzlHRzg?oc=5",
+   "source": "The New York Times",
+   "published": "2026-11-15T15:00:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Week Ahead: Schedule & Storylines – Great Goaltending, Walman Scratched & More",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTGEzZndfOUN3U0JHZUNZbGRoRHhqWjFNUnFWX2xONnV4Y2x0VWZTbjNvMGxGUnowV21mWUFCcnVYVVJqem82bWtSSjhFbGFON0lPUDdaT0xHdDdsT1MzV2ZvWUUwMjBVMExTMWhwc0FoazNSLXQ5bXRacEJVRzVUSTdLenFoeVgxTzdfVUlPWGJKZGk1RXhqMDJlaW1TYTBYUi1HdUYwczVnTWc?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-15T14:35:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid and the Oilers punctuate worst homestand in Maple Leafs’ 109-year history",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORlpiOTgyeXU4TXUyUGg4aWhxbXFLaWFCcXplRU1ZYkFleWZOem5JclVRVjNfWkxrVDJ0dlpFWE1udTExNHAtdkdsWUJjUThQbFJVdGlQZVkzc092aVI0LU40RWJQMVFGdG5rbGN1dGZYam5wdVpleUh3MW9hbm9FMTF1aWI0dHNHMURqek5EUnBDOUV0R01VSE1VQ0JKUUtxR0FnTThxT3VTUk5lY1J6Vl9fNzMyRGU1SDFLTEV1QmI2azg?oc=5",
+   "source": "The Leafs Nation",
+   "published": "2026-11-15T14:05:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Edmonton Oilers’ 2026-27 Quarter-Season Awards",
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMjNvQWhjV2hsajdQbjVSa21aek9wM29xdjg4SXhrNWthaVdEMXh0U0owbUtXV2xqSG5TLWdkRE9jdjlrbzk3LTlJWm5TVHVTZEtyX3d5MnE5RFp5Q25hLV9wSl9jZjFvMWVHRE0tdGt5NnZWdlk1T2xmaF94aFVlaA?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-15T14:05:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers check Leafs into the ice, Bouchbomb the difference maker, and Levi gets first shutout",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZnJXdHBVMzc1LUR5MlFhaW9YZmIteHJwUG9NcFcyMzFPc3VVMnI3T1RsQlAtc051aXNzYnlycExwUTU5RmszWEgzMlAtQnhlTjRMYVY5UmpxckI1LWc5c1VfSTlseUJ6aDhhdjJkTXlHdk9WLU95YlFEUFdnZ3EwaDZYSGR5YTdaMnlabkNQMk9ZVXRCWUlVMHQ4dmVBdDdZeVd4Z3J3?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-15T14:00:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -97,26 +144,18 @@
    "via": "google"
   },
   {
-   "title": "McDavid’s season-opening point streak hits 21, Oilers blank Maple Leafs",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcjZmbEtmT05XN3BjYUdhRTNNZDYzS0lwLXV6aHVuaW5qNmFJWUdBdHczemNueDExV3hsZHdRM2tydVUwX0JWRUd6TG5XTVVYMUNhclR2bTIzOU8xQXo4SWtMaTIyd2VZOTZUeDdDOHZUVU8tamFfcTg0OGpNT1dpcFpPM0k0WTBNRHptTXhvdEhEUQ?oc=5",
+   "title": "RECAP | Leafs vs Oilers | Nov. 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4zM2xWNzlkSjFYdjJTNUNIU0tnd1hCWlAxZ0pwd2kzWm5Sa09fYVpwdDl0U3ZhQ2Q1ZzRFRzdqN1pFQ050Yy1kVDgwMmdjTDlIdEg1YzZuNFNJQ0lkUnBRQm1DSlZGLTFrMWtjSmM0RE4zb3J6ajJCcQ?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-15T06:05:51Z",
+   "published": "2026-11-15T06:20:31Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "QUICK RECAP: Oilers 1, Maple Leafs 0",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSmlfOWxVRGNUR0REOXRPd1pGY01nb1pqLTNyZjhEMEU4a1JBMjhtWFJTM25Yc1pPN3JkZTVycndSa3h2TW54WUhZTjdXelFIWmN6MVlIdkV2aUw0WnRjMUloSV9PTEkxYVp2dngwRE1yaVZUc2huR3QtZ2g2bV8yQg?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-15T05:48:27Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Maple Leafs' horrible home stand ends with shutout loss to Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMnExZExqNkZGb3d3d2NRWmlmWmNZU0gzSC1VbnhLc2xGMlptVFBNd2tRTnlweVlfMFdPc2MyWGpRdWJSNVJCWWlaS0hEYWx2ZW9Wel9KWkdMRi1aTlNMMWhza3VjSm5lSTZnTFR1VXhtUFdQb2xYWjdDbEJmUUJKWGY2cnR4VVF0SWN5ZHJVOENwNzdhWHhwNDc2bWNpU0JqeV94TE1sM0cyX1BTalNvekF3Ri0tTDBHYU1wcUo2aEEtbzQ?oc=5",
-   "source": "Toronto Sun",
-   "published": "2026-11-15T05:47:48Z",
+   "title": "Devon Levi’s First NHL Shutout Lifts Oilers Past Maple Leafs 1-0",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeEk0QkZSd1c4Q3EwQXd2WVl5UjJsMEdScGJRd1VTdzZlanRSTEt6WEpRenhtRllySU9FcU9TYTJIbV9KV3ZmbGpabHRRQlpJeS0xc1EwblJ6cVM5YlBEUUFMb25DVVpJRFV1MmFRV2lWR2VpWXQ3cjNEcDRaWGFzM0lBWi1vcUwwZWx0QV9ydmNFdXo4Y2t6OE1iaXZHQQ?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-15T06:13:17Z",
    "snippet": "",
    "via": "google"
   },
@@ -128,36 +167,18 @@
    "snippet": ""
   },
   {
-   "title": "Oilers' tight defensive play boosted by Levi's goaltending",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM2FfMHpCbjN4d3M5MEZSLVRObnV3MUx0S2M3dTlLX2s1bFhnMmc5amJGRUZ3SzI4ZmhMMEphZjR6S2VSQXh1b0VTbFBubTlwcmtZMnFBZjR1cFFUc210cGNMbnJkWUF5MDR0SWZmX0hTYmlmbWozTXJ6dUhja2dqZHo5Wmp3YWRIa05PQmZ2eGFDd1VWU1dzZDln?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-15T05:21:00Z",
-   "snippet": "",
-   "via": "google"
+   "title": "Oilers’ tight defensive play boosted by Levi’s goaltending",
+   "url": "https://www.sportsnet.ca/nhl/article/oilers-tight-defensive-play-boosted-by-levis-goaltending/",
+   "source": "Sportsnet",
+   "published": "2026-11-15T05:18:36Z",
+   "snippet": "Shift after shift of win-a-battle, work-it-out, dump-it-in hockey, the Oilers played the kind of hockey that isn’t any fun to watch, but winning teams love to play."
   },
   {
-   "title": "Oilers' McDavid hits 50 points, sets personal-best point streak",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY1NBZUM2aHoyUmZuSWFrVzM3TUppWENGVy00Vlk2bmlDY1R1VEl0R2xuak82XzZKNmZuOFFqQ1NCUldPX0hTR3VWUFB6dTN2aldZM3R4b3BPTHZtLWVaNjNDUXFqUUVHYXMwYmU2QXN6eUZCZkp1YzFqT2t4TVp2a3hjX0toUFJTNktrcHNvektPcndsemR3dnhSWExEYmVI?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-15T05:21:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Levi Blanks Maple Leafs for First Career Shutout as Oilers Hold On 1-0",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVHU0UHJHZVlodFBGZjVqQVQ2RTBCVG41TllmOUt6THdreUZsX0lSM2hNcGdSS2RGbC1IN2xkcHZScHl0R0NBSjVWSlF6aGZkZVVRaVE5SDJNTTd6RkVXd2VDeWs2eUdOVFVKWjFIcFRPXzYwM29UckdQdkV4aXRVTU14UmNJOC1XUGFVaHlUNmFlanY0NFBrV2xtdVB1YWttM2lVR1lZQlF5bVVOT2NWWElfWmk4WGptaktjdDNUMWs2OG90b0Jz?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-15T04:50:49Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "How the Oilers became the latest team to lay a hurtin' tune on Leafs",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdlBWY2J2bmtyRXpUakxJdWFTd2FjQ3g2UVg1b0dZSHVraUFXSm43WjdiZjlpZ3JpTnJFR1dOdGlVM3ZSUVVZcG9qZE5Xa1lNOGxZcG0yTnBFZkVVZFRRZ1piRHBEQUdPRnpQczdkUnZLc20wd0FxbkVyMHBsRkxlRFVWaG1HejFJUGYyNmptQnpqeC1wcU96ZmIwUzlVQ1h1eWthblcydlYtWWd0eEpiOUo3SDQwdmJjZzlXZnY2UTUxQnB3elM0?oc=5",
-   "source": "Toronto Sun",
-   "published": "2026-11-15T04:50:07Z",
-   "snippet": "",
-   "via": "google"
+   "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
+   "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
+   "source": "NHL.com",
+   "published": "2026-11-15T05:00:00Z",
+   "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
   },
   {
    "title": "Maple Leafs’ Tanev looking to build on strong defensive showing vs. Oilers",
@@ -165,6 +186,13 @@
    "source": "Sportsnet",
    "published": "2026-11-15T04:27:58Z",
    "snippet": "Toronto Maple Leafs defenceman Chris Tanev speaks after the team’s 1-0 loss to the Edmonton Oilers, saying the defeat is frustrating but the team has a strong defensive effort to build on…"
+  },
+  {
+   "title": "McDavid’s season-opening point streak hits 21, Oilers blank Maple Leafs",
+   "url": "https://www.nhl.com/news/edmonton-oilers-toronto-maple-leafs-game-recap-november-14-2026",
+   "source": "NHL.com",
+   "published": "2026-11-15T04:21:00Z",
+   "snippet": "TORONTO -- Connor McDavid had an assist to extend his season-opening point streak to 21 games, and the Edmonton Oilers defeated the Toronto Maple Leafs 1-0 at Scotiabank Arena on Saturday."
   },
   {
    "title": "‘Super grateful’: Levi credits Oilers teammates for first career shutout",
@@ -216,6 +244,20 @@
    "snippet": "Watch as Connor McDavid sets up Evan Bouchard for his signature slap shot to extend his point streak to 21 games."
   },
   {
+   "title": "Oilers’ McDavid hits 50 points, sets personal-best point streak",
+   "url": "https://www.sportsnet.ca/nhl/article/oilers-mcdavid-hits-50-points-sets-personal-best-point-streak/",
+   "source": "Sportsnet",
+   "published": "2026-11-15T01:47:43Z",
+   "snippet": "Connor McDavid’s first point on Saturday against the Toronto Maple Leafs was a big one."
+  },
+  {
+   "title": "QUICK RECAP: Oilers 1, Maple Leafs 0",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-maple-leafs-11-14-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-15T00:06:20.293Z",
+   "snippet": "TORONTO, ON - Our 'Leaves' were better than yours. Devon Levi made 19 saves for his first career shutout, while Evan Bouchard scored the game-winning and only goal as the Edmonton Oilers…"
+  },
+  {
    "title": "Are we seeing the death of the dual roles for some CFL head coaches?",
    "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/are-we-seeing-the-death-of-the-dual-roles-for-some-cfl-head-coaches",
    "source": "Edmonton Journal",
@@ -235,48 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-14T19:35:00Z",
    "snippet": "Finland cheered for one of it's greatest winners on Saturday. Five-time Stanley Cup champion and Helsinki native Esa Tikkanen dropped the puck before the 2026 NHL Global Series game between…"
-  },
-  {
-   "title": "Oilers at Maple Leafs projected lineups",
-   "url": "https://www.nhl.com/news/edmonton-oilers-toronto-maple-leafs-game-preview-november-14-2026",
-   "source": "NHL.com",
-   "published": "2026-11-14T17:05:36.386Z",
-   "snippet": "OILERS (14-3-3) at MAPLE LEAFS (8-11-2) 7 p.m. ET; SNO, SNW, SNP, NHLN Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Ryan Nugent-Hopkins --…"
-  },
-  {
-   "title": "PREVIEW: Oilers at Maple Leafs",
-   "url": "https://www.nhl.com/oilers/news/preview-oilers-at-maple-leafs-11-13-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-14T14:54:19.937Z",
-   "snippet": "The Edmonton Oilers begin a six-game road trip starting with the first of a weekend back-to-back against the Toronto Maple Leafs at Scotiabank Arena on Saturday. You can watch the game live…"
-  },
-  {
-   "title": "Can Elks’ defence limit Alouettes’ explosive plays in Grey Cup?",
-   "url": "https://www.sportsnet.ca/cfl/video/can-elks-defence-limit-alouettes-explosive-plays-in-grey-cup/",
-   "source": "Sportsnet",
-   "published": "2026-11-14T05:16:32Z",
-   "snippet": "3Down Nation’s Justin Dunk reports from Calgary ahead of Sunday’s Grey Cup, breaking down the keys to the game for the Elks and Alouettes, including Montreal’s ability to create explosive…"
-  },
-  {
-   "title": "Babcock not getting sentimental over Toronto return with Oilers",
-   "url": "https://www.nhl.com/news/mike-babcock-not-sentimental-over-toronto-return-with-oilers",
-   "source": "NHL.com",
-   "published": "2026-11-14T00:06:00Z",
-   "snippet": "Edmonton Oilers coach Mike Babcock is not getting sentimental over his return to Scotiabank Arena nearly seven years since he was fired by the Toronto Maple Leafs."
-  },
-  {
-   "title": "Edmonton Elks ride to the rescue to save Calgary Grey Cup ticket sales",
-   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-ride-to-the-rescue-to-save-calgary-grey-cup-ticket-sales",
-   "source": "Edmonton Journal",
-   "published": "2026-11-13T22:12:20Z",
-   "snippet": ""
-  },
-  {
-   "title": "BLOG: Babcock 'having fun' with Oilers ahead of making his return to Toronto",
-   "url": "https://www.nhl.com/oilers/news/blog-babcock-having-fun-with-oilers-ahead-of-making-his-return-to-toronto",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-13T22:05:30.657Z",
-   "snippet": "TORONTO, ON – If you’re stuck in the past, you’re never going to improve, and have fun with the people around you while doing it. That was the morning message from Head Coach Mike Babcock,…"
   }
  ]
 }
