@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-15T12:58:55Z",
+ "updated": "2026-11-15T13:33:50Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (14)",
-  "Google News (94)"
+  "Sportsnet (13)",
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "'He Was There To Clean It Up': Amid Chris Tanev's Load Management, Jim Hiller Highlights His Reliability In Oilers Loss",
+   "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOM0cybGU3RkJPQXpPMDFUZGZWRTlzU3NWVnVkTE9MbFdiaHplS1BfTXdnTFFodGRXOEV6Y19pMkhpd0R6S2QySUQwaVVLUjR2UlRYWmkwSDRPODhYanNsaWowc3d0SXdzNkJ5U3VsbzkxVTBmaGFvXzVnNVp5TWJEZE9mMGxsWTlUSlVRVVdIUWo2SnlOWUZXZFM1YS16ZjMzdlBZc203dTVpZlFsdDI2UlIwZjg2OGROaERQcHdKei1LVmtmSjdyTHBCcDgyeDhGaEh1YkxBejhFd1Z3eUdENmZreG1hajl3Zk9lWEdGQUZ4ZXJ1M095STFDMWRVbG5WSGFDNk1RUQ?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-15T13:04:55Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Maple Leafs play their best game in weeks and still lose to Oilers",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ0l1elBveWtraTl3c05tbWhOMXpxT0NCajdQcmZuWllKX1k0enI4bElYYnJ3ZFp1UTk1LTUyX2I1Q2V3aXNfb0JDTlBPRmJnRzVtcFctekVYVHBhQjlXelJKaGVXMmhkelpyek95S0NNeGpqeW1WY0xaYTN5MmlkX0VCaGVCYnc5elVGd3VLejh5QThIVUE?oc=5",
@@ -49,26 +57,10 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers 1 - Toronto Maple Leafs 0: Final score, results, recap, box score, stats",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-15T10:45:20Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "The Edmonton Oilers are off to one of their best starts in years. So, why are we not having more fun?: 9 Things",
    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTmE4a2xIbmVaRXpaQjFMZGpTWkZJZktHbEgyTUlLYzNFWGhxdVhIZ1RfN2xIU3JJZG5WYWJnM3lvSkhaaFY4UkRlWGtTLVVUb296MEo5ajZSQTBfbHJmekpUUElHVk94dEdRWEItSzJoLU12MHo5VFgwSTVpWGhaMHdIdHJfcVJHbzZmOXJoQTRWdnhfR3g2RzVyQ0lEeFFPTm51Z1lVU0ZXa0ZXSmtWVmtMYWltWDhoOWxpejJ6NHdBczlsQVQ0RmdTeUk2Z2NHRURJTjVzc1ZtRWprd2ZLUm9mYktYUkdvR3plOFBlOEdxTmRhV0Y3S2ZuZl8?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-15T10:07:14Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Devon Levi’s First NHL Shutout Lifts Oilers Past Maple Leafs 1-0",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeEk0QkZSd1c4Q3EwQXd2WVl5UjJsMEdScGJRd1VTdzZlanRSTEt6WEpRenhtRllySU9FcU9TYTJIbV9KV3ZmbGpabHRRQlpJeS0xc1EwblJ6cVM5YlBEUUFMb25DVVpJRFV1MmFRV2lWR2VpWXQ3cjNEcDRaWGFzM0lBWi1vcUwwZWx0QV9ydmNFdXo4Y2t6OE1iaXZHQQ?oc=5",
-   "source": "BVM Sports",
-   "published": "2026-11-15T06:13:17Z",
    "snippet": "",
    "via": "google"
   },
@@ -159,10 +151,18 @@
    "via": "google"
   },
   {
-   "title": "Levi, McDavid help Oilers hand Maple Leafs sixth straight home loss",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaTg3dXZ4UkpaR1ZWRkw4dzNYYnBFdUJnREp5UmdWQVA4azhoQjlvMXB5a0trQlVYUEczNWdCblEtVmNaNm9EU2FaejdnRTBHZmxHRjBsTVBtQkN1cFdLekowYmo1RW1DWllCQWtPY3d2cW1aWEwyaWJpVkpBcXJGOTJ1Yi03NTA1bHY5eWJyZVFocjA1SkFsZW10bHlLMkxBdTZzM25xMlFQaGFDeThj?oc=5",
-   "source": "Castanet",
-   "published": "2026-11-15T03:46:00Z",
+   "title": "Devon Levi, Oilers hand Leafs sixth straight loss in shutout",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWTBUV25NUGlBdU5KemhlUUxScEl4WUN5b1FfWVR6NEJ3ckNxeXgyZWszaUNlZnlGNE1xNzNsVGNWSGY0aEwxMkRJZTd2WGt0UWNoeFU2TVRYbDA4NFNsdkg0MXlzQURpb1VJWS1kalJnRTdwcTdJVmVjV3dUaUxMUUNGS25JUXMxMUEza0pFTzZNOGNYblItY3RIdWh6Q3g4RTYxRTJ3?oc=5",
+   "source": "KNBR",
+   "published": "2026-11-15T03:32:24Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL: Oilers 1-0 Maple Leafs, Bouchard scores",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3NfaEJiRkxZUGQxY2x2bmhhNVRqRE9GRF8wYzY2T2VjS1lhOTkxbTVVVzItRnN4Tkp5VHgxa0dudEs1TDV6Zk12RDNUMDU4dHZTVGlYS0ZRWExxQnE1RHZ3WGE0OG1KWE9STWpiSkNybkh5ZW5JQThLQWxYYmxxX0tYVUhnNHdSWkFwVzln?oc=5",
+   "source": "Sofascore",
+   "published": "2026-11-15T03:22:04Z",
    "snippet": "",
    "via": "google"
   },
