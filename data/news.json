@@ -1,14 +1,20 @@
 {
- "updated": "2026-11-15T20:16:24Z",
+ "updated": "2026-11-15T21:16:35Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (13)"
+  "Sportsnet (12)",
+  "Google News (86)"
  ],
- "errors": [
-  "Google News: HTTP Error 503: Service Unavailable"
- ],
+ "errors": [],
  "items": [
+  {
+   "title": "Levi channels 'Gladiator' with pregame ritual, gets Crowe's blessing",
+   "url": "https://www.nhl.com/news/russell-crowe-gladiator-edmonton-oilers-devon-levi",
+   "source": "NHL.com",
+   "published": "2026-11-15T20:33:00Z",
+   "snippet": "Edmonton Oilers goalie Devon Levi stopped all 19 shots he faced in a 1-0 victory against the Toronto Maple Leafs on Saturday, but there was one lingering question following the game: Are…"
+  },
   {
    "title": "FEATURE: Levi's Coliseum",
    "url": "https://www.nhl.com/oilers/news/feature-levi-s-coliseum",
@@ -17,11 +23,162 @@
    "snippet": "PHILADELPHIA, PA – What we do in the crease… echoes in eternity. What a special night it was for Devon Levi, who not only earned his first-career shutout with 19 saves in Saturday’s 1-0 win…"
   },
   {
-   "title": "Oilers at Flyers projected lineups",
-   "url": "https://www.nhl.com/news/edmonton-oilers-philadelphia-flyers-game-preview-november-15-2026",
+   "title": "Oilers’ Devon Levi Winning Fans All Over the Hockey World",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdFNhNGdUTy1PNy1IV29kamRfeXo4Rm1JYlJZME1QZlRSQmhPV01ja0F6TVhkQlRVQlFZZHFPZUVsc1FPNC1MR2hiWEg3VldFbFhra0NMYmpPaHBBTmN2ZWV2Y0IyUzZPRkROQkZDZDBYdDB3ZGhSRzREUGxabnJfcG1McnZ4dnVoVmpPVWVzcw?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-15T19:30:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Sidney Crosby's continued praise of Mike Babcock should give Oilers fans hope",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOEhYS0dYdDFXT19tRTdSWmhpMFE1ZUNrbjh2bmhzc2k5ekw2bkg2TUNjUVY2RlU0WkJvZlJXU3pVb1RQc2daZjFXUGdwR3lzREJEOTZFbThKbVFNbEVuQnd2NjJHSzVFdUVGbGVVUm5UbjV6bFlkMjFUdmpXVkhUc1p3SlFwbFR2SnRZdjlnQVpNYXRoRkdha21xUTAtTm94UzNvdE4wVGxGR1U4M1lvX3BROA?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-15T19:27:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Leon Draisaitl tallies assist Saturday against Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTjJRcElQb3JraU0zNnhKZnZidkd2dHl3SFpuNHNld28wOTQtZFZlR3JUREhwaVpXVnpuaTh2SFpJRGJsSjFVS3M4a1V4N0F1VDBVVWNLUkFtLS1POXBSQTVDSFVsbDRJWWh0R2EzcUtzYTBlcUFscS1qVWNTVkppUk56ZFhZMjV3b25feHJfdlBJMk1EZnFfOXF4S0JGU2xLMHJXMktQLUcwZ9IBrwFBVV95cUxQVkhVZEhFbVNaaV9EcEVGdGlsTHkyU29CS0tCUTNKNmhsRktTcEFVb3RHS0xjWmFLX0Q2UG9FUmtlUHMtaUdWMXptbi1xTWpiWTBST0ljOTRjTDU3US1GNzZKTEN0RnEtYlFmMFRkd2lBUVZNS3ljeW9YR2RzMno0LXg4REliVWRhWTdMVHN0NHFFZ0M4NEJ3RTRkNWIxV3Ric3hEbEtjSm5mWDVVZWVn?oc=5",
+   "source": "FantasyPros",
+   "published": "2026-11-15T19:18:41Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "GDB 22.0: Oilers look to continue strong start to road trip against Flyers (6:30 PM, SNW)",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRWVjUVMtU1VoWjBwcGV3RTc0V2o1Y0M2T09ZLTA1MERKTUhJUWtlSUp3TmVHQ2Q4SjRkOUJhdWlCR3NteVhzTmV6bDVCWVhoWUtxSnNhUkVqVE9PT2VOdUZya0l1MzliS1RVbnNDd291azByQmVEVV9neG9xUHRuVTF0Njc?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-15T19:18:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid posts assist Saturday against Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU1BSaml4dEkzNi1Jb3RpLV9lRG13bUJmUEdqM1huU1pQMHZpSUtnSFdiNmZrNzNsczRoU1hRZFNSclg2SFpybTA3eVhiZE44TEFDaVNibEZIVjN6aldBVHdCNEFKeWJLVHBrelNqR0s3T1l1dWdyVnZwTlk2Um5sR29BVy1xTXNibUg1SGpURnJxc2t2M09vVFlBNFhPZUxQLTEzSG4wY9IBrAFBVV95cUxPdm9OUEdkcEk4NWx5VmFJcnRPZ21VakRFMFU3eklBbWFUT3NlVHIwZ29yUF8wWC1aOFR3b2FqeHhQejJMclVLZVlGUGd6TlhkQTMtQzlONlo4b1ZUMzNhSzdGUjBLOEZVZmZfWEJpUW4ydFU2Wm5QZk5sV2NWT2RwWHRFNzgwYU1UbnNjTk9BY3g2THQ3bWE4OHJia0QyYnpTbGhIeG5WU01FcGQt?oc=5",
+   "source": "FantasyPros",
+   "published": "2026-11-15T19:15:32Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Evan Bouchard lights lamp in Saturday's win over Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSUxNSDFMa29uamg4STV0VlRaNjVtR2ZjZXZrV29oTjRSdEFUU1JZVExMTGdHcjZxc0FSNnRYTHRLLU5UOUNvaEZvLXdNOXFmbUkyTjdqcWlKVTBpc0NfZ0liUlBNS2ZZQ2lUX0VkYjZCS0Z1YnJ0YWlhZ1FselRZZE16Q2FXVmtReUJ4a1RfMnhHREdhb3Mwb2dSdVA2LU5VLUlWRkRfQdIBrAFBVV95cUxPa0hrTktIdVVLcF8wck1nZDJWTkZKbzNmMzQtdk9qVTZaanNoSUpsbFg2Q2kycTc3aDRfQXl1aUhvNGNnRDQ1TnRVbTltSDdjeXZYeW5SSUp3a3JkZ2ZuRExrWVhSX0NfUF95VjdlZ0RyaHVZdDdNMW5fcGtiSUg3UHdRTVZwM29nQjRDX0ppeHBhZjJLUDlyUWxBNV9VRjdicmd4bkFpcmpNdzFO?oc=5",
+   "source": "FantasyPros",
+   "published": "2026-11-15T19:13:03Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Levi Stays Hot In Edmonton, Sabres Goaltending Actually Worse",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQkNGbGNGWkRTSHkwQlMxb3lKZ2NaU1VmTzFMNXo5cDVaVmZDTDRVaTJTbzVvdW15RFNpTzlnYW8weTllODNyandsbUlPRjM3Rzk0Ul9RUU1qZ0xwNm0zb1dpSkNZeFdnSTEyQV95dGxxNkR5dWFaVkg4VHozYTV4eUFLZGJIRHAxNGtJaEpJaTBVb0N5WENKTHpVOGRjTGZWMEp0WmREQWg2OU90VlpSVVFIWVVFbUFNMGc?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-15T18:14:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Devon Levi Makes Edmonton Oilers History As True 'Gladiator'",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWTVYZTkyMmV2SDBfTy16SXRZMjFQWkJTRENZQXZ4NWFiQnZFeEY2NmFDN3RSRi1aSHYzTTVZMkRiT0V2UVplcWY4V1BUUzQ5Ry11YXhTdHdKdVNDcUpyM0g5TTItNXE0MTZlMkd0TW1TeE1kNEM3SEZaMnNjcWFfeg?oc=5",
+   "source": "NHL Trade Rumors",
+   "published": "2026-11-15T17:51:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "One guarantee, one quiet answer: Alouettes, Elks take different routes into Grey Cup",
+   "url": "http://edmontonjournal.com/sports/one-guarantee-one-quiet-answer-alouettes-elks-take-different-routes-into-grey-cup/wcm/7c9add05-a73d-4721-8cfe-6a9433057831",
+   "source": "Edmonton Journal",
+   "published": "2026-11-15T17:39:58Z",
+   "snippet": "Elks shrug off Tyler Snead's Grey Cup guarantee as title game nears"
+  },
+  {
+   "title": "10 stars to watch in the 113th Grey Cup",
+   "url": "http://edmontonjournal.com/sports/10-stars-to-watch-in-the-113th-grey-cup/wcm/0ba7758b-5e25-4583-8378-f300f3d4e0ac",
+   "source": "Edmonton Journal",
+   "published": "2026-11-15T17:37:25Z",
+   "snippet": "10 players who could decide the Grey Cup between Alouettes and Elks"
+  },
+  {
+   "title": "Owen Tippett to Edmonton? Nikishin to Maple Leafs Trade Fits",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNa29kQXhmRXlvZjRaYXBROUFfZnB1eEROQ09mUEdkYlVLelR2S2pLNDFSNGs5MUtNUTBKWGZ3eHVLZXdRQ1ZSVTBBMUZUQmFvMVdER0VLVDAwMVhtZHNXczNqNFEtY1l2QTh4VU9wWnRjLVVCTFo4VnllLWNQd0tLMHJVbXhTZUlJOW1OTGlzN0wzdUNYUll1Yw?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-15T17:29:52Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Pre-Scout: Oilers stifling structure looks to sweep Flyers in quick rematch",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU0hpMnhkU01CaU5yb2FCVzNuMUp1a09LMTVsREpLUDJpa3dQdHpfTjd2TjRJZnpiZkhfcTR1N3FnYlEwZy1HdUUweUt5Z1FrSHRWbVZReEZfUllHY3dwRFRmMThJdGppZlhyS0JuaHRaM2hEaTVZeHpvRHBtV29GNUV1V0JGdUJFOTY4RERSSWVEUEFubm1XSVBjeDRTc25ZUkhKNE1R?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-15T16:46:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "3 Oilers Who Need to Elevate Their Offence",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5GR3psOWtsSzFUdXQ1XzlLNFBjZUZSNHo1YkZPNlJjbk1Qd2dMYUNTMndpSlVNeWhEeW1GMFlpWXUzeUQ4ZnNaNzdPWlpLVDN1MDJ5cE5zeVFPTEtJWlMzOWt1cXhkZFBqRDl0VW8tSUFuMC13VjVVd3RVeHY?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-15T16:35:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers' Levi gets Gladiator-themed shoutout from Russell Crowe",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQclhnNVhZNzloZmNTR1J5Wm52aEs0U1phUk9Qc3hBWHRGallsUkRveXpBWTV3WV92d24tajVGVUhRRjBya01IOVhobXBOVTZxcUdBM3pqNGlLYkRHOFptMHUtVndmUk5zT3pFNzJ1Y3BWM1pIaFZVeHc5X1hiU0ZHd0R2cENyOXIyOUE?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-15T16:09:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL On Tap: McDavid looks to push 21-game point streak with Oilers at Flyers",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5haDB0ejZjUlQ1cXpScEJMX214dTJXcVlRYUJQczVXVlBybERHc2NwQkxBSjY2Z1VvOS1IVm4tdWkxeHotSm55LWpKWmhCX1JMZDZJYmtLNk1nVnpaYkYxSXVKOTlGWGRTWEwtVjZqbW9lODZvQnc?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-15T15:17:00Z",
-   "snippet": "OILERS (15-3-3) at FLYERS (6-10-6) 7:30 p.m. ET; NBCSP, SNW, SNO, SNE, TVAS Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Ryan…"
+   "published": "2026-11-15T15:55:52Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "RAV4 Things: Flyers vs Oilers",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JWFM4d2FsT29XdnhWbjRhZEU4UFM3RF9wQlJpdDRjS2VDbDBhajV5RFp4MzdndzZ6UDdZdTdiRWlTYnFFSHpKVkJISzQ5U2JQTjBGZWlyT3VUVlJHWDR5TzhhNHJWUGpES3pQRjJJNlRWZW1q?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-15T15:42:28Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid's growing fortune: How the Edmonton Oilers captain built his $70 million net worth through",
+   "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxPWmV6d1dlZ0VaaGVfNFZkakp0WVdlcG56amhyalZ0VHJRZ2VPckRteld1cmdPcndUbzRUQmhyS1V1LVlBeTlkdTZiZnBhOUk4UjJiZnBTblBWejB6ZXNTVGtkWWVSd2FLU0lzZWI0YU9ZSTBCc2NmREJxYXpUeG50WlJTa0tMV0tFd0t1blhvV3plbGZiYzhBa0t6eXAwaWNYa0piZFlCZ01QNDllNTlMSEZ3VTM2SVBLYm5uTWt6M3VhdUlHMjVuSXd4cWtzT1J5ejAybVBiNUx6czFYNHdrdUFmS2hWUUlCSTBwWDRxNl9SN1ZUaTRRbC1TdUVOeWxyQ3V4Q3JLeFFFbnktZUduNmRRWlo2Y1ZMX0J6LTNfUS1xTTZiT2M5OFdTYjFYS1FaMEpTVjd6aHhjNWJOTHNMOEVXMkdBT01YVnd3S0ZLYlBFVnU1enl4eXo0dEpQdmZDZlJvb1Zn0gHrAkFVX3lxTFBEZVhnR3ZsU21SV2NaR3cxeTg2RWdYQ0FTWWNiTlFGVm1mN1VyVnVjeUdEYjZuVGNJWXFQemFNUHh4SGNicjJNYmFNc0VPaXViUzZjOHdZajlXN1B6N0RHXzV0ei1KNmt1b29rSXJRVkVOT2RQRWlHZGYyZlBKRXhjUnVjX09kbFdLdXBDVUNvVURXejgtVzJ3eE00YXZzSHQ0bnVMVzM2OG1PRHhnOGlnZnUyOFB4WUZEYjNsbDlvTkFhTEdzRHhvSGk4ZXRSY0NpTkstejJkaGhFYUZQZzUxN2RUZlFPRTVrWVc2amZaTVd5RUI4SURsZFlpRkxtVkFLR0wtTXl6b0VRQmlKeWVVOWlHZEdaZkQydGhhSnZxT3BGQWdBS0Jpckx6emRfNlRuM1Vra1dMa0RxazhBcmtUZkZZT3lRNkxaN2ttNHBHdXpJRGExRFlaT2owRlFFUkZSNGtxenNlZGl0Zw?oc=5",
+   "source": "The Times of India",
+   "published": "2026-11-15T15:30:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers at Flyers projected lineups",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUkU5V2VacG9yZkdZejdUUFJHYXU2Qm00TEowSlpsY2xLUVpfWUtWdnQ0MHR0U1hYbXZ6YVU1Y2Zrb3IydHlMeWJKWnd1ZjVVX2lOd3JRSlJZNkN1Y1F5cl9SUllnR3RTYy1aMTJwZ3RCUjROaHMxRHJNSTJWem8xQnlKeFVCMnE4dDVEU0h0OXlSUFJX?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-15T15:26:06Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "How can the Edmonton Oilers add offence to their prospect pipeline?",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMFJZemRscnNET0gtTFVaWnozNTFnRXFCNzB5dDVMazNsX014N2xzRmZuWFhpTXJQWm4zU1ZVdllDbkI4ZS1acE9ub21WU0c5MTVjZ2dsaS1yQ0trRUZsU1BxUU1STHliZ0VpOW0wdUxDTnFCUndGV3Y5UHV3NHVXQldkMl81NTZrNXV4QW5DVjVOSUFDSU5fTTd1SzlHRzg?oc=5",
+   "source": "The New York Times",
+   "published": "2026-11-15T15:00:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Florida Panthers - Nov 17, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fc080OVpCN1JHa2JZek15eFRqUjZMWFJsN0hFSkstY2gzVnJTN1JrNmJKNW1Tc002TlNyQWNhMWtERE5rTGVPYlp0UU1TNWhYbDN2MjlqVlhUVE9zS19sRmZhNXM1X1Fra3RCRkpOR0o?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-15T14:42:01Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "The Edmonton Oilers are off to one of their best starts in years. So, why are we not having more fun?: 9 Things",
@@ -46,8 +203,8 @@
   },
   {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
-   "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27-x3339",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-15T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
   },
@@ -108,13 +265,6 @@
    "snippet": "On this edition of Saturday Headlines, Elliotte Friedman discusses the Senators looking to find a fresh start for Andre Burakovsky on a different team, Matvei Michkov’s intent to stay with…"
   },
   {
-   "title": "Oilers’ McDavid finds Bouchard to extend point streak to 21 games",
-   "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-finds-bouchard-to-extend-point-streak-to-21-games/",
-   "source": "Sportsnet",
-   "published": "2026-11-15T01:49:55Z",
-   "snippet": "Watch as Connor McDavid sets up Evan Bouchard for his signature slap shot to extend his point streak to 21 games."
-  },
-  {
    "title": "Oilers’ McDavid hits 50 points, sets personal-best point streak",
    "url": "https://www.sportsnet.ca/nhl/article/oilers-mcdavid-hits-50-points-sets-personal-best-point-streak/",
    "source": "Sportsnet",
@@ -127,139 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-15T00:06:20.293Z",
    "snippet": "TORONTO, ON - Our 'Leaves' were better than yours. Devon Levi made 19 saves for his first career shutout, while Evan Bouchard scored the game-winning and only goal as the Edmonton Oilers…"
-  },
-  {
-   "title": "Are we seeing the death of the dual roles for some CFL head coaches?",
-   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/are-we-seeing-the-death-of-the-dual-roles-for-some-cfl-head-coaches",
-   "source": "Edmonton Journal",
-   "published": "2026-11-14T23:05:06Z",
-   "snippet": ""
-  },
-  {
-   "title": "Could Grey Cup Sunday mark an end for Edmonton Elks QB Cody Fajardo?",
-   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/could-grey-cup-sunday-mark-an-end-for-edmonton-elks-qb-cody-fajardo",
-   "source": "Edmonton Journal",
-   "published": "2026-11-14T21:14:03Z",
-   "snippet": ""
-  },
-  {
-   "title": "Five-time Stanley Cup champion Tikkanen drops puck at Global Series Finland",
-   "url": "https://www.nhl.com/news/esa-tikkanen-puck-drop-global-series-finland",
-   "source": "NHL.com",
-   "published": "2026-11-14T19:35:00Z",
-   "snippet": "Finland cheered for one of it's greatest winners on Saturday. Five-time Stanley Cup champion and Helsinki native Esa Tikkanen dropped the puck before the 2026 NHL Global Series game between…"
-  },
-  {
-   "title": "PREVIEW: Oilers at Maple Leafs",
-   "url": "https://www.nhl.com/oilers/news/preview-oilers-at-maple-leafs-11-13-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-14T14:54:19.937Z",
-   "snippet": "The Edmonton Oilers begin a six-game road trip starting with the first of a weekend back-to-back against the Toronto Maple Leafs at Scotiabank Arena on Saturday. You can watch the game live…"
-  },
-  {
-   "title": "Can Elks’ defence limit Alouettes’ explosive plays in Grey Cup?",
-   "url": "https://www.sportsnet.ca/cfl/video/can-elks-defence-limit-alouettes-explosive-plays-in-grey-cup/",
-   "source": "Sportsnet",
-   "published": "2026-11-14T05:16:32Z",
-   "snippet": "3Down Nation’s Justin Dunk reports from Calgary ahead of Sunday’s Grey Cup, breaking down the keys to the game for the Elks and Alouettes, including Montreal’s ability to create explosive…"
-  },
-  {
-   "title": "Babcock not getting sentimental over Toronto return with Oilers",
-   "url": "https://www.nhl.com/news/mike-babcock-not-sentimental-over-toronto-return-with-oilers",
-   "source": "NHL.com",
-   "published": "2026-11-14T00:06:00Z",
-   "snippet": "Edmonton Oilers coach Mike Babcock is not getting sentimental over his return to Scotiabank Arena nearly seven years since he was fired by the Toronto Maple Leafs."
-  },
-  {
-   "title": "Edmonton Elks ride to the rescue to save Calgary Grey Cup ticket sales",
-   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-ride-to-the-rescue-to-save-calgary-grey-cup-ticket-sales",
-   "source": "Edmonton Journal",
-   "published": "2026-11-13T22:12:20Z",
-   "snippet": ""
-  },
-  {
-   "title": "BLOG: Babcock 'having fun' with Oilers ahead of making his return to Toronto",
-   "url": "https://www.nhl.com/oilers/news/blog-babcock-having-fun-with-oilers-ahead-of-making-his-return-to-toronto",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-13T22:05:30.657Z",
-   "snippet": "TORONTO, ON – If you’re stuck in the past, you’re never going to improve, and have fun with the people around you while doing it. That was the morning message from Head Coach Mike Babcock,…"
-  },
-  {
-   "title": "Edmonton Oilers and Mike Babcock riding high while Maple Leafs stumble",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers-toronto-maple-leafs-babcock-mcdavid",
-   "source": "Edmonton Journal",
-   "published": "2026-11-13T21:42:57Z",
-   "snippet": "“It’s an important game, we have a lot of Toronto guys,” said McDavid. “This is a hometown game for a lot of guys and we want to make sure it’s a good one\""
-  },
-  {
-   "title": "'Worth all the tears': Edmonton Elks fans are relishing chance at Grey Cup",
-   "url": "https://edmontonjournal.com/news/local-news/edmonton-elks-fans-grey-cup-ed-hervey-chris-morris",
-   "source": "Edmonton Journal",
-   "published": "2026-11-13T20:38:18Z",
-   "snippet": "'It's been a really long road, but it just felt like redemption, especially for us long time fans who've been through the darkest times with this team'"
-  },
-  {
-   "title": "Edmonton Elks locker-room poll: What's your go-to snack for Grey Cup?",
-   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks-grey-cup-snacks",
-   "source": "Edmonton Journal",
-   "published": "2026-11-13T20:18:46Z",
-   "snippet": "We caught up with the Edmonton Elks at McMahon Stadium ahead of Sunday's Grey Cup showdown against the Montreal Alouettes and conducted a locker-room poll"
-  },
-  {
-   "title": "'No reason why' McDavid can't reach 200 points for Oilers, Kurri says",
-   "url": "https://www.nhl.com/oilers/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland-x8709",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-13T19:50:42.033Z",
-   "snippet": "HELSINKI -- Five-time Stanley Cup winners Jari Kurri and Esa Tikkanen each had an up-close view when Wayne Gretzky set an NHL record with 215 points for the Edmonton Oilers in 1985-86.…"
-  },
-  {
-   "title": "Keys to victory: How Alouettes can beat Elks in Grey Cup",
-   "url": "https://www.sportsnet.ca/cfl/article/keys-to-victory-how-alouettes-can-beat-elks-in-grey-cup/",
-   "source": "Sportsnet",
-   "published": "2026-11-13T19:01:37Z",
-   "snippet": "After falling short against the Saskatchewan Roughriders in last year’s Grey Cup, the Alouettes are back with a chance at redemption on Sunday. Here’s what the Als must do to top the…"
-  },
-  {
-   "title": "Tikkanen moved to tears after receiving Borje Salming Courage Award",
-   "url": "https://www.nhl.com/oilers/news/esa-tikkanen-honored-as-fourth-recipient-of-borje-salming-courage-award-x4397",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-13T18:38:48.697Z",
-   "snippet": "HELSINKI -- Esa Tikkanen was a unique character who also was a clutch performer during his 14 seasons in the NHL. So, it was fitting that the ceremony at Helsinki City Hall on Friday…"
-  },
-  {
-   "title": "Babcock sticks with struggling Edmonton Oilers d-man but keeps on scratching another",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-mike-babcock-jake-walman-connor-murphy",
-   "source": "Edmonton Journal",
-   "published": "2026-11-13T17:02:36Z",
-   "snippet": ""
-  },
-  {
-   "title": "McDavid’s season-opening point streak hits 20, Oilers top Flyers in OT",
-   "url": "https://www.nhl.com/oilers/news/philadelphia-flyers-edmonton-oilers-game-recap-november-11-2026-x1348",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-12T06:35:00Z",
-   "snippet": "EDMONTON -- Connor McDavid had an assist to extend his season-opening point streak to 20 games for the Edmonton Oilers, who defeated the Philadelphia Flyers 3-2 in overtime at Rogers Place…"
-  },
-  {
-   "title": "QUICK RECAP: Oilers 3, Flyers 2 (OT)",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-flyers-11-11-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-12T01:56:05.523Z",
-   "snippet": "EDMONTON, AB – Flying high. Zach Hyman scored two goals, while Tristan Jarry made 30 saves, but it was Evan Bouchard's decisive winner just 47 seconds into overtime that ultimately gave the…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Oilers vs. Flyers",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-vs-flyers-11-11-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-11T17:36:21.556Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers will turn to Tristan Jarry in goal and welcome Colton Dach back to the lineup on Wednesday when they host the Philadelphia Flyers at Rogers Place, looking…"
-  },
-  {
-   "title": "RELEASE: EOCF donates $100,000 to CFB Wainwright Support Fund",
-   "url": "https://www.nhl.com/oilers/news/release-eocf-donates-100-000-to-cfb-wainwright-support-fund",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-11T16:01:55.573Z",
-   "snippet": "EDMONTON, AB – The Edmonton Oilers Community Foundation (EOCF) has donated $100,000 to the CFB Wainwright Support Fund through True Patriot Love Foundation. The CFB Wainwright Support Fund…"
   }
  ]
 }
