@@ -1,6 +1,30 @@
 {
-  "updated": "2026-11-15T01:12:37+00:00",
+  "updated": "2026-11-15T03:57:34+00:00",
   "next": {
+    "id": 2026020326,
+    "gameType": 2,
+    "startTimeUTC": "2026-11-16T00:30:00Z",
+    "dateMT": "Sun Nov 15",
+    "timeMT": "6:30 PM MT",
+    "timePT": "5:30 PM PT",
+    "venue": "Xfinity Mobile Arena",
+    "state": "FUT",
+    "scheduleState": "OK",
+    "lastPeriod": null,
+    "away": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "place": "Edmonton",
+      "score": null
+    },
+    "home": {
+      "abbrev": "PHI",
+      "name": "Flyers",
+      "place": "Philadelphia",
+      "score": null
+    }
+  },
+  "last": {
     "id": 2026020314,
     "gameType": 2,
     "startTimeUTC": "2026-11-15T00:00:00Z",
@@ -8,14 +32,14 @@
     "timeMT": "6 PM MT",
     "timePT": "5 PM PT",
     "venue": "Scotiabank Arena",
-    "state": "LIVE",
+    "state": "OFF",
     "scheduleState": "OK",
-    "lastPeriod": null,
+    "lastPeriod": "REG",
     "away": {
       "abbrev": "EDM",
       "name": "Oilers",
       "place": "Edmonton",
-      "score": 0
+      "score": 1
     },
     "home": {
       "abbrev": "TOR",
@@ -24,39 +48,15 @@
       "score": 0
     }
   },
-  "last": {
-    "id": 2026020295,
-    "gameType": 2,
-    "startTimeUTC": "2026-11-12T02:00:00Z",
-    "dateMT": "Wed Nov 11",
-    "timeMT": "8 PM MT",
-    "timePT": "7 PM PT",
-    "venue": "Rogers Place",
-    "state": "OFF",
-    "scheduleState": "OK",
-    "lastPeriod": "OT",
-    "away": {
-      "abbrev": "PHI",
-      "name": "Flyers",
-      "place": "Philadelphia",
-      "score": 2
-    },
-    "home": {
-      "abbrev": "EDM",
-      "name": "Oilers",
-      "place": "Edmonton",
-      "score": 3
-    }
-  },
   "standings": {
-    "wins": 14,
+    "wins": 15,
     "losses": 3,
     "otLosses": 3,
-    "points": 31,
-    "gamesPlayed": 20,
+    "points": 33,
+    "gamesPlayed": 21,
     "divisionSequence": 1,
     "divisionName": "Pacific",
     "streakCode": "W",
-    "streakCount": 3
+    "streakCount": 4
   }
 }

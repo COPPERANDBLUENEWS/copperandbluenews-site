@@ -1,18 +1,26 @@
 {
- "updated": "2026-11-15T03:29:13Z",
+ "updated": "2026-11-15T03:57:44Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (12)",
-  "Google News (96)"
+  "Google News (97)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "NHL: Oilers 1-0 Maple Leafs, Bouchard scores",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3NfaEJiRkxZUGQxY2x2bmhhNVRqRE9GRF8wYzY2T2VjS1lhOTkxbTVVVzItRnN4Tkp5VHgxa0dudEs1TDV6Zk12RDNUMDU4dHZTVGlYS0ZRWExxQnE1RHZ3WGE0OG1KWE9STWpiSkNybkh5ZW5JQThLQWxYYmxxX0tYVUhnNHdSWkFwVzln?oc=5",
-   "source": "Sofascore",
-   "published": "2026-11-15T03:22:04Z",
+   "title": "POST-RAW | Nugent-Hopkins 11.14.26",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNDRVbzJnRGU4SHN3eXJFWkViWk9rTUE1a0RiUF8yTHp5NG9UQWlHT043Q2dtNFA2TXhWN0ZpMHVJN0pLRFFUbl9WYzlTMnE3VjZQNm9ZUC00VDVjdXk5bTBpRnFPcUY5amw1V2YxUHpkSFRHZ2RqQy03TzhCcWMtcXpXY1Eya1VRczE5Zw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-15T03:35:29Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Devon Levi, Oilers hand Leafs sixth straight loss in shutout",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWTBUV25NUGlBdU5KemhlUUxScEl4WUN5b1FfWVR6NEJ3ckNxeXgyZWszaUNlZnlGNE1xNzNsVGNWSGY0aEwxMkRJZTd2WGt0UWNoeFU2TVRYbDA4NFNsdkg0MXlzQURpb1VJWS1kalJnRTdwcTdJVmVjV3dUaUxMUUNGS25JUXMxMUEza0pFTzZNOGNYblItY3RIdWh6Q3g4RTYxRTJ3?oc=5",
+   "source": "KNBR",
+   "published": "2026-11-15T03:32:24Z",
    "snippet": "",
    "via": "google"
   },
@@ -20,7 +28,15 @@
    "title": "McDavid’s season-opening point streak hits 21, Oilers blank Maple Leafs",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcjZmbEtmT05XN3BjYUdhRTNNZDYzS0lwLXV6aHVuaW5qNmFJWUdBdHczemNueDExV3hsZHdRM2tydVUwX0JWRUd6TG5XTVVYMUNhclR2bTIzOU8xQXo4SWtMaTIyd2VZOTZUeDdDOHZUVU8tamFfcTg0OGpNT1dpcFpPM0k0WTBNRHptTXhvdEhEUQ?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-15T03:16:59Z",
+   "published": "2026-11-15T03:22:23Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL: Oilers 1-0 Maple Leafs, Bouchard scores",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3NfaEJiRkxZUGQxY2x2bmhhNVRqRE9GRF8wYzY2T2VjS1lhOTkxbTVVVzItRnN4Tkp5VHgxa0dudEs1TDV6Zk12RDNUMDU4dHZTVGlYS0ZRWExxQnE1RHZ3WGE0OG1KWE9STWpiSkNybkh5ZW5JQThLQWxYYmxxX0tYVUhnNHdSWkFwVzln?oc=5",
+   "source": "Sofascore",
+   "published": "2026-11-15T03:22:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -57,9 +73,9 @@
   },
   {
    "title": "Levi, McDavid help Oilers hand Maple Leafs sixth straight home loss",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUDhUS3RoV2hQSG42QjZ5NjctSVpYbE4wNW1iSkRyM3NDQURTR1FFN1FWV2JmZTZFQ1JETHRERVVXZHN6d3hqQzNocko3NWlNNUZ3OVJtdGNpS2JZRjJqQ0pURjNhQXJDVFQwOVNIX0IyZlAwd2tvTFk3enpzdktGcVJaR2hDbDM1d09aTWhuZTNQaUxtV1Q4MFJvMlhtZDM0ZWdCNmMxWQ?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-15T03:04:00Z",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaTg3dXZ4UkpaR1ZWRkw4dzNYYnBFdUJnREp5UmdWQVA4azhoQjlvMXB5a0trQlVYUEczNWdCblEtVmNaNm9EU2FaejdnRTBHZmxHRjBsTVBtQkN1cFdLekowYmo1RW1DWllCQWtPY3d2cW1aWEwyaWJpVkpBcXJGOTJ1Yi03NTA1bHY5eWJyZVFocjA1SkFsZW10bHlLMkxBdTZzM25xMlFQaGFDeThj?oc=5",
+   "source": "Castanet",
+   "published": "2026-11-15T03:02:58Z",
    "snippet": "",
    "via": "google"
   },
@@ -75,6 +91,22 @@
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFBhVkZBYkFESmEwZm5qS2VkVHZmOWs1RmVOaGtlWVVOT0pCNEJqZjVVNkxkY2lsSmtveU9pMUxzUzAtX0xpSG1lbU42ekhkb2x1dlo0MDMySmJQUEdfaVBjNktjdkg2RVh6VkN0U1NXbUYyeG1vYnVTYlI3bHZ0cS1CaThxbFkxTXlGRGVlZFQ3MDRDaVhFS2hCeG1fWXUteFBPT3BDTEp2emhuUDBuVHBTN3JTVkFadUFIekNzNGxoUURpTWdMTGotWQ?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-15T02:57:30Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Maple Leafs' horrible home stand ends with shutout loss to Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMnExZExqNkZGb3d3d2NRWmlmWmNZU0gzSC1VbnhLc2xGMlptVFBNd2tRTnlweVlfMFdPc2MyWGpRdWJSNVJCWWlaS0hEYWx2ZW9Wel9KWkdMRi1aTlNMMWhza3VjSm5lSTZnTFR1VXhtUFdQb2xYWjdDbEJmUUJKWGY2cnR4VVF0SWN5ZHJVOENwNzdhWHhwNDc2bWNpU0JqeV94TE1sM0cyX1BTalNvekF3Ri0tTDBHYU1wcUo2aEEtbzQ?oc=5",
+   "source": "Toronto Sun",
+   "published": "2026-11-15T02:55:39Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Levi, McDavid help Oilers top Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbmJBMTlZdGI2ak56SjhJSDlSR3gyWVhhSXNTOVpZNU9xRkpHdDA5MWZheEhUSXdNaXNQVDVKa2hQc1RPYmVvVFZJLVp4WFZWRnZHTjlzNHZicFZDQXAzenBsYjdibmhwWU1jNFNkS1R5ekg1ZWJnQ1FMaDlxRm5UeExCTQ?oc=5",
+   "source": "Global News",
+   "published": "2026-11-15T02:47:20Z",
    "snippet": "",
    "via": "google"
   },
@@ -103,6 +135,14 @@
    "via": "google"
   },
   {
+   "title": "Edmonton Oilers 1 - Toronto Maple Leafs 0: 3rd 4:33",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-15T02:32:23Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Maple Leafs’ Tavares has goal overturned for high stick vs. Oilers",
    "url": "https://www.sportsnet.ca/nhl/video/maple-leafs-tavares-has-goal-overturned-for-high-stick-vs-oilers/",
    "source": "Sportsnet",
@@ -115,14 +155,6 @@
    "source": "Sportsnet",
    "published": "2026-11-15T02:12:20Z",
    "snippet": "On this edition of Saturday Headlines, Elliotte Friedman discusses the Senators looking to find a fresh start for Andre Burakovsky on a different team, Matvei Michkov’s intent to stay with…"
-  },
-  {
-   "title": "Edmonton Oilers 1 - Toronto Maple Leafs 0: End 2nd",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-15T01:58:33Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Oilers' McDavid hits 50 points, sets personal-best point streak",
@@ -152,38 +184,6 @@
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVEdvVW9oVTdOaEIyWjFiSzN2aDIwWTN2VS14ekROV3NoV1M3YlJkQ2VIdkM4aFNxS3ZWZk5IbU01Yml1U0l0dTZ5Z1JUVVozcWFnU2xOakx0YkQ1MEM0OWNscktoc19PTnZ0T1hwNWhOUTlTZ0pzc0ZjYjB6ZGwxdFZRb25jaHlMeF9N?oc=5",
    "source": "Northern Ontario Business",
    "published": "2026-11-15T01:19:02Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "(LIVESTREA.Ms!) Toronto Maple Leafs vs Edmonton Oilers Live Free NHL Hockey Game On TV Channel",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE51TzRwRUVpNVJSbFFxWDR1V3VPcnF2MXk1a2ZBeFB5YUQ3eHpIMjNPWm94T3hVTDdCWFhRdE5DV3VCdVRvYVFtLVh4cU82YnJLWng4OGJMUFNTWkVRX0VMNmg0Y1RqTUNfcFNNeVd4aFlQV2s2N1BTOENnMA?oc=5",
-   "source": "Guelph News",
-   "published": "2026-11-15T01:02:08Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers rock Elks jerseys in show of Grey Cup support",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYV9keHNpVmdoSHFMNmtfamJSdEpjX1dFTmI2bkJ3ZHpoOWZMTzBTdmNTQnU5bHNnb2JNc1JRbURqRzQ1YnBzNFMyeXJwRTlpOVRqWUcwSDNTWVBBRkE3SDZidjIyWE5RbUNGekxub0lORDFjSUtBRkxPbk9JdTFGVWxVM0hkLXZOaGhENVlFbm90YkU2YTNGSm5sQWVyUQ?oc=5",
-   "source": "3DownNation",
-   "published": "2026-11-15T01:00:23Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "LIVE UPDATES: Oilers at Maple Leafs vs Edmonton Oilers Live Tv",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA0ZG5abE85Qm85V1NZaExEcC1RbTlCWmp4QWcxVmVQazlqZmJRU3VDYVFMczlPUXpQcXpmalVNYTVNSTdhMHU3TFBHY2gtcEExbjJ2WWJlb3BCU2ZkY1hQTk4ydU96UHUwVnJTVWtkTUo3a3ZF?oc=5",
-   "source": "Powell River Peak",
-   "published": "2026-11-15T00:55:11Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers vs Maple Leafs LIVE Score Updates and Play-by-Play",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPakxtWmdSS0NzOFpuMWM3bktmam9jQzhmQmcyMW41aDVWeWhSb0s5U1c5bWdtXzhDdXF0QWJTanBvejY5R2JMaHVjM3BBWWVHTzJhOW9LaWVIWnBrSWtqc0Fia0x3ZnhVTmxzS1dseWQzNGxwUnUxc0lHNmczLWxUSHRSX3VYbko0MkpZ?oc=5",
-   "source": "Northern Ontario Business",
-   "published": "2026-11-15T00:50:40Z",
    "snippet": "",
    "via": "google"
   },
