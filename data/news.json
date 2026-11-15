@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-15T05:30:41Z",
+ "updated": "2026-11-15T06:31:53Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (15)",
-  "Google News (97)"
+  "Sportsnet (14)",
+  "Google News (98)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Maple Leafs' horrible home stand ends with shutout loss to Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMnExZExqNkZGb3d3d2NRWmlmWmNZU0gzSC1VbnhLc2xGMlptVFBNd2tRTnlweVlfMFdPc2MyWGpRdWJSNVJCWWlaS0hEYWx2ZW9Wel9KWkdMRi1aTlNMMWhza3VjSm5lSTZnTFR1VXhtUFdQb2xYWjdDbEJmUUJKWGY2cnR4VVF0SWN5ZHJVOENwNzdhWHhwNDc2bWNpU0JqeV94TE1sM0cyX1BTalNvekF3Ri0tTDBHYU1wcUo2aEEtbzQ?oc=5",
+   "source": "Toronto Sun",
+   "published": "2026-11-15T05:47:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "QUICK RECAP: Oilers 1, Maple Leafs 0",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSmlfOWxVRGNUR0REOXRPd1pGY01nb1pqLTNyZjhEMEU4a1JBMjhtWFJTM25Yc1pPN3JkZTVycndSa3h2TW54WUhZTjdXelFIWmN6MVlIdkV2aUw0WnRjMUloSV9PTEkxYVp2dngwRE1yaVZUc2huR3QtZ2g2bV8yQg?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-15T05:37:30Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers beat Maple Leafs (Home)",
    "url": "https://www.sportsnet.ca/?sn-collection=oilers-beat-maple-leafs-home",
@@ -20,6 +36,14 @@
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNM2FfMHpCbjN4d3M5MEZSLVRObnV3MUx0S2M3dTlLX2s1bFhnMmc5amJGRUZ3SzI4ZmhMMEphZjR6S2VSQXh1b0VTbFBubTlwcmtZMnFBZjR1cFFUc210cGNMbnJkWUF5MDR0SWZmX0hTYmlmbWozTXJ6dUhja2dqZHo5Wmp3YWRIa05PQmZ2eGFDd1VWU1dzZDln?oc=5",
    "source": "Sportsnet.ca",
    "published": "2026-11-15T05:19:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-15T04:51:49Z",
    "snippet": "",
    "via": "google"
   },
@@ -66,7 +90,7 @@
    "title": "Boring but effective: Oilers choke the life out of hapless Maple Leafs",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaFBhVkZBYkFESmEwZm5qS2VkVHZmOWs1RmVOaGtlWVVOT0pCNEJqZjVVNkxkY2lsSmtveU9pMUxzUzAtX0xpSG1lbU42ekhkb2x1dlo0MDMySmJQUEdfaVBjNktjdkg2RVh6VkN0U1NXbUYyeG1vYnVTYlI3bHZ0cS1CaThxbFkxTXlGRGVlZFQ3MDRDaVhFS2hCeG1fWXUteFBPT3BDTEp2emhuUDBuVHBTN3JTVkFadUFIekNzNGxoUURpTWdMTGotWQ?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-15T04:18:45Z",
+   "published": "2026-11-15T04:23:43Z",
    "snippet": "",
    "via": "google"
   },
@@ -95,14 +119,6 @@
    "via": "google"
   },
   {
-   "title": "QUICK RECAP: Oilers 1, Maple Leafs 0",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSmlfOWxVRGNUR0REOXRPd1pGY01nb1pqLTNyZjhEMEU4a1JBMjhtWFJTM25Yc1pPN3JkZTVycndSa3h2TW54WUhZTjdXelFIWmN6MVlIdkV2aUw0WnRjMUloSV9PTEkxYVp2dngwRE1yaVZUc2huR3QtZ2g2bV8yQg?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-15T03:54:25Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "POST-RAW | Nugent-Hopkins 11.14.26",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNDRVbzJnRGU4SHN3eXJFWkViWk9rTUE1a0RiUF8yTHp5NG9UQWlHT043Q2dtNFA2TXhWN0ZpMHVJN0pLRFFUbl9WYzlTMnE3VjZQNm9ZUC00VDVjdXk5bTBpRnFPcUY5amw1V2YxUHpkSFRHZ2RqQy03TzhCcWMtcXpXY1Eya1VRczE5Zw?oc=5",
    "source": "NHL.com",
@@ -115,6 +131,14 @@
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-15T03:29:31Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL: Oilers 1-0 Maple Leafs, Bouchard scores",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3NfaEJiRkxZUGQxY2x2bmhhNVRqRE9GRF8wYzY2T2VjS1lhOTkxbTVVVzItRnN4Tkp5VHgxa0dudEs1TDV6Zk12RDNUMDU4dHZTVGlYS0ZRWExxQnE1RHZ3WGE0OG1KWE9STWpiSkNybkh5ZW5JQThLQWxYYmxxX0tYVUhnNHdSWkFwVzln?oc=5",
+   "source": "Sofascore",
+   "published": "2026-11-15T03:22:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -155,30 +179,6 @@
    "source": "Sportsnet",
    "published": "2026-11-15T02:58:55Z",
    "snippet": "Connor McDavid extended his point streak to 21 games with an assist on the games lone goal, and Devon Levi made 19 saves to earn his first career shutout as the Edmonton Oilers blanked the…"
-  },
-  {
-   "title": "Maple Leafs' horrible home stand ends with shutout loss to Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMnExZExqNkZGb3d3d2NRWmlmWmNZU0gzSC1VbnhLc2xGMlptVFBNd2tRTnlweVlfMFdPc2MyWGpRdWJSNVJCWWlaS0hEYWx2ZW9Wel9KWkdMRi1aTlNMMWhza3VjSm5lSTZnTFR1VXhtUFdQb2xYWjdDbEJmUUJKWGY2cnR4VVF0SWN5ZHJVOENwNzdhWHhwNDc2bWNpU0JqeV94TE1sM0cyX1BTalNvekF3Ri0tTDBHYU1wcUo2aEEtbzQ?oc=5",
-   "source": "Toronto Sun",
-   "published": "2026-11-15T02:55:39Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Levi, McDavid help Oilers top Maple Leafs",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbmJBMTlZdGI2ak56SjhJSDlSR3gyWVhhSXNTOVpZNU9xRkpHdDA5MWZheEhUSXdNaXNQVDVKa2hQc1RPYmVvVFZJLVp4WFZWRnZHTjlzNHZicFZDQXAzenBsYjdibmhwWU1jNFNkS1R5ekg1ZWJnQ1FMaDlxRm5UeExCTQ?oc=5",
-   "source": "Global News",
-   "published": "2026-11-15T02:47:20Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Connor McDavid and the Oilers punctuate worst homestand in Maple Leafs’ 109-year history",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORlpiOTgyeXU4TXUyUGg4aWhxbXFLaWFCcXplRU1ZYkFleWZOem5JclVRVjNfWkxrVDJ0dlpFWE1udTExNHAtdkdsWUJjUThQbFJVdGlQZVkzc092aVI0LU40RWJQMVFGdG5rbGN1dGZYam5wdVpleUh3MW9hbm9FMTF1aWI0dHNHMURqek5EUnBDOUV0R01VSE1VQ0JKUUtxR0FnTThxT3VTUk5lY1J6Vl9fNzMyRGU1SDFLTEV1QmI2azg?oc=5",
-   "source": "The Leafs Nation",
-   "published": "2026-11-15T02:46:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Maple Leafs’ Tavares has goal overturned for high stick vs. Oilers",
@@ -265,18 +265,18 @@
    "snippet": "TORONTO, ON – If you’re stuck in the past, you’re never going to improve, and have fun with the people around you while doing it. That was the morning message from Head Coach Mike Babcock,…"
   },
   {
-   "title": "Oilers superstar Connor McDavid brings his Gretzky vibe to Toronto",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-superstar-connor-mcdavid-brings-his-gretzky-vibe-to-toronto/",
-   "source": "Sportsnet",
-   "published": "2026-11-13T21:44:54Z",
-   "snippet": "There will never be another Wayne Gretzky, but, as Mark Spector writes, there’s definitely a Gretzkian vibe around Connor McDavid right now."
-  },
-  {
    "title": "Edmonton Oilers and Mike Babcock riding high while Maple Leafs stumble",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers-toronto-maple-leafs-babcock-mcdavid",
    "source": "Edmonton Journal",
    "published": "2026-11-13T21:42:57Z",
    "snippet": "“It’s an important game, we have a lot of Toronto guys,” said McDavid. “This is a hometown game for a lot of guys and we want to make sure it’s a good one\""
+  },
+  {
+   "title": "'Worth all the tears': Edmonton Elks fans are relishing chance at Grey Cup",
+   "url": "https://edmontonjournal.com/news/local-news/edmonton-elks-fans-grey-cup-ed-hervey-chris-morris",
+   "source": "Edmonton Journal",
+   "published": "2026-11-13T20:38:18Z",
+   "snippet": "'It's been a really long road, but it just felt like redemption, especially for us long time fans who've been through the darkest times with this team'"
   }
  ]
 }
