@@ -364,9 +364,9 @@
    ],
    [
     {
-     "id": 8484142,
-     "name": "Denver Barkey",
-     "num": 86,
+     "id": 8483787,
+     "name": "Cole Knuble",
+     "num": 54,
      "pos": "LW"
     },
     {
@@ -406,9 +406,9 @@
      "pos": "LD"
     },
     {
-     "id": 8484148,
-     "name": "Oliver Bonk",
-     "num": 59,
+     "id": 8481122,
+     "name": "Simon Benoit",
+     "num": 44,
      "pos": "RD"
     }
    ],
@@ -434,6 +434,13 @@
     "num": 17,
     "pos": "RW",
     "status": "IR"
+   },
+   {
+    "id": 8484142,
+    "name": "Denver Barkey",
+    "num": 86,
+    "pos": "C",
+    "status": "Out"
    }
   ],
   "notes": [],
@@ -468,5 +475,5 @@
    "note": "Vladar will start Sunday vs. the Oilers. "
   }
  },
- "updated": "2026-11-15T13:33:50Z"
+ "updated": "2026-11-15T22:43:21Z"
 }
