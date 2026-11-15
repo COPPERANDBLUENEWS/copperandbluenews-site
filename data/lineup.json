@@ -3,7 +3,7 @@
   "id": 2026020314,
   "startTimeUTC": "2026-11-15T00:00:00Z",
   "gameDate": "2026-11-14",
-  "state": "LIVE",
+  "state": "FINAL",
   "home": false,
   "venue": "Scotiabank Arena",
   "opponent": {
@@ -506,5 +506,5 @@
    "note": "Stolarz will start Saturday vs. the Oilers. "
   }
  },
- "updated": "2026-11-15T01:12:45Z"
+ "updated": "2026-11-15T02:54:19Z"
 }
