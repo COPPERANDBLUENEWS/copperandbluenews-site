@@ -1,13 +1,45 @@
 {
- "updated": "2026-11-15T11:18:45Z",
+ "updated": "2026-11-15T12:17:41Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (14)",
-  "Google News (95)"
+  "Google News (94)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Maple Leafs play their best game in weeks and still lose to Oilers",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQ0l1elBveWtraTl3c05tbWhOMXpxT0NCajdQcmZuWllKX1k0enI4bElYYnJ3ZFp1UTk1LTUyX2I1Q2V3aXNfb0JDTlBPRmJnRzVtcFctekVYVHBhQjlXelJKaGVXMmhkelpyek95S0NNeGpqeW1WY0xaYTN5MmlkX0VCaGVCYnc5elVGd3VLejh5QThIVUE?oc=5",
+   "source": "Editor In Leaf",
+   "published": "2026-11-15T11:52:55Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers vs. Maple Leafs Game Recap, Best 20-Game Starts & All-Time European Goalies",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1QeVEtWWxLbzJqNUl6Nl9aTHBaSS1MQzk0a2VQSUxtRW51d1dJYVJGZ3dqVl9KYnNodjBwMms4WU9ySDZobWFWVHhEblhDWWRBQTNDX3JVbVNiMVp5S0thSkJoMldzYWhyMHoxN0xOai1md2xBSE4tZVF0MEk?oc=5",
+   "source": "Substack",
+   "published": "2026-11-15T11:35:33Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "John Tavares | Post Game vs Edmonton Oilers | November 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc1BQeGtFRUdhd2tGZUdXUWF2M0hueEp1NFpDS3djY25YTERTRFMwR2Rod3kzREpGYkVoNE0ycVd4SmtnODhPV1RscDlIZC1oVG1URXpOVlJoalNfN2IyeFlfclBSeFJmNEt1Ymd6bzJ3QWVfOXh4Y3lKOXdlSzRwTkhKNHVrZ3ZXT3l3WldqVVA2WU5ybWU0?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-15T11:33:05Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Maple Leafs Full Media Availability | Post Game vs Edmonton Oilers | November 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc0FrVG9jNWlUYTktVk1KTF9xekdVN2s5LW5xZ2lUUUtHTEpxTFh2SUJmV3FFLUNGS2c0RFFPVTRDckdYVm5sYzREa0FyY29MWGh1THZQVFgweU15aXdaTlNpMVdMdnJmcVh6Vlg0UWxBbWhDNWlESVJuQTd4ZXhxZ1BoZ2o1eXo4aERTTE1SNF9hR0tldmhkdTVCQWhnV0ZFWjR4M2pscDBVSUZ2OEpycUhCd01Zdw?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-15T11:30:20Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "The Edmonton Oilers are off to one of their best starts in years. So, why are we not having more fun?: 9 Things",
    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTmE4a2xIbmVaRXpaQjFMZGpTWkZJZktHbEgyTUlLYzNFWGhxdVhIZ1RfN2xIU3JJZG5WYWJnM3lvSkhaaFY4UkRlWGtTLVVUb296MEo5ajZSQTBfbHJmekpUUElHVk94dEdRWEItSzJoLU12MHo5VFgwSTVpWGhaMHdIdHJfcVJHbzZmOXJoQTRWdnhfR3g2RzVyQ0lEeFFPTm51Z1lVU0ZXa0ZXSmtWVmtMYWltWDhoOWxpejJ6NHdBczlsQVQ0RmdTeUk2Z2NHRURJTjVzc1ZtRWprd2ZLUm9mYktYUkdvR3plOFBlOEdxTmRhV0Y3S2ZuZl8?oc=5",
@@ -29,14 +61,6 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
    "source": "NHL.com",
    "published": "2026-11-15T08:42:03Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "John Tavares | Pre Game vs Edmonton Oilers | November 14, 2026",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaWlPT3A3MHB2d252cWtrLXAzQkVvZU1VcGhJNDh4STd4MzBtOGdNcEhoOExOQndjckZGUGVORE9KS184djRqeFFubWg5MlU0ZW8zel9xY1gyc09tZndzbEdyNjBzM2xYMmZIYjFfcGU3SWp3T3diUlhkZDNPS0k2MnNHaTFERHZmMEpnNUJfQUpiZmtiaU1j?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-15T08:15:31Z",
    "snippet": "",
    "via": "google"
   },
@@ -139,30 +163,6 @@
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaTg3dXZ4UkpaR1ZWRkw4dzNYYnBFdUJnREp5UmdWQVA4azhoQjlvMXB5a0trQlVYUEczNWdCblEtVmNaNm9EU2FaejdnRTBHZmxHRjBsTVBtQkN1cFdLekowYmo1RW1DWllCQWtPY3d2cW1aWEwyaWJpVkpBcXJGOTJ1Yi03NTA1bHY5eWJyZVFocjA1SkFsZW10bHlLMkxBdTZzM25xMlFQaGFDeThj?oc=5",
    "source": "Castanet",
    "published": "2026-11-15T03:46:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers shut out Leafs for Toronto's 6th straight home loss",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWk5VT3NnNzAtUU9FVjZlQVBYV2dvUnVaNDhpY3dkOGc2Zkd3OUwwMHJNeEN3Q1YtYVM4dVVYSHpLb0tGUWRVdmdyTVEweVBPaWQ0bXA2Y29KUXdVaHhHS2k1ZXNhbzRVeU1leTYwcG03N0Y5WDJ6c2FKSlBSRmxWYXU1VFhNc3pjazZOOURwS2pQQnhkMWVsWFFrNHUxc0NRWlE?oc=5",
-   "source": "theScore",
-   "published": "2026-11-15T03:23:46Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL: Oilers 1-0 Maple Leafs, Bouchard scores",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3NfaEJiRkxZUGQxY2x2bmhhNVRqRE9GRF8wYzY2T2VjS1lhOTkxbTVVVzItRnN4Tkp5VHgxa0dudEs1TDV6Zk12RDNUMDU4dHZTVGlYS0ZRWExxQnE1RHZ3WGE0OG1KWE9STWpiSkNybkh5ZW5JQThLQWxYYmxxX0tYVUhnNHdSWkFwVzln?oc=5",
-   "source": "Sofascore",
-   "published": "2026-11-15T03:22:04Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Levi records first career shutout in Oilers 1-0 win over Maple Leafs",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeDhVemR0aF9kNkVHWmZMRVl4eVphYnB6LWgySW5PdG5fUVZhaVFxZk9YMkpERjlPcTA2NWdFX2oyTk5OLXFuSVhyZ0JjTlFGbC13OVdKNGFuVUFmSWw0YmpxbWVwRnVlcVVYUndFWHhkUVh0ZEx5VkhPbkNwYjZvb21lMl9lZXVHTTNYazlsdTdCN1VOR0xkWUFtSW9vQ2xiTjE3Z2lsSHpoYzRoRkdlakpZM2Y?oc=5",
-   "source": "The Globe and Mail",
-   "published": "2026-11-15T03:15:42Z",
    "snippet": "",
    "via": "google"
   },
