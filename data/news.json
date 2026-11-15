@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-15T10:23:35Z",
+ "updated": "2026-11-15T11:18:45Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (14)",
-  "Google News (98)"
+  "Google News (95)"
  ],
  "errors": [],
  "items": [
@@ -17,10 +17,18 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers - Florida Panthers - Nov 17, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fc080OVpCN1JHa2JZek15eFRqUjZMWFJsN0hFSkstY2gzVnJTN1JrNmJKNW1Tc002TlNyQWNhMWtERE5rTGVPYlp0UU1TNWhYbDN2MjlqVlhUVE9zS19sRmZhNXM1X1Fra3RCRkpOR0o?oc=5",
+   "title": "Edmonton Oilers 1 - Toronto Maple Leafs 0: Final score, results, recap, box score, stats",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-15T09:54:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-15T08:42:01Z",
+   "published": "2026-11-15T08:42:03Z",
    "snippet": "",
    "via": "google"
   },
@@ -29,22 +37,6 @@
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaWlPT3A3MHB2d252cWtrLXAzQkVvZU1VcGhJNDh4STd4MzBtOGdNcEhoOExOQndjckZGUGVORE9KS184djRqeFFubWg5MlU0ZW8zel9xY1gyc09tZndzbEdyNjBzM2xYMmZIYjFfcGU3SWp3T3diUlhkZDNPS0k2MnNHaTFERHZmMEpnNUJfQUpiZmtiaU1j?oc=5",
    "source": "NHL.com",
    "published": "2026-11-15T08:15:31Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers 1 - Toronto Maple Leafs 0: Final score, results, recap, box score, stats",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1JiYzNoSGRMbjdGWFFXNVRSazBlYTZwRGg3Y0J0YWtOWVNjX3d2em1ING13c09fcFVCT0FFaTdDWFdZMnlMUkNPUHN4MjBIT2tHZzZkb0RRZFhhaVZ3bWdXN0F6NWlRdVI4RkZ4MkFvTTVWemlIWVFGNy0zWTRlV3pR?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-15T07:59:32Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers - Toronto Maple Leafs - Nov 14, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PYkJVOGNXRVNUZTZqekRKT1lVeFJXaEdQRXo5cEhhUGtRU1Y5ZEZ5eGtkd1RPb2RiYUE1bHlDREpGb1pKWHVnSGk2a05CY080UXN0ek9xY2J4cU1iZUs1b2xwQVZ4SGZRb0sxUUxjS2M?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-15T07:52:16Z",
    "snippet": "",
    "via": "google"
   },
@@ -163,6 +155,14 @@
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3NfaEJiRkxZUGQxY2x2bmhhNVRqRE9GRF8wYzY2T2VjS1lhOTkxbTVVVzItRnN4Tkp5VHgxa0dudEs1TDV6Zk12RDNUMDU4dHZTVGlYS0ZRWExxQnE1RHZ3WGE0OG1KWE9STWpiSkNybkh5ZW5JQThLQWxYYmxxX0tYVUhnNHdSWkFwVzln?oc=5",
    "source": "Sofascore",
    "published": "2026-11-15T03:22:04Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Levi records first career shutout in Oilers 1-0 win over Maple Leafs",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeDhVemR0aF9kNkVHWmZMRVl4eVphYnB6LWgySW5PdG5fUVZhaVFxZk9YMkpERjlPcTA2NWdFX2oyTk5OLXFuSVhyZ0JjTlFGbC13OVdKNGFuVUFmSWw0YmpxbWVwRnVlcVVYUndFWHhkUVh0ZEx5VkhPbkNwYjZvb21lMl9lZXVHTTNYazlsdTdCN1VOR0xkWUFtSW9vQ2xiTjE3Z2lsSHpoYzRoRkdlakpZM2Y?oc=5",
+   "source": "The Globe and Mail",
+   "published": "2026-11-15T03:15:42Z",
    "snippet": "",
    "via": "google"
   },
