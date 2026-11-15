@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-15T18:51:32Z",
+ "updated": "2026-11-15T19:25:41Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (13)",
-  "Google News (86)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Flyers Game 23: Lines, Notes, & How to Watch vs. Oilers",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV0JtbU5RdGpxZlNaZlZxWjdUSDdkV3E4TVlNcmhnRGZtVV9oUzRscE90YXNNN3ZNM202NEhEV0hSazF2LUNDako0RkxfZ1R4VFkzQ3k4RjB3MzVhcTd4OUtsd0lEZDhhU2MxZUtaLS1fS2w1VEoxWW1KR29GdGEzag?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-15T18:39:27Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Levi Stays Hot In Edmonton, Sabres Goaltending Actually Worse",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQkNGbGNGWkRTSHkwQlMxb3lKZ2NaU1VmTzFMNXo5cDVaVmZDTDRVaTJTbzVvdW15RFNpTzlnYW8weTllODNyandsbUlPRjM3Rzk0Ul9RUU1qZ0xwNm0zb1dpSkNZeFdnSTEyQV95dGxxNkR5dWFaVkg4VHozYTV4eUFLZGJIRHAxNGtJaEpJaTBVb0N5WENKTHpVOGRjTGZWMEp0WmREQWg2OU90VlpSVVFIWVVFbUFNMGc?oc=5",
@@ -23,20 +31,6 @@
    "published": "2026-11-15T17:51:00Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "One guarantee, one quiet answer: Alouettes, Elks take different routes into Grey Cup",
-   "url": "http://edmontonjournal.com/sports/one-guarantee-one-quiet-answer-alouettes-elks-take-different-routes-into-grey-cup/wcm/7c9add05-a73d-4721-8cfe-6a9433057831",
-   "source": "Edmonton Journal",
-   "published": "2026-11-15T17:39:58Z",
-   "snippet": "Elks shrug off Tyler Snead's Grey Cup guarantee as title game nears"
-  },
-  {
-   "title": "10 stars to watch in the 113th Grey Cup",
-   "url": "http://edmontonjournal.com/sports/10-stars-to-watch-in-the-113th-grey-cup/wcm/0ba7758b-5e25-4583-8378-f300f3d4e0ac",
-   "source": "Edmonton Journal",
-   "published": "2026-11-15T17:37:25Z",
-   "snippet": "10 players who could decide the Grey Cup between Alouettes and Elks"
   },
   {
    "title": "Owen Tippett to Edmonton? Nikishin to Maple Leafs Trade Fits",
@@ -159,14 +153,6 @@
    "via": "google"
   },
   {
-   "title": "3 Takeaways From Oilers’ 1-0 Win Over Maple Leafs",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcXE5T2oyMTI4Q2RvS1F6eFlBNThMSjhxNHF6OTdxeEQ5cnByck9iYkQ5V3NidHZHVktRRDVsaVp1cGJkdzRfUzRWTXRXOXhkTm5wY2YtVmVpT0kxbU54ZjNfSHYtbWZYa3phTDR1QlJ1VVpIUThMQzNkUDM3TWhuQnVRQnQ4NzN1TTl1ODBiT1YyVzg?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-15T13:35:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "The Edmonton Oilers are off to one of their best starts in years. So, why are we not having more fun?: 9 Things",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/the-edmonton-oilers-are-off-to-one-of-their-best-starts-in-years-so-why-are-we-not-having-more-fun-9-things",
    "source": "Edmonton Journal",
@@ -277,6 +263,20 @@
    "source": "Edmonton Journal",
    "published": "2026-11-14T23:05:06Z",
    "snippet": ""
+  },
+  {
+   "title": "Could Grey Cup Sunday mark an end for Edmonton Elks QB Cody Fajardo?",
+   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/could-grey-cup-sunday-mark-an-end-for-edmonton-elks-qb-cody-fajardo",
+   "source": "Edmonton Journal",
+   "published": "2026-11-14T21:14:03Z",
+   "snippet": ""
+  },
+  {
+   "title": "Five-time Stanley Cup champion Tikkanen drops puck at Global Series Finland",
+   "url": "https://www.nhl.com/news/esa-tikkanen-puck-drop-global-series-finland",
+   "source": "NHL.com",
+   "published": "2026-11-14T19:35:00Z",
+   "snippet": "Finland cheered for one of it's greatest winners on Saturday. Five-time Stanley Cup champion and Helsinki native Esa Tikkanen dropped the puck before the 2026 NHL Global Series game between…"
   }
  ]
 }
