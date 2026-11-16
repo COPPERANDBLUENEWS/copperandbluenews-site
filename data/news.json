@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16T16:39:21Z",
+ "updated": "2026-11-16T16:45:42Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (13)",
+  "Sportsnet (12)",
   "Google News (89)"
  ],
  "errors": [],
@@ -272,11 +272,11 @@
    "snippet": "Connor McDavid is showing shades of Wayne Gretzky once again."
   },
   {
-   "title": "Oilers’ McDavid reaches 40 assists as Draisaitl scores on power play",
-   "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-reaches-40-assists-as-draisaitl-scores-on-power-play/",
-   "source": "Sportsnet",
-   "published": "2026-11-16T01:49:49Z",
-   "snippet": "Oilers captain Connor McDavid ties Wayne Gretzky’s NHL record for the fastest to 40 assists in a season, reaching the milestone in just 22 games with an assist on Leon Draisaitl’s…"
+   "title": "QUICK RECAP: Oilers 5, Flyers 2",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-flyers-11-15-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-16T00:29:06.382Z",
+   "snippet": "PHILADELPHIA, PA – Flyin' high in Philadelphia to secure our fifth straight win. Powered by three points each from Leon Draisaitl & Connor McDavid, 34 saves from Tristan Jarry and an…"
   }
  ]
 }
