@@ -1,6 +1,30 @@
 {
-  "updated": "2026-11-16T01:30:30+00:00",
+  "updated": "2026-11-16T04:20:40+00:00",
   "next": {
+    "id": 2026020335,
+    "gameType": 2,
+    "startTimeUTC": "2026-11-18T00:00:00Z",
+    "dateMT": "Tue Nov 17",
+    "timeMT": "6 PM MT",
+    "timePT": "5 PM PT",
+    "venue": "Amerant Bank Arena",
+    "state": "FUT",
+    "scheduleState": "OK",
+    "lastPeriod": null,
+    "away": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "place": "Edmonton",
+      "score": null
+    },
+    "home": {
+      "abbrev": "FLA",
+      "name": "Panthers",
+      "place": "Florida",
+      "score": null
+    }
+  },
+  "last": {
     "id": 2026020326,
     "gameType": 2,
     "startTimeUTC": "2026-11-16T00:30:00Z",
@@ -8,30 +32,6 @@
     "timeMT": "6:30 PM MT",
     "timePT": "5:30 PM PT",
     "venue": "Xfinity Mobile Arena",
-    "state": "LIVE",
-    "scheduleState": "OK",
-    "lastPeriod": null,
-    "away": {
-      "abbrev": "EDM",
-      "name": "Oilers",
-      "place": "Edmonton",
-      "score": 3
-    },
-    "home": {
-      "abbrev": "PHI",
-      "name": "Flyers",
-      "place": "Philadelphia",
-      "score": 0
-    }
-  },
-  "last": {
-    "id": 2026020314,
-    "gameType": 2,
-    "startTimeUTC": "2026-11-15T00:00:00Z",
-    "dateMT": "Sat Nov 14",
-    "timeMT": "6 PM MT",
-    "timePT": "5 PM PT",
-    "venue": "Scotiabank Arena",
     "state": "OFF",
     "scheduleState": "OK",
     "lastPeriod": "REG",
@@ -39,24 +39,24 @@
       "abbrev": "EDM",
       "name": "Oilers",
       "place": "Edmonton",
-      "score": 1
+      "score": 5
     },
     "home": {
-      "abbrev": "TOR",
-      "name": "Maple Leafs",
-      "place": "Toronto",
-      "score": 0
+      "abbrev": "PHI",
+      "name": "Flyers",
+      "place": "Philadelphia",
+      "score": 2
     }
   },
   "standings": {
-    "wins": 15,
+    "wins": 16,
     "losses": 3,
     "otLosses": 3,
-    "points": 33,
-    "gamesPlayed": 21,
+    "points": 35,
+    "gamesPlayed": 22,
     "divisionSequence": 1,
     "divisionName": "Pacific",
     "streakCode": "W",
-    "streakCount": 4
+    "streakCount": 5
   }
 }
