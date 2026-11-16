@@ -3,7 +3,7 @@
   "id": 2026020326,
   "startTimeUTC": "2026-11-16T00:30:00Z",
   "gameDate": "2026-11-15",
-  "state": "LIVE",
+  "state": "OFF",
   "home": false,
   "venue": "Xfinity Mobile Arena",
   "opponent": {
@@ -286,7 +286,7 @@
    "num": 27,
    "pos": "G"
   },
-  "note": "Jarry will start in Philadelphia on Sunday. "
+  "note": null
  },
  "scratches": [
   {
@@ -483,8 +483,8 @@
     "num": 53,
     "pos": "G"
    },
-   "note": "Vladar will start Sunday vs. the Oilers. "
+   "note": null
   }
  },
- "updated": "2026-11-16T01:26:02Z"
+ "updated": "2026-11-16T03:42:17Z"
 }
