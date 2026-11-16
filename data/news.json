@@ -1,27 +1,35 @@
 {
- "updated": "2026-11-16T21:27:46Z",
+ "updated": "2026-11-16T21:54:57Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (9)",
-  "Google News (86)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Edmonton Oilers goalies Jarry, Levi, Jonsson, Tomkins, Day, Vinni, crushing it at every single level of pro hockey",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObVdsX0xwWEhZTmtRNHVlckIxN2hHT0dkcGk4c3gwN2tjaXF4RlJmUkpfU3QzUjh2cl9lNnVWbVl0M003M2pyanFaSnQyMDdldG9jcWNzSUdUM3BWQjZ1XzBWVkhYelVFTjJxOGZMMVJZbEFfNldLWHphTmV6TUJwT1hkYmY0YUpmTl9qMl9RMzM4RVoxNDVVeHBIOXVZc0JrWGpWZ0FMV3cxemR6UUhDQ2xORWhXdjhTU3NnN0lR?oc=5",
+   "title": "Oilers notebook: 'Walman’s in the doghouse' — Charlie Huddy comments on team's blueliner situation",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/edmonton-oilers-defence-jake-walman-charlie-huddy",
    "source": "Edmonton Journal",
-   "published": "2026-11-16T21:08:01Z",
+   "published": "2026-11-16T21:50:56Z",
+   "snippet": "'Slats looked at me and said, ‘I’m not trading you. Things change from day to day. Work hard in practice, enjoy your time off, and you’ll get back in the lineup.'"
+  },
+  {
+   "title": "What’s Brewing: Panthers host Oilers; Black Friday Deals",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcEJ5ejF5bEU3RHlnZFkyVFhVM0VubFh6NG10ZlAybnhKeDVVTTVVbHNPc2lWQnlfdWlhQmZRd2tiMk1henh2czI0Q0tyTWppTHRQYkFoUVBwb0xsRG8zZ1gwUzZMa3BNUDNhS25nLU9kaV9rV0tfLUI1U0I3WFMtbW9xZGJyYTZMbjczTk11UVhSdw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-16T21:33:17Z",
    "snippet": "",
    "via": "google"
   },
   {
    "title": "Edmonton Oilers goalies crushing it at every single level of pro hockey",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-goalies-levi-jarry-jonsson-tomkins-day-vinni",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObVdsX0xwWEhZTmtRNHVlckIxN2hHT0dkcGk4c3gwN2tjaXF4RlJmUkpfU3QzUjh2cl9lNnVWbVl0M003M2pyanFaSnQyMDdldG9jcWNzSUdUM3BWQjZ1XzBWVkhYelVFTjJxOGZMMVJZbEFfNldLWHphTmV6TUJwT1hkYmY0YUpmTl9qMl9RMzM4RVoxNDVVeHBIOXVZc0JrWGpWZ0FMV3cxemR6UUhDQ2xORWhXdjhTU3NnN0lR?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-16T21:04:52Z",
-   "snippet": ""
+   "published": "2026-11-16T21:08:01Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Oilers activate Isaac Howard from injured reserve, loan winger to Condors",
@@ -126,14 +134,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers’ Connor McDavid matches yet another Wayne Gretzky record amid torrid start",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZmJuOS0xVUF6MzJILWdnOUtLTTZNc1ZyZlBONVhUcUc3SzhHcFZFY01IMzVndEZLLUlZYXF3N0t5RUZHanMtMFp1R19sZy1RT05PXzFvZkV3T3NwcmdsX2MyNFRQeGtiRUphaFBIMjVxS09LTVhJd2pQVW9aNWFZRXZEbzNwSU1LMGc?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-16T17:50:16Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Edmonton Oilers players shout out Elks after Grey Cup victory",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS1RoSEZpaHZHZHU5MlRwSWV0VmYwTnJPUUc2OWNMTldmQ253aC10TTExNDhvQnBjbWUyaE1fX0hNUEN2OEdLRnZSWWpwdlY0eDJxd2tPMVhVMzUwX0NyODI0MDlFVjZiZ1REQ3NFSzkzSHdZeXVraWhLMnBkaTZ1ZVJMaw?oc=5",
    "source": "Daily Hive",
@@ -209,13 +209,6 @@
    "snippet": "In this episode of 32 Thoughts, Kyle Bukauskas and Elliotte Friedman begin with Devon Levi’s viral moment and fresh start in Edmonton, then debate Connor McDavid’s assists and his…"
   },
   {
-   "title": "'City of Champions!' again: Edmonton Elks cap remarkable turnaround season with Grey Cup win over Montreal Alouettes",
-   "url": "http://edmontonjournal.com/sports/edmonton-elks-cap-remarkable-turnaround-season-with-thrilling-grey-cup-win-over-montreal-alouettes/wcm/5cd826ff-e724-47d6-9551-505563bcb9cd",
-   "source": "Edmonton Journal",
-   "published": "2026-11-16T11:44:47Z",
-   "snippet": "An Edmonton franchise mired in misery has flushed away more than a decade worth of shortfalls with its 15th CFL championship."
-  },
-  {
    "title": "Girls in sport: New study offers both optimism and a warning",
    "url": "https://edmontonjournal.com/sports/canada-girls-in-sport",
    "source": "Edmonton Journal",
@@ -277,6 +270,13 @@
    "source": "Sportsnet",
    "published": "2026-11-16T02:35:42Z",
    "snippet": "Watch as Edmonton Elks’ Cody Farjado finds Joshua Cephus for his second TD of the game in the back of the end zone to reclaim the lead in the third quarter of the Grey Cup over the Montreal…"
+  },
+  {
+   "title": "Oilers’ McDavid ties Gretzky’s record for fewest games to record 40 assists",
+   "url": "https://www.sportsnet.ca/nhl/article/oilers-mcdavid-ties-gretzkys-record-for-fewest-games-to-record-40-assists/",
+   "source": "Sportsnet",
+   "published": "2026-11-16T02:07:22Z",
+   "snippet": "Connor McDavid is showing shades of Wayne Gretzky once again."
   }
  ]
 }
