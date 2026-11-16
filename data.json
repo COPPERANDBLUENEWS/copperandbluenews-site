@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T21:45:21+00:00",
+  "updated": "2026-11-16T01:30:30+00:00",
   "next": {
     "id": 2026020326,
     "gameType": 2,
@@ -8,20 +8,20 @@
     "timeMT": "6:30 PM MT",
     "timePT": "5:30 PM PT",
     "venue": "Xfinity Mobile Arena",
-    "state": "FUT",
+    "state": "LIVE",
     "scheduleState": "OK",
     "lastPeriod": null,
     "away": {
       "abbrev": "EDM",
       "name": "Oilers",
       "place": "Edmonton",
-      "score": null
+      "score": 3
     },
     "home": {
       "abbrev": "PHI",
       "name": "Flyers",
       "place": "Philadelphia",
-      "score": null
+      "score": 0
     }
   },
   "last": {
