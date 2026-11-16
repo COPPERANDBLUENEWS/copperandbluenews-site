@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T17:43:52Z",
+ "updated": "2026-11-16T19:00:32Z",
  "basis": {
   "name": "NHL.com projected lineups",
   "url": "https://www.nhl.com/news/edmonton-oilers-philadelphia-flyers-game-preview-november-15-2026",
@@ -46,7 +46,7 @@
   },
   {
    "name": "Isaac Howard",
-   "id": 8483455,
+   "id": null,
    "injury": "lower body",
    "status": "Out",
    "expectedReturn": "\"A couple weeks\" (Babcock, Nov 3)",

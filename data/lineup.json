@@ -236,10 +236,10 @@
    "status": "IR"
   },
   {
-   "id": 8483455,
+   "id": null,
    "name": "Isaac Howard",
    "num": 53,
-   "pos": "L",
+   "pos": null,
    "status": "IR"
   },
   {
@@ -483,5 +483,5 @@
    "note": null
   }
  },
- "updated": "2026-11-16T15:11:56Z"
+ "updated": "2026-11-16T19:00:32Z"
 }
