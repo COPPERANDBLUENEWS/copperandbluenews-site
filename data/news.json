@@ -1,13 +1,51 @@
 {
- "updated": "2026-11-16T05:54:30Z",
+ "updated": "2026-11-16T08:52:27Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (10)",
-  "Google News (97)"
+  "Sportsnet (12)",
+  "Google News (92)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Edmonton Elks lift 15th Grey Cup in franchise history",
+   "url": "https://www.sportsnet.ca/cfl/video/edmonton-elks-lift-15th-grey-cup-in-franchise-history/",
+   "source": "Sportsnet",
+   "published": "2026-11-16T06:43:49Z",
+   "snippet": "Watch as the Edmonton Elks lift the 113th Grey Cup, their 15th in franchise history, in front of fans at McMahon Stadium in Calgary, Alberta"
+  },
+  {
+   "title": "QUICK RECAP: Oilers 5, Flyers 2",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5jNzhqLW5PVjg3YVN5bm5LaERGYzM5RGtRemwyZjIwZE9rTDg4Nmc2dHRmREdiM1JxdGYwNDNBRkF0N25nQ2Z5VmhqN1RaZF9lMWVSUUdjaFVGdnNxcEg0MVloYjYyQXhvM05icUJ6ajFQZ0pTd0pLc2Fn?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-16T06:34:06Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Does latest Grey Cup win solidify Fajardo’s Hall of Fame resume?",
+   "url": "https://www.sportsnet.ca/cfl/video/does-latest-grey-cup-win-solidify-fajardos-hall-of-fame-resume/",
+   "source": "Sportsnet",
+   "published": "2026-11-16T06:20:09Z",
+   "snippet": "Justin Dunk breaks down why Cody Fajardo was the difference-maker for Edmonton, as well as the Elks’ defensive group, who kept Davis Alexander in check, and why this latest Grey Cup…"
+  },
+  {
+   "title": "Ryan Nugent-Hopkins’ Unexpected Absence Raises Questions For Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR0wxV0NwWUJ5VDZOMmR2TFQ2bTZLdzV0aGt6a1NfNkI2dGV1ZkFWOUs0ZWVlNmoxQmN0QWlzaU9lN21tejRiTXVZRngyQVAtUXVkaHNQXy1lUEhRY2lQd1NxaUNkRmpoWDJldFpTVk9wazgwVU1WdndGb1A4dnZKM1dCbDEtUGZ5TUJCMXFJUHRobHdnVVdVaVRwMnZUcU1QNkV6NUxKV2VtSjVYUlBNbTE3elNzZw?oc=5",
+   "source": "NDTV Sports",
+   "published": "2026-11-16T06:15:46Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid pushes season-opening point streak to 22 in Oilers win against Flyers",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSnFGN2hyRUJCUW1QLXQyaXhzbkM3a0JkNjI4RnlYOVZnNVR5X25DajFwUFVHUkxPWTdXczF6SjFmR2ctTFNYQzBnLXBZdE4tR294c1NaV3Y3cDZUS2NidXdEMkVtTV92UHVWWG5nSzRPS1FLYVM1ejBSaHRreFR6TkxOVVhpQlFxczFOeHZCOGZDdw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-16T06:10:52Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "NHL roundup: McDavid matches Gretzky’s assist mark as Oilers beat Flyers",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdGN6bHRtQXc3WEhsUllnYmRkM0lPM3dEbzlfaFlfTm9HYVMzdjRIY1F1QUx0aERjWjVBMmN3TlNpcmtLLTF2eUxXc29IZWduMXFlZFhoN2lQajZfNDZwNThLa1FsUWx4WVhNa21Db0s3SzZqbWdNdWlMMkI3N1BTYXQ4VWZCdFNVVkoyYlFYRk5KQ09LanliSjZUaDV5Z2ppbFYxaW9YSGEzcTNwLXc?oc=5",
@@ -17,10 +55,18 @@
    "via": "google"
   },
   {
-   "title": "McDavid pushes season-opening point streak to 22 in Oilers win against Flyers",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWmRoRE1XQWNtVzdWSEVzSUVUbm81ZEhBd1MySkN1UjRlSG1acnJJVmFleWpoaGwtNVdoWUN2d1VnRTRGUk52T19leGVTbTEyN3J0Vl8wR1VHMVYwRy1XUDJjSlhoc3g4YldLTW9sT3lpcXJ5Ukk1YXg5dDU3eHoyTXZhSjd1dGQwY0FQRENhWUttb2JDbVFaNUhFUlpRN2QwQWtv?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-16T05:43:00Z",
+   "title": "What Makes Connor McDavid’s Latest Edmonton Oilers Milestone So Remarkable",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUTVXYnd6cXlMN1ZVb0g5c3Npd19SX2xRYXFqSVNwZmdEVWpGVTFWMVRaZy1YQnFwN1VROTA1eWRaTUlqZDdWUFQ0VV9yOEN2b2N4U2dmMlZCa0UydEtTU2JKUVJXM0gwWlhza0ozY3JrSmJvOG1JbmNhTUlaanFITGY1TkRRd3BhbjFqVHBzcldFTVVaVHBueFNCUnZScksxdklzbVltWGxCQ2RHakFHcU5oUEs?oc=5",
+   "source": "NDTV Sports",
+   "published": "2026-11-16T05:44:20Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ Draisaitl, Babcock react to Elks’ Grey Cup victory",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOV1pvLTdDWWc1MVktMzlhNFVmZF93a3ZtMEtKYjlqRk4xenNWd3hBOWFObGJJbmhBcG5neTBJSGZXNWFGUEx5eXZLbzR0Q2ZFZ1Z2TnFYT0hidmNJTnc0M2E3aDVFQWtYbEM3cWJSWlR4Wk5zR3hHRS05MzFqRFN3XzRBVU5XaUw0VkV0d1NBVWxpU29ZNVE?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-16T05:44:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -29,14 +75,6 @@
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQekhWMEJsbXN3VUI0WkJXQkV6Tm92M0l2bmRvWXFsZlVhUkwtYTdWUVN1MGVtYVpkSFdOOUpiTmFoQmF2aVVzaFlyOGhnRV83bE1SampaT203dUtjTndLSlhmOE5oR0UwNHRySExMMlU4c2xqckxMNmtUMVBGc1pLdnBrSkRRWU9YMnh5dUlMUjlFWnYzNXozN0xVcw?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-16T05:36:55Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers’ Draisaitl, Babcock react to Elks’ Grey Cup victory",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOV1pvLTdDWWc1MVktMzlhNFVmZF93a3ZtMEtKYjlqRk4xenNWd3hBOWFObGJJbmhBcG5neTBJSGZXNWFGUEx5eXZLbzR0Q2ZFZ1Z2TnFYT0hidmNJTnc0M2E3aDVFQWtYbEM3cWJSWlR4Wk5zR3hHRS05MzFqRFN3XzRBVU5XaUw0VkV0d1NBVWxpU29ZNVE?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-16T05:25:42Z",
    "snippet": "",
    "via": "google"
   },
@@ -52,7 +90,7 @@
    "title": "Flyers learn the hard way: Edmonton Oilers have the best goaltending in the NHL",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZXdsenNEeXlQRmVWbWVOU0ZNSmVsNnZZTDJFck9icEpQaWJodm1nNTNMeTAzUnpYcGRueUZDai05S0ZIVEhHY01SMG5mdlNSRmRRM3M5MWFVbGZNOExFbzhQOFdaZXBfeWdpZ25DZWxScDhuelZ6WkhTckV4VERDOW1CN2xJejFaOWdRZw?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-16T04:52:30Z",
+   "published": "2026-11-16T04:55:05Z",
    "snippet": "",
    "via": "google"
   },
@@ -64,15 +102,7 @@
    "snippet": "Tristan Jarry discusses Oilers’ penalty-killing unit and the communication helping them find success after a 5-2 win over the Flyers."
   },
   {
-   "title": "QUICK RECAP: Oilers 5, Flyers 2",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5jNzhqLW5PVjg3YVN5bm5LaERGYzM5RGtRemwyZjIwZE9rTDg4Nmc2dHRmREdiM1JxdGYwNDNBRkF0N25nQ2Z5VmhqN1RaZF9lMWVSUUdjaFVGdnNxcEg0MVloYjYyQXhvM05icUJ6ajFQZ0pTd0pLc2Fn?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-16T03:56:15Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "POST-RAW | Leon Draisaitl 11.15.26",
+   "title": "POST-RAW | Draisaitl 11.15.26",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUnczRlNtVG1Wb0Q3VFMwTWZFdlRXd213VFlqT0c0RnVDNThuVG5PTHpFYXI4UktteVBqemRrbzlBU3FydE1fTlItM3FzaEhSSVVJZkVyeDI3VVBPcHNEWXpuSmJUVDkweWgxR2VEZGxKczRUNlV4UkhsRlIwczlmRzJfT0JjZw?oc=5",
    "source": "NHL.com",
    "published": "2026-11-16T03:52:32Z",
@@ -80,7 +110,7 @@
    "via": "google"
   },
   {
-   "title": "Draisaitl, McDavid record three points each in Oilers’ win over Flyers",
+   "title": "Draisaitl, McDavid record three points in Oilers’ win over Flyers",
    "url": "https://www.sportsnet.ca/nhl/article/draisaitl-mcdavid-record-three-points-each-in-oilers-win-over-flyers/",
    "source": "Sportsnet",
    "published": "2026-11-16T03:44:34Z",
@@ -95,11 +125,10 @@
   },
   {
    "title": "Player grades: Tristan Jarry steals another as Edmonton Oilers beat Philadelphia Flyers 5-2",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNYWhiRElGMzRRbUdvdEhYOUd4dmlsT3hSb0NQVVdZWERfZzN3YmEtR2ZQZmdvTklTYlozLWozSm41WGZqdjlralBVZ3k4X1lIYWUwaVQtVlNINzNKdE8yQk9hMVlZS0FiaEk0Sl9ReTNzV1I0ajg4WWZKQkZKVnNpSFBicFlSQ1QxR0laU2NGcGU5MVV4LXdtS3lTVXprUWF6UkJHekpmdDBlNFFCOFdGWGcyMS1iTklIVHhucXNGdkNZa2o5MUN2dmlSOENwdEFRWlQtMFJOTTR0UnVjQjE5V014c01kSUk?oc=5",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/player-grades-tristan-jarry-again-comes-up-huge-as-edmonton-oilers-beat-philadelphia-flyers",
    "source": "Edmonton Journal",
-   "published": "2026-11-16T03:20:15Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-16T03:12:54Z",
+   "snippet": ""
   },
   {
    "title": "Edmonton Elks win 15th Grey Cup in club history to cap comeback season",
@@ -124,14 +153,6 @@
    "via": "google"
   },
   {
-   "title": "HIGHLIGHTS | Draisaitl Goal (2)",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNmh1Y1pZRm9GVFhDZHZJREZwVFlkNng2WW50dE1CeXRJX25fVy11ZXo3azNMUDZfc05JWDhSWXRFbERsMDBuWUM3VFVQVlVmQjlUM0c1eHY4bG94V04wRmhDbzlSdGE4WUpXY2VuZ2E3cUVscVNJVFprSTQwS0tQcE5ONHk3dFg0SEJWbE92MGszVG96NmRsX1o2OA?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-16T02:50:19Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Instant Reaction: McDavid, Draisaitl carry Oilers to 5-2 win over Flyers",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQ29iQkhaaXJzYUZ1NjcwZWFpTDZlcV9OQWhydzFTaHh1RUZ2aXBIbHhXT3hsUGNlSzBMSEYzd0w2TWdpZWZ5Q3Uwajd3aWhLZXR1ZkhGV0dzdkxfRFVwRG5KVWl2SFE3WTJ4b1ZoeUkzc2FuUW5sTzZtMnhiaUJBWVE1SVVHQTMxdXZ3cjFYU2FuMU85V2g2ZWRldGJ4bEs3SXVXaWc3VVcwQQ?oc=5",
    "source": "Oilers Nation",
@@ -145,6 +166,14 @@
    "source": "Sportsnet",
    "published": "2026-11-16T02:43:50Z",
    "snippet": "Edmonton Elks wide receiver Brandan O’Leary-Orange loses possession in the fourth quarter, with Montreal Alouettes defensive lineman Isaac Adeyemi-Berglund recovering the fumble to give his…"
+  },
+  {
+   "title": "Ryan Nugent-Hopkins to miss Oilers’ game against Flyers",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObmNpZ1NjdVQ0b1NOMWV5NnBOTVBKOXRsUmpFV19aU054dFQ5S214VUJEcTlhQzJsZjVzMUpoQXBuQmVSa3R2WERDRnpwTFdLSUxHMkNMZVVpUEgxTDZ3bFlLZWpVV1RQOW0teElhTXB3NWRLSzVxYkIyZFJCTFAxWjBHM3FNNFplSVlJQ0JzUkdzMXBoTlRXX3l5czJiTWpPZjdEYlRpVkI?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-16T02:42:00Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "++[Ｓｔｒｅａｍ-NOW] Edmonton Oilers vs Philadelphia Flyers: 𝐋𝐈𝐕𝐄 𝐒𝐭𝐫𝐞𝐚𝐦, ＴＶ Ｉｎｆｏ & Viewing Ｇｕｉｄｅ",
@@ -177,25 +206,17 @@
    "snippet": "Oilers captain Connor McDavid ties Wayne Gretzky’s NHL record for the fastest to 40 assists in a season, reaching the milestone in just 22 games with an assist on Leon Draisaitl’s…"
   },
   {
-   "title": "WAY TO LIVE Philadelphia Flyers vs Edmonton Oilers LIVE Free NHL Hockey Game On TV Coverage",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeXhnNnVwOXYzaDkyNDdqcnV1eXB5WEw1OTRkakhPSTkxempacW5pbnQ2emRGNVdwUEpLdkhvMzRob3I5ekI5OHNjMnVmQ0tDYjdtLUFaVHFINHNrZHhsbFZBM2FVMWdUNmRoM3hDajhkcHlTT2NReHhnMjhUMTkxaExzS1JmTk9YLTRZ?oc=5",
+   "title": "~NHL.LIVE: Philadelphia Flyers vs Edmonton Oilers Live 𝗦𝘁𝗮𝗿𝗲𝗮𝗺 Free NHL Game On TV Channel",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMkdKV29jRUl6RzFZZmppVE8ydGxIV3ZBTV9rRjMxRXJNT2JVNXE5anVHUGxpYXpfNDRiRHlKLUpZUlpmWUFsOWpUSF9vMlZfNi0wWURBZHFKNWhXclhuVld3N29uMTBBV1BHM0E5NjVUSGh5VFl2VUZEY1huTHVyRXNVX2FiaEUycXFj?oc=5",
    "source": "Northern Ontario Business",
    "published": "2026-11-16T01:03:50Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "++[StreamINGNOW] Edmonton Oilers vs Philadelphia Flyers Live Video Stream",
-   "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQbno2YmQwQnNEa3NYcmNjOFlvaGU0WWJzMEprNzRRNGd4UW5yYlBpX2M5Z0Z1Z1MzcmhGOGVkZXdBTl96aDF6bUxmUEN1VldrV0JNbjJ2LUY5QklHMEttZGN2UUdMaHRIcWJJcHJkcHVieFBhcnVKT2VHTGVQRDg0M2NNWHlQR1RfeDlmTk1TS04zc2lZN2tVSnYteXIwLXlaaVhCal9TVXFIRDIxY1VZbGZJeFM5WHk0ZTdDd1VWRXc1OFRWaE1iSXctU3Y1QjBEZFlPWTlQaFZyZEluVUZxSk5HWWdLeVQtbVBsLWxQQ1ZPRnB1enZkYlN3V1BraVVtMjllMlJnbHJqMERzZzRPWDZmbHNLVVlvWHR3NXFZVGs2aG9aN29Ucw?oc=5",
-   "source": "UB - Universitat de Barcelona",
-   "published": "2026-11-16T00:49:09Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "[Free.NHL] Edmonton Oilers vs Philadelphia Flyers LIVE Free NHL Hockey Game On TV Coverage",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRkFDUHNLSE1vbFlqZnM3VzRvTHdNYTZfa3BSQm5YdG5sOU9ZeUtuc2dLNDl1enh1a2l5aWxlMFJBSUF2ZXluVEhoX2hhOFNIdnpDUkRXQkJhVnM5YjV1X2t3LTlMUXhINDV4cHFqLUI1d2czODd0RzFCaHRQTFo0V25RcHppUWlsb2RoU2oyNWFwZw?oc=5",
-   "source": "PelhamToday.ca",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSWZKam1FM1dpajh6OTNpZ0VsSnFfUl9TVU84bnh1cUtISmdEUkREYUZKUHpBQVdWTThQREgwVjNCdUUtS0NmMG5CSW9QQnpRY2ZldlNEOVhxaUQtVm9wTWtrVkpab0JxREpGSDg2LW5OaUNydUFuS0I3OG5rYUdPdUNQUUdkRl9JSTRXVFlJdG44NGRqOVE?oc=5",
+   "source": "Times Colonist",
    "published": "2026-11-16T00:42:08Z",
    "snippet": "",
    "via": "google"
@@ -252,31 +273,10 @@
   },
   {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
-   "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27-x3339",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-15T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "McDavid’s season-opening point streak hits 21, Oilers blank Maple Leafs",
-   "url": "https://www.nhl.com/news/edmonton-oilers-toronto-maple-leafs-game-recap-november-14-2026",
-   "source": "NHL.com",
-   "published": "2026-11-15T04:21:00Z",
-   "snippet": "TORONTO -- Connor McDavid had an assist to extend his season-opening point streak to 21 games, and the Edmonton Oilers defeated the Toronto Maple Leafs 1-0 at Scotiabank Arena on Saturday."
-  },
-  {
-   "title": "The Edmonton Oilers shut out The Leafs 1-0 in Toronto: Cult of Hockey Player Grades",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/the-edmonton-oilers-shut-out-the-leafs-1-0-in-toronto-cult-of-hockey-player-grades-levi-bouchard",
-   "source": "Edmonton Journal",
-   "published": "2026-11-15T03:05:33Z",
-   "snippet": ""
-  },
-  {
-   "title": "Boring but effective: Oilers choke the life out of hapless Maple Leafs",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/boring-but-effective-oilers-choke-the-life-out-of-hapless-maple-leafs",
-   "source": "Edmonton Journal",
-   "published": "2026-11-15T02:55:29Z",
-   "snippet": ""
   }
  ]
 }

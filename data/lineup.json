@@ -1,19 +1,19 @@
 {
  "game": {
-  "id": 2026020326,
-  "startTimeUTC": "2026-11-16T00:30:00Z",
-  "gameDate": "2026-11-15",
-  "state": "OFF",
+  "id": 2026020335,
+  "startTimeUTC": "2026-11-18T00:00:00Z",
+  "gameDate": "2026-11-17",
+  "state": "FUT",
   "home": false,
-  "venue": "Xfinity Mobile Arena",
+  "venue": "Amerant Bank Arena",
   "opponent": {
-   "abbrev": "PHI",
-   "name": "Flyers",
-   "place": "Philadelphia"
+   "abbrev": "FLA",
+   "name": "Panthers",
+   "place": "Florida"
   },
-  "puckDropPT": "Sun Nov 15, 5:30 PM PT"
+  "puckDropPT": "Tue Nov 17, 5 PM PT"
  },
- "status": "Confirmed",
+ "status": "Projected",
  "forwards": [
   [
    {
@@ -250,15 +250,8 @@
    "status": "Out"
   }
  ],
- "notes": [
-  "Dressed players and starting goalie are official (NHL game sheet). Line combinations are DailyFaceoff's; the NHL doesn't publish lines."
- ],
+ "notes": [],
  "sources": [
-  {
-   "name": "NHL.com Gamecenter",
-   "url": "https://www.nhl.com/gamecenter/2026020326",
-   "what": "official dressed lineup"
-  },
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
@@ -268,7 +261,7 @@
   },
   {
    "name": "DailyFaceoff",
-   "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-15",
+   "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-17",
    "what": "starting goalie"
   }
  ],
@@ -279,7 +272,7 @@
    "num": 35,
    "pos": "G"
   },
-  "status": "Confirmed",
+  "status": "Unconfirmed",
   "backup": {
    "id": 8482221,
    "name": "Devon Levi",
@@ -303,88 +296,88 @@
   }
  ],
  "opponent": {
-  "abbrev": "PHI",
-  "name": "Flyers",
-  "place": "Philadelphia",
-  "status": "Confirmed",
+  "abbrev": "FLA",
+  "name": "Panthers",
+  "place": "Florida",
+  "status": "Projected",
   "forwards": [
    [
     {
-     "id": 8482159,
-     "name": "Tyson Foerster",
-     "num": 71,
+     "id": 8480801,
+     "name": "Brady Tkachuk",
+     "num": 8,
      "pos": "LW"
     },
     {
-     "id": 8481533,
-     "name": "Trevor Zegras",
-     "num": 46,
+     "id": 8482113,
+     "name": "Anton Lundell",
+     "num": 15,
      "pos": "C"
     },
     {
-     "id": 8478439,
-     "name": "Travis Konecny",
-     "num": 11,
+     "id": 8479314,
+     "name": "Matthew Tkachuk",
+     "num": 19,
      "pos": "RW"
     }
    ],
    [
     {
-     "id": 8478047,
-     "name": "Michael Bunting",
-     "num": 58,
+     "id": 8477409,
+     "name": "Carter Verhaeghe",
+     "num": 23,
      "pos": "LW"
     },
     {
-     "id": 8477989,
-     "name": "Christian Dvorak",
-     "num": 22,
+     "id": 8477933,
+     "name": "Sam Reinhart",
+     "num": 13,
      "pos": "C"
     },
     {
-     "id": 8480015,
-     "name": "Owen Tippett",
-     "num": 74,
+     "id": 8474189,
+     "name": "Lars Eller",
+     "num": 20,
      "pos": "RW"
     }
    ],
    [
     {
-     "id": 8485406,
-     "name": "Porter Martone",
-     "num": 94,
-     "pos": "LW"
-    },
-    {
-     "id": 8480220,
-     "name": "Noah Cates",
+     "id": 8480185,
+     "name": "Eetu Luostarinen",
      "num": 27,
+     "pos": "LW"
+    },
+    {
+     "id": 8477935,
+     "name": "Sam Bennett",
+     "num": 9,
      "pos": "C"
     },
     {
-     "id": 8484387,
-     "name": "Matvei Michkov",
-     "num": 39,
+     "id": 8483771,
+     "name": "Sandis Vilmanis",
+     "num": 95,
      "pos": "RW"
     }
    ],
    [
     {
-     "id": 8483787,
-     "name": "Cole Knuble",
-     "num": 54,
+     "id": 8478147,
+     "name": "Bokondji Imama",
+     "num": 14,
      "pos": "LW"
     },
     {
-     "id": 8476461,
-     "name": "Sean Couturier",
-     "num": 14,
+     "id": 8481655,
+     "name": "Cole Schwindt",
+     "num": 79,
      "pos": "C"
     },
     {
-     "id": 8478569,
-     "name": "Noel Acciari",
-     "num": 52,
+     "id": 8477903,
+     "name": "Garnet Hathaway",
+     "num": 21,
      "pos": "RW"
     }
    ]
@@ -392,99 +385,101 @@
   "defence": [
    [
     {
-     "id": 8477948,
-     "name": "Travis Sanheim",
-     "num": 6,
+     "id": 8478055,
+     "name": "Gustav Forsling",
+     "num": 42,
      "pos": "LD"
     },
     {
-     "id": 8482142,
-     "name": "Jamie Drysdale",
-     "num": 9,
+     "id": 8477932,
+     "name": "Aaron Ekblad",
+     "num": 5,
      "pos": "RD"
     }
    ],
    [
     {
-     "id": 8481546,
-     "name": "Cam York",
-     "num": 8,
+     "id": 8478859,
+     "name": "Niko Mikkola",
+     "num": 77,
      "pos": "LD"
     },
     {
-     "id": 8481122,
-     "name": "Simon Benoit",
-     "num": 44,
+     "id": 8477495,
+     "name": "Seth Jones",
+     "num": 3,
      "pos": "RD"
     }
    ],
    [
     {
-     "id": 8476372,
-     "name": "Nick Seeler",
-     "num": 24,
+     "id": 8484304,
+     "name": "Uvis Balinskis",
+     "num": 26,
      "pos": "LD"
     },
     {
-     "id": 8477499,
-     "name": "Rasmus Ristolainen",
-     "num": 55,
+     "id": 8475179,
+     "name": "Dmitry Kulikov",
+     "num": 7,
      "pos": "RD"
     }
    ]
   ],
   "injured": [
    {
-    "id": 8483733,
-    "name": "Nikita Grebenkin",
-    "num": 17,
-    "pos": "RW",
+    "id": 8477493,
+    "name": "Aleksander Barkov",
+    "num": 16,
+    "pos": "C",
     "status": "IR"
    },
    {
-    "id": 8484142,
-    "name": "Denver Barkey",
-    "num": 86,
-    "pos": "C",
-    "status": "Out"
+    "id": 8479981,
+    "name": "Jonah Gadjovich",
+    "num": 12,
+    "pos": "LW",
+    "status": "IR"
+   },
+   {
+    "id": 8473419,
+    "name": "Brad Marchand",
+    "num": 63,
+    "pos": "LW",
+    "status": "IR"
    }
   ],
   "notes": [],
   "sources": [
    {
-    "name": "NHL.com Gamecenter",
-    "url": "https://www.nhl.com/gamecenter/2026020326",
-    "what": "official dressed lineup"
-   },
-   {
     "name": "DailyFaceoff",
-    "url": "https://www.dailyfaceoff.com/teams/philadelphia-flyers/line-combinations",
+    "url": "https://www.dailyfaceoff.com/teams/florida-panthers/line-combinations",
     "what": "line combinations",
-    "basis": "Siobhan Nolan",
-    "updatedAt": "2026-11-16T00:07:30.477Z"
+    "basis": "Rob Darragh",
+    "updatedAt": "2026-11-16T00:41:26.456Z"
    },
    {
     "name": "DailyFaceoff",
-    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-15",
+    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-17",
     "what": "starting goalie"
    }
   ],
   "goalie": {
    "starter": {
-    "id": 8478435,
-    "name": "Dan Vladar",
-    "num": 80,
+    "id": 8481033,
+    "name": "Akira Schmid",
+    "num": 40,
     "pos": "G"
    },
-   "status": "Confirmed",
+   "status": "Unconfirmed",
    "backup": {
-    "id": 8479361,
-    "name": "Joseph Woll",
-    "num": 53,
+    "id": 8474593,
+    "name": "Jacob Markstrom",
+    "num": 25,
     "pos": "G"
    },
    "note": null
   }
  },
- "updated": "2026-11-16T03:42:17Z"
+ "updated": "2026-11-16T08:52:27Z"
 }
