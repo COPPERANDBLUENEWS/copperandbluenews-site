@@ -3,7 +3,7 @@
   "id": 2026020326,
   "startTimeUTC": "2026-11-16T00:30:00Z",
   "gameDate": "2026-11-15",
-  "state": "FUT",
+  "state": "PRE",
   "home": false,
   "venue": "Xfinity Mobile Arena",
   "opponent": {
@@ -448,8 +448,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/philadelphia-flyers/line-combinations",
     "what": "line combinations",
-    "basis": "Last Game (11-14-26)",
-    "updatedAt": "2026-11-15T13:16:27.583Z"
+    "basis": "Siobhan Nolan",
+    "updatedAt": "2026-11-16T00:07:30.477Z"
    },
    {
     "name": "DailyFaceoff",
@@ -474,5 +474,5 @@
    "note": "Vladar will start Sunday vs. the Oilers. "
   }
  },
- "updated": "2026-11-15T23:49:25Z"
+ "updated": "2026-11-16T00:28:12Z"
 }
