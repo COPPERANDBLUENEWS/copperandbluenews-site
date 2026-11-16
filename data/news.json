@@ -1,27 +1,51 @@
 {
- "updated": "2026-11-16T19:37:35Z",
+ "updated": "2026-11-16T20:28:05Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (10)",
-  "Google News (87)"
+  "Sportsnet (9)",
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Edmonton Oilers: The Good, the Bad and the Ugly -Week 7",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNnpjakt4WlZhN3JBUGI2RGxsUVpDNUxQZTRiV2ctV2JfNk1qV2dIeUd3Q2VVNnRVendvOWFwa2ItMUptODRWdDlidExrcGZUb3pOLVZVVkJEb3lQNlBKTWNocUhBZDRwYi0zMl9MLWpyT3NvdE1NeHFISldTNTQwemtfZVo1dw?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-16T20:24:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers demote hot shot rookie forward to minor leagues",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYkZVNG5Vei1OSWUwY2FmazcyYURFcU1TSTJmUERubTkzejJNZ0xmblVRR0EwMDhkdDE3aFl5WDRyaFR3RE9mV2g4Y05PUkhqc2ZTb2xWQnNJajRKNkhmRTBrR0hTTmVDSGJVbHZoQ1UybU9DYWJqYnhuZU5IRl9qakJjbW5vSENNZWotNEs3aXF5WXdkZG9nM09WZV9FWGotbl9tNlNnSXdheUZW?oc=5",
+   "source": "Telegraph-Journal",
+   "published": "2026-11-16T20:09:56Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers activate Isaac Howard from injured reserve, loan winger to Condors",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPckVzWTZIRVNtYnF0QXE5enBTcXB1MmNNUzdvZjVObF8zOGdfcXcwZFBILUhod2gwVFVPcjNNSWJNV2M2aDZnNmFKNFZrQjVNbE5VS0g5M05iY1JPUVB3UEFyaGxRdFREWjZQN0dnNVNEa1J0VEdranVXb3JQMHFoY3JyanVYN0VTcUVobk9hSVFHdzBoSGxCY0ZoZVgxcEN0Snl1c3BCSmZTZWlZ?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-16T20:03:21Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Isaac Howard returns from injury but not with the Oilers",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOOFEyMnNfTVFhZG1KR3A3QlJCeGFlckR2VGtJYXIwdHFkeXpTaUJVQjFmd3pmRWFScDlHMjI3MXNwUzg4UzVrcVh5WkNCVzBKYjVZcUhwQ2Q1Rk1mVUVNLXl5X0hoN3VXbG1qUlR2WGdydUI1RWtvTEExUEYzeXh4ZGRESzNBRF9jd0E2STZOSFBmSy01amln?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-16T19:50:26Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers activate Isaac Howard, loan him to AHL Bakersfield",
    "url": "https://www.sportsnet.ca/nhl/article/oilers-activate-isaac-howard-loan-him-to-ahl-bakersfield/",
    "source": "Sportsnet",
    "published": "2026-11-16T19:15:01Z",
    "snippet": ""
-  },
-  {
-   "title": "Edmonton Oilers demote hot shot rookie forward to minor leagues",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSkdCWUNHTklzSnZMRTdOelpSUnNudklkZU9ZaDlfUkk4RmxFQmg2Y3M5VW9qMXIxRW5mUXBDcmdXM2NhMnpScGw0V2liWGNWelpuODlkdUg5NGNWUzlDWEhPXy1scFVGSVg3LVlkc0Z0eXAwSVF5bDAtbm9pMmVpVHhyVkpadS13aUUxVm5NR3I4b04wMW5iemcxeEdEcFE5QzdZU1EyYy1PZkhXbXJyUXZkeWlxTHcxQ3ltRA?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-16T19:07:51Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "RELEASE: Howard activated off IR & loaned to Condors",
@@ -80,7 +104,7 @@
   },
   {
    "title": "Connor McDavid ties Gretzky's record; Draisaitl scores 20th goal to lead surging Oilers",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObVM3cU9pY3JDcWdxeW1PYTgwcXh6SHEwYmJQb1lYOWo5UHAtVWZ4NFJwMzNXVG5nMl9xZlc0c3YzS2lWVFF3OXVaODI3SWhOamJOUzVvamZoV3VFejdxUlNQcUhvU1FSczJmek5DM09rWkRaaWdZTFRfR0lQY0FPbjdWS1FiM0JPRVRHdHM3N2tWOHJ0bHZJUzNPdWVVXzQxc0RmVHg3WXluVTdOODBFLVh2bUFfVnIxa3JaNlRITkZ0UVVKS3lCZ1lPQTlqcHROeGozUw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdTJMcEhyNktRTlN3ZHZELWpKcGEzMnB2Tm1SN2JZZEV5Wm1adWpUT1UySWdOeWpCMU1xdDg2RWJGeVZxOTE3NkYzbzlCXzg1RHh0QUZsWm9pekJPTWZIOU1ON3d4UjRuWTlVUHF2aDZTbGRUb1NLNGZCTm1LZ09Id3EwRFR6eURrbzZuZEF0YnlJSEQ1SUZhMXplSE5aaEVRMEl5a3lkMEtkZkhNS1gtT0ZSalFVUlR1S1VUTGJTdGx0cmFKRHlGZDNrNXpkaFBWa1BxSA?oc=5",
    "source": "DAZN",
    "published": "2026-11-16T16:18:03Z",
    "snippet": "",
@@ -150,28 +174,11 @@
    "via": "google"
   },
   {
-   "title": "The Day After 22.0: Oilers cap off epic Edmonton sports Sunday with physical win in Philly",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQVk4di1mVENtd29BbFNLckNSLTBXblJEQW5LY2FtRWhiM1laR1JxMU4xdGhrU2lWX2pWOHNxMERUZkxucXNfNU9mMjBfRnBCYTFJc3lyUkM2WFJPOGtrZWhmRVhSRV9ScFltOXRtM2ZkamgyLWtsUk43cDNrd2xRdFlwM01NUzB0N2xNU0dkWVN4dmFHb0xYbzFTQ0g4Ylk?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-16T14:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Lauren Kyle offers glimpse into weekend with NHL captain Connor McDavid as Edmonton Oilers star celebrate",
-   "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPckl2ajJ4RHUtbGhtQk4tZXZqNVBLcDBoQTVteDRXSUhiTEN1N1p0dWNBLXljUzVmQ0NxalJRT2dud1Zlc2Z5N0VqaEFTcGJzRXQ1RnA4c1VDUXZxMEozR2J5SHFjTUdsbm5lR1pTcEVaZGlwbVVhVUhrZGNkOFNVMDBtY2NobHlMbl9NY0VjWXBHVks4aWJiOXljamhrQWI5MXBpSGxCZlZtVENOOTdNRVhlbTktRmQwSDBZaW1oVGlOWGROSlhYSGU2dWZFS1pYeVlMTDZiR0hLMVRnSzRzTFNNZk5WWVZ6NFgxdGQzZTJOMnpBS1VXcXBXS3BvenJfOVQzbXNnUlpYU1RJQzF2TDhNdmpSc1BETHc2a3BXN21KQlJMOE4tYzJRR2tneUl6OFI2cV9fNDV4UdIBvwJBVV95cUxOSG1WelZjSzJHZjlNQzYwTXBrQmFMQnFXcEZ4M1FWb1RjVHM2RkpDeW45UFVwaWJhbDRCZ0hpdmNSazQzT2RqQ2lmWWFBMW5tNHpkdFRhZzdNSi1JLVBWRTl6Z3ZUZmowd3RHY3Budlc2YzVzVG1VSER2WmZPT0dHVHhLc0gwSkJSeV9nZ3RZVWZkc0NEYVJPdGNLQ1Z4WmtVYXNmdVlkWVpfZnhkV3l0S3pfZkNuS3luNlVWYjNlMXU3enpQYnNqbW9pdEN1YVJsN3NvYWxMTGt6aDR4d1VPLV9kWDlleGFLbXVhU2JYQzlRb2prU28tQXF0bVpQV3pEbFVjVHY3b0lBcXVnU04wdTZPc25EZFQ1RFdhSi10cm1hTmJNblU0SkZqUWVtZmpEVkZpSjZsdHVGS2EyUl9B?oc=5",
-   "source": "The Times of India",
-   "published": "2026-11-16T13:48:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "'Strength and honour': Oilers goalie gets shoutout from Hollywood star",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5kanB5V3FfZ2lMdm5CT2ItQ1FYQW5GdTZBWkV6LUdXLUgzUVc4VTBueXpWTW5mdXJiUjRMeV8wWFRLQ1JnblN1ZHBnLTltcDNKb2JBN1NqZzFQQjI5Wk5vYlRFcUcwZ2VheGlhaG9mSnRaaHlRa1dfVlJDWQ?oc=5",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-devon-levi-gladiator",
    "source": "Edmonton Journal",
-   "published": "2026-11-16T13:44:25Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-16T13:40:28Z",
+   "snippet": "'If I’m being honest, there is a scene in Gladiator where he picks up the sand and kind of plays with it. I’ve always liked that, it’s always connected with me'"
   },
   {
    "title": "Oilers’ Devon Levi explains Gladiator-inspired, pre-game ritual",
@@ -188,6 +195,13 @@
    "snippet": "In this episode of 32 Thoughts, Kyle Bukauskas and Elliotte Friedman begin with Devon Levi’s viral moment and fresh start in Edmonton, then debate Connor McDavid’s assists and his…"
   },
   {
+   "title": "'City of Champions!' again: Edmonton Elks cap remarkable turnaround season with Grey Cup win over Montreal Alouettes",
+   "url": "http://edmontonjournal.com/sports/edmonton-elks-cap-remarkable-turnaround-season-with-thrilling-grey-cup-win-over-montreal-alouettes/wcm/5cd826ff-e724-47d6-9551-505563bcb9cd",
+   "source": "Edmonton Journal",
+   "published": "2026-11-16T11:44:47Z",
+   "snippet": "An Edmonton franchise mired in misery has flushed away more than a decade worth of shortfalls with its 15th CFL championship."
+  },
+  {
    "title": "Girls in sport: New study offers both optimism and a warning",
    "url": "https://edmontonjournal.com/sports/canada-girls-in-sport",
    "source": "Edmonton Journal",
@@ -200,13 +214,6 @@
    "source": "Sportsnet",
    "published": "2026-11-16T06:43:49Z",
    "snippet": "Watch as the Edmonton Elks lift the 113th Grey Cup, their 15th in franchise history, in front of fans at McMahon Stadium in Calgary, Alberta"
-  },
-  {
-   "title": "Does latest Grey Cup win solidify Fajardo’s Hall of Fame resume?",
-   "url": "https://www.sportsnet.ca/cfl/video/does-latest-grey-cup-win-solidify-fajardos-hall-of-fame-resume/",
-   "source": "Sportsnet",
-   "published": "2026-11-16T06:20:09Z",
-   "snippet": "Justin Dunk breaks down why Cody Fajardo was the difference-maker for Edmonton, as well as the Elks’ defensive group, who kept Davis Alexander in check, and why this latest Grey Cup…"
   },
   {
    "title": "McDavid pushes season-opening point streak to 22 in Oilers win against Flyers",
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-16T00:29:06.382Z",
    "snippet": "PHILADELPHIA, PA – Flyin' high in Philadelphia to secure our fifth straight win. Powered by three points each from Leon Draisaitl & Connor McDavid, 34 saves from Tristan Jarry and an…"
-  },
-  {
-   "title": "Elks’ Washington returns opening kick 78 yards, sets up Fajardo touchdown",
-   "url": "https://www.sportsnet.ca/cfl/video/elks-washington-returns-opening-kick-78-yards-sets-up-fajardo-touchdown/",
-   "source": "Sportsnet",
-   "published": "2026-11-16T00:14:09Z",
-   "snippet": "Watch as return-man Montrell Washington opens the Grey Cup with a bang for Edmonton, returning the opening kickoff 78 yards, setting the Elks up for a Cody Fajardo rushing touchdown,…"
   }
  ]
 }
