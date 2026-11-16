@@ -1,19 +1,42 @@
 {
- "updated": "2026-11-16T19:00:32Z",
+ "updated": "2026-11-16T19:37:35Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (9)",
-  "Google News (89)"
+  "Sportsnet (10)",
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers activate Isaac Howard, loan him to AHL Bakersfield",
+   "url": "https://www.sportsnet.ca/nhl/article/oilers-activate-isaac-howard-loan-him-to-ahl-bakersfield/",
+   "source": "Sportsnet",
+   "published": "2026-11-16T19:15:01Z",
+   "snippet": ""
+  },
+  {
+   "title": "Edmonton Oilers demote hot shot rookie forward to minor leagues",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSkdCWUNHTklzSnZMRTdOelpSUnNudklkZU9ZaDlfUkk4RmxFQmg2Y3M5VW9qMXIxRW5mUXBDcmdXM2NhMnpScGw0V2liWGNWelpuODlkdUg5NGNWUzlDWEhPXy1scFVGSVg3LVlkc0Z0eXAwSVF5bDAtbm9pMmVpVHhyVkpadS13aUUxVm5NR3I4b04wMW5iemcxeEdEcFE5QzdZU1EyYy1PZkhXbXJyUXZkeWlxTHcxQ3ltRA?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-16T19:07:51Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "RELEASE: Howard activated off IR & loaned to Condors",
    "url": "https://www.nhl.com/oilers/news/release-howard-activated-off-ir-loaned-to-condors",
    "source": "EdmontonOilers.com",
    "published": "2026-11-16T18:56:12.018Z",
    "snippet": "FORT LAUDERDALE, FL - The Edmonton Oilers have activated forward Isaac Howard off Injured Reserve (IR) and loaned him to the AHL's Bakersfield Condors, the team announced on Monday. The…"
+  },
+  {
+   "title": "Oilers Rolling: McDavid, Draisaitl Lead Pacific Division Surge",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY2hjUElscnBjMUtIYnBvX1NWTFh5d2FLZ1FZSGk3YXFneVd6QUlNUGZCODZNSkJLWC1QMjVaYXRrVmh4X2xRTXBnaGVzV2x5NTRWN1RCVUthaGwtVmdadkJtTnk5SHp5bFNORVBuZlV4WWxzekR5TnI1S3FTaThmZm9YekZhOGhLdFNZMHdmNUtWUGZGdDBGMXRR?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-16T18:50:12Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "From one gladiator to another: Russell Crowe shows support for Devon Levi, Edmonton Oilers",
@@ -24,10 +47,26 @@
    "via": "google"
   },
   {
+   "title": "Tristan Jarry steals another one, Zach Hyman survives an injury scare, and special teams dominate for the Oilers in Philly",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbWVlNzhaQVlqZ3VBMEdQUk9lZ0dlNmxxUDNOSkdVUlhYVWZlcmhWb3VkVE43ZmQ2ZVZpcWkxRTRyWjNWSld4d3FSenVGQ2RXQmRDMzlNVUxNcURLM3ZkbFhCcENXSHkzZnFVZWE4QTNRQjkweTkyMW1zUnVxRGpvZWhWNW93aXVsTndPUWctZ09LRTlST3lYaWQ2Nzcyc3NZRzRiTlE2Q0hYYllsMTNBSXJQWkg5dw?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-16T18:01:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers firing on all cylinders with star power and goaltending",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUG4wTmpVdlpVeUprV2pvWHRqa1lxd1RsYVUtRzBHLVdjNXlPMXBvZ2lfSjNhR2xzODdjR0ZYRGZaaWVNVXpxRjFtZmtBZjVGOERJZGdUM2IzaEg0MzNuV19wM013Sk01WkdLRGh5MUFLNkVUU2VveEtYam5ueHIxcjhZbS1weUhDdWE5X0pvdnVleTlCUTdVMGJpcXczRFVsamdobDJabTBjemt2Zk96d1ZHWVlXRUZQZ3RpelRQdjR1Y2NI?oc=5",
    "source": "Daily Faceoff",
    "published": "2026-11-16T18:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ Connor McDavid matches yet another Wayne Gretzky record amid torrid start",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZmJuOS0xVUF6MzJILWdnOUtLTTZNc1ZyZlBONVhUcUc3SzhHcFZFY01IMzVndEZLLUlZYXF3N0t5RUZHanMtMFp1R19sZy1RT05PXzFvZkV3T3NwcmdsX2MyNFRQeGtiRUphaFBIMjVxS09LTVhJd2pQVW9aNWFZRXZEbzNwSU1LMGc?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-16T17:50:16Z",
    "snippet": "",
    "via": "google"
   },
@@ -41,7 +80,7 @@
   },
   {
    "title": "Connor McDavid ties Gretzky's record; Draisaitl scores 20th goal to lead surging Oilers",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWlNwV1NXVE5aWWN4QTdPUU5wVVpOR0J4VF9aWHUwazJ2eXp2Y05vcVdvUEg0Rm1NbTY3eUtrTWtkM1J1XzRWcEpCUDZtNzhzdWdoSnZTZDA3ZDN3Q1B3UklGVThaWTNOQW1XdHhnZ21oOUdwSnA1Qy1VRHlvMHBoRjhaRWl2Q1JrSlFyMWtXczZCMUg2T3RwMEZLY2JSLWswSjNNeDhFcDNnX3k3WjFIMUpzb3JPY0F3emRxYnFORWlrSU1UdXlmdkFNQkNqVXgzeXpvclBDempqdw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObVM3cU9pY3JDcWdxeW1PYTgwcXh6SHEwYmJQb1lYOWo5UHAtVWZ4NFJwMzNXVG5nMl9xZlc0c3YzS2lWVFF3OXVaODI3SWhOamJOUzVvamZoV3VFejdxUlNQcUhvU1FSczJmek5DM09rWkRaaWdZTFRfR0lQY0FPbjdWS1FiM0JPRVRHdHM3N2tWOHJ0bHZJUzNPdWVVXzQxc0RmVHg3WXluVTdOODBFLVh2bUFfVnIxa3JaNlRITkZ0UVVKS3lCZ1lPQTlqcHROeGozUw?oc=5",
    "source": "DAZN",
    "published": "2026-11-16T16:18:03Z",
    "snippet": "",
@@ -135,14 +174,6 @@
    "via": "google"
   },
   {
-   "title": "Flyers Hit Embarrassing Special Teams Low in Loss to Oilers",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTkQzVzlOVVVBZlYxd2VrTDdlQmtjSmJHeEJGc1c3Y3pRa1gzTzlYeFEtSW9wdnp5M0NpVnJQN01QQWNTV3pyVjRqdlNxTE1Gd0VmZjc3QW95WkdJdWMtMExtMkM3czVSTTNEbFBGcHJFb3E1V1BBdTh6MXkzeG9UNGZuOXZUTEI5OXhySms3OA?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-16T13:30:52Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers’ Devon Levi explains Gladiator-inspired, pre-game ritual",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-devon-levi-explains-gladiator-inspired-pre-game-ritual/",
    "source": "Sportsnet",
@@ -155,30 +186,6 @@
    "source": "Sportsnet",
    "published": "2026-11-16T13:08:07Z",
    "snippet": "In this episode of 32 Thoughts, Kyle Bukauskas and Elliotte Friedman begin with Devon Levi’s viral moment and fresh start in Edmonton, then debate Connor McDavid’s assists and his…"
-  },
-  {
-   "title": "Chris Tanev takes positives away from Maple Leafs’ loss to Oilers but urges team to ‘give a little more’",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNVhKbFJ1XzRtZE1UNTRxRHl2NmdITDZGQmhQZ0Y4MWN5MXpuVmJkMmV6NVd5YVJqZjZEVXhyTHhOek95aEIzbHROcUVHYVFMc3hxRi03M25HNml6aF9EQTB5SENQbU81TldXX19KRnNPMUlIbXN5YVN4NFM5Tk1VRERXLTJ5cnBvNmRUZEVzS1NWVHhSUW1OZGFrYXEyS0tUa3lrdlljVTRPMmhIR1VB?oc=5",
-   "source": "The Leafs Nation",
-   "published": "2026-11-16T13:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Connor McDavid extends point streak to 22 games as Oilers beat Flyers",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNkVFQWR1QlFqaTlBczUzVVV5VXJOMnpFc3hpNDRJS0c0WFNJRDNvSnUxeDllWGxHVy1KUkM3d1RxenBiUkxRWVh3YXdsSDYtNENTeXJsVjc4bllVV0Z5QllNTXYwY3g3LXRtdzlHb2JIYjAwdFBDdG91MFRtV0s4YkpnOXQyTy1hUFVMQWZjcExOcURJQnllQXI1TmRRb08wQjJCamtIWTRBazBQMy0w?oc=5",
-   "source": "CTV News",
-   "published": "2026-11-16T12:43:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers' Podkolzin stays hot and has finally found his groove",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOeWh1bFNCbG1lYk5sMlRNa3J2cUNNTHBFS3phb3Q5ODhXeEFXRVd6cEZadlNQamhDQTNfTVAxYzNwQVR3OFlWWjhfcnR6WFE0RWxRS3Z2R25GNVNPdVRtY1hKaHh2VGY1bkNIclh4NExDZ2ZSRFRGenlIWnV2N1p3dm9hMzh3N0hGSEF6Y3NR?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-16T12:28:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Girls in sport: New study offers both optimism and a warning",
@@ -270,13 +277,6 @@
    "source": "Sportsnet",
    "published": "2026-11-16T00:14:09Z",
    "snippet": "Watch as return-man Montrell Washington opens the Grey Cup with a bang for Edmonton, returning the opening kickoff 78 yards, setting the Elks up for a Cody Fajardo rushing touchdown,…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Nugent-Hopkins out for Sunday's meeting with the Flyers",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-out-for-sunday-s-meeting-with-flyers",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-15T23:26:17.575Z",
-   "snippet": "PHILADELPHIA, PA - Forward Ryan Nugent-Hopkins will miss Sunday night's game as the Edmonton Oilers face the Philadelphia Flyers in the second of back-to-back games at Xfinity Mobile Arena.…"
   }
  ]
 }
