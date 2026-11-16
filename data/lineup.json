@@ -155,9 +155,9 @@
     "pos": "C"
    },
    {
-    "id": 8481617,
-    "name": "Vasily Podkolzin",
-    "num": 92,
+    "id": 8477953,
+    "name": "Kasperi Kapanen",
+    "num": 42,
     "pos": "R"
    },
    {
@@ -187,9 +187,9 @@
     "pos": "C"
    },
    {
-    "id": 8477953,
-    "name": "Kasperi Kapanen",
-    "num": 42,
+    "id": 8481617,
+    "name": "Vasily Podkolzin",
+    "num": 92,
     "pos": "R"
    },
    {
@@ -250,14 +250,16 @@
    "status": "Out"
   }
  ],
- "notes": [],
+ "notes": [
+  "Projection is based on the Last Game (2026-11-15) lineup until morning skate or practice updates."
+ ],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Edmonton Oilers",
-   "updatedAt": "2026-11-15T23:33:55.964Z"
+   "basis": "Last Game (2026-11-15)",
+   "updatedAt": "2026-11-16T15:02:15.209Z"
   },
   {
    "name": "DailyFaceoff",
@@ -267,16 +269,16 @@
  ],
  "goalie": {
   "starter": {
-   "id": 8477465,
-   "name": "Tristan Jarry",
-   "num": 35,
+   "id": 8482221,
+   "name": "Devon Levi",
+   "num": 27,
    "pos": "G"
   },
   "status": "Unconfirmed",
   "backup": {
-   "id": 8482221,
-   "name": "Devon Levi",
-   "num": 27,
+   "id": 8477465,
+   "name": "Tristan Jarry",
+   "num": 35,
    "pos": "G"
   },
   "note": null
@@ -455,8 +457,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/florida-panthers/line-combinations",
     "what": "line combinations",
-    "basis": "Rob Darragh",
-    "updatedAt": "2026-11-16T00:41:26.456Z"
+    "basis": "Last Game (2026-11-15)",
+    "updatedAt": "2026-11-16T15:05:09.436Z"
    },
    {
     "name": "DailyFaceoff",
@@ -466,20 +468,20 @@
   ],
   "goalie": {
    "starter": {
-    "id": 8481033,
-    "name": "Akira Schmid",
-    "num": 40,
-    "pos": "G"
-   },
-   "status": "Unconfirmed",
-   "backup": {
     "id": 8474593,
     "name": "Jacob Markstrom",
     "num": 25,
     "pos": "G"
    },
+   "status": "Unconfirmed",
+   "backup": {
+    "id": 8481033,
+    "name": "Akira Schmid",
+    "num": 40,
+    "pos": "G"
+   },
    "note": null
   }
  },
- "updated": "2026-11-16T08:52:27Z"
+ "updated": "2026-11-16T15:11:56Z"
 }

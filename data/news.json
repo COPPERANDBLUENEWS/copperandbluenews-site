@@ -1,18 +1,58 @@
 {
- "updated": "2026-11-16T14:06:54Z",
+ "updated": "2026-11-16T15:11:56Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (14)",
-  "Google News (92)"
+  "Sportsnet (13)",
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "3 Takeaways From Oilers’ 5-2 Win Over Flyers",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QTjllZ2hFY21GalU4UmpQQW02aFdwT2NVQWg4M01CVmpCTDhKMC10VTNVUVVhNTdnelAzM3ItZkZiZHduZXVmRDRrc2NhVld3YUN3YVRvUDk2OFhhV0ZRX2FSOUZPSHNTN2dnV01JMzVGZXhWMVhhSUFlTktFZw?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-16T15:05:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "3 Takeaways From Flyers’ Powerless 5-2 Loss to Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONVdvV01fa290OFQ0d2dRa1NIdVBoQzdHWVdPWnd6TmJKSjF4M1FSR0d6UmVRNURtQmtfelR6eXhLb1p5NnRIYXFBeTNDV01jVmlPZVJYNmxCMmFkZUV2c3JnS1ExcmdtNHFEZDdoVmMwSGotaTJ6R1FYZjQtX1FWZ01KQUFMUEN3S0E?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-16T14:55:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Devils' Hellebuyck Remains Undefeated, Oilers Keep Rolling, And More: The Hockey News Morning Skate",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPd2xockY2Q3FPWmJQOHhjcktuOS1xazJJaHp5Rk9vSjNid2lTbF9pV2pneXV3cGZwT29ER1R5UjhodTFIRG9GQ0JJZmhuZEFGUWhXOWNwMGFmZnVnYUx3X2NfYl95MkxGSUZ5dkxMYVlJRjNPLVMyeENIZkNKSkhta3d5Mjh3RWtCUW5FN1BmTEZDYWdaSzR3MXFkMHprdktVTklVd1BlRUJjSWVtRTNhQ3dYNWplQWNkSmRNdHJfZ2F3U0JjN1dyNDR0aWx1Q0I2SDRjag?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-16T14:42:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers News & Rumours: Nugent-Hopkins, Goaltending Strength, Savoie & More",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPT3dUeGtsYTNDbzFyX1N5Z0N0ZWMtRHBGU1N6ZV9OSEl0QWxWbHFPa3lQdFR5UlF2TVBZVXhPalkzOGduVlRhNXlod0I1dU1VTjFBVzRlYnBNTnBmeFN3NnAwbmw3YWxqa1VYWW1fTmRxM0llUGN2cFNqa1pFQS1KUEEzR0pIVVRzTjZpVFZKVzF2bUhsdktsV05GQ3ZEdw?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-16T14:25:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Double championships for Oilers and Elks? NHL shows zero regard for Canada",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9acF9od2hqVllVT0NUQ01oZEFpZWU3SGFHNUljV29TUUxzczRDR09QR1RWZXpWcWZ0ZkNFMXNQc1IzVFI2eUZZenRCSk9aUmZOY3lNS0g4bHRFb0dvVktsYUxWRDJEalExTndmVWd5MkdoaUJWOUJPSkZrZERHQQ?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-16T14:04:59Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "The Day After 22.0: Oilers cap off epic Edmonton sports Sunday with physical win in Philly",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQVk4di1mVENtd29BbFNLckNSLTBXblJEQW5LY2FtRWhiM1laR1JxMU4xdGhrU2lWX2pWOHNxMERUZkxucXNfNU9mMjBfRnBCYTFJc3lyUkM2WFJPOGtrZWhmRVhSRV9ScFltOXRtM2ZkamgyLWtsUk43cDNrd2xRdFlwM01NUzB0N2xNU0dkWVN4dmFHb0xYbzFTQ0g4Ylk?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-16T14:00:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -110,14 +150,6 @@
    "via": "google"
   },
   {
-   "title": "NHL roundup: McDavid matches Gretzky’s assist mark as Oilers beat Flyers",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdGN6bHRtQXc3WEhsUllnYmRkM0lPM3dEbzlfaFlfTm9HYVMzdjRIY1F1QUx0aERjWjVBMmN3TlNpcmtLLTF2eUxXc29IZWduMXFlZFhoN2lQajZfNDZwNThLa1FsUWx4WVhNa21Db0s3SzZqbWdNdWlMMkI3N1BTYXQ4VWZCdFNVVkoyYlFYRk5KQ09LanliSjZUaDV5Z2ppbFYxaW9YSGEzcTNwLXc?oc=5",
-   "source": "NanaimoNewsNOW",
-   "published": "2026-11-16T07:46:03Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Edmonton Elks lift 15th Grey Cup in franchise history",
    "url": "https://www.sportsnet.ca/cfl/video/edmonton-elks-lift-15th-grey-cup-in-franchise-history/",
    "source": "Sportsnet",
@@ -140,6 +172,14 @@
    "snippet": "Justin Dunk breaks down why Cody Fajardo was the difference-maker for Edmonton, as well as the Elks’ defensive group, who kept Davis Alexander in check, and why this latest Grey Cup…"
   },
   {
+   "title": "Draisaitl scores twice and McDavid ties Gretzky’s fastest-to-40-assists mark in the Oilers’ 5-2 win",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWnlycW5FeFlQbzVXMlJHWXlLT3pFdWhjbmZWUnNPV3MzRFF0RUx3QlBpN1R2MWE4Ykt5VEt0bWxFcUplRnp4c3Y0Y3pYTzM1LWNrX0VHYlBrcjhkOWNrMUM2STUyc050QlNfM0k0YWZlcmdmWU9JU0VYTjhtLUk1ank5VWVJX1NvUHhaRGNtbkRlWkRnY3lOUXFUQjNPUlhFb0N0RDh6R3dQaHR1aGJ1UDcyUXR5dnlwaWdPbzAwNV9FVmx2a0Y5V1hRMA?oc=5",
+   "source": "rdnewsnow.com",
+   "published": "2026-11-16T06:16:13Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "McDavid pushes season-opening point streak to 22 in Oilers win against Flyers",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSnFGN2hyRUJCUW1QLXQyaXhzbkM3a0JkNjI4RnlYOVZnNVR5X25DajFwUFVHUkxPWTdXczF6SjFmR2ctTFNYQzBnLXBZdE4tR294c1NaV3Y3cDZUS2NidXdEMkVtTV92UHVWWG5nSzRPS1FLYVM1ejBSaHRreFR6TkxOVVhpQlFxczFOeHZCOGZDdw?oc=5",
    "source": "NHL.com",
@@ -149,50 +189,10 @@
   },
   {
    "title": "Oilers’ Draisaitl, Babcock react to Elks’ Grey Cup victory",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOV1pvLTdDWWc1MVktMzlhNFVmZF93a3ZtMEtKYjlqRk4xenNWd3hBOWFObGJJbmhBcG5neTBJSGZXNWFGUEx5eXZLbzR0Q2ZFZ1Z2TnFYT0hidmNJTnc0M2E3aDVFQWtYbEM3cWJSWlR4Wk5zR3hHRS05MzFqRFN3XzRBVU5XaUw0VkV0d1NBVWxpU29ZNVE?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-16T05:44:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Draisaitl scores twice, McDavid ties Gretzky’s fastest-to-40-assists in the Oilers’ 5-2 win",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWnpGSjRhaFlKR1Z4dUhTYXhwREJGMW9FNUY0MzNiTkFhUndVdzZ1cFJmMURWX0MtUDNhaExNcjRLLXZrZG55VzBNeURXMzZxYmF2c1BLYUtfTVRpUDNBNzFrcnJyWHpQbkxaOFh4U2wtUFRxOHJvbF9RdzhYLUw3X0tqRXFXQQ?oc=5",
-   "source": "Global News",
-   "published": "2026-11-16T05:02:50Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Flyers learn the hard way: Edmonton Oilers have the best goaltending in the NHL",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZXdsenNEeXlQRmVWbWVOU0ZNSmVsNnZZTDJFck9icEpQaWJodm1nNTNMeTAzUnpYcGRueUZDai05S0ZIVEhHY01SMG5mdlNSRmRRM3M5MWFVbGZNOExFbzhQOFdaZXBfeWdpZ25DZWxScDhuelZ6WkhTckV4VERDOW1CN2xJejFaOWdRZw?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-16T04:55:05Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "WATCH: Oilers’ Zach Hyman scores 500th career NHL point",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQekhWMEJsbXN3VUI0WkJXQkV6Tm92M0l2bmRvWXFsZlVhUkwtYTdWUVN1MGVtYVpkSFdOOUpiTmFoQmF2aVVzaFlyOGhnRV83bE1SampaT203dUtjTndLSlhmOE5oR0UwNHRySExMMlU4c2xqckxMNmtUMVBGc1pLdnBrSkRRWU9YMnh5dUlMUjlFWnYzNXozN0xVcw?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-16T04:32:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "‘We’re all doing it together’: Jarry on Oilers’ penalty kill",
-   "url": "https://www.sportsnet.ca/nhl/video/were-all-doing-it-together-jarry-on-oilers-penalty-kill/",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-draisaitl-babcock-react-to-elks-grey-cup-victory/",
    "source": "Sportsnet",
-   "published": "2026-11-16T04:02:16Z",
-   "snippet": "Tristan Jarry discusses Oilers’ penalty-killing unit and the communication helping them find success after a 5-2 win over the Flyers."
-  },
-  {
-   "title": "POST-RAW | Draisaitl 11.15.26",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUnczRlNtVG1Wb0Q3VFMwTWZFdlRXd213VFlqT0c0RnVDNThuVG5PTHpFYXI4UktteVBqemRrbzlBU3FydE1fTlItM3FzaEhSSVVJZkVyeDI3VVBPcHNEWXpuSmJUVDkweWgxR2VEZGxKczRUNlV4UkhsRlIwczlmRzJfT0JjZw?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-16T03:52:32Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-16T05:03:34Z",
+   "snippet": "Edmonton Oilers forward Leon Draisaitl and head coach Mike Babcock share their reactions to the Edmonton Elks winning the Grey Cup."
   },
   {
    "title": "Draisaitl, McDavid record three points in Oilers’ win over Flyers",
@@ -207,6 +207,13 @@
    "source": "Sportsnet",
    "published": "2026-11-16T03:39:19Z",
    "snippet": "Leon Draisaitl recorded two goals and an assist, while Connor McDavid added a goal and two assists as the Oilers defeated the Flyers 5-2."
+  },
+  {
+   "title": "Flyers learn the hard way: Edmonton Oilers have the best goaltending in the NHL",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-philadelphia-flyers-tristan-jarry",
+   "source": "Edmonton Journal",
+   "published": "2026-11-16T03:30:32Z",
+   "snippet": "Tristan Jarry backstops Edmonton to win over Philadelpha Flyers"
   },
   {
    "title": "Player grades: Tristan Jarry steals another as Edmonton Oilers beat Philadelphia Flyers 5-2",
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-15T23:26:17.575Z",
    "snippet": "PHILADELPHIA, PA - Forward Ryan Nugent-Hopkins will miss Sunday night's game as the Edmonton Oilers face the Philadelphia Flyers in the second of back-to-back games at Xfinity Mobile Arena.…"
-  },
-  {
-   "title": "Oilers at Flyers projected lineups",
-   "url": "https://www.nhl.com/news/edmonton-oilers-philadelphia-flyers-game-preview-november-15-2026",
-   "source": "NHL.com",
-   "published": "2026-11-15T22:35:00Z",
-   "snippet": "OILERS (15-3-3) at FLYERS (6-10-6) 7:30 p.m. ET; NBCSP, SNW, SNO, SNE, TVAS Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Colton Dach --…"
   }
  ]
 }
