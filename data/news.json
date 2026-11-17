@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T06:40:55Z",
+ "updated": "2026-11-17T07:26:10Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -9,9 +9,17 @@
  "errors": [],
  "items": [
   {
+   "title": "PREVIEW: Oilers at Panthers",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GZFNJUmEyZHJtRzFrZFJ3MThkMC1KLUJrUGFvZWFDQzEwVHM3ZWZQaTJ4R2h6RjN4WTR5QnBJYzA4WXk2THBPTDJoRFBSNUNzWVJWakw1TU5Xd0hjLUpNWWQ5QmlSX3p4OGhUN0FPMDlCcjYxZUE?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-17T07:08:47Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
-   "url": "https://www.nhl.com/oilers/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026-x9611",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026",
+   "source": "NHL.com",
    "published": "2026-11-17T05:00:00Z",
    "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
   },
@@ -183,14 +191,6 @@
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUG4wTmpVdlpVeUprV2pvWHRqa1lxd1RsYVUtRzBHLVdjNXlPMXBvZ2lfSjNhR2xzODdjR0ZYRGZaaWVNVXpxRjFtZmtBZjVGOERJZGdUM2IzaEg0MzNuV19wM013Sk01WkdLRGh5MUFLNkVUU2VveEtYam5ueHIxcjhZbS1weUhDdWE5X0pvdnVleTlCUTdVMGJpcXczRFVsamdobDJabTBjemt2Zk96d1ZHWVlXRUZQZ3RpelRQdjR1Y2NI?oc=5",
    "source": "Daily Faceoff",
    "published": "2026-11-16T18:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers players shout out Edmonton Elks after Grey Cup victory",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOS1RoSEZpaHZHZHU5MlRwSWV0VmYwTnJPUUc2OWNMTldmQ253aC10TTExNDhvQnBjbWUyaE1fX0hNUEN2OEdLRnZSWWpwdlY0eDJxd2tPMVhVMzUwX0NyODI0MDlFVjZiZ1REQ3NFSzkzSHdZeXVraWhLMnBkaTZ1ZVJMaw?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-16T16:25:00Z",
    "snippet": "",
    "via": "google"
   },
