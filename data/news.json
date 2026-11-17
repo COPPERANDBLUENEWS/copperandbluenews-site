@@ -1,18 +1,65 @@
 {
- "updated": "2026-11-17T19:41:49Z",
+ "updated": "2026-11-17T21:29:15Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (82)"
+  "Google News (80)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Tristan Jarry trade is starting to look a lot better for Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOVpOU2tlUUtxZTJldm9uNDc4U3RQVWxEeXY3OVpWSDZ6c3dNbThQV0huM1Q5LWgxLVNUNFNtczZCY2ZodWMtMHF5MXcwUFNKZWJ5WnhtNVYzN2NoUmdhZnpvV0VwSndpNHVYV2I1dDVWUnYzRkc2a011UmNFRUJyOGV0N2NYaVha?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-17T21:07:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Golden Bear earns second Canada West all-star football selection",
+   "url": "https://edmontonjournal.com/grande-prairie/edmonton-elk-ljuden-football-canada-west-all-star-cfl",
+   "source": "Edmonton Journal",
+   "published": "2026-11-17T21:00:25Z",
+   "snippet": "Ljuden said one of the rewarding parts of university football has been growing into a veteran role after starting out as a rookie learning from others"
+  },
+  {
+   "title": "Evan Bouchard is the frontrunner for the Norris Trophy",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObi1XamlxVUxWSGwwOG56V25iQUhCYzk1Zl84NnFKM0pGMUtvQWp3UkM1ODFtOXlWRHBCdmFSb2pYV1BObzhhRlVOc3lmQ3E5QlpEa2dmbFFFS2RlVUFQc0NZc1k4RkJCRUYzam9zUHduQ2JPV3FpTnFwYnc5bHB3cEFJcmNjemVGclNmTVlHNEZRNVJvMFdsWGVhT3JtcC1vdzhTbnRXQmVRNTY4LUZWXw?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-17T20:48:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "How a favourable schedule fueled the Edmonton Oilers’ historic start",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaWZrVW16bTljZ2FBWHI5U21yM2lZMDlqMFdNS0hoLXJDRGpaeGtidjVHME9PYTlfRGtDLVg5YkJZZzZBeVZUU2hrbTM4TVUybXltMFJPT2tlWF9yZUp5Tzl4OTYxMFlmaWVuc29hMUxmTktMcU5tZVVzbklnQzFtUDJxdGlMT1U?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-17T20:06:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers at Panthers: The Stanley Cup rematch that never feels routine",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdzlBYWFqVFlOYnFRR1lLV1RpcnNYVjJUd01WaU14SlBtck9CeWxvU2pRWk9palVRNzhlUTBEZmZHZVhVckNlSzk4SDdKRG5QR3hWZ05heGhQX0hzNGc2bk1DRmRjLVJKaExvTUlUb1JTRnhwbS1VWXRud2xoTFFNMmF4ME0zRmtQWFNrWWlKYU9JUUtUUHlqdG51VG1INUxyWXNoWGluUExMN2hsNjdCYllCdGJzdw?oc=5",
+   "source": "CTV News",
+   "published": "2026-11-17T19:47:16Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers bring five-game win streak into measuring-stick matchup vs. rival Panthers",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaFR4Mm1jV1Q2SmNQQkpoR1ZhZGthbWtVY2ZOaV93RVBBcGdpYmdTcUNRT1h4aE1kS2JTNTNLTk9hdUFPOVpMN3BLMmtKNFU1QUpiMU11Rm5RZGNXT1lZeGdKOHlPdnRWRUswTTNJNXRrQ2gwS1J3WkdMN1dsbWpIdEZIRll3RmstN2g5X2ZNZGxyX3hDSEVzZVk1dTRUb2RWWVBfWE50SVhyVVRHRGhKdFgwTFQ2MGI1MzhYU013?oc=5",
    "source": "TSN",
    "published": "2026-11-17T19:28:22Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Florida Panthers - Nov 17, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fc080OVpCN1JHa2JZek15eFRqUjZMWFJsN0hFSkstY2gzVnJTN1JrNmJKNW1Tc002TlNyQWNhMWtERE5rTGVPYlp0UU1TNWhYbDN2MjlqVlhUVE9zS19sRmZhNXM1X1Fra3RCRkpOR0o?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-17T19:12:06Z",
    "snippet": "",
    "via": "google"
   },
@@ -51,7 +98,7 @@
    "title": "Panthers Rivalry GameDay v Oilers: How to Watch, Stream; Lines, Goalies, Odds",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdFJjU3haTWhXaFMwQ003bUNiVG9CdUUxUWZDcVV2Y1FIYnRpNXU0Vk9oaVdrV2NBU1JIU0J3NG80VGpjZXBhbFhDLTVodDZyQUZMS0h3MlZQOUk2MzRseVBXb1dXZ1BvNTNKUXIwWVpEMWZkcV9GdUJIaFFpVGNFNGZrYTVJZ25zRVRMbnlZYzZ3X25qMHVLTW9ueURPTTcyRXRVZHpOR04xYjRfYXh3S254dkdRd1lfeFFYTGFtdmZ6VGhLNTAtT2NEWE5ZUHg3LWpV?oc=5",
    "source": "Florida Hockey Now",
-   "published": "2026-11-17T17:34:49Z",
+   "published": "2026-11-17T17:32:54Z",
    "snippet": "",
    "via": "google"
   },
@@ -107,7 +154,7 @@
    "title": "NHL On Tap: McDavid on 22-game run for streaking Oilers",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CSG9MY1hDYmdJZlBXUFV1LXl3WEU4NTRHbE1wT0g1cU4zUmtxNEhaYmctVnpRWGpKSkVzX0hURVJGM2wweWo4VEpkN0l6V0toZ2dmVmhHLXpDVDNBY0I3VlNnay1BbFBCcXNTSjZxelpCVG1qV2c?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-17T16:33:14Z",
+   "published": "2026-11-17T16:35:52Z",
    "snippet": "",
    "via": "google"
   },
@@ -125,46 +172,6 @@
    "source": "Sportsnet",
    "published": "2026-11-17T15:48:32Z",
    "snippet": "NHL betting analyst Johnathan Davis joins VSiN By The Books to discuss his approach to the Edmonton Oilers vs. Florida Panthers matchup and where he sees value with a Leon Draisaitl prop."
-  },
-  {
-   "title": "Edmonton Oilers report cards: Superstars, goaltenders get top marks after hot start",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS1ZlX21aVF9WbnhYUFJ4UVNhUUFfUkFTMzFzOWs0eEZmdVBuZUM1TUVUY3k0R3g5MHhMNFo2eE52QlViR2diRzRqMjBoaWNNcWZQZGlGaXQ4SHdBUzhBNFFwSW9sdHZGaUdNNllZUGVDWXUtS0Q4ZGd0Q1c0RENhNl9ueGd3aW1Sd0gwWWxtcmd5UFJKTkktTA?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-17T15:18:54Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers Stax",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQamZneVcyOW5wa1pKZUxoWFBfRjNmZ2x6UEpaM0xHN1g0d3NWTnI5MURTcnRHeUlOWUFGdFhJZzJob0o2TGhERWFzZ0g2X3JPa3RWWEdhMHBPaTJLNnd3TUptR1gwZXdLczlXOUhGYnl3WVR6SkxJbjkxRWhEWlJZUGN0X09UbmhKOGRpaFl4Qzh3aklxUHlLRnQzX0QtaGhwQ3FhYzl3bGlPcFEzdWc?oc=5",
-   "source": "Oskaloosa Herald",
-   "published": "2026-11-17T15:15:55Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Connor McDavid’s wife Lauren Kyle reunites with family and close friends during Edmonton Oilers’ NHL game",
-   "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxNaWJZQ01fazgtU0x5SUhMM1ltQ0FSTWppTkJlYi1IaHhUdEFtSF9YUjNrU1duVnlrRGtpTjQ5S1VuZDJFM21LMEoxU1ZIWHc2SGlWUGk4a01KXzRMRkl2T045Qk5kbE5Qbkp6UFVPTGQzeWprbWJCVXR3WS1RQ3Z6QzdSS0NfTnRtVEVnN1hhTzNsTEdFUUNSX2hVcUFSZ1ZROTAzbU9wdW0yOUk4QTN0WlRlWjg2WG5fOGhUb25EQWhhbTktVEdSUEEwT3hfRFhGb3RPbmI5eEh4YlRVZlpZdTNybUZaMjh6dnZHTHBhbncxM1JsU0hUaGtjajR0dWtNd2c4ZTk3cmxCRDd0c24ySXNsWFY2U1k1aTQtVkk5alU2dXJiVkVibmxFdzZEY3k0VEFLUDNBSFB2VV9NVnRWVWt0dmNYT2hkM19MREFtMHRvQ0Z4SU1xNEpwVGxHbDJ4NC12aFZGN1hSTWdGeVhGbU82a3dWdHBC0gGuAkFVX3lxTFA4TXV3aTNRR3VWSHNzdjNaeDlpX1BjV0N6NEM2c2hYQXZWdEI5YXZLazd2NUptNV9ONUJJZ0VrYnRxZmxKWnBJM200UVlPTExVV1k1bjRHS3NseEMxdGpKREw5SWN4T3VNdFBmQ3lnZ1k1dTJfSlJGYi1BT1pPVk5MMmh6M3M4ZkdRQjJmRm1aNkhPeHpvSjA2RFZsc2FNU1RqeEdFaHNHaGlKeUtBQjZENDBEbjlnd2J0b1Z4dW93Nk9lYVg5QXdfUkVjMEh1T1pJcTRUclV6b0M3SmhXN2xWcFFtamdRbW9OMkdFVFFrMXpMYThadFNPU1ZERHNIVlQ4YV8wcDA1UU43SkxXTF83OC1RWEx2ZXRCZWdUN2RGMVZ4TGJ1OWF0Yl85WV9n?oc=5",
-   "source": "The Times of India",
-   "published": "2026-11-17T14:10:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers vs Panthers Prediction, Picks, NHL Odds for Tuesday, November 17",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTTY4MUFXMUxuOFYzazZnZkxtcTlyeGRLQ2podVQ1YXU3Skp2a3NhWFhwOGZ1QlNkMWZzemd0TmpTVFMxUWZ4V2dpOXZWUXJUVXRaa3dTcFpINzd2V2VhZTktRVB2cUdwbzB1VHhwZ1psaF9UZHpVcHQ0azJyejBlWDNjWGR6RGxFc1FJcg?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-17T14:07:26Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL Notebook: Oilers hold fifth in Daily Faceoff power rankings, Jaromír Jágr hints at retirement",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObGk4TW9NSDBZVWtwcU14LXpkYm9EWGNKVVVGMU1nNnBEOXkwUl93Q0lvVUxyYml6UVJpb096Z0h1OTM2LWh0UlRFSWVTRjdHZFdXMDdITTdwekpsZ3dxYmJicGZrN1JCYTZkUGlZelZicC1WRU5lSVVGUVdFaHFnMnFKSmRjRmRYcnNZZFhWWDZtZXJYYkd2T0ZQeUxFbjQ5LWc?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-17T14:00:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "PREVIEW: Oilers at Panthers",
@@ -214,13 +221,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-16T21:50:56Z",
    "snippet": "'Slats looked at me and said, ‘I’m not trading you. Things change from day to day. Work hard in practice, enjoy your time off, and you’ll get back in the lineup.'"
-  },
-  {
-   "title": "Edmonton Oilers goalies crushing it at every single level of pro hockey",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-goalies-levi-jarry-jonsson-tomkins-day-vinni",
-   "source": "Edmonton Journal",
-   "published": "2026-11-16T21:04:52Z",
-   "snippet": ""
   },
   {
    "title": "RELEASE: Howard activated off IR & loaned to Condors",
