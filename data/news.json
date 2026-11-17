@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:59:18Z",
+ "updated": "2026-11-17T04:36:09Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -9,6 +9,13 @@
  "errors": [],
  "items": [
   {
+   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
+   "url": "https://www.nhl.com/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026",
+   "source": "NHL.com",
+   "published": "2026-11-17T05:00:00Z",
+   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
+  },
+  {
    "title": "NHL insider identifies top trade target for Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUjVEdllkOF8zd2ZtYURhUUtKa0FqdE1DYXNxQzlNSFF4Uk9KekhPS0x0aGd1UzByZlNxRksyT0FFN0xjSU5KM3BjNlFkdllQVnFFU3lyRElkV0pobzJPbms1U1YtTjFUVHFyN1VpWXBhZXlhYVVQNzY5aFVPUHQyczdzSjJXRF9XaVJ4dXBldDdiOVZLZ3NMUnU1OG42bUdaQTJOZ2RsTkNmUE83RUlnMEJLNGpNZTZ5SnF5aldBdENheEhpbHRXeWZPUzRHWl9h?oc=5",
    "source": "Edmonton Journal",
@@ -17,18 +24,18 @@
    "via": "google"
   },
   {
-   "title": "Oilers activate Isaac Howard from injured reserve, loan winger to Condors",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPckVzWTZIRVNtYnF0QXE5enBTcXB1MmNNUzdvZjVObF8zOGdfcXcwZFBILUhod2gwVFVPcjNNSWJNV2M2aDZnNmFKNFZrQjVNbE5VS0g5M05iY1JPUVB3UEFyaGxRdFREWjZQN0dnNVNEa1J0VEdranVXb3JQMHFoY3JyanVYN0VTcUVobk9hSVFHdzBoSGxCY0ZoZVgxcEN0Snl1c3BCSmZTZWlZ?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-17T02:00:06Z",
+   "title": "Edmonton Oilers - Florida Panthers - Nov 17, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fc080OVpCN1JHa2JZek15eFRqUjZMWFJsN0hFSkstY2gzVnJTN1JrNmJKNW1Tc002TlNyQWNhMWtERE5rTGVPYlp0UU1TNWhYbDN2MjlqVlhUVE9zS19sRmZhNXM1X1Fra3RCRkpOR0o?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-17T02:42:01Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers - Florida Panthers - Nov 17, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fc080OVpCN1JHa2JZek15eFRqUjZMWFJsN0hFSkstY2gzVnJTN1JrNmJKNW1Tc002TlNyQWNhMWtERE5rTGVPYlp0UU1TNWhYbDN2MjlqVlhUVE9zS19sRmZhNXM1X1Fra3RCRkpOR0o?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-17T00:49:34Z",
+   "title": "Oilers activate Isaac Howard from injured reserve, loan winger to Condors",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPckVzWTZIRVNtYnF0QXE5enBTcXB1MmNNUzdvZjVObF8zOGdfcXcwZFBILUhod2gwVFVPcjNNSWJNV2M2aDZnNmFKNFZrQjVNbE5VS0g5M05iY1JPUVB3UEFyaGxRdFREWjZQN0dnNVNEa1J0VEdranVXb3JQMHFoY3JyanVYN0VTcUVobk9hSVFHdzBoSGxCY0ZoZVgxcEN0Snl1c3BCSmZTZWlZ?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-17T02:00:06Z",
    "snippet": "",
    "via": "google"
   },
@@ -270,13 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-15T20:33:00Z",
    "snippet": "Edmonton Oilers goalie Devon Levi stopped all 19 shots he faced in a 1-0 victory against the Toronto Maple Leafs on Saturday, but there was one lingering question following the game: Are…"
-  },
-  {
-   "title": "FEATURE: Levi's Coliseum",
-   "url": "https://www.nhl.com/oilers/news/feature-levi-s-coliseum",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-15T19:34:07.841Z",
-   "snippet": "PHILADELPHIA, PA – What we do in the crease… echoes in eternity. What a special night it was for Devon Levi, who not only earned his first-career shutout with 19 saves in Saturday’s 1-0 win…"
   }
  ]
 }
