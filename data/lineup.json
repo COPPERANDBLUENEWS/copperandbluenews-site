@@ -274,14 +274,14 @@
    "num": 27,
    "pos": "G"
   },
-  "status": "Unconfirmed",
+  "status": "Confirmed",
   "backup": {
    "id": 8477465,
    "name": "Tristan Jarry",
    "num": 35,
    "pos": "G"
   },
-  "note": null
+  "note": "Levi will start in Florida on Tuesday. "
  },
  "scratches": [
   {
@@ -483,5 +483,5 @@
    "note": "Markstrom will start vs. Edmonton on Tuesday. "
   }
  },
- "updated": "2026-11-17T15:58:46Z"
+ "updated": "2026-11-17T16:38:57Z"
 }
