@@ -1,18 +1,41 @@
 {
- "updated": "2026-11-17T17:42:26Z",
+ "updated": "2026-11-17T19:08:30Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (4)",
-  "Google News (87)"
+  "Sportsnet (2)",
+  "Google News (82)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "NHL Power Rankings: Edmonton Oilers overtake the Carolina Hurricanes as new No. 1; Devils surging",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeTkzYldXRTYtT0xlSjNMOS1Lc0lBUUFjTXBfeVZqTWZ0b3hEZUZHS1BHUlpvNjc3R0FvT3l2XzF0a0F4Mkw5S3ZjNm9pSm1TdU5YYzljRWEzcWNWNjl2TUJ6cFdPY2FrcDBUbTQwUDBjT2pCVi1rOHdsQzgtU3d2NTQzTjVzMk9vckJmbkMyTHc3OHJWMU11TXYxUzZlaXFtbzRJNXloOVh1b2RwOWtfRk9ONm9vdHE5MnlZSk5kaHZ0aUZXaVRPaHBqYw?oc=5",
+   "source": "DAZN",
+   "published": "2026-11-17T18:52:09Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "PROJECTED LINEUP: Oilers vs. Panthers",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVm5HaVh5cVZzU3Q1WllGemw4T3dNZk5sM1BZTGs2ZnUwSU1McE5yYWRQamQxMEFyYk9KRG50cmdfV1gwYVByTndHTEhxTHYyejdpUGlvVVFKQTV1M0VoUmlNUFYxSlJpN3VsT3BFTFpuc2RKblp6NkRKTjloeGtjdEFB?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-17T18:50:35Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Panthers praise McDavid ahead of clash vs. Oilers: ‘He gets better and better’",
+   "url": "https://www.sportsnet.ca/nhl/video/panthers-praise-mcdavid-ahead-of-clash-vs-oilers-he-gets-better-and-better/",
+   "source": "Sportsnet",
+   "published": "2026-11-17T18:49:50Z",
+   "snippet": "Florida Panthers forward Sam Reinhart and Brady Tkachuk discuss Connor McDavid’s season ahead of the team’s matchup against the Edmonton Oilers, saying McDavid gets “better and better” with…"
+  },
+  {
    "title": "Panthers Rivalry GameDay v Oilers: How to Watch, Stream; Lines, Goalies, Odds",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQR1diUWZJcmFfM0FWSDVIOGt5cGwtYW1TbzlRaEtkRkZjMGFJV29yUklBRFBnanlSQV93SGtKVVhrcDF0eDJpV3JfQXFkVnQxQ1gyUEpvNUlQeUN1VS14dm54RU9xX2tpTXVHVS1ma09YNDVyLVJvcVpUTGd6dXJPUFZIbHJsWWFvQ0E?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-17T17:30:30Z",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdFJjU3haTWhXaFMwQ003bUNiVG9CdUUxUWZDcVV2Y1FIYnRpNXU0Vk9oaVdrV2NBU1JIU0J3NG80VGpjZXBhbFhDLTVodDZyQUZMS0h3MlZQOUk2MzRseVBXb1dXZ1BvNTNKUXIwWVpEMWZkcV9GdUJIaFFpVGNFNGZrYTVJZ25zRVRMbnlZYzZ3X25qMHVLTW9ueURPTTcyRXRVZHpOR04xYjRfYXh3S254dkdRd1lfeFFYTGFtdmZ6VGhLNTAtT2NEWE5ZUHg3LWpV?oc=5",
+   "source": "Florida Hockey Now",
+   "published": "2026-11-17T17:34:49Z",
    "snippet": "",
    "via": "google"
   },
@@ -25,7 +48,23 @@
    "via": "google"
   },
   {
-   "title": "'it sucks when you're the player': Key centre and d-man look to again be out of Edmonton Oilers line-up",
+   "title": "Oilers Prospect Update: Samuel Jonsson shines as Condors struggle to find offence",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdncwMnhzZHJWWkg5VjI3eVpKWVRGak9HWU5hSnVKbFpVUnlMTXZJVk40aDlVVmphQUdlTm5FNnZPVUlsRXkzUnlSWVBteFpHcER4Wkd3Z3RHd1VRWUdzalZIRFlyLUVoMEpKTnhVZHN6VV9WR0o3RWllanVXeVJzNldNNF9HYmU5a1BKbEhOcDBlOU54WHZScTNWd1hTZURLLWc?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-17T17:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Sam Reinhart, Panthers Morning Skate vs. Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdXBydnZna1JiazJZMi1idmhHeFBXbHVGNkgzYlg0XzNDSWZVMnlfbFBKQy1GSGR6LU9QZU1hX2lZeGtUOFV6UGUxeWY5Y21EQXk2MUZXZF9BVFBwWXZhcm5zZC1YUVdBVEdpbEZOR3NZejRRX0ZIbHlYRm95T2dHblQ3WG4tX0xpY2JZRDBoZ2xsdw?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-17T16:57:21Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "'It sucks when you're the player': Key centre and d-man look to again be out of Edmonton Oilers line-up",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZHFqWk9LMGRpTlpFWXNwdzUyX05PRGxZVFZ0cVhtcm9UWG5RVXhHOXJHU2lRYzJUOGNieHZBRWR4VU5YM2Q5bXpBZThpQktYaTNIRzhWaVpyVDZ3eExWVkpSVVllRUlndXVkdVpmc0paaTMxQW9OQkRjaGRWeXFieVloSXhuakhBMmt2azc3N2MtVWFzb09yZ19rQjhRelFiMVBabkdKOW03eHpw?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-17T16:49:58Z",
@@ -53,6 +92,14 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5CSG9MY1hDYmdJZlBXUFV1LXl3WEU4NTRHbE1wT0g1cU4zUmtxNEhaYmctVnpRWGpKSkVzX0hURVJGM2wweWo4VEpkN0l6V0toZ2dmVmhHLXpDVDNBY0I3VlNnay1BbFBCcXNTSjZxelpCVG1qV2c?oc=5",
    "source": "NHL.com",
    "published": "2026-11-17T16:33:14Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "If Devon Levi is a star in net…what is the Oilers’ ceiling?",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWUyaVY5cVN5d0xMMUpiemJsR0xoR3BqX3R4QUF4X1VwU1ZVa3J6Z2RqcVBUUVZhVkJNQkREZUduWkxYUXU5OHpWOEVVZ1E0a1FQdUt3REo5dHFtVDZ3RDJRa0dYVE54eVl5Z0lJSzR6SHpNMlJrN3ZmeVdoanVGZjVISkp5VF9QdDNsdG9pMkNJRWxCbUFBTjBWaWcwczlJMjA0d29DbGs2TFBZUC13LUp0djZqZw?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-17T16:03:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -104,14 +151,6 @@
    "via": "google"
   },
   {
-   "title": "If Devon Levi is a star in net…what is the Oilers’ ceiling?",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVWUyaVY5cVN5d0xMMUpiemJsR0xoR3BqX3R4QUF4X1VwU1ZVa3J6Z2RqcVBUUVZhVkJNQkREZUduWkxYUXU5OHpWOEVVZ1E0a1FQdUt3REo5dHFtVDZ3RDJRa0dYVE54eVl5Z0lJSzR6SHpNMlJrN3ZmeVdoanVGZjVISkp5VF9QdDNsdG9pMkNJRWxCbUFBTjBWaWcwczlJMjA0d29DbGs2TFBZUC13LUp0djZqZw?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-17T14:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "NHL Notebook: Oilers hold fifth in Daily Faceoff power rankings, Jaromír Jágr hints at retirement",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObGk4TW9NSDBZVWtwcU14LXpkYm9EWGNKVVVGMU1nNnBEOXkwUl93Q0lvVUxyYml6UVJpb096Z0h1OTM2LWh0UlRFSWVTRjdHZFdXMDdITTdwekpsZ3dxYmJicGZrN1JCYTZkUGlZelZicC1WRU5lSVVGUVdFaHFnMnFKSmRjRmRYcnNZZFhWWDZtZXJYYkd2T0ZQeUxFbjQ5LWc?oc=5",
    "source": "Oilers Nation",
@@ -124,38 +163,6 @@
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRjZadk50NENTenZXYUFKZmNBdjRpQlNLd0FrMkp4RkJGN2dpTUR1SEJDTm01RThlc2JWSXk2c0tXREI3V2RSWHFDZXdYMEFhQldNTV9TT2U5TGFsaERYTEJlM1d4TWRTWGgwNm13QTRnS19ES3ltckJKYUZTSDBTaGstZy1TSmhYLS00VlJKcXE5a2l3M3g3VldHYzFjajh3U1k5MWRlSUl5a3hOTjl5d3R0WQ?oc=5",
    "source": "Inside The Rink",
    "published": "2026-11-17T13:40:03Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers moments and statistics that we got before GTA VI",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSlY5eDBKSUhYb0Y0V2tPT3F2VFpUcDk4TUpiTmltSG1qTTRZNUVHR0k1Yi1MM1RnYUFHZllTUy1Namh4dEN0U0tWRUNxWFhjVF9BRHZSdmtZT3RlSHRwOFNjeWNZazJzNGxnVmRrMnBrcW5ub1A4dktNaVdXWHNsd1JJWWdxOE1FRVY5bjJHaEppbXRnLXA2UWtpVnpRNlEtRkE?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-17T12:00:07Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Pre-Scout: Oilers penalty kill climbing as they face hated rival Panthers",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMU1pZjZGMllVWmZaWnB5YXRkZmxNQzNUTjBmeXJ3UGxOSkJCXzZ1RGxsbEtJd1E5cUtDNFhuS05ZSWczYXZPcW9fNjNQZ1FtaHRFQ2JlRENoUGJidHRiVmVCRjBfWmU5NFdrclI5NkxHZmtlT2Zpd3BsMmVZMzNORG5MR1BPeGVuaU9VSE5jWnVwVnlqSy1FVDNMV25sbzd4NGFWWEtLZ0JRZw?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-17T12:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers at Panthers: Edmonton Rolling, Rivalry Resumes Tonight in Sunrise",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd0VlRFJSNS1FQ1IzZjRmUlNzamdJRnlVMWpJLXR1LU84cFpOQkUxVnh2QUJUelE4dUdUV29wMERSWkJHanlIaS1aWkJQdEZfWVlRa1pCeWZ4em15XzVOQ2xFQmV4eEx2UmVlTDEyREdCR04zYlEtSkt6aWlNZEZCTFZnM01ZMzFQNDRkaHRLb2s3SmM?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-17T11:38:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Gameday 23: Florida Panthers vs Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMDNQTFVybkRPM0g1UmZpNmFQWG9iTERhTmo2UWhCUUxGcDJpek5CNkc1M3laLVJENEM0RWNQbWRmY0cyMmxScVNLMkRPSXlhTFMxbGZzdEM3aGhoVE1PVHlGYnNwSUMxZUt1RTE1LXRtZ1UyT1RibU1Dc0RKd0FMemZQMGRXT3JsaXNXZUdELXhlazV3XzdQLVZ3dnBaV28?oc=5",
-   "source": "Litter Box Cats",
-   "published": "2026-11-17T10:42:55Z",
    "snippet": "",
    "via": "google"
   },
@@ -175,8 +182,8 @@
   },
   {
    "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
-   "url": "https://www.nhl.com/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026-x9611",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-17T05:00:00Z",
    "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
   },
@@ -185,13 +192,6 @@
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-nhl-insider-identifies-top-trade-target-of-edmonton-oilers",
    "source": "Edmonton Journal",
    "published": "2026-11-17T02:42:03Z",
-   "snippet": ""
-  },
-  {
-   "title": "Grey Cup-champion Elks want Edmonton to revive City of Champions signs",
-   "url": "https://www.sportsnet.ca/cfl/article/grey-cup-champion-elks-want-edmonton-to-revive-city-of-champions-signs/",
-   "source": "Sportsnet",
-   "published": "2026-11-16T23:26:23Z",
    "snippet": ""
   },
   {
@@ -223,13 +223,6 @@
    "snippet": ""
   },
   {
-   "title": "Oilers activate Isaac Howard, loan him to AHL Bakersfield",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-activate-isaac-howard-loan-him-to-ahl-bakersfield/",
-   "source": "Sportsnet",
-   "published": "2026-11-16T19:15:01Z",
-   "snippet": ""
-  },
-  {
    "title": "RELEASE: Howard activated off IR & loaned to Condors",
    "url": "https://www.nhl.com/oilers/news/release-howard-activated-off-ir-loaned-to-condors",
    "source": "EdmontonOilers.com",
@@ -251,13 +244,6 @@
    "snippet": "'Hopefully they started it off for our city and we’ll be able to finish it off'"
   },
   {
-   "title": "32 Thoughts Podcast: Records are made to be broken, right?",
-   "url": "https://www.sportsnet.ca/podcasts/32-thoughts/records-are-made-to-be-broken-right/",
-   "source": "Sportsnet",
-   "published": "2026-11-16T13:08:07Z",
-   "snippet": "In this episode of 32 Thoughts, Kyle Bukauskas and Elliotte Friedman begin with Devon Levi’s viral moment and fresh start in Edmonton, then debate Connor McDavid’s assists and his…"
-  },
-  {
    "title": "Girls in sport: New study offers both optimism and a warning",
    "url": "https://edmontonjournal.com/sports/canada-girls-in-sport",
    "source": "Edmonton Journal",
@@ -277,6 +263,20 @@
    "source": "Edmonton Journal",
    "published": "2026-11-16T03:05:49Z",
    "snippet": "The final score at the end of Sunday's big game, the last one ever inside McMahon Stadium read Edmonton 37, Montreal Alouettes 30"
+  },
+  {
+   "title": "QUICK RECAP: Oilers 5, Flyers 2",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-flyers-11-15-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-16T00:29:06.382Z",
+   "snippet": "PHILADELPHIA, PA – Flyin' high in Philadelphia to secure our fifth straight win. Powered by three points each from Leon Draisaitl & Connor McDavid, 34 saves from Tristan Jarry and an…"
+  },
+  {
+   "title": "PROJECTED LINEUP: Nugent-Hopkins out for Sunday's meeting with the Flyers",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-out-for-sunday-s-meeting-with-flyers",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-15T23:26:17.575Z",
+   "snippet": "PHILADELPHIA, PA - Forward Ryan Nugent-Hopkins will miss Sunday night's game as the Edmonton Oilers face the Philadelphia Flyers in the second of back-to-back games at Xfinity Mobile Arena.…"
   }
  ]
 }
