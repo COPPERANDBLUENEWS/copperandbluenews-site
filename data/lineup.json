@@ -236,13 +236,6 @@
    "status": "IR"
   },
   {
-   "id": null,
-   "name": "Isaac Howard",
-   "num": 53,
-   "pos": null,
-   "status": "IR"
-  },
-  {
    "id": 8476454,
    "name": "Ryan Nugent-Hopkins",
    "num": 93,
@@ -250,16 +243,14 @@
    "status": "Out"
   }
  ],
- "notes": [
-  "Projection is based on the Last Game (2026-11-15) lineup until morning skate or practice updates."
- ],
+ "notes": [],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Last Game (2026-11-15)",
-   "updatedAt": "2026-11-16T15:02:15.209Z"
+   "basis": "Bob Stauffer",
+   "updatedAt": "2026-11-17T16:51:28.133Z"
   },
   {
    "name": "DailyFaceoff",
@@ -483,5 +474,5 @@
    "note": "Markstrom will start vs. Edmonton on Tuesday. "
   }
  },
- "updated": "2026-11-17T16:38:57Z"
+ "updated": "2026-11-17T16:54:05Z"
 }
