@@ -3,7 +3,7 @@
   "id": 2026020335,
   "startTimeUTC": "2026-11-18T00:00:00Z",
   "gameDate": "2026-11-17",
-  "state": "FUT",
+  "state": "PRE",
   "home": false,
   "venue": "Amerant Bank Arena",
   "opponent": {
@@ -302,9 +302,9 @@
      "pos": "LW"
     },
     {
-     "id": 8482113,
-     "name": "Anton Lundell",
-     "num": 15,
+     "id": 8477935,
+     "name": "Sam Bennett",
+     "num": 9,
      "pos": "C"
     },
     {
@@ -316,35 +316,35 @@
    ],
    [
     {
-     "id": 8477409,
-     "name": "Carter Verhaeghe",
-     "num": 23,
-     "pos": "LW"
-    },
-    {
-     "id": 8477933,
-     "name": "Sam Reinhart",
-     "num": 13,
-     "pos": "C"
-    },
-    {
-     "id": 8474189,
-     "name": "Lars Eller",
-     "num": 20,
-     "pos": "RW"
-    }
-   ],
-   [
-    {
      "id": 8480185,
      "name": "Eetu Luostarinen",
      "num": 27,
      "pos": "LW"
     },
     {
-     "id": 8477935,
-     "name": "Sam Bennett",
-     "num": 9,
+     "id": 8482113,
+     "name": "Anton Lundell",
+     "num": 15,
+     "pos": "C"
+    },
+    {
+     "id": 8477933,
+     "name": "Sam Reinhart",
+     "num": 13,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
+     "id": 8477409,
+     "name": "Carter Verhaeghe",
+     "num": 23,
+     "pos": "LW"
+    },
+    {
+     "id": 8474189,
+     "name": "Lars Eller",
+     "num": 20,
      "pos": "C"
     },
     {
@@ -448,8 +448,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/florida-panthers/line-combinations",
     "what": "line combinations",
-    "basis": "Last Game (2026-11-15)",
-    "updatedAt": "2026-11-16T15:05:09.436Z"
+    "basis": "Jameson Olive",
+    "updatedAt": "2026-11-17T23:41:52.132Z"
    },
    {
     "name": "DailyFaceoff",
@@ -474,5 +474,5 @@
    "note": "Markstrom will start vs. Edmonton on Tuesday. "
   }
  },
- "updated": "2026-11-17T16:54:05Z"
+ "updated": "2026-11-17T23:53:41Z"
 }
