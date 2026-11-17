@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-17T13:15:19Z",
+ "updated": "2026-11-17T13:52:56Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (3)",
-  "Google News (90)"
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "NHL Game Preview: Edmonton Oilers at Florida Panthers with Line Combinations 11/17/2026",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRjZadk50NENTenZXYUFKZmNBdjRpQlNLd0FrMkp4RkJGN2dpTUR1SEJDTm01RThlc2JWSXk2c0tXREI3V2RSWHFDZXdYMEFhQldNTV9TT2U5TGFsaERYTEJlM1d4TWRTWGgwNm13QTRnS19ES3ltckJKYUZTSDBTaGstZy1TSmhYLS00VlJKcXE5a2l3M3g3VldHYzFjajh3U1k5MWRlSUl5a3hOTjl5d3R0WQ?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-17T13:40:03Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Edmonton Oilers report cards: Superstars, goaltenders get top marks after hot start",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS1ZlX21aVF9WbnhYUFJ4UVNhUUFfUkFTMzFzOWs0eEZmdVBuZUM1TUVUY3k0R3g5MHhMNFo2eE52QlViR2diRzRqMjBoaWNNcWZQZGlGaXQ4SHdBUzhBNFFwSW9sdHZGaUdNNllZUGVDWXUtS0Q4ZGd0Q1c0RENhNl9ueGd3aW1Sd0gwWWxtcmd5UFJKTkktTA?oc=5",
@@ -41,18 +49,18 @@
    "via": "google"
   },
   {
-   "title": "Gameday 23: Florida Panthers vs Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMDNQTFVybkRPM0g1UmZpNmFQWG9iTERhTmo2UWhCUUxGcDJpek5CNkc1M3laLVJENEM0RWNQbWRmY0cyMmxScVNLMkRPSXlhTFMxbGZzdEM3aGhoVE1PVHlGYnNwSUMxZUt1RTE1LXRtZ1UyT1RibU1Dc0RKd0FMemZQMGRXT3JsaXNXZUdELXhlazV3XzdQLVZ3dnBaV28?oc=5",
-   "source": "Litter Box Cats",
-   "published": "2026-11-17T10:42:55Z",
+   "title": "Edmonton Oilers - Florida Panthers - Nov 17, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fc080OVpCN1JHa2JZek15eFRqUjZMWFJsN0hFSkstY2gzVnJTN1JrNmJKNW1Tc002TlNyQWNhMWtERE5rTGVPYlp0UU1TNWhYbDN2MjlqVlhUVE9zS19sRmZhNXM1X1Fra3RCRkpOR0o?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-17T11:33:02Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers - Florida Panthers - Nov 17, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fc080OVpCN1JHa2JZek15eFRqUjZMWFJsN0hFSkstY2gzVnJTN1JrNmJKNW1Tc002TlNyQWNhMWtERE5rTGVPYlp0UU1TNWhYbDN2MjlqVlhUVE9zS19sRmZhNXM1X1Fra3RCRkpOR0o?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-17T09:59:38Z",
+   "title": "Gameday 23: Florida Panthers vs Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMDNQTFVybkRPM0g1UmZpNmFQWG9iTERhTmo2UWhCUUxGcDJpek5CNkc1M3laLVJENEM0RWNQbWRmY0cyMmxScVNLMkRPSXlhTFMxbGZzdEM3aGhoVE1PVHlGYnNwSUMxZUt1RTE1LXRtZ1UyT1RibU1Dc0RKd0FMemZQMGRXT3JsaXNXZUdELXhlazV3XzdQLVZ3dnBaV28?oc=5",
+   "source": "Litter Box Cats",
+   "published": "2026-11-17T10:42:55Z",
    "snippet": "",
    "via": "google"
   },
@@ -185,14 +193,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-16T18:56:12.018Z",
    "snippet": "FORT LAUDERDALE, FL - The Edmonton Oilers have activated forward Isaac Howard off Injured Reserve (IR) and loaned him to the AHL's Bakersfield Condors, the team announced on Monday. The…"
-  },
-  {
-   "title": "Oilers Rolling: McDavid, Draisaitl Lead Pacific Division Surge",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY2hjUElscnBjMUtIYnBvX1NWTFh5d2FLZ1FZSGk3YXFneVd6QUlNUGZCODZNSkJLWC1QMjVaYXRrVmh4X2xRTXBnaGVzV2x5NTRWN1RCVUthaGwtVmdadkJtTnk5SHp5bFNORVBuZlV4WWxzekR5TnI1S3FTaThmZm9YekZhOGhLdFNZMHdmNUtWUGZGdDBGMXRR?oc=5",
-   "source": "BVM Sports",
-   "published": "2026-11-16T18:50:12Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Edmonton Elks Cody Fajardo wins quarterback duel against Alexander",
