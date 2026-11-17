@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-17T03:28:07Z",
+ "updated": "2026-11-17T03:59:18Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (8)",
-  "Google News (86)"
+  "Sportsnet (4)",
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
@@ -223,13 +223,6 @@
    "snippet": "What's the biggest challenge to get girls into sport? Cost. The report found that the rising costs around minor sports, from registration fees to equipment to travel, was a barrier to…"
   },
   {
-   "title": "Edmonton Elks lift 15th Grey Cup in franchise history",
-   "url": "https://www.sportsnet.ca/cfl/video/edmonton-elks-lift-15th-grey-cup-in-franchise-history/",
-   "source": "Sportsnet",
-   "published": "2026-11-16T06:43:49Z",
-   "snippet": "Watch as the Edmonton Elks lift the 113th Grey Cup, their 15th in franchise history, in front of fans at McMahon Stadium in Calgary, Alberta"
-  },
-  {
    "title": "McDavid pushes season-opening point streak to 22 in Oilers win against Flyers",
    "url": "https://www.nhl.com/news/edmonton-oilers-philadelphia-flyers-game-recap-november-15-2026",
    "source": "NHL.com",
@@ -251,20 +244,6 @@
    "snippet": "The final score at the end of Sunday's big game, the last one ever inside McMahon Stadium read Edmonton 37, Montreal Alouettes 30"
   },
   {
-   "title": "Alouettes’ Adeyemi-Berglund recovers O’Leary-Orange fumble in fourth quarter",
-   "url": "https://www.sportsnet.ca/cfl/video/alouettes-adeyami-berglund-recovers-oleary-orange-fumble-in-fourth-quarter/",
-   "source": "Sportsnet",
-   "published": "2026-11-16T02:43:50Z",
-   "snippet": "Edmonton Elks wide receiver Brandan O’Leary-Orange loses possession in the fourth quarter, with Montreal Alouettes defensive lineman Isaac Adeyemi-Berglund recovering the fumble to give his…"
-  },
-  {
-   "title": "Elks’ Fajardo connects with Cephus for second TD to reclaim lead in Grey Cup",
-   "url": "https://www.sportsnet.ca/cfl/video/elks-fajardo-connects-with-cephus-for-second-td-to-reclaim-lead-in-grey-cup/",
-   "source": "Sportsnet",
-   "published": "2026-11-16T02:35:42Z",
-   "snippet": "Watch as Edmonton Elks’ Cody Farjado finds Joshua Cephus for his second TD of the game in the back of the end zone to reclaim the lead in the third quarter of the Grey Cup over the Montreal…"
-  },
-  {
    "title": "QUICK RECAP: Oilers 5, Flyers 2",
    "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-flyers-11-15-26",
    "source": "EdmontonOilers.com",
@@ -272,11 +251,32 @@
    "snippet": "PHILADELPHIA, PA – Flyin' high in Philadelphia to secure our fifth straight win. Powered by three points each from Leon Draisaitl & Connor McDavid, 34 saves from Tristan Jarry and an…"
   },
   {
-   "title": "Elks’ Washington returns opening kick 78 yards, sets up Fajardo touchdown",
-   "url": "https://www.sportsnet.ca/cfl/video/elks-washington-returns-opening-kick-78-yards-sets-up-fajardo-touchdown/",
-   "source": "Sportsnet",
-   "published": "2026-11-16T00:14:09Z",
-   "snippet": "Watch as return-man Montrell Washington opens the Grey Cup with a bang for Edmonton, returning the opening kickoff 78 yards, setting the Elks up for a Cody Fajardo rushing touchdown,…"
+   "title": "PROJECTED LINEUP: Nugent-Hopkins out for Sunday's meeting with the Flyers",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-out-for-sunday-s-meeting-with-flyers",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-15T23:26:17.575Z",
+   "snippet": "PHILADELPHIA, PA - Forward Ryan Nugent-Hopkins will miss Sunday night's game as the Edmonton Oilers face the Philadelphia Flyers in the second of back-to-back games at Xfinity Mobile Arena.…"
+  },
+  {
+   "title": "Oilers at Flyers projected lineups",
+   "url": "https://www.nhl.com/news/edmonton-oilers-philadelphia-flyers-game-preview-november-15-2026",
+   "source": "NHL.com",
+   "published": "2026-11-15T22:35:00Z",
+   "snippet": "OILERS (15-3-3) at FLYERS (6-10-6) 7:30 p.m. ET; NBCSP, SNW, SNO, SNE, TVAS Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Colton Dach --…"
+  },
+  {
+   "title": "Levi channels 'Gladiator' with pregame ritual, gets Crowe's blessing",
+   "url": "https://www.nhl.com/news/russell-crowe-gladiator-edmonton-oilers-devon-levi",
+   "source": "NHL.com",
+   "published": "2026-11-15T20:33:00Z",
+   "snippet": "Edmonton Oilers goalie Devon Levi stopped all 19 shots he faced in a 1-0 victory against the Toronto Maple Leafs on Saturday, but there was one lingering question following the game: Are…"
+  },
+  {
+   "title": "FEATURE: Levi's Coliseum",
+   "url": "https://www.nhl.com/oilers/news/feature-levi-s-coliseum",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-15T19:34:07.841Z",
+   "snippet": "PHILADELPHIA, PA – What we do in the crease… echoes in eternity. What a special night it was for Devon Levi, who not only earned his first-career shutout with 19 saves in Saturday’s 1-0 win…"
   }
  ]
 }
