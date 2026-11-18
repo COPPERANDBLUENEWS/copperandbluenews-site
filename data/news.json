@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T07:25:02Z",
+ "updated": "2026-11-18T07:54:44Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (87)"
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
@@ -20,7 +20,7 @@
    "title": "QUICK RECAP: Oilers 5, Panthers 2",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53UUZDRjJ0WGtVTXhCbVgwNFJYYlBVSm9iRkhnZ2RDcDlaUXo2ZFpad1VucDlWa1NhTnBvZHhDYnlTRWZneUg0Y1R3Yk0zZmM1aTVtaEl3RnNoMGx6cEFYSlRNSUk0emlIX2tmWXZZdHRhYnRDaTJHYTNSemw?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-18T06:45:00Z",
+   "published": "2026-11-18T06:45:11Z",
    "snippet": "",
    "via": "google"
   },
@@ -143,6 +143,14 @@
    "via": "google"
   },
   {
+   "title": "Edmonton Oilers - Tampa Bay Lightning - Nov 19, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQkhqRGdKbmR1WGp6Q3BLdUo1Znc2TUtsYjZtVEVFa3lJSmxLbkJlOWM3S1BXZWRsd05RYnU1YzZQSVp5VzlXeGhlbU9GOWxoOHM1WVdJdHVmZGlPSW9IMUp4N0ZvZWpia2F6SXNSQk4?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-18T02:42:01Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Steamrolled: Oilers Stay on a Heater, Beat Up on the Panthers",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeHFmNjFzT0h6MnFRMEw3dHlBaDdIQW8zT1RCZW1jLVp2eEdnaXBwRE1NdVc0eVhTeFRleWN1OXJTaEtaTVIteFVrdTJUcjlwWDhFcXFtOVFBRDdBeHl1U3FrSHV5T3haVU4wOGVKQXdiQnlsV2hZdGVMU3hBS1VGWVIySk85b1VOZkFHdkhlX0paZnAzUXhXQ1FwMk5oQVE5bGpvY0c1aE5pdzhmRHRKcE53ekF5MlZPS1U3cF83ZnpiNGRTN2Jr?oc=5",
    "source": "Florida Hockey Now",
@@ -155,14 +163,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR0lpU3BVWlB2Vjd5V3pTZ1cyTDlYclVBdXFCVnZhdG43cVktSWEyMW5zci1HWmtzS21DQUhLaXpKYktNT0IzTWcxSkFsclNNRXUzRTJjc0lLcVhkNXhTSFUyVXAtNGRhOWFMN0VaczFrcnA0UUFRZ2JJcHduVXFFX2VjY1hNaUZKa2JlQlhULVVnUmZJd1ZDMnB3dmVwWE5IN2ZPeGZDSGE?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-18T01:57:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Live *Panthers vs Oilers NHL game on ESPN, including live score, highlights and updatad",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOW12ZERtc0N5dmdRTEdaZ1QzZXhjRG1ncG5ETXZBVDlDSUxZRkx2MUthdlpqVkFTdExyanlBR3BrVE5BcW1leVZuZFFicVpIZnFySUd0MDJNMnhudnZaUUtLRXNfRGVnTm5OWHp5ME1qREx1cmpTOV9XRkhqYXREMDJmUU1tbzVJTkhN?oc=5",
-   "source": "Northern Ontario Business",
-   "published": "2026-11-18T01:32:29Z",
    "snippet": "",
    "via": "google"
   },
@@ -223,18 +223,18 @@
    "snippet": "The Edmonton Oilers head to Sunrise to face the Florida Panthers at Amerant Bank Arena on Tuesday as they look to win their sixth straight game. You can watch the game live on Sportsnet at…"
   },
   {
-   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
-   "url": "https://www.nhl.com/oilers/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026-x9611",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-17T05:00:00Z",
-   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
-  },
-  {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
    "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
    "source": "NHL.com",
    "published": "2026-11-17T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
+  },
+  {
+   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
+   "url": "https://www.nhl.com/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026",
+   "source": "NHL.com",
+   "published": "2026-11-17T05:00:00Z",
+   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
   },
   {
    "title": "NHL insider identifies top trade target for Edmonton Oilers",
