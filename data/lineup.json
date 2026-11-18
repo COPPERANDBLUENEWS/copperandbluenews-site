@@ -3,7 +3,7 @@
   "id": 2026020335,
   "startTimeUTC": "2026-11-18T00:00:00Z",
   "gameDate": "2026-11-17",
-  "state": "LIVE",
+  "state": "FINAL",
   "home": false,
   "venue": "Amerant Bank Arena",
   "opponent": {
@@ -486,5 +486,5 @@
    "note": "Markstrom will start vs. Edmonton on Tuesday. "
   }
  },
- "updated": "2026-11-18T00:29:19Z"
+ "updated": "2026-11-18T02:55:32Z"
 }
