@@ -1,6 +1,30 @@
 {
-  "updated": "2026-11-18T01:23:51+00:00",
+  "updated": "2026-11-18T04:01:23+00:00",
   "next": {
+    "id": 2026020349,
+    "gameType": 2,
+    "startTimeUTC": "2026-11-20T00:30:00Z",
+    "dateMT": "Thu Nov 19",
+    "timeMT": "6:30 PM MT",
+    "timePT": "5:30 PM PT",
+    "venue": "Benchmark International Arena",
+    "state": "FUT",
+    "scheduleState": "OK",
+    "lastPeriod": null,
+    "away": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "place": "Edmonton",
+      "score": null
+    },
+    "home": {
+      "abbrev": "TBL",
+      "name": "Lightning",
+      "place": "Tampa Bay",
+      "score": null
+    }
+  },
+  "last": {
     "id": 2026020335,
     "gameType": 2,
     "startTimeUTC": "2026-11-18T00:00:00Z",
@@ -8,30 +32,6 @@
     "timeMT": "6 PM MT",
     "timePT": "5 PM PT",
     "venue": "Amerant Bank Arena",
-    "state": "LIVE",
-    "scheduleState": "OK",
-    "lastPeriod": null,
-    "away": {
-      "abbrev": "EDM",
-      "name": "Oilers",
-      "place": "Edmonton",
-      "score": 3
-    },
-    "home": {
-      "abbrev": "FLA",
-      "name": "Panthers",
-      "place": "Florida",
-      "score": 0
-    }
-  },
-  "last": {
-    "id": 2026020326,
-    "gameType": 2,
-    "startTimeUTC": "2026-11-16T00:30:00Z",
-    "dateMT": "Sun Nov 15",
-    "timeMT": "6:30 PM MT",
-    "timePT": "5:30 PM PT",
-    "venue": "Xfinity Mobile Arena",
     "state": "OFF",
     "scheduleState": "OK",
     "lastPeriod": "REG",
@@ -42,21 +42,21 @@
       "score": 5
     },
     "home": {
-      "abbrev": "PHI",
-      "name": "Flyers",
-      "place": "Philadelphia",
+      "abbrev": "FLA",
+      "name": "Panthers",
+      "place": "Florida",
       "score": 2
     }
   },
   "standings": {
-    "wins": 16,
+    "wins": 17,
     "losses": 3,
     "otLosses": 3,
-    "points": 35,
-    "gamesPlayed": 22,
+    "points": 37,
+    "gamesPlayed": 23,
     "divisionSequence": 1,
     "divisionName": "Pacific",
     "streakCode": "W",
-    "streakCount": 5
+    "streakCount": 6
   }
 }
