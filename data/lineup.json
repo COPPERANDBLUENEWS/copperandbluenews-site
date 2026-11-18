@@ -240,7 +240,7 @@
    "name": "Ryan Nugent-Hopkins",
    "num": 93,
    "pos": "C",
-   "status": "Out"
+   "status": "Day-to-day"
   }
  ],
  "notes": [],
@@ -316,35 +316,15 @@
    ],
    [
     {
-     "id": 8476826,
-     "name": "Yanni Gourde",
-     "num": 37,
-     "pos": "LW"
-    },
-    {
-     "id": 8478519,
-     "name": "Anthony Cirelli",
-     "num": 71,
-     "pos": "C"
-    },
-    {
-     "id": 8482201,
-     "name": "Gage Goncalves",
-     "num": 93,
-     "pos": "RW"
-    }
-   ],
-   [
-    {
      "id": 8481624,
      "name": "Ilya Mikheyev",
      "num": 95,
      "pos": "LW"
     },
     {
-     "id": 8476878,
-     "name": "Zemgus Girgensons",
-     "num": 28,
+     "id": 8478519,
+     "name": "Anthony Cirelli",
+     "num": 71,
      "pos": "C"
     },
     {
@@ -356,15 +336,35 @@
    ],
    [
     {
-     "id": 8479705,
-     "name": "Jeffrey Viel",
-     "num": 25,
+     "id": 8476826,
+     "name": "Yanni Gourde",
+     "num": 37,
      "pos": "LW"
     },
     {
      "id": 8484770,
      "name": "Sam O'Reilly",
      "num": 23,
+     "pos": "C"
+    },
+    {
+     "id": 8482201,
+     "name": "Gage Goncalves",
+     "num": 93,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
+     "id": 8479705,
+     "name": "Jeffrey Viel",
+     "num": 25,
+     "pos": "LW"
+    },
+    {
+     "id": 8476878,
+     "name": "Zemgus Girgensons",
+     "num": 28,
      "pos": "C"
     },
     {
@@ -421,6 +421,13 @@
   ],
   "injured": [
    {
+    "id": 8483447,
+    "name": "Conor Geekie",
+    "num": 94,
+    "pos": "C",
+    "status": "IR"
+   },
+   {
     "id": 8479542,
     "name": "Brandon Hagel",
     "num": 38,
@@ -428,11 +435,11 @@
     "status": "Day-to-day"
    },
    {
-    "id": 8483447,
-    "name": "Conor Geekie",
-    "num": 94,
+    "id": 8476878,
+    "name": "Zemgus Girgensons",
+    "num": 28,
     "pos": "C",
-    "status": "IR"
+    "status": "Day-to-day"
    }
   ],
   "notes": [],
@@ -441,8 +448,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/tampa-bay-lightning/line-combinations",
     "what": "line combinations",
-    "basis": "Gabby Shirley",
-    "updatedAt": "2026-11-18T00:08:10.343Z"
+    "basis": "Last Game (2026-11-17)",
+    "updatedAt": "2026-11-18T11:57:03.966Z"
    },
    {
     "name": "DailyFaceoff",
@@ -467,5 +474,5 @@
    "note": null
   }
  },
- "updated": "2026-11-18T07:25:02Z"
+ "updated": "2026-11-18T12:35:31Z"
 }
