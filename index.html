@@ -25,7 +25,7 @@
 <meta name="application-name" content="C&amp;B News">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=51">
+<link rel="stylesheet" href="css/style.css?v=53">
 </head>
 <body>
 <header class="nav"><button type="button" class="bell" id="cbn-bell" aria-label="Notifications" title="Notifications"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22a2.5 2.5 0 0 0 2.45-2h-4.9A2.5 2.5 0 0 0 12 22Zm7-6V11a7 7 0 0 0-5.5-6.84V3.5a1.5 1.5 0 0 0-3 0v.66A7 7 0 0 0 5 11v5l-2 2v1h18v-1l-2-2Z"/></svg><span class="bell-t">Alerts</span></button><a class="brand" href="./"><img src="logo.jpg" alt="" width="36" height="36"><span>Copper &amp; Blue <b>News</b></span></a>
@@ -36,6 +36,10 @@
 <h1>The Copper &amp; Blue News</h1><p class="tag">Edmonton Oilers coverage, every game</p><a class="btn" href="https://www.instagram.com/copperandbluenews/" target="_blank" rel="noopener">Follow on Instagram</a> <a class="btn btn-ghost" href="#alerts" data-alerts>Get game alerts</a></section>
 <article class="card" id="next"><h2>Next Game</h2><div class="body">Loading…</div><div class="odds-slot" data-odds hidden></div></article>
 <article class="card live-card" id="live" hidden></article>
+<section class="ig ig-latest" id="ig-strip" data-limit="3" hidden aria-labelledby="latest-posts-h">
+<div class="sec-head"><h2 id="latest-posts-h">Latest posts</h2><a href="posts.html">View all</a></div>
+<div class="ig-grid"></div>
+</section>
 <a class="card chase-card" id="chase" href="mcdavid.html">
 <div class="chase-top"><h2>McDavid Chase</h2><b class="chase-go" id="chaseGo">…<small>to tie 215</small></b></div>
 <div class="chase-track" id="chaseTrack" role="img" aria-label="Points toward 215"><span class="chase-fill" id="chaseFill"></span><span class="chase-tick" id="chaseTick" hidden></span></div>
@@ -53,8 +57,7 @@
 <article class="card" id="standings"><h2>Oilers Record</h2><div class="body">Loading…</div></article>
 </section>
 <p class="updated" id="updated"></p>
-<section class="ig ig-home" id="ig-strip" data-limit="3" hidden><div class="sec-head"><h2>Latest on Instagram</h2><a href="posts.html">More →</a></div><div class="ig-grid"></div></section>
-<section><div class="sec-head"><h2>Latest Posts</h2><a href="posts.html">All posts →</a></div><div class="feed" id="feed" data-limit="3"></div></section>
+<section><div class="sec-head"><h2>Game day graphics</h2><a href="posts.html">All posts →</a></div><div class="feed" id="feed" data-limit="3"></div></section>
 </main>
 <footer><p class="flinks"><a href="about.html">About</a> · <a href="schedule.html">Schedule</a> · <a href="scores.html">Scores</a> · <a href="install.html">Get the app</a> · <a href="privacy.html">Privacy</a> · <a href="./#newsletter">Game day email</a></p>
 <p><a href="https://www.instagram.com/copperandbluenews/" target="_blank" rel="noopener">@copperandbluenews on Instagram</a></p>
@@ -66,7 +69,7 @@
 <script src="js/newsletter.js?v=50"></script>
 <script src="js/pwa.js?v=53"></script>
 <script src="js/article-render.js?v=50"></script>
-<script src="js/instagram.js?v=50"></script>
+<script src="js/instagram.js?v=54"></script>
 <script src="js/odds.js?v=50"></script>
 <script src="js/fgs.js?v=50"></script>
 <script src="js/mcdavid.js?v=50"></script>

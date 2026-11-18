@@ -3,6 +3,9 @@
 # plus the game-day lineup (data/lineup.json, scripts/update_lineup.py; see also lineup.yml).
 # The 15:05 UTC run (~8 AM PT) is the "daily" injury refresh; every hourly run refreshes it too.
 # The hourly run is also the backup trigger for the "Game day morning" alert (lineup.yml 16:00 UTC is primary).
+# Instagram posts come from the free Behold feed, which refreshes about once a day. Home and
+# News read that feed in the browser, and this job writes data/articles.json as the fallback.
+# Running more often than hourly would not pick posts up any sooner than Behold does.
 name: News and injuries
 on:
   schedule:
