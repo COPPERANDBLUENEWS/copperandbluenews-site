@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-18T15:34:04Z",
+ "updated": "2026-11-18T15:57:36Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (92)"
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "A new way to engage with Oilers content with the new Fansided app",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdUN6al9xSWNTVi11UUNpTk9BdmRaRVJRVzlmYXVXV1dJUm9zYnlGaHd0SlZQT3lPdDFIY0h3WHFCOGRFVDlCNHdvc2ZTalRpZk1tWFloRW9ieFJHcVdqQ282RDhvcXJzWXlhYWhHM3I0TFhERHd6MVVURndUeW51ajF4aE5qaTZXcUw4dXZrVUFRUFp3SzBqYzA3TzM2TS1VWG8w?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-18T15:46:45Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "5 Oilers’ Trade Targets Who Could Put Them Over the Hump",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbU9RbC1Vc3FhVEg2ajcwWmxKSllUTEpXUXp5ZDhmRXhBOURSRThQcVlhQ2dJNkZ3TkJ4Yk42cElrQUVaZUVadVlLaHFoU3p5UTU2U2dDM0duZFdiSHloXzRrbWdoZzRtb2t5X2NTdDJXY2N0X2tubF8wQU5SZ3lFRURETDkxb1Vsbi0ydjl3?oc=5",
@@ -145,14 +153,6 @@
    "via": "google"
   },
   {
-   "title": "QUICK RECAP: Oilers 5, Panthers 2",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53UUZDRjJ0WGtVTXhCbVgwNFJYYlBVSm9iRkhnZ2RDcDlaUXo2ZFpad1VucDlWa1NhTnBvZHhDYnlTRWZneUg0Y1R3Yk0zZmM1aTVtaEl3RnNoMGx6cEFYSlRNSUk0emlIX2tmWXZZdHRhYnRDaTJHYTNSemw?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-18T06:45:11Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers’ lineup shuffle pays off in decisive win over Panthers",
    "url": "https://www.sportsnet.ca/nhl/article/oilers-lineup-shuffle-pays-off-in-decisive-win-over-panthers/",
    "source": "Sportsnet",
@@ -207,6 +207,13 @@
    "source": "Sportsnet",
    "published": "2026-11-18T01:01:51Z",
    "snippet": "Watch as Oilers captain Connor McDavid finishes at the doorstep, after a little pass from Zach Hyman who got the puck off the rebound of an Evan Bouchard one-timer, for McDavid’s first…"
+  },
+  {
+   "title": "QUICK RECAP: Oilers 5, Panthers 2",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-panthers-11-17-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-18T00:03:57.611Z",
+   "snippet": "SUNRISE, FL – Grand Theft Auto VI in a row. Vasily Podkolzin, Kasperi Kapanen and Leon Draisaitl produced three points each, Connor McDavid had multiple points, and goalie Devon Levi made…"
   },
   {
    "title": "Golden Bear earns second Canada West all-star football selection",
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-17T02:42:03Z",
    "snippet": ""
-  },
-  {
-   "title": "Compilation of Edmonton Elks editorial cartoons from the Journal",
-   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-cartoons-cfl-eskimos",
-   "source": "Edmonton Journal",
-   "published": "2026-11-16T22:10:45Z",
-   "snippet": "A collection of Malcolm Mayes' editorial cartoons following the Edmonton Elks, through the team's up and downs."
   }
  ]
 }
