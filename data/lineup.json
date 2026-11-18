@@ -364,12 +364,6 @@
      "pos": "LW"
     },
     {
-     "id": 8476878,
-     "name": "Zemgus Girgensons",
-     "num": 28,
-     "pos": "C"
-    },
-    {
      "id": 8477149,
      "name": "Scott Sabourin",
      "num": 49,
@@ -450,8 +444,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/tampa-bay-lightning/line-combinations",
     "what": "line combinations",
-    "basis": "Last Game (2026-11-17)",
-    "updatedAt": "2026-11-18T11:57:03.966Z"
+    "basis": "Benjamin Pierce",
+    "updatedAt": "2026-11-18T17:35:19.125Z"
    },
    {
     "name": "DailyFaceoff",
@@ -476,5 +470,5 @@
    "note": null
   }
  },
- "updated": "2026-11-18T15:34:04Z"
+ "updated": "2026-11-18T17:38:14Z"
 }
