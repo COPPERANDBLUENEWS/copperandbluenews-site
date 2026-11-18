@@ -1,13 +1,45 @@
 {
- "updated": "2026-11-18T07:54:44Z",
+ "updated": "2026-11-18T09:36:41Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (89)"
+  "Google News (92)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Tampa Bay plays Edmonton after Guentzel's 2-goal performance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSENXNS1kRFZBMFM5STV5dUJQRDV4eF9pdzByN2VUcDVxa2Y5NDItWUNQTHE3QXdjOEVwb0lwOEtKWWc5RkJONzY0UnZYSTVhbGpYVERZLS1BVFVxM0dBZ3dNLVVxeWpjTmJsZHAxa1M5WHlBcEJPTzM0Ul9GUm9rSEtKcW9YMmx6YXlTRDE5S0tMS3V3ODZ3Tm5RSWdkUQ?oc=5",
+   "source": "FOX Sports",
+   "published": "2026-11-18T09:11:02Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Maple Leafs fans can forget about Connor McDavid signing in Toronto",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOURxQTJ2X0N2a3MwaFBkbjlhTkFESjJhUFpkOWN2VmZaTTNkOEd0b2Frclo3c1FKTVhsSHJKN1ZlOUNJY0twZzE1RWVjcnFaeUgxLTY3Z1B0Umc1dHg5VzJsQXluYjNBQWxEdHk5ZFMzS2J5YjNfV1h2VnE5RDUxTW81MkJGM3RDWFo3bG83Y2s0cy00cTZn?oc=5",
+   "source": "Editor In Leaf",
+   "published": "2026-11-18T09:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Tampa Bay Lightning - Nov 19, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQkhqRGdKbmR1WGp6Q3BLdUo1Znc2TUtsYjZtVEVFa3lJSmxLbkJlOWM3S1BXZWRsd05RYnU1YzZQSVp5VzlXeGhlbU9GOWxoOHM1WVdJdHVmZGlPSW9IMUp4N0ZvZWpia2F6SXNSQk4?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-18T08:42:01Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Florida Panthers - Nov 17, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fc080OVpCN1JHa2JZek15eFRqUjZMWFJsN0hFSkstY2gzVnJTN1JrNmJKNW1Tc002TlNyQWNhMWtERE5rTGVPYlp0UU1TNWhYbDN2MjlqVlhUVE9zS19sRmZhNXM1X1Fra3RCRkpOR0o?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-18T07:19:03Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "NHL roundup: McDavid extends points streak to 23 games as Oilers beat Panthers 5-2",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNOXBoMDg5cnhOU00xQ2RmSjV3bzlvU1d0ZUhZYWktemJoSGVkSS01cU5mVV9nY1hqWE9GRGpBdllTY3JhQ3dpZDRJWmZpLWhGMm1wb3AzckZMUVFuZFpMbm52RzhyaVRZNHN4bWcxNkMtRjV3TzRBcWxGUEZHVGs1My16RjY5bk5PREZhQVFSb1VDeS1MWUpJVnExemd1cVprenl0d3ZMSlU5dlVjRUF5WEl0bE1Xc1d1dWxXVQ?oc=5",
@@ -28,7 +60,7 @@
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZElMUEc3blhKT1pHOVdPTVpfbUlwcmJ0NWhWQlhiZGJFS3Q1d0Q4eUVFel9mN2hETS15cy1BcGxobnk3cDA4YmI1cE5hV2JjY3RfODZzTHVxMTVndFM4NEdvQlM3UE0xRVNCOEVSdVJXdzRCNkVvN1NhQVNSamZnN1g3Z2thTUdWTDJ4a2xR?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-18T06:11:15Z",
+   "published": "2026-11-18T06:14:06Z",
    "snippet": "",
    "via": "google"
   },
@@ -37,14 +69,6 @@
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRXpJX25mdXpjWU1SWGVzRmxrV19iZGMyVlM1UVBSUW5aa1Q1RzRtTTdYa0tDVkJaRVZWUzg5ZFhCUmZmUTNwZDR5QVcyNURwLTc3NDkxVzF6QmJ6Nk9BWWR4QlB6VWE0OHRrd0Y3RFVKOEN3MWxyUFZTdUdfUllLdTJFc3lwSUVjWmhF?oc=5",
    "source": "BVM Sports",
    "published": "2026-11-18T05:34:23Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers - Florida Panthers - Nov 17, 2026",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9GTElXU0ExWHVRanBxNmpBM2drdm93ZG5PQ3hKU3cybEZqSHpTNm90UHlKSWhacTZVVl9RWGFtVmxMNnRGckNJWU9tdUI4ajllNzVGNVhRZTV3VGEzTXVXUGFTZGVha3NaXzN5V0dYRU5BaF80WEVPb21COTQ?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-18T05:09:13Z",
    "snippet": "",
    "via": "google"
   },
@@ -60,7 +84,7 @@
    "title": "Oilers' lineup shuffle pays off in decisive win over Panthers",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTzJWRHkxajJKcUt1bEtXRzQ0R1VWa3lzalRxMlk0WGFyVE15V2lPanlkVnR3Tno5TlQ4V0h2bXdYUUpOY0ZPdjNPTnlxbG05RFBLblJjalVjTC1NR3NIeUZDNnU0ajlOUkJ0S0ZLakxqS1U0YkRjTHZydC03UmdpNDQtXzZFSXZuVGFDc3QxOW1Sei1DVE9YX3lHa2E0UEU?oc=5",
    "source": "Sportsnet.ca",
-   "published": "2026-11-18T04:44:00Z",
+   "published": "2026-11-18T04:46:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -82,9 +106,9 @@
   },
   {
    "title": "New-Look Lines Spark Oilers in 5-2 Win Over Florida",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYWpxYTk5ZTY3eGlfTUVabm5YeFVuMHBmTGpRWU16VF91cmdyVmt4cFpnU2N5cXlodDhoakc5M29Mdm0ybFh4WHV3U0VoVzVfVkxHNG14YmFzbGpnRExKb2Zsd0p5c0tZeWF5VWs4LTVkVzE0czRqMFpiODFpNHhuQ2JSeWtIRU5hQUF5cTBkZnA1RW9kY3lYU21QbENScmNzRnp6WWlhMjZWQnNhNWc?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-18T04:14:45Z",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDMFpFTTVuazV0eTd0c1VKWWQyQ1ZBLWVGSXZnUEs4ZkVTOXVXZ2ZMSUJTRzN2YUxsNGFieW5wdW9fajdVT1FPVWd3N01vanA0NzAtTW9XN1pIOTJmSWMyVnVVVGVYQnkzbl83WW1hRWJmNndfY2YxdnVaWTdUZ1U?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-18T04:12:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -111,18 +135,18 @@
    "snippet": "Vasily Podkolzin had two goals and an assist, while Connor McDavid added a goal and an assist, as the Edmonton Oilers took it 5-2 over the Florida Panthers."
   },
   {
-   "title": "Some regular season revenge for Edmonton Oilers in a 5-2 win over Florida: Cult of Hockey Player Grades",
-   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQODI0cFR0aFQyT1RiaWVpUWoyU0NFcmF5bmluZE94Wk8wTC1ZazNQZ1lyaHBqazhwU295cXBkZzA0STlOdWE3MWJCUHF0azFIeloyVU44QTNvbjJZandabUpNalA2dFFxdEJDODhmSlQ1aVMyazdMd0ZrcFppQ2Q4QktnODNtV2JGVHZadTQ3UTdWUHhDbDhWekluNkt5X1AteFN3U3F5bm1lVVVyZFpGRW9jdkVLUzN2UE5uVjF5cGxDZndEbVJSSXFhVDhMbDRublJLUVM0YThuSnZIMXFyQ2h4T1BfTEFvd2NralBGWXVpQmNCUm9Bc1hubw?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-18T02:54:37Z",
+   "title": "Edmonton Oilers beat Florida Panthers 5-2 in Sunrise",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORU90ZFpHSVhiNjVqYk5OSmVSUC1BQTVyeVAzTzltdGJTRGEweHEwY1dYbDJjS1F3eFpjYTk2OWhyRU1PVlVQYUhteXZ3WWl1eDlFU3d5Z19CdF8xOUtuUC1aeWlia09FUnY3SHFSOGNtS3NtVTg0ZXF3N0FwaWx2MnFkZmlXRmhuaE53?oc=5",
+   "source": "Sofascore",
+   "published": "2026-11-18T02:54:49Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers beat Florida Panthers 5-2 in Sunrise",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORU90ZFpHSVhiNjVqYk5OSmVSUC1BQTVyeVAzTzltdGJTRGEweHEwY1dYbDJjS1F3eFpjYTk2OWhyRU1PVlVQYUhteXZ3WWl1eDlFU3d5Z19CdF8xOUtuUC1aeWlia09FUnY3SHFSOGNtS3NtVTg0ZXF3N0FwaWx2MnFkZmlXRmhuaE53?oc=5",
-   "source": "Sofascore",
-   "published": "2026-11-18T02:49:30Z",
+   "title": "Some regular season revenge for Edmonton Oilers in a 5-2 win over Florida: Cult of Hockey Player Grades",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQODI0cFR0aFQyT1RiaWVpUWoyU0NFcmF5bmluZE94Wk8wTC1ZazNQZ1lyaHBqazhwU295cXBkZzA0STlOdWE3MWJCUHF0azFIeloyVU44QTNvbjJZandabUpNalA2dFFxdEJDODhmSlQ1aVMyazdMd0ZrcFppQ2Q4QktnODNtV2JGVHZadTQ3UTdWUHhDbDhWekluNkt5X1AteFN3U3F5bm1lVVVyZFpGRW9jdkVLUzN2UE5uVjF5cGxDZndEbVJSSXFhVDhMbDRublJLUVM0YThuSnZIMXFyQ2h4T1BfTEFvd2NralBGWXVpQmNCUm9Bc1hubw?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-18T02:54:37Z",
    "snippet": "",
    "via": "google"
   },
@@ -139,30 +163,6 @@
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNV3E3ZC0zZmJfa3JSRlVDZFZDaWJROW5fT3AzSFJmMFpqQ05tVUlNMGhoY2Q4WE0tdmJGSVlOdWJBZG9zbE5wX2huYmRKcjQ5Q18tMTVQWlE1V0VaYXg3OV9ONTFGRnlsUU5JRlk3M3A3RmNsU1RMZ0NjVE1PRV9ZNS1VdzZUMlRsSmc?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-18T02:43:22Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers - Tampa Bay Lightning - Nov 19, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQkhqRGdKbmR1WGp6Q3BLdUo1Znc2TUtsYjZtVEVFa3lJSmxLbkJlOWM3S1BXZWRsd05RYnU1YzZQSVp5VzlXeGhlbU9GOWxoOHM1WVdJdHVmZGlPSW9IMUp4N0ZvZWpia2F6SXNSQk4?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-18T02:42:01Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Steamrolled: Oilers Stay on a Heater, Beat Up on the Panthers",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeHFmNjFzT0h6MnFRMEw3dHlBaDdIQW8zT1RCZW1jLVp2eEdnaXBwRE1NdVc0eVhTeFRleWN1OXJTaEtaTVIteFVrdTJUcjlwWDhFcXFtOVFBRDdBeHl1U3FrSHV5T3haVU4wOGVKQXdiQnlsV2hZdGVMU3hBS1VGWVIySk85b1VOZkFHdkhlX0paZnAzUXhXQ1FwMk5oQVE5bGpvY0c1aE5pdzhmRHRKcE53ekF5MlZPS1U3cF83ZnpiNGRTN2Jr?oc=5",
-   "source": "Florida Hockey Now",
-   "published": "2026-11-18T02:39:49Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Instant Reaction: McDavid, Podkolzin lead Oilers to dominant 5-2 win over Panthers",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR0lpU3BVWlB2Vjd5V3pTZ1cyTDlYclVBdXFCVnZhdG43cVktSWEyMW5zci1HWmtzS21DQUhLaXpKYktNT0IzTWcxSkFsclNNRXUzRTJjc0lLcVhkNXhTSFUyVXAtNGRhOWFMN0VaczFrcnA0UUFRZ2JJcHduVXFFX2VjY1hNaUZKa2JlQlhULVVnUmZJd1ZDMnB3dmVwWE5IN2ZPeGZDSGE?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-18T01:57:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -223,18 +223,18 @@
    "snippet": "The Edmonton Oilers head to Sunrise to face the Florida Panthers at Amerant Bank Arena on Tuesday as they look to win their sixth straight game. You can watch the game live on Sportsnet at…"
   },
   {
+   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
+   "url": "https://www.nhl.com/oilers/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026-x9611",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-17T05:00:00Z",
+   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
+  },
+  {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
    "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
    "source": "NHL.com",
    "published": "2026-11-17T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
-   "url": "https://www.nhl.com/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026",
-   "source": "NHL.com",
-   "published": "2026-11-17T05:00:00Z",
-   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
   },
   {
    "title": "NHL insider identifies top trade target for Edmonton Oilers",
