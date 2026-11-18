@@ -12,7 +12,7 @@ const STATIC = `${VERSION}-static`, PAGES = `${VERSION}-pages`, DATA = `${VERSIO
 const PRECACHE = [
   "/offline.html", "/play.html", "/notifications.html", "/standings.html", "/leaders.html", "/mcdavid.html", "/article.html",
   "/js/mcdavid.js?v=50",
-  "/js/play.js?v=50", "/js/airhockey-net.js?v=50", "/js/airhockey-online.js?v=50", "/js/home-play.js?v=50", "/js/config.js?v=50", "/copper.svg?v=50", "/css/style.css?v=52", "/js/main.js?v=51", "/js/pwa.js?v=53", "/js/newsletter.js?v=50",
+  "/js/play.js?v=50", "/js/airhockey-net.js?v=50", "/js/airhockey-online.js?v=50", "/js/home-play.js?v=50", "/js/config.js?v=50", "/copper.svg?v=50", "/css/style.css?v=53", "/js/main.js?v=51", "/js/pwa.js?v=53", "/js/newsletter.js?v=50",
   "/js/standings.js?v=50", "/js/leaders.js?v=50", "/js/inbox.js?v=53",
   "/js/article.js?v=50", "/js/article-render.js?v=50", "/js/instagram.js?v=54",
   "/audio/goal-horn.wav?v=50", "/audio/copper-aww.wav?v=50", "/audio/puck-clack.wav?v=50", "/audio/board-thud.wav?v=50",

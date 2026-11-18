@@ -241,22 +241,24 @@ html.cbn-lock{overflow:hidden}
 .ig-cap{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:5;overflow:hidden;font-size:.82rem;line-height:1.35;color:#d6deeb;white-space:pre-line;overflow-wrap:anywhere}
 .ig-foot{text-align:center;margin-top:14px}
 .ig-follow{background:rgb(230,120,50)}.ig-follow:hover{background:var(--orange)}
-/* Home: row cards so a phone shows the photo and a caption, not a thumbnail strip. */
-.ig-latest{margin:16px 0 18px}
+/* Home: one tight row of three small cards. Captions stay to two lines. */
+.ig-latest{margin:14px 0 16px}
 .ig-latest[hidden]{display:none}
-.ig-latest .sec-head{align-items:center;margin:0 0 10px}
-.ig-latest .sec-head h2{margin:0;font-size:1.35rem;color:var(--orange)}
-.ig-latest .sec-head a{color:var(--copper);font-size:.95rem;padding:8px 2px 8px 12px}
-.ig.ig-latest .ig-grid{grid-template-columns:1fr;gap:10px}
-.ig-latest .ig-card{flex-direction:row;align-items:stretch}
+.ig-latest .sec-head{align-items:center;margin:0 0 8px}
+.ig-latest .sec-head h2{margin:0;font-size:1.15rem;color:var(--orange)}
+.ig-latest .sec-head a{color:var(--copper);font-size:.9rem;padding:6px 0 6px 10px}
+.ig.ig-latest .ig-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.ig-latest .ig-card{flex-direction:column;min-width:0}
 .ig-latest .ig-card:hover{transform:none}
 .ig-latest .ig-card:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
-.ig-latest .ig-img{flex:0 0 96px;width:96px;aspect-ratio:auto;min-height:96px}
-.ig-latest .ig-body{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;padding:8px 12px 10px}
-.ig-latest .ig-cap{-webkit-line-clamp:3;font-size:.9rem;line-height:1.35}
+.ig-latest .ig-img{width:100%;flex:none;aspect-ratio:1/1;min-height:0}
+.ig-latest .ig-badge{top:4px;right:4px;width:22px;height:22px}
+.ig-latest .ig-badge svg{width:12px;height:12px}
+.ig-latest .ig-body{padding:6px 6px 8px}
+.ig-latest .ig-date{margin-bottom:2px;font-size:.62rem;letter-spacing:.03em}
+.ig-latest .ig-cap{-webkit-line-clamp:2;font-size:.72rem;line-height:1.25}
 @media(min-width:760px){
-  .ig.ig-latest .ig-grid{grid-template-columns:1fr 1fr}
-  .ig-latest .ig-img{flex-basis:108px;width:108px}
+  .ig.ig-latest .ig-grid{grid-template-columns:repeat(3,minmax(0,168px));justify-content:start;gap:12px}
 }
 /* ---------- Pre-game odds box ---------- */
 .odds-slot[hidden]{display:none}

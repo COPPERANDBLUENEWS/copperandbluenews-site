@@ -4,7 +4,7 @@
 // articles/<id>.html, the card uses that URL (Open Graph preview). Until then
 // the card uses article.html?id=<id>, which renders the live feed. A featured
 // write-up in data/article-overrides.json gets the large card on News.
-// Home: six newest posts under Next Game (image + caption snippet). The section
+// Home: three newest posts under Next Game, one compact row (image + short caption). The section
 // stays hidden when both the live feed and data/articles.json fail. Both reads
 // use cache: "no-store"; the service worker treats data/articles.json as
 // network-first, so a new post is not stuck on an old app cache.
@@ -95,6 +95,6 @@
       if (el.hidden) el.hidden = false;
     };
     if (grid) paint(grid, +grid.dataset.limit || 12);
-    if (strip && gridSource.length) paint(strip, +strip.dataset.limit || 6, "snippet");
+    if (strip && gridSource.length) paint(strip, +strip.dataset.limit || 3, "snippet");
   })();
 })();
