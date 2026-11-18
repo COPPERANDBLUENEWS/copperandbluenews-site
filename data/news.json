@@ -1,20 +1,34 @@
 {
- "updated": "2026-11-18T00:29:18Z",
+ "updated": "2026-11-18T01:23:59Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (3)",
+  "Sportsnet (5)",
   "Google News (86)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Edmonton Oilers vs. Florida Panthers Box Score & Stats - November 17, 2026",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBRWUwtNG96TC0tRzBJNDBFWC1laVZRQTZpbll4UEdsbm9EWUVTY3k2eEJ1aTFGOG5PNTdUR1VnclVoSVpVVERySkstZUhRTnFGcml5WnZhTmJjQ1BsRmVpOUlvQmxGV2NtTEZsZWxwaUsyakNJUl9zekphSnk?oc=5",
-   "source": "CBS Sports",
-   "published": "2026-11-18T00:10:25Z",
+   "title": "Oilers’ McDavid extends point streak to hit historic milestone",
+   "url": "https://www.sportsnet.ca/nhl/article/oilers-mcdavid-extends-point-streak-to-hit-historic-milestone/",
+   "source": "Sportsnet",
+   "published": "2026-11-18T01:08:04Z",
+   "snippet": ""
+  },
+  {
+   "title": "McDavid extends season-opening point streak to 23 games",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSUpFVks2QUQ2V2l6eWRYcFJWR2RYbFk4NFUtQk1VV3dZT19PRl90OVEwQTdoZzh3MHZDaXZvdXZSdVFiVFlLUGxhbkxUakxrZnNScEt2SUlwY2tUcDdoZTNJZTc0eDBaMmpOTTBXSjFhaGRJSjdQbVM4eWhVSW1CZnRvRzQwSlNWMkRDZWFOZnFxUWFLYWhtTkhIVk8wZEE?oc=5",
+   "source": "theScore",
+   "published": "2026-11-18T01:03:30Z",
    "snippet": "",
    "via": "google"
+  },
+  {
+   "title": "Oilers’ McDavid finishes at doorstep for first power-play goal of season",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-finishes-at-doorstep-for-first-power-play-goal-of-season/",
+   "source": "Sportsnet",
+   "published": "2026-11-18T01:01:51Z",
+   "snippet": "Watch as Oilers captain Connor McDavid finishes at the doorstep, after a little pass from Zach Hyman who got the puck off the rebound of an Evan Bouchard one-timer, for McDavid’s first…"
   },
   {
    "title": "LIVE UPDATES: Oilers at Panthers",
@@ -40,10 +54,10 @@
    "via": "google"
   },
   {
-   "title": "[ＷＡＴＣＨ ＬＩＶＥ] Oilers vs. Panthers NHL Game Ｔｖ Ｃｈａｎｎｅｌ ＆ Ｏｎｌｉｎｅ Ｓｔｒｅａｍ (17 November 2026)",
-   "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQNExkSy1HYzI1YnlRaTQtVm0xSEVxdXBET2VXNjVyN3FBc2FZZWczNnNnVVZfQ3pPQVBJZ2p5bmVaNXNmaTd4R3FTUW1lWGNYVWhqbnZpc192Ync1Ymg5eUFDdUZNQ3l3RldGRDVMVnNHdGh2RVMzM0VEQTI5TjdkZW1fMUVYdENpbE1nWW5jX3ZEejJoeFB0SVFYd0l3N3l2VUxMQzk3NWhkeFhlYXlWSDRuaUtoVGFyNTFrdGZVRE5yRkNzUzJJQjJRVVlGeXZsTVc2Qkd6bXdoM0wwaUpmTUJpZm5TWUNDbFo5aHJDUHlWYWg0a2hQMDltV0k3WGlCZUt0Rndud2FfSi1KUnRjYUVLQmZUVjY0QkVPS3U1UlhzSFRKRHNzX3JKSlp0allMYk1sSFhzSGFXSEF6WnRURTJDQWMtYkxmNnNrNGl1MlFFd2J2cUhsSG5LTDB1M1BnX3VTZmFpWXJSVFYxVFRjU283aHJoY1ZSYnNGNW1R?oc=5",
+   "title": "!![ＷＡＴＣＨ@ＯＮＬＩＮＥ-ＧＯ] Oilers vs. Panthers NHL Game — 𝐋𝐢𝐯𝐞 𝐒𝐭𝐫𝐞𝐚𝐦",
+   "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNY3JiX2J5Vl9rMEQ4YUUwN3JraUxsMVE4c25aSTdod3dXOGJhWUloSURYUmM1bmVGV29YTHA5cTBKSUF6aE9JNkpDMVAwSzgyMDFrREV4NTZUQUw5ZWxaa283SWZ5dzFYeGFCdFFITDRtLUhTRFZ2eVJOT0gtVlZHQUtOQU02RHBKaGRQRUZOXzZJLWx0Y2o1ZHhYXzlUZTlhTmdnOFhVU2Vua1FKYmlTYmlKOG4tMGg5N0dXQUZmdGpFZVhReEstMzU5OC15Qk15N3NiMXFsVWFzeGt3bk44dXE4N3VaNVR3ajBvMGJZZXVFLUlHYWtFNmVBbVdSUWZxd3dqT2ItS0RNUW5uaUpIR3ZfSFNZNjZXQXpxRGdodnpXRk5CNzNnU1VwWk9hYWdVUzdDdnRIRXJhS29DTzQyeDllbmhNWGZITVhQa1k2aDVRNE80cDl5bXBHdw?oc=5",
    "source": "Comité Asesor de Vacunas de la AEP",
-   "published": "2026-11-17T23:56:17Z",
+   "published": "2026-11-17T23:54:41Z",
    "snippet": "",
    "via": "google"
   },
@@ -63,18 +77,10 @@
    "via": "google"
   },
   {
-   "title": "[ＳＴＲＥＡＭ^ＩＮ-ＡＣＴＩＯＮ] Oilers vs. Panthers — Ｌｉｖｅ Ｖｉｅｗｉｎｇ",
-   "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQV2ttcWZES2NGMDlpei1wY0pKRHNmVGlGWXRjWkpjcUJvVGVBOFlzOTN4Zmd0NmhJZXAyZ195Si1NU1RTb09DclRKRVkzblByZnJ4blliQmpyZWw5RllwSmhlNEwyS3VTMEMxV05RTmhvTXFiVmg0SHhlUWZLaUlJb1ljbks5V1JfckZFWjVVYkZ6c3pmMkNTbi1LNTlMY3JGZWVEUDR2Vzc0YlZVRTZiOVVaZ0x3WnhZZThjZERsMHBzaTMtVUxJMTI3bUtzNms2M3c5RkQ2WDJfTDZfLVRmdDdUX2tfczV1QTNTeW9rSE5TNUUyc3BLbV95UTdtRVdaVm04OTJXVWx1RjdnMllrUm90d1lpZi16elE0U0ppR2ZpYnY4OWxpb2N3cmtreGVScTY3X1JtSERDNW5LeVYtMVI5SDAxTlgyVFpHR3dTdGVYTG1aNkswVw?oc=5",
+   "title": "++[Ｓｔｒｅａｍ@] Edmonton Oilers vs Florida Panthers FREE LIVE ＯＮ ＴＶ",
+   "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPeTA5R19NVS1vUHo2QkdFQlZBMmhORm56elFlS2dlTkRRNVJqeGo1VG4teUctWWo1Qm9YX25YUnR2RVFNQ3hIT2xHcTdPNTlzM0NMQXVMb1NXVVFUU2VwYUpqWi1NT045bU51YnFEMGp1U01MLUFoLTJlcWZUSE1fS1Vocnc4MndUNV9kSUg4TDY1cW9zRWNJeldBcWItaHBET3FqSENORG1TT3FBMzBKcnhNNVZIcHl4QjhOQnJFa28wMkRBNWFxQzFoVl9FZkJkRWNLWlZORzlHX3dBenlYX2ZOUHNuTV93OE91X19JZWV6WmdyNEtmRjhVVUl6b2dPSnNOZzdpdU1NejR6V2pXX3pyclpwV21janpib05kcUhHdzF6MFZHMFIwRnYtVDg1RWVJNTR2RUhvdlZRSDVMa1RCVzRnZjJrMGQ0aVlna1hLRVE1eC16MlJUc3JQcFFCWVczYVN3QjAxSnVtSmI0UnZVQ1o5VVgyalZQdUNGSjNQNWVaQmhlOUdkNWVvY0E?oc=5",
    "source": "Comité Asesor de Vacunas de la AEP",
-   "published": "2026-11-17T23:43:15Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "++[ＷＡＴＣＨ-ＮＯＷ] Edmonton Oilers vs Florida Panthers FREE LIVE NHL: ＴＶ Ｄｅｔａｉｌｓ, Ｓｔｒｅａｍing Ｇｕｉｄｅ & Time",
-   "url": "https://news.google.com/rss/articles/CBMiiANBVV95cUxQSk5iWGhxS0ltVE5LNWc3MzBEaDcyblVxVFNkQUZCYmVVZkxMcHplcnNDSHVUTHBGTmtnM29Gb0VUNFJnenVhMmkxcExCLUN5TXR1MXRxNTZsLWhaRGdsb2ZHSGEycS05ZWNyTWx3enU1RVJHRVp2TGdaRkFJM21jaHJlcWtlX3dqM24zMVdJZXpzaWpZYTJrM0JuNmZFLW5PcVNrbTAwZTBoaURyUDNWc1pubDRfUEdqR0xmbmc2MEpPNm1CMVlMRHN1M2ZLRjNzOGx0N3lwSlZHSWh0X0NMcnVIUHM4Q3ZhaXJpMlRQdVlSY1ZWSU9jVk4wS000QWVDSTliMVFSLXQyc243X1dJTEVpdDBPend5cEVBRW5KZGt1Y1ZnY0d0ME81cXY5LXdnY0hhaVNUbnh0LVpVQThPQXBKYUlOTnhwYmhCVVpQYmd3eHB0SHRBWFJMMFlRUHNMVDk5NVhadmZWTUtGWWpLdWlzcnRiQlZPeUx5QV9OREp2eU9PWm5VUw?oc=5",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "published": "2026-11-17T23:40:38Z",
+   "published": "2026-11-17T23:41:50Z",
    "snippet": "",
    "via": "google"
   },
@@ -83,14 +89,6 @@
    "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOTUhYeTdPMGE1cTYzakxHZUEwdDd0MWhzUnR1Tm50TEJlX09GcGxOeVA0NGprV2swLXVfOGQ4anJraExpRjdha0dZNnFfX29rOTZQY0REbi1ROHBRcmlveEtubWJTZEMtM3BCbEF2UG5QQVhMdUNjNmFYTmhmR2ZDbG5YTzdJWjNuNzkxV2wtMlU1c21SdkNuZWFVWW5zTExtX1R6UUJ2STg3NkYyaXRfZXFIVC1fOHRfRlE5bE5WSDFHMEd2d2VwZ2pQakxSQmRIWXFsVWRzbnB1Y1RKWGxzc1VPVThDbEdzNFhOUXZkNDBKWG5iMkprSVZQU0tmcGZOX2xpVHlPT3RydlBVUHl5b05GVnRUTXpZYXZ4b25FTEIyMU16Y1dGQlFNMG44TkZyZ2pvczJ5TU5acmo1aW9vejJHQjlldFhNdEYxbg?oc=5",
    "source": "Comité Asesor de Vacunas de la AEP",
    "published": "2026-11-17T23:38:34Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "++[ TODAY] Edmonton Oilers vs Florida Panthers LIVE Ｓｔｒｅａｍｓ",
-   "url": "https://news.google.com/rss/articles/CBMiggNBVV95cUxQOGxTTExMUGlVTmlWbGdHLWlGSTVTSVRldldKUXFXNktHOUpldDEweUlDV3hmV1h3RjZ1S2tVa0FINVpjNlY4ajJCeVBma0t2c1RPY3ZvWm5qSlh6RzdTVUhydDYzdFVBcnVEVFdpYkwzSi1FakFYdTcwMVdOUnRfTWVMZ3kyMk5sc25lQVdQd1pmanZ3bnVTS0dZaE9XQVNXS0hKSDQ1cXh0RUVXUkVFZnkyUXZhSkQwUmp1ZlBBdnFPRWsyRWs5N3dUQWlVNG5LUnBid2pjWFFhRXA5aUpYOVg2dnViSFktTEZBNkRzYVVfQmxYYzVxQ3MtYVNwVlVyQU9PX1ZQVi1LRzlKemNvQjFHLXFCMmpkbHZCUFNvdlhLY3pwSS1LWW02dXQ4X2k2aFVpS0JJbmFUTVlrSGRxMUFnRFlqR0FNY2ZiREI0UFAwSEQwZ3dibG1VRk5SNFlxVDBlZnFzU1Rzak1YZmVvM2N3WTZISFhXMXRGMy1FeWF4UQ?oc=5",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "published": "2026-11-17T23:35:49Z",
    "snippet": "",
    "via": "google"
   },
@@ -124,14 +122,6 @@
    "source": "Sportsnet",
    "published": "2026-11-17T22:28:26Z",
    "snippet": "NHL analyst Steve Valiquette joins Kyper and Bourne to discuss the Edmonton Oilers goaltending situation, saying Devon Levi has been playing exceptionally well and should get the nod to…"
-  },
-  {
-   "title": "Edmonton Oilers - Florida Panthers - Nov 17, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fc080OVpCN1JHa2JZek15eFRqUjZMWFJsN0hFSkstY2gzVnJTN1JrNmJKNW1Tc002TlNyQWNhMWtERE5rTGVPYlp0UU1TNWhYbDN2MjlqVlhUVE9zS19sRmZhNXM1X1Fra3RCRkpOR0o?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-17T22:24:50Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Oilers trade targets who could shake loose close to the NHL trade deadline",
@@ -181,11 +171,28 @@
    "via": "google"
   },
   {
+   "title": "Oilers bring five-game win streak into measuring-stick matchup vs. rival Panthers",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaFR4Mm1jV1Q2SmNQQkpoR1ZhZGthbWtVY2ZOaV93RVBBcGdpYmdTcUNRT1h4aE1kS2JTNTNLTk9hdUFPOVpMN3BLMmtKNFU1QUpiMU11Rm5RZGNXT1lZeGdKOHlPdnRWRUswTTNJNXRrQ2gwS1J3WkdMN1dsbWpIdEZIRll3RmstN2g5X2ZNZGxyX3hDSEVzZVk1dTRUb2RWWVBfWE50SVhyVVRHRGhKdFgwTFQ2MGI1MzhYU013?oc=5",
+   "source": "TSN",
+   "published": "2026-11-17T19:28:22Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL Power Rankings: Edmonton Oilers overtake the Carolina Hurricanes as new No. 1; Devils surging",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeTkzYldXRTYtT0xlSjNMOS1Lc0lBUUFjTXBfeVZqTWZ0b3hEZUZHS1BHUlpvNjc3R0FvT3l2XzF0a0F4Mkw5S3ZjNm9pSm1TdU5YYzljRWEzcWNWNjl2TUJ6cFdPY2FrcDBUbTQwUDBjT2pCVi1rOHdsQzgtU3d2NTQzTjVzMk9vckJmbkMyTHc3OHJWMU11TXYxUzZlaXFtbzRJNXloOVh1b2RwOWtfRk9ONm9vdHE5MnlZSk5kaHZ0aUZXaVRPaHBqYw?oc=5",
+   "source": "DAZN",
+   "published": "2026-11-17T18:52:09Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "PROJECTED LINEUP: Oilers vs. Panthers",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-vs-panthers-11-17-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-17T18:41:51.645Z",
-   "snippet": "SUNRISE, FL – Devon Levi will be back between the pipes to make his 11th start of the season, while Ryan Nugent-Hopkins will miss his second straight game on Tuesday night when the Edmonton…"
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVm5HaVh5cVZzU3Q1WllGemw4T3dNZk5sM1BZTGs2ZnUwSU1McE5yYWRQamQxMEFyYk9KRG50cmdfV1gwYVByTndHTEhxTHYyejdpUGlvVVFKQTV1M0VoUmlNUFYxSlJpN3VsT3BFTFpuc2RKblp6NkRKTjloeGtjdEFB?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-17T18:50:35Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Oilers at Panthers projected lineups",
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-16T15:26:16Z",
    "snippet": "'I told you guys going into this, whatever-it-takes mentality. And we did that tonight'"
-  },
-  {
-   "title": "Double championships for Oilers and Elks? NHL shows zero regard for Canada",
-   "url": "https://edmontonjournal.com/sports/edmonton-elks-grey-cup-edmonton-oilers",
-   "source": "Edmonton Journal",
-   "published": "2026-11-16T14:03:13Z",
-   "snippet": "'Hopefully they started it off for our city and we’ll be able to finish it off'"
   }
  ]
 }

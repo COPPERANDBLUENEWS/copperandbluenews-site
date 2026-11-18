@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T21:58:29+00:00",
+  "updated": "2026-11-18T01:23:51+00:00",
   "next": {
     "id": 2026020335,
     "gameType": 2,
@@ -8,20 +8,20 @@
     "timeMT": "6 PM MT",
     "timePT": "5 PM PT",
     "venue": "Amerant Bank Arena",
-    "state": "FUT",
+    "state": "LIVE",
     "scheduleState": "OK",
     "lastPeriod": null,
     "away": {
       "abbrev": "EDM",
       "name": "Oilers",
       "place": "Edmonton",
-      "score": null
+      "score": 3
     },
     "home": {
       "abbrev": "FLA",
       "name": "Panthers",
       "place": "Florida",
-      "score": null
+      "score": 0
     }
   },
   "last": {
