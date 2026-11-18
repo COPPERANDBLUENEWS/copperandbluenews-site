@@ -1,36 +1,55 @@
 {
- "updated": "2026-11-18T01:56:45Z",
+ "updated": "2026-11-18T03:31:08Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (5)",
-  "Google News (91)"
+  "Sportsnet (4)"
  ],
- "errors": [],
+ "errors": [
+  "Google News: HTTP Error 429: Too Many Requests"
+ ],
  "items": [
   {
-   "title": "Live *Panthers vs Oilers NHL game on ESPN, including live score, highlights and updatad",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOW12ZERtc0N5dmdRTEdaZ1QzZXhjRG1ncG5ETXZBVDlDSUxZRkx2MUthdlpqVkFTdExyanlBR3BrVE5BcW1leVZuZFFicVpIZnFySUd0MDJNMnhudnZaUUtLRXNfRGVnTm5OWHp5ME1qREx1cmpTOV9XRkhqYXREMDJmUU1tbzVJTkhN?oc=5",
-   "source": "Northern Ontario Business",
-   "published": "2026-11-18T01:32:29Z",
-   "snippet": "",
-   "via": "google"
+   "title": "'When you're hot, you don't walk away': Fajardo teases another year in Edmonton at Elks Grey Cup victory party",
+   "url": "https://edmontonjournal.com/news/local-news/when-youre-hot-you-dont-walk-away-fajardo-teases-another-year-in-edmonton-at-elks-grey-cup-victory-party",
+   "source": "Edmonton Journal",
+   "published": "2026-11-18T03:21:21Z",
+   "snippet": "\"I would like to sign my last contract, being here in Edmonton\""
   },
   {
-   "title": "EDM@FLA: McDavid scores PPG against Jacob Markstrom | Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSi01a0I2eHdnT3pLeXZzZE5wSzcxX25jZGpPSmp5clBBMW1iV1l3Y3UxczJXVHZtcHRNOGN5NkNPRUN0eGw5RFM1dloybXpxdlJQdGpqR0hLUGJhM1U0cng2c3dvRDZ6cU1DelVTdUZwZldzaVNpVWN5SVpyYm9QbVQyQ3lBMjgycjc1UU5idWNJZy1Gc1hoZ1RGdk02QQ?oc=5",
+   "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
+   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
    "source": "NHL.com",
-   "published": "2026-11-18T01:31:46Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-18T02:59:03.596Z",
+   "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
   },
   {
-   "title": "[Free] *Edmonton Oilers vs. Florida Panthers Live 𝐒𝐭𝐫𝐞𝐚𝐦𝐬 ON NHL Free Tv Game",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVk9yY2c5VW5aYzdJdFNiem9ncGpfcFRkZXEwWERHRmJ5MkloYUttWlZqQUt5aGJrdTdBeEg2Sll6ZExvNEc2VFdrQXBLRWgxODlwSHRvREd6UkdZT0h6algxREJqWllSZFNpcEZOWXVJTVB3MjBTR1kyTmFNQzQtX2stTTVqdm1QelYw?oc=5",
-   "source": "Northern Ontario Business",
-   "published": "2026-11-18T01:27:00Z",
-   "snippet": "",
-   "via": "google"
+   "title": "NHL Highlights: Oilers 5, Panthers 2",
+   "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-oilers-5-panthers-2/",
+   "source": "Sportsnet",
+   "published": "2026-11-18T02:55:13Z",
+   "snippet": "Vasily Podkolzin had two goals and an assist, while Connor McDavid added a goal and an assist, as the Edmonton Oilers took it 5-2 over the Florida Panthers."
+  },
+  {
+   "title": "Some regular season revenge for the Edmonton Oilers in a 5-2 win over Florida: Cult of Hockey Player Grades",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/some-regular-season-revenge-for-the-edmonton-oilers-in-a-5-2-win-over-florida-cult-of-hockey-player-grades",
+   "source": "Edmonton Journal",
+   "published": "2026-11-18T02:53:25Z",
+   "snippet": ""
+  },
+  {
+   "title": "Stars keep rolling as Oilers beat Panthers for sixth straight win",
+   "url": "https://www.sportsnet.ca/nhl/article/stars-keep-rolling-as-oilers-beat-panthers-for-sixth-straight-win/",
+   "source": "Sportsnet",
+   "published": "2026-11-18T02:50:50Z",
+   "snippet": "Connor McDavid had a goal and an assist to extend his season-opening points streak to 23 games, and the Edmonton Oilers continued their sizzling start by beating the rival Florida Panthers…"
+  },
+  {
+   "title": "Barely a peep from Tkachuk Bros. as Edmonton Oilers humble Florida Panthers",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/barely-a-peep-from-tkachuk-bros-as-edmonton-oilers-humble-florida-panthers",
+   "source": "Edmonton Journal",
+   "published": "2026-11-18T02:48:42Z",
+   "snippet": ""
   },
   {
    "title": "Oilers’ McDavid extends point streak to hit historic milestone",
@@ -40,14 +59,6 @@
    "snippet": ""
   },
   {
-   "title": "McDavid extends season-opening point streak to 23 games",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSUpFVks2QUQ2V2l6eWRYcFJWR2RYbFk4NFUtQk1VV3dZT19PRl90OVEwQTdoZzh3MHZDaXZvdXZSdVFiVFlLUGxhbkxUakxrZnNScEt2SUlwY2tUcDdoZTNJZTc0eDBaMmpOTTBXSjFhaGRJSjdQbVM4eWhVSW1CZnRvRzQwSlNWMkRDZWFOZnFxUWFLYWhtTkhIVk8wZEE?oc=5",
-   "source": "theScore",
-   "published": "2026-11-18T01:03:30Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers’ McDavid finishes at doorstep for first power-play goal of season",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-finishes-at-doorstep-for-first-power-play-goal-of-season/",
    "source": "Sportsnet",
@@ -55,129 +66,11 @@
    "snippet": "Watch as Oilers captain Connor McDavid finishes at the doorstep, after a little pass from Zach Hyman who got the puck off the rebound of an Evan Bouchard one-timer, for McDavid’s first…"
   },
   {
-   "title": "LIVE UPDATES: Oilers at Panthers",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53UUZDRjJ0WGtVTXhCbVgwNFJYYlBVSm9iRkhnZ2RDcDlaUXo2ZFpad1VucDlWa1NhTnBvZHhDYnlTRWZneUg0Y1R3Yk0zZmM1aTVtaEl3RnNoMGx6cEFYSlRNSUk0emlIX2tmWXZZdHRhYnRDaTJHYTNSemw?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-18T00:07:21Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Why Oilers are in better position than Panthers for Stanley Cup run",
-   "url": "https://www.sportsnet.ca/nhl/video/why-oilers-are-in-better-position-than-panthers-for-stanley-cup-run/",
-   "source": "Sportsnet",
-   "published": "2026-11-18T00:02:26Z",
-   "snippet": "Sam Cosentino joins the FAN Pregame show to discuss why the Edmonton Oilers are better equipped to make a run at the Stanley Cup rather than the Florida Panthers."
-  },
-  {
-   "title": "[WATCH Ｏｎｌｉｎｅ LIVE] Oilers vs. Panthers NHL Game: Ｃｈａｎｎｅｌ, Ｓｔｒｅａｍ & Time",
-   "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxPckwzSVZVSFFzc2JETlVRWG9qZk5ycThoVVprMzlfdGlxVWJnQm8zOUkwTWtkVjFGZTlScVhwUEs5RUFIZm5vYk5FaU8wMkpHUF90MFJrNVJNeUNPdXN4Ti1mOFFMVkMycjRlbTg1Ul92NjhaTFpfYVJpcVNQSXZ6ekdiN1lJZHhmNi1lSW9oRFM1SUR0T3E3SmdCY0VUUzc5VzRjb3ZPcVJGcExxVGF4Wm1KcDJRbzRxdUdZNnRJS2xCcHBGcUlsdHJPa0haQXBBQXFCekpfcU9aVXdzRVhPb2t4MnJWd2F1TUhGeTFTN0txY0dNZ3hHTGNpUk9yQ0VwVEpJUmhvaXllMlZjUU9TUHcyeXJKUWVwekxsVjdGYlRaN3dQd19DLUU3WjU3NVE5aUZsamhydzRTSl9xS0FLbXZ0UThOakt0OXdMRjRCTTFvbnBGemg5TW9iUlFISE9ITDhDSVd5T29lT3JUMWc?oc=5",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "published": "2026-11-17T23:57:05Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "[ＷＡＴＣＨ ＬＩＶＥ] Oilers vs. Panthers NHL Game Ｔｖ Ｃｈａｎｎｅｌ ＆ Ｏｎｌｉｎｅ Ｓｔｒｅａｍ (17 November 2026)",
-   "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQNExkSy1HYzI1YnlRaTQtVm0xSEVxdXBET2VXNjVyN3FBc2FZZWczNnNnVVZfQ3pPQVBJZ2p5bmVaNXNmaTd4R3FTUW1lWGNYVWhqbnZpc192Ync1Ymg5eUFDdUZNQ3l3RldGRDVMVnNHdGh2RVMzM0VEQTI5TjdkZW1fMUVYdENpbE1nWW5jX3ZEejJoeFB0SVFYd0l3N3l2VUxMQzk3NWhkeFhlYXlWSDRuaUtoVGFyNTFrdGZVRE5yRkNzUzJJQjJRVVlGeXZsTVc2Qkd6bXdoM0wwaUpmTUJpZm5TWUNDbFo5aHJDUHlWYWg0a2hQMDltV0k3WGlCZUt0Rndud2FfSi1KUnRjYUVLQmZUVjY0QkVPS3U1UlhzSFRKRHNzX3JKSlp0allMYk1sSFhzSGFXSEF6WnRURTJDQWMtYkxmNnNrNGl1MlFFd2J2cUhsSG5LTDB1M1BnX3VTZmFpWXJSVFYxVFRjU283aHJoY1ZSYnNGNW1R?oc=5",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "published": "2026-11-17T23:56:17Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "!![ＷＡＴＣＨ@ＯＮＬＩＮＥ-ＧＯ] Oilers vs. Panthers NHL Game — 𝐋𝐢𝐯𝐞 𝐒𝐭𝐫𝐞𝐚𝐦",
-   "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNY3JiX2J5Vl9rMEQ4YUUwN3JraUxsMVE4c25aSTdod3dXOGJhWUloSURYUmM1bmVGV29YTHA5cTBKSUF6aE9JNkpDMVAwSzgyMDFrREV4NTZUQUw5ZWxaa283SWZ5dzFYeGFCdFFITDRtLUhTRFZ2eVJOT0gtVlZHQUtOQU02RHBKaGRQRUZOXzZJLWx0Y2o1ZHhYXzlUZTlhTmdnOFhVU2Vua1FKYmlTYmlKOG4tMGg5N0dXQUZmdGpFZVhReEstMzU5OC15Qk15N3NiMXFsVWFzeGt3bk44dXE4N3VaNVR3ajBvMGJZZXVFLUlHYWtFNmVBbVdSUWZxd3dqT2ItS0RNUW5uaUpIR3ZfSFNZNjZXQXpxRGdodnpXRk5CNzNnU1VwWk9hYWdVUzdDdnRIRXJhS29DTzQyeDllbmhNWGZITVhQa1k2aDVRNE80cDl5bXBHdw?oc=5",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "published": "2026-11-17T23:54:41Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers on Sportsnet: Edmonton vs. Florida",
-   "url": "https://www.sportsnet.ca/hockey/nhl/games/0689108f-a600-4d41-b213-04280057e82d",
-   "source": "Sportsnet",
-   "published": "2026-11-17T23:46:22Z",
-   "snippet": "The Edmonton Oilers look to pick up their sixth consecutive win as they open their road trip against the Florida Panthers on Tuesday. Catch all the action on Sportsnet, Sportsnet+ and our…"
-  },
-  {
-   "title": "++[Ｓｔｒｅａｍ TV ACCESS] Oilers vs. Panthers NHL Game: NHL Live Ｇｕｉｄｅ",
-   "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxOMVV5U3JPbU5vYjNHZFJVb1JxZzIzT2poUmI0LWxSQ1VwYXpRVmVqU094Tk1jdWZsZG1idmphODllaFNPVVpWT2hrWHR3ZUR3dU9mZUQ2Um1SakU3ODg3UTBEZlRhVlVJM01lQ3h6YlUwc2ZmRGJlbTF3WkVXOUFVUGVRS1k3Sjd0UXFiaURpaTBmT3RtMkwxakZMQVZFY04ybmlGV3lUVk1wWTdIZUVXRTl2TUpCLXJaMDUxMHZ4dXl6bDd1YmJaeF8yaG13RlFNeHN2bXJ5bXRmYVR2dnF1aGpvSzlTbVQ5UHlnMXpGc090VkVXVi1XMVlFWHRSNmdHYmI2emxXVVhSQTNkQTRFM3d6aTRRZWJkX2dTWVV0ZENzamphRGFiZ0FibFBVMzRPV0lNRW9YR2FkTHFWVXNnN1l3TjNxYmxDcWVHSjJDNVJuSndTS0p0bHFYblRJaEFkVF9SWGxlUVQ4cmpHS0hEeGV3?oc=5",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "published": "2026-11-17T23:44:31Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "++[Ｓｔｒｅａｍ@] Edmonton Oilers vs Florida Panthers FREE LIVE ＯＮ ＴＶ",
-   "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPeTA5R19NVS1vUHo2QkdFQlZBMmhORm56elFlS2dlTkRRNVJqeGo1VG4teUctWWo1Qm9YX25YUnR2RVFNQ3hIT2xHcTdPNTlzM0NMQXVMb1NXVVFUU2VwYUpqWi1NT045bU51YnFEMGp1U01MLUFoLTJlcWZUSE1fS1Vocnc4MndUNV9kSUg4TDY1cW9zRWNJeldBcWItaHBET3FqSENORG1TT3FBMzBKcnhNNVZIcHl4QjhOQnJFa28wMkRBNWFxQzFoVl9FZkJkRWNLWlZORzlHX3dBenlYX2ZOUHNuTV93OE91X19JZWV6WmdyNEtmRjhVVUl6b2dPSnNOZzdpdU1NejR6V2pXX3pyclpwV21janpib05kcUhHdzF6MFZHMFIwRnYtVDg1RWVJNTR2RUhvdlZRSDVMa1RCVzRnZjJrMGQ0aVlna1hLRVE1eC16MlJUc3JQcFFCWVczYVN3QjAxSnVtSmI0UnZVQ1o5VVgyalZQdUNGSjNQNWVaQmhlOUdkNWVvY0E?oc=5",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "published": "2026-11-17T23:41:50Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "%~~*[[[SPORT TV>]* Edmonton Oilers vs Florida Panthers 𝐋𝐈𝐕𝐄 𝐒𝐭𝐑𝐞𝐀𝐦 Ｆｒｅｅ On 18 November 2026",
-   "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOTUhYeTdPMGE1cTYzakxHZUEwdDd0MWhzUnR1Tm50TEJlX09GcGxOeVA0NGprV2swLXVfOGQ4anJraExpRjdha0dZNnFfX29rOTZQY0REbi1ROHBRcmlveEtubWJTZEMtM3BCbEF2UG5QQVhMdUNjNmFYTmhmR2ZDbG5YTzdJWjNuNzkxV2wtMlU1c21SdkNuZWFVWW5zTExtX1R6UUJ2STg3NkYyaXRfZXFIVC1fOHRfRlE5bE5WSDFHMEd2d2VwZ2pQakxSQmRIWXFsVWRzbnB1Y1RKWGxzc1VPVThDbEdzNFhOUXZkNDBKWG5iMkprSVZQU0tmcGZOX2xpVHlPT3RydlBVUHl5b05GVnRUTXpZYXZ4b25FTEIyMU16Y1dGQlFNMG44TkZyZ2pvczJ5TU5acmo1aW9vejJHQjlldFhNdEYxbg?oc=5",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "published": "2026-11-17T23:38:34Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Reasons Emerge On Why Buffalo Sabres Let Devon Levi Get Away To Oilers",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPenlMTEJRZGQtVkRSVzR1VjdDdWFyaUs1VWtXcGNHV19ldGtkTGxkWjVTRkUwLWJzN3pDNHpKdXFxZnhmZEVoVF9qM3psVFlodEVSc3QxcHhaaGR5S2ttY2Z3NTlkWmZvSTM1Y21aNl9Fdzl6bnM2Qk9sbEZtRjBWM3ptSEhoblIyZS1DMjlfNkZqRFoweEgtM2FUMA?oc=5",
-   "source": "NHL Trade Rumors",
-   "published": "2026-11-17T23:35:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "[LIVE^SPORTSONLINE] Edmonton Oilers vs. Florida Panthers Free Live Streaming",
-   "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPbkE5X0VrSEJ0MW0xb2VTSW1FQlpLb3RUUG9XaFB4THRpOXluZGxkQmo0YXJ6VGJoVjQ5SC1reGNQc1VpS1JCMWFHMnRmLW1TUUZ2WWdxYWw0cXVaZGlQSjlRS2N0Zm1qc0ZUTjBDVllaZW9xMFFaNlVtd3cyZFZaNVRoc0JyRGpnV0dib1p5WDh3T29LSlNjVm1OY1lGcWZYbTQxOHNSemV2QlFSWGR3aWYzOWJNTTRmOXh2MjV2ZUVsSkFjOG5YXzY5c0NCWUsxM1Bjd2ZneUs0bk83WlVRT0JHeDJSdUo2Y2Rmb2tjTVN2UGZOa25MYjQ0MHRYNzBnaEhnXzM3ZkY1N0o4OXBoSkFVdExEWEs0cjVBQ1U0bU0zY1ZQLWtrc2NieThiNmhPU25qT01VRjc0bUpnazdTXzUtX3lxNUxyZnZhcXRiY3Bjclk4LTZ3QWtRZ3B1aGNiajc0SFZLMXVaT2hL?oc=5",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "published": "2026-11-17T23:33:25Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "(DAZN)How to watch Florida Panthers vs Edmonton Oilers Live Broadcast",
-   "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQckpOcHp3dEI5ZkZReGd2c1pxV29SeXQ3bnl2eGprM05SamVVNjNOX1VxQzZoZDBOLV9Fd0xvMlU4dTczOWVyNnh0RmhwMEJTU1FVMFRlOHE1ckd6c3hRT1QtYlRNR1hpSmJiYzdZVnFsbzY2UU9rdmxwLWxSY2tKU3dDUUc0anZOczVOTWJzdnQyc3NsSHhPczVPZXFTbkdHUmNYSnB5RzNXcnNfdXlQd2VHQTZZdFZIa2hPalZ2bjdsa1ZsSmt1VlB5M21zaEtmNWt5VTRHVElOdnNIcmRJMERpd1JYTWRBSG9wcnNaYnlTOGFTbU9ldzBON1FvQloxM2lvNHlFZG8xZFk2ZUhnX1plMFY1b2VEclJIeVplZUtVZnVyaF9YMkt1NkZxTExYdGw1OVdzVGVtUkhPMFlBLU0teks1UF9Ob2RqYXBUQWZidXpVclpCaUJVN04?oc=5",
-   "source": "Comité Asesor de Vacunas de la AEP",
-   "published": "2026-11-17T22:50:11Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "How should Oilers handle goaltending situation when Andersen returns?",
-   "url": "https://www.sportsnet.ca/nhl/video/how-should-oilers-handle-goaltending-situation-when-andersen-returns/",
-   "source": "Sportsnet",
-   "published": "2026-11-17T22:28:26Z",
-   "snippet": "NHL analyst Steve Valiquette joins Kyper and Bourne to discuss the Edmonton Oilers goaltending situation, saying Devon Levi has been playing exceptionally well and should get the nod to…"
-  },
-  {
-   "title": "Oilers trade targets who could shake loose close to the NHL trade deadline",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTGtYN2pkMm5GWGdGM2oxRzZPMGZaTHgwMXF6aTBkOHBWWG0tODVEU3Vta1cycGtqamRKUEt6VlFUU1FjNXlYSUdVM293NDFSbTRrYk5uR1ZZX3lzNWNTejVrbkEzNUxIYjh4ck14RE5MeDRSZG9pQnVaMmUzUk1zdHAxeGg?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-17T22:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Does Playing The Florida Panthers Still Mean The Same Thing For The Oilers?",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX1lfMHZBdzBZUlp5aE5aU1ZuNmZZWDhNMXpUVmpNcy1jbWswa1hyTGE5VmVhdXJQc1d1dnFvd1RJeEhITWppOEJVYkdscXlfcDl5NXdRdWpMakVGcm56bS0wa1pwYTJYcWJ0Rmp3V2FvNmhremtqMUdINTJpQjFrWm5tMFhsVFJKRjZkbg?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-17T21:47:53Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Tristan Jarry trade is starting to look a lot better for Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOVpOU2tlUUtxZTJldm9uNDc4U3RQVWxEeXY3OVpWSDZ6c3dNbThQV0huM1Q5LWgxLVNUNFNtczZCY2ZodWMtMHF5MXcwUFNKZWJ5WnhtNVYzN2NoUmdhZnpvV0VwSndpNHVYV2I1dDVWUnYzRkc2a011UmNFRUJyOGV0N2NYaVha?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-17T21:07:00Z",
-   "snippet": "",
-   "via": "google"
+   "title": "QUICK RECAP: Oilers 5, Panthers 2",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-panthers-11-17-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-18T00:03:57.611Z",
+   "snippet": "SUNRISE, FL – Grand Theft Auto VI in a row. Vasily Podkolzin, Kasperi Kapanen and Leon Draisaitl produced three points each, Connor McDavid had multiple points, and goalie Devon Levi made…"
   },
   {
    "title": "Golden Bear earns second Canada West all-star football selection",
@@ -185,14 +78,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-17T21:00:25Z",
    "snippet": "Ljuden said one of the rewarding parts of university football has been growing into a veteran role after starting out as a rookie learning from others"
-  },
-  {
-   "title": "Evan Bouchard is the frontrunner for the Norris Trophy",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObi1XamlxVUxWSGwwOG56V25iQUhCYzk1Zl84NnFKM0pGMUtvQWp3UkM1ODFtOXlWRHBCdmFSb2pYV1BObzhhRlVOc3lmQ3E5QlpEa2dmbFFFS2RlVUFQc0NZc1k4RkJCRUYzam9zUHduQ2JPV3FpTnFwYnc5bHB3cEFJcmNjemVGclNmTVlHNEZRNVJvMFdsWGVhT3JtcC1vdzhTbnRXQmVRNTY4LUZWXw?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-17T20:48:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "PROJECTED LINEUP: Oilers vs. Panthers",
@@ -230,18 +115,18 @@
    "snippet": "The Edmonton Oilers head to Sunrise to face the Florida Panthers at Amerant Bank Arena on Tuesday as they look to win their sixth straight game. You can watch the game live on Sportsnet at…"
   },
   {
+   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
+   "url": "https://www.nhl.com/oilers/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026-x9611",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-17T05:00:00Z",
+   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
+  },
+  {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
    "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
    "source": "NHL.com",
    "published": "2026-11-17T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
-   "url": "https://www.nhl.com/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026",
-   "source": "NHL.com",
-   "published": "2026-11-17T05:00:00Z",
-   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
   },
   {
    "title": "NHL insider identifies top trade target for Edmonton Oilers",
@@ -277,6 +162,104 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-16T18:56:12.018Z",
    "snippet": "FORT LAUDERDALE, FL - The Edmonton Oilers have activated forward Isaac Howard off Injured Reserve (IR) and loaned him to the AHL's Bakersfield Condors, the team announced on Monday. The…"
+  },
+  {
+   "title": "Girls in sport: New study offers both optimism and a warning",
+   "url": "https://edmontonjournal.com/sports/canada-girls-in-sport",
+   "source": "Edmonton Journal",
+   "published": "2026-11-16T11:00:22Z",
+   "snippet": "What's the biggest challenge to get girls into sport? Cost. The report found that the rising costs around minor sports, from registration fees to equipment to travel, was a barrier to…"
+  },
+  {
+   "title": "McDavid pushes season-opening point streak to 22 in Oilers win against Flyers",
+   "url": "https://www.nhl.com/news/edmonton-oilers-philadelphia-flyers-game-recap-november-15-2026",
+   "source": "NHL.com",
+   "published": "2026-11-16T05:09:00Z",
+   "snippet": "PHILADELPHIA -- Connor McDavid had a goal and two assists to extend his season-opening point streak to 22 games for the Edmonton Oilers in their 5-2 victory against the Philadelphia Flyers…"
+  },
+  {
+   "title": "PROJECTED LINEUP: Nugent-Hopkins out for Sunday's meeting with the Flyers",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-out-for-sunday-s-meeting-with-flyers",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-15T23:26:17.575Z",
+   "snippet": "PHILADELPHIA, PA - Forward Ryan Nugent-Hopkins will miss Sunday night's game as the Edmonton Oilers face the Philadelphia Flyers in the second of back-to-back games at Xfinity Mobile Arena.…"
+  },
+  {
+   "title": "Levi channels 'Gladiator' with pregame ritual, gets Crowe's blessing",
+   "url": "https://www.nhl.com/news/russell-crowe-gladiator-edmonton-oilers-devon-levi",
+   "source": "NHL.com",
+   "published": "2026-11-15T20:33:00Z",
+   "snippet": "Edmonton Oilers goalie Devon Levi stopped all 19 shots he faced in a 1-0 victory against the Toronto Maple Leafs on Saturday, but there was one lingering question following the game: Are…"
+  },
+  {
+   "title": "FEATURE: Levi's Coliseum",
+   "url": "https://www.nhl.com/oilers/news/feature-levi-s-coliseum",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-15T19:34:07.841Z",
+   "snippet": "PHILADELPHIA, PA – What we do in the crease… echoes in eternity. What a special night it was for Devon Levi, who not only earned his first-career shutout with 19 saves in Saturday’s 1-0 win…"
+  },
+  {
+   "title": "McDavid’s season-opening point streak hits 21, Oilers blank Maple Leafs",
+   "url": "https://www.nhl.com/news/edmonton-oilers-toronto-maple-leafs-game-recap-november-14-2026",
+   "source": "NHL.com",
+   "published": "2026-11-15T04:21:00Z",
+   "snippet": "TORONTO -- Connor McDavid had an assist to extend his season-opening point streak to 21 games, and the Edmonton Oilers defeated the Toronto Maple Leafs 1-0 at Scotiabank Arena on Saturday."
+  },
+  {
+   "title": "QUICK RECAP: Oilers 1, Maple Leafs 0",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-maple-leafs-11-14-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-15T00:06:20.293Z",
+   "snippet": "TORONTO, ON - Our 'Leaves' were better than yours. Devon Levi made 19 saves for his first career shutout, while Evan Bouchard scored the game-winning and only goal as the Edmonton Oilers…"
+  },
+  {
+   "title": "Five-time Stanley Cup champion Tikkanen drops puck at Global Series Finland",
+   "url": "https://www.nhl.com/news/esa-tikkanen-puck-drop-global-series-finland",
+   "source": "NHL.com",
+   "published": "2026-11-14T19:35:00Z",
+   "snippet": "Finland cheered for one of it's greatest winners on Saturday. Five-time Stanley Cup champion and Helsinki native Esa Tikkanen dropped the puck before the 2026 NHL Global Series game between…"
+  },
+  {
+   "title": "PREVIEW: Oilers at Maple Leafs",
+   "url": "https://www.nhl.com/oilers/news/preview-oilers-at-maple-leafs-11-13-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-14T14:54:19.937Z",
+   "snippet": "The Edmonton Oilers begin a six-game road trip starting with the first of a weekend back-to-back against the Toronto Maple Leafs at Scotiabank Arena on Saturday. You can watch the game live…"
+  },
+  {
+   "title": "Babcock not getting sentimental over Toronto return with Oilers",
+   "url": "https://www.nhl.com/news/mike-babcock-not-sentimental-over-toronto-return-with-oilers",
+   "source": "NHL.com",
+   "published": "2026-11-14T00:06:00Z",
+   "snippet": "Edmonton Oilers coach Mike Babcock is not getting sentimental over his return to Scotiabank Arena nearly seven years since he was fired by the Toronto Maple Leafs."
+  },
+  {
+   "title": "BLOG: Babcock 'having fun' with Oilers ahead of making his return to Toronto",
+   "url": "https://www.nhl.com/oilers/news/blog-babcock-having-fun-with-oilers-ahead-of-making-his-return-to-toronto",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-13T22:05:30.657Z",
+   "snippet": "TORONTO, ON – If you’re stuck in the past, you’re never going to improve, and have fun with the people around you while doing it. That was the morning message from Head Coach Mike Babcock,…"
+  },
+  {
+   "title": "'No reason why' McDavid can't reach 200 points for Oilers, Kurri says",
+   "url": "https://www.nhl.com/news/nhl-legends-kurri-and-tikkanen-talk-oilers-mcdavid-at-nhl-global-series-finland",
+   "source": "NHL.com",
+   "published": "2026-11-13T19:50:42.033Z",
+   "snippet": "HELSINKI -- Five-time Stanley Cup winners Jari Kurri and Esa Tikkanen each had an up-close view when Wayne Gretzky set an NHL record with 215 points for the Edmonton Oilers in 1985-86.…"
+  },
+  {
+   "title": "Tikkanen moved to tears after receiving Borje Salming Courage Award",
+   "url": "https://www.nhl.com/oilers/news/esa-tikkanen-honored-as-fourth-recipient-of-borje-salming-courage-award-x4397",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-13T18:38:48.697Z",
+   "snippet": "HELSINKI -- Esa Tikkanen was a unique character who also was a clutch performer during his 14 seasons in the NHL. So, it was fitting that the ceremony at Helsinki City Hall on Friday…"
+  },
+  {
+   "title": "McDavid’s season-opening point streak hits 20, Oilers top Flyers in OT",
+   "url": "https://www.nhl.com/oilers/news/philadelphia-flyers-edmonton-oilers-game-recap-november-11-2026-x1348",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-12T06:35:00Z",
+   "snippet": "EDMONTON -- Connor McDavid had an assist to extend his season-opening point streak to 20 games for the Edmonton Oilers, who defeated the Philadelphia Flyers 3-2 in overtime at Rogers Place…"
   }
  ]
 }
