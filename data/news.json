@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-18T20:35:20Z",
+ "updated": "2026-11-18T21:30:44Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (91)"
+  "Google News (92)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Reason why Sabres traded Devon Levi to Edmonton Oilers revealed: report",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbTEzNllVLVgxV1NmLW52S3l6ZUwyblBRMXFMTzBZWEFkUlh2UFh3YzZESlZ4azJkRldTZm96RjdYSnp1R2dQRVlSTDdUM2NtRnYycTFleGpGZDY0bFozdGZkRnFTWk5NUzExWnFDdEEzUU1HeFN2NGRuZnU?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-18T21:08:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers captain Connor McDavid a man on a mission as he chases a 200-point season and the Stanley Cup",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZTlGWUpHdlRyaVlBQkhzRlBuVUoyMXJIYk9yb3hTNEI4RER6NzVyN1loYkhmMjFfVHlEbmhHWnVfSzNOUlhLMDRZZ0stVEtoSVN4OFNrcEU1OUlrajBIWXFMcjBlX3hRcEpXX3NOd09zQ19OZ3loMWhRYWhJcXRZeDNPeTRCbFdXb2szRVhoSkRISGVGNU12VWhDTUVyd1RTaC0yZjBlTF9GVUVPQ0s1Vk1CcjRxUmwtUkNlMjhaUWdVMzJmTmhoVTZPWnJwdmlOOVRXTkVPNldjRXdz?oc=5",
@@ -159,14 +167,6 @@
    "via": "google"
   },
   {
-   "title": "Is Edmonton Oilers coach Mike Babcock’s patience paying off with these 3 players?",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQk1NTjUtb1RLWkR5T1diM1FpU05BaUpPR1dDU1dMMFRVckpZeEFoQlFVSTRIQjdvYkJMbVROS21LRXZUbGJVTXVyZ2E2ekUyZFlrUmpFLXIxYkNqa3g5Qlo4RENJR0xVajZ5bXV1ZUtndl9JdlBHYnVzMGJzSnk4U0VGLURjQk9JandIUjJzckJnS2lQZFhvZklVLWxuWEk?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-18T12:22:08Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Victims’ rights group to screen documentary in Edmonton in wake of Oilers signing of Formenton",
    "url": "https://edmontonjournal.com/news/local-news/eve-victims-rights-group-edmonton-oilers-alex-formenton",
    "source": "Edmonton Journal",
@@ -258,18 +258,18 @@
    "snippet": "The Edmonton Oilers head to Sunrise to face the Florida Panthers at Amerant Bank Arena on Tuesday as they look to win their sixth straight game. You can watch the game live on Sportsnet at…"
   },
   {
-   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
-   "url": "https://www.nhl.com/oilers/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026-x9611",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-17T05:00:00Z",
-   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
-  },
-  {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
    "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
    "source": "NHL.com",
    "published": "2026-11-17T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
+  },
+  {
+   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
+   "url": "https://www.nhl.com/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026",
+   "source": "NHL.com",
+   "published": "2026-11-17T05:00:00Z",
+   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
   },
   {
    "title": "NHL insider identifies top trade target for Edmonton Oilers",
