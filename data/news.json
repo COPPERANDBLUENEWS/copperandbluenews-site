@@ -1,13 +1,37 @@
 {
- "updated": "2026-11-18T17:38:14Z",
+ "updated": "2026-11-18T18:29:11Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (4)",
+  "Sportsnet (1)",
   "Google News (91)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "'He's not going to get cheaper': Oilers should push to extend top goalie, stats expert says",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNalhuX29Md1ZSOFdRb3IwdG5hZFI2dG11QjBmSXZzOWJPSXg1SmRuNHQzWXVmQ0t3VXhmdjlZc2tRY3EybFhFTERZZ0VaT1IzeEpCWFQxVWY0RDZNS2hkV1k5ZHZHS3RucTluMlQ5di1wZ2FyTzBvcktzZDJqRTh5bVRMLXlSRzhhSEIySGdLajk1STM0cGtWZk1iQ2hBZFg1WEdIOUdrNVE?oc=5",
+   "source": "Telegraph-Journal",
+   "published": "2026-11-18T18:15:52Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers finally have injury timeline for Frederik Andersen: report",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02VHNIcFVxdk42a0RQTFNEbTVGdzJGd0IzVGVuSHlVelN0MUJGdGVqZmg3SlQzdkxQbFJqMkR3OEs1bWJRbVlOM3NSZmt5d3RPbGNhRHBTamFsUjdCVDlwcFNmWmdxZFR3NjJCY2NuUllZUWJOM3N6M1hSRQ?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-18T17:52:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid point streak extended to tie Wayne Gretzky in Oilers win",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUUdySWtqLVBzYzV1cUdrbWlReG0wbUUyN3Bta0Fzczh6NXNWVGhKZHN5eVB5RFRsa3JBRlMtaWREMFJrcGNhWXlRd2pFWEFnMzZFcjZzc1RZNWVySmtOVFBFT1BmU240Q3hjdjZuOTRjRGxfODQ5cmpjclMwVHhtREJMTF94dDkzWUEwN29FcFByYmVUSG9HOW00WWJTMUFJMXRJLUhyTEVVZHRWaGQ1MHNfQlQxMzd1aFFyejNXT0hGUHpKTHdYelB3?oc=5",
+   "source": "DAZN",
+   "published": "2026-11-18T17:41:55Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers New Second Line Extends Oilers Win Streak",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3FFWFFhb3ZpTm1Qakx6b3BsU25qNVNtMzFfVkFZUWFaNUNtVWFrMkhSTVVFZVlZLWM2TzVsempKTkhDVFF6RzJWZXBtS0wxZG9ldlBFWmhJYkNHMDBIN0p3R05iTGlacXNnNl9jZnI5cktFUTVseVkwZjVXMmcwS04zem1sdVlMa0k0VzhxUlBnTVlRMUxpaDE2UVhJQTBYZ1JjdWthUE8tZw?oc=5",
@@ -49,14 +73,6 @@
    "via": "google"
   },
   {
-   "title": "Connor McDavid News: Point streak marches on",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUVUyTHJsejdwcGk3N3IwOTI0Q2NsQ1VZT1FZX0prdDlmdlloSlY5SldzcDItWGQ2bnJxMnAzVGUwdWt0bkxFMjBBWFRGOFdoSVgtMWtiMmJGa3dMTEhvbF9mRkE0ZEYzakltdjVsNnFna1Nwai1IYTVYZGdIYWE4dDdhckE2ak5uOWJCTDhxaTZyeHpUemJ3?oc=5",
-   "source": "RotoWire",
-   "published": "2026-11-18T15:46:17Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "5 Oilers’ Trade Targets Who Could Put Them Over the Hump",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbU9RbC1Vc3FhVEg2ajcwWmxKSllUTEpXUXp5ZDhmRXhBOURSRThQcVlhQ2dJNkZ3TkJ4Yk42cElrQUVaZUVadVlLaHFoU3p5UTU2U2dDM0duZFdiSHloXzRrbWdoZzRtb2t5X2NTdDJXY2N0X2tubF8wQU5SZ3lFRURETDkxb1Vsbi0ydjl3?oc=5",
    "source": "The Hockey Writers",
@@ -69,6 +85,14 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQkhqRGdKbmR1WGp6Q3BLdUo1Znc2TUtsYjZtVEVFa3lJSmxLbkJlOWM3S1BXZWRsd05RYnU1YzZQSVp5VzlXeGhlbU9GOWxoOHM1WVdJdHVmZGlPSW9IMUp4N0ZvZWpia2F6SXNSQk4?oc=5",
    "source": "NHL.com",
    "published": "2026-11-18T14:42:01Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "GDB 23.0: Oilers seek 10th straight road point against bitter rival Panthers (6 pm, SNW)",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRlVyaGRpak5vXzE5TFFja2I0bVhHOWtkQklvR1gzV3ktSEhFcTk2dTdvNWE1dGhDbHU4SW9LSjZabFBINmFBeWpoSE5rZHFZS1dCVmRBd1FyOGdzSnlCYmxhUVRHbWNULWFOOFpiR3ZoQzFKWVoxQjhKbURSZ1E0ekhNTWo2c0xPWFE?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-18T14:37:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -129,28 +153,11 @@
    "via": "google"
   },
   {
-   "title": "McDavid, Oilers Keep on Truckin’. Panthers Do Not Roll Over",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVW5ZVFZjS3kybGVwVE5DRGRKa1czbGVxRUJPZ2Nhek9kMGs5S0RMa1I3VkdWVXVjSDQzMHVTVlN4RFBCVzlxSzhvb1pSZHI2NFM2OGliWUdQR2pabEt1MkhhS2VaWEVYUVhCVE1MSE9sU3NGd3ZuZzlMdDl2QjEyVzdidXdqQm40SU14LWdtdi1tTl8zOWV0WjZrVQ?oc=5",
-   "source": "Florida Hockey Now",
-   "published": "2026-11-18T11:54:49Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Beat Panthers, Takeaways From Win vs. Flyers & Latest News and Rumours",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaS1jVDhCVU9wc3hKbTNDT1pRUXBTMDNHdkxZbzBMa0JjVFVPX1h3LU40eGtGSE9sc0YwdE1IZWV2VFZLdTNvcEIwMFJJZE1ZZGpkaVNOSzBJREE4b2xoMWlKZjNhV2dtbndqS3JTNXg2WTdqVkFLTzgzNm50TzBMaQ?oc=5",
-   "source": "Substack",
-   "published": "2026-11-18T11:35:27Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Victims’ rights group to screen documentary in Edmonton in wake of Oilers signing of Formenton",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUhlMm5pSF93MXdTODBXZEphSWJjRmtwaVNtdm93elFndS1Zb1BxakN6UDNmeTVkZVE4RHRGOGV3TnhPYnhEWDlJNmEweUptT0JkTnN1eVRkS0p0NDZzaXJLb2FCRWVBTXN2STIzTENQcmFSVTZURWw2VXhIWmxQQUxldjFvalotbkUyekNreS1oeEFGbTB1eW1SNTJ0MXAy?oc=5",
+   "url": "https://edmontonjournal.com/news/local-news/eve-victims-rights-group-edmonton-oilers-alex-formenton",
    "source": "Edmonton Journal",
-   "published": "2026-11-18T11:21:44Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-18T11:15:57Z",
+   "snippet": "End Violence Everywhere supported \"E.M.\" during London trial, but turned down offers of support from the Oilers organization over the summer"
   },
   {
    "title": "Oilers’ lineup shuffle pays off in decisive win over Panthers",
@@ -161,8 +168,8 @@
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
   },
@@ -172,13 +179,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-18T03:21:21Z",
    "snippet": "'I would like to sign my last contract, being here in Edmonton'"
-  },
-  {
-   "title": "NHL Highlights: Oilers 5, Panthers 2",
-   "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-oilers-5-panthers-2/",
-   "source": "Sportsnet",
-   "published": "2026-11-18T02:55:13Z",
-   "snippet": "Vasily Podkolzin had two goals and an assist, while Connor McDavid added a goal and an assist, as the Edmonton Oilers took it 5-2 over the Florida Panthers."
   },
   {
    "title": "Some regular season revenge for Edmonton Oilers in a 5-2 win over Florida: Cult of Hockey Player Grades",
@@ -193,20 +193,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-18T02:48:42Z",
    "snippet": ""
-  },
-  {
-   "title": "Oilers’ McDavid extends point streak to hit historic milestone",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-mcdavid-extends-point-streak-to-hit-historic-milestone/",
-   "source": "Sportsnet",
-   "published": "2026-11-18T01:08:04Z",
-   "snippet": ""
-  },
-  {
-   "title": "Oilers’ McDavid finishes at doorstep for first power-play goal of season",
-   "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-finishes-at-doorstep-for-first-power-play-goal-of-season/",
-   "source": "Sportsnet",
-   "published": "2026-11-18T01:01:51Z",
-   "snippet": "Watch as Oilers captain Connor McDavid finishes at the doorstep, after a little pass from Zach Hyman who got the puck off the rebound of an Evan Bouchard one-timer, for McDavid’s first…"
   },
   {
    "title": "QUICK RECAP: Oilers 5, Panthers 2",
@@ -276,6 +262,20 @@
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-nhl-insider-identifies-top-trade-target-of-edmonton-oilers",
    "source": "Edmonton Journal",
    "published": "2026-11-17T02:42:03Z",
+   "snippet": ""
+  },
+  {
+   "title": "Compilation of Edmonton Elks editorial cartoons from the Journal",
+   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-cartoons-cfl-eskimos",
+   "source": "Edmonton Journal",
+   "published": "2026-11-16T22:10:45Z",
+   "snippet": "A collection of Malcolm Mayes' editorial cartoons following the Edmonton Elks, through the team's up and downs."
+  },
+  {
+   "title": "Edmonton Oilers demote hot shot rookie forward to minor leagues",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-isaac-howard-demoted-to-bakersfield-condors",
+   "source": "Edmonton Journal",
+   "published": "2026-11-16T22:07:07Z",
    "snippet": ""
   }
  ]
