@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T18:29:11Z",
+ "updated": "2026-11-18T19:02:04Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,14 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers captain Connor McDavid a man on a mission as he chases a 200-point season and the Stanley Cup",
+   "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQdnVXd25RZUdGMjJ0RG80ckI4M3JGVGJDdmtfbjFKMVdqQjk5RlBWaUJ6aF9GN3Fid0w1Rjd0cVIwbVlIUEFBdzRMQVF2X043RVozUVJYOUJYcnR0RzY2Z015aWFiRFRDcU92NUhwOXpVTDVPT2tLRlVoVzhSaUxyRHpma2JSdDNQaGpsSkthZURIdXpPdl93WUN0Ymx4d3QzQzR6NkthdmczZjhyU3BXbHBvRE5SYnBVZGU2b2QtdGREZUZSTkZQd3lWMWo5cV9tYUYtRnM0WGJzV3FEbEV4anp4VDB6R0JKcVhhUnJHUFB1amsyOGJVUWtjeVBqcTVucUo1bElqWlg3cFVpaHBNZnpacGFKekE?oc=5",
+   "source": "Toronto Star",
+   "published": "2026-11-18T18:46:26Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "'He's not going to get cheaper': Oilers should push to extend top goalie, stats expert says",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNalhuX29Md1ZSOFdRb3IwdG5hZFI2dG11QjBmSXZzOWJPSXg1SmRuNHQzWXVmQ0t3VXhmdjlZc2tRY3EybFhFTERZZ0VaT1IzeEpCWFQxVWY0RDZNS2hkV1k5ZHZHS3RucTluMlQ5di1wZ2FyTzBvcktzZDJqRTh5bVRMLXlSRzhhSEIySGdLajk1STM0cGtWZk1iQ2hBZFg1WEdIOUdrNVE?oc=5",
@@ -29,14 +37,6 @@
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUUdySWtqLVBzYzV1cUdrbWlReG0wbUUyN3Bta0Fzczh6NXNWVGhKZHN5eVB5RFRsa3JBRlMtaWREMFJrcGNhWXlRd2pFWEFnMzZFcjZzc1RZNWVySmtOVFBFT1BmU240Q3hjdjZuOTRjRGxfODQ5cmpjclMwVHhtREJMTF94dDkzWUEwN29FcFByYmVUSG9HOW00WWJTMUFJMXRJLUhyTEVVZHRWaGQ1MHNfQlQxMzd1aFFyejNXT0hGUHpKTHdYelB3?oc=5",
    "source": "DAZN",
    "published": "2026-11-18T17:41:55Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers New Second Line Extends Oilers Win Streak",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3FFWFFhb3ZpTm1Qakx6b3BsU25qNVNtMzFfVkFZUWFaNUNtVWFrMkhSTVVFZVlZLWM2TzVsempKTkhDVFF6RzJWZXBtS0wxZG9ldlBFWmhJYkNHMDBIN0p3R05iTGlacXNnNl9jZnI5cktFUTVseVkwZjVXMmcwS04zem1sdVlMa0k0VzhxUlBnTVlRMUxpaDE2UVhJQTBYZ1JjdWthUE8tZw?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-18T17:35:21Z",
    "snippet": "",
    "via": "google"
   },
@@ -168,8 +168,8 @@
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
+   "source": "NHL.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
   },
