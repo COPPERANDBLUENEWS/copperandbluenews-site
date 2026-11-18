@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T10:12:10Z",
+ "updated": "2026-11-18T10:38:04Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -28,7 +28,15 @@
    "title": "Edmonton Oilers - Florida Panthers - Nov 17, 2026",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fc080OVpCN1JHa2JZek15eFRqUjZMWFJsN0hFSkstY2gzVnJTN1JrNmJKNW1Tc002TlNyQWNhMWtERE5rTGVPYlp0UU1TNWhYbDN2MjlqVlhUVE9zS19sRmZhNXM1X1Fra3RCRkpOR0o?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-18T07:19:03Z",
+   "published": "2026-11-18T08:42:01Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Tampa Bay Lightning - Nov 19, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQkhqRGdKbmR1WGp6Q3BLdUo1Znc2TUtsYjZtVEVFa3lJSmxLbkJlOWM3S1BXZWRsd05RYnU1YzZQSVp5VzlXeGhlbU9GOWxoOHM1WVdJdHVmZGlPSW9IMUp4N0ZvZWpia2F6SXNSQk4?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-18T08:42:01Z",
    "snippet": "",
    "via": "google"
   },
@@ -81,14 +89,6 @@
    "via": "google"
   },
   {
-   "title": "Connor McDavid breaks Wayne Gretzky’s Oilers power-play points record",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbWN5dlRXUWwzMXdtT2dOdmdLaEp0UVlBSlkya3ZweEgxM1hISjBSZzlrN1BEM2VxU25EUnFDZktrTmxnaW5xQl9TdWFEdndtZTVtYnQ2YzdKZkJkN2JXSzZmT1NRRTZLNkFxYmEweVEzMEc0SzJnZ3EweEEzU0cxbmZfdWJhNzJXN1Z1QlZPazJrLTAzVnU5cDFZVHU2dw?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-18T04:20:59Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Barely a peep from Tkachuk Bros. as Edmonton Oilers humble Florida Panthers",
    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVE5wQ2hEQlp1TV9NbU1aNVRPRi05cEQwR1BGTmVUV1lGS1pTQ2hFTmxFMVVzLWtCcThha3Rqa3VQQ0FEdjF6cmV0eHFGSkdCeUFRVXQyS3ZNSTJqMGoyNVR6Y3N4cTRQa0tmVkxmWkN1bUh2TTVRb0FtRWpNc2tyQU9vVVk4WjluWEZYUHczOENHQ0lVN3A1clNybjExcEoyd2MtNmJjbzRTT3NpNjNOUWR0VVhwWEctWjh0WlJDYXNYcmRjM1BFeWRIcWVPSWdqTEE?oc=5",
    "source": "Edmonton Journal",
@@ -101,6 +101,14 @@
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDMFpFTTVuazV0eTd0c1VKWWQyQ1ZBLWVGSXZnUEs4ZkVTOXVXZ2ZMSUJTRzN2YUxsNGFieW5wdW9fajdVT1FPVWd3N01vanA0NzAtTW9XN1pIOTJmSWMyVnVVVGVYQnkzbl83WW1hRWJmNndfY2YxdnVaWTdUZ1U?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-18T04:12:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid breaks Wayne Gretzky’s Oilers power-play points record",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbWN5dlRXUWwzMXdtT2dOdmdLaEp0UVlBSlkya3ZweEgxM1hISjBSZzlrN1BEM2VxU25EUnFDZktrTmxnaW5xQl9TdWFEdndtZTVtYnQ2YzdKZkJkN2JXSzZmT1NRRTZLNkFxYmEweVEzMEc0SzJnZ3EweEEzU0cxbmZfdWJhNzJXN1Z1QlZPazJrLTAzVnU5cDFZVHU2dw?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-18T03:22:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -152,17 +160,9 @@
   },
   {
    "title": "Matthew Tkachuk with a Goal vs. Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNT3QzVmw2eFpxbTNybXhRT2FVTjdYUmVGWjdRQ0FDdF9UWWkzc0VXb3Y5ZzU1enpkcTZ5N2U0NklQalltSjJ6dlFydDRmbE95dktLXzNGeHRCU1NaSENjZnhCamhXaE55N0VVb2JUNXltSDY4LWxyLXF3a0JkQlVWZjBUNzd3UzFoVkk2YlpfVQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTldPYzY2Vkp5enkzaEwxR2ZaSVhUMWVnaXNDUXlZcnhDR1hoa3kxeWRrcG1MbE82eUtlQjZpSTFSeHhXVkJ5UFUtMGJrT1lFUnFlSGRiTDhWZjJsMWsxaFkwQThQYjV5LUFIbGcwRlN1T3BsZ1hiTzI2Z2tJTjZYMmtzQVlCeGcwOFE?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-18T02:45:22Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Florida Panthers vs. Edmonton Oilers - Game Highlights",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNV3E3ZC0zZmJfa3JSRlVDZFZDaWJROW5fT3AzSFJmMFpqQ05tVUlNMGhoY2Q4WE0tdmJGSVlOdWJBZG9zbE5wX2huYmRKcjQ5Q18tMTVQWlE1V0VaYXg3OV9ONTFGRnlsUU5JRlk3M3A3RmNsU1RMZ0NjVE1PRV9ZNS1VdzZUMlRsSmc?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-18T02:43:22Z",
+   "published": "2026-11-18T02:45:06Z",
    "snippet": "",
    "via": "google"
   },
@@ -216,13 +216,6 @@
    "snippet": "There are 11 games on the NHL schedule for Tuesday, three of which are nationally televised in the United States and two in Canada. Here are five things to watch today, along with the…"
   },
   {
-   "title": "Oilers captain Connor McDavid spotted at trendy streetwear store in Yorkville",
-   "url": "http://edmontonjournal.com/news/local-news/oilers-captain-connor-mcdavid-yorkville-store/wcm/13f41dac-cb5a-4289-b881-a6d249aaef2e",
-   "source": "Edmonton Journal",
-   "published": "2026-11-17T11:49:59Z",
-   "snippet": "Kith's Canadian marketing director shares photo of NHL star at the brand's Toronto flagship store"
-  },
-  {
    "title": "PREVIEW: Oilers at Panthers",
    "url": "https://www.nhl.com/oilers/news/preview-oilers-at-panthers-11-01-26",
    "source": "EdmontonOilers.com",
@@ -230,18 +223,18 @@
    "snippet": "The Edmonton Oilers head to Sunrise to face the Florida Panthers at Amerant Bank Arena on Tuesday as they look to win their sixth straight game. You can watch the game live on Sportsnet at…"
   },
   {
+   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
+   "url": "https://www.nhl.com/oilers/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026-x9611",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-17T05:00:00Z",
+   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
+  },
+  {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
    "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
    "source": "NHL.com",
    "published": "2026-11-17T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
-   "url": "https://www.nhl.com/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026",
-   "source": "NHL.com",
-   "published": "2026-11-17T05:00:00Z",
-   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
   },
   {
    "title": "NHL insider identifies top trade target for Edmonton Oilers",
@@ -277,6 +270,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-16T18:56:12.018Z",
    "snippet": "FORT LAUDERDALE, FL - The Edmonton Oilers have activated forward Isaac Howard off Injured Reserve (IR) and loaned him to the AHL's Bakersfield Condors, the team announced on Monday. The…"
+  },
+  {
+   "title": "Girls in sport: New study offers both optimism and a warning",
+   "url": "https://edmontonjournal.com/sports/canada-girls-in-sport",
+   "source": "Edmonton Journal",
+   "published": "2026-11-16T11:00:22Z",
+   "snippet": "What's the biggest challenge to get girls into sport? Cost. The report found that the rising costs around minor sports, from registration fees to equipment to travel, was a barrier to…"
   }
  ]
 }
