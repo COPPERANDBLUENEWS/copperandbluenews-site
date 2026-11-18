@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T15:57:36Z",
+ "updated": "2026-11-18T16:08:33Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (93)"
+  "Google News (92)"
  ],
  "errors": [],
  "items": [
@@ -113,14 +113,6 @@
    "via": "google"
   },
   {
-   "title": "NHL roundup: Oilers’ Connor McDavid extends point streak to 23 games",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYWFZSko1dGNSc0djeFJhN0w3eG1Xb1VCWU5GVHRvbWNmeWNESnBhVWZmc2YzcE8wcjZNTVl5QjJFdGdKVWhieVB1WGNDc0xBVENpVjFLMkxaZU5SRmdmd2Y5dWt6UjlqbS1MTkVzZmVTQ3dtdzlOZUFZSGNpVjB2bFIyTkZMTnlZd011T0tkbmpCc0F6a0ZNeGtaVUZVZENsSzV4Ml9ZT2JoN1k4VzVn?oc=5",
-   "source": "KNBR",
-   "published": "2026-11-18T10:04:55Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Tampa Bay plays Edmonton after Guentzel's 2-goal performance",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSENXNS1kRFZBMFM5STV5dUJQRDV4eF9pdzByN2VUcDVxa2Y5NDItWUNQTHE3QXdjOEVwb0lwOEtKWWc5RkJONzY0UnZYSTVhbGpYVERZLS1BVFVxM0dBZ3dNLVVxeWpjTmJsZHAxa1M5WHlBcEJPTzM0Ul9GUm9rSEtKcW9YMmx6YXlTRDE5S0tMS3V3ODZ3Tm5RSWdkUQ?oc=5",
    "source": "FOX Sports",
@@ -153,6 +145,14 @@
    "via": "google"
   },
   {
+   "title": "QUICK RECAP: Oilers 5, Panthers 2",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE53UUZDRjJ0WGtVTXhCbVgwNFJYYlBVSm9iRkhnZ2RDcDlaUXo2ZFpad1VucDlWa1NhTnBvZHhDYnlTRWZneUg0Y1R3Yk0zZmM1aTVtaEl3RnNoMGx6cEFYSlRNSUk0emlIX2tmWXZZdHRhYnRDaTJHYTNSemw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-18T06:45:11Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers’ lineup shuffle pays off in decisive win over Panthers",
    "url": "https://www.sportsnet.ca/nhl/article/oilers-lineup-shuffle-pays-off-in-decisive-win-over-panthers/",
    "source": "Sportsnet",
@@ -161,8 +161,8 @@
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
+   "source": "NHL.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
   },
@@ -209,13 +209,6 @@
    "snippet": "Watch as Oilers captain Connor McDavid finishes at the doorstep, after a little pass from Zach Hyman who got the puck off the rebound of an Evan Bouchard one-timer, for McDavid’s first…"
   },
   {
-   "title": "QUICK RECAP: Oilers 5, Panthers 2",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-panthers-11-17-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-18T00:03:57.611Z",
-   "snippet": "SUNRISE, FL – Grand Theft Auto VI in a row. Vasily Podkolzin, Kasperi Kapanen and Leon Draisaitl produced three points each, Connor McDavid had multiple points, and goalie Devon Levi made…"
-  },
-  {
    "title": "Golden Bear earns second Canada West all-star football selection",
    "url": "https://edmontonjournal.com/grande-prairie/edmonton-elk-ljuden-football-canada-west-all-star-cfl",
    "source": "Edmonton Journal",
@@ -258,13 +251,6 @@
    "snippet": "The Edmonton Oilers head to Sunrise to face the Florida Panthers at Amerant Bank Arena on Tuesday as they look to win their sixth straight game. You can watch the game live on Sportsnet at…"
   },
   {
-   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
-   "url": "https://www.nhl.com/oilers/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026-x9611",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-17T05:00:00Z",
-   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
-  },
-  {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
    "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
    "source": "NHL.com",
@@ -272,11 +258,25 @@
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
   },
   {
+   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
+   "url": "https://www.nhl.com/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026",
+   "source": "NHL.com",
+   "published": "2026-11-17T05:00:00Z",
+   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
+  },
+  {
    "title": "NHL insider identifies top trade target for Edmonton Oilers",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-nhl-insider-identifies-top-trade-target-of-edmonton-oilers",
    "source": "Edmonton Journal",
    "published": "2026-11-17T02:42:03Z",
    "snippet": ""
+  },
+  {
+   "title": "Compilation of Edmonton Elks editorial cartoons from the Journal",
+   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-cartoons-cfl-eskimos",
+   "source": "Edmonton Journal",
+   "published": "2026-11-16T22:10:45Z",
+   "snippet": "A collection of Malcolm Mayes' editorial cartoons following the Edmonton Elks, through the team's up and downs."
   }
  ]
 }
