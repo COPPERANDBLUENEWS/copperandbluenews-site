@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-18T21:57:40Z",
+ "updated": "2026-11-18T22:29:28Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (92)"
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
@@ -29,6 +29,14 @@
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaFNNcjJyQWl4dzRCcW9BdE03eXFnbDh4NDVZUXZiWVFXeTRpc3BucmxSS1QxSmhNWVEtUmF2aEFHdTFhTEFkUGY2NXQtV3l3cmhfaEZBYnF4TWgzNjQ3MG5udWdkX2pNQ1dPX01WNXpUZXp1S2o5MnVYcFc4el9vTlJ3ZjR4ZzQ?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-18T20:58:06Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Tampa Bay Lightning - Nov 19, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQkhqRGdKbmR1WGp6Q3BLdUo1Znc2TUtsYjZtVEVFa3lJSmxLbkJlOWM3S1BXZWRsd05RYnU1YzZQSVp5VzlXeGhlbU9GOWxoOHM1WVdJdHVmZGlPSW9IMUp4N0ZvZWpia2F6SXNSQk4?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-18T20:42:01Z",
    "snippet": "",
    "via": "google"
   },
@@ -131,14 +139,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcnBlT0htSTVLQUJCSzZxQ3BQVWwzUnpRV0JNZk9ZaV9ic2lnN0RVYURQMDZBMXEzQURPMzloU0ZwSEVfN002QXBzRk8ySHFOOWZ4RjhKcHBrS3RudFRRd2J4M2d4R1pKalFmcUloWklmNWsxeGppbGZkMGtRVUpSX3lMeUdNamtnSEotdlJhd0tDMW5Cd3lydXBjN0ZCZ0FpMi1ZUHZ1Z2w?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-18T14:43:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers - Tampa Bay Lightning - Nov 19, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQkhqRGdKbmR1WGp6Q3BLdUo1Znc2TUtsYjZtVEVFa3lJSmxLbkJlOWM3S1BXZWRsd05RYnU1YzZQSVp5VzlXeGhlbU9GOWxoOHM1WVdJdHVmZGlPSW9IMUp4N0ZvZWpia2F6SXNSQk4?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-18T14:42:01Z",
    "snippet": "",
    "via": "google"
   },
