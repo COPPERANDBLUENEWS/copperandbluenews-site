@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T16:41:59Z",
+ "updated": "2026-11-19T18:33:06Z",
  "basis": {
   "name": "NHL.com projected lineups",
-  "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-preview-november-17-2026",
-  "date": "2026-11-17",
-  "title": "Oilers at Panthers projected lineups"
+  "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-preview-november-19-2026",
+  "date": "2026-11-19",
+  "title": "Oilers at Lightning projected lineups"
  },
  "players": [
   {
@@ -13,15 +13,15 @@
    "injury": "undisclosed",
    "status": "Out",
    "expectedReturn": null,
-   "updated": "2026-11-17",
+   "updated": "2026-11-19",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-preview-november-17-2026",
-     "date": "2026-11-17"
+     "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-preview-november-19-2026",
+     "date": "2026-11-19"
     }
    ],
-   "note": "Nugent-Hopkins, a forward, missed the Oilers’ 5-2 win at the Philadelphia Flyers on Sunday. Coach Mike Babcock did not provide an update on his status. … Forward Isaac Howard was activated from injured reserve by Edmonton after sustaining a lower-body injury…"
+   "note": "Nugent-Hopkins, a forward, is expected to miss his third consecutive game."
   },
   {
    "name": "Frederik Andersen",
@@ -29,12 +29,12 @@
    "injury": "undisclosed",
    "status": "Out",
    "expectedReturn": "\"Maybe December\" (Babcock, Sep 29)",
-   "updated": "2026-11-17",
+   "updated": "2026-11-19",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-preview-november-17-2026",
-     "date": "2026-11-17"
+     "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-preview-november-19-2026",
+     "date": "2026-11-19"
     },
     {
      "name": "Edmonton Journal",
@@ -50,12 +50,12 @@
    "injury": "undisclosed",
    "status": "Out",
    "expectedReturn": "\"A ways away\", no date (Babcock, Sep 29)",
-   "updated": "2026-11-17",
+   "updated": "2026-11-19",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-preview-november-17-2026",
-     "date": "2026-11-17"
+     "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-preview-november-19-2026",
+     "date": "2026-11-19"
     },
     {
      "name": "Edmonton Journal",
@@ -71,12 +71,12 @@
    "injury": "undisclosed",
    "status": "LTIR",
    "expectedReturn": null,
-   "updated": "2026-11-17",
+   "updated": "2026-11-19",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-preview-november-17-2026",
-     "date": "2026-11-17"
+     "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-preview-november-19-2026",
+     "date": "2026-11-19"
     },
     {
      "name": "EdmontonOilers.com",
@@ -92,12 +92,12 @@
    "injury": "undisclosed",
    "status": "LTIR",
    "expectedReturn": "About eight weeks (Babcock, Sep 29)",
-   "updated": "2026-11-17",
+   "updated": "2026-11-19",
    "sources": [
     {
      "name": "NHL.com",
-     "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-preview-november-17-2026",
-     "date": "2026-11-17"
+     "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-preview-november-19-2026",
+     "date": "2026-11-19"
     },
     {
      "name": "EdmontonOilers.com",
