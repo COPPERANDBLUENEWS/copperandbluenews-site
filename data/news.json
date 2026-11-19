@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-19T13:24:43Z",
+ "updated": "2026-11-19T13:57:02Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (91)"
+  "Google News (92)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Nuts & Bolts: Hosting the Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQcTlQZ3BNZ1ZFeEZTanA0RU9VaUlCWVY2Nk9takNWY28xOUk4bG5MYmNYVU5MSGw3cWJwdFZMZnRMWWk0TENlZGwzVHg1dVduR1FzVGNHcm9pellrU2pncFBFYmtzWS1LNUx1MTB6UVltTmpUMmdkMnpOeU1IaEdHYkZn?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-19T13:33:22Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Is Oilers’ splitting of Connor McDavid, Leon Draisaitl a quick fix or a long-term need?",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYjR3UXF2V3JGYlRoNm15N0FJWmdIYTZUSzVob0dxMXhjSnNBSFg1OHRUOFEyZjM1LWxLRkhxSS1YamtUV2ZjRW9oS3RMQ2xkX1NUcFI3Z0U2TU5ydzZ3RWIwTUR2TjI4NWdGX0ZTa2ZRTnNGLXBfLXpuNExrajNtNWJvVUdkRUwzbE9leUFzN3owWWM?oc=5",
@@ -145,19 +153,18 @@
    "via": "google"
   },
   {
-   "title": "'He's not going to get cheaper': Oilers should push to extend top goalie, stats expert says",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR0g3bXNhNFFORExUaHNSZ0xiTDlnREVrek5fRHQ1NmlYZmFlaVgyRXphS0g5OFhwYmw5WDIxTkQ0akNBVTlHcndXdXpkeDlZUldGa3BHM1BFZFpBOHRJUk5sSE00UlJsRk5BME5KZ0liZmM4VnRpWTRpalF0c1E0d1M5dk1xek5heWdnT25XNUtQckJSY3E5ckpOTmNFWHRONmZaOUMySVdEakV2U3pOVUJwaWVNMEZH?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-18T19:24:49Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "McDavid on a mission as he chases 200-point season and Stanley Cup",
    "url": "https://www.sportsnet.ca/nhl/article/mcdavid-on-a-mission-as-he-chases-200-point-season-and-stanley-cup/",
    "source": "Sportsnet",
    "published": "2026-11-18T19:06:53Z",
    "snippet": "Connor McDavid has registered a point in every single game the Edmonton Oilers have played through a quarter of the season."
+  },
+  {
+   "title": "'He's not going to get cheaper': Oilers should push to extend top goalie, stats expert says",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-devon-levi-new-contract-steve-valiquette",
+   "source": "Edmonton Journal",
+   "published": "2026-11-18T17:55:09Z",
+   "snippet": ""
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
@@ -270,13 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-16T05:09:00Z",
    "snippet": "PHILADELPHIA -- Connor McDavid had a goal and two assists to extend his season-opening point streak to 22 games for the Edmonton Oilers in their 5-2 victory against the Philadelphia Flyers…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Nugent-Hopkins out for Sunday's meeting with the Flyers",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-out-for-sunday-s-meeting-with-flyers",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-15T23:26:17.575Z",
-   "snippet": "PHILADELPHIA, PA - Forward Ryan Nugent-Hopkins will miss Sunday night's game as the Edmonton Oilers face the Philadelphia Flyers in the second of back-to-back games at Xfinity Mobile Arena.…"
   }
  ]
 }
