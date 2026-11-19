@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T15:36:18Z",
+ "updated": "2026-11-19T15:56:51Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (92)"
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
@@ -21,6 +21,14 @@
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5R0g4WDB2QjRHT05vZXg4T1BIUVJkbEdMUXpwTkNaeEQ1NGRDNm9tbGlPVHBVTWtaR2p6RkR6MU9NQmZCWW8tMG9uSWlZUjhoN09GSWxtM0tOVEN2VHhqMmRUUnNDV0EwMXJEM1h0LXRoLTdzLUE?oc=5",
    "source": "NHL.com",
    "published": "2026-11-19T14:53:26Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers vs. Lightning NHL picks: Can Tampa Bay slow Connor McDavid, Edmonton in possible Cup Finals preview?",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQMUE5VXdMVVpVZkI0bWVJVWVTbS1WWG5UZjdTaUpzOHZYYW9YYlRVWEp0ZkJYVTBqejhuaDNvWk5VY0FybTZOeU5PLUt6MlUzcGhZNjRBQ3dYQU1SY0I5OVVuQlFLZ2dKYWQ3c2g0eWpiaWlsYlh2TDNmZEFtTU9NZ2loRkhYOTc4bUF3bHI1d1lUSmFFcXRKMGw0UGlkVWNHZHJQbHpqZmYyOWtwSnRlMVFzQWhWWUlhODQzMllSTEowTUprb1QtT1dKQ0k4NkxoRGdjeWhrUkREX2s?oc=5",
+   "source": "CBS Sports",
+   "published": "2026-11-19T14:22:09Z",
    "snippet": "",
    "via": "google"
   },
@@ -93,7 +101,7 @@
    "url": "https://www.nhl.com/oilers/news/preview-oilers-at-lightning-11-18-26",
    "source": "EdmontonOilers.com",
    "published": "2026-11-19T06:00:00Z",
-   "snippet": "The Edmonton Oilers head to Benchmark Arena to face the Lightning with the chance to extend their win streak to seven games. You can watch the game live on Sportsnet at 6:30 PM MT or listen…"
+   "snippet": "The Edmonton Oilers head to Benchmark International Arena to face the Lightning with the chance to extend their win streak to seven games. You can watch the game live on Sportsnet at 6:30…"
   },
   {
    "title": "Kasperi Kapanen should be the focus as the Edmonton Oilers enter the trade deadline",
@@ -148,14 +156,6 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdmhFNU1YZEltZDBxUFNhUUU3T3NRN1FCQ3RsSW00ZFdxdFN0eGdQTklxY0FTdXAyX19wQVdLWTlpaEVOWUdiTGJXdXU1Qmd4VFI5TWc3cWxtZGJWaDl3LUxYeE1iNzJzSWxhWHN4eEpJcGtuMnVpUE52ZHFOc2dDT1E3Um45VDRwS3Fzb0dCbHRBU3JZODY0dy11R1M?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-18T21:29:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Oilers are finding a myriad of ways to win",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOcjIzdGtpZmZRUlcxNVAtY01WWEtlMHlkeC1XUlR6S3RaU0lNTnl0LUFuYWFJNHpiUVhFVTlKbmZLbFhDOWpJOEc5N3plbzNpS1l2SVJUUnhPT0pHQl90SG1ET2hOMnJFLW5OUVRabUZ0a0F0eDRoNFhJR3Z1Sm5TX3Jjdw?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-18T21:25:00Z",
    "snippet": "",
    "via": "google"
   },
