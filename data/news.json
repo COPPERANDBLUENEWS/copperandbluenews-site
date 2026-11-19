@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-19T10:15:48Z",
+ "updated": "2026-11-19T10:37:39Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (10)",
+  "Edmonton Journal (50)",
   "Sportsnet (2)",
   "Google News (89)"
  ],
@@ -161,8 +161,8 @@
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
   },
@@ -237,18 +237,18 @@
    "snippet": "The Edmonton Oilers head to Sunrise to face the Florida Panthers at Amerant Bank Arena on Tuesday as they look to win their sixth straight game. You can watch the game live on Sportsnet at…"
   },
   {
+   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
+   "url": "https://www.nhl.com/oilers/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026-x9611",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-17T05:00:00Z",
+   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
+  },
+  {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
    "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
    "source": "NHL.com",
    "published": "2026-11-17T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
-   "url": "https://www.nhl.com/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026",
-   "source": "NHL.com",
-   "published": "2026-11-17T05:00:00Z",
-   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
   },
   {
    "title": "NHL insider identifies top trade target for Edmonton Oilers",
@@ -258,25 +258,25 @@
    "snippet": ""
   },
   {
-   "title": "RELEASE: Howard activated off IR & loaned to Condors",
-   "url": "https://www.nhl.com/oilers/news/release-howard-activated-off-ir-loaned-to-condors",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-16T18:56:12.018Z",
-   "snippet": "FORT LAUDERDALE, FL - The Edmonton Oilers have activated forward Isaac Howard off Injured Reserve (IR) and loaned him to the AHL's Bakersfield Condors, the team announced on Monday. The…"
+   "title": "Compilation of Edmonton Elks editorial cartoons from the Journal",
+   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-cartoons-cfl-eskimos",
+   "source": "Edmonton Journal",
+   "published": "2026-11-16T22:10:45Z",
+   "snippet": "A collection of Malcolm Mayes' editorial cartoons following the Edmonton Elks, through the team's up and downs."
   },
   {
-   "title": "McDavid pushes season-opening point streak to 22 in Oilers win against Flyers",
-   "url": "https://www.nhl.com/news/edmonton-oilers-philadelphia-flyers-game-recap-november-15-2026",
-   "source": "NHL.com",
-   "published": "2026-11-16T05:09:00Z",
-   "snippet": "PHILADELPHIA -- Connor McDavid had a goal and two assists to extend his season-opening point streak to 22 games for the Edmonton Oilers in their 5-2 victory against the Philadelphia Flyers…"
+   "title": "Edmonton Oilers demote hot shot rookie forward to minor leagues",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-isaac-howard-demoted-to-bakersfield-condors",
+   "source": "Edmonton Journal",
+   "published": "2026-11-16T22:07:07Z",
+   "snippet": ""
   },
   {
-   "title": "PROJECTED LINEUP: Nugent-Hopkins out for Sunday's meeting with the Flyers",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-out-for-sunday-s-meeting-with-flyers",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-15T23:26:17.575Z",
-   "snippet": "PHILADELPHIA, PA - Forward Ryan Nugent-Hopkins will miss Sunday night's game as the Edmonton Oilers face the Philadelphia Flyers in the second of back-to-back games at Xfinity Mobile Arena.…"
+   "title": "Oilers notebook: 'Walman’s in the doghouse' — Charlie Huddy comments on team's blueliner situation",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/edmonton-oilers-defence-jake-walman-charlie-huddy",
+   "source": "Edmonton Journal",
+   "published": "2026-11-16T21:50:56Z",
+   "snippet": "'Slats looked at me and said, ‘I’m not trading you. Things change from day to day. Work hard in practice, enjoy your time off, and you’ll get back in the lineup.'"
   }
  ]
 }
