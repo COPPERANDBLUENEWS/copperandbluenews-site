@@ -1,19 +1,35 @@
 {
- "updated": "2026-11-19T22:28:24Z",
+ "updated": "2026-11-19T23:24:26Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (89)"
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Panthers couldn’t stop McDavid, but Florida weather stopped the Oilers",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVU1QZ09wTF9ydGtvYXdOSUVrOTdKaXRzMlVTZ1prZTJlRnV5RHpnWG5hcjZOOGg3dTB6eGZ6QzRPV1hTZFVfYjFUZGRTc3BqM3JONlRsTlJDQUtYdEhfYnd5V09IdEI0ZUJaSnJfTTd6N0hua1ExZU5fMmNneFlZZVcxN1BYb3NBN3I4OHFKamJXaVB3VzUzQg?oc=5",
+   "source": "The Rat Trick",
+   "published": "2026-11-19T22:44:31Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "BLOG: Joseph found his 'Mojo' over two Stanley Cups with Tampa Bay",
    "url": "https://www.nhl.com/oilers/news/blog-joseph-found-his-mojo-over-two-stanley-cups-with-tampa-bay",
    "source": "EdmontonOilers.com",
    "published": "2026-11-19T22:18:34.178Z",
    "snippet": "TAMPA, FL – Mathieu Joseph will always feel at home any time he’s back in Tampa. Considering the memories 'Mojo' created here, it’s not hard to see why. It’s easy to fall in love with a…"
+  },
+  {
+   "title": "Comparing the Edmonton Oilers from the release of GTA 5 to today’s launch of GTA 6",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVFZYNmh3WTZtbjBpY0U4WUc2SzFwT1hJOTJwMUpGZE1DWlNFOHp1Z0ZUbkxsR2ZJQlczRXVzWkNHVzJyanNlQXNadFR0T0loaWE0cXAyZWNmLXJzZzBCN0RyN2R1TnRaMUhUTThvV1B0MGhLX25XMGE3QkNfdkJaRDR6LXNJRDk3ZlBROGxISWVJZkdndWc?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-19T22:17:00Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Edmonton Oilers vs Tampa Bay Lightning Predictions, Picks & Odds - Nov 19th 2026",
@@ -44,6 +60,14 @@
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOd2twSjhXUmlVdzBIdS1hX2U2WURURFR0ZHoteGVmZDFabFNoRUNUSkVlWFBOaVF6UTY3MS1rek1ZZ2VmSmJyRWk4YTVmMi04S2lqTWZ1ZWtkWVFkaGxCVkVfVG5SU2dSWkR5ZnpNdnE0aFUtX0N5RjJXd2hEVGgtUXBxbw?oc=5",
    "source": "NHL.com",
    "published": "2026-11-19T21:17:06Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Tampa Bay Lightning - Nov 19, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQkhqRGdKbmR1WGp6Q3BLdUo1Znc2TUtsYjZtVEVFa3lJSmxLbkJlOWM3S1BXZWRsd05RYnU1YzZQSVp5VzlXeGhlbU9GOWxoOHM1WVdJdHVmZGlPSW9IMUp4N0ZvZWpia2F6SXNSQk4?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-19T20:42:01Z",
    "snippet": "",
    "via": "google"
   },
@@ -150,30 +174,6 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers at Tampa Bay Lightning - NHL Game Summary - Nov 19, 2026",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPeGNqa2pzTHpFQmc2dDB1bVMtNG9lSjdkeVVBcWZXM0tTREY2MnNVWlJoNlRBd2hZUmxIWXRGZXpORU44N0dsR0dMbGc0aVE2c054Y1NZeDBVVXFya251cEFITkNEZXVRcTVlWkZyWmtjelkwaWZ6V29wX0Zib3NVZzVDbmNDZmN5TTFXRGpWUTU1c2tZWWI0THNWU3FaMG9EeXQ4YzRZV00zdmdQVW5KSjFJZm1WLTJsQ0JpN0xhNk1Mb2lQNVBQTm50ODNiZWRjMDc2clZDUktyNm85LUFvUDBSSkQ1MWZOTzJkRw?oc=5",
-   "source": "USA Today",
-   "published": "2026-11-19T15:19:35Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL On Tap: McDavid, Kaprizov, Gauthier look to keep streaks alive",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5R0g4WDB2QjRHT05vZXg4T1BIUVJkbEdMUXpwTkNaeEQ1NGRDNm9tbGlPVHBVTWtaR2p6RkR6MU9NQmZCWW8tMG9uSWlZUjhoN09GSWxtM0tOVEN2VHhqMmRUUnNDV0EwMXJEM1h0LXRoLTdzLUE?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-19T14:53:35Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL PDO At The Quarter Mark: Oilers, Wild, Flames",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaXJxTnJKcE5jQnhsWmpMeGpoLW5SSHZwYzhfTXEtdVRaRl8wUmVHWk1BM01PaHNiV1ViQm1YVGg4QXk5OU1OOUl0UGVPb0plV3lSZk5henlEcUpaZEVFZlNxQ2ZYNFc2RDlzUFRRTmVTUGdRckZ6MWVqQnBsMmc2Y0NWdnltU1Q2M09NVUkwMWZES2tDcjlpWlFzeUQ4Q2RHUExQbQ?oc=5",
-   "source": "RG.org",
-   "published": "2026-11-19T14:22:01Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "PREVIEW: Oilers at Lightning",
    "url": "https://www.nhl.com/oilers/news/preview-oilers-at-lightning-11-18-26",
    "source": "EdmontonOilers.com",
@@ -210,8 +210,8 @@
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
   },
@@ -272,11 +272,11 @@
    "snippet": "The Edmonton Oilers head to Sunrise to face the Florida Panthers at Amerant Bank Arena on Tuesday as they look to win their sixth straight game. You can watch the game live on Sportsnet at…"
   },
   {
-   "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
-   "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
-   "source": "NHL.com",
+   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
+   "url": "https://www.nhl.com/oilers/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026-x9611",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-17T05:00:00Z",
-   "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
+   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
   }
  ]
 }
