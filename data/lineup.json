@@ -267,14 +267,14 @@
    "num": 27,
    "pos": "G"
   },
-  "status": "Likely",
+  "status": "Confirmed",
   "backup": {
    "id": 8477465,
    "name": "Tristan Jarry",
    "num": 35,
    "pos": "G"
   },
-  "note": "Levi is expected to start in Tampa Bay on Thursday. "
+  "note": "Levi will start in Tampa Bay on Thursday. "
  },
  "scratches": [
   {
@@ -470,5 +470,5 @@
    "note": null
   }
  },
- "updated": "2026-11-19T16:42:00Z"
+ "updated": "2026-11-19T17:10:16Z"
 }
