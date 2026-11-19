@@ -1,13 +1,20 @@
 {
- "updated": "2026-11-19T01:55:10Z",
+ "updated": "2026-11-19T03:32:15Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (89)"
+  "Google News (91)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Top insiders plot about fixing the remaining problems on powerhouse Edmonton Oilers",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-top-trade-trading-targets-top-4-dman-depth-forward",
+   "source": "Edmonton Journal",
+   "published": "2026-11-19T02:29:48Z",
+   "snippet": ""
+  },
   {
    "title": "Did the Edmonton Oilers expose the Florida Panthers as pretenders instead of contenders?",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMUpFN0JkY3FOTFF3S2hNMlNEeXlsSzhNUkhybG1NeVZuTzB2bDRWczZBWUY4b25MRGctNjNLbGtKWVFIdjFFdmJ0cjB0c2dDanNkZFR2UjZxZkhrU2FoWENUSl9MUjRXUmRFRHFUb1hUN3ZwWWxGUHNPTi13bXJUdTg4bzRwckZfNWxvZnJYMzhuSHFUaEhPSGpCa0pBRVZTbDN3TGFNVDdPN0VmU251Uw?oc=5",
@@ -68,14 +75,6 @@
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbTEzNllVLVgxV1NmLW52S3l6ZUwyblBRMXFMTzBZWEFkUlh2UFh3YzZESlZ4azJkRldTZm96RjdYSnp1R2dQRVlSTDdUM2NtRnYycTFleGpGZDY0bFozdGZkRnFTWk5NUzExWnFDdEEzUU1HeFN2NGRuZnU?oc=5",
    "source": "Daily Hive",
    "published": "2026-11-18T21:08:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "It looks like Jake Walman is done in Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaFNNcjJyQWl4dzRCcW9BdE03eXFnbDh4NDVZUXZiWVFXeTRpc3BucmxSS1QxSmhNWVEtUmF2aEFHdTFhTEFkUGY2NXQtV3l3cmhfaEZBYnF4TWgzNjQ3MG5udWdkX2pNQ1dPX01WNXpUZXp1S2o5MnVYcFc4el9vTlJ3ZjR4ZzQ?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-18T20:58:06Z",
    "snippet": "",
    "via": "google"
   },
@@ -167,6 +166,14 @@
    "via": "google"
   },
   {
+   "title": "3 Takeaways From Oilers’ 5-2 Victory Over Panthers",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTF9jcElBTko3SnJDZzVTX3kwQ3dqSExNMWxhSWs1dmRIV0NUQjAyeEpncndkVVpzanhFeWQ4LVA4U3c4NGZaM20yNTFxYjZaY3RYbG9FbHdfb0R1Z3BMVWd3NThiY3J5cS1tTUdlcWdGVW44cmxpSTNHT0lfdFFmT2h1ejFnQQ?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-18T14:25:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Victims’ rights group to screen documentary in Edmonton in wake of Oilers signing of Formenton",
    "url": "https://edmontonjournal.com/news/local-news/eve-victims-rights-group-edmonton-oilers-alex-formenton",
    "source": "Edmonton Journal",
@@ -175,8 +182,8 @@
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
+   "source": "NHL.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
   },
@@ -269,13 +276,6 @@
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-nhl-insider-identifies-top-trade-target-of-edmonton-oilers",
    "source": "Edmonton Journal",
    "published": "2026-11-17T02:42:03Z",
-   "snippet": ""
-  },
-  {
-   "title": "Edmonton Oilers demote hot shot rookie forward to minor leagues",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-isaac-howard-demoted-to-bakersfield-condors",
-   "source": "Edmonton Journal",
-   "published": "2026-11-16T22:07:07Z",
    "snippet": ""
   }
  ]
