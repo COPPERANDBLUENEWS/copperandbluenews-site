@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T03:32:15Z",
+ "updated": "2026-11-19T04:03:29Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,22 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Edmonton Oilers - Tampa Bay Lightning - Nov 19, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQkhqRGdKbmR1WGp6Q3BLdUo1Znc2TUtsYjZtVEVFa3lJSmxLbkJlOWM3S1BXZWRsd05RYnU1YzZQSVp5VzlXeGhlbU9GOWxoOHM1WVdJdHVmZGlPSW9IMUp4N0ZvZWpia2F6SXNSQk4?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-19T02:42:01Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Victims’ rights group to screen documentary in Edmonton in wake of Oilers signing of Formenton",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUhlMm5pSF93MXdTODBXZEphSWJjRmtwaVNtdm93elFndS1Zb1BxakN6UDNmeTVkZVE4RHRGOGV3TnhPYnhEWDlJNmEweUptT0JkTnN1eVRkS0p0NDZzaXJLb2FCRWVBTXN2STIzTENQcmFSVTZURWw2VXhIWmxQQUxldjFvalotbkUyekNreS1oeEFGbTB1eW1SNTJ0MXAy?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-19T02:30:35Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Top insiders plot about fixing the remaining problems on powerhouse Edmonton Oilers",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-top-trade-trading-targets-top-4-dman-depth-forward",
@@ -75,14 +91,6 @@
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PbTEzNllVLVgxV1NmLW52S3l6ZUwyblBRMXFMTzBZWEFkUlh2UFh3YzZESlZ4azJkRldTZm96RjdYSnp1R2dQRVlSTDdUM2NtRnYycTFleGpGZDY0bFozdGZkRnFTWk5NUzExWnFDdEEzUU1HeFN2NGRuZnU?oc=5",
    "source": "Daily Hive",
    "published": "2026-11-18T21:08:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers - Tampa Bay Lightning - Nov 19, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQkhqRGdKbmR1WGp6Q3BLdUo1Znc2TUtsYjZtVEVFa3lJSmxLbkJlOWM3S1BXZWRsd05RYnU1YzZQSVp5VzlXeGhlbU9GOWxoOHM1WVdJdHVmZGlPSW9IMUp4N0ZvZWpia2F6SXNSQk4?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-18T20:42:01Z",
    "snippet": "",
    "via": "google"
   },
@@ -164,21 +172,6 @@
    "published": "2026-11-18T14:37:00Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "3 Takeaways From Oilers’ 5-2 Victory Over Panthers",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTF9jcElBTko3SnJDZzVTX3kwQ3dqSExNMWxhSWs1dmRIV0NUQjAyeEpncndkVVpzanhFeWQ4LVA4U3c4NGZaM20yNTFxYjZaY3RYbG9FbHdfb0R1Z3BMVWd3NThiY3J5cS1tTUdlcWdGVW44cmxpSTNHT0lfdFFmT2h1ejFnQQ?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-18T14:25:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Victims’ rights group to screen documentary in Edmonton in wake of Oilers signing of Formenton",
-   "url": "https://edmontonjournal.com/news/local-news/eve-victims-rights-group-edmonton-oilers-alex-formenton",
-   "source": "Edmonton Journal",
-   "published": "2026-11-18T11:15:57Z",
-   "snippet": "End Violence Everywhere supported \"E.M.\" during London trial, but turned down offers of support from the Oilers organization over the summer"
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-17T02:42:03Z",
    "snippet": ""
+  },
+  {
+   "title": "RELEASE: Howard activated off IR & loaned to Condors",
+   "url": "https://www.nhl.com/oilers/news/release-howard-activated-off-ir-loaned-to-condors",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-16T18:56:12.018Z",
+   "snippet": "FORT LAUDERDALE, FL - The Edmonton Oilers have activated forward Isaac Howard off Injured Reserve (IR) and loaned him to the AHL's Bakersfield Condors, the team announced on Monday. The…"
   }
  ]
 }
