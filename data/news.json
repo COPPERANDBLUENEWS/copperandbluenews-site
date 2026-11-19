@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T04:40:20Z",
+ "updated": "2026-11-19T05:41:18Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (4)",
-  "Google News (90)"
+  "Sportsnet (2)",
+  "Google News (91)"
  ],
  "errors": [],
  "items": [
@@ -13,6 +13,14 @@
    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSV9pdWhrSmRSVlhPMTE5cVZwSTRSSEdwc2lZbndwMFFjZDc3X1dyNnBkMkJlaTR4RHhBVW1IWHluR3lMZ1pOcFk0OUtsVUcxTHRReWZMbUJsb0x4YnJoM1hmMVZiZFVHRl9vLVN6LWZ0Y0tMbHFNdnRneVZBaHRBTEVZYk5QbUVySVh3NENqV3BSN0p1MEtGb0YtZ3ZRNW9NVUJxYUtZTUptN3RZS29KVmlxakh6SmFsY2VF?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-19T04:12:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Tampa Bay Lightning - Nov 19, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQkhqRGdKbmR1WGp6Q3BLdUo1Znc2TUtsYjZtVEVFa3lJSmxLbkJlOWM3S1BXZWRsd05RYnU1YzZQSVp5VzlXeGhlbU9GOWxoOHM1WVdJdHVmZGlPSW9IMUp4N0ZvZWpia2F6SXNSQk4?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-19T02:42:01Z",
    "snippet": "",
    "via": "google"
   },
@@ -50,18 +58,11 @@
   },
   {
    "title": "NHL Points Leaders: Connor McDavid, Leon Draisaitl, or Kirill Kaprizov?",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPcmEtZngzS0lMSWloZHRIV1BVbG1Ya2Rtb3pYeUdiWEItX1NLY0dpeDdsS1FiNkdVRldWQlRMWVk5V1VYSFRQb2hCdW16b0FfUVdRenlDUXdCSS01QU55c0txU05LMmJjcGowVEVXVjhLVG85VndibFNLYkZtelVhRUlwVTF1akNGdU5tRWdzbG1jc3N0bUNDa20wUDg5SDBFTnVqWDc5QU1jaHZZWEJxQkllU0RhVmtHVzlocGItVlFacjlONnBCRDZ2MmM?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcUFJbTBybmFhZHZaQlJfWU1hMl9IcEUtR3N6Tmx0YmpsTG9LU0RpdmtBTDhTbXdFZnhNOWxsclM1U2JldmpjTllBYjFWMDA5VmlmLXlLR0x0NFhLeTFacUpsQ0hFc0E0RndHbjctM1NIcmNRM211OERpbTdzNjFVc2xEQmdNZ2wzQkZSTXJ1SUc1SkNfeV9xRlRlam5ZUDJUNGc1NnpWNU94Q0pISWZHQ2NTRDQ1bXlnZlp2NWF0b1NXYUtfcUZjLTRfVWw?oc=5",
    "source": "DAZN",
    "published": "2026-11-18T22:57:00Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "How much could Oilers’ Levi command on next contract as pending RFA?",
-   "url": "https://www.sportsnet.ca/nhl/video/how-much-could-oilers-levi-command-on-next-contract-as-pending-rfa/",
-   "source": "Sportsnet",
-   "published": "2026-11-18T22:51:21Z",
-   "snippet": "Kyper and Bourne debate how much Edmonton Oilers’ goaltender Devon Levi’s next contract could be worth after starting the season 10-1, as he’s set to be an RFA at the end of the season."
   },
   {
    "title": "Oilers notebook: Sam O'Reilly shines in TB as Isaac Howard heads to Bakersfield",
@@ -96,14 +97,6 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers - Tampa Bay Lightning - Nov 19, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hQkhqRGdKbmR1WGp6Q3BLdUo1Znc2TUtsYjZtVEVFa3lJSmxLbkJlOWM3S1BXZWRsd05RYnU1YzZQSVp5VzlXeGhlbU9GOWxoOHM1WVdJdHVmZGlPSW9IMUp4N0ZvZWpia2F6SXNSQk4?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-18T20:42:01Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Things we (think we) know: Oilers forging different identity under Babcock",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQmlSMTM5Z0tEazg3NDk3T0NfTjFsVkR4TlRlcXZxM0JENkZBY25leUo3MkhGNjVhOW9DSmp6RlVCaUxaM1NVZ2RqUmNfMGZoNmxzQUNQYWhsNUgwaHFwQXgwcnVHTUFNX0hYU3VtZFVRQ3F3S1FjbEhUdlhXakZ6QzJ3bE1QWGJ1WjRhLTJkajNvUEs4WDJCNlN1U2NEdGw1ekRQWlo5d1o5RnZXQ1E?oc=5",
    "source": "Sportsnet.ca",
@@ -118,13 +111,6 @@
    "published": "2026-11-18T19:24:49Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "How ‘excellent’ Oilers defence can lead them back to Stanley Cup",
-   "url": "https://www.sportsnet.ca/nhl/video/how-excellent-oilers-defence-can-lead-them-back-to-stanley-cup/",
-   "source": "Sportsnet",
-   "published": "2026-11-18T19:15:07Z",
-   "snippet": "The FAN Hockey Show’s Matt Marchese and Mike Futa check back in on their predictions from the summer, and give their reasons why they are both sticking with the Edmonton Oilers to win the…"
   },
   {
    "title": "McDavid on a mission as he chases 200-point season and Stanley Cup",
@@ -151,9 +137,9 @@
   },
   {
    "title": "Oilers New Second Line Extends Oilers Win Streak",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPU0dTSWd4NnQzWlpMSUhJbkJycTA0aWVnMVZIa3VhbFVqQWFFck83OHpUYVVRS3NMRUFKYVIyR19uVEhGZEZlLWhPLXpvaWh4QnV3WEVBY1lCdzZuQjY1UFBwOTduVXczZW5jMHQ3X3pSQzRrT21wVVFDNjJwQlZWVTZpUDhzdW8?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-18T17:33:26Z",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3FFWFFhb3ZpTm1Qakx6b3BsU25qNVNtMzFfVkFZUWFaNUNtVWFrMkhSTVVFZVlZLWM2TzVsempKTkhDVFF6RzJWZXBtS0wxZG9ldlBFWmhJYkNHMDBIN0p3R05iTGlacXNnNl9jZnI5cktFUTVseVkwZjVXMmcwS04zem1sdVlMa0k0VzhxUlBnTVlRMUxpaDE2UVhJQTBYZ1JjdWthUE8tZw?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-18T17:35:21Z",
    "snippet": "",
    "via": "google"
   },
@@ -251,18 +237,18 @@
    "snippet": "The Edmonton Oilers head to Sunrise to face the Florida Panthers at Amerant Bank Arena on Tuesday as they look to win their sixth straight game. You can watch the game live on Sportsnet at…"
   },
   {
+   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
+   "url": "https://www.nhl.com/oilers/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026-x9611",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-17T05:00:00Z",
+   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
+  },
+  {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
    "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
    "source": "NHL.com",
    "published": "2026-11-17T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
-  },
-  {
-   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
-   "url": "https://www.nhl.com/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026",
-   "source": "NHL.com",
-   "published": "2026-11-17T05:00:00Z",
-   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
   },
   {
    "title": "NHL insider identifies top trade target for Edmonton Oilers",
@@ -277,6 +263,20 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-16T18:56:12.018Z",
    "snippet": "FORT LAUDERDALE, FL - The Edmonton Oilers have activated forward Isaac Howard off Injured Reserve (IR) and loaned him to the AHL's Bakersfield Condors, the team announced on Monday. The…"
+  },
+  {
+   "title": "McDavid pushes season-opening point streak to 22 in Oilers win against Flyers",
+   "url": "https://www.nhl.com/news/edmonton-oilers-philadelphia-flyers-game-recap-november-15-2026",
+   "source": "NHL.com",
+   "published": "2026-11-16T05:09:00Z",
+   "snippet": "PHILADELPHIA -- Connor McDavid had a goal and two assists to extend his season-opening point streak to 22 games for the Edmonton Oilers in their 5-2 victory against the Philadelphia Flyers…"
+  },
+  {
+   "title": "PROJECTED LINEUP: Nugent-Hopkins out for Sunday's meeting with the Flyers",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-out-for-sunday-s-meeting-with-flyers",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-15T23:26:17.575Z",
+   "snippet": "PHILADELPHIA, PA - Forward Ryan Nugent-Hopkins will miss Sunday night's game as the Edmonton Oilers face the Philadelphia Flyers in the second of back-to-back games at Xfinity Mobile Arena.…"
   }
  ]
 }
