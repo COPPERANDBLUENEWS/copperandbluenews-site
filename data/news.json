@@ -1,26 +1,18 @@
 {
- "updated": "2026-11-19T09:40:06Z",
+ "updated": "2026-11-19T10:15:48Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (91)"
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Will Jake Guentzel Score a Goal vs. the Edmonton Oilers on November 19?",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUnZGbzAwUHBMcFR1VHpQOHVNb0JGR0xuUU5CSXhTM09qcXBsMmk1bXpFdGN4ZHd4MDFzR1VSZ2NlNWR5Q191MHlGMms3cXFWM0o1WTlrUFNuc3lvQjE0UnptcTdtdGYwMGVHRllNOW9IMC1iTlc5SUl5MjE2djBBMVNEODcwc1NWWk91M25mdXNSa0RXNGtrNTZjeWlaWHZVMHdvZXg4anp5S19jTjlEVXpVRi1NMGxrU3c?oc=5",
-   "source": "Bleacher Nation",
-   "published": "2026-11-19T07:15:29Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "PREVIEW: Oilers at Lightning",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Za1pLS2d3cVlFVENsakJoVG1ySFhIYXpWMlJRaC1ESWNFVFZUN0h2QzFNTVBUQUQ4VEdFalg4WEMteFp2d3ZfTEhXTFp6ejNLN1RxaXRrUkVTR1h3bnluUmJUZmxlY3h6MENHZmh1Mk92bVA5Ukpz?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-19T06:40:23Z",
+   "published": "2026-11-19T06:41:22Z",
    "snippet": "",
    "via": "google"
   },
@@ -160,9 +152,17 @@
    "via": "google"
   },
   {
+   "title": "Oilers New Second Line Extends Oilers Win Streak",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3FFWFFhb3ZpTm1Qakx6b3BsU25qNVNtMzFfVkFZUWFaNUNtVWFrMkhSTVVFZVlZLWM2TzVsempKTkhDVFF6RzJWZXBtS0wxZG9ldlBFWmhJYkNHMDBIN0p3R05iTGlacXNnNl9jZnI5cktFUTVseVkwZjVXMmcwS04zem1sdVlMa0k0VzhxUlBnTVlRMUxpaDE2UVhJQTBYZ1JjdWthUE8tZw?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-18T17:35:21Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
+   "source": "NHL.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
   },
@@ -237,18 +237,18 @@
    "snippet": "The Edmonton Oilers head to Sunrise to face the Florida Panthers at Amerant Bank Arena on Tuesday as they look to win their sixth straight game. You can watch the game live on Sportsnet at…"
   },
   {
-   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
-   "url": "https://www.nhl.com/oilers/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026-x9611",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-17T05:00:00Z",
-   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
-  },
-  {
    "title": "NHL EDGE stats behind McDavid’s historic start for Oilers",
    "url": "https://www.nhl.com/news/nhl-edge-stats-connor-mcdavid-edmonton-oilers-2026-27",
    "source": "NHL.com",
    "published": "2026-11-17T05:00:00Z",
    "snippet": "NHL.com's fantasy staff continues to cover the latest trends and storylines in the League through the lens of NHL EDGE puck and player tracker stats. Today, we look at three advanced stats…"
+  },
+  {
+   "title": "Trophy Tracker: Bouchard of Oilers choice for Norris as top defenseman",
+   "url": "https://www.nhl.com/news/norris-trophy-tracker-oilers-evan-bouchard-early-favorite-november-17-2026",
+   "source": "NHL.com",
+   "published": "2026-11-17T05:00:00Z",
+   "snippet": "To mark the quarter point of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series. Today, we look at the race for the Norris Trophy, awarded…"
   },
   {
    "title": "NHL insider identifies top trade target for Edmonton Oilers",
