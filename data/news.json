@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-19T12:39:02Z",
+ "updated": "2026-11-19T13:24:43Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (90)"
+  "Google News (91)"
  ],
  "errors": [],
  "items": [
@@ -25,6 +25,14 @@
    "via": "google"
   },
   {
+   "title": "Pre-Scout: Can the Oilers O’really extend win streak to seven against Lightning?",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZnJEcGlQYmpwNFM3QzRkOERPQ1ptUG1qMmtYbm03bk5mVVRQQjVYLVZZTHI1OG00ekFNNVdaekFDNFo1dWUxX3E2MGprN0kwS2w5RzBjd2NaaDZGNmNvUEgyNEFoQ2dqX1JmcXIxdXNBZkxmTXpEd00waFoyR241UFJWUktQZXZqeDN2eUpJNkRGaS1aM21iZ0g2VVYtTVV3OWFpYW41MFg?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-19T12:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers’ Latest News and Rumours & Takeaways From Win vs. Panthers.",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSVVydEE0RTgyNmp6U180LW1xMVJ2MXVXTF9sMkpUVjNDMzVBTDlrUW1YWEQxaEh1NWJUTXNyV2pZWThDUG82VDMwbjQ1N3dlN0Z6cHlZWVJ6NURjb3ZZcTl6aFVQU3FiTHIxcVdxdF9vcTVQcWtQVWxJc09HN0Y3ejU5UW4?oc=5",
    "source": "Substack",
@@ -36,7 +44,7 @@
    "title": "PREVIEW: Oilers at Lightning",
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Za1pLS2d3cVlFVENsakJoVG1ySFhIYXpWMlJRaC1ESWNFVFZUN0h2QzFNTVBUQUQ4VEdFalg4WEMteFp2d3ZfTEhXTFp6ejNLN1RxaXRrUkVTR1h3bnluUmJUZmxlY3h6MENHZmh1Mk92bVA5Ukpz?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-19T06:41:22Z",
+   "published": "2026-11-19T06:44:21Z",
    "snippet": "",
    "via": "google"
   },
@@ -150,14 +158,6 @@
    "source": "Sportsnet",
    "published": "2026-11-18T19:06:53Z",
    "snippet": "Connor McDavid has registered a point in every single game the Edmonton Oilers have played through a quarter of the season."
-  },
-  {
-   "title": "Edmonton Oilers finally have injury timeline for Frederik Andersen: report",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02VHNIcFVxdk42a0RQTFNEbTVGdzJGd0IzVGVuSHlVelN0MUJGdGVqZmg3SlQzdkxQbFJqMkR3OEs1bWJRbVlOM3NSZmt5d3RPbGNhRHBTamFsUjdCVDlwcFNmWmdxZFR3NjJCY2NuUllZUWJOM3N6M1hSRQ?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-18T17:52:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
