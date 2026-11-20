@@ -3,7 +3,7 @@
   "id": 2026020349,
   "startTimeUTC": "2026-11-20T00:30:00Z",
   "gameDate": "2026-11-19",
-  "state": "LIVE",
+  "state": "FINAL",
   "home": false,
   "venue": "Benchmark International Arena",
   "opponent": {
@@ -486,5 +486,5 @@
    "note": "Vasilevskiy led the Lightning onto the ice for warmups. "
   }
  },
- "updated": "2026-11-20T01:07:49Z"
+ "updated": "2026-11-20T03:29:15Z"
 }
