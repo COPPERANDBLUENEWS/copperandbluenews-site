@@ -3,7 +3,7 @@
   "id": 2026020349,
   "startTimeUTC": "2026-11-20T00:30:00Z",
   "gameDate": "2026-11-19",
-  "state": "FUT",
+  "state": "PRE",
   "home": false,
   "venue": "Benchmark International Arena",
   "opponent": {
@@ -316,26 +316,6 @@
    ],
    [
     {
-     "id": 8481624,
-     "name": "Ilya Mikheyev",
-     "num": 95,
-     "pos": "LW"
-    },
-    {
-     "id": 8478519,
-     "name": "Anthony Cirelli",
-     "num": 71,
-     "pos": "C"
-    },
-    {
-     "id": 8480995,
-     "name": "Pontus Holmberg",
-     "num": 29,
-     "pos": "RW"
-    }
-   ],
-   [
-    {
      "id": 8476826,
      "name": "Yanni Gourde",
      "num": 37,
@@ -356,10 +336,36 @@
    ],
    [
     {
+     "id": 8481624,
+     "name": "Ilya Mikheyev",
+     "num": 95,
+     "pos": "LW"
+    },
+    {
+     "id": 8478519,
+     "name": "Anthony Cirelli",
+     "num": 71,
+     "pos": "C"
+    },
+    {
+     "id": 8480995,
+     "name": "Pontus Holmberg",
+     "num": 29,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
      "id": 8479705,
      "name": "Jeffrey Viel",
      "num": 25,
      "pos": "LW"
+    },
+    {
+     "id": 8478424,
+     "name": "Jansen Harkins",
+     "num": 10,
+     "pos": "C"
     },
     {
      "id": 8477149,
@@ -426,7 +432,7 @@
     "name": "Brandon Hagel",
     "num": 38,
     "pos": "LW",
-    "status": "Day-to-day"
+    "status": "IR"
    },
    {
     "id": 8476878,
@@ -442,8 +448,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/tampa-bay-lightning/line-combinations",
     "what": "line combinations",
-    "basis": "Benjamin Pierce",
-    "updatedAt": "2026-11-18T17:35:19.125Z"
+    "basis": "Diandra Loux",
+    "updatedAt": "2026-11-20T00:11:29.654Z"
    },
    {
     "name": "DailyFaceoff",
@@ -458,15 +464,15 @@
     "num": 88,
     "pos": "G"
    },
-   "status": "Unconfirmed",
+   "status": "Confirmed",
    "backup": {
     "id": 8483710,
     "name": "Dennis Hildeby",
     "num": 35,
     "pos": "G"
    },
-   "note": null
+   "note": "Vasilevskiy led the Lightning onto the ice for warmups. "
   }
  },
- "updated": "2026-11-19T18:33:06Z"
+ "updated": "2026-11-20T00:24:10Z"
 }
