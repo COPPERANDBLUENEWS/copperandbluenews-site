@@ -1,25 +1,73 @@
 {
- "updated": "2026-11-20T19:06:20Z",
+ "updated": "2026-11-20T19:39:59Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (2)",
-  "Google News (90)"
+  "Sportsnet (1)",
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "Oilers Depth Foward Ready for Bump To Top Line: \"Move Your Feet\"",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZE9rV2UzUV9sT0t3NlJ3bEtRRERsN0loTlozcFpSamo0LTh3SjViS1NXWG95U24xS0J4WUxkNTdyTk54MlQ5X195WUZrRWpqSVlndVM3S3VzTFFodGt2Nk00N0J5cjhaYUU2NWJTYl9ERjI3b211eGpXei1VaWRTaDlXOWNBWUk3dUtUcXZRcV9UY0o4WXlvRHVNN0Etc3Z6VnhrTmlfSC1YOW9lekpSeG54WTUyOHNnOC1F?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-20T19:35:43Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Interest Could Complicate Red Wings’ Fight To Keep Simon Edvinsson",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdS0xT21BVEhVV29jS3c5MUhhckdpd3hxYVhFOFprWFkxNU9yYmhueUhQeHNqa2U3eHA5enB2cGRqeDhqV3RXcmZ1RGdPNzdXSkpNR1lwYUZqQ1RRUURWUHpVSmhMeTREZlFBdTJkMWQ0eDF6bHdyUl9aaFNqNkU5SE9OcmI4V2Y2TGl0ZmNRRzZKb2wyYTF4WFhMSFN4RHVIMFhYaDUzN2V3a05ZM1dYMWlB?oc=5",
+   "source": "Sports Illustrated",
+   "published": "2026-11-20T19:00:01Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connor McDavid, captain of the Edmonton Oilers, has bought a home in the Toronto area",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVzZPdGp1dVhES3ktYVB6RW1zUXNSYlY2NlRGRnRJLXBqZmJfN3ZLZGx5bFdpT2o1bExjRlY4UHJhdkluck9WdER5U1ZHcGhCUmRFUndtSFRPUFhjcjcwVUV1N3UzZTFLczAyVzlDaEpzNHJLd1NCaFBEZUFRRm1IYVVfRzhvUQ?oc=5",
+   "source": "Yahoo News Canada",
+   "published": "2026-11-20T18:58:22Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Newcomer forwards bumped to McDavid and Draisaitl lines as Babcock resorts to the blender",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQS3RDWlhnU0NvRVNtdjJ3Q3IxMVFlNjdZZldVLURrMGxrRkFaNjJOY2RjTEtzOVRVdm9Sc1h6TGZhdng5MERJN2x4b21HVGJnWk5Ja2JmaWhwNzlWN1VIVG9iU2Ezand4R3JZc1FnV1BsanhrSXZmYkVGTnhnSGNqUVFHNE5TZ0xXcU52UlFzWmZoYVlDNUxZc29HVHMzSC1leVpVSnI4NDNoWTZwakdId2pJcEt6eThSeU5nMjI4ZHRVaWFib09zenBsbw?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-20T18:54:16Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Babcock goes to blender with McDavid assigned unfamiliar linemates (for now at least)",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-hallander-joseph-mcdavid-draisaitl-carolina-hurricanes",
    "source": "Edmonton Journal",
    "published": "2026-11-20T18:51:41Z",
    "snippet": ""
   },
   {
+   "title": "Lightning prepare for showdown with McDavid, red-hot Oilers",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVDdXZm9PdkZXR0wtUEdEcTlaSlAwWGpCUFppYlBMVXZSTTY1QUN6U25tWXVyWElrblBOTlhpSlo1SXVNcGJyT3IxUHhXbWVsQTg0SU5WaDQxNElHem56MUlXOGpoS08yWlB3Ry1NNGc0X0xxdjZ3ZmZBRGQ4eFM5V2syUk1ZcHphVVgyZ0FTcUlzSWI4N2hEd05vNVJMcnp6MnFMMHFQN25lRVBwQVE?oc=5",
+   "source": "Tampa Bay 28",
+   "published": "2026-11-20T18:48:27Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "McDavid Point Streak Comes To A Close: 200 Points Still Possible?",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbEVRY0pwRTljV0JMUUJnLWRtNEFJeUdYT3BvZHhKRDZrT1BiTEw5Mkg2Nm9raWhfLTdIYTh2THNITWJneUVicWl5OG5NdmlUc0dlMnpZeWIxbnhOaUdIOVJUQllhdkk0NXRhMFpYbjZsaDFQUXlfSGtVd3o0VjZTUVB5MU5pMUdf?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-20T18:26:38Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers penalty kill exposes glaring need for right-shot centre",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSzFieVg4MG4wRkxZUm5HMlZUNXJZcmRmNEJQZjh3aTR2SHhtemJYeFM5MzhqSGFBNUVMWGFVS3NkUkY2RnZHZU5VNndWeFlmT1h0WkVZNEg4U2tuRXNIVGFXdnFseXV4YmJXdWdJdmtBZzRFb245bXNWeGpYSTJMTVJyblNQYTlHYTFsNHhkSXg?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-20T18:08:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -64,10 +112,10 @@
    "via": "google"
   },
   {
-   "title": "McDavid's 23-game point streak ends in Oilers' loss to Lightning",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBQYVVvNWo1TXF5WUNCeE1zckduQlZHTGJyemQ0SGhrb0FDZGhkNURDMXdLOEhCTVVPb05XQkR0dkdRdHN6Vjdqbk1uQ01KakNQ?oc=5",
-   "source": "CBC",
-   "published": "2026-11-20T16:11:32Z",
+   "title": "Edmonton Oilers - St. Louis Blues - Nov 22, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hd1I1MU9ZSjhLSXFpQjZhRF9qNGo5bEFvWjlLbm5vZkx3R2V1RFJWZmxWZ00xeVZwRDhsT00wV3BsVGw1Q1ZEWTU2ZmhzN0lyN0FyTVlQUzlvYU5DaGpnTjlnYndvc25YNjdJTkNzMm4?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-20T17:01:08Z",
    "snippet": "",
    "via": "google"
   },
@@ -76,6 +124,14 @@
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV3lBLUFRTm9ST2l6dzF6NHhVZ3MtOTBMS3hDOGFEQmhJZ0pLSFMwYkQ2dFkzaUNIenE5N0pHSk5vRjRwVnJBeFhrcGNyOTNHc3gxQ0lmX3hTZ1ZSVDBCNW9DdHgyWDA0MnVNb29LTlRMcDFKNGtQZE5wZGhDOXpwMUpmeUJuVVdsOEtDTG5mMHlsdnBHcVZfZ2tmV1J5MlJ5ei0w?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-20T16:05:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid's 23-game point streak ends in Oilers' loss to Lightning",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbjZKTUIyNFRhd3RtbDEwdHpaV0JjNGl4cWM4NkVONHpWVFRRLWlwOXQzOHYxUVdaZGhNVW1mdVh3MUY5OWRRZGxTbmFlVmU5eGVfVnctZ0NkbkY1ZnZpX2pCMUlqWHdETTNlaTBVOXNWaWlrTHluaFVlbks5YXpaSQ?oc=5",
+   "source": "CBC",
+   "published": "2026-11-20T16:03:58Z",
    "snippet": "",
    "via": "google"
   },
@@ -104,67 +160,11 @@
    "via": "google"
   },
   {
-   "title": "Tampa Bay Lightning Hand Edmonton Oilers a Loss as Connor McDavid's 23-Game Point Streak Ends",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWGUwcWpTMHJMN29yQUVqbko2MWFYZDl0REhfa192bTBmOXdjcWw2QWpTMk90NTlaZGdVRTNjSXFrekVLVl9wUl91aU5XMC1KZzFJTi1LcnVQTWItWjhDZnVfUFoxWFFPMng4VGUxdTlXY3RaeTNwcEtIYXBSWk9sTHBTRDNwcmRuOTVCZVdXUFpteVNlUzA5NWxnQnhPS2VxTW1JUW5CNUNFdXJrRl9udjc0MTQxd2F3S0ZkZ18yVDJkZDZ6OUpaY0x3MU56bmo0WGlEa1o0Rll4SmZtZHZIT25oUQ?oc=5",
-   "source": "Sports Illustrated",
-   "published": "2026-11-20T14:35:57Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "McDavid loses historic point streak in loss to Lightning, but still has chance at 200-point season",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZm40X2JGSndyZnpjOEU2WDEtQkxKTktpMFBjVjluTEgwWDhiS0RUMURvM09jTFNza1l3eGVORWloNm9ScXZ2WkJVSTNDOGFGRWQzMm11Zzg0VUEtNUZmRWlSSThaalhndTlBWTVSZEg4Wk5fVmk4RTQ5ODI0SWJBeTJGdzlTRy1oUmJZdjlsUVphSFhVMEVXb3pLSUNjX3E3WExJM3ViRFZhREthVXdkMTNaUG1INFJwdUpiYXQzQ3I2SWM3VWE2Yw?oc=5",
-   "source": "TSN",
-   "published": "2026-11-20T14:08:09Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers and Jake Walman playing the waiting game for a trade",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaHhtX0VFNWxCSFZFNlFmWUwtQTNzRkkxZ0xOVFFkYWN1dk9MR2ViNGx2dEJZcFd2Mjl1aWlKOHB2VVFPNzZFRU5uZW4zR0FDajJSckh4bkdiWnBoVjIyWmhjNGlHMXAxa2Q1bUlUWkdlRlVlSWxscjdONkF6Y0ZXSUkxNmVDUE1vTjJzdzZMc0hlWTVWRDMxZjhScw?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-20T13:00:04Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "A message for all adults who took off work for the release of GTA VI",
    "url": "https://www.sportsnet.ca/nfl/video/a-message-for-all-adults-who-took-off-work-for-the-release-of-gta-vi/",
    "source": "Sportsnet",
    "published": "2026-11-20T12:40:55Z",
    "snippet": "Tim Micallef runs through the latest edition of Central Sixty, featuring a grocery store in Alberta building Connor McDavid and Leon Draisaitl out of pop cases, and for a look at how the…"
-  },
-  {
-   "title": "The Edmonton Oilers face an Ike Howard dilemma: Pump, dump or fade?",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT2JGOGJDV0pvZDItOERmeVJDNC1uSGhiaEZ5VFVCNGhOalVpd085dU5iejZqVHp4Q2ctcV9LN01OV1lNaWM1MTRvVDRGLVYxRDBDMTlfRUlVR0pvd1pLd3JscXVlLVdyQlhvQzZiWEdpN1Awc3RwRGI1UEw4UDlVbW5La01OU3U0VDNHMU1CaTczTWxpRTk0ZE0yWQ?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-20T12:06:40Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Rogers Place to host the PWHL's Takeover Tour once again",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYVhUb010Z2hncWZUSy1OSTBheUhfd0JHVEF2VWt6OE1CZDhfSDhhSEl1WHZjcS1TMEM4dV9KQjBoVDNIYjV5RGZidDl3YUlfS25MTmZaUE1lYkhpVkJMazI1b2g4UHJUUjcxbklSWlFndE9nNVIzUWJuTW9nMll1UU5vcW53QlVnWGgxQ0M2U25CTExlMFVJ?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-20T12:00:02Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Day After 24.0: Oilers suffer first regulation road loss of the season against Lightning",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNmxoQ25CcFRIb3BIOUF5UEVWRmdFazdkTnBDdW1Od05EWC01c01RdW5lVzZvTUpjQWxON2xoMU1zWjRkQ0JfZTB2QmVkWEF1cFFJVjFwSzlmS1NRX2hkQWxMMnl4U2t5SGZtY2phZk43MHhDM3htSm5QOWxRT2xBTTRnejB6bFZzSGZ2LUpJRFQteFJnZ1U3Tkk1Rko4MFpnSGZWbg?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-20T12:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "What Mike Babcock said after Edmonton Oilers winning streak ends in Tampa Bay",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS21FNlZSbEV5RWJ1WndJUks2WlZmaFRsMVNqZ3VRZ285VklNUTFINGpXYjFjZDhYZks4SGFBcktDZHEzb1hWMVlISzd3d3c4dVRJcjV1Sk85c0RUWXhDQnF5Wm8yMEhOajNxZ0VLXzBiTkJfa1V4M3JCNk1FbEdvdWFERE9vOEx5UEpCWUlHbw?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-20T12:00:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
