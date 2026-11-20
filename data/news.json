@@ -1,19 +1,83 @@
 {
- "updated": "2026-11-20T04:38:07Z",
+ "updated": "2026-11-20T05:41:54Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (3)",
-  "Google News (88)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
+   "title": "Edmonton Oilers at Tampa Bay Lightning - NHL Game Summary - Nov 19, 2026",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMHhJMW0zOEk3UjlpanpZQWw2bW9sTTFDbS1udm1sSHZfbW5FYzFKNDV5TUdYc1dkMkVYTUhlclFxLXZqYnU1S1FNSC1wcjA3aFlMVFB1bHRWaWhnamR6bnN1NDByT3E0Tlp3RVR5RkhzUlpERnQ5V241Uk9YY2VQa04tUDVLNjRlVVBFcEFuVWhSYlRhYUItU3ZMT254N1V2V2pDY0NScm1TMnNrbnNaR3A4eTlnMmlTOEF0aVdkUDNtS2lPZzlwbkxUQ1NhU0o5Rlg1NVpOcXBVYzJ3d0tKU1JMQUUzdXYwckcwTU9R?oc=5",
+   "source": "USA Today",
+   "published": "2026-11-20T05:15:26Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
+   "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026",
    "source": "NHL.com",
-   "published": "2026-11-20T05:00:00Z",
-   "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
+   "published": "2026-11-20T05:09:00Z",
+   "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
+  },
+  {
+   "title": "Postgame vs Edmonton Oilers | 11.19.26",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRlZnSmFwYUE0T1BYVE1PeUhyN2plTS1rb1NGTVBuZ0hkLXc4VlRFQlFqUGQwdF9pUzVHYmxLMlRpT2x6eHF3OWVZQ0drTVg0bDBHVEdMRW9LYXlsVU1iTzBKUEVIc0pFTEZCcjhOR0xlUEV1T2d1dmdNaHhxdk0xY0dJdlpVY2pVakRaYWxTNA?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-20T05:03:56Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Lightning and Vasilevskiy The Streak Stoppers as Oilers Lose 3-1",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZmpxMkZJVkExX1VrNVlVZXFoMno2MDc3Y2pac3Y1cm9fVG9pNHJBcDkyWm9rLXBEUHA2VXFYdXctcTlYQXdUcWZVeVQ5SXhxMWhfVTM5LWNZNDRtWXJ3TmR5eVIzVEJjQmJXOUlWNzVjU0gxRXh2UGM1NUQ0Yzc1SlZCc2ttZ28xUUt3Y1BBamEwQk1EbDNyVG5LdkQ4SUIzMndaUWJWaXJvWEVpaHhNUkJQcm5oYXpDVktzcUlEZw?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-20T05:03:51Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSGtxQ0pvbnhzLWVRdVlYdGJ6NFV1YjVYUFJrc2Q5LTZlbjVDcmhQM0F6bW5EZjRrZ1NRVHpPeUlJV3NYMkFMV1duNzZHVHhOMmpXeXpIak9kM3pBUTh0R0MtYnJyMkRwOHVLQVZIZkE1cEp3a1ZDeWhLM01LQWpTejB2VE9QeHB3NFhrNXd0Z0tPV3BkZWVVWWQtT3UxZWVkMkdaZVY3Z24xQms0RVE?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-20T05:03:45Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Player grades: Edmonton Oilers lack punch in loss to Tampa Bay Lightning",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVzVmT091Szludnh5ay1OSUFvX2NCdGd2MDh0MzZ6azZNdHo3OEVjSjlDRm4tdzctQzdYd1FCMjd0Vm5VLVphemQ1WFNlWXdiUWxncktRcmEwclcwYlozTms3R192QVRTYnFIZmZFdlBDWXp1V3RUT21FQTEyODVjZzh1SjIySDdIeXpVZHY4NFJsNDlSSGJWbExFZHVkQ3luaVZReFVGdmpDN01WaDBhZWFHbEtTZEFDV1ZVV28yNUFlbFkydl8wc3VlNUIyTjhuSVhqOW5zWThrc05t?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-20T04:41:14Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid, Oilers streaks snapped as Lightning beat Edmonton at its own game",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONmlHN095ejNJeWFMOUo4SzBDWTYwekduRFg0MWJ1TDlZakxiQlV5NVl3UzZSdl9BR1hRMUxrV2hCSVZnSjFFQmpvRnpBcE9DTTV3bDA0U1hMdmViR1c0dUhFQ2dNTmpuSjNTYWVac2h2T05GMkxYUk9LSVVGSU1OMTV5TW1veDg?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-20T04:41:14Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "The Backcheck: Lightning silence high-flying Oilers with staunch defensive victory",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYkI0Q1QtM1VmZFBuNjd0MnVtWEgzbUIwQ2hrZXQ0bHFmaVVvcHlrTzV0MVF3b1psUlhSeUEyVzdyZFZuUlF4Y2N5YzFMb2RNc040a1M5aURxNnJyd0hkX21aYTJrZVNpR2NyZ21XS1VyZVNRdGVWejR3TnNtanZBa1AwTmV6LVIwZ25CRk1Nd250bGRjXzFGcHdxemYxblVDR0ZiS1ptWU9pRXJiV2FkMTlxOXFPS0JzOXdQSVJpSHktVl9BYWhV?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-20T04:38:56Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Mishkin's Extra Shift: Lightning 3, Oilers 1",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOUZTeWJ4VmM0Rjk5SlBmdnphaGcyUjl1SjdXV3FrakJvX3BkWURsYVRnSm43ZEFoY1puNU11SWpmbWxiTDhxLVEyeEJqNXRzVDRpVFY2RzRtd2ZxZHljc0VkbnduenJyNlZiMXlPenBDSnFXVVVyMjNUdzI1TU1KV3dQMUJUdXk5ZVA5YUZrVVZvanMwTlJIX0JSNzExZU1NbzRpSURGZUhWN3c?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-20T04:36:41Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Two Oilers streaks snapped in stingy loss to Lightning",
@@ -27,14 +91,6 @@
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaUwyUzBjeGRyWlNhd0hSMXBacTFJcFo1NDNPMlQ3VlNvX0ZCTktOeHd2ZFpkS0dQcnhkMmV4VEZScXhsT3JDcTVmU0pGUkFpRUdzbEZLeXdKdFZDaTJYX1h5N3RjbDJ0aFd1N2N6dDkzUEFmcklZWVZkNnplTXZ4aDFRT0diRkc3Mnc?oc=5",
    "source": "NHL.com",
    "published": "2026-11-20T04:15:07Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers at Tampa Bay Lightning - NHL Game Summary - Nov 19, 2026",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRkVxWWtleVAtTmNXc1JVMkNBZ08wYV83M2ZXZlFYWE5fT2VFcENFYVpZaDhaQmlvZlVGY1dsSkdFam5pa3RSVENYMDlTaGdscXB6VHlqLXM0aHV3c2dYNW5jRGJ1WG0tbWo3QlJJTnlHNS1nOXZ3NU9EMG5pamNCVTVwb0hoeGVBanRrc3RFUHpLMFRuVkFUZ0pjNEtrZ1dxVVpXOW9SM3BzUzIzSUdGbE1MNjhzaTlFZjA3MHkxdWkyV0gwZ3liN0I5OGxNTzhISmFKN1hrMzY1ZDIxUlFnQnZVWWJKdWRjYXA4UTRJOA?oc=5",
-   "source": "USA Today",
-   "published": "2026-11-20T04:15:02Z",
    "snippet": "",
    "via": "google"
   },
@@ -78,42 +134,10 @@
    "via": "google"
   },
   {
-   "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd1F0NExhMUxSSWJ4cWxEQ1dHaGpOZ0dsNTBPSDVTel9SajljU3FCMjhtQllVc0VZbVNwUUhwY1BCVHpzUi10azFZUnExRUtWVVRhUnBBWnhJQ1FEMkRCVVZHOWJDWkVSaTRGMjNpSThPcS1yeUJqOEk5MnpKdFVXN2FMX1pjY01yLVJaOHRPZDVOdw?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-20T03:40:26Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Lightning snap Oilers’ win streak, Connor McDavid’s point streak",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTU9vZ0xzdnVoc0dILUU0X1VwbkVSeTJmNjBOUDhBaG81a2ZNbWZMZVNRc3JEa2xIeDlRajNQUXpnZ1ZhNDBGcUlma013M3lzZ05LWERCWFNIMjdoUXA2TE9lQ1N4b1E2QzFNS2VGQUxPMXZnS0hvNEpackZaOGlFV0tsWG9qSGxJYWdRUXR0UDZsM056UWU5WE1fdE5Udk1yaldzQldfSVZ3Y0ZfZjFHRjcxQQ?oc=5",
    "source": "Reuters",
    "published": "2026-11-20T03:28:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Gretzky says he wants to see McDavid break all his records",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVXMySHE1dDlBR3hScmRkSWVuRGlYS3p1MXh6d1QwckI5QkIxTC1ObkpLLVZVVnBSVWtjUFNvejlXQ3c3UU9lV1lhZDRRQTgtWHVGNmV5VC1IMkM2ckdHLTYtMGxGbzJqaGNuRWdzLXFMMF95Rnp3ZGJCQjFZa2xnaXh6OA?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-20T03:26:19Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "McDavid, Oilers streaks snapped as Lightning beat Edmonton at its own game",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONmlHN095ejNJeWFMOUo4SzBDWTYwekduRFg0MWJ1TDlZakxiQlV5NVl3UzZSdl9BR1hRMUxrV2hCSVZnSjFFQmpvRnpBcE9DTTV3bDA0U1hMdmViR1c0dUhFQ2dNTmpuSjNTYWVac2h2T05GMkxYUk9LSVVGSU1OMTV5TW1veDg?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-20T03:20:51Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Tampa Bay Lightning vs. Edmonton Oilers - Game Highlights",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOekctZXdDUUlPRFlsby13cGVuQzRlNDVCWjZoem0tR1hlM0UtR00wUmZ6RmhVUmxoc1dnamsyZF9KYV9XMEtsencwdGc1Ykg0YnN3TkdGY2xjZXNhSmdSZ0dYN2RNS2dWanU3UkhNQVd4dldWRG82MWFDMzk5ekFjdHpUcnU?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-20T03:12:39Z",
    "snippet": "",
    "via": "google"
   },
@@ -126,10 +150,10 @@
    "via": "google"
   },
   {
-   "title": "Player grades: Edmonton Oilers lack any kind of punch in loss to Tampa Bay Lightning",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVzVmT091Szludnh5ay1OSUFvX2NCdGd2MDh0MzZ6azZNdHo3OEVjSjlDRm4tdzctQzdYd1FCMjd0Vm5VLVphemQ1WFNlWXdiUWxncktRcmEwclcwYlozTms3R192QVRTYnFIZmZFdlBDWXp1V3RUT21FQTEyODVjZzh1SjIySDdIeXpVZHY4NFJsNDlSSGJWbExFZHVkQ3luaVZReFVGdmpDN01WaDBhZWFHbEtTZEFDV1ZVV28yNUFlbFkydl8wc3VlNUIyTjhuSVhqOW5zWThrc05t?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-20T03:11:35Z",
+   "title": "Tampa Bay Lightning vs. Edmonton Oilers - Game Highlights",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOekctZXdDUUlPRFlsby13cGVuQzRlNDVCWjZoem0tR1hlM0UtR00wUmZ6RmhVUmxoc1dnamsyZF9KYV9XMEtsencwdGc1Ykg0YnN3TkdGY2xjZXNhSmdSZ0dYN2RNS2dWanU3UkhNQVd4dldWRG82MWFDMzk5ekFjdHpUcnU?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-20T03:12:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -150,14 +174,6 @@
    "via": "google"
   },
   {
-   "title": "Connor McDavid appears to have bought $7-million house in Toronto",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1yZ3AwSmFTS29zcWlvZG5JeTFWaU5PTXlEdzV0VjUyOGNuam1HdUpzVEZfdks4WDV6UnJoTktPWktTbFJVX0Q3WXVndE5JSFYzNUlxRS10dDVKWHUySzNiRHdyTjgyTVBxWHY5SUp1V0NOcTRf?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-20T03:04:55Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "McDavid’s season-opening point streak ends in loss to Lightning",
    "url": "https://www.sportsnet.ca/nhl/article/connor-mcdavids-season-opening-point-streak-ends-at-23-games/",
    "source": "Sportsnet",
@@ -165,25 +181,9 @@
    "snippet": ""
   },
   {
-   "title": "Instant Reaction: McDavid’s 23-game point streak snapped as Oilers fall 3-1 to Lightning",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOEhLeVR1b0FfQkZEZm1tMWR2a0d4dnZnSWYyZ3h4ZWY4R1QteWVxZHFBOUlYR1c4REVXaEd5TTY5c2E3TU1VdnE0SXRTVkVxVzc0cW04UjZ3UEZtRkpaWTBad2V3SFNUS1M5QzVLZ1l0VWVBcTN6VUdJUWdJbE5XM01VcHd4Z1dHN3RFdjZxdENQN3FLVFhJOXJvVVBVNVhzRUpNd3JPbTVqZw?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-20T02:40:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers 1, Tampa Bay Lightning 3 - 2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Sc3dpWWRXcHFyY3JDZWg1bHkwcml0Z19fdGlxR3NsaENlZmVmZUNwLVdGMmo0T0xiNDU1NlZrdUxUQ0Vkb1NkTEV3eWQ3ejdxZTVzSTBmNA?oc=5",
-   "source": "Hockey.com",
-   "published": "2026-11-20T02:33:20Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "McDavid, Draisaitl are works of art at Edmonton grocery",
-   "url": "https://www.nhl.com/oilers/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery-x7544",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery",
+   "source": "NHL.com",
    "published": "2026-11-20T01:19:37.256Z",
    "snippet": "EDMONTON -- Eric Falkenberg grew up with a fondness for drawing and building LEGO sets and has turned it into a mastery of three-dimensional grocery store displays."
   },
@@ -207,13 +207,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-19T19:24:44Z",
    "snippet": "'That's our whole game plan, is just be hard to play against'"
-  },
-  {
-   "title": "Why Connor McDavid buying new Toronto home is fuelling fresh Maple Leafs speculation",
-   "url": "http://edmontonjournal.com/sports/hockey/nhl/toronto-maple-leafs/connor-mcdavid-buys-new-toronto-home-speculation/wcm/5dedc95a-96b7-4119-8034-c102c65895e5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-19T18:01:19Z",
-   "snippet": "Edmonton Oilers captain's wife, Lauren Kyle McDavid, showed off their new home in Toronto, which was bought this past summer."
   },
   {
    "title": "Oilers at Lightning projected lineups",
@@ -266,8 +259,8 @@
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
   },
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-18T03:21:21Z",
    "snippet": "'I would like to sign my last contract, being here in Edmonton'"
+  },
+  {
+   "title": "Barely a peep from Tkachuk Bros. as Edmonton Oilers humble Florida Panthers",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/barely-a-peep-from-tkachuk-bros-as-edmonton-oilers-humble-florida-panthers",
+   "source": "Edmonton Journal",
+   "published": "2026-11-18T02:48:42Z",
+   "snippet": ""
   }
  ]
 }
