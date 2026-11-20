@@ -1,19 +1,19 @@
 {
  "game": {
-  "id": 2026020349,
-  "startTimeUTC": "2026-11-20T00:30:00Z",
-  "gameDate": "2026-11-19",
-  "state": "OFF",
+  "id": 2026020359,
+  "startTimeUTC": "2026-11-21T18:00:00Z",
+  "gameDate": "2026-11-21",
+  "state": "FUT",
   "home": false,
-  "venue": "Benchmark International Arena",
+  "venue": "Lenovo Center",
   "opponent": {
-   "abbrev": "TBL",
-   "name": "Lightning",
-   "place": "Tampa Bay"
+   "abbrev": "CAR",
+   "name": "Hurricanes",
+   "place": "Carolina"
   },
-  "puckDropPT": "Thu Nov 19, 5:30 PM PT"
+  "puckDropPT": "Sat Nov 21, 11 AM PT"
  },
- "status": "Confirmed",
+ "status": "Projected",
  "forwards": [
   [
    {
@@ -243,15 +243,8 @@
    "status": "Day-to-day"
   }
  ],
- "notes": [
-  "Dressed players and starting goalie are official (NHL game sheet). Line combinations are DailyFaceoff's; the NHL doesn't publish lines."
- ],
+ "notes": [],
  "sources": [
-  {
-   "name": "NHL.com Gamecenter",
-   "url": "https://www.nhl.com/gamecenter/2026020349",
-   "what": "official dressed lineup"
-  },
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
@@ -261,7 +254,7 @@
   },
   {
    "name": "DailyFaceoff",
-   "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-19",
+   "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-21",
    "what": "starting goalie"
   }
  ],
@@ -272,7 +265,7 @@
    "num": 27,
    "pos": "G"
   },
-  "status": "Confirmed",
+  "status": "Unconfirmed",
   "backup": {
    "id": 8477465,
    "name": "Tristan Jarry",
@@ -296,88 +289,88 @@
   }
  ],
  "opponent": {
-  "abbrev": "TBL",
-  "name": "Lightning",
-  "place": "Tampa Bay",
-  "status": "Confirmed",
+  "abbrev": "CAR",
+  "name": "Hurricanes",
+  "place": "Carolina",
+  "status": "Projected",
   "forwards": [
    [
     {
-     "id": 8477404,
-     "name": "Jake Guentzel",
-     "num": 59,
+     "id": 8477478,
+     "name": "William Carrier",
+     "num": 28,
      "pos": "LW"
     },
     {
-     "id": 8478010,
-     "name": "Brayden Point",
-     "num": 21,
+     "id": 8478427,
+     "name": "Sebastian Aho",
+     "num": 20,
      "pos": "C"
     },
     {
-     "id": 8476453,
-     "name": "Nikita Kucherov",
-     "num": 86,
-     "pos": "RW"
-    }
-   ],
-   [
-    {
-     "id": 8476826,
-     "name": "Yanni Gourde",
+     "id": 8480830,
+     "name": "Andrei Svechnikov",
      "num": 37,
-     "pos": "LW"
-    },
-    {
-     "id": 8484770,
-     "name": "Sam O'Reilly",
-     "num": 23,
-     "pos": "C"
-    },
-    {
-     "id": 8482201,
-     "name": "Gage Goncalves",
-     "num": 93,
      "pos": "RW"
     }
    ],
    [
     {
-     "id": 8481624,
-     "name": "Ilya Mikheyev",
-     "num": 95,
+     "id": 8477940,
+     "name": "Nikolaj Ehlers",
+     "num": 27,
      "pos": "LW"
     },
     {
-     "id": 8478519,
-     "name": "Anthony Cirelli",
+     "id": 8482702,
+     "name": "Logan Stankoven",
+     "num": 22,
+     "pos": "C"
+    },
+    {
+     "id": 8482809,
+     "name": "Jackson Blake",
+     "num": 53,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
+     "id": 8476921,
+     "name": "Jordan Martinook",
+     "num": 48,
+     "pos": "LW"
+    },
+    {
+     "id": 8473533,
+     "name": "Jordan Staal",
+     "num": 11,
+     "pos": "C"
+    },
+    {
+     "id": 8482093,
+     "name": "Seth Jarvis",
+     "num": 24,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
+     "id": 8475791,
+     "name": "Taylor Hall",
      "num": 71,
-     "pos": "C"
-    },
-    {
-     "id": 8480995,
-     "name": "Pontus Holmberg",
-     "num": 29,
-     "pos": "RW"
-    }
-   ],
-   [
-    {
-     "id": 8479705,
-     "name": "Jeffrey Viel",
-     "num": 25,
      "pos": "LW"
     },
     {
-     "id": 8478424,
-     "name": "Jansen Harkins",
-     "num": 10,
+     "id": 8476873,
+     "name": "Mark Jankowski",
+     "num": 77,
      "pos": "C"
     },
     {
-     "id": 8477149,
-     "name": "Scott Sabourin",
-     "num": 49,
+     "id": 8480762,
+     "name": "Eric Robinson",
+     "num": 50,
      "pos": "RW"
     }
    ]
@@ -385,106 +378,79 @@
   "defence": [
    [
     {
-     "id": 8480426,
-     "name": "Charle-Edouard D'Astous",
-     "num": 51,
-     "pos": "LD"
-    },
-    {
-     "id": 8474590,
-     "name": "John Carlson",
+     "id": 8476958,
+     "name": "Jaccob Slavin",
      "num": 74,
+     "pos": "LD"
+    },
+    {
+     "id": 8478970,
+     "name": "Jalen Chatfield",
+     "num": 5,
      "pos": "RD"
     }
    ],
    [
     {
-     "id": 8475167,
-     "name": "Victor Hedman",
-     "num": 77,
+     "id": 8480817,
+     "name": "K'Andre Miller",
+     "num": 19,
      "pos": "LD"
     },
     {
-     "id": 8482655,
-     "name": "J.J. Moser",
-     "num": 90,
+     "id": 8480336,
+     "name": "Sean Walker",
+     "num": 26,
      "pos": "RD"
     }
    ],
    [
     {
-     "id": 8474151,
-     "name": "Ryan McDonagh",
-     "num": 27,
+     "id": 8476906,
+     "name": "Shayne Gostisbehere",
+     "num": 4,
      "pos": "LD"
     },
     {
-     "id": 8478416,
-     "name": "Erik Cernak",
-     "num": 81,
+     "id": 8482100,
+     "name": "Alexander Nikishin",
+     "num": 21,
      "pos": "RD"
     }
    ]
   ],
-  "injured": [
-   {
-    "id": 8483447,
-    "name": "Conor Geekie",
-    "num": 94,
-    "pos": "C",
-    "status": "IR"
-   },
-   {
-    "id": 8479542,
-    "name": "Brandon Hagel",
-    "num": 38,
-    "pos": "LW",
-    "status": "IR"
-   },
-   {
-    "id": 8476878,
-    "name": "Zemgus Girgensons",
-    "num": 28,
-    "pos": "C",
-    "status": "Day-to-day"
-   }
-  ],
+  "injured": [],
   "notes": [],
   "sources": [
    {
-    "name": "NHL.com Gamecenter",
-    "url": "https://www.nhl.com/gamecenter/2026020349",
-    "what": "official dressed lineup"
-   },
-   {
     "name": "DailyFaceoff",
-    "url": "https://www.dailyfaceoff.com/teams/tampa-bay-lightning/line-combinations",
+    "url": "https://www.dailyfaceoff.com/teams/carolina-hurricanes/line-combinations",
     "what": "line combinations",
-    "basis": "Diandra Loux",
-    "updatedAt": "2026-11-20T00:11:29.654Z"
+    "basis": "Walt Ruff",
+    "updatedAt": "2026-11-19T00:56:08.635Z"
    },
    {
     "name": "DailyFaceoff",
-    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-19",
+    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-21",
     "what": "starting goalie"
    }
   ],
   "goalie": {
    "starter": {
-    "id": 8476883,
-    "name": "Andrei Vasilevskiy",
-    "num": 88,
+    "id": 8481611,
+    "name": "Pyotr Kochetkov",
+    "num": 52,
     "pos": "G"
    },
-   "status": "Confirmed",
+   "status": "Unconfirmed",
    "backup": {
-    "id": 8483710,
-    "name": "Dennis Hildeby",
-    "num": 35,
+    "id": 8483548,
+    "name": "Brandon Bussi",
+    "num": 32,
     "pos": "G"
    },
    "note": null
   }
  },
- "updated": "2026-11-20T03:56:26Z"
+ "updated": "2026-11-20T07:25:37Z"
 }

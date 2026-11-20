@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T05:41:54Z",
+ "updated": "2026-11-20T07:25:36Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -9,6 +9,30 @@
  "errors": [],
  "items": [
   {
+   "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd1F0NExhMUxSSWJ4cWxEQ1dHaGpOZ0dsNTBPSDVTel9SajljU3FCMjhtQllVc0VZbVNwUUhwY1BCVHpzUi10azFZUnExRUtWVVRhUnBBWnhJQ1FEMkRCVVZHOWJDWkVSaTRGMjNpSThPcS1yeUJqOEk5MnpKdFVXN2FMX1pjY01yLVJaOHRPZDVOdw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-20T06:25:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "QUICK RECAP: Lightning 3, Oilers 1",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5md1RGaVFJRFF3MnRSU2NKSFJCSjAwcjBVVXpJUDl2Tm9KWEY0S3lhek1Bd0M0RFBJVU80czJxRmxXQ0o4dWtuay1acFJvUHlObm9IS1hsSjZrZmJnYnZULUJUakhpX2dmV0g4VzlTai1YdTNCNnNiYVN2SDF5dw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-20T06:05:07Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid's season-opening point streak ends in loss to Lightning",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZFFWZWI0UjhjX2ZOOGRUVVYtRXU4RDZTSVdpZlkybjRBbUswQ1JMUnRJb1h0OW95WWkwMWk5UDVvQlp0QWhXVDd3OEVIVGU2U2YyemdYN011S1FVbng4Yll1ZXBBQnlReGlhSElQdkJoWjVXd3NqNjNnSXQ0a0tYMHJDQVpVUnZzQVpIUHN0a09LYzJfMDlhOU56RS03TTg?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-20T05:53:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Edmonton Oilers at Tampa Bay Lightning - NHL Game Summary - Nov 19, 2026",
    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNMHhJMW0zOEk3UjlpanpZQWw2bW9sTTFDbS1udm1sSHZfbW5FYzFKNDV5TUdYc1dkMkVYTUhlclFxLXZqYnU1S1FNSC1wcjA3aFlMVFB1bHRWaWhnamR6bnN1NDByT3E0Tlp3RVR5RkhzUlpERnQ5V241Uk9YY2VQa04tUDVLNjRlVVBFcEFuVWhSYlRhYUItU3ZMT254N1V2V2pDY0NScm1TMnNrbnNaR3A4eTlnMmlTOEF0aVdkUDNtS2lPZzlwbkxUQ1NhU0o5Rlg1NVpOcXBVYzJ3d0tKU1JMQUUzdXYwckcwTU9R?oc=5",
    "source": "USA Today",
@@ -17,11 +41,12 @@
    "via": "google"
   },
   {
-   "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026",
+   "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSGtxQ0pvbnhzLWVRdVlYdGJ6NFV1YjVYUFJrc2Q5LTZlbjVDcmhQM0F6bW5EZjRrZ1NRVHpPeUlJV3NYMkFMV1duNzZHVHhOMmpXeXpIak9kM3pBUTh0R0MtYnJyMkRwOHVLQVZIZkE1cEp3a1ZDeWhLM01LQWpTejB2VE9QeHB3NFhrNXd0Z0tPV3BkZWVVWWQtT3UxZWVkMkdaZVY3Z24xQms0RVE?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-20T05:09:00Z",
-   "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
+   "published": "2026-11-20T05:06:22Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Postgame vs Edmonton Oilers | 11.19.26",
@@ -36,14 +61,6 @@
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZmpxMkZJVkExX1VrNVlVZXFoMno2MDc3Y2pac3Y1cm9fVG9pNHJBcDkyWm9rLXBEUHA2VXFYdXctcTlYQXdUcWZVeVQ5SXhxMWhfVTM5LWNZNDRtWXJ3TmR5eVIzVEJjQmJXOUlWNzVjU0gxRXh2UGM1NUQ0Yzc1SlZCc2ttZ28xUUt3Y1BBamEwQk1EbDNyVG5LdkQ4SUIzMndaUWJWaXJvWEVpaHhNUkJQcm5oYXpDVktzcUlEZw?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-20T05:03:51Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSGtxQ0pvbnhzLWVRdVlYdGJ6NFV1YjVYUFJrc2Q5LTZlbjVDcmhQM0F6bW5EZjRrZ1NRVHpPeUlJV3NYMkFMV1duNzZHVHhOMmpXeXpIak9kM3pBUTh0R0MtYnJyMkRwOHVLQVZIZkE1cEp3a1ZDeWhLM01LQWpTejB2VE9QeHB3NFhrNXd0Z0tPV3BkZWVVWWQtT3UxZWVkMkdaZVY3Z24xQms0RVE?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-20T05:03:45Z",
    "snippet": "",
    "via": "google"
   },
@@ -103,14 +120,6 @@
    "via": "google"
   },
   {
-   "title": "QUICK RECAP: Lightning 3, Oilers 1",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5md1RGaVFJRFF3MnRSU2NKSFJCSjAwcjBVVXpJUDl2Tm9KWEY0S3lhek1Bd0M0RFBJVU80czJxRmxXQ0o4dWtuay1acFJvUHlObm9IS1hsSjZrZmJnYnZULUJUakhpX2dmV0g4VzlTai1YdTNCNnNiYVN2SDF5dw?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-20T04:07:30Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Lightning top Oilers 3-1, end Connor McDavid's 23-game point streak",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSFdsUjkzZjNnUTNTZ2ExYmpsTVVMTUtZaW9MRWpkLVdybEVLQW12T0N5YTh1TEpVLW1ZOElqbGhBS3NSSHpsY0pHU0IxN2gtOHRpVmRvSnVuLVE5QWRIMGZkNnMzQ3RaZTVrT1lhNVhIMHY2aGdySjczSmVsV0tJTTVaOXdqUUE0cmdWdWcxOEFlbE9vcHJQc2hhVVd3dG5rNFZNcGN1YjVFRjdzZ2pn?oc=5",
    "source": "Castanet",
@@ -142,6 +151,14 @@
    "via": "google"
   },
   {
+   "title": "Tampa Bay Lightning vs. Edmonton Oilers - Game Highlights",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOekctZXdDUUlPRFlsby13cGVuQzRlNDVCWjZoem0tR1hlM0UtR00wUmZ6RmhVUmxoc1dnamsyZF9KYV9XMEtsencwdGc1Ykg0YnN3TkdGY2xjZXNhSmdSZ0dYN2RNS2dWanU3UkhNQVd4dldWRG82MWFDMzk5ekFjdHpUcnU?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-20T03:12:39Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "John Carlson with a Powerplay Goal vs. Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRzNkZ3BrM25yN1Fvam5EVTd3QUVZYWd5aFEzQmwtZWVVSHJ2a3IzUkd4QnkzVmRLc1J3eEFySXA2NXFkSWFwZVlKRHVUalVuRlRzMGtTd3dYWFM5R2xtenppNjRYdnJwcTMwaVpIbl9mb2hEXzFFSTNHUWpLdm53Z0t0Zw?oc=5",
    "source": "Yahoo Sports",
@@ -150,40 +167,9 @@
    "via": "google"
   },
   {
-   "title": "Tampa Bay Lightning vs. Edmonton Oilers - Game Highlights",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOekctZXdDUUlPRFlsby13cGVuQzRlNDVCWjZoem0tR1hlM0UtR00wUmZ6RmhVUmxoc1dnamsyZF9KYV9XMEtsencwdGc1Ykg0YnN3TkdGY2xjZXNhSmdSZ0dYN2RNS2dWanU3UkhNQVd4dldWRG82MWFDMzk5ekFjdHpUcnU?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-20T03:12:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Andrei Vasilevskiy with a Goalie Save vs. Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZHA4YVdfWlZBbV9UdkNWLXV1d19GckI0ZkNMS1FsZFI0Q19oTTl1NEc0TjZudjdFTTVCenpyQ1l4SUNGSG1xeTJxRXJ5TzVZX0pnVVNvY1ZfMXhYbHBTM2lQZzY4Y1B2TXRDS2RYUEZCTFQ0ei1uc0lSMWFteG5FdlhrUkFEQWs?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-20T03:11:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "McDavid's season-opening point streak ends at 23 games",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcUZNQXhXWFp3RDUtOWswVUh0TGZIWlNhcy1qaXowN242UnREWktOeFVGVVhhSWJ2S1NqQlpBc3VZUXZROU1uR3hJalNIb1VJVGNza3NXTW5xRFQwNTltZ1RmcmhwclNGOTJYXzdrVS1wRjZFYjBkMDJSYW5UenFxZ3NIYVNpY2E3d1FqN0lUUnVhSWY5Vl9HYXMtNV8?oc=5",
-   "source": "theScore",
-   "published": "2026-11-20T03:09:25Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "McDavid’s season-opening point streak ends in loss to Lightning",
-   "url": "https://www.sportsnet.ca/nhl/article/connor-mcdavids-season-opening-point-streak-ends-at-23-games/",
-   "source": "Sportsnet",
-   "published": "2026-11-20T03:04:47Z",
-   "snippet": ""
-  },
-  {
    "title": "McDavid, Draisaitl are works of art at Edmonton grocery",
-   "url": "https://www.nhl.com/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery-x7544",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-20T01:19:37.256Z",
    "snippet": "EDMONTON -- Eric Falkenberg grew up with a fondness for drawing and building LEGO sets and has turned it into a mastery of three-dimensional grocery store displays."
   },
@@ -277,6 +263,20 @@
    "source": "Edmonton Journal",
    "published": "2026-11-18T02:48:42Z",
    "snippet": ""
+  },
+  {
+   "title": "QUICK RECAP: Oilers 5, Panthers 2",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-panthers-11-17-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-18T00:03:57.611Z",
+   "snippet": "SUNRISE, FL – Grand Theft Auto VI in a row. Vasily Podkolzin, Kasperi Kapanen and Leon Draisaitl produced three points each, Connor McDavid had multiple points, and goalie Devon Levi made…"
+  },
+  {
+   "title": "PROJECTED LINEUP: Oilers vs. Panthers",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-vs-panthers-11-17-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-17T18:41:51.645Z",
+   "snippet": "SUNRISE, FL – Devon Levi will be back between the pipes to make his 11th start of the season, while Ryan Nugent-Hopkins will miss his second straight game on Tuesday night when the Edmonton…"
   }
  ]
 }
