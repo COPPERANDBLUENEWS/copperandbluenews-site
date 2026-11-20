@@ -1,18 +1,49 @@
 {
- "updated": "2026-11-20T12:36:46Z",
+ "updated": "2026-11-20T13:19:39Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (3)",
-  "Google News (89)"
+  "Sportsnet (4)",
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "A message for all adults who took off work for the release of GTA VI",
+   "url": "https://www.sportsnet.ca/nfl/video/a-message-for-all-adults-who-took-off-work-for-the-release-of-gta-vi/",
+   "source": "Sportsnet",
+   "published": "2026-11-20T12:40:55Z",
+   "snippet": "Tim Micallef runs through the latest edition of Central Sixty, featuring a grocery store in Alberta building Connor McDavid and Leon Draisaitl out of pop cases, and for a look at how the…"
+  },
   {
    "title": "The Edmonton Oilers face an Ike Howard dilemma: Pump, dump or fade?",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT2JGOGJDV0pvZDItOERmeVJDNC1uSGhiaEZ5VFVCNGhOalVpd085dU5iejZqVHp4Q2ctcV9LN01OV1lNaWM1MTRvVDRGLVYxRDBDMTlfRUlVR0pvd1pLd3JscXVlLVdyQlhvQzZiWEdpN1Awc3RwRGI1UEw4UDlVbW5La01OU3U0VDNHMU1CaTczTWxpRTk0ZE0yWQ?oc=5",
    "source": "The New York Times",
    "published": "2026-11-20T12:06:40Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "What Mike Babcock said after Edmonton Oilers winning streak ends in Tampa Bay",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS21FNlZSbEV5RWJ1WndJUks2WlZmaFRsMVNqZ3VRZ285VklNUTFINGpXYjFjZDhYZks4SGFBcktDZHEzb1hWMVlISzd3d3c4dVRJcjV1Sk85c0RUWXhDQnF5Wm8yMEhOajNxZ0VLXzBiTkJfa1V4M3JCNk1FbEdvdWFERE9vOEx5UEpCWUlHbw?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-20T12:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "The Day After 24.0: Oilers suffer first regulation road loss of the season against Lightning",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNmxoQ25CcFRIb3BIOUF5UEVWRmdFazdkTnBDdW1Od05EWC01c01RdW5lVzZvTUpjQWxON2xoMU1zWjRkQ0JfZTB2QmVkWEF1cFFJVjFwSzlmS1NRX2hkQWxMMnl4U2t5SGZtY2phZk43MHhDM3htSm5QOWxRT2xBTTRnejB6bFZzSGZ2LUpJRFQteFJnZ1U3Tkk1Rko4MFpnSGZWbg?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-20T12:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Carolina Hurricanes - Nov 21, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qWmN5VmJFbjZldmF2RGZ6bUg1eG9TempMTkFGYXBTYTlaVDRIVWJBSnR4WXBaQnZrZ0F6RThySEx1TkNHZy1SdEtSZ3QxeFhYTmZPYnF2bmZ4eV9iekZkcEZBZHBZd3NoWTNHYzI2UjE?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-20T11:01:20Z",
    "snippet": "",
    "via": "google"
   },
@@ -61,6 +92,14 @@
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZFFWZWI0UjhjX2ZOOGRUVVYtRXU4RDZTSVdpZlkybjRBbUswQ1JMUnRJb1h0OW95WWkwMWk5UDVvQlp0QWhXVDd3OEVIVGU2U2YyemdYN011S1FVbng4Yll1ZXBBQnlReGlhSElQdkJoWjVXd3NqNjNnSXQ0a0tYMHJDQVpVUnZzQVpIUHN0a09LYzJfMDlhOU56RS03TTg?oc=5",
    "source": "Sportsnet.ca",
    "published": "2026-11-20T05:53:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "OILERS TODAY | Post-Game at TBL",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdGlNU0ZTNURTSTRlVDRWdFRIU2o4OHpscXRybTBUcUpORkFCN0tCZDBBcVJrcmVNWkN3Q3VfUG5YS3dSTXdIRGFTcWlBQm5jTlVHM3RfT0Q4d2R2N3d0amk1ZnVFMFFFMVgzMVZUdm1wbF9kNXJjdmYzUmFad1VLYUdn?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-20T05:18:27Z",
    "snippet": "",
    "via": "google"
   },
@@ -122,35 +161,10 @@
   },
   {
    "title": "Two Oilers streaks snapped in stingy loss to Lightning",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObVJQRy03bmNpZWRqbEF0ZERnZ3JpRmpqYng1TWNNY2VXeUY4cTh1YTdTV3lMOWJXWDlvNjdHcW1RM3Eya2gwd3c4Sm1hYS04Y1h1UmR0VzZLMTZVbm5jNHRfcUk3WGpjY1k4T3oxeWk0LVVyYkEwTllsbkI5UDFOYjRJQVRTQVc4V283Qmt2bk43aTBuNVRv?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-20T04:34:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vasilevskiy stops McDavid",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaUwyUzBjeGRyWlNhd0hSMXBacTFJcFo1NDNPMlQ3VlNvX0ZCTktOeHd2ZFpkS0dQcnhkMmV4VEZScXhsT3JDcTVmU0pGUkFpRUdzbEZLeXdKdFZDaTJYX1h5N3RjbDJ0aFd1N2N6dDkzUEFmcklZWVZkNnplTXZ4aDFRT0diRkc3Mnc?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-20T04:15:07Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "McDavid's 23-game point streak ends as Lightning beat Oilers",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY1A0cjlyNE9tN2pwYkdXNF8ydFFSb1BaS1l5VzhRblRtZEdSV1RKdWQwN2ZIdEt1dmotZWFiZEtOUDZxdnRLZ0xJOXdsOWhoXzNpNGhPTmJnRk9keWxIVU1xOHliTlVtU24wSW03ZzBrVEs5UTFnbFR6ZWdZemlIR0lRRzFDSk50b1Jaa2FVa1hMOUpObm51eHZIOA?oc=5",
-   "source": "Hockey.com",
-   "published": "2026-11-20T04:10:28Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Lightning top Oilers 3-1, end Connor McDavid's 23-game point streak",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSFdsUjkzZjNnUTNTZ2ExYmpsTVVMTUtZaW9MRWpkLVdybEVLQW12T0N5YTh1TEpVLW1ZOElqbGhBS3NSSHpsY0pHU0IxN2gtOHRpVmRvSnVuLVE5QWRIMGZkNnMzQ3RaZTVrT1lhNVhIMHY2aGdySjczSmVsV0tJTTVaOXdqUUE0cmdWdWcxOEFlbE9vcHJQc2hhVVd3dG5rNFZNcGN1YjVFRjdzZ2pn?oc=5",
-   "source": "Castanet",
-   "published": "2026-11-20T04:06:55Z",
-   "snippet": "",
-   "via": "google"
+   "url": "https://www.sportsnet.ca/nhl/article/two-oilers-streaks-snapped-in-stingy-loss-to-lightning/",
+   "source": "Sportsnet",
+   "published": "2026-11-20T04:30:43Z",
+   "snippet": "Two Oilers streaks were put to bed in a stingy loss to the Lightning on Thursday. The defeat marked Edmonton’s first road regulation loss of the season, and the first game in which Connor…"
   },
   {
    "title": "NHL Highlights: Lightning 3, Oilers 1",
@@ -186,6 +200,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-19T19:24:44Z",
    "snippet": "'That's our whole game plan, is just be hard to play against'"
+  },
+  {
+   "title": "Why Connor McDavid buying new Toronto home is fuelling fresh Maple Leafs speculation",
+   "url": "http://edmontonjournal.com/sports/hockey/nhl/toronto-maple-leafs/connor-mcdavid-buys-new-toronto-home-speculation/wcm/5dedc95a-96b7-4119-8034-c102c65895e5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-19T18:01:19Z",
+   "snippet": "Edmonton Oilers captain's wife, Lauren Kyle McDavid, showed off their new home in Toronto, which was bought this past summer."
   },
   {
    "title": "Oilers at Lightning projected lineups",
@@ -251,32 +272,11 @@
    "snippet": "'I would like to sign my last contract, being here in Edmonton'"
   },
   {
-   "title": "Barely a peep from Tkachuk Bros. as Edmonton Oilers humble Florida Panthers",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/barely-a-peep-from-tkachuk-bros-as-edmonton-oilers-humble-florida-panthers",
-   "source": "Edmonton Journal",
-   "published": "2026-11-18T02:48:42Z",
-   "snippet": ""
-  },
-  {
    "title": "QUICK RECAP: Oilers 5, Panthers 2",
    "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-panthers-11-17-26",
    "source": "EdmontonOilers.com",
    "published": "2026-11-18T00:03:57.611Z",
    "snippet": "SUNRISE, FL – Grand Theft Auto VI in a row. Vasily Podkolzin, Kasperi Kapanen and Leon Draisaitl produced three points each, Connor McDavid had multiple points, and goalie Devon Levi made…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Oilers vs. Panthers",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-vs-panthers-11-17-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-17T18:41:51.645Z",
-   "snippet": "SUNRISE, FL – Devon Levi will be back between the pipes to make his 11th start of the season, while Ryan Nugent-Hopkins will miss his second straight game on Tuesday night when the Edmonton…"
-  },
-  {
-   "title": "Oilers at Panthers projected lineups",
-   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-preview-november-17-2026",
-   "source": "NHL.com",
-   "published": "2026-11-17T17:08:00Z",
-   "snippet": "OILERS (16-3-3) at PANTHERS (12-7-3) 7 p.m. ET; SCRIPPS, SN, TVAS Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Colton Dach -- Zach Hyman…"
   }
  ]
 }
