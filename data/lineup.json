@@ -193,15 +193,15 @@
     "pos": "R"
    },
    {
+    "id": 8480842,
+    "name": "Filip Hallander",
+    "num": 19,
+    "pos": "C"
+   },
+   {
     "id": 8478854,
     "name": "Ryan Shea",
     "num": 6,
-    "pos": "D"
-   },
-   {
-    "id": 8475218,
-    "name": "Mattias Ekholm",
-    "num": 14,
     "pos": "D"
    }
   ]
@@ -243,14 +243,16 @@
    "status": "Day-to-day"
   }
  ],
- "notes": [],
+ "notes": [
+  "Projection is based on the Last Game (2026-11-19) lineup until morning skate or practice updates."
+ ],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Bob Stauffer",
-   "updatedAt": "2026-11-19T18:07:10.660Z"
+   "basis": "Last Game (2026-11-19)",
+   "updatedAt": "2026-11-20T17:00:40.305Z"
   },
   {
    "name": "DailyFaceoff",
@@ -426,8 +428,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/carolina-hurricanes/line-combinations",
     "what": "line combinations",
-    "basis": "Walt Ruff",
-    "updatedAt": "2026-11-19T00:56:08.635Z"
+    "basis": "Last Game (2026-11-19)",
+    "updatedAt": "2026-11-20T17:09:07.598Z"
    },
    {
     "name": "DailyFaceoff",
@@ -452,5 +454,5 @@
    "note": null
   }
  },
- "updated": "2026-11-20T07:25:37Z"
+ "updated": "2026-11-20T17:36:12Z"
 }
