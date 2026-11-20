@@ -3,7 +3,7 @@
   "id": 2026020349,
   "startTimeUTC": "2026-11-20T00:30:00Z",
   "gameDate": "2026-11-19",
-  "state": "FINAL",
+  "state": "OFF",
   "home": false,
   "venue": "Benchmark International Arena",
   "opponent": {
@@ -279,7 +279,7 @@
    "num": 35,
    "pos": "G"
   },
-  "note": "Levi will start in Tampa Bay on Thursday. "
+  "note": null
  },
  "scratches": [
   {
@@ -483,8 +483,8 @@
     "num": 35,
     "pos": "G"
    },
-   "note": "Vasilevskiy led the Lightning onto the ice for warmups. "
+   "note": null
   }
  },
- "updated": "2026-11-20T03:29:15Z"
+ "updated": "2026-11-20T03:56:26Z"
 }
