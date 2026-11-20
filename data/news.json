@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-20T16:02:16Z",
+ "updated": "2026-11-20T16:36:17Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (88)"
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers Haven’t Gained Anything From Trading Sam O’Reilly for Isaac Howard",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV3lBLUFRTm9ST2l6dzF6NHhVZ3MtOTBMS3hDOGFEQmhJZ0pLSFMwYkQ2dFkzaUNIenE5N0pHSk5vRjRwVnJBeFhrcGNyOTNHc3gxQ0lmX3hTZ1ZSVDBCNW9DdHgyWDA0MnVNb29LTlRMcDFKNGtQZE5wZGhDOXpwMUpmeUJuVVdsOEtDTG5mMHlsdnBHcVZfZ2tmV1J5MlJ5ei0w?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-20T16:05:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Two Oilers streaks snapped in stingy loss to Lightning",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObVJQRy03bmNpZWRqbEF0ZERnZ3JpRmpqYng1TWNNY2VXeUY4cTh1YTdTV3lMOWJXWDlvNjdHcW1RM3Eya2gwd3c4Sm1hYS04Y1h1UmR0VzZLMTZVbm5jNHRfcUk3WGpjY1k4T3oxeWk0LVVyYkEwTllsbkI5UDFOYjRJQVRTQVc4V283Qmt2bk43aTBuNVRv?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-20T15:46:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "State Your Case: Hurricanes or Oilers as top team",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbm1nR2gtNy02VHI3TDZldnI4UjJsdTFHendaOXUycnlEZUtCbC1ldGF5cHJXMVJsTUxaTlY4a01yUDRhLXJGWWNldTkydkNZRnBoSHc5U09CbVZWMGlLS0xwT2EtMTZ5TnVPckE2anJRNl9YdDNTejBkaHMwVkE5T1l6OEpXZERtX1dNRkhWRHd6V21KNnREb1Y2eXo4ZWM?oc=5",
@@ -145,26 +161,10 @@
   },
   {
    "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSGtxQ0pvbnhzLWVRdVlYdGJ6NFV1YjVYUFJrc2Q5LTZlbjVDcmhQM0F6bW5EZjRrZ1NRVHpPeUlJV3NYMkFMV1duNzZHVHhOMmpXeXpIak9kM3pBUTh0R0MtYnJyMkRwOHVLQVZIZkE1cEp3a1ZDeWhLM01LQWpTejB2VE9QeHB3NFhrNXd0Z0tPV3BkZWVVWWQtT3UxZWVkMkdaZVY3Z24xQms0RVE?oc=5",
+   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
    "source": "NHL.com",
-   "published": "2026-11-20T05:06:56Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Postgame vs Edmonton Oilers | 11.19.26",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRlZnSmFwYUE0T1BYVE1PeUhyN2plTS1rb1NGTVBuZ0hkLXc4VlRFQlFqUGQwdF9pUzVHYmxLMlRpT2x6eHF3OWVZQ0drTVg0bDBHVEdMRW9LYXlsVU1iTzBKUEVIc0pFTEZCcjhOR0xlUEV1T2d1dmdNaHhxdk0xY0dJdlpVY2pVakRaYWxTNA?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-20T05:03:56Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Two Oilers streaks snapped in stingy loss to Lightning",
-   "url": "https://www.sportsnet.ca/nhl/article/two-oilers-streaks-snapped-in-stingy-loss-to-lightning/",
-   "source": "Sportsnet",
-   "published": "2026-11-20T04:30:43Z",
-   "snippet": "Two Oilers streaks were put to bed in a stingy loss to the Lightning on Thursday. The defeat marked Edmonton’s first road regulation loss of the season, and the first game in which Connor…"
+   "published": "2026-11-20T05:00:00Z",
+   "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
   },
   {
    "title": "NHL Highlights: Lightning 3, Oilers 1",
@@ -259,8 +259,8 @@
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
+   "source": "NHL.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
   },
