@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T19:39:59Z",
+ "updated": "2026-11-20T20:28:19Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -9,10 +9,26 @@
  "errors": [],
  "items": [
   {
+   "title": "Oilers at Hurricanes Projected Lineups",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbnM3UERqQzFQRHFHQTA1SW4yWWRkWnI0RzlNYllGNXJqWUE4Wkt4NXFyQmRNVW9KNE5zZTFHV250UU5PUE1TWnIxNHhFRU5CZ3RQZk90T1NHQWd6MjBQMGdvWDlXUlVRTFBRbVJRbDdpUThhZGhtU0haSlQzLUlFTXlxMXdrcVhsS0F4Tkc3MWk4LXJk?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-20T20:19:19Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Babcock goes to blender with McDavid assigned unfamiliar linemates (for now at least)",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQS3RDWlhnU0NvRVNtdjJ3Q3IxMVFlNjdZZldVLURrMGxrRkFaNjJOY2RjTEtzOVRVdm9Sc1h6TGZhdng5MERJN2x4b21HVGJnWk5Ja2JmaWhwNzlWN1VIVG9iU2Ezand4R3JZc1FnV1BsanhrSXZmYkVGTnhnSGNqUVFHNE5TZ0xXcU52UlFzWmZoYVlDNUxZc29HVHMzSC1leVpVSnI4NDNoWTZwakdId2pJcEt6eThSeU5nMjI4ZHRVaWFib09zenBsbw?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-20T19:55:47Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers Depth Foward Ready for Bump To Top Line: \"Move Your Feet\"",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZE9rV2UzUV9sT0t3NlJ3bEtRRERsN0loTlozcFpSamo0LTh3SjViS1NXWG95U24xS0J4WUxkNTdyTk54MlQ5X195WUZrRWpqSVlndVM3S3VzTFFodGt2Nk00N0J5cjhaYUU2NWJTYl9ERjI3b211eGpXei1VaWRTaDlXOWNBWUk3dUtUcXZRcV9UY0o4WXlvRHVNN0Etc3Z6VnhrTmlfSC1YOW9lekpSeG54WTUyOHNnOC1F?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-20T19:35:43Z",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWERMVlZBU2N3eUJjZW1mb0xncVlvaDBJNjlacHViV2ZyaU5NMlFOUHZRMmRvZjMxY2c2MkJjVlNOVVFzWHpkQWVSSWNTZjVBalNGblNuTkdJVjBlN296Vkg1ekZRSXpHU1RVNEdPLXV4cXRPODVyS3BIRDVjNXVidmVoem4?oc=5",
+   "source": "Yahoo",
+   "published": "2026-11-20T19:35:14Z",
    "snippet": "",
    "via": "google"
   },
@@ -31,21 +47,6 @@
    "published": "2026-11-20T18:58:22Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "Newcomer forwards bumped to McDavid and Draisaitl lines as Babcock resorts to the blender",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQS3RDWlhnU0NvRVNtdjJ3Q3IxMVFlNjdZZldVLURrMGxrRkFaNjJOY2RjTEtzOVRVdm9Sc1h6TGZhdng5MERJN2x4b21HVGJnWk5Ja2JmaWhwNzlWN1VIVG9iU2Ezand4R3JZc1FnV1BsanhrSXZmYkVGTnhnSGNqUVFHNE5TZ0xXcU52UlFzWmZoYVlDNUxZc29HVHMzSC1leVpVSnI4NDNoWTZwakdId2pJcEt6eThSeU5nMjI4ZHRVaWFib09zenBsbw?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-20T18:54:16Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Babcock goes to blender with McDavid assigned unfamiliar linemates (for now at least)",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-hallander-joseph-mcdavid-draisaitl-carolina-hurricanes",
-   "source": "Edmonton Journal",
-   "published": "2026-11-20T18:51:41Z",
-   "snippet": ""
   },
   {
    "title": "Lightning prepare for showdown with McDavid, red-hot Oilers",
@@ -128,14 +129,6 @@
    "via": "google"
   },
   {
-   "title": "McDavid's 23-game point streak ends in Oilers' loss to Lightning",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbjZKTUIyNFRhd3RtbDEwdHpaV0JjNGl4cWM4NkVONHpWVFRRLWlwOXQzOHYxUVdaZGhNVW1mdVh3MUY5OWRRZGxTbmFlVmU5eGVfVnctZ0NkbkY1ZnZpX2pCMUlqWHdETTNlaTBVOXNWaWlrTHluaFVlbks5YXpaSQ?oc=5",
-   "source": "CBC",
-   "published": "2026-11-20T16:03:58Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Two Oilers streaks snapped in stingy loss to Lightning",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObVJQRy03bmNpZWRqbEF0ZERnZ3JpRmpqYng1TWNNY2VXeUY4cTh1YTdTV3lMOWJXWDlvNjdHcW1RM3Eya2gwd3c4Sm1hYS04Y1h1UmR0VzZLMTZVbm5jNHRfcUk3WGpjY1k4T3oxeWk0LVVyYkEwTllsbkI5UDFOYjRJQVRTQVc4V283Qmt2bk43aTBuNVRv?oc=5",
    "source": "Sportsnet.ca",
@@ -167,9 +160,16 @@
    "snippet": "Tim Micallef runs through the latest edition of Central Sixty, featuring a grocery store in Alberta building Connor McDavid and Leon Draisaitl out of pop cases, and for a look at how the…"
   },
   {
-   "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://www.nhl.com/oilers/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers-x2007",
+   "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
+   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026-x6012",
    "source": "EdmontonOilers.com",
+   "published": "2026-11-20T05:09:00Z",
+   "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
+  },
+  {
+   "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
+   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
+   "source": "NHL.com",
    "published": "2026-11-20T05:00:00Z",
    "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
   },
@@ -189,8 +189,8 @@
   },
   {
    "title": "McDavid, Draisaitl are works of art at Edmonton grocery",
-   "url": "https://www.nhl.com/oilers/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery-x7544",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery",
+   "source": "NHL.com",
    "published": "2026-11-20T01:19:37.256Z",
    "snippet": "EDMONTON -- Eric Falkenberg grew up with a fondness for drawing and building LEGO sets and has turned it into a mastery of three-dimensional grocery store displays."
   },
@@ -273,8 +273,8 @@
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
   }
