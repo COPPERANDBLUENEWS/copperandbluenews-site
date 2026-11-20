@@ -1,6 +1,30 @@
 {
-  "updated": "2026-11-20T01:14:27+00:00",
+  "updated": "2026-11-20T03:59:30+00:00",
   "next": {
+    "id": 2026020359,
+    "gameType": 2,
+    "startTimeUTC": "2026-11-21T18:00:00Z",
+    "dateMT": "Sat Nov 21",
+    "timeMT": "12 PM MT",
+    "timePT": "11 AM PT",
+    "venue": "Lenovo Center",
+    "state": "FUT",
+    "scheduleState": "OK",
+    "lastPeriod": null,
+    "away": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "place": "Edmonton",
+      "score": null
+    },
+    "home": {
+      "abbrev": "CAR",
+      "name": "Hurricanes",
+      "place": "Carolina",
+      "score": null
+    }
+  },
+  "last": {
     "id": 2026020349,
     "gameType": 2,
     "startTimeUTC": "2026-11-20T00:30:00Z",
@@ -8,30 +32,6 @@
     "timeMT": "6:30 PM MT",
     "timePT": "5:30 PM PT",
     "venue": "Benchmark International Arena",
-    "state": "LIVE",
-    "scheduleState": "OK",
-    "lastPeriod": null,
-    "away": {
-      "abbrev": "EDM",
-      "name": "Oilers",
-      "place": "Edmonton",
-      "score": 0
-    },
-    "home": {
-      "abbrev": "TBL",
-      "name": "Lightning",
-      "place": "Tampa Bay",
-      "score": 0
-    }
-  },
-  "last": {
-    "id": 2026020335,
-    "gameType": 2,
-    "startTimeUTC": "2026-11-18T00:00:00Z",
-    "dateMT": "Tue Nov 17",
-    "timeMT": "6 PM MT",
-    "timePT": "5 PM PT",
-    "venue": "Amerant Bank Arena",
     "state": "OFF",
     "scheduleState": "OK",
     "lastPeriod": "REG",
@@ -39,24 +39,24 @@
       "abbrev": "EDM",
       "name": "Oilers",
       "place": "Edmonton",
-      "score": 5
+      "score": 1
     },
     "home": {
-      "abbrev": "FLA",
-      "name": "Panthers",
-      "place": "Florida",
-      "score": 2
+      "abbrev": "TBL",
+      "name": "Lightning",
+      "place": "Tampa Bay",
+      "score": 3
     }
   },
   "standings": {
     "wins": 17,
-    "losses": 3,
+    "losses": 4,
     "otLosses": 3,
     "points": 37,
-    "gamesPlayed": 23,
+    "gamesPlayed": 24,
     "divisionSequence": 1,
     "divisionName": "Pacific",
-    "streakCode": "W",
-    "streakCount": 6
+    "streakCode": "L",
+    "streakCount": 1
   }
 }

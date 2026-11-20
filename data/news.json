@@ -1,26 +1,65 @@
 {
- "updated": "2026-11-20T03:29:14Z",
+ "updated": "2026-11-20T03:59:40Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (1)",
+  "Sportsnet (2)",
   "Google News (88)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Gretzky says he wants to see McDavid break all his records",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVXMySHE1dDlBR3hScmRkSWVuRGlYS3p1MXh6d1QwckI5QkIxTC1ObkpLLVZVVnBSVWtjUFNvejlXQ3c3UU9lV1lhZDRRQTgtWHVGNmV5VC1IMkM2ckdHLTYtMGxGbzJqaGNuRWdzLXFMMF95Rnp3ZGJCQjFZa2xnaXh6OA?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-20T03:26:19Z",
+   "title": "Lightning top Oilers 3-1, end Connor McDavid's 23-game point streak",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZGJCQWE4LUY2MXI4Qk52YWxKN0hFOFg0LUtDV1FqVFV4N21KNzVnaWJna2RSU3IzMTE4OFFJY0xpNUpaVVdBbkJZSkJnMUk4RGVfdTJIbTJqWmI0RUhDVm00ZjNoa1FpeGR5TWlEa1BlSEFjeUkzNExUQzhIZXY3T1dhTjNSOFdpWWYtMm4zeUxLb1hvTWEwRjBGcUtpYS1YRkgzTmRUbGs3VjVRc3FNMnB1RmI?oc=5",
+   "source": "Click2Houston",
+   "published": "2026-11-20T03:45:51Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Lightning top Oilers 3-1, end Connor McDavid's 23-game point streak",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNejVYSFdYa1ZrR3lWbGthX08zRVFZQ0hSM2JTSVp5MDl4UnVpeTljX3ZndktQUS1ZOWlXNnhnbi11NG5KOWM3VFZZVGQ1MHNzUXREOFBwNmVTb21SYzl2SXpBQ0ZOTEVwZ0kxN3dVXzVYcFdxOUlmU3hqelRqeTN2UG9JelFtdWd6c0pTSTF3NHp0QTFLYm9hS2ZqOWtJNkN2My1jQkplemM?oc=5",
-   "source": "WSLS",
-   "published": "2026-11-20T03:24:36Z",
+   "title": "NHL Highlights: Lightning 3, Oilers 1",
+   "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-lightning-3-oilers-1-2/",
+   "source": "Sportsnet",
+   "published": "2026-11-20T03:44:19Z",
+   "snippet": "John Carlson opened the scoring in the second period, and Nikita Kucherov capped a two-goal third with his ninth of the season as the Tampa Bay Lightning earned a 3-1 win over the Edmonton…"
+  },
+  {
+   "title": "Lightning smother Edmonton’s offense in 3-1 victory",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd1cwUzF2R0xuMXJ5cFVjSUJ4QjRhM3JuTE1PZG9wSFJiVGdsMFQ1ZWo1S1B4V0RjSU56Sk42cmVHOWxVRnJYbFo4ZDEzSHYwVF9HTG00MWx4c3FkYldDR1Y0Z1VSWm5QQ09PN25aQV9PTWQxek9EVkNkZUxkN1pJOGJUVHBfVWZ6ZzVEa2hBUXpmd3hTb1RsTWl5YUp1X3NvS0k4SGw4WjJoNHNxaTMzRUhGYUI1V1JGVHRwWHk3NzQwTlZUMFNMU3Y5NU5wQQ?oc=5",
+   "source": "Raw Charge",
+   "published": "2026-11-20T03:41:25Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd1F0NExhMUxSSWJ4cWxEQ1dHaGpOZ0dsNTBPSDVTel9SajljU3FCMjhtQllVc0VZbVNwUUhwY1BCVHpzUi10azFZUnExRUtWVVRhUnBBWnhJQ1FEMkRCVVZHOWJDWkVSaTRGMjNpSThPcS1yeUJqOEk5MnpKdFVXN2FMX1pjY01yLVJaOHRPZDVOdw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-20T03:40:26Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers at Tampa Bay Lightning - NHL Game Summary - Nov 19, 2026",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNmlzMkllZEEzMFd6ajRxbU1BN0lhVkwxTG05b3J6aTRISERfRFZTNllfZjZjZEg5cTFLdWktMTc3MWhKMWRBSzA2cy1YNlYzUzg3TjVzXzctY2FjMm5zLXFsajYwR1VZWmVuWExRaTBubzRTSi15RldVaWZYRDZzYzJHNFZXSGpXQWtJaS1raW9lTWVWZGxBNmVYdnZuVkFFcFB1WXBNYkdBT1lXMUtOMnQ1d1lXRmRQbEM3bFBkTF9TcW03VVVHQURvUC14Y0ZOTmppc0oyMkg0bzVoVW95QXBickdNVWNtRl9EQ2RJQQ?oc=5",
+   "source": "USA Today",
+   "published": "2026-11-20T03:28:55Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Lightning snap Oilers’ win streak, Connor McDavid’s point streak",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTU9vZ0xzdnVoc0dILUU0X1VwbkVSeTJmNjBOUDhBaG81a2ZNbWZMZVNRc3JEa2xIeDlRajNQUXpnZ1ZhNDBGcUlma013M3lzZ05LWERCWFNIMjdoUXA2TE9lQ1N4b1E2QzFNS2VGQUxPMXZnS0hvNEpackZaOGlFV0tsWG9qSGxJYWdRUXR0UDZsM056UWU5WE1fdE5Udk1yaldzQldfSVZ3Y0ZfZjFHRjcxQQ?oc=5",
+   "source": "Reuters",
+   "published": "2026-11-20T03:28:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Gretzky says he wants to see McDavid break all his records",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVXMySHE1dDlBR3hScmRkSWVuRGlYS3p1MXh6d1QwckI5QkIxTC1ObkpLLVZVVnBSVWtjUFNvejlXQ3c3UU9lV1lhZDRRQTgtWHVGNmV5VC1IMkM2ckdHLTYtMGxGbzJqaGNuRWdzLXFMMF95Rnp3ZGJCQjFZa2xnaXh6OA?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-20T03:26:19Z",
    "snippet": "",
    "via": "google"
   },
@@ -32,10 +71,10 @@
    "snippet": "The Oilers and Lightning waged a 60-minute chess match"
   },
   {
-   "title": "Edmonton Oilers at Tampa Bay Lightning - NHL Game Summary - Nov 19, 2026",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWmlJbjc3enhUd1Q1cXAyUWJwMHhTN1I3bjFGOUNkbUhMS3kwVGUyQ2J0MUdwZkZQWi1nSVJNSWlkTzZwTVRkMXBXZGZhZlhOWnVBWVFQYUZDeU9HeUh6S1FTR1Y4OU40elAwLWxDenE2QmlVUU5UbkJlTnE5bW5fVU11TXBuUTAwYXNpMXVqOGdDTEZNbS1OS2NBYkczc0VYYnZLLTRrcHlkNkpOTXJLSHMxWEhiOEVPcFlkQURPSG5RRFZJRTZ1eVZmdldDZEpITWpJX2JnQXpDLXNiUl9MY1BQcFRpRkR0YW81ekxGTQ?oc=5",
-   "source": "USA Today",
-   "published": "2026-11-20T03:15:15Z",
+   "title": "Tampa Bay Lightning vs. Edmonton Oilers - Game Highlights",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOekctZXdDUUlPRFlsby13cGVuQzRlNDVCWjZoem0tR1hlM0UtR00wUmZ6RmhVUmxoc1dnamsyZF9KYV9XMEtsencwdGc1Ykg0YnN3TkdGY2xjZXNhSmdSZ0dYN2RNS2dWanU3UkhNQVd4dldWRG82MWFDMzk5ekFjdHpUcnU?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-20T03:12:39Z",
    "snippet": "",
    "via": "google"
   },
@@ -88,26 +127,18 @@
    "via": "google"
   },
   {
-   "title": "Evan Bouchard tallies assist Tuesday against Panthers",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOT1ktTVh0S1J4cWYzMGJwRzR1YUljcEIxcVNyVDNEckZDMW5GYV9lNzZqb3V4SEc3ejI0eE1lLWR6X3hWcnNWbHlNb1UxRmVYdk5aMUw3WGNRTW9sd3lxZGVaZHFKZG5udmhwdXZEYzhMM05ySF9PMjkxNnBfX2U4S2tfdXhXSHd6Tlc3eFJSa1hyVWJvb3hrTXB2TjhHbWJkRHVv0gGoAUFVX3lxTE1XYWhoYzZadXFiREVWc3Y2bG8tMXh4Uy1lOU9aQ0dEYkM2NjVOYU9NTzhrNXlfdnM3WHlDejI1WVZ4NTItNVRYekFlRTNFX0xUVU5iRFlVRG9ibEVRRE1qczViT1RPbGw0Zm1vZUNnb3NzaTlmNDhUbzBLUTRuQVRqbnJKNGd1b0d3MUNBLTNRV0ZObXNoWjlEa2M5T084eExYaE1TUkhKZw?oc=5",
-   "source": "FantasyPros",
-   "published": "2026-11-20T01:31:00Z",
+   "title": "Instant Reaction: McDavid’s 23-game point streak snapped as Oilers fall 3-1 to Lightning",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOEhLeVR1b0FfQkZEZm1tMWR2a0d4dnZnSWYyZ3h4ZWY4R1QteWVxZHFBOUlYR1c4REVXaEd5TTY5c2E3TU1VdnE0SXRTVkVxVzc0cW04UjZ3UEZtRkpaWTBad2V3SFNUS1M5QzVLZ1l0VWVBcTN6VUdJUWdJbE5XM01VcHd4Z1dHN3RFdjZxdENQN3FLVFhJOXJvVVBVNVhzRUpNd3JPbTVqZw?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-20T02:40:00Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Zach Hyman notches assist Tuesday against Panthers",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNGExenlRVVFpMGR2c292QXZCQnNET2pHZXZmUGN0R0J4TzlUQkZrekFCUlVrdDItSXBZZjlUZ2ZNWnhkSWszY1lqeUU5ZVJZMUd4RzlRMUtPYkJwY0diNk9fU3BTNEJsTEpxczBDXzR3ZkJ2Nnk3TDVWNkNQS1VJOXFlZEdnVVVqUUlCM0dnUHh1a29CUldZejFjZWQ3QUHSAaQBQVVfeXFMTWd0N295VGpadEdNVXRHWkRLenhWUm9qOU0zbDgweGtpUlRsWjB2NDU5RUNfZmRrLUE2enVLV0R1TVc5UHhuRDB4UEdzWExBMkpGRDVpbkRCMUNwTUluMkNHWFJBWi1hSVZETVRCYl9kMUxkMVQ4ZC13Y2h3RWJrZnUySHBQOUlTUmJkci0wLUVPSFNXXzR1bkk3QTRSZHlNdm9LUXE?oc=5",
-   "source": "FantasyPros",
-   "published": "2026-11-20T01:28:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Leon Draisaitl tallies three points in Tuesday's win over Panthers",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOExiSG8zUm4ySGthQmRoNDV1ZWVBZGtUUnppOUFSVWwwQnN6cHgxSU5UR05QakVBSVduQ0ZmTkEyclJobWVvLUZJMTFOQ0RFRlFWZ044Y2VIWFlHc1NMc3g2WkhmLUVsMTkzVzNHaFM0OGNONkhScmJxcFFUc0EwTFhiRGlvaTEzMURyenliSnJiVzAzcTVPRVZfTlhxM2NYM1lySDB4ekFINnoxTnlZ0gG0AUFVX3lxTE55bE1tUTBMd3k2WGIzYVZBRUE1dVRHTGtqRWYxc1h3R1FjZy1nYzctRFJyYTVSZkNIaTZzNms5N3BaNEo3OWstak4yLWlCRDZaM0t5aHp6RWRYa3g5b3dMTU1WdUd6THdNNGMzRzE4eXRQVmhDTkNocVZmSHJMaE9rLUFXcXBOLVpfV3pRNEYyTmVrX3lqNkpnMVRLRDJnM3FhUXZMelRVNzJUcGd2Ulc3QllOUA?oc=5",
-   "source": "FantasyPros",
-   "published": "2026-11-20T01:26:00Z",
+   "title": "Edmonton Oilers 1, Tampa Bay Lightning 3 - 2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1Sc3dpWWRXcHFyY3JDZWg1bHkwcml0Z19fdGlxR3NsaENlZmVmZUNwLVdGMmo0T0xiNDU1NlZrdUxUQ0Vkb1NkTEV3eWQ3ejdxZTVzSTBmNA?oc=5",
+   "source": "Hockey.com",
+   "published": "2026-11-20T02:33:20Z",
    "snippet": "",
    "via": "google"
   },
@@ -120,14 +151,6 @@
    "via": "google"
   },
   {
-   "title": "Connor McDavid posts two points in Tuesday's win over Panthers",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbUFURF9BQnA4SFg1ZkZrU2lqQUhkbk9ZNmtyTlMxblA3cGlHcE5ZM0dFRGdUdnMzQ1NBX2tMeUdscjhsSnA5VTBRcTEzMU1PVEx0U19PU3ZSY0NzN3VfUDJNSTlYeHZ0aG9BM1VUSncyYXdCZFVtRTRuT1lDVVVOMHNGRE5KaWRaeENVaXpSS0wzbi00ZXpucGNrUDFHdHNDaU96X3dnb2M1Z9IBrwFBVV95cUxPa3JpeUtlYXBDdkJPRTRHYWcwR0lNTXB5MU0wNkVQYTg4TWpGeGF6N0I3RURpOUtrazhiUnNDY2lQUTRxWTIxLU1XekUxQkFBV2FKbUlfbU4ybHR5UjBPMHBlWjhETHBUQV9zanctSlZpdV9GM0FNRVNiVDAxN3hjbHQtWktneEZVUVpTV2dHSGdVMnRrQmVGbm80UXJQMjF5dzRBUnJFZDNuR2t6NWpr?oc=5",
-   "source": "FantasyPros",
-   "published": "2026-11-20T01:22:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Betting Markets Favour Lightning As Oilers Play In Tampa Bay",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYl9SSjlHTzNSdS0xTUN3TldOMXI4bTNtTi1OampNZkdHMDFCRlBjaWlDaW1BdGRtSVBHdkNHMzYzT05IcWVCdzd3aGR5a2Y0VTNEQmV4RDJla0hXQUlDNm40Zkg3N2hfRGFoN1J6OXJOMnFRSTFmbm5ndkNaTC0xS2xHb0s0M1lhcm9RWGpaUUE4Mjl6WVdXRHJPWE0xdVFFR19JTG9LdHhEX0doRmJicW51dTBUV3R6dlE?oc=5",
    "source": "The Hockey News",
@@ -136,7 +159,7 @@
    "via": "google"
   },
   {
-   "title": "LIVE UPDATES: Oilers at Lightning",
+   "title": "LIVE UPDATES: Oilers at Lightning | Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5md1RGaVFJRFF3MnRSU2NKSFJCSjAwcjBVVXpJUDl2Tm9KWEY0S3lhek1Bd0M0RFBJVU80czJxRmxXQ0o4dWtuay1acFJvUHlObm9IS1hsSjZrZmJnYnZULUJUakhpX2dmV0g4VzlTai1YdTNCNnNiYVN2SDF5dw?oc=5",
    "source": "NHL.com",
    "published": "2026-11-20T00:44:34Z",
@@ -148,23 +171,7 @@
    "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-lightning-11-19-26",
    "source": "EdmontonOilers.com",
    "published": "2026-11-20T00:41:38.161Z",
-   "snippet": "TAMPA, FL – The streaks conclude. The Edmonton Oilers had their six-game win streak snapped, along with Connor McDavid's historic season-opening point streak of 23 games in a 3-1 defeat to…"
-  },
-  {
-   "title": "[WATCH-FREE]**Edmonton Oilers vs Tampa Bay Lightning Live Online TV CHANNEL",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA2c190Q2drVHpiVVNaTi13Q0Vqb3lkcnhxaHFSa1FJcTBkdmFVajFaUXh2MmhwMUc0Q2NkRnJUcUJrUTVXTFg5d2lzcGxMNlFkbjV3cW5ER3k0VktuYkE5SWVDc21QVG5ZazREaXppeG13Zlk4bkkxZV85dw?oc=5",
-   "source": "Thunder Bay News - TBNewsWatch.com",
-   "published": "2026-11-20T00:21:45Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers vs Lightning LIVE, Score Updates and Play-by-Play",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBjMzZzN2ZJRUhuY0hRVW5EUHdQbzFfNzBfWkNjS0dTVlNZenVpdUtDYVZPNV9FaEpieGNRdEtwTTZjajFRWkNFMUFQNlNVN1JHbDVqUUZ6UmpDZ25ZUFV5Q1FBWFMtWFppZzRuSXQ5ZG9pYnBRZk5oN1AzOA?oc=5",
-   "source": "Thunder Bay News - TBNewsWatch.com",
-   "published": "2026-11-20T00:21:45Z",
-   "snippet": "",
-   "via": "google"
+   "snippet": "TAMPA, FL – The streaks conclude. The Edmonton Oilers had their six-game win streak snapped, along with Connor McDavid's historic season-opening point streak of 23 games, in a 3-1 defeat to…"
   },
   {
    "title": "BLOG: Joseph found his 'Mojo' over two Stanley Cups with Tampa Bay",
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-17T18:41:51.645Z",
    "snippet": "SUNRISE, FL – Devon Levi will be back between the pipes to make his 11th start of the season, while Ryan Nugent-Hopkins will miss his second straight game on Tuesday night when the Edmonton…"
-  },
-  {
-   "title": "Oilers at Panthers projected lineups",
-   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-preview-november-17-2026",
-   "source": "NHL.com",
-   "published": "2026-11-17T17:08:00Z",
-   "snippet": "OILERS (16-3-3) at PANTHERS (12-7-3) 7 p.m. ET; SCRIPPS, SN, TVAS Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Colton Dach -- Zach Hyman…"
   }
  ]
 }
