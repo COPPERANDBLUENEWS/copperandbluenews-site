@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-20T13:19:39Z",
+ "updated": "2026-11-20T13:54:09Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (88)"
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers and Jake Walman playing the waiting game for a trade",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaHhtX0VFNWxCSFZFNlFmWUwtQTNzRkkxZ0xOVFFkYWN1dk9MR2ViNGx2dEJZcFd2Mjl1aWlKOHB2VVFPNzZFRU5uZW4zR0FDajJSckh4bkdiWnBoVjIyWmhjNGlHMXAxa2Q1bUlUWkdlRlVlSWxscjdONkF6Y0ZXSUkxNmVDUE1vTjJzdzZMc0hlWTVWRDMxZjhScw?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-20T13:00:04Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "A message for all adults who took off work for the release of GTA VI",
    "url": "https://www.sportsnet.ca/nfl/video/a-message-for-all-adults-who-took-off-work-for-the-release-of-gta-vi/",
@@ -24,14 +32,6 @@
    "via": "google"
   },
   {
-   "title": "What Mike Babcock said after Edmonton Oilers winning streak ends in Tampa Bay",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS21FNlZSbEV5RWJ1WndJUks2WlZmaFRsMVNqZ3VRZ285VklNUTFINGpXYjFjZDhYZks4SGFBcktDZHEzb1hWMVlISzd3d3c4dVRJcjV1Sk85c0RUWXhDQnF5Wm8yMEhOajNxZ0VLXzBiTkJfa1V4M3JCNk1FbEdvdWFERE9vOEx5UEpCWUlHbw?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-20T12:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "The Day After 24.0: Oilers suffer first regulation road loss of the season against Lightning",
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNmxoQ25CcFRIb3BIOUF5UEVWRmdFazdkTnBDdW1Od05EWC01c01RdW5lVzZvTUpjQWxON2xoMU1zWjRkQ0JfZTB2QmVkWEF1cFFJVjFwSzlmS1NRX2hkQWxMMnl4U2t5SGZtY2phZk43MHhDM3htSm5QOWxRT2xBTTRnejB6bFZzSGZ2LUpJRFQteFJnZ1U3Tkk1Rko4MFpnSGZWbg?oc=5",
    "source": "Oilers Nation",
@@ -40,10 +40,10 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers - Carolina Hurricanes - Nov 21, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qWmN5VmJFbjZldmF2RGZ6bUg1eG9TempMTkFGYXBTYTlaVDRIVWJBSnR4WXBaQnZrZ0F6RThySEx1TkNHZy1SdEtSZ3QxeFhYTmZPYnF2bmZ4eV9iekZkcEZBZHBZd3NoWTNHYzI2UjE?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-20T11:01:20Z",
+   "title": "What Mike Babcock said after Edmonton Oilers winning streak ends in Tampa Bay",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS21FNlZSbEV5RWJ1WndJUks2WlZmaFRsMVNqZ3VRZ285VklNUTFINGpXYjFjZDhYZks4SGFBcktDZHEzb1hWMVlISzd3d3c4dVRJcjV1Sk85c0RUWXhDQnF5Wm8yMEhOajNxZ0VLXzBiTkJfa1V4M3JCNk1FbEdvdWFERE9vOEx5UEpCWUlHbw?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-20T12:00:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -175,8 +175,8 @@
   },
   {
    "title": "McDavid, Draisaitl are works of art at Edmonton grocery",
-   "url": "https://www.nhl.com/oilers/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery-x7544",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery",
+   "source": "NHL.com",
    "published": "2026-11-20T01:19:37.256Z",
    "snippet": "EDMONTON -- Eric Falkenberg grew up with a fondness for drawing and building LEGO sets and has turned it into a mastery of three-dimensional grocery store displays."
   },
@@ -200,13 +200,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-19T19:24:44Z",
    "snippet": "'That's our whole game plan, is just be hard to play against'"
-  },
-  {
-   "title": "Why Connor McDavid buying new Toronto home is fuelling fresh Maple Leafs speculation",
-   "url": "http://edmontonjournal.com/sports/hockey/nhl/toronto-maple-leafs/connor-mcdavid-buys-new-toronto-home-speculation/wcm/5dedc95a-96b7-4119-8034-c102c65895e5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-19T18:01:19Z",
-   "snippet": "Edmonton Oilers captain's wife, Lauren Kyle McDavid, showed off their new home in Toronto, which was bought this past summer."
   },
   {
    "title": "Oilers at Lightning projected lineups",
@@ -259,8 +252,8 @@
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
+   "source": "NHL.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
   },
@@ -270,6 +263,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-18T03:21:21Z",
    "snippet": "'I would like to sign my last contract, being here in Edmonton'"
+  },
+  {
+   "title": "Barely a peep from Tkachuk Bros. as Edmonton Oilers humble Florida Panthers",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/barely-a-peep-from-tkachuk-bros-as-edmonton-oilers-humble-florida-panthers",
+   "source": "Edmonton Journal",
+   "published": "2026-11-18T02:48:42Z",
+   "snippet": ""
   },
   {
    "title": "QUICK RECAP: Oilers 5, Panthers 2",
