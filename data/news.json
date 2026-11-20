@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T10:12:28Z",
+ "updated": "2026-11-20T10:36:33Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -53,6 +53,14 @@
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVXMySHE1dDlBR3hScmRkSWVuRGlYS3p1MXh6d1QwckI5QkIxTC1ObkpLLVZVVnBSVWtjUFNvejlXQ3c3UU9lV1lhZDRRQTgtWHVGNmV5VC1IMkM2ckdHLTYtMGxGbzJqaGNuRWdzLXFMMF95Rnp3ZGJCQjFZa2xnaXh6OA?oc=5",
    "source": "Daily Hive",
    "published": "2026-11-20T05:23:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "OILERS TODAY | Post-Game at TBL",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdGlNU0ZTNURTSTRlVDRWdFRIU2o4OHpscXRybTBUcUpORkFCN0tCZDBBcVJrcmVNWkN3Q3VfUG5YS3dSTXdIRGFTcWlBQm5jTlVHM3RfT0Q4d2R2N3d0amk1ZnVFMFFFMVgzMVZUdm1wbF9kNXJjdmYzUmFad1VLYUdn?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-20T05:18:27Z",
    "snippet": "",
    "via": "google"
   },
@@ -145,14 +153,6 @@
    "via": "google"
   },
   {
-   "title": "Lightning cool down Oilers with home-cooking recipe of stellar defense",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdDVlUkcwVjNyVmZIclAtVnQ3SjEzVFU3YjlLQkFlcHJzalBmYlBSTFpudEVCb0dPZ3N2T2VJcnFBSlpPWTNsQVVxdm9HeFJJSlNhOG9GLTJUMXlpOE43M255SmVsYnNWb3d1SnpucDBpSmxaY1BWT0FxYWdraktjN3l5RThxV1FiZW5yMHM0ZXp4VGRKc3hJRlpVX0V2YnNHMjNJV1o4MnpNRjVBSV9GWmxucFBsSTMzX3V4LXJpeFVsY1prNWlvaUhTbw?oc=5",
-   "source": "Tampa Bay Times",
-   "published": "2026-11-20T04:06:55Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "NHL Highlights: Lightning 3, Oilers 1",
    "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-lightning-3-oilers-1-2/",
    "source": "Sportsnet",
@@ -161,8 +161,8 @@
   },
   {
    "title": "McDavid, Draisaitl are works of art at Edmonton grocery",
-   "url": "https://www.nhl.com/oilers/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery-x7544",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery",
+   "source": "NHL.com",
    "published": "2026-11-20T01:19:37.256Z",
    "snippet": "EDMONTON -- Eric Falkenberg grew up with a fondness for drawing and building LEGO sets and has turned it into a mastery of three-dimensional grocery store displays."
   },
