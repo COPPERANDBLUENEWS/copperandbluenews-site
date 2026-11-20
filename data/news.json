@@ -1,18 +1,50 @@
 {
- "updated": "2026-11-20T20:28:19Z",
+ "updated": "2026-11-20T21:27:06Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (1)",
-  "Google News (88)"
+  "Sportsnet (0)",
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "Too soon to say Oilers and Hurricanes are a Stanley Cup Final preview, but still...",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRW4tMTAwdnBhSGh5Ny1oZ0dQazJPSzhDV1gyS1BlV21RVnNiQ2N3TTNtaWxpeVBleE5zMG5VVEhwVjRJODVoc0E0TjdJY29Ca05YblNWRnFDdG9OeHVBSEpudkR4aURUMi1Mem1xNXhOclJLbDBwWlc0UmY3b0RvTEx0VDMyYTQ5TDhz?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-20T21:02:09Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers at Hurricanes Projected Lineups",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbnM3UERqQzFQRHFHQTA1SW4yWWRkWnI0RzlNYllGNXJqWUE4Wkt4NXFyQmRNVW9KNE5zZTFHV250UU5PUE1TWnIxNHhFRU5CZ3RQZk90T1NHQWd6MjBQMGdvWDlXUlVRTFBRbVJRbDdpUThhZGhtU0haSlQzLUlFTXlxMXdrcVhsS0F4Tkc3MWk4LXJk?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-20T20:19:19Z",
+   "published": "2026-11-20T21:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Are Tampa Bay Lightning’s Fundamentals UNDENIABLE After Dominant Win Over Edmonton Oilers?",
+   "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOLXlSOFRiRXVhOW1tRV93bUpzeWstcEJBQk9lVTZxZlhlT0s3Q3I0YmZCNEhyZW1uZFBnRzNDbU5sd1FZWVRBSFFpLUVsWFZmLVFfcGtxT21kYzdDY3JON20wbF9TVmd5czhVUDR3M3JyUUVuMHEzUXJPcGFOWU9lOVkzb29UUHNTWDdNMzQ0TkdENklUZGZldzJXX1NCOXZlRGw3Z2ZDYzBvcEZpYW1kTjlqTG5iazdQZmRCYXVIT042eWVIQkt0MVRzb1ZRbDh6X1lWbWZJbkthZm1XTlR0RHhMZXR6Q1Bod2V1bEFORm9va2tXSGtGZmExM3JyaklJS011NnFZd0Jsckd4X0w4VzlEWGQ2Yzk2NUlNelZfYUdwRmJTWnVybTRCNlhIVUk?oc=5",
+   "source": "13newsnow.com",
+   "published": "2026-11-20T20:56:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Nugent-Hopkins meets with doctors after missing three games",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOUFiQUZXakJ4bFJoQkVRRXFTSkhSRGxuUlFoVHFkY3BrdGhjaHI5NFBrRVBkRkoxVVMyWXFQdEVvZFpBbF9UeEtsTVd0bTJPU0tqVWtxUVFuaTRxTUFZQ3JoTWxRZFpid09wenZZWWpmNjZFN0ZMRE1wejU2Mzh0VXQxRGRsYlVja3Y3cDFjYWlsNDFsMllkMmhB?oc=5",
+   "source": "Hockey.com",
+   "published": "2026-11-20T20:50:18Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers head coach Mike Babcock had sit down with Tampa coach Jon Cooper",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONlFQVTB3N29PMEp3b3RxN3pmTEZxUlMyUDZjTWRGWnAwbFdxUmQ0eVNKVmV0dlB1bzhSTVQ4YzlsakZleldTVlplOHRxM0QwaTdqM1l4MTNsNWdoMnlXVHZkSk9RS2ZYeFE2bW5keWhTa3A2Wms1ZjJ3b3p5SzNZLXZtbVlqU1VoTHJ1aGhZc08tYmlhN21waU13?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-20T20:29:17Z",
    "snippet": "",
    "via": "google"
   },
@@ -121,48 +153,16 @@
    "via": "google"
   },
   {
-   "title": "Oilers Haven’t Gained Anything From Trading Sam O’Reilly for Isaac Howard",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQV3lBLUFRTm9ST2l6dzF6NHhVZ3MtOTBMS3hDOGFEQmhJZ0pLSFMwYkQ2dFkzaUNIenE5N0pHSk5vRjRwVnJBeFhrcGNyOTNHc3gxQ0lmX3hTZ1ZSVDBCNW9DdHgyWDA0MnVNb29LTlRMcDFKNGtQZE5wZGhDOXpwMUpmeUJuVVdsOEtDTG5mMHlsdnBHcVZfZ2tmV1J5MlJ5ei0w?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-20T16:05:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Two Oilers streaks snapped in stingy loss to Lightning",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObVJQRy03bmNpZWRqbEF0ZERnZ3JpRmpqYng1TWNNY2VXeUY4cTh1YTdTV3lMOWJXWDlvNjdHcW1RM3Eya2gwd3c4Sm1hYS04Y1h1UmR0VzZLMTZVbm5jNHRfcUk3WGpjY1k4T3oxeWk0LVVyYkEwTllsbkI5UDFOYjRJQVRTQVc4V283Qmt2bk43aTBuNVRv?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-20T15:46:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "State Your Case: Hurricanes or Oilers as top team",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbm1nR2gtNy02VHI3TDZldnI4UjJsdTFHendaOXUycnlEZUtCbC1ldGF5cHJXMVJsTUxaTlY4a01yUDRhLXJGWWNldTkydkNZRnBoSHc5U09CbVZWMGlLS0xwT2EtMTZ5TnVPckE2anJRNl9YdDNTejBkaHMwVkE5T1l6OEpXZERtX1dNRkhWRHd6V21KNnREb1Y2eXo4ZWM?oc=5",
+   "url": "https://www.nhl.com/news/state-your-case-carolina-hurricanes-or-edmonton-oilers-as-top-team-in-nhl",
    "source": "NHL.com",
-   "published": "2026-11-20T15:26:28Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "3 Takeaways From Oilers’ 3-1 Loss to Lightning",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONjh5QXBMZ21LeWdPWXhqVTRYYl9NcW03R2NHVTFmcXo1aUZURFFtYlFqTnZLbURnWmlkb09TY2hvTlJTS2RhakpZZzNhaFpBZ0dfMWNPalZrUmVtLTlwazR5ZDhSY0lPUTlBNm9MR3VhMFVMS1Z3VlNOTTdHME5qOQ?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-20T15:15:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "A message for all adults who took off work for the release of GTA VI",
-   "url": "https://www.sportsnet.ca/nfl/video/a-message-for-all-adults-who-took-off-work-for-the-release-of-gta-vi/",
-   "source": "Sportsnet",
-   "published": "2026-11-20T12:40:55Z",
-   "snippet": "Tim Micallef runs through the latest edition of Central Sixty, featuring a grocery store in Alberta building Connor McDavid and Leon Draisaitl out of pop cases, and for a look at how the…"
+   "published": "2026-11-20T15:24:13.238Z",
+   "snippet": "The defending Stanley Cup champion Carolina Hurricanes host the Edmonton Oilers at Lenovo Center on Saturday (1 p.m. ET; HHN, CARNHL, NHLN, SNP, SNW, SNO). It should be quite the tilt,…"
   },
   {
    "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026-x6012",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026",
+   "source": "NHL.com",
    "published": "2026-11-20T05:09:00Z",
    "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
   },
@@ -265,18 +265,18 @@
    "snippet": "“He’s gaining valuable experience ... this call-up should do wonders for him. His skating will improve when he gets stronger,” said Tampa Bay coach Jon Cooper"
   },
   {
-   "title": "'He's not going to get cheaper': Oilers should push to extend top goalie, stats expert says",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-devon-levi-new-contract-steve-valiquette",
-   "source": "Edmonton Journal",
-   "published": "2026-11-18T17:55:09Z",
-   "snippet": ""
-  },
-  {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
+   "source": "NHL.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
+  },
+  {
+   "title": "QUICK RECAP: Oilers 5, Panthers 2",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-panthers-11-17-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-18T00:03:57.611Z",
+   "snippet": "SUNRISE, FL – Grand Theft Auto VI in a row. Vasily Podkolzin, Kasperi Kapanen and Leon Draisaitl produced three points each, Connor McDavid had multiple points, and goalie Devon Levi made…"
   }
  ]
 }
