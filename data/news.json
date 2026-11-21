@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T22:17:32Z",
+ "updated": "2026-11-21T23:17:50Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -9,10 +9,65 @@
  "errors": [],
  "items": [
   {
+   "title": "Hurricanes score five in second period in win against Oilers",
+   "url": "https://www.nhl.com/news/edmonton-oilers-carolina-hurricanes-game-recap-november-21-2026",
+   "source": "NHL.com",
+   "published": "2026-11-21T23:05:00Z",
+   "snippet": "RALEIGH, N.C. -- The Carolina Hurricanes scored five goals in the second period of a 7-4 win against the Edmonton Oilers at Lenovo Center on Saturday."
+  },
+  {
+   "title": "Zach Hyman leaves the game, Owen Michaels, and reflecting on Taylor Hall’s 1000th NHL game",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbUcwR3lpdEJBeDIxTmhldzRvYlhvMTd5RnVSS3RqdUhyUGNqZWJNZV94LVZtQ2xSMmdaczlZbGdBd0dyWTdYaW1vQUdybVVLbTRKZ3dfaXdEQ2JBUXhvU0lzRkUxSmNyUk1jM2VCekxaUlJTekJSX2szazdENjRzUkdYQTZHUmUwanJZZVFaRGw4dDlFMjU0SDZrNlJRWG1xNmtVYXg1bzdIRFZDUHBPQQ?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-21T23:03:30Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "OILERS TODAY | Post-Game at CAR",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMElGbDN1OWlwS00wUEt4M0dfUWtjbElrU1UyYW1Xb1RadmVrUmJHMTdRbkpXdFUtdUtFUUl5b1dsQ1g0ZllhUVR6ZXlYd1U3RlVuWTAwRHcyUFlrdkhBeUlURWtRU3QwNkFBWUFMNVZDTnFseldQaHhzcWRJTmc2ODF3?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-21T22:41:42Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Carolina Hurricanes use five-goal second period to shoot down Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZlFPZlZrVXEzZUp3ZmkzVTFkUVA0WHJRNFZxdHpPczJ5SXhqNnc4elJ1RGVqY3N0UXgxWE1IeUJ1VVpSWXk3YUJYMXVyWUhJek15M3QxOFZZQV85VjVjdXdOTDBQSHpMR3JrdFBIRlRnV21PRzVZbHFWb0c2RkFoX3JXdzNUQUhf0gGIAUFVX3lxTFBrNlNaNm1kTDVXajB5Q3hyQWRfbzhYQ0NvUkNMbzdFN0tWWnFTSGV2UjFLcUk3dmkza0YwNmhGWEhkUE95Z0pQWHktY3ZwYnpEbjEwVFhJeVREcm93eldNd1l2QWZxekJMUEFRa0EtZDBGS24wel9weGdGcmdSQTlHTlYxSzBUXzc?oc=5",
+   "source": "Raleigh News & Observer",
+   "published": "2026-11-21T22:41:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers get reality check in loss to defending champion Hurricanes",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd0VhRDg3eHA1WmoyU2NJZGd6UnVnVHlDUEp3Yjh6cjlRdEF5bDF5WUZ4X1RGZW41TkhRSWpjbjRma1ZQSERQSjF4Nnhydm5RWXV6RnVGYS1nY1ZiT2FXYzV2bksxOXg1Y2gxWkNtaW0yaHRYMlNxbnVuMDBibmd2dVpYT3pfYy1PNWxUZDhVYkxvQnVRWmlrNWg2d280MGZ0NElfVHZn?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-21T22:33:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers vs. Carolina Hurricanes | NHL HIGHLIGHTS",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS1FOYlY2MXZySFlPUi1oNDVZb2xsaFQtR20zM2NCaWg0V1k4WHppbmxESHc2OWFtdTB1MkFwWVhEQklMc0htXzVTV0xjX3FjbWtFdmdtdU93bzNCY3lJZUNrcy1xRk56MGQ1eG44Qk8wR2d3U0k5WEJQMU9SSV9LaGhUb0J0X2FPZGRfSVRxR3g5dDg?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-21T22:25:04Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Babcock after Oilers' loss: Hurricanes had crowbars, we had noodles",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXZIN0Y5Y2FhdGZpdGotbFluOHFIM0NMZ3V3SFEyNjZRcTRXQTJZQXVLWEM0d1p0QVhSTTRQMEk3Qm1wbGc2dlRoZVk4eXlTa3M2SzMwdlhBVkpfSTNMa1I2Mmw4d3hGdjRlNEc4UDFIanEyX3JtNjd0em94ajFvNy1EVE15REc4aDFMd1ltY3JyV0FMSnNKSHZRbWFPWjJYaktBY3hWVEoxdw?oc=5",
    "source": "theScore",
    "published": "2026-11-21T22:09:32Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Hurricanes surge past Oilers for 7-4 victory",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTkpfOW1Jc2JobHY1R2plTEowbHVUZWRwUURsLVFmbDZVMk4xV0cxY24zZWZWVnNreVpxY2RwTWxwUGhRN2t5QkpTZGVHTk90RTQxOUVpa3h0THAxUUhiaHAxUDZUc0dhZnd0RGdpSnFiU0hrUzRqZUFMTXlYb2VvXzl5ZlFtVVpnLVlsLThfa3Vydw?oc=5",
+   "source": "Castanet",
+   "published": "2026-11-21T22:08:23Z",
    "snippet": "",
    "via": "google"
   },
@@ -33,22 +88,6 @@
    "via": "google"
   },
   {
-   "title": "Hurricanes surge past Oilers for 7-4 victory",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN1RnVTlNYzZsMks1MUt6TXMtRl93UEl1M0xpSGhCb2JfQ0t4TGJqSk8zR1FYb0hFem1JbVQ3UTM2Y2U2Ny1zU29mZG5Ra29mSjVxSVBTMTlqSlY0bGR0WHhnSDZpODhTLS05b3R6UjF0enB2ZjU2X2xJaS1IUFc0VUtJNVVOUHp2c3E1b2ktRWlydGpnSVY1QjQ0Q29WOHVuYkxjUzVzODRfM1ZqcFc3WkdyajlMQmFZdko3YlA4eXpjUWxMYzNpNQ?oc=5",
-   "source": "Winnipeg Sun",
-   "published": "2026-11-21T21:53:55Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Hurricanes down Oilers in an insane game, 7-4",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOC1YOUJTbUVWQkVxaHdUTUR5M0x0WUxXc2hTbUNhOUZPQWlDdFB6a3N3OC03UUlMZDZ4YTNOMmRYZnJSbWhQN2JybnBsN3VTWVRPQmFUS2Z0aWFLN2lwak5ldUpuRlhnem9XaDNCaFUteVFUd0RHTzFfakhEYUVIZDFob2l2WWNyRjFj?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-21T21:44:51Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "QUICK RECAP: Hurricanes 7, Oilers 4 | Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JZkVoRHM4Q3dUOUdXdm1TZnVreHhnYUhjRmJob2dUY1VIeUI1NEtlTjVPdWpYNEJWekVmTk1VSmQ5S18zei12eEE4eHUxV1h0RHc5OVlnYW5XSVVoS1ZycHdad0lzRjRfX3RwSEFaSkowMFVOSjNHNGd3MnRaMW8?oc=5",
    "source": "NHL.com",
@@ -65,26 +104,18 @@
    "via": "google"
   },
   {
-   "title": "Hurricanes 7-4 Oilers: Shots and power play rule",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLU1lR05nTExDWTZpNGdzdTZndnB0SjVVQlZ6VmhRZmkxSXRBQ2d5dFNubW9GSk81cEN3S2FoQV9wOVlTOXBldGV3RkktUlVfR0ZoUi1Jd0s5Um4zbS1UUnlJeE9jVnB5UndTdThoM3J3S2N6LW9EcTc4V0NrTG1yTmZ0N0Q3N3ZDS1l2cU1ZUXBPeUFGeWFDak1XQU1lc202RVpkUzFGY2NrdkUw?oc=5",
-   "source": "Sofascore",
-   "published": "2026-11-21T21:24:11Z",
+   "title": "Oilers’ Zach Hyman exits against Hurricanes due to illness",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxON2E3dkpvYlNRZ2ZzR1dHam5FeUlRempvd0tjT25RQUloeTlXS1p1c1Ztbk9CV3A3bEg4NkpJbnZKYnFlWEtRN1c5NTYtaEo0cWJxbVFFZzljN3FKejBVSlBhMGJzVENOOWFtTW1wTVQwWVNXUC1kUXJtNWhta0EyYTM3NWRzQkcwVGFRMmUxcnVUVUQ4dkE?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-21T21:18:41Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Oilers' Zach Hyman exits against Hurricanes due to migraine",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONk5Wajl6X05nOERNQXJCQlJUWURRX0wwSW9WN21VWmFVc3VOLUpDRUgyaUYwcTQ0ZjlScW1mTFBCZ05FTDRGQjJwbEZFT2dUS1Q5WUo0dGhYTVZlMzctVXFPU0gtNDZSS1BrU01SNXp5X1NEdjl0R3Y4X1pIblVfVjhJVTlqTzd2bzMzREMwY1NsR1JHTEZsOFpjNA?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-21T21:18:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Hurricanes score five in second period in win against Oilers",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMzA3ZG5kaDhSQ09DdGVPVXR3aGxlN2pYSmsyc3BpUVVlODVLSDMtVkRTMkJSYkxsUTRQNmJ2ZjBmaHhjT2J5NHRWOE9xZVdLV3dMaGZvUmdrSDlBYzI2MThWWEhEZHFjTVhkbGpiNDVtaVBHeGdIcGlKa3pDa1RLUEJ1ZXRjUU9MYzF5clpxdUtDdw?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-21T21:15:23Z",
+   "title": "NHL: Oilers 4, Hurricanes 7",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9pYkl5Tlp2YW0xWUhUd3g2QmU4YjVQWFI5YlVjQXY0dXgwY29STVgzY0hGZ3dOYThTckJ3N3lYVUFualNTNHhsRzNRQVRyWDJXekk0bDR3bkowVG5PSVk0MmpXRTVRTVFhR1ozN3d3ZFJBaEJ5?oc=5",
+   "source": "TSN",
+   "published": "2026-11-21T21:18:15Z",
    "snippet": "",
    "via": "google"
   },
@@ -143,14 +174,6 @@
    "snippet": "Watch as the Edmonton Oilers pots a zany goal on the penalty kill, as the Carolina Hurricanes’ Jackson Blake doesn’t get the call at one end, leading to a wild back-and-forth sequence that…"
   },
   {
-   "title": "Oilers at Hurricanes (Nov. 21)",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOelJzeFZwa3JFUlB5WVo2VEtjZ2xOUGNVbm43c3lJd0I5bGRKX3dLc2d0aE9BUzlSMmd4WjNjNkV6UVZrM2NncC14alNudmFqelNQak82dzNoUy1Eb2ZUbHI5SVFjQWZ2bkpYM2paTzVQa1MtUHNZckFlRzBiTlMxLQ?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-21T19:50:28Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Hurricanes’ Walker beats Levi from near centre ice off neutral-zone draw",
    "url": "https://www.sportsnet.ca/nhl/video/hurricanes-walker-beats-levi-from-near-centre-ice-off-neutral-zone-draw/",
    "source": "Sportsnet",
@@ -165,19 +188,11 @@
    "snippet": "Watch as Connor McDavid goes coast-to-coast and around the net on the power-play, forcing Hurricanes defenders to collapse, then finds co-star Leon Draisatil who scores a one-timer goal to…"
   },
   {
-   "title": "Player grades: Edmonton Oilers lose to Carolina Hurricanes in wild and woolly weirdo of a game",
+   "title": "Player grades: Edmonton Oilers whooped in wild and woolly weirdo of a game",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-carolina-hurricanes-score-player-grades",
    "source": "Edmonton Journal",
    "published": "2026-11-21T19:03:28Z",
    "snippet": ""
-  },
-  {
-   "title": "Edmonton Oilers Carolina Hurricanes score player grades",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYUtYXzcwRWZHN2FUUTFqVmx3aVdKc0N2VDJuQmRjWmt2S1ktSU4yNDFWbm54UTgyVW9fbkExbDRRcy1jSEtxZWVEdlpaSzcxWjE3ZXU0Ry16QWZ4c25STmtGNFhsU0JsamM3U0Y3NjJZNVVOWDlxR2ZqdnRUUGxXcHcwSzdsRXFBYXc?oc=5",
-   "source": "Yahoo News Canada",
-   "published": "2026-11-21T19:03:28Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Oilers’ Michaels snipes opening goal vs. Hurricanes in front of family",
@@ -185,14 +200,6 @@
    "source": "Sportsnet",
    "published": "2026-11-21T18:59:54Z",
    "snippet": "Watch as Oilers forward Owen Michaels scores his third goal of the year and first in 22 games to open the scoring vs. the Hurricanes in front of several family members and friends."
-  },
-  {
-   "title": "LIVE UPDATES: Oilers vs Hurricanes LIVE FREE UPDATE SCORE",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT05fSG1Dd3U0WWZzaElpeXJGQjBEVXpGaXJSbHpYWmdIZTFFQ0Y4RzdjNUI0Z3FrLU9TYTdxTDdwbXQwYlZHTWxtb0gxM1ZiQ0ZobmI0NFhvVnl2RzJIOS10a093dV9lWW9lanF1UUFydHhhN0ZhWlFwV2FpNnN0Z3BlUzdXUkZUaG9BSDVuNGFTX3BULUxjcFg2M19Ia1BuelMxcjlB?oc=5",
-   "source": "FlamboroughToday.com",
-   "published": "2026-11-21T18:34:38Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Hurricanes’ Hall receives love from fans, silver stick for 1,000th NHL game",
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-20T18:51:41Z",
    "snippet": ""
-  },
-  {
-   "title": "State Your Case: Hurricanes or Oilers as top team",
-   "url": "https://www.nhl.com/news/state-your-case-carolina-hurricanes-or-edmonton-oilers-as-top-team-in-nhl",
-   "source": "NHL.com",
-   "published": "2026-11-20T15:24:13.238Z",
-   "snippet": "The defending Stanley Cup champion Carolina Hurricanes host the Edmonton Oilers at Lenovo Center on Saturday (1 p.m. ET; HHN, CARNHL, NHLN, SNP, SNW, SNO). It should be quite the tilt,…"
   }
  ]
 }
