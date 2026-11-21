@@ -1,6 +1,30 @@
 {
-  "updated": "2026-11-21T18:55:00+00:00",
+  "updated": "2026-11-21T21:34:13+00:00",
   "next": {
+    "id": 2026020375,
+    "gameType": 2,
+    "startTimeUTC": "2026-11-23T00:00:00Z",
+    "dateMT": "Sun Nov 22",
+    "timeMT": "6 PM MT",
+    "timePT": "5 PM PT",
+    "venue": "Enterprise Center",
+    "state": "FUT",
+    "scheduleState": "OK",
+    "lastPeriod": null,
+    "away": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "place": "Edmonton",
+      "score": null
+    },
+    "home": {
+      "abbrev": "STL",
+      "name": "Blues",
+      "place": "St. Louis",
+      "score": null
+    }
+  },
+  "last": {
     "id": 2026020359,
     "gameType": 2,
     "startTimeUTC": "2026-11-21T18:00:00Z",
@@ -8,55 +32,31 @@
     "timeMT": "12 PM MT",
     "timePT": "11 AM PT",
     "venue": "Lenovo Center",
-    "state": "LIVE",
-    "scheduleState": "OK",
-    "lastPeriod": null,
-    "away": {
-      "abbrev": "EDM",
-      "name": "Oilers",
-      "place": "Edmonton",
-      "score": 2
-    },
-    "home": {
-      "abbrev": "CAR",
-      "name": "Hurricanes",
-      "place": "Carolina",
-      "score": 0
-    }
-  },
-  "last": {
-    "id": 2026020349,
-    "gameType": 2,
-    "startTimeUTC": "2026-11-20T00:30:00Z",
-    "dateMT": "Thu Nov 19",
-    "timeMT": "6:30 PM MT",
-    "timePT": "5:30 PM PT",
-    "venue": "Benchmark International Arena",
-    "state": "OFF",
+    "state": "FINAL",
     "scheduleState": "OK",
     "lastPeriod": "REG",
     "away": {
       "abbrev": "EDM",
       "name": "Oilers",
       "place": "Edmonton",
-      "score": 1
+      "score": 4
     },
     "home": {
-      "abbrev": "TBL",
-      "name": "Lightning",
-      "place": "Tampa Bay",
-      "score": 3
+      "abbrev": "CAR",
+      "name": "Hurricanes",
+      "place": "Carolina",
+      "score": 7
     }
   },
   "standings": {
     "wins": 17,
-    "losses": 4,
+    "losses": 5,
     "otLosses": 3,
     "points": 37,
-    "gamesPlayed": 24,
+    "gamesPlayed": 25,
     "divisionSequence": 1,
     "divisionName": "Pacific",
     "streakCode": "L",
-    "streakCount": 1
+    "streakCount": 2
   }
 }

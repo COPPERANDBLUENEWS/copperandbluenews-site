@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:18:55Z",
+ "updated": "2026-11-21T21:34:22Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,30 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Hurricanes 7-4 Oilers: Shots and power play rule",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLU1lR05nTExDWTZpNGdzdTZndnB0SjVVQlZ6VmhRZmkxSXRBQ2d5dFNubW9GSk81cEN3S2FoQV9wOVlTOXBldGV3RkktUlVfR0ZoUi1Jd0s5Um4zbS1UUnlJeE9jVnB5UndTdThoM3J3S2N6LW9EcTc4V0NrTG1yTmZ0N0Q3N3ZDS1l2cU1ZUXBPeUFGeWFDak1XQU1lc202RVpkUzFGY2NrdkUw?oc=5",
+   "source": "Sofascore",
+   "published": "2026-11-21T21:24:11Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Recap: Canes Earn Roller Coaster Victory Over Oilers",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRUpYckNfV29CQUl0OXIwVWNOdjBiRTJ5ZG9NYmszTjBCR3ZZQmhvb0FjREY3ZmVBNm00VWtHeUJ0Rm4zSlgySmxUd3RjLTEtZ1hDWHpuSUtnWlJaR2NRSkFLd3F0MmpfOXNMdGhGODNpU09oVUZfMWJyM3h5bktEREk3U2Rkc3MwbzNWTWZwb3E?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-21T21:22:55Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Hurricanes rally to outscore Oilers",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOExCcnMwMUJYUEtRdU15VzRCMmdPZkE3TktzVF9BcVh5dVY1cWR4alEwZkdIZk5HZFB1VXJKTERyR1NlVjdRXy00M3doWW1KS3ZfWm53OE9pM0RCcGwyVmtTcWlITnVVb2cxMGp2UmpXRnUtSkNWN040aWhyZURZVk95RVhucTU5LTl2eA?oc=5",
+   "source": "Reuters",
+   "published": "2026-11-21T21:21:53Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Hurricanes score five in second period in win against Oilers",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMzA3ZG5kaDhSQ09DdGVPVXR3aGxlN2pYSmsyc3BpUVVlODVLSDMtVkRTMkJSYkxsUTRQNmJ2ZjBmaHhjT2J5NHRWOE9xZVdLV3dMaGZvUmdrSDlBYzI2MThWWEhEZHFjTVhkbGpiNDVtaVBHeGdIcGlKa3pDa1RLUEJ1ZXRjUU9MYzF5clpxdUtDdw?oc=5",
@@ -49,7 +73,7 @@
    "via": "google"
   },
   {
-   "title": "Oilers’ Zach Hyman exits against Hurricanes due to illness",
+   "title": "Oilers’ Zach Hyman exits against Hurricanes due to migraine",
    "url": "https://www.sportsnet.ca/nhl/article/oilers-zach-hyman-exits-against-hurricanes-due-to-illness/",
    "source": "Sportsnet",
    "published": "2026-11-21T20:31:40Z",
@@ -60,6 +84,14 @@
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aSTQ4endzbkxfMU1qYURoY1pfeXZfWjM1N1BvaGJROXJtUkl1QkdQRGRVVHNNQXE4dWdHTDg3TkdMemhmNTMwR0tSVmI1dk5MY3BwaW1VSDBlUjA1QmVjS0MxeTNVY0Q3YkZDT0ZfbVM?oc=5",
    "source": "CBS Sports",
    "published": "2026-11-21T20:26:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Instant Reaction: Oilers blow 3-1 lead, fall 7-4 to Hurricanes in high-scoring affair",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVkZUTU1NOVZxRW5hX1ZxMlBHYkdBblVaMkxqYlk2bmJEVEktcy1GOGJSVURiUXoyV3YxZW9hMmNZR0htLVRmd1M2RG1hZlJKNU5WNkU1T1F3WE5wMjZqS2Y0RkZBZWNqRjlhQk1Rajd2QzFrbG95LWpCMnQtLXpXcWUwc3JwZ0tJWGZEOFVqOUY5QnZ2NmNFZUpab2Y2VDlKMTR3a3lmWXJrQQ?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-21T20:22:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -75,14 +107,6 @@
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOelJzeFZwa3JFUlB5WVo2VEtjZ2xOUGNVbm43c3lJd0I5bGRKX3dLc2d0aE9BUzlSMmd4WjNjNkV6UVZrM2NncC14alNudmFqelNQak82dzNoUy1Eb2ZUbHI5SVFjQWZ2bkpYM2paTzVQa1MtUHNZckFlRzBiTlMxLQ?oc=5",
    "source": "NHL.com",
    "published": "2026-11-21T19:50:28Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "EDM@CAR: Draisaitl scores PPG against Pyotr Kochetkov",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRG9VWHRPY0VhTU9HdUZwbldPc1NYZncxTVJRSXY3d3VSOEcwV0tNLXhxc3BvRTFZWElCelBWa0x2SHBodU8wYTZXdkIxbExYbElxQlRGcTlTZlBrWGlKdWxrU1R3b2ZXVklsN3dlNEZaNjc2dkdscHFiQ1JZWFpHZTBaWHc3b29hS1hGMzNrdmFXUDVyLUd1VEdMdEVlOE94?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-21T19:44:19Z",
    "snippet": "",
    "via": "google"
   },
@@ -185,35 +209,11 @@
    "via": "google"
   },
   {
-   "title": "[Free]*Carolina Hurricanes vs Edmonton Oilers Live 𝐒𝐭𝐫𝐞𝐚𝐦𝐬 ON National Hockey League Game",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUzZkZjZKaUVnSFQtNzZpVzhhOWdGcjAxSTF4RXZzNFpRM083bWgwT0NLbnRtUzQwSmJpbWJNQUVkVWxuU2xRM1lUdVR4bUx6VGREb0ZVUTVYTXBld0hwYzlTWTVwMFROUldlOW9iZFY2UWE4VkIyaF9zZThfaWhNSnh3?oc=5",
-   "source": "FlamboroughToday.com",
-   "published": "2026-11-21T18:00:25Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers on Sportsnet: Edmonton vs. Carolina",
    "url": "https://www.sportsnet.ca/hockey/nhl/games/ec95f076-2c8a-4f52-939b-8e51b57f1167",
    "source": "Sportsnet",
    "published": "2026-11-21T17:45:14Z",
    "snippet": "The Edmonton Oilers look to bounce back against the defending champion Carolina Hurricanes in this 2006 Final rematch. Check out the action on Sportsnet+ and our live tracker at 1 p.m. ET /…"
-  },
-  {
-   "title": "Edmonton Oilers NHL Line Combinations",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-21T17:39:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Linked to Red Wings RFA Holdout Simon Edvinsson",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzbEVZQjQ0VXZKaGRONzVtRS1DSkdVLTA2c3NJQjlIWThkaEpGT0IzS3VKSm9XTm5tamNlMnJoLTNEc1RFZWxOSEZBalBYNEpmOFJCVm43X3JCeUNORFBoMFhsVUJCMTE3THZrcjF4NmNGZzliSkVnbw?oc=5",
-   "source": "NHL Trade Rumors",
-   "published": "2026-11-21T17:35:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "‘The perfect situation’: How Babcock has turned Oilers into Cup contenders",
