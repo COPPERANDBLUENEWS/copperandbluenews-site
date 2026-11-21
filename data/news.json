@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-21T05:34:19Z",
+ "updated": "2026-11-21T06:36:27Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (90)"
+  "Google News (91)"
  ],
  "errors": [],
  "items": [
@@ -12,7 +12,23 @@
    "title": "Preview: November 21 vs. Edmonton",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhbGx4UUU5N2YzVEhzTG9JQlI0b2tsWUhPb25mek04eWRzZ3loYnV4Y0Q1bVM3SURTMnFBUEhIY0VuQjBJUDhvdnhlMk5Ha2RraF9YZXBZRmFPZnY3dUs3WE0yVGNXZWxoenpaUmRaNlRLdnRBZHc?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-21T04:48:55Z",
+   "published": "2026-11-21T05:15:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Watch Edmonton Oilers at Seattle Kraken",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBHVUZDVFItUGlLOUdhOVJEbVROamxYU2JtMk9XSU1DU1NSRG91azZtM0VMUVpHeUFQdTNQOEY4YktFaDdmamF1dzh0V2x3b3pDR2stWEVWaXkwMXc0QlBZ?oc=5",
+   "source": "Fubo",
+   "published": "2026-11-21T04:57:01Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - Carolina Hurricanes - Nov 21, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qWmN5VmJFbjZldmF2RGZ6bUg1eG9TempMTkFGYXBTYTlaVDRIVWJBSnR4WXBaQnZrZ0F6RThySEx1TkNHZy1SdEtSZ3QxeFhYTmZPYnF2bmZ4eV9iekZkcEZBZHBZd3NoWTNHYzI2UjE?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-21T02:57:05Z",
    "snippet": "",
    "via": "google"
   },
@@ -46,14 +62,6 @@
    "source": "Sportsnet",
    "published": "2026-11-20T23:23:20Z",
    "snippet": "Former NHL GM Doug MacLean joins The Real Kyper and Bourne Show and discusses how Mike Babcock has the Oilers looking like Stanley Cup contenders again, and why he is a great fit behind the…"
-  },
-  {
-   "title": "Edmonton Oilers - St. Louis Blues - Nov 22, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hd1I1MU9ZSjhLSXFpQjZhRF9qNGo5bEFvWjlLbm5vZkx3R2V1RFJWZmxWZ00xeVZwRDhsT00wV3BsVGw1Q1ZEWTU2ZmhzN0lyN0FyTVlQUzlvYU5DaGpnTjlnYndvc25YNjdJTkNzMm4?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-20T23:01:08Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Could McDavid, Draisaitl both be Hart finalists?",
@@ -162,14 +170,6 @@
    "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOLXlSOFRiRXVhOW1tRV93bUpzeWstcEJBQk9lVTZxZlhlT0s3Q3I0YmZCNEhyZW1uZFBnRzNDbU5sd1FZWVRBSFFpLUVsWFZmLVFfcGtxT21kYzdDY3JON20wbF9TVmd5czhVUDR3M3JyUUVuMHEzUXJPcGFOWU9lOVkzb29UUHNTWDdNMzQ0TkdENklUZGZldzJXX1NCOXZlRGw3Z2ZDYzBvcEZpYW1kTjlqTG5iazdQZmRCYXVIT042eWVIQkt0MVRzb1ZRbDh6X1lWbWZJbkthZm1XTlR0RHhMZXR6Q1Bod2V1bEFORm9va2tXSGtGZmExM3JyaklJS011NnFZd0Jsckd4X0w4VzlEWGQ2Yzk2NUlNelZfYUdwRmJTWnVybTRCNlhIVUk?oc=5",
    "source": "13newsnow.com",
    "published": "2026-11-20T20:56:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Nugent-Hopkins meets with doctors after missing three games",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOUFiQUZXakJ4bFJoQkVRRXFTSkhSRGxuUlFoVHFkY3BrdGhjaHI5NFBrRVBkRkoxVVMyWXFQdEVvZFpBbF9UeEtsTVd0bTJPU0tqVWtxUVFuaTRxTUFZQ3JoTWxRZFpid09wenZZWWpmNjZFN0ZMRE1wejU2Mzh0VXQxRGRsYlVja3Y3cDFjYWlsNDFsMllkMmhB?oc=5",
-   "source": "Hockey.com",
-   "published": "2026-11-20T20:50:18Z",
    "snippet": "",
    "via": "google"
   },
