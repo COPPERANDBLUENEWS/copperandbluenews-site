@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-21T13:02:12Z",
+ "updated": "2026-11-21T13:39:56Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (93)"
+  "Google News (94)"
  ],
  "errors": [],
  "items": [
@@ -13,6 +13,22 @@
    "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1odFRkN0hBaHZld2dtM3BHaENxcG5xMnNSV2sxRnkxVmlnNmJETllkMGhtUEhDbm1EZ1ZF?oc=5",
    "source": "Howl.Link",
    "published": "2026-11-21T12:12:24Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers @ Carolina Hurricanes: Live game updates, stats, play-by-play",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWG1EejVnWElGY01VUkljazBjMjVyakxDVTFjSU9MVU5CcHY2U05kTmNUNFpVdWxqWkJoU0IwSzJqb1hCOU8xVjB6a0dSNF8tYkxuN2pNRjE3d2t1bXVnYXZFWjM4RGFOVjh5MEJYTDhlT0IyMFZFN2MyNUJTRGVoa1ZB?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-21T12:12:18Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Pre-Scout: Oilers traversing storms to meet the Hurricanes",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZkJLOGVPb2ZJVXg5dUlMUEdENHJWRXBUWjZ0QUJmQmhid2IxMVJmX2NCVE14UGY4al9IV3N6VnRJZ2gtQ0oxa2hkaTJZcWlUSUpwcUdndTRuSi1wQmRaeTZvam5lOHJxWklrcGxGck9mSW5CcDRrS1ItOGJ6eUdQN0tiWEc3cTNJcjJ4dEgzcGNNRW9xZ0pGdGpZdGxlUlBD?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-21T12:00:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -144,20 +160,11 @@
    "via": "google"
   },
   {
-   "title": "Oilers popping off on the ice and in the store, through pop box art",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOak5QX09jTzV1RHJteTdHOXJ0OGJXTlAwTkFpbk8ycHhyWk9YbWFveWZkcUpoX29LRWVJemNVV284WkdHN1dHb0NuS1FCdFJ6aHBaRlFBaTZHUGFxSzBSYU1zWkNxV2pyek9NQWdHWkNFLVpraEM3ak9HS1l1c3VIbEtDbWc1amJnSDF2LVZKWjNpVzZQWndyNkticWNHYmJXZDhGaDN1c0VjaGM?oc=5",
-   "source": "CTV News",
-   "published": "2026-11-20T22:20:38Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers primed for 'measuring stick' vs. Hurricanes in division-leader matchup",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcmJWQ0YtVlZzSW43Q2xaWmlmQTBPM081NjZxbTFsUGRiZHVDTE03N2Ntd0xoamFZb2lXN1hna3pLcnVwSUFMQ1pVWmd6OVBQUHdZUGkycTNBSUkzR2xhRlN5aEdTVEJrYXRLSG05UENna1I0VWRzZnQ4cGZPbEhwMlZYVURuNS1WQnQ0c0RXZ2pxSWJNVlE?oc=5",
+   "url": "https://www.nhl.com/news/edmonton-oilers-carolina-hurricanes-measuring-stick-game-lookahead",
    "source": "NHL.com",
-   "published": "2026-11-20T22:15:09Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-20T22:02:39.667Z",
+   "snippet": "The Edmonton Oilers want what the Carolina Hurricanes have, and will get a chance to see where they stand against the defending Stanley Cup champions. The Oilers travel to face the…"
   },
   {
    "title": "Edmonton Oil Kings acquire St. Albert-born Ty Meunier",
@@ -210,15 +217,15 @@
   },
   {
    "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026-x6012",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026",
+   "source": "NHL.com",
    "published": "2026-11-20T05:09:00Z",
    "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
   },
   {
    "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://www.nhl.com/oilers/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers-x2007",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
+   "source": "NHL.com",
    "published": "2026-11-20T05:00:00Z",
    "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
   },
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-19T19:24:44Z",
    "snippet": "'That's our whole game plan, is just be hard to play against'"
-  },
-  {
-   "title": "Oilers at Lightning projected lineups",
-   "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-preview-november-19-2026",
-   "source": "NHL.com",
-   "published": "2026-11-19T17:53:00Z",
-   "snippet": "OILERS (17-3-3) at LIGHTNING (14-5-2) 7:30 p.m. ET; Disney+, HULU, ESPN+, SNW Oilers projected lineup Colton Dach -- Connor McDavid -- Zach Hyman Vasily Podkolzin -- Leon Draisaitl --…"
   }
  ]
 }
