@@ -1,13 +1,35 @@
 {
- "updated": "2026-11-21T19:28:21Z",
+ "updated": "2026-11-21T20:20:58Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (5)",
-  "Google News (82)"
+  "Sportsnet (7)",
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers score wild short-handed goal after Hurricanes don’t get whistle",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-score-wild-shorthanded-goal-after-hurricanes-dont-get-whistle/",
+   "source": "Sportsnet",
+   "published": "2026-11-21T19:51:51Z",
+   "snippet": "Watch as the Edmonton Oilers pots a zany goal on the penalty kill, as the Carolina Hurricanes’ Jackson Blake doesn’t get the call at one end, leading to a wild back-and-forth sequence that…"
+  },
+  {
+   "title": "EDM@CAR: Draisaitl scores PPG against Pyotr Kochetkov",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWVpMVENKelNkNlM2VHRFaUtVUy1vWEQtWVhJbXhtNDNVYTg4V2hPY2VhbmNqVjdIOHdoakYwMW5VUnE2Z2JldTFaU0lKS0NkVkJiZWZjMGlLbG5JUF83WWlvYWk5UXpFWENHNktrVG5hNGZ6WmFnbmRMUjlrbHo1TmRjVEZxRm00YW9PN1JfRTJabUM5bWJVeHllQmVzYjZvWUFRc0RPZXhIS2ctSWFRaTJlYU1uS0k?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-21T19:44:20Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Hurricanes’ Walker beats Levi from near centre ice off neutral-zone draw",
+   "url": "https://www.sportsnet.ca/nhl/video/hurricanes-walker-beats-levi-from-near-centre-ice-off-neutral-zone-draw/",
+   "source": "Sportsnet",
+   "published": "2026-11-21T19:32:56Z",
+   "snippet": "Watch as Hurricanes defenceman Sean Walker fires the puck on Devon Levi off the neutral zone face-off from just in front of the centre ice line, beating the Oilers netminder."
+  },
   {
    "title": "Draisaitl scores on one-timer after McDavid goes coast-to-coast and around",
    "url": "https://www.sportsnet.ca/nhl/video/draisaitl-scores-on-one-timer-after-mcdavid-goes-coast-to-coast-and-around/",
@@ -16,11 +38,19 @@
    "snippet": "Watch as Connor McDavid goes coast-to-coast and around the net on the power-play, forcing Hurricanes defenders to collapse, then finds co-star Leon Draisatil who scores a one-timer goal to…"
   },
   {
-   "title": "Edmonton Oilers Carolina Hurricanes score player grades",
+   "title": "Player grades: In wild, woolly and weird game, Carolina Hurricanes edge Edmonton Oilers",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-carolina-hurricanes-score-player-grades",
    "source": "Edmonton Journal",
    "published": "2026-11-21T19:03:28Z",
    "snippet": ""
+  },
+  {
+   "title": "Edmonton Oilers Carolina Hurricanes score player grades",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYUtYXzcwRWZHN2FUUTFqVmx3aVdKc0N2VDJuQmRjWmt2S1ktSU4yNDFWbm54UTgyVW9fbkExbDRRcy1jSEtxZWVEdlpaSzcxWjE3ZXU0Ry16QWZ4c25STmtGNFhsU0JsamM3U0Y3NjJZNVVOWDlxR2ZqdnRUUGxXcHcwSzdsRXFBYXc?oc=5",
+   "source": "Yahoo News Canada",
+   "published": "2026-11-21T19:03:28Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Oilers’ Michaels snipes opening goal vs. Hurricanes in front of family",
@@ -47,9 +77,9 @@
   },
   {
    "title": "LIVE/FREE Edmonton Oilers vs Carolina Hurricanes LIVE NHL Game On TV Coverage 2026",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM1p2ZFJ0WUZxSVdLTENZQ2lMSlhwWFowM0tycjlHWTdkdkVtclMxcUdYOWNzdF8yaTNxaER5OUUwUl9FcW5wOHUySGViZUE2a25kMmNUbDRFaF9SWHVYaDRSZzlTNmxNQmNUTWt0NEdKSmExVWFHR2Q1TmZtaGpXR0Z0QW13ZllBZHJSSkxIWjNudTV4YmVrQy1rdEZaejJNLWtWaUVIQks?oc=5",
-   "source": "Vancouver Is Awesome",
-   "published": "2026-11-21T18:33:43Z",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ3prMkltemRBdEU4TkU3WW5IQTVXSG5sakZucktDYmE5TjBOZ1hBRl9ya05MT3YtSm5yT1ZTM0c3aVNkMkhqYzNYX2stWTVUSkI2NDRpOHd1eFZhdWNhQlEyQmViRFRPUkU4R0g3ZzR1QV9nMlE5ek92NDVLMFV5TnRTaFFCOEFXVENTY0tIaFBVWC13SFNoWDgxaTkxS2tteXRVb1lRNjBicXFCRWRB?oc=5",
+   "source": "Northern Ontario Business",
+   "published": "2026-11-21T18:32:49Z",
    "snippet": "",
    "via": "google"
   },
@@ -65,6 +95,14 @@
    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQb3E0dDZzdUg3WHZhODNxRWJNX1Raa2poU3c2RUN6b3hWaU9UN0hVU3VmSGliYlJZYkgzUkU3ajVuN3NrX1ZPVFZ5VTJWS2tYSzRsbVRYMFBOSFBXWHlHaU9DakstOFhMcnktN29VV2Nsc2ZJNktkUnl2aXV6aWU3eQ?oc=5",
    "source": "ElliotLakeToday.com",
    "published": "2026-11-21T18:23:53Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Watch NHL Mini: Edmonton Oilers vs Tampa Bay Lightning",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMVM2ai0zNUdBNWpNbEZHMlVjUmVRZGJPRWl4cFZuc3NPeWVVcm9nRUZxM3hpMS1NazVVZ2V0LUhyalJ4bDlsRVYxb0g5UjNlSGVIMnVFSXN1MWJXR0pDWlY5UTNmR0FwVXRsR1RnZDh6ZTBsem1nZUNCRU9IbGpGWGRDVG9SM3o2VDdR?oc=5",
+   "source": "Disney Plus",
+   "published": "2026-11-21T18:08:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -100,14 +138,6 @@
    "snippet": "The Edmonton Oilers look to bounce back against the defending champion Carolina Hurricanes in this 2006 Final rematch. Check out the action on Sportsnet+ and our live tracker at 1 p.m. ET /…"
   },
   {
-   "title": "Edmonton Oilers NHL Line Combinations",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-21T17:39:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers Linked to Red Wings RFA Holdout Simon Edvinsson",
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzbEVZQjQ0VXZKaGRONzVtRS1DSkdVLTA2c3NJQjlIWThkaEpGT0IzS3VKSm9XTm5tamNlMnJoLTNEc1RFZWxOSEZBalBYNEpmOFJCVm43X3JCeUNORFBoMFhsVUJCMTE3THZrcjF4NmNGZzliSkVnbw?oc=5",
    "source": "NHL Trade Rumors",
@@ -124,10 +154,10 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers - St. Louis Blues - Nov 22, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hd1I1MU9ZSjhLSXFpQjZhRF9qNGo5bEFvWjlLbm5vZkx3R2V1RFJWZmxWZ00xeVZwRDhsT00wV3BsVGw1Q1ZEWTU2ZmhzN0lyN0FyTVlQUzlvYU5DaGpnTjlnYndvc25YNjdJTkNzMm4?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-21T17:01:08Z",
+   "title": "GDB 25.0: Oilers look to rebound in a tough matinee vs. the Hurricanes (12PM MT, SNW)",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRWZMMVdtdzBDR0VaODFlcFhGc0RoT3FuSmNWRm94OGhRb1JsOE9TRGhJdXVXSzlyTC11QWpQbWNYZXc4RkRwWFN4Z0FiOWM1U0Eyb2czRGxTS195bHRMUGJ0dFcxMVlLbE9NVmZNMkpNMkt1ZXdmRE9GOFQ2Z3g0NlF1cWdEZnhtajg0X2tGb3JTYzAzNVJKNTM2NWd5b1NtWmE0SEdvckhIck9sbGtFOEpKVmxVNFkxenlCaHBWTjRfMDBIaFFPcQ?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-21T17:17:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -140,26 +170,18 @@
    "via": "google"
   },
   {
+   "title": "Projected Lineup: November 21 vs. Edmonton",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT3lYZGZGR0ZOQU9OQ0pLX0ZPVkFKb2Q1MmpGUU9YWW5mWHVfblkycjJmTFdmV2VlMGpUUVd6MWNKb251QkRuUjB2OFNzT0NOUVBGcVlvY2Y1Mkx6RDBERUVlR3Z2d2M0SjB3Qm91aExoaHhhT3hYR0JTTGRnbncwNFhB?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-21T16:21:54Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Top 100 Oilers: No. 12 — Esa Tikkanen",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43bTJ1dFBXWFdwUnI5X0JrdmpROU1OYlcxRFVseF9fMldacDd2MU1Tb1QzTWpsMk8xMFJyZWU1aGNxSkgzemNfLXVqRHdoUnVFRXRzQ1Q5OVIyRkU3clU2VzFnc1ZiUkRXanhUcGhtZXpIcHlSYjZwdHdmLXg?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-21T16:17:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Breaking Down Connor McDavid’s 23-Game Point Streak",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZnowb190RzdZTVo2b18yaXUxVS1YS1lEVER5akpNajR6SXI2UkR5elk3VW53TlpLMTdwWmRTOGF6YTZVTVdHLVBVQ1pGeHFnNjdROGViX3V3Z29jZVNKTzQ2NWhkb2Rsc3JCVlR1bWlWSE1wVkk2aXI5UjVEdmRkV0Z3aUN3SlU?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-21T15:35:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "GDB 25.0: Oilers look to rebound in a tough matinee vs. the Hurricanes (12PM MT, SNW)",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRWZMMVdtdzBDR0VaODFlcFhGc0RoT3FuSmNWRm94OGhRb1JsOE9TRGhJdXVXSzlyTC11QWpQbWNYZXc4RkRwWFN4Z0FiOWM1U0Eyb2czRGxTS195bHRMUGJ0dFcxMVlLbE9NVmZNMkpNMkt1ZXdmRE9GOFQ2Z3g0NlF1cWdEZnhtajg0X2tGb3JTYzAzNVJKNTM2NWd5b1NtWmE0SEdvckhIck9sbGtFOEpKVmxVNFkxenlCaHBWTjRfMDBIaFFPcQ?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-21T15:09:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -176,14 +198,6 @@
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYVR5eG0xWW0xWUZ3RG1CZkxkenZ2XzdyUGhQWXBCLUFfX3Rodm1jNXVESUFGdFBsUVhNSno5cFl3ZEZfaEJ5SGc3U0xibDI2VFhfaFpCMGZxV1FNaHBEaWU3NGlVaHhYeUtGbDhacGg3S1dHejIzWlFjWlZNOW1LV3NGMjBHVURKMi1tbWJiLU5faEdFXy1NdThDeVNIeFVPaGpPZlRuQmRPNklzZ3dWbHY4VVU3TkU?oc=5",
    "source": "Inside The Rink",
    "published": "2026-11-21T14:18:07Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Hurricanes Enter Oilers Rematch With 3 Key Forwards Back in Lineup",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTVlzcFFwXzltVEkxb3NZNnU2d25lek9VcjUzMXRaNEFQWkRoVEkzSHRDeF9mMmdhcDdXLUFvNlB4SHFrU25PaU5VTzE5OXd2SGJ6R25EVWpudi1vM3hyY3FJYlhMaHJPN1RaMjZKUGVwUFhEUXR0WlQ4LXlZODhSbGN5V21ER2Uxenc?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-21T13:40:16Z",
    "snippet": "",
    "via": "google"
   },
@@ -263,20 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-20T15:24:13.238Z",
    "snippet": "The defending Stanley Cup champion Carolina Hurricanes host the Edmonton Oilers at Lenovo Center on Saturday (1 p.m. ET; HHN, CARNHL, NHLN, SNP, SNW, SNO). It should be quite the tilt,…"
-  },
-  {
-   "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026",
-   "source": "NHL.com",
-   "published": "2026-11-20T05:09:00Z",
-   "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
-  },
-  {
-   "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
-   "source": "NHL.com",
-   "published": "2026-11-20T05:00:00Z",
-   "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
   }
  ]
 }
