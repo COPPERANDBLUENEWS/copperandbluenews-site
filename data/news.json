@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-21T15:52:34Z",
+ "updated": "2026-11-21T16:23:52Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (89)"
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
@@ -33,6 +33,14 @@
    "via": "google"
   },
   {
+   "title": "GDB 25.0: Oilers look to rebound in a tough matinee vs. the Hurricanes (12PM MT, SNW)",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRWZMMVdtdzBDR0VaODFlcFhGc0RoT3FuSmNWRm94OGhRb1JsOE9TRGhJdXVXSzlyTC11QWpQbWNYZXc4RkRwWFN4Z0FiOWM1U0Eyb2czRGxTS195bHRMUGJ0dFcxMVlLbE9NVmZNMkpNMkt1ZXdmRE9GOFQ2Z3g0NlF1cWdEZnhtajg0X2tGb3JTYzAzNVJKNTM2NWd5b1NtWmE0SEdvckhIck9sbGtFOEpKVmxVNFkxenlCaHBWTjRfMDBIaFFPcQ?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-21T15:09:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Edmonton Oilers Linked To Multiple Trade Targets",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUzRrVzUzQXZ3WnNwQ25fajFBcTZvNXZmU1ZXV2RUNXBiT3NEUjFfQVRwaVl2N1JYbUkxT2syOWhLbWRVRHlYaXEwQXBrTGJzRFNVODBZRFpmYVhjd2lrQXN1Q001U3o0bWtDdzlXV1ZDaHRueU1oNThGbnZ6VGEyaWlnYw?oc=5",
    "source": "NHL Trade Rumors",
@@ -49,6 +57,14 @@
    "via": "google"
   },
   {
+   "title": "Oilers vs Hurricanes Prediction, Picks, NHL Odds for Saturday, November 21",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNT1F1czNIWTFiWjZScnlxN1NDbnBjODgtNjNtS2l5VmpDZXlwM2QzNDhlZ2k4RXZNMVFaLU5Ocjl1TkF0MmtCXzhVQnhwLTRUUVRMS0VldFVfdkxrVG1xUDZBYkFBaGRwaFV5Ui1YVF92c0d5VGdZT3NyY0pKYlMzQldVLWxyUmdFTUdhS1lhTQ?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-21T14:06:30Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "The Hurricanes and the Oilers look to give the fans a show in a Saturday matinee",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeWlNcDQ3QU9VSlJCMFhydjRSaGRranlzd3dPLWpaRjhka0hVczE3SnpLTzZENUFTSUpYbUJUcFVLRGxtMEhPM1Z2R3F2WTZzWXhMN2pUbUFrb1FIR0xKTmlQNmtlcVFuXzJia01MLUxyY0JnODJJd0FaTmMxbTM4TjdlcmFXeHFyTlRrU3NaUQ?oc=5",
    "source": "Cardiac Cane",
@@ -61,6 +77,14 @@
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTVlzcFFwXzltVEkxb3NZNnU2d25lek9VcjUzMXRaNEFQWkRoVEkzSHRDeF9mMmdhcDdXLUFvNlB4SHFrU25PaU5VTzE5OXd2SGJ6R25EVWpudi1vM3hyY3FJYlhMaHJPN1RaMjZKUGVwUFhEUXR0WlQ4LXlZODhSbGN5V21ER2Uxenc?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-21T13:40:16Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL Predictions: Edmonton Oilers vs Carolina Hurricanes – November 21",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMHl4b3l2MDNsUDA5Z0I1X2pITm1WeGxqMnJWZEJjM1NpRHpMa1B4WUx3LTM4ZlBtZG80QWY0VHBPYks5X0hIdk1ySnZud3gyX3hUY1dSaWtrWkpqLUdLejBmd0xWWm1OdG9pNmJ1UDZNV25fd0dKUEdLblpxTXZPVVVuRjVraDdJNFZj?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-21T12:30:33Z",
    "snippet": "",
    "via": "google"
   },
@@ -129,22 +153,6 @@
    "via": "google"
   },
   {
-   "title": "‘Move your feet’: Filip Hallander tested on McDavid’s wing at Oilers practice Friday",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQV09vcXFYb2NJbUVvTGFmQnlxel8xU3BBeXFhWGtYMWRkeE54MjNieHk5VXBBOUJldnJ3NE5vcnR4NUloTmtmd1prVXVKWGNRRm80Ull6U21zQURuVEZfYjFJY0UxMHdWMFZSclhuWlJvM2tETWNQdTBOWTJ1NHNuWlh5V21GNmU3Yk1veFV1N3hQd0o1MXJkVDZLaGI5Nk5jQnNWTVdn?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-21T01:42:14Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Power forward who jilted Edmonton now ripping it up in Europe (but is still Oilers property)",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZlJhNGNUcGhYVmtfdUNLQzJLLTlzcUp2WTVjUWVjQUw1Vk9yTlpqcHVMQm44SjBXTnhub05XbVdhbUctS2J5R3NYeTNhZWpBS2paM09xcGxIY0p6OEs2NmdfN1E1aENBNW5SZlFDTVBDMm9PS2paa2J1RWVoQlprU3BOdWxNZ0Q0c3RZazZ2cTZPNzJ2S0FISWJTcWFYLVRSbjRVQ0FhV2FHRklWNFpobEF0R3dqYnpCeGxMYmVtQUVGV01saHVNcGhGTDMxdw?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-21T00:16:26Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "‘The perfect situation’: How Babcock has turned Oilers into Cup contenders",
    "url": "https://www.sportsnet.ca/nhl/video/the-perfect-situation-how-babcock-has-turned-oilers-into-cup-contenders/",
    "source": "Sportsnet",
@@ -152,12 +160,11 @@
    "snippet": "Former NHL GM Doug MacLean joins The Real Kyper and Bourne Show and discusses how Mike Babcock has the Oilers looking like Stanley Cup contenders again, and why he is a great fit behind the…"
   },
   {
-   "title": "Could McDavid, Draisaitl both be Hart finalists?",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZnJTQXE0TXZlRlVTY3A5bjlOM0FhUHRWQ3l3Y04xWExxTlUzeHJQYk9kM25FbFBmajQ1OEFpMHhPc1RKTGh3dmZwNGpmMm5ESVd4TklaQ1JLbnJaVGhjbUNSdVVlSFpjUmc2YkdSb1FRX3RNNzBQbkxwaW9tcGJVc0xweEk5ZFMwdkVjWnVRSDE2bTNZSFZjNk8tV3VmVGFOZmUtNTBMa3c?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-20T23:01:00Z",
-   "snippet": "",
-   "via": "google"
+   "title": "Power forward who jilted Edmonton now ripping it up in Europe (but is still Oilers property)",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-roby-jarventie-jesse-puljujarvi-taylor-hall-connor-brown",
+   "source": "Edmonton Journal",
+   "published": "2026-11-20T22:44:36Z",
+   "snippet": ""
   },
   {
    "title": "PRE-GAME REPORT: Oilers at Hurricanes",
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-19T22:18:34.178Z",
    "snippet": "TAMPA, FL – Mathieu Joseph will always feel at home any time he’s back in Tampa. Considering the memories 'Mojo' created here, it’s not hard to see why. It’s easy to fall in love with a…"
-  },
-  {
-   "title": "Investors group keen on bringing a Alberta Junior Hockey League team back to St. Albert",
-   "url": "https://edmontonjournal.com/sports/alberta-junior-hockey-league-st-albert",
-   "source": "Edmonton Journal",
-   "published": "2026-11-19T20:26:48Z",
-   "snippet": "League is interested but is waiting for go-ahead from St. Albert city council"
   }
  ]
 }
