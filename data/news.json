@@ -1,13 +1,34 @@
 {
- "updated": "2026-11-21T18:55:09Z",
+ "updated": "2026-11-21T19:28:21Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (3)",
-  "Google News (83)"
+  "Sportsnet (5)",
+  "Google News (82)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Draisaitl scores on one-timer after McDavid goes coast-to-coast and around",
+   "url": "https://www.sportsnet.ca/nhl/video/draisaitl-scores-on-one-timer-after-mcdavid-goes-coast-to-coast-and-around/",
+   "source": "Sportsnet",
+   "published": "2026-11-21T19:12:27Z",
+   "snippet": "Watch as Connor McDavid goes coast-to-coast and around the net on the power-play, forcing Hurricanes defenders to collapse, then finds co-star Leon Draisatil who scores a one-timer goal to…"
+  },
+  {
+   "title": "Edmonton Oilers Carolina Hurricanes score player grades",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-carolina-hurricanes-score-player-grades",
+   "source": "Edmonton Journal",
+   "published": "2026-11-21T19:03:28Z",
+   "snippet": ""
+  },
+  {
+   "title": "Oilers’ Michaels snipes opening goal vs. Hurricanes in front of family",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-michaels-snipes-opening-goal-vs-hurricanes-in-front-of-family/",
+   "source": "Sportsnet",
+   "published": "2026-11-21T18:59:54Z",
+   "snippet": "Watch as Oilers forward Owen Michaels scores his third goal of the year and first in 22 games to open the scoring vs. the Hurricanes in front of several family members and friends."
+  },
   {
    "title": "LIVE UPDATES: Oilers at Hurricanes",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JZkVoRHM4Q3dUOUdXdm1TZnVreHhnYUhjRmJob2dUY1VIeUI1NEtlTjVPdWpYNEJWekVmTk1VSmQ5S18zei12eEE4eHUxV1h0RHc5OVlnYW5XSVVoS1ZycHdad0lzRjRfX3RwSEFaSkowMFVOSjNHNGd3MnRaMW8?oc=5",
@@ -79,10 +100,10 @@
    "snippet": "The Edmonton Oilers look to bounce back against the defending champion Carolina Hurricanes in this 2006 Final rematch. Check out the action on Sportsnet+ and our live tracker at 1 p.m. ET /…"
   },
   {
-   "title": "Ryan Nugent-Hopkins Injury: Not playing Saturday",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdUExbnVUOFFDaFpKelVKUm0wc25aODA0NldWRTFwalM0UFJMSzhOdWVCNTlqMlVUYVdFMVM5UFVIdmkxSzdRNTBwZ3FRR1VCQUJOeFVlblJOSmVOcGlSUUFmMHRmdWxHZEE5SGRoQTJ4N2VYLVFpUHBxdlVHU2ZQb3M5aXNRdFF6QmJKZG9CMmJBSTdQUFM3V1EwbjU?oc=5",
-   "source": "RotoWire",
-   "published": "2026-11-21T17:42:47Z",
+   "title": "Edmonton Oilers NHL Line Combinations",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-21T17:39:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -245,8 +266,8 @@
   },
   {
    "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026-x6012",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026",
+   "source": "NHL.com",
    "published": "2026-11-20T05:09:00Z",
    "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
   },
@@ -256,27 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-20T05:00:00Z",
    "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
-  },
-  {
-   "title": "McDavid, Oilers streaks snapped as Lightning beat Edmonton at its own game",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-tampa-bay-mcdavid-streak-ends",
-   "source": "Edmonton Journal",
-   "published": "2026-11-20T03:16:38Z",
-   "snippet": "The Oilers and Lightning waged a 60-minute chess match"
-  },
-  {
-   "title": "Player grades: Edmonton Oilers lack punch in loss to Tampa Bay Lightning",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/player-grades-edmonton-oilers-lack-any-kind-of-punch-in-loss-to-tampa-bay-lightning",
-   "source": "Edmonton Journal",
-   "published": "2026-11-20T03:08:46Z",
-   "snippet": ""
-  },
-  {
-   "title": "McDavid, Draisaitl are works of art at Edmonton grocery",
-   "url": "https://www.nhl.com/oilers/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery-x7544",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-20T01:19:37.256Z",
-   "snippet": "EDMONTON -- Eric Falkenberg grew up with a fondness for drawing and building LEGO sets and has turned it into a mastery of three-dimensional grocery store displays."
   }
  ]
 }
