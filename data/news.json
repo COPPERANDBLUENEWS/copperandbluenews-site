@@ -1,13 +1,37 @@
 {
- "updated": "2026-11-21T15:24:32Z",
+ "updated": "2026-11-21T15:43:54Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (89)"
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Saturday’s Picks/Props: McDavid for a Power-Play Point",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWVpTWEc2QlRBQUwwakJycVh5d3FMb3lxWVNCY2ZmWExKQXpHRUZ0dHBxQ0gtOHRIZHJjTE5hRXpBRW5sMy1YdDQ2cGhTMEhUaWpSUnQya1N6Qm5FYktHZnpHNzJENHQ0TjdrRzVjQ0VKam1oQ0EwZ1dyd29UVU1HRDZUdFZLMWZOOGc3aTAza0J2RVE?oc=5",
+   "source": "DobberHockey",
+   "published": "2026-11-21T15:37:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Breaking Down Connor McDavid’s 23-Game Point Streak",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZnowb190RzdZTVo2b18yaXUxVS1YS1lEVER5akpNajR6SXI2UkR5elk3VW53TlpLMTdwWmRTOGF6YTZVTVdHLVBVQ1pGeHFnNjdROGViX3V3Z29jZVNKTzQ2NWhkb2Rsc3JCVlR1bWlWSE1wVkk2aXI5UjVEdmRkV0Z3aUN3SlU?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-21T15:35:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers vs Hurricanes Prediction, Puck Line & NHL Matinee Picks",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbXlQQjRpRnh5NmxrZmdnWXluWlR6THNLZDZJWV9Ob2Z6ek9IeU82TWhMLWV4V1NwOHVxWVFJQm5FX19lTHRvQ29JOTduWWFBY1BvalQwWXlieHczR1lKaGpBTDNjcjRzSTdmVktON3RyVF8wRzFQLWtmaVo3dUduVmZZNjMtSE9ubWV5aG5tTHhvUGsySGFlQmlaM3NGc2RTV1E?oc=5",
+   "source": "Sports Betting Dime",
+   "published": "2026-11-21T15:25:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Edmonton Oilers Linked To Multiple Trade Targets",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUzRrVzUzQXZ3WnNwQ25fajFBcTZvNXZmU1ZXV2RUNXBiT3NEUjFfQVRwaVl2N1JYbUkxT2syOWhLbWRVRHlYaXEwQXBrTGJzRFNVODBZRFpmYVhjd2lrQXN1Q001U3o0bWtDdzlXV1ZDaHRueU1oNThGbnZ6VGEyaWlnYw?oc=5",
@@ -136,28 +160,11 @@
    "via": "google"
   },
   {
-   "title": "Babcock: Oilers’ Ryan Nugent-Hopkins being evaluated by doctors, no update on status",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbFJSOHE0Zlh3WndKazMtWnNsZ2M3WWJrcjEyNk1hcnhuRjk1VWR6dnE3bktWbzFvVHYxMWVhZC1hc3BYcjY1VDJJQks2Z1RQMzF3NkV1UTM3TjZ0TTlmRjNnMG4wRkpUNFNKdVBON0FHZmVqSk9taHlNRUtPT1ZFWXVSdkEteksyaEo5UGxsTjRrNjhDUjFJRzIzaw?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-20T22:52:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "PRE-GAME REPORT: Oilers at Hurricanes | Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObHlQTjY5S0dydmsxemJVU2wyS1VZSkdJbS1IT3VidGZfak95OXE0YTNtVFlCcDZGMHJZR0pjalRwdlNDM2VPN3EtVXNiYVg5MWswLWVjQVBLdmlNV2ZNbFRkWFkxVjBBRE1FZGl5cTdpeGJVR2hYaWwyMzRnOUppQ2JkYw?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-20T22:50:26Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers see Hurricanes as a measuring stick in Saturday showdown",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdklENm9weGRmZF9ZSFpJR01jNk1nMkdESmowOFVnUGs3d0dGd2xXR004T3I5aFV5Q1JBbnBtc0p5X2R2blhpbkpneWFOXzQxeENNc0tWM1BjdDZ2SjB1U242a2ZLSzRLMXdxZ25zTU5wSkd5d1dtZThTcktCdEZwMDBGNTdLdmZSbDA1aVBjaUx3QU8zWl9Yc2ViVlIxRms?oc=5",
-   "source": "Hockey.com",
-   "published": "2026-11-20T22:35:49Z",
-   "snippet": "",
-   "via": "google"
+   "title": "PRE-GAME REPORT: Oilers at Hurricanes",
+   "url": "https://www.nhl.com/oilers/news/pre-game-report-oilers-at-hurricanes-11-21-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-20T22:40:18.87Z",
+   "snippet": "The Edmonton Oilers start back-to-back games to close out their six-game road trip on Saturday afternoon at the Lenovo Center against the Carolina Hurricanes. You can watch the game live on…"
   },
   {
    "title": "Oilers primed for 'measuring stick' vs. Hurricanes in division-leader matchup",
@@ -270,13 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-19T20:26:48Z",
    "snippet": "League is interested but is waiting for go-ahead from St. Albert city council"
-  },
-  {
-   "title": "Dickinson's defensive game a microcosm for improved Edmonton Oilers",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/edmonton-oilers-jason-dickinson",
-   "source": "Edmonton Journal",
-   "published": "2026-11-19T19:24:44Z",
-   "snippet": "'That's our whole game plan, is just be hard to play against'"
   }
  ]
 }
