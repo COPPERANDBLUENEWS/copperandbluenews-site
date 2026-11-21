@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T16:23:52Z",
+ "updated": "2026-11-21T16:46:05Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,14 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Projected Lineup: November 21 vs. Edmonton",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT3lYZGZGR0ZOQU9OQ0pLX0ZPVkFKb2Q1MmpGUU9YWW5mWHVfblkycjJmTFdmV2VlMGpUUVd6MWNKb251QkRuUjB2OFNzT0NOUVBGcVlvY2Y1Mkx6RDBERUVlR3Z2d2M0SjB3Qm91aExoaHhhT3hYR0JTTGRnbncwNFhB?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-21T16:21:54Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Saturday’s Picks/Props: McDavid for a Power-Play Point",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWVpTWEc2QlRBQUwwakJycVh5d3FMb3lxWVNCY2ZmWExKQXpHRUZ0dHBxQ0gtOHRIZHJjTE5hRXpBRW5sMy1YdDQ2cGhTMEhUaWpSUnQya1N6Qm5FYktHZnpHNzJENHQ0TjdrRzVjQ0VKam1oQ0EwZ1dyd29UVU1HRDZUdFZLMWZOOGc3aTAza0J2RVE?oc=5",
@@ -137,14 +145,6 @@
    "via": "google"
   },
   {
-   "title": "Preview: November 21 vs. Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhbGx4UUU5N2YzVEhzTG9JQlI0b2tsWUhPb25mek04eWRzZ3loYnV4Y0Q1bVM3SURTMnFBUEhIY0VuQjBJUDhvdnhlMk5Ha2RraF9YZXBZRmFPZnY3dUs3WE0yVGNXZWxoenpaUmRaNlRLdnRBZHc?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-21T06:08:48Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Connor McDavid's incredible point streak is over",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa003dTFYaU4teUZJQXd1YkZVdlNqVU1wU3RGMmRPZjVpb2VOTHluLWYwWkNSdWs5ZVAwMVRpcURFVXpPRGUtVldRQlJHd256SnNNUi1pb0lsZGxwU1cwRGhqR2F0aktHNkRhOEZyTFd2RWxpMjNYcjZBazNQclhyTi1CMEp5a29ucUx0Rw?oc=5",
    "source": "Oil On Whyte",
@@ -231,15 +231,15 @@
   },
   {
    "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026-x6012",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-20T05:09:00Z",
    "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
   },
   {
    "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers-x2007",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-20T05:00:00Z",
    "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
   },
