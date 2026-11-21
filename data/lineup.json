@@ -17,9 +17,9 @@
  "forwards": [
   [
    {
-    "id": 8482703,
-    "name": "Colton Dach",
-    "num": 34,
+    "id": 8480842,
+    "name": "Filip Hallander",
+    "num": 19,
     "pos": "LW"
    },
    {
@@ -29,9 +29,9 @@
     "pos": "C"
    },
    {
-    "id": 8475786,
-    "name": "Zach Hyman",
-    "num": 18,
+    "id": 8477953,
+    "name": "Kasperi Kapanen",
+    "num": 42,
     "pos": "RW"
    }
   ],
@@ -49,17 +49,17 @@
     "pos": "C"
    },
    {
-    "id": 8477953,
-    "name": "Kasperi Kapanen",
-    "num": 42,
+    "id": 8478472,
+    "name": "Mathieu Joseph",
+    "num": 21,
     "pos": "RW"
    }
   ],
   [
    {
-    "id": 8480842,
-    "name": "Filip Hallander",
-    "num": 19,
+    "id": 8482703,
+    "name": "Colton Dach",
+    "num": 34,
     "pos": "LW"
    },
    {
@@ -69,9 +69,9 @@
     "pos": "C"
    },
    {
-    "id": 8479365,
-    "name": "Trent Frederic",
-    "num": 10,
+    "id": 8475786,
+    "name": "Zach Hyman",
+    "num": 18,
     "pos": "RW"
    }
   ],
@@ -89,9 +89,9 @@
     "pos": "C"
    },
    {
-    "id": 8478472,
-    "name": "Mathieu Joseph",
-    "num": 21,
+    "id": 8479365,
+    "name": "Trent Frederic",
+    "num": 10,
     "pos": "RW"
    }
   ]
@@ -243,16 +243,14 @@
    "status": "Day-to-day"
   }
  ],
- "notes": [
-  "Projection is based on the Last Game (2026-11-19) lineup until morning skate or practice updates."
- ],
+ "notes": [],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Last Game (2026-11-19)",
-   "updatedAt": "2026-11-20T17:00:40.305Z"
+   "basis": "Bob Stauffer",
+   "updatedAt": "2026-11-21T04:05:56.868Z"
   },
   {
    "name": "DailyFaceoff",
@@ -262,16 +260,16 @@
  ],
  "goalie": {
   "starter": {
-   "id": 8482221,
-   "name": "Devon Levi",
-   "num": 27,
+   "id": 8477465,
+   "name": "Tristan Jarry",
+   "num": 35,
    "pos": "G"
   },
   "status": "Unconfirmed",
   "backup": {
-   "id": 8477465,
-   "name": "Tristan Jarry",
-   "num": 35,
+   "id": 8482221,
+   "name": "Devon Levi",
+   "num": 27,
    "pos": "G"
   },
   "note": null
@@ -454,5 +452,5 @@
    "note": null
   }
  },
- "updated": "2026-11-20T17:36:12Z"
+ "updated": "2026-11-21T04:35:38Z"
 }
