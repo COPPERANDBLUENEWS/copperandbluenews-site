@@ -20,7 +20,7 @@ jobs:
     timeout-minutes: 20
     environment:
       name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy_retry.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -42,5 +42,14 @@ jobs:
       - name: Assemble site
         run: rsync -a --exclude .git --exclude .github --exclude scripts --exclude screenshots --exclude README.md --exclude worker ./ _site/
       - uses: actions/upload-pages-artifact@v3
+      # deploy-pages sometimes runs before GitHub lists the artifact uploaded a moment ago
+      # ("No artifacts named github-pages were found"), so wait and retry once.
       - id: deploy
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait for the Pages artifact to be listed
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 30
+      - id: deploy_retry
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v4
