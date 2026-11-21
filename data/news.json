@@ -1,13 +1,36 @@
 {
- "updated": "2026-11-20T23:26:42Z",
+ "updated": "2026-11-21T00:26:31Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (0)",
-  "Google News (87)"
+  "Sportsnet (1)",
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Power forward who jilted Edmonton now ripping it up in Europe (but is still Oilers property)",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZlJhNGNUcGhYVmtfdUNLQzJLLTlzcUp2WTVjUWVjQUw1Vk9yTlpqcHVMQm44SjBXTnhub05XbVdhbUctS2J5R3NYeTNhZWpBS2paM09xcGxIY0p6OEs2NmdfN1E1aENBNW5SZlFDTVBDMm9PS2paa2J1RWVoQlprU3BOdWxNZ0Q0c3RZazZ2cTZPNzJ2S0FISWJTcWFYLVRSbjRVQ0FhV2FHRklWNFpobEF0R3dqYnpCeGxMYmVtQUVGV01saHVNcGhGTDMxdw?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-21T00:11:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "‘Move your feet’: Filip Hallander tested on McDavid’s wing at Oilers practice Friday",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQV09vcXFYb2NJbUVvTGFmQnlxel8xU3BBeXFhWGtYMWRkeE54MjNieHk5VXBBOUJldnJ3NE5vcnR4NUloTmtmd1prVXVKWGNRRm80Ull6U21zQURuVEZfYjFJY0UxMHdWMFZSclhuWlJvM2tETWNQdTBOWTJ1NHNuWlh5V21GNmU3Yk1veFV1N3hQd0o1MXJkVDZLaGI5Nk5jQnNWTVdn?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-21T00:01:54Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "‘The perfect situation’: How Babcock has turned Oilers into Cup contenders",
+   "url": "https://www.sportsnet.ca/nhl/video/the-perfect-situation-how-babcock-has-turned-oilers-into-cup-contenders/",
+   "source": "Sportsnet",
+   "published": "2026-11-20T23:23:20Z",
+   "snippet": "Former NHL GM Doug MacLean joins The Real Kyper and Bourne Show and discusses how Mike Babcock has the Oilers looking like Stanley Cup contenders again, and why he is a great fit behind the…"
+  },
   {
    "title": "PRE-GAME REPORT: Oilers at Hurricanes",
    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObHlQTjY5S0dydmsxemJVU2wyS1VZSkdJbS1IT3VidGZfak95OXE0YTNtVFlCcDZGMHJZR0pjalRwdlNDM2VPN3EtVXNiYVg5MWswLWVjQVBLdmlNV2ZNbFRkWFkxVjBBRE1FZGl5cTdpeGJVR2hYaWwyMzRnOUppQ2JkYw?oc=5",
@@ -17,10 +40,10 @@
    "via": "google"
   },
   {
-   "title": "Power forward who jilted Edmonton now ripping it up in Europe (but is still Oilers property)",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZlJhNGNUcGhYVmtfdUNLQzJLLTlzcUp2WTVjUWVjQUw1Vk9yTlpqcHVMQm44SjBXTnhub05XbVdhbUctS2J5R3NYeTNhZWpBS2paM09xcGxIY0p6OEs2NmdfN1E1aENBNW5SZlFDTVBDMm9PS2paa2J1RWVoQlprU3BOdWxNZ0Q0c3RZazZ2cTZPNzJ2S0FISWJTcWFYLVRSbjRVQ0FhV2FHRklWNFpobEF0R3dqYnpCeGxMYmVtQUVGV01saHVNcGhGTDMxdw?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-20T22:46:14Z",
+   "title": "Oilers see Hurricanes as a measuring stick in Saturday showdown",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdklENm9weGRmZF9ZSFpJR01jNk1nMkdESmowOFVnUGs3d0dGd2xXR004T3I5aFV5Q1JBbnBtc0p5X2R2blhpbkpneWFOXzQxeENNc0tWM1BjdDZ2SjB1U242a2ZLSzRLMXdxZ25zTU5wSkd5d1dtZThTcktCdEZwMDBGNTdLdmZSbDA1aVBjaUx3QU8zWl9Yc2ViVlIxRms?oc=5",
+   "source": "Hockey.com",
+   "published": "2026-11-20T22:35:49Z",
    "snippet": "",
    "via": "google"
   },
@@ -104,8 +127,8 @@
   },
   {
    "title": "Are Tampa Bay Lightning’s Fundamentals UNDENIABLE After Dominant Win Over Edmonton Oilers?",
-   "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOLXlSOFRiRXVhOW1tRV93bUpzeWstcEJBQk9lVTZxZlhlT0s3Q3I0YmZCNEhyZW1uZFBnRzNDbU5sd1FZWVRBSFFpLUVsWFZmLVFfcGtxT21kYzdDY3JON20wbF9TVmd5czhVUDR3M3JyUUVuMHEzUXJPcGFOWU9lOVkzb29UUHNTWDdNMzQ0TkdENklUZGZldzJXX1NCOXZlRGw3Z2ZDYzBvcEZpYW1kTjlqTG5iazdQZmRCYXVIT042eWVIQkt0MVRzb1ZRbDh6X1lWbWZJbkthZm1XTlR0RHhMZXR6Q1Bod2V1bEFORm9va2tXSGtGZmExM3JyaklJS011NnFZd0Jsckd4X0w4VzlEWGQ2Yzk2NUlNelZfYUdwRmJTWnVybTRCNlhIVUk?oc=5",
-   "source": "13newsnow.com",
+   "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQTUEtTjljTzFBU2lmalhDUWtWWGhjejdvRTFRZ1dLeXJYdGdhbVotSTg1OTV3ZjNKYXR6WWs3Z3ZJVHM5R2lEN1VJS05LYkZXSG9OcmxDOEVZYVZ5QzY4NXV2ZENDRHpXa3k1NmxlSHRCc2s0VnhtVTNzOGR0dUFHNkU3NEZPU05nSjNpYUVaWjJ1TEU1QmtIVEM0R09xVlJ0djhfV3l1dVliYnhvVWF5NUlzV2xfdHNYc2RrR0JhaFktOUNTOEswS2I4dm1uSjV6N0pCMDBDU2ZLOVhWSTFiX2tCb0h1V3FJeHhyNVFHQmtjY0V4dXJQSnROWTg3RnNxTkxtdUo1blhPdTk0cDQ4U3VQMlJocDhReThPYzdOTzBqRzJ5Q1MtNGRB?oc=5",
+   "source": "ABC10",
    "published": "2026-11-20T20:56:00Z",
    "snippet": "",
    "via": "google"
@@ -147,22 +170,6 @@
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLTVJckhxRlFGSlJaeTQxZ2plVzN4R092Ull0Znc2TnA2MTd3UHRfdDZ5cldITFVKelEzWnVhMlRiX1VzeFZaUFRzbFo3TEdRWkpYMkdsbEgwWXBSbjVsNkJPRDhQbDRoem82RWNHLUl4MDg1SmxOYm1aNHQzUVhSVlJwRmFCOWZwUUJBUkYxN1pGYW1NZ3ZCS1l1ekxpVC1KeXFsdlRRMWNGWFJYOGFMV3BiMjlfdUFYZTBHejhn?oc=5",
    "source": "National Post",
    "published": "2026-11-20T19:38:49Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Depth Foward Ready for Bump To Top Line: \"Move Your Feet\"",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWERMVlZBU2N3eUJjZW1mb0xncVlvaDBJNjlacHViV2ZyaU5NMlFOUHZRMmRvZjMxY2c2MkJjVlNOVVFzWHpkQWVSSWNTZjVBalNGblNuTkdJVjBlN296Vkg1ekZRSXpHU1RVNEdPLXV4cXRPODVyS3BIRDVjNXVidmVoem4?oc=5",
-   "source": "Yahoo",
-   "published": "2026-11-20T19:35:14Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Interest Could Complicate Red Wings’ Fight To Keep Simon Edvinsson",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdS0xT21BVEhVV29jS3c5MUhhckdpd3hxYVhFOFprWFkxNU9yYmhueUhQeHNqa2U3eHA5enB2cGRqeDhqV3RXcmZ1RGdPNzdXSkpNR1lwYUZqQ1RRUURWUHpVSmhMeTREZlFBdTJkMWQ0eDF6bHdyUl9aaFNqNkU5SE9OcmI4V2Y2TGl0ZmNRRzZKb2wyYTF4WFhMSFN4RHVIMFhYaDUzN2V3a05ZM1dYMWlB?oc=5",
-   "source": "Sports Illustrated",
-   "published": "2026-11-20T19:00:01Z",
    "snippet": "",
    "via": "google"
   },
@@ -266,17 +273,10 @@
   },
   {
    "title": "McDavid runs season-opening point streak to 23, Oilers hold off Panthers",
-   "url": "https://www.nhl.com/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-florida-panthers-game-recap-november-17-2026-x6049",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-18T04:20:00Z",
    "snippet": "SUNRISE, Fla. -- Connor McDavid had a goal and an assist in extending his season-opening point streak to 23 games, and the Edmonton Oilers defeated the Florida Panthers 5-2 at Amerant Bank…"
-  },
-  {
-   "title": "QUICK RECAP: Oilers 5, Panthers 2",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-panthers-11-17-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-18T00:03:57.611Z",
-   "snippet": "SUNRISE, FL – Grand Theft Auto VI in a row. Vasily Podkolzin, Kasperi Kapanen and Leon Draisaitl produced three points each, Connor McDavid had multiple points, and goalie Devon Levi made…"
   }
  ]
 }
