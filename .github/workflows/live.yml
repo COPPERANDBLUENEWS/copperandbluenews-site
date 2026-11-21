@@ -89,8 +89,19 @@ jobs:
       cancel-in-progress: false
     environment:
       name: github-pages
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy_retry.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
+      # deploy-pages sometimes runs before GitHub lists the artifact uploaded a moment ago
+      # ("No artifacts named github-pages were found"), so wait and retry once.
+      - id: deploy
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - name: Wait for the Pages artifact to be listed
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 30
+      - id: deploy_retry
+        if: steps.deploy.outcome == 'failure'
+        uses: actions/deploy-pages@v4
       - name: Keep going while the game is on
         if: ${{ !inputs.force }}
         env:
