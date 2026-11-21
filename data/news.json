@@ -1,18 +1,25 @@
 {
- "updated": "2026-11-21T21:34:22Z",
+ "updated": "2026-11-21T21:48:25Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (8)",
-  "Google News (85)"
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Hurricanes 7-4 Oilers: Shots and power play rule",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLU1lR05nTExDWTZpNGdzdTZndnB0SjVVQlZ6VmhRZmkxSXRBQ2d5dFNubW9GSk81cEN3S2FoQV9wOVlTOXBldGV3RkktUlVfR0ZoUi1Jd0s5Um4zbS1UUnlJeE9jVnB5UndTdThoM3J3S2N6LW9EcTc4V0NrTG1yTmZ0N0Q3N3ZDS1l2cU1ZUXBPeUFGeWFDak1XQU1lc202RVpkUzFGY2NrdkUw?oc=5",
-   "source": "Sofascore",
-   "published": "2026-11-21T21:24:11Z",
+   "title": "Hurricanes surge past Oilers for victory",
+   "url": "https://www.sportsnet.ca/nhl/article/hurricanes-surge-past-oilers-for-victory/",
+   "source": "Sportsnet",
+   "published": "2026-11-21T21:45:51Z",
+   "snippet": "Andrei Svechnikov scored two goals and Sebastian Aho had a goal and two assists to lead the Carolina Hurricanes to a 7-4 win over the Edmonton Oilers on Saturday."
+  },
+  {
+   "title": "Watch Edmonton Oilers vs. Carolina Hurricanes | Disney+",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQamxkMXNMS29QWjRaZm5kTjVhLW5XYlVhek9KUTlFbGRPR0dEa0FraXZIekZBOWJ5OTRtbUJoZnpTUzQ5b0RVMHRObGNldXlfMG1jUHFlMklYbk1tejZyOF9NV1FEaHlhUnA1akZoZ0JGdU1ET0VlMThmdE9tS1AyLW1OSE04NVZpM0pJ?oc=5",
+   "source": "Disney Plus",
+   "published": "2026-11-21T21:43:08Z",
    "snippet": "",
    "via": "google"
   },
@@ -29,6 +36,14 @@
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOExCcnMwMUJYUEtRdU15VzRCMmdPZkE3TktzVF9BcVh5dVY1cWR4alEwZkdIZk5HZFB1VXJKTERyR1NlVjdRXy00M3doWW1KS3ZfWm53OE9pM0RCcGwyVmtTcWlITnVVb2cxMGp2UmpXRnUtSkNWN040aWhyZURZVk95RVhucTU5LTl2eA?oc=5",
    "source": "Reuters",
    "published": "2026-11-21T21:21:53Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers' Zach Hyman exits against Hurricanes due to migraine",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONk5Wajl6X05nOERNQXJCQlJUWURRX0wwSW9WN21VWmFVc3VOLUpDRUgyaUYwcTQ0ZjlScW1mTFBCZ05FTDRGQjJwbEZFT2dUS1Q5WUo0dGhYTVZlMzctVXFPU0gtNDZSS1BrU01SNXp5X1NEdjl0R3Y4X1pIblVfVjhJVTlqTzd2bzMzREMwY1NsR1JHTEZsOFpjNA?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-21T21:18:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -69,21 +84,6 @@
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQlF0OVdXUXAtZlZuak5uMGd3Sy12WTFaUDNMWkxkU21VQTZQQlZ5REdQT1JTVl8xX2hsaHpwT1hwbFhKOTJjMDY1SEpyT3BLTndxbVNTZU9LcV9VczE2b05fVDFELXBHZE5aSk5nMVc1cXBhbXBCZDBZY0c3ZFB5WGhaSnNOal9xWE83TjdXWHVCVkFy?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-21T21:00:35Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers’ Zach Hyman exits against Hurricanes due to migraine",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-zach-hyman-exits-against-hurricanes-due-to-illness/",
-   "source": "Sportsnet",
-   "published": "2026-11-21T20:31:40Z",
-   "snippet": ""
-  },
-  {
-   "title": "Edmonton Oilers vs. Carolina Hurricanes Live Updates, Score, and Play-by-play - November 21, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aSTQ4endzbkxfMU1qYURoY1pfeXZfWjM1N1BvaGJROXJtUkl1QkdQRGRVVHNNQXE4dWdHTDg3TkdMemhmNTMwR0tSVmI1dk5MY3BwaW1VSDBlUjA1QmVjS0MxeTNVY0Q3YkZDT0ZfbVM?oc=5",
-   "source": "CBS Sports",
-   "published": "2026-11-21T20:26:15Z",
    "snippet": "",
    "via": "google"
   },
@@ -209,13 +209,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers on Sportsnet: Edmonton vs. Carolina",
-   "url": "https://www.sportsnet.ca/hockey/nhl/games/ec95f076-2c8a-4f52-939b-8e51b57f1167",
-   "source": "Sportsnet",
-   "published": "2026-11-21T17:45:14Z",
-   "snippet": "The Edmonton Oilers look to bounce back against the defending champion Carolina Hurricanes in this 2006 Final rematch. Check out the action on Sportsnet+ and our live tracker at 1 p.m. ET /…"
-  },
-  {
    "title": "‘The perfect situation’: How Babcock has turned Oilers into Cup contenders",
    "url": "https://www.sportsnet.ca/nhl/video/the-perfect-situation-how-babcock-has-turned-oilers-into-cup-contenders/",
    "source": "Sportsnet",
@@ -277,6 +270,13 @@
    "source": "NHL.com",
    "published": "2026-11-20T20:15:11.043Z",
    "snippet": "OILERS (17-4-3) at HURRICANES (16-3-3) 1 p.m. ET; HHN, CARNHL, NHLN, SNP, SNW, SNO Oilers projected lineup Filip Hallander -- Connor McDavid -- Kasperi Kapanen Vasily Podkolzin -- Leon…"
+  },
+  {
+   "title": "Babcock goes to blender with McDavid assigned unfamiliar linemates (for now at least)",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-hallander-joseph-mcdavid-draisaitl-carolina-hurricanes",
+   "source": "Edmonton Journal",
+   "published": "2026-11-20T18:51:41Z",
+   "snippet": ""
   }
  ]
 }

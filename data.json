@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T21:34:13+00:00",
+  "updated": "2026-11-21T21:48:16+00:00",
   "next": {
     "id": 2026020375,
     "gameType": 2,
@@ -32,7 +32,7 @@
     "timeMT": "12 PM MT",
     "timePT": "11 AM PT",
     "venue": "Lenovo Center",
-    "state": "FINAL",
+    "state": "OFF",
     "scheduleState": "OK",
     "lastPeriod": "REG",
     "away": {
