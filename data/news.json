@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-21T12:25:59Z",
+ "updated": "2026-11-21T13:02:12Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (92)"
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
@@ -13,6 +13,14 @@
    "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1odFRkN0hBaHZld2dtM3BHaENxcG5xMnNSV2sxRnkxVmlnNmJETllkMGhtUEhDbm1EZ1ZF?oc=5",
    "source": "Howl.Link",
    "published": "2026-11-21T12:12:24Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - St. Louis Blues - Nov 22, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hd1I1MU9ZSjhLSXFpQjZhRF9qNGo5bEFvWjlLbm5vZkx3R2V1RFJWZmxWZ00xeVZwRDhsT00wV3BsVGw1Q1ZEWTU2ZmhzN0lyN0FyTVlQUzlvYU5DaGpnTjlnYndvc25YNjdJTkNzMm4?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-21T11:01:08Z",
    "snippet": "",
    "via": "google"
   },
@@ -49,18 +57,18 @@
    "via": "google"
   },
   {
-   "title": "Preview: November 21 vs. Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhbGx4UUU5N2YzVEhzTG9JQlI0b2tsWUhPb25mek04eWRzZ3loYnV4Y0Q1bVM3SURTMnFBUEhIY0VuQjBJUDhvdnhlMk5Ha2RraF9YZXBZRmFPZnY3dUs3WE0yVGNXZWxoenpaUmRaNlRLdnRBZHc?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-21T06:08:48Z",
+   "title": "Division Leaders Collide: Carolina Hurricanes Host Edmonton Oilers in High-Stakes Rematch",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMXJHaVF2UnprYjFkalNrNHBBRm1LU0xNN3BseUJHbUxHVEhEUTM2Q2JjVlFRdWhVY0ZENWxXZC1nalBtOUtsWEFNVXNXR3FWdUhGZHJFVUxNMUxMYVlpSndWZjl6ZzRCQVNxeTU4aUJscmFVdzRLYlQ4S3BWdmlITWs4OE9RY3RfeVhmWkhOVEljUW40M1RodVBFSjFSUXBS?oc=5",
+   "source": "The Hype Magazine",
+   "published": "2026-11-21T07:41:27Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers - St. Louis Blues - Nov 22, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hd1I1MU9ZSjhLSXFpQjZhRF9qNGo5bEFvWjlLbm5vZkx3R2V1RFJWZmxWZ00xeVZwRDhsT00wV3BsVGw1Q1ZEWTU2ZmhzN0lyN0FyTVlQUzlvYU5DaGpnTjlnYndvc25YNjdJTkNzMm4?oc=5",
+   "title": "Preview: November 21 vs. Edmonton",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhbGx4UUU5N2YzVEhzTG9JQlI0b2tsWUhPb25mek04eWRzZ3loYnV4Y0Q1bVM3SURTMnFBUEhIY0VuQjBJUDhvdnhlMk5Ha2RraF9YZXBZRmFPZnY3dUs3WE0yVGNXZWxoenpaUmRaNlRLdnRBZHc?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-21T05:01:08Z",
+   "published": "2026-11-21T06:08:48Z",
    "snippet": "",
    "via": "google"
   },
@@ -164,14 +172,6 @@
    "source": "NHL.com",
    "published": "2026-11-20T21:56:00Z",
    "snippet": "Throw out the Xs and Os and join Short Shifts for our own weekly power rankings. What is our criteria? Whatever makes us smile, laugh, cry or any other wholesome feeling. This list is…"
-  },
-  {
-   "title": "Oilers-Hurricanes, Schaefer-Seider matchups highlight Saturday schedule",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa0F5WEJkZXJwVFg3aW1iQnZKVkhncXl5aXhwQjFJMXRMM0gyVjhkMlhXRzIyRi1sbVFlSHRZSXExWjZ1UnFBd3hNdkZDd0Q1cVN4VWZYdU9sdmRnVnBiSW9vZ0RZS0FISi1lendvd2NRaWQ5MUVKSGRJS05TemtpQ2JiVU1HTXFFRnVj?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-20T21:27:08Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Too soon to say Oilers and Hurricanes are a Stanley Cup Final preview, but still...",
