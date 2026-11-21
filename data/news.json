@@ -1,33 +1,58 @@
 {
- "updated": "2026-11-21T21:48:25Z",
+ "updated": "2026-11-21T22:17:32Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (8)",
-  "Google News (86)"
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Hurricanes surge past Oilers for victory",
-   "url": "https://www.sportsnet.ca/nhl/article/hurricanes-surge-past-oilers-for-victory/",
-   "source": "Sportsnet",
-   "published": "2026-11-21T21:45:51Z",
-   "snippet": "Andrei Svechnikov scored two goals and Sebastian Aho had a goal and two assists to lead the Carolina Hurricanes to a 7-4 win over the Edmonton Oilers on Saturday."
-  },
-  {
-   "title": "Watch Edmonton Oilers vs. Carolina Hurricanes | Disney+",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQamxkMXNMS29QWjRaZm5kTjVhLW5XYlVhek9KUTlFbGRPR0dEa0FraXZIekZBOWJ5OTRtbUJoZnpTUzQ5b0RVMHRObGNldXlfMG1jUHFlMklYbk1tejZyOF9NV1FEaHlhUnA1akZoZ0JGdU1ET0VlMThmdE9tS1AyLW1OSE04NVZpM0pJ?oc=5",
-   "source": "Disney Plus",
-   "published": "2026-11-21T21:43:08Z",
+   "title": "Babcock after Oilers' loss: Hurricanes had crowbars, we had noodles",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXZIN0Y5Y2FhdGZpdGotbFluOHFIM0NMZ3V3SFEyNjZRcTRXQTJZQXVLWEM0d1p0QVhSTTRQMEk3Qm1wbGc2dlRoZVk4eXlTa3M2SzMwdlhBVkpfSTNMa1I2Mmw4d3hGdjRlNEc4UDFIanEyX3JtNjd0em94ajFvNy1EVE15REc4aDFMd1ltY3JyV0FMSnNKSHZRbWFPWjJYaktBY3hWVEoxdw?oc=5",
+   "source": "theScore",
+   "published": "2026-11-21T22:09:32Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Recap: Canes Earn Roller Coaster Victory Over Oilers",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRUpYckNfV29CQUl0OXIwVWNOdjBiRTJ5ZG9NYmszTjBCR3ZZQmhvb0FjREY3ZmVBNm00VWtHeUJ0Rm4zSlgySmxUd3RjLTEtZ1hDWHpuSUtnWlJaR2NRSkFLd3F0MmpfOXNMdGhGODNpU09oVUZfMWJyM3h5bktEREk3U2Rkc3MwbzNWTWZwb3E?oc=5",
+   "title": "OUCH! Carolina Hurricanes give Edmonton Oilers a 60-minute spanking",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeHpaRl8yeGdnUjlqSWNLMEJua2d5cWY2T211ZVk2WkpSYk9HRlk3WFZHM2YzMFR0eUdfOFBDdndmOUwtandaZTJ0QzRZa0NKajBwREtBZkNuZGNETERQZzZfaERGbkp3ZTNvNExUTWlSQkFSZW4xMVFFZ1VwOUpBTTFNZ0pjaGVvTlRGR2JvXzBkX0t6ZC0xbFVUblF2blFCUXNPdQ?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-21T22:07:43Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "5 Takeaways From Oilers’ Wild 7-4 Loss to Hurricanes",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNk5ySzl0TUhmTmxxdUZXZW9sa0NTUHRXLWFQQTNfaXJ3QUlvUVc2aV95c1FfY25jR3o1OWh5UGk2Vml1U2xSdExCQXNaZnRqYXFFM0w0VHcyMzlQdmx3VzlLTWhIRjRlWS1FTW9feWlGTHdQR1R3aW96V3JEZlFMdmx2SjV2MFRmSlY0ZFBMQU5ORm1V?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-21T22:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Hurricanes surge past Oilers for 7-4 victory",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQN1RnVTlNYzZsMks1MUt6TXMtRl93UEl1M0xpSGhCb2JfQ0t4TGJqSk8zR1FYb0hFem1JbVQ3UTM2Y2U2Ny1zU29mZG5Ra29mSjVxSVBTMTlqSlY0bGR0WHhnSDZpODhTLS05b3R6UjF0enB2ZjU2X2xJaS1IUFc0VUtJNVVOUHp2c3E1b2ktRWlydGpnSVY1QjQ0Q29WOHVuYkxjUzVzODRfM1ZqcFc3WkdyajlMQmFZdko3YlA4eXpjUWxMYzNpNQ?oc=5",
+   "source": "Winnipeg Sun",
+   "published": "2026-11-21T21:53:55Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Hurricanes down Oilers in an insane game, 7-4",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOC1YOUJTbUVWQkVxaHdUTUR5M0x0WUxXc2hTbUNhOUZPQWlDdFB6a3N3OC03UUlMZDZ4YTNOMmRYZnJSbWhQN2JybnBsN3VTWVRPQmFUS2Z0aWFLN2lwak5ldUpuRlhnem9XaDNCaFUteVFUd0RHTzFfakhEYUVIZDFob2l2WWNyRjFj?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-21T21:44:51Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "QUICK RECAP: Hurricanes 7, Oilers 4 | Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JZkVoRHM4Q3dUOUdXdm1TZnVreHhnYUhjRmJob2dUY1VIeUI1NEtlTjVPdWpYNEJWekVmTk1VSmQ5S18zei12eEE4eHUxV1h0RHc5OVlnYW5XSVVoS1ZycHdad0lzRjRfX3RwSEFaSkowMFVOSjNHNGd3MnRaMW8?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-21T21:22:55Z",
+   "published": "2026-11-21T21:41:06Z",
    "snippet": "",
    "via": "google"
   },
@@ -35,7 +60,15 @@
    "title": "Hurricanes rally to outscore Oilers",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOExCcnMwMUJYUEtRdU15VzRCMmdPZkE3TktzVF9BcVh5dVY1cWR4alEwZkdIZk5HZFB1VXJKTERyR1NlVjdRXy00M3doWW1KS3ZfWm53OE9pM0RCcGwyVmtTcWlITnVVb2cxMGp2UmpXRnUtSkNWN040aWhyZURZVk95RVhucTU5LTl2eA?oc=5",
    "source": "Reuters",
-   "published": "2026-11-21T21:21:53Z",
+   "published": "2026-11-21T21:36:26Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Hurricanes 7-4 Oilers: Shots and power play rule",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLU1lR05nTExDWTZpNGdzdTZndnB0SjVVQlZ6VmhRZmkxSXRBQ2d5dFNubW9GSk81cEN3S2FoQV9wOVlTOXBldGV3RkktUlVfR0ZoUi1Jd0s5Um4zbS1UUnlJeE9jVnB5UndTdThoM3J3S2N6LW9EcTc4V0NrTG1yTmZ0N0Q3N3ZDS1l2cU1ZUXBPeUFGeWFDak1XQU1lc202RVpkUzFGY2NrdkUw?oc=5",
+   "source": "Sofascore",
+   "published": "2026-11-21T21:24:11Z",
    "snippet": "",
    "via": "google"
   },
@@ -62,6 +95,13 @@
    "published": "2026-11-21T21:12:30Z",
    "snippet": "",
    "via": "google"
+  },
+  {
+   "title": "QUICK RECAP: Hurricanes 7, Oilers 4",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-hurricanes-11-21-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-21T21:10:00Z",
+   "snippet": "RALEIGH, NC \\- Couldn't contain the storm. In a game of many swings against the reigning Stanley Cup champions, the Edmonton Oilers couldn’t hold onto two separate two-goal leads in a wild…"
   },
   {
    "title": "Oilers’ Zach Hyman leaves Hurricanes game with illness",
@@ -147,26 +187,10 @@
    "snippet": "Watch as Oilers forward Owen Michaels scores his third goal of the year and first in 22 games to open the scoring vs. the Hurricanes in front of several family members and friends."
   },
   {
-   "title": "LIVE UPDATES: Oilers at Hurricanes",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JZkVoRHM4Q3dUOUdXdm1TZnVreHhnYUhjRmJob2dUY1VIeUI1NEtlTjVPdWpYNEJWekVmTk1VSmQ5S18zei12eEE4eHUxV1h0RHc5OVlnYW5XSVVoS1ZycHdad0lzRjRfX3RwSEFaSkowMFVOSjNHNGd3MnRaMW8?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-21T18:45:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "LIVE UPDATES: Oilers vs Hurricanes LIVE FREE UPDATE SCORE",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNT05fSG1Dd3U0WWZzaElpeXJGQjBEVXpGaXJSbHpYWmdIZTFFQ0Y4RzdjNUI0Z3FrLU9TYTdxTDdwbXQwYlZHTWxtb0gxM1ZiQ0ZobmI0NFhvVnl2RzJIOS10a093dV9lWW9lanF1UUFydHhhN0ZhWlFwV2FpNnN0Z3BlUzdXUkZUaG9BSDVuNGFTX3BULUxjcFg2M19Ia1BuelMxcjlB?oc=5",
    "source": "FlamboroughToday.com",
    "published": "2026-11-21T18:34:38Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "LIVE/FREE Edmonton Oilers vs Carolina Hurricanes LIVE NHL Game On TV Coverage 2026",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM1p2ZFJ0WUZxSVdLTENZQ2lMSlhwWFowM0tycjlHWTdkdkVtclMxcUdYOWNzdF8yaTNxaER5OUUwUl9FcW5wOHUySGViZUE2a25kMmNUbDRFaF9SWHVYaDRSZzlTNmxNQmNUTWt0NEdKSmExVWFHR2Q1TmZtaGpXR0Z0QW13ZllBZHJSSkxIWjNudTV4YmVrQy1rdEZaejJNLWtWaUVIQks?oc=5",
-   "source": "Vancouver Is Awesome",
-   "published": "2026-11-21T18:33:43Z",
    "snippet": "",
    "via": "google"
   },
@@ -176,37 +200,6 @@
    "source": "Sportsnet",
    "published": "2026-11-21T18:26:00Z",
    "snippet": "Carolina Hurricanes forward Taylor Hall is honoured for reaching 1,000 NHL games before a matchup with the Edmonton Oilers, the team Hall was drafted to and played six seasons with."
-  },
-  {
-   "title": "Live *Hurricanes vs Oilers NHL game on ESPN, including live score, highlights and updatad",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQb3E0dDZzdUg3WHZhODNxRWJNX1Raa2poU3c2RUN6b3hWaU9UN0hVU3VmSGliYlJZYkgzUkU3ajVuN3NrX1ZPVFZ5VTJWS2tYSzRsbVRYMFBOSFBXWHlHaU9DakstOFhMcnktN29VV2Nsc2ZJNktkUnl2aXV6aWU3eQ?oc=5",
-   "source": "ElliotLakeToday.com",
-   "published": "2026-11-21T18:23:53Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "QUICK RECAP: Hurricanes 7, Oilers 4",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-hurricanes-11-21-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-21T18:09:04.489Z",
-   "snippet": "RALEIGH, NC \\- Couldn't contain the storm. In a game of many swings against the reigning Stanley Cup champions, the Edmonton Oilers couldn’t hold onto two separate two-goal leads in a wild…"
-  },
-  {
-   "title": "NHL LIVE: Edmonton Oilers vs Carolina Hurricanes Live STREA.MS Free NHL Hockey Game On 2026",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZGZMS2JfRmYzbEw5VWo0cXJfWHVoZVpQTHQ1UTFQQk1GMWVlSkhfRjVpYnlJZW1HRVhSVUJ2QnMtRmo5UFZBeFBHYU16ejcwUHBnVnJibEp6c2s5R2ZfS2h4UFJMWXBCUC1VeGpGXzFDUVo5RlVkYjZnb1NPRGhDYnh3c0ZFUHA2NEtV?oc=5",
-   "source": "Northern Ontario Business",
-   "published": "2026-11-21T18:05:45Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL LIVE: Carolina Hurricanes vs Edmonton Oilers Live STREA.MS Free NHL Hockey Game On 2026",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LNHVPRU81SUtNU0xKaExmQzdwTEw3c041d3RjUEV1MHRRNUlJYzhXWENkOVBUT0FHZU9Kcnk0VzJ2NnFwM2dGak5hRFdjMnNkRnFPYWw3QkQySWZRU0g0dHBtZDF1aVg0b3dMb0xzd25vOFJPV01wUURTWFI?oc=5",
-   "source": "InnisfilToday.ca",
-   "published": "2026-11-21T18:03:42Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "‘The perfect situation’: How Babcock has turned Oilers into Cup contenders",
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-20T18:51:41Z",
    "snippet": ""
+  },
+  {
+   "title": "State Your Case: Hurricanes or Oilers as top team",
+   "url": "https://www.nhl.com/news/state-your-case-carolina-hurricanes-or-edmonton-oilers-as-top-team-in-nhl",
+   "source": "NHL.com",
+   "published": "2026-11-20T15:24:13.238Z",
+   "snippet": "The defending Stanley Cup champion Carolina Hurricanes host the Edmonton Oilers at Lenovo Center on Saturday (1 p.m. ET; HHN, CARNHL, NHLN, SNP, SNW, SNO). It should be quite the tilt,…"
   }
  ]
 }
