@@ -1,13 +1,75 @@
 {
- "updated": "2026-11-21T17:23:02Z",
+ "updated": "2026-11-21T18:18:30Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (1)",
-  "Google News (87)"
+  "Sportsnet (2)",
+  "Google News (84)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "LIVE UPDATES: Oilers at Hurricanes",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-hurricanes-11-21-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-21T18:09:04.489Z",
+   "snippet": "The Edmonton Oilers visit the Carolina Hurricanes on Saturday afternoon at the Lenovo Center to kick off a back-to-back weekend. Follow along for live updates, highlights, stats and more,…"
+  },
+  {
+   "title": "NHL LIVE: Edmonton Oilers vs Carolina Hurricanes Live STREA.MS Free NHL Hockey Game On 2026",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZGZMS2JfRmYzbEw5VWo0cXJfWHVoZVpQTHQ1UTFQQk1GMWVlSkhfRjVpYnlJZW1HRVhSVUJ2QnMtRmo5UFZBeFBHYU16ejcwUHBnVnJibEp6c2s5R2ZfS2h4UFJMWXBCUC1VeGpGXzFDUVo5RlVkYjZnb1NPRGhDYnh3c0ZFUHA2NEtV?oc=5",
+   "source": "Northern Ontario Business",
+   "published": "2026-11-21T18:05:45Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL LIVE: Carolina Hurricanes vs Edmonton Oilers Live STREA.MS Free NHL Hockey Game On 2026",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5LNHVPRU81SUtNU0xKaExmQzdwTEw3c041d3RjUEV1MHRRNUlJYzhXWENkOVBUT0FHZU9Kcnk0VzJ2NnFwM2dGak5hRFdjMnNkRnFPYWw3QkQySWZRU0g0dHBtZDF1aVg0b3dMb0xzd25vOFJPV01wUURTWFI?oc=5",
+   "source": "InnisfilToday.ca",
+   "published": "2026-11-21T18:03:42Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "[Free]*Carolina Hurricanes vs Edmonton Oilers Live 𝐒𝐭𝐫𝐞𝐚𝐦𝐬 ON National Hockey League Game",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUzZkZjZKaUVnSFQtNzZpVzhhOWdGcjAxSTF4RXZzNFpRM083bWgwT0NLbnRtUzQwSmJpbWJNQUVkVWxuU2xRM1lUdVR4bUx6VGREb0ZVUTVYTXBld0hwYzlTWTVwMFROUldlOW9iZFY2UWE4VkIyaF9zZThfaWhNSnh3?oc=5",
+   "source": "FlamboroughToday.com",
+   "published": "2026-11-21T18:00:25Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers on Sportsnet: Edmonton vs. Carolina",
+   "url": "https://www.sportsnet.ca/hockey/nhl/games/ec95f076-2c8a-4f52-939b-8e51b57f1167",
+   "source": "Sportsnet",
+   "published": "2026-11-21T17:45:14Z",
+   "snippet": "The Edmonton Oilers look to bounce back against the defending champion Carolina Hurricanes in this 2006 Final rematch. Check out the action on Sportsnet+ and our live tracker at 1 p.m. ET /…"
+  },
+  {
+   "title": "Oilers Linked to Red Wings RFA Holdout Simon Edvinsson",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzbEVZQjQ0VXZKaGRONzVtRS1DSkdVLTA2c3NJQjlIWThkaEpGT0IzS3VKSm9XTm5tamNlMnJoLTNEc1RFZWxOSEZBalBYNEpmOFJCVm43X3JCeUNORFBoMFhsVUJCMTE3THZrcjF4NmNGZzliSkVnbw?oc=5",
+   "source": "NHL Trade Rumors",
+   "published": "2026-11-21T17:35:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Have Found the Recipe to a Stellar Penalty Kill",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUHdyTTAydUd4T0RndXg4RzJnUnZvV2dicFd1M0JZZURSendKOGI5TjFZSXZxSnJaaWJlekxqc3IzQUdrbEhkWE11ZThTc2M1UWJTaWhUalUzRDJ4RGxPVkFsN2FKRERQTFM4ZDVUVGNnLVNad1JPOXpLN2gzNkVEeTdvU1JSd2trckFVaw?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-21T17:30:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers - St. Louis Blues - Nov 22, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hd1I1MU9ZSjhLSXFpQjZhRF9qNGo5bEFvWjlLbm5vZkx3R2V1RFJWZmxWZ00xeVZwRDhsT00wV3BsVGw1Q1ZEWTU2ZmhzN0lyN0FyTVlQUzlvYU5DaGpnTjlnYndvc25YNjdJTkNzMm4?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-21T17:01:08Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Draisaitl, Gauthier leading the Rocket Richard race",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVzhYN05sYldocUlqcVlNcTlPZzFpd2F3UEtiUTZBWlVkSy1zNU1XUGZUMEFQTnh4cW5kZ0NXSVA5MzIyYjY1czFVX20yUVJhZjZrb2pxRjE0eXktRjB6bnhia1ZkWXU3ajM3MERPbW5VOVo5Y3B3YXlXMlZOY1FRc3hlS3RvbEVMa3JuTFVJNE5yS3lDZWFCc1hxdVFLMk42eDJhUjJuNHQwNW93enlpekRaTk5mejZIa3NVYVFVM3ZuMy1feEE0SEQ2N3ZkVDVNY2xCTzlxNnlyc2xOWTgwSA?oc=5",
@@ -25,26 +87,10 @@
    "via": "google"
   },
   {
-   "title": "Projected Lineup: November 21 vs. Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT3lYZGZGR0ZOQU9OQ0pLX0ZPVkFKb2Q1MmpGUU9YWW5mWHVfblkycjJmTFdmV2VlMGpUUVd6MWNKb251QkRuUjB2OFNzT0NOUVBGcVlvY2Y1Mkx6RDBERUVlR3Z2d2M0SjB3Qm91aExoaHhhT3hYR0JTTGRnbncwNFhB?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-21T16:21:54Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Top 100 Oilers: No. 12 — Esa Tikkanen",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43bTJ1dFBXWFdwUnI5X0JrdmpROU1OYlcxRFVseF9fMldacDd2MU1Tb1QzTWpsMk8xMFJyZWU1aGNxSkgzemNfLXVqRHdoUnVFRXRzQ1Q5OVIyRkU3clU2VzFnc1ZiUkRXanhUcGhtZXpIcHlSYjZwdHdmLXg?oc=5",
    "source": "Oilers Nation",
-   "published": "2026-11-21T16:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Saturday’s Picks/Props: McDavid for a Power-Play Point",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWVpTWEc2QlRBQUwwakJycVh5d3FMb3lxWVNCY2ZmWExKQXpHRUZ0dHBxQ0gtOHRIZHJjTE5hRXpBRW5sMy1YdDQ2cGhTMEhUaWpSUnQya1N6Qm5FYktHZnpHNzJENHQ0TjdrRzVjQ0VKam1oQ0EwZ1dyd29UVU1HRDZUdFZLMWZOOGc3aTAza0J2RVE?oc=5",
-   "source": "DobberHockey",
-   "published": "2026-11-21T15:36:40Z",
+   "published": "2026-11-21T16:17:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -117,38 +163,6 @@
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMHl4b3l2MDNsUDA5Z0I1X2pITm1WeGxqMnJWZEJjM1NpRHpMa1B4WUx3LTM4ZlBtZG80QWY0VHBPYks5X0hIdk1ySnZud3gyX3hUY1dSaWtrWkpqLUdLejBmd0xWWm1OdG9pNmJ1UDZNV25fd0dKUEdLblpxTXZPVVVuRjVraDdJNFZj?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-21T12:30:33Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers vs. Hurricanes Preview: Edmonton Looks to Bounce Back Against the Champs",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE1odFRkN0hBaHZld2dtM3BHaENxcG5xMnNSV2sxRnkxVmlnNmJETllkMGhtUEhDbm1EZ1ZF?oc=5",
-   "source": "Howl.Link",
-   "published": "2026-11-21T12:12:24Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Pre-Scout: Oilers traversing storms to meet the Hurricanes",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZkJLOGVPb2ZJVXg5dUlMUEdENHJWRXBUWjZ0QUJmQmhid2IxMVJmX2NCVE14UGY4al9IV3N6VnRJZ2gtQ0oxa2hkaTJZcWlUSUpwcUdndTRuSi1wQmRaeTZvam5lOHJxWklrcGxGck9mSW5CcDRrS1ItOGJ6eUdQN0tiWEc3cTNJcjJ4dEgzcGNNRW9xZ0pGdGpZdGxlUlBD?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-21T12:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers - St. Louis Blues - Nov 22, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hd1I1MU9ZSjhLSXFpQjZhRF9qNGo5bEFvWjlLbm5vZkx3R2V1RFJWZmxWZ00xeVZwRDhsT00wV3BsVGw1Q1ZEWTU2ZmhzN0lyN0FyTVlQUzlvYU5DaGpnTjlnYndvc25YNjdJTkNzMm4?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-21T11:01:08Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "How to watch Oilers vs. Hurricanes: TV channel and streaming options for November 21",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR19ZZVowZHRRUEpIS20zY3FNZ2czcGVFTEtYbm1XYWh4Tm82aC1tZndoZ09mZzhkRnItelU2UlNvLXJNQml4SGtqYUh6YzdIMEIwS05QcWNneEIxX2o2VzRPdEJFbGo3d1RaSy1taW9BaVdOOUo3a3RUcUdLb3ExRHkxQThibnFSYTNaNGJrWXhEWFRHeVgtT1FoS3RCSERLRWc?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-21T10:45:51Z",
    "snippet": "",
    "via": "google"
   },
@@ -259,24 +273,10 @@
   },
   {
    "title": "McDavid, Draisaitl are works of art at Edmonton grocery",
-   "url": "https://www.nhl.com/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery-x7544",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-20T01:19:37.256Z",
    "snippet": "EDMONTON -- Eric Falkenberg grew up with a fondness for drawing and building LEGO sets and has turned it into a mastery of three-dimensional grocery store displays."
-  },
-  {
-   "title": "QUICK RECAP: Lightning 3, Oilers 1",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-lightning-11-19-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-20T00:41:38.161Z",
-   "snippet": "TAMPA, FL – The streaks conclude. The Edmonton Oilers had their six-game win streak snapped, along with Connor McDavid's historic season-opening point streak of 23 games, in a 3-1 defeat to…"
-  },
-  {
-   "title": "BLOG: Joseph found his 'Mojo' over two Stanley Cups with Tampa Bay",
-   "url": "https://www.nhl.com/oilers/news/blog-joseph-found-his-mojo-over-two-stanley-cups-with-tampa-bay",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-19T22:18:34.178Z",
-   "snippet": "TAMPA, FL – Mathieu Joseph will always feel at home any time he’s back in Tampa. Considering the memories 'Mojo' created here, it’s not hard to see why. It’s easy to fall in love with a…"
   }
  ]
 }
