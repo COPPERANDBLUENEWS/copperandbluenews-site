@@ -3,7 +3,7 @@
   "id": 2026020359,
   "startTimeUTC": "2026-11-21T18:00:00Z",
   "gameDate": "2026-11-21",
-  "state": "FUT",
+  "state": "PRE",
   "home": false,
   "venue": "Lenovo Center",
   "opponent": {
@@ -17,9 +17,9 @@
  "forwards": [
   [
    {
-    "id": 8480842,
-    "name": "Filip Hallander",
-    "num": 19,
+    "id": 8481617,
+    "name": "Vasily Podkolzin",
+    "num": 92,
     "pos": "LW"
    },
    {
@@ -29,37 +29,37 @@
     "pos": "C"
    },
    {
-    "id": 8477953,
-    "name": "Kasperi Kapanen",
-    "num": 42,
-    "pos": "RW"
-   }
-  ],
-  [
-   {
-    "id": 8481617,
-    "name": "Vasily Podkolzin",
-    "num": 92,
-    "pos": "LW"
-   },
-   {
     "id": 8477934,
     "name": "Leon Draisaitl",
     "num": 29,
-    "pos": "C"
-   },
-   {
-    "id": 8478472,
-    "name": "Mathieu Joseph",
-    "num": 21,
     "pos": "RW"
    }
   ],
   [
+   {
+    "id": 8477953,
+    "name": "Kasperi Kapanen",
+    "num": 42,
+    "pos": "LW"
+   },
    {
     "id": 8482703,
     "name": "Colton Dach",
     "num": 34,
+    "pos": "C"
+   },
+   {
+    "id": 8475786,
+    "name": "Zach Hyman",
+    "num": 18,
+    "pos": "RW"
+   }
+  ],
+  [
+   {
+    "id": 8480842,
+    "name": "Filip Hallander",
+    "num": 19,
     "pos": "LW"
    },
    {
@@ -69,9 +69,9 @@
     "pos": "C"
    },
    {
-    "id": 8475786,
-    "name": "Zach Hyman",
-    "num": 18,
+    "id": 8478472,
+    "name": "Mathieu Joseph",
+    "num": 21,
     "pos": "RW"
    }
   ],
@@ -249,8 +249,8 @@
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Bob Stauffer",
-   "updatedAt": "2026-11-21T04:05:56.868Z"
+   "basis": "Jack Michaels",
+   "updatedAt": "2026-11-21T17:39:44.056Z"
   },
   {
    "name": "DailyFaceoff",
@@ -260,19 +260,19 @@
  ],
  "goalie": {
   "starter": {
-   "id": 8477465,
-   "name": "Tristan Jarry",
-   "num": 35,
-   "pos": "G"
-  },
-  "status": "Unconfirmed",
-  "backup": {
    "id": 8482221,
    "name": "Devon Levi",
    "num": 27,
    "pos": "G"
   },
-  "note": null
+  "status": "Confirmed",
+  "backup": {
+   "id": 8477465,
+   "name": "Tristan Jarry",
+   "num": 35,
+   "pos": "G"
+  },
+  "note": "Levi led the Oilers onto the ice for warmups. "
  },
  "scratches": [
   {
@@ -426,8 +426,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/carolina-hurricanes/line-combinations",
     "what": "line combinations",
-    "basis": "Last Game (2026-11-19)",
-    "updatedAt": "2026-11-20T17:09:07.598Z"
+    "basis": "Walt Ruff",
+    "updatedAt": "2026-11-21T17:39:12.041Z"
    },
    {
     "name": "DailyFaceoff",
@@ -442,15 +442,15 @@
     "num": 52,
     "pos": "G"
    },
-   "status": "Unconfirmed",
+   "status": "Confirmed",
    "backup": {
     "id": 8483548,
     "name": "Brandon Bussi",
     "num": 32,
     "pos": "G"
    },
-   "note": null
+   "note": "Kochetkov led the Hurricanes onto the ice for warmups. "
   }
  },
- "updated": "2026-11-21T04:35:38Z"
+ "updated": "2026-11-21T17:46:18Z"
 }
