@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-22T01:14:04Z",
+ "updated": "2026-11-22T01:51:12Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (6)",
-  "Google News (91)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
@@ -89,6 +89,14 @@
    "via": "google"
   },
   {
+   "title": "Top 100 Oilers: No. 12 — Esa Tikkanen",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43bTJ1dFBXWFdwUnI5X0JrdmpROU1OYlcxRFVseF9fMldacDd2MU1Tb1QzTWpsMk8xMFJyZWU1aGNxSkgzemNfLXVqRHdoUnVFRXRzQ1Q5OVIyRkU3clU2VzFnc1ZiUkRXanhUcGhtZXpIcHlSYjZwdHdmLXg?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-21T22:44:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Instant Reaction: Oilers blow 3-1 lead, fall 7-4 to Hurricanes in high-scoring affair",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVkZUTU1NOVZxRW5hX1ZxMlBHYkdBblVaMkxqYlk2bmJEVEktcy1GOGJSVURiUXoyV3YxZW9hMmNZR0htLVRmd1M2RG1hZlJKNU5WNkU1T1F3WE5wMjZqS2Y0RkZBZWNqRjlhQk1Rajd2QzFrbG95LWpCMnQtLXpXcWUwc3JwZ0tJWGZEOFVqOUY5QnZ2NmNFZUpab2Y2VDlKMTR3a3lmWXJrQQ?oc=5",
    "source": "Oilers Nation",
@@ -141,14 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeHpaRl8yeGdnUjlqSWNLMEJua2d5cWY2T211ZVk2WkpSYk9HRlk3WFZHM2YzMFR0eUdfOFBDdndmOUwtandaZTJ0QzRZa0NKajBwREtBZkNuZGNETERQZzZfaERGbkp3ZTNvNExUTWlSQkFSZW4xMVFFZ1VwOUpBTTFNZ0pjaGVvTlRGR2JvXzBkX0t6ZC0xbFVUblF2blFCUXNPdQ?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-21T22:07:43Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "5 Takeaways From Oilers’ Wild 7-4 Loss to Hurricanes",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNk5ySzl0TUhmTmxxdUZXZW9sa0NTUHRXLWFQQTNfaXJ3QUlvUVc2aV95c1FfY25jR3o1OWh5UGk2Vml1U2xSdExCQXNaZnRqYXFFM0w0VHcyMzlQdmx3VzlLTWhIRjRlWS1FTW9feWlGTHdQR1R3aW96V3JEZlFMdmx2SjV2MFRmSlY0ZFBMQU5ORm1V?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-21T22:00:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -273,8 +273,8 @@
   },
   {
    "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026-x6012",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-20T05:09:00Z",
    "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
   }
