@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:51:40Z",
+ "updated": "2026-11-22T22:24:18Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,14 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Watch NHL Mini: Edmonton Oilers vs Carolina Hurricanes | Disney+",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUkNOVnhObHU1ZFlZYlBNVk9aQVNOYjJBR2U1Qkl0ank0OHJjbHAzXzI1RFoweGwxekhJVjRVTEpGMmZFOWNQOThZM2VKc21yZlNYUVRvc0NXellkdFJZNlczbDhDLXJiZ1hSak92cHNiMFBDdFkzTks2RWM4ZkxkOXdqYjNYQ2FVMTBR?oc=5",
+   "source": "Disney Plus",
+   "published": "2026-11-22T22:21:11Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Hyman had concerning symptoms after leaving Edmonton Oilers loss",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdHJpalhZc0NEUWcxa2hSdDJiVEQ3RGZCOG1OU3E3VWkwaEJwekZhWGUxbHpxT0EwcExrbUJsbnhaekR5bDM5RHdIVVQ3bkhhZGxXTFNmRi1JNDVJNl9wVWI3T1ZPTGVmRnVVakN1R0VKWDh0RHFIdVdYY1l1eWtHQk5n?oc=5",
@@ -20,7 +28,7 @@
    "title": "PROJECTED LINEUP: Oilers at Blues | Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xLWZQUHBleWRLalFMUHVySWlQR2hqNVVERGx2TEFQSU9mMTgxNGUxRVZrd0hnZzNHcjFMdzJHeF84OU5IaWRJeEVLZWF3ZzBTWVY4VklLaG92dnJ1azVFT1YzMzB2TTB4Wmg2aUV1N3BWMTNSaXBsUXBnX3BiUQ?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-22T18:56:15Z",
+   "published": "2026-11-22T18:59:38Z",
    "snippet": "",
    "via": "google"
   },
@@ -152,14 +160,6 @@
    "via": "google"
   },
   {
-   "title": "The Day After 25.0: Oilers’ lack of depth exposed in brutal back-to-back losses",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUHl3ams1dUxzNG4wTm1JLU9HTTZNTlY2TkMzTVRaaVZtR2xESWFLMzR2WlAxV0hyd1E3clBNeHYzN2lRWkdFdXF1U3RYTjd2c0RMcGk4VVZCRGQ2TG5UYXJiZFZjcjRHZDhwZzlydFF4dF82SVRsb0ZZVzF4QlA2dVh5bmFCYnozTTFGcWZ4WDdPd0U1b1R2cGJQWUN5NjVmbHZJ?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-22T12:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Is a lack of sufficient depth starting to catch up to the Edmonton Oilers: 9 Things",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/is-a-lack-of-sufficient-depth-starting-to-catch-up-to-the-edmonton-oilers-9-things",
    "source": "Edmonton Journal",
@@ -259,15 +259,15 @@
   },
   {
    "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026-x6012",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026",
+   "source": "NHL.com",
    "published": "2026-11-20T05:09:00Z",
    "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
   },
   {
    "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://www.nhl.com/oilers/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers-x2007",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
+   "source": "NHL.com",
    "published": "2026-11-20T05:00:00Z",
    "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
   },
