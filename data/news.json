@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-22T20:25:03Z",
+ "updated": "2026-11-22T21:24:14Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (2)",
-  "Google News (84)"
+  "Sportsnet (1)",
+  "Google News (83)"
  ],
  "errors": [],
  "items": [
@@ -60,14 +60,6 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdTkwX190b0t3eVN4SXdkSHlkUERndFZJZGtwelZHN3lLYUVtM1k5d0RHeDBnV3duV0czZEtYbnVSci16bk5vY1VfQVgzMG80Rk5VcXhfTlpOeWh5YmtRTl9oNXJlaExuMEJaLXlmam1UMFZDMmQwZHN3ckNIVE9vU0NCcEp0SmpGSXJMY0VuMGdOT0RBeDJTZ0l1NjM?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-22T17:22:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "How to watch Oilers vs. Blues: TV channel and streaming options for November 22",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSHVkeko1bFphSnV0TndsbWlTSDJQMlpfRGw2R2toMDZROGVuclpyTWMwR3JIeGdCWVE0d08tcnNWZ1Vpd0tLa2x2QVFHVUVNWWl2cU1CTWVWNm1ZMV9KUkI1N3o3RW0yeTQwY0xVSURWOHd6LV9rQlR3SWstTm5hcy1EUVBEYzZrTGZOOW1YNUgyeEVkYURXX2F0UQ?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-22T16:48:27Z",
    "snippet": "",
    "via": "google"
   },
@@ -160,6 +152,14 @@
    "via": "google"
   },
   {
+   "title": "The Day After 25.0: Oilers’ lack of depth exposed in brutal back-to-back losses",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUHl3ams1dUxzNG4wTm1JLU9HTTZNTlY2TkMzTVRaaVZtR2xESWFLMzR2WlAxV0hyd1E3clBNeHYzN2lRWkdFdXF1U3RYTjd2c0RMcGk4VVZCRGQ2TG5UYXJiZFZjcjRHZDhwZzlydFF4dF82SVRsb0ZZVzF4QlA2dVh5bmFCYnozTTFGcWZ4WDdPd0U1b1R2cGJQWUN5NjVmbHZJ?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-22T12:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Is a lack of sufficient depth starting to catch up to the Edmonton Oilers: 9 Things",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/is-a-lack-of-sufficient-depth-starting-to-catch-up-to-the-edmonton-oilers-9-things",
    "source": "Edmonton Journal",
@@ -172,13 +172,6 @@
    "source": "NHL.com",
    "published": "2026-11-21T23:05:00Z",
    "snippet": "RALEIGH, N.C. -- The Carolina Hurricanes scored five goals in the second period of a 7-4 win against the Edmonton Oilers at Lenovo Center on Saturday."
-  },
-  {
-   "title": "Oilers get reality check in loss to defending champion Hurricanes",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-get-reality-check-in-loss-to-defending-champion-hurricanes/",
-   "source": "Sportsnet",
-   "published": "2026-11-21T22:32:52Z",
-   "snippet": "Saturday’s loss to the Hurricanes was an honest exposure of where the Oilers stand against the best in the business. “In the end, we didn’t measure up today.”"
   },
   {
    "title": "OUCH! Carolina Hurricanes give Edmonton Oilers a 60-minute spanking",
@@ -277,6 +270,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-20T05:00:00Z",
    "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
+  },
+  {
+   "title": "McDavid, Oilers streaks snapped as Lightning beat Edmonton at its own game",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-tampa-bay-mcdavid-streak-ends",
+   "source": "Edmonton Journal",
+   "published": "2026-11-20T03:16:38Z",
+   "snippet": "The Oilers and Lightning waged a 60-minute chess match"
   }
  ]
 }
