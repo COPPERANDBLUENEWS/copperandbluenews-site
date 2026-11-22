@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-22T13:00:28Z",
+ "updated": "2026-11-22T13:39:08Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (86)"
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
@@ -13,6 +13,14 @@
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZEJQLW52WlN5YW52R3pOV2NSTmN6QkVaYlV6RDV0RDZSb21rX3ZTS2RvZ2p0NC0tZGFnTEU4U0tFMmxnWVhUWkdPc1lEWlVfRWxXYl9PcWlVMG1xNnluZFh2RmlxeDZxRjFWLXFucVozTE9SakJCbk5sSTd4OFp0dV9oV3lrZ1BpRXpZb3pNWGRrSk9rajhwTEhnMGVQamxmcEdlR2tDSnVDU052bDB6Zw?oc=5",
    "source": "Inside The Rink",
    "published": "2026-11-22T12:31:41Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "The Day After 25.0: Oilers’ lack of depth exposed in brutal back-to-back losses",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUHl3ams1dUxzNG4wTm1JLU9HTTZNTlY2TkMzTVRaaVZtR2xESWFLMzR2WlAxV0hyd1E3clBNeHYzN2lRWkdFdXF1U3RYTjd2c0RMcGk4VVZCRGQ2TG5UYXJiZFZjcjRHZDhwZzlydFF4dF82SVRsb0ZZVzF4QlA2dVh5bmFCYnozTTFGcWZ4WDdPd0U1b1R2cGJQWUN5NjVmbHZJ?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-22T12:00:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -145,14 +153,6 @@
    "via": "google"
   },
   {
-   "title": "Instant Reaction: Oilers blow 3-1 lead, fall 7-4 to Hurricanes in high-scoring affair",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVkZUTU1NOVZxRW5hX1ZxMlBHYkdBblVaMkxqYlk2bmJEVEktcy1GOGJSVURiUXoyV3YxZW9hMmNZR0htLVRmd1M2RG1hZlJKNU5WNkU1T1F3WE5wMjZqS2Y0RkZBZWNqRjlhQk1Rajd2QzFrbG95LWpCMnQtLXpXcWUwc3JwZ0tJWGZEOFVqOUY5QnZ2NmNFZUpab2Y2VDlKMTR3a3lmWXJrQQ?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-21T22:43:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "OUCH! Carolina Hurricanes give Edmonton Oilers a 60-minute spanking",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/carolina-hurricanes-edmonton-oilers-lose",
    "source": "Edmonton Journal",
@@ -252,8 +252,8 @@
   },
   {
    "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://www.nhl.com/oilers/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers-x2007",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
+   "source": "NHL.com",
    "published": "2026-11-20T05:00:00Z",
    "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
   },
@@ -266,8 +266,8 @@
   },
   {
    "title": "McDavid, Draisaitl are works of art at Edmonton grocery",
-   "url": "https://www.nhl.com/oilers/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery-x7544",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery",
+   "source": "NHL.com",
    "published": "2026-11-20T01:19:37.256Z",
    "snippet": "EDMONTON -- Eric Falkenberg grew up with a fondness for drawing and building LEGO sets and has turned it into a mastery of three-dimensional grocery store displays."
   },
