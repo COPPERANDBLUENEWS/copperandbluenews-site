@@ -3,7 +3,7 @@
   "id": 2026020375,
   "startTimeUTC": "2026-11-23T00:00:00Z",
   "gameDate": "2026-11-22",
-  "state": "FUT",
+  "state": "PRE",
   "home": false,
   "venue": "Enterprise Center",
   "opponent": {
@@ -17,9 +17,9 @@
  "forwards": [
   [
    {
-    "id": 8482703,
-    "name": "Colton Dach",
-    "num": 34,
+    "id": 8480842,
+    "name": "Filip Hallander",
+    "num": 19,
     "pos": "LW"
    },
    {
@@ -29,9 +29,9 @@
     "pos": "C"
    },
    {
-    "id": 8480842,
-    "name": "Filip Hallander",
-    "num": 19,
+    "id": 8477953,
+    "name": "Kasperi Kapanen",
+    "num": 42,
     "pos": "RW"
    }
   ],
@@ -49,26 +49,6 @@
     "pos": "C"
    },
    {
-    "id": 8477953,
-    "name": "Kasperi Kapanen",
-    "num": 42,
-    "pos": "RW"
-   }
-  ],
-  [
-   {
-    "id": 8479365,
-    "name": "Trent Frederic",
-    "num": 10,
-    "pos": "LW"
-   },
-   {
-    "id": 8477450,
-    "name": "Jason Dickinson",
-    "num": 16,
-    "pos": "C"
-   },
-   {
     "id": 8478472,
     "name": "Mathieu Joseph",
     "num": 21,
@@ -83,15 +63,35 @@
     "pos": "LW"
    },
    {
+    "id": 8477450,
+    "name": "Jason Dickinson",
+    "num": 16,
+    "pos": "C"
+   },
+   {
+    "id": 8482703,
+    "name": "Colton Dach",
+    "num": 34,
+    "pos": "RW"
+   }
+  ],
+  [
+   {
+    "id": 8479368,
+    "name": "Max Jones",
+    "num": 46,
+    "pos": "LW"
+   },
+   {
     "id": 8486161,
     "name": "Owen Michaels",
     "num": 43,
     "pos": "C"
    },
    {
-    "id": 8479368,
-    "name": "Max Jones",
-    "num": 46,
+    "id": 8479365,
+    "name": "Trent Frederic",
+    "num": 10,
     "pos": "RW"
    }
   ]
@@ -256,8 +256,8 @@
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Projected",
-   "updatedAt": "2026-11-22T22:43:33.610Z"
+   "basis": "@EdmontonOilers",
+   "updatedAt": "2026-11-22T23:28:39.097Z"
   },
   {
    "name": "DailyFaceoff",
@@ -369,9 +369,9 @@
      "pos": "C"
     },
     {
-     "id": 8477527,
-     "name": "Ross Johnston",
-     "num": 49,
+     "id": 8477573,
+     "name": "Nathan Walker",
+     "num": 26,
      "pos": "RW"
     }
    ]
@@ -449,8 +449,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/st-louis-blues/line-combinations",
     "what": "line combinations",
-    "basis": "Last Game (2026-11-22)",
-    "updatedAt": "2026-11-22T18:39:52.031Z"
+    "basis": "Jeremy Rutherford",
+    "updatedAt": "2026-11-22T23:41:54.302Z"
    },
    {
     "name": "DailyFaceoff",
@@ -475,5 +475,5 @@
    "note": "Hofer will start Sunday vs. the Oilers. "
   }
  },
- "updated": "2026-11-22T22:47:41Z"
+ "updated": "2026-11-22T23:46:20Z"
 }
