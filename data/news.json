@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-22T05:38:17Z",
+ "updated": "2026-11-22T06:36:05Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (86)"
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
@@ -37,6 +37,14 @@
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTWhrTklHYU5xdDdyY0tSZmxGRU5MOWVPbFJ1UXpsS3BGbkIxZ3JsdHJMYXljY18yMVozdzFwZG5SSTQ5SW5oSXBHOHZ4bEJ4Wm5UamZJY3dpYjhQcWlwbFdjczR1aVlGYkdLWjdKOW9hMnJkUUROVFhRZjlWUnFEOHJObC02VEtIQzJZbEt3?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-22T03:50:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Player grades: Edmonton Oilers whooped in wild and woolly weirdo of a game",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV2JhV2xHeFMzWU90WG5NTnUzbGdFU0Y2UFpBWEZlaHI3Tkd4WTlvc0tZbVJLMGVSQWJhSmVLU0tPUEhYaURtR3htblNKYXlSVEp3enFtS0JoZ3NuNWZLbHpmNG9jSFgzd3NTa1V3a3VmUmJlWDhhZDl0Qk1kYS1acko1X0Znb0VzdWl2NVA3YVJ2c01UTlpYWmY1cl9oZnlIOU1BZUJZMjNESmpVc19icmtVMi13cEU?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-22T03:49:52Z",
    "snippet": "",
    "via": "google"
   },
@@ -105,18 +113,10 @@
    "via": "google"
   },
   {
-   "title": "Hurricanes Defeat Oilers 7-4 After Celebrating Hall’s 1,000th NHL Game",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVFJXUjM0TXU1dUlwNVl5Q1g5U0RSR0t4TEpac1kzNHBEOWRLRzN3M2NWRU0zOXJQcWVxT3luSUYyM2RtcXR1Uy1odG81N19hb1gyRU9aSmxZbU5vQ2ZNZ3ZoOFBGZFJ6MzBqVGM1dGRxdUZ2dk5NblU3dnkwOHhHYUMwU1ZBQWw4cUItSFJ6d1ZHdE91cXhXbzJnYjVnN1E?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-22T00:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Carolina Hurricanes versus Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTlhdElXSFJ0SzYwSzAydzJoQ1YwekZfVWJiN3VzVmNkU2RsYU80bzJJdlBCcXdxN3owa2VEazc3M2F0cEdkcXNYcDk5dlRjOXBib0J3bTJSLWZnZ1JMa1JzUTYzN3ZoMnBsenQxZHhEZ2JtbXRnMVFqYUZMYW5BcERERGRvLTE2RjNubjBZUDRIeWFvSTdndXVtV2JxZUU?oc=5",
-   "source": "technicianonline.com",
-   "published": "2026-11-21T23:47:25Z",
+   "source": "N.C. State University Technician Online",
+   "published": "2026-11-21T23:47:12Z",
    "snippet": "",
    "via": "google"
   },
@@ -172,13 +172,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-21T21:10:00Z",
    "snippet": "RALEIGH, NC \\- Couldn't contain the storm. In a game of many swings against the reigning Stanley Cup champions, the Edmonton Oilers couldn’t hold onto two separate two-goal leads in a wild…"
-  },
-  {
-   "title": "Player grades: Edmonton Oilers whooped in wild and woolly weirdo of a game",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-carolina-hurricanes-score-player-grades",
-   "source": "Edmonton Journal",
-   "published": "2026-11-21T19:03:28Z",
-   "snippet": ""
   },
   {
    "title": "Power forward who jilted Edmonton now ripping it up in Europe (but is still Oilers property)",
@@ -259,8 +252,8 @@
   },
   {
    "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers-x2007",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-20T05:00:00Z",
    "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
   },
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-20T03:08:46Z",
    "snippet": ""
+  },
+  {
+   "title": "McDavid, Draisaitl are works of art at Edmonton grocery",
+   "url": "https://www.nhl.com/oilers/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery-x7544",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-20T01:19:37.256Z",
+   "snippet": "EDMONTON -- Eric Falkenberg grew up with a fondness for drawing and building LEGO sets and has turned it into a mastery of three-dimensional grocery store displays."
   }
  ]
 }
