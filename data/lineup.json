@@ -149,16 +149,16 @@
     "pos": "L"
    },
    {
-    "id": 8477934,
-    "name": "Leon Draisaitl",
-    "num": 29,
-    "pos": "C"
-   },
-   {
     "id": 8481617,
     "name": "Vasily Podkolzin",
     "num": 92,
     "pos": "R"
+   },
+   {
+    "id": 8477934,
+    "name": "Leon Draisaitl",
+    "num": 29,
+    "pos": "C"
    },
    {
     "id": 8478402,
@@ -193,10 +193,10 @@
     "pos": "R"
    },
    {
-    "id": 8480842,
-    "name": "Filip Hallander",
-    "num": 19,
-    "pos": "C"
+    "id": 8475218,
+    "name": "Mattias Ekholm",
+    "num": 14,
+    "pos": "D"
    },
    {
     "id": 8478854,
@@ -241,16 +241,25 @@
    "num": 93,
    "pos": "C",
    "status": "Day-to-day"
+  },
+  {
+   "id": 8475786,
+   "name": "Zach Hyman",
+   "num": 18,
+   "pos": "L",
+   "status": "Day-to-day"
   }
  ],
- "notes": [],
+ "notes": [
+  "Projection is based on the Last Game (2026-11-22) lineup until morning skate or practice updates."
+ ],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Jack Michaels",
-   "updatedAt": "2026-11-21T17:39:44.056Z"
+   "basis": "Last Game (2026-11-22)",
+   "updatedAt": "2026-11-22T19:32:36.783Z"
   },
   {
    "name": "DailyFaceoff",
@@ -474,5 +483,5 @@
    "note": "Hofer will start Sunday vs. the Oilers. "
   }
  },
- "updated": "2026-11-22T18:51:20Z"
+ "updated": "2026-11-22T19:53:21Z"
 }
