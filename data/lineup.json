@@ -29,9 +29,9 @@
     "pos": "C"
    },
    {
-    "id": 8475786,
-    "name": "Zach Hyman",
-    "num": 18,
+    "id": 8480842,
+    "name": "Filip Hallander",
+    "num": 19,
     "pos": "RW"
    }
   ],
@@ -57,9 +57,9 @@
   ],
   [
    {
-    "id": 8480842,
-    "name": "Filip Hallander",
-    "num": 19,
+    "id": 8479365,
+    "name": "Trent Frederic",
+    "num": 10,
     "pos": "LW"
    },
    {
@@ -69,9 +69,9 @@
     "pos": "C"
    },
    {
-    "id": 8479365,
-    "name": "Trent Frederic",
-    "num": 10,
+    "id": 8478472,
+    "name": "Mathieu Joseph",
+    "num": 21,
     "pos": "RW"
    }
   ],
@@ -89,9 +89,9 @@
     "pos": "C"
    },
    {
-    "id": 8478472,
-    "name": "Mathieu Joseph",
-    "num": 21,
+    "id": 8479368,
+    "name": "Max Jones",
+    "num": 46,
     "pos": "RW"
    }
   ]
@@ -143,10 +143,10 @@
  "pp": [
   [
    {
-    "id": 8475786,
-    "name": "Zach Hyman",
-    "num": 18,
-    "pos": "L"
+    "id": 8477953,
+    "name": "Kasperi Kapanen",
+    "num": 42,
+    "pos": "R"
    },
    {
     "id": 8481617,
@@ -187,10 +187,10 @@
     "pos": "C"
    },
    {
-    "id": 8477953,
-    "name": "Kasperi Kapanen",
-    "num": 42,
-    "pos": "R"
+    "id": 8480842,
+    "name": "Filip Hallander",
+    "num": 19,
+    "pos": "C"
    },
    {
     "id": 8475218,
@@ -256,8 +256,8 @@
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Edmonton Oilers",
-   "updatedAt": "2026-11-22T20:25:56.843Z"
+   "basis": "Projected",
+   "updatedAt": "2026-11-22T22:43:33.610Z"
   },
   {
    "name": "DailyFaceoff",
@@ -282,12 +282,6 @@
   "note": "Jarry will start Sunday in St. Louis. "
  },
  "scratches": [
-  {
-   "id": 8479368,
-   "name": "Max Jones",
-   "num": 46,
-   "pos": "L"
-  },
   {
    "id": 8480834,
    "name": "Ty Emberson",
@@ -481,5 +475,5 @@
    "note": "Hofer will start Sunday vs. the Oilers. "
   }
  },
- "updated": "2026-11-22T20:48:06Z"
+ "updated": "2026-11-22T22:47:41Z"
 }
