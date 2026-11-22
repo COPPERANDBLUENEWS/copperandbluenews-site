@@ -1,13 +1,36 @@
 {
- "updated": "2026-11-22T17:24:26Z",
+ "updated": "2026-11-22T18:19:10Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (3)",
-  "Google News (82)"
+  "Google News (84)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "PROJECTED LINEUP: Oilers at Blues",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-at-blues-11-22-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-22T18:04:46.321Z",
+   "snippet": "ST. LOUIS, MO – Goalie Tristan Jarry will get the start, while defenceman Jake Walman is projected to draw back into the lineup for the Edmonton Oilers when they cap off a weekend…"
+  },
+  {
+   "title": "Crowbars vs Noodles: Oilers Spanked In 7-4 Loss to Hurricanes",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNeERVV1N5OHFRN0Q2N3hjZ1lfSFJJLUI3QTRpZElXU0x6WlhpYnQ1VzdmYjJCYk9PWlhGRG9US2h5OC1MLWZXaTd0ZUtHQzJ2Tk40YkNZRG56Zks3Z0ZIbW03Qi1OSzdIbTRsYU8wR1RDdUtNYWFpZXRQcW9mb0VIUGRHak9adFBWeWJnVzBsYWczbVF3cmtMV0ZYbGZGckdMMTdMN2tuT1VMWU1FaW04cndKa1MtMjJW?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-22T17:53:57Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "How to watch Oilers vs. Blues: TV channel and streaming options for November 22",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSHVkeko1bFphSnV0TndsbWlTSDJQMlpfRGw2R2toMDZROGVuclpyTWMwR3JIeGdCWVE0d08tcnNWZ1Vpd0tLa2x2QVFHVUVNWWl2cU1CTWVWNm1ZMV9KUkI1N3o3RW0yeTQwY0xVSURWOHd6LV9rQlR3SWstTm5hcy1EUVBEYzZrTGZOOW1YNUgyeEVkYURXX2F0UQ?oc=5",
+   "source": "The New York Times",
+   "published": "2026-11-22T16:48:27Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Jarry and Hofer set to start as Oilers visit Blues",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMllna1NodUdVMnM2MmM5SERsOEJnbFNVNjdadzBrR3dGaVI3ckpTaTBMRC1iQU5Hc2VPd1k4WEV3azBXNWtzOWhDR0tqTXF2dmF6SHpxUXBTV2kyb3RBV3AwU2tKWlNIdVRBWVFsTmp6Ukw2dEN1ejFaWHhzbkh5MDNxUmVjejNlb2o3eC1n?oc=5",
@@ -137,22 +160,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers penalty kill lets them down against the Hurricanes",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNWxGNEZRdG5xZmpmYW1fZ0xoQzFtYUY3cFl2WG52cVFMTTl4NWVLRU1fQTZBVHdFWHN3eGdmNkJkSzJFSnl2TDdobzFiNU85LVhVNjZjQUhBRVJlQUp3TlNSejhCV1RUUFNrbWgyTERtZkhUMTdXMTVTZy1BbjJCd1RZeDhwUTJlTV9DcUdvbTZnYldUM0ZORw?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-22T04:57:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Hurricanes Player Called Out After Oilers Game: ‘Disturbing’",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkduSUtMNlFrN2lkMGZlSFY4MlVDcUxuUzRueVRoQktxTnZKMVVadXY3eXJXYl9USmg2Sm5wa0MtdG56Z2pWai1XRm5RMG9TT29NUDVPSDI4N1V3SFBUdVhhVDZFR2NuRkVyTnVOeTc5THNhOXJSb25KRFhJcjRIUTZmYnlFTmE2N0RyY0Zn?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-22T04:45:36Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Hurricanes score five in second period in win against Oilers",
    "url": "https://www.nhl.com/news/edmonton-oilers-carolina-hurricanes-game-recap-november-21-2026",
    "source": "NHL.com",
@@ -266,17 +273,10 @@
   },
   {
    "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://www.nhl.com/oilers/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers-x2007",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
+   "source": "NHL.com",
    "published": "2026-11-20T05:00:00Z",
    "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
-  },
-  {
-   "title": "McDavid, Oilers streaks snapped as Lightning beat Edmonton at its own game",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-tampa-bay-mcdavid-streak-ends",
-   "source": "Edmonton Journal",
-   "published": "2026-11-20T03:16:38Z",
-   "snippet": "The Oilers and Lightning waged a 60-minute chess match"
   }
  ]
 }
