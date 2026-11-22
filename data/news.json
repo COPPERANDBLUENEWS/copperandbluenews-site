@@ -1,15 +1,23 @@
 {
- "updated": "2026-11-22T19:30:33Z",
+ "updated": "2026-11-22T20:25:03Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (3)",
+  "Sportsnet (2)",
   "Google News (84)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "PROJECTED LINEUP: Oilers at Blues",
+   "title": "Hyman had concerning symptoms after leaving Edmonton Oilers loss",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdHJpalhZc0NEUWcxa2hSdDJiVEQ3RGZCOG1OU3E3VWkwaEJwekZhWGUxbHpxT0EwcExrbUJsbnhaekR5bDM5RHdIVVQ3bkhhZGxXTFNmRi1JNDVJNl9wVWI3T1ZPTGVmRnVVakN1R0VKWDh0RHFIdVdYY1l1eWtHQk5n?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-22T19:46:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "PROJECTED LINEUP: Oilers at Blues | Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xLWZQUHBleWRLalFMUHVySWlQR2hqNVVERGx2TEFQSU9mMTgxNGUxRVZrd0hnZzNHcjFMdzJHeF84OU5IaWRJeEVLZWF3ZzBTWVY4VklLaG92dnJ1azVFT1YzMzB2TTB4Wmg2aUV1N3BWMTNSaXBsUXBnX3BiUQ?oc=5",
    "source": "NHL.com",
    "published": "2026-11-22T18:56:15Z",
@@ -31,6 +39,13 @@
    "published": "2026-11-22T18:17:00Z",
    "snippet": "",
    "via": "google"
+  },
+  {
+   "title": "PROJECTED LINEUP: Oilers at Blues",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-at-blues-11-22-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-22T18:04:46.321Z",
+   "snippet": "ST. LOUIS, MO – Goalie Tristan Jarry will get the start, while defenceman Jake Walman is projected to draw back into the lineup for the Edmonton Oilers when they cap off a weekend…"
   },
   {
    "title": "Crowbars vs Noodles: Oilers Spanked In 7-4 Loss to Hurricanes",
@@ -124,7 +139,7 @@
    "title": "Blues bid to ride offensive outburst into clash vs. Oilers",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMC0xRVFicVNVMnFyZ3pRR0hSWmYwS1U0NExKQXpGdFdWYmFFNWU1dHc0MFlRWnh2OW1uTDMxeW1Qb19PUjBtY1d2Sk9nY1ZoRkFVazd5RW9pbXZXRzlWajlGWXEyc0t2dUpHeFY5MTlJWU9NUWFVMzNBbTFCR1lOQVJKZlN6RVhSU0ExMkRVbnM3UHZraVh1bVljbEtfMFVTeUxz?oc=5",
    "source": "KNBR",
-   "published": "2026-11-22T13:54:54Z",
+   "published": "2026-11-22T14:01:18Z",
    "snippet": "",
    "via": "google"
   },
@@ -141,14 +156,6 @@
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZEJQLW52WlN5YW52R3pOV2NSTmN6QkVaYlV6RDV0RDZSb21rX3ZTS2RvZ2p0NC0tZGFnTEU4U0tFMmxnWVhUWkdPc1lEWlVfRWxXYl9PcWlVMG1xNnluZFh2RmlxeDZxRjFWLXFucVozTE9SakJCbk5sSTd4OFp0dV9oV3lrZ1BpRXpZb3pNWGRrSk9rajhwTEhnMGVQamxmcEdlR2tDSnVDU052bDB6Zw?oc=5",
    "source": "Inside The Rink",
    "published": "2026-11-22T12:31:41Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Day After 25.0: Oilers’ lack of depth exposed in brutal back-to-back losses",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUHl3ams1dUxzNG4wTm1JLU9HTTZNTlY2TkMzTVRaaVZtR2xESWFLMzR2WlAxV0hyd1E3clBNeHYzN2lRWkdFdXF1U3RYTjd2c0RMcGk4VVZCRGQ2TG5UYXJiZFZjcjRHZDhwZzlydFF4dF82SVRsb0ZZVzF4QlA2dVh5bmFCYnozTTFGcWZ4WDdPd0U1b1R2cGJQWUN5NjVmbHZJ?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-22T12:00:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -179,13 +186,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-21T22:05:41Z",
    "snippet": ""
-  },
-  {
-   "title": "NHL Highlights: Hurricanes 7, Oilers 4",
-   "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-hurricanes-7-oilers-4/",
-   "source": "Sportsnet",
-   "published": "2026-11-21T21:19:31Z",
-   "snippet": "Andrei Svechnikov scored two goals for Carolina, while Sebastian Aho added a goal and two assists, as the Hurricanes took a 7-4 win over the Edmonton Oilers."
   },
   {
    "title": "QUICK RECAP: Hurricanes 7, Oilers 4",
