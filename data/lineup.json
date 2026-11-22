@@ -459,20 +459,20 @@
   ],
   "goalie": {
    "starter": {
-    "id": 8476412,
-    "name": "Jordan Binnington",
-    "num": 50,
-    "pos": "G"
-   },
-   "status": "Unconfirmed",
-   "backup": {
     "id": 8480981,
     "name": "Joel Hofer",
     "num": 30,
     "pos": "G"
    },
+   "status": "Unconfirmed",
+   "backup": {
+    "id": 8476412,
+    "name": "Jordan Binnington",
+    "num": 50,
+    "pos": "G"
+   },
    "note": null
   }
  },
- "updated": "2026-11-22T03:29:44Z"
+ "updated": "2026-11-22T13:00:28Z"
 }
