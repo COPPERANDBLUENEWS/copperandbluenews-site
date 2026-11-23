@@ -1,19 +1,43 @@
 {
- "updated": "2026-11-23T00:22:55Z",
+ "updated": "2026-11-23T01:21:32Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (2)",
+  "Sportsnet (3)",
   "Google News (82)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "Edmonton Oilers vs. St. Louis Blues Live Updates, Score, and Play-by-play - November 22, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MOUR0UDFGT3JFT3FlMXBIcnZqeEpGbW9ScWtwTlJ5aW91blNLblM1S0dCSnhXcG1iTmVhSlNUeWIyWnNMNW4xUXBTQWZfSk5qYWduNGJ3ZWp0UzkyYURlOXFvVWVlaEdwVTBFZURTa0s?oc=5",
+   "source": "CBS Sports",
+   "published": "2026-11-23T00:56:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "LIVE UPDATES: Oilers at Blues",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-blues-11-22-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-23T00:10:32.365Z",
-   "snippet": "The Edmonton Oilers complete their six-game road trip with the second of a back-to-back at Enterprise Center against the St. Louis Blues. Follow along for live updates, highlights, stats…"
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85bjFjUUJnUWJxbjJXNTl2cFBuMTFlMHB1S01lR3VVN3pQNU9YY185VF9vaktjLXZUUzFET2ZuWjNsVFhFR1gyVk5UbkVBTktKb2RmeUZzSkFzaTFDdnMzcnpEOXFaek1fNHJFZEliOVRDMHZlRF9XRw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-23T00:56:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "'The Guys Just Kept Playing': Sebastian Aho, Andrei Svechnikov, Rod Brind'Amour On Comeback Win Over Oilers",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMkZNRzNVSU41TDVDNVV5anp3elJRdE5XR1JXWnk1UklGcWNpNF9CLXM1WW0wWjFzaUxSbm1NQ3did3A5MGFkQnFuTl83cnp0Rm85Z2RJTmVzazAwMm5HU1lYWk02WS14YWJEZDY5NC1Yc2FrbjA1YU0xYnE3TzhuN3ZBQVBUbHRXaWV3eExxNUNnbDRnTHFOSy1LSFhUVGFYSHoyVHdIbXFaUXRzMXV3S19FS1V2aFdPU1B1ZGQ0YXVkZlR5THZPZnFuVkVRTTU4VkZsNUpEaGNldXNoSVdvcXVUYmtXcTlWbVdlMGE5UHpkUQ?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-23T00:46:56Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ Kapanen redirects home opening goal against Blues",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-kapanen-redirects-home-opening-goal-against-blues/",
+   "source": "Sportsnet",
+   "published": "2026-11-23T00:33:40Z",
+   "snippet": "Watch as Edmonton Oilers’ Kasperi Kapanen redirects a shot-pass from Connor Murphy into the net after a speedy rush from Connor McDavid to open the scoring against the St. Louis Blues."
   },
   {
    "title": "The Vegas Golden Knights must stick to their strengths against the Edmonton Oilers",
@@ -151,27 +175,10 @@
   },
   {
    "title": "Sunday Overreactions: Will Oilers stars finish 1-2-3 in scoring?",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZHN2bUFaTm1LUzdVN3VZQ281Q1MwREUzV0ZmWVBWcnh1WDB0VXNRTUozQmYyalhwLURQSUJQbDdpekdYZ0ZTYzhtZXl2Um9WbElldVZaZjVXdllvOFh0cXBTbURVR1p6WWlFVEVadk5CZzlwakVDb3o0TkxucGpJdGJZdEJPRXRCT3dQTHRBTElpcGFiTzUyUl9RcnNadlMxS2c?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-22T14:45:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Have to Deliver on Edmonton’s ‘City of Champions’ Nickname",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWGo0eXFDUHFueURwbktYODdkODl0bVc1dE1PMVVPRmhEV3c1Y2hmaWhvNFJBeERfc0R4U2V4am9LMU54QUh1V1FYRHRLem1Gd1NWdnpsQnh6TkJhYlJEbjB3MXR2YlQ1UjA0VlJydHF5UkRzcWNXdl9ZX25nNk40dzZDYXdNYVljMjNiNDRJazZ2MkNWM2pF?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-22T14:15:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Blues bid to ride offensive outburst into clash vs. Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMC0xRVFicVNVMnFyZ3pRR0hSWmYwS1U0NExKQXpGdFdWYmFFNWU1dHc0MFlRWnh2OW1uTDMxeW1Qb19PUjBtY1d2Sk9nY1ZoRkFVazd5RW9pbXZXRzlWajlGWXEyc0t2dUpHeFY5MTlJWU9NUWFVMzNBbTFCR1lOQVJKZlN6RVhSU0ExMkRVbnM3UHZraVh1bVljbEtfMFVTeUxz?oc=5",
-   "source": "KNBR",
-   "published": "2026-11-22T14:01:18Z",
-   "snippet": "",
-   "via": "google"
+   "url": "https://www.sportsnet.ca/nhl/article/sunday-overreactions-will-oilers-stars-finish-1-2-3-in-scoring/",
+   "source": "Sportsnet",
+   "published": "2026-11-22T14:42:19Z",
+   "snippet": "The last time three teammates finished 1-2-3 atop league scoring was 1940. But with the Oilers off to a hot start, Michael Amato explores whether Connor McDavid, Leon Draisaitl and Evan…"
   },
   {
    "title": "Is a lack of sufficient depth starting to catch up to the Edmonton Oilers: 9 Things",
@@ -270,13 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-20T15:24:13.238Z",
    "snippet": "The defending Stanley Cup champion Carolina Hurricanes host the Edmonton Oilers at Lenovo Center on Saturday (1 p.m. ET; HHN, CARNHL, NHLN, SNP, SNW, SNO). It should be quite the tilt,…"
-  },
-  {
-   "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026-x6012",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-20T05:09:00Z",
-   "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
   }
  ]
 }

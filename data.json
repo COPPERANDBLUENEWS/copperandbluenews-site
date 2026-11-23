@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T21:51:32+00:00",
+  "updated": "2026-11-23T01:21:24+00:00",
   "next": {
     "id": 2026020375,
     "gameType": 2,
@@ -8,20 +8,20 @@
     "timeMT": "6 PM MT",
     "timePT": "5 PM PT",
     "venue": "Enterprise Center",
-    "state": "FUT",
+    "state": "LIVE",
     "scheduleState": "OK",
     "lastPeriod": null,
     "away": {
       "abbrev": "EDM",
       "name": "Oilers",
       "place": "Edmonton",
-      "score": null
+      "score": 2
     },
     "home": {
       "abbrev": "STL",
       "name": "Blues",
       "place": "St. Louis",
-      "score": null
+      "score": 0
     }
   },
   "last": {
