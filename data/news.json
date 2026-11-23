@@ -1,20 +1,19 @@
 {
- "updated": "2026-11-23T01:21:32Z",
+ "updated": "2026-11-23T01:58:08Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (3)",
-  "Google News (82)"
+  "Sportsnet (4)",
+  "Google News (81)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "Edmonton Oilers vs. St. Louis Blues Live Updates, Score, and Play-by-play - November 22, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MOUR0UDFGT3JFT3FlMXBIcnZqeEpGbW9ScWtwTlJ5aW91blNLblM1S0dCSnhXcG1iTmVhSlNUeWIyWnNMNW4xUXBTQWZfSk5qYWduNGJ3ZWp0UzkyYURlOXFvVWVlaEdwVTBFZURTa0s?oc=5",
-   "source": "CBS Sports",
-   "published": "2026-11-23T00:56:15Z",
-   "snippet": "",
-   "via": "google"
+   "title": "Oilers’ Draisaitl reaches 1,100 career points with goal vs. Blues",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-draisaitl-reaches-1100-career-points-with-goal-vs-blues/",
+   "source": "Sportsnet",
+   "published": "2026-11-23T01:36:32Z",
+   "snippet": "Leon Draisaitl reached the 1,100-point milestone in his NHL career with a goal against the St. Louis Blues, adding another memorable achievement to his illustrious career."
   },
   {
    "title": "LIVE UPDATES: Oilers at Blues",
@@ -175,10 +174,11 @@
   },
   {
    "title": "Sunday Overreactions: Will Oilers stars finish 1-2-3 in scoring?",
-   "url": "https://www.sportsnet.ca/nhl/article/sunday-overreactions-will-oilers-stars-finish-1-2-3-in-scoring/",
-   "source": "Sportsnet",
-   "published": "2026-11-22T14:42:19Z",
-   "snippet": "The last time three teammates finished 1-2-3 atop league scoring was 1940. But with the Oilers off to a hot start, Michael Amato explores whether Connor McDavid, Leon Draisaitl and Evan…"
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZHN2bUFaTm1LUzdVN3VZQ281Q1MwREUzV0ZmWVBWcnh1WDB0VXNRTUozQmYyalhwLURQSUJQbDdpekdYZ0ZTYzhtZXl2Um9WbElldVZaZjVXdllvOFh0cXBTbURVR1p6WWlFVEVadk5CZzlwakVDb3o0TkxucGpJdGJZdEJPRXRCT3dQTHRBTElpcGFiTzUyUl9RcnNadlMxS2c?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-22T14:45:00Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Is a lack of sufficient depth starting to catch up to the Edmonton Oilers: 9 Things",
