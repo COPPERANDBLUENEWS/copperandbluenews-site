@@ -393,9 +393,9 @@
    ],
    [
     {
-     "id": 8478450,
-     "name": "Parker Wotherspoon",
-     "num": 29,
+     "id": 8478468,
+     "name": "Jeremy Lauzon",
+     "num": 5,
      "pos": "LD"
     },
     {
@@ -407,9 +407,9 @@
    ],
    [
     {
-     "id": 8478468,
-     "name": "Jeremy Lauzon",
-     "num": 5,
+     "id": 8478450,
+     "name": "Parker Wotherspoon",
+     "num": 29,
      "pos": "LD"
     },
     {
@@ -435,8 +435,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/vegas-golden-knights/line-combinations",
     "what": "line combinations",
-    "basis": "Last Game (2026-11-19)",
-    "updatedAt": "2026-11-20T17:21:00.632Z"
+    "basis": "Last Game (2026-11-21)",
+    "updatedAt": "2026-11-23T15:08:28.783Z"
    },
    {
     "name": "DailyFaceoff",
@@ -461,5 +461,5 @@
    "note": null
   }
  },
- "updated": "2026-11-23T07:42:48Z"
+ "updated": "2026-11-23T15:42:33Z"
 }
