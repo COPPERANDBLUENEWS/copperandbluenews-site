@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-23T22:29:40Z",
+ "updated": "2026-11-23T23:29:39Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (81)"
+  "Google News (79)"
  ],
  "errors": [],
  "items": [
@@ -60,6 +60,14 @@
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORFdGeUZOSW03OFVxWnNhZkNCNDlzZVBGME9wWXdZRGdWQi0tNlhVQV9KYm9Ec2lFU0doSTM1RTRVMUM5WXVwWGZLVnU2bGxQU25GYnRjNW0xTWlvVkpqQkl5VW5VNi1QdDJsQUlOckdLNFY2TnFyVDc1d1hZeklYd2tmLUNOaEpjV1ZPR25Ic3QtT3cxSHZpaVdRTGNQQjIwT3U3NW9pMTFfMkdJYm11d0lvU3ZiZ0QzMFE5S202bzU2R09mM1NKRXVoVHdOcWtUUFVycVRHT0hHelEyaURDZA?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-23T19:46:52Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Watch NHL Mini: Edmonton Oilers vs St. Louis Blues",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVEFXcnUtYUt3MGFQS3Z0a0RvMkpLU0FKUDZfT01vSklBRGQ4Ni0xU0tUaDF0Zk16eWdXbW05QWFBdmlldkM0cE4yQV9oLXBMM24wamtuQmdadjMzTXFQUS16RFpheEk4dllWVGx1OHUyd2pTYkRsaThQSHNjOERFRVl1NGRpUjZzTFRN?oc=5",
+   "source": "Disney Plus",
+   "published": "2026-11-23T19:38:15Z",
    "snippet": "",
    "via": "google"
   },
@@ -140,14 +148,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWUF6VDZFWHdDMzBvamw5bkdSNlpObWxjQ0JMaXpqeEJhdFB0ajhWOVhwZUV1OF82ZEtGbWdBSFJ3RjFYRHNaYVpRckMxdXFtQkg5ZFJmYnpVNlVtd2RMaUVwNWFWRmlsV2dCQVFLNGhwNXlrRzFOWUZnZGdiNmhqNks1MXNOZnl5NjE4MlpaTjNReS15VVNFX09rc0J5N0psSGJvcXNhbDJGdw?oc=5",
    "source": "TSN",
    "published": "2026-11-23T16:25:32Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers Stax",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTnhaMF9PVUZzdzRwZHRVclh6LW1FSTAzOWs5eVhxWFYxNldyRHlUOUdSZzlpX1FFeU93UjJOZ3NBcFdMWWViU1RSSmVyRWN1X2VZM0NGR01zVHltVlBkcFl2Wk0xZ2NVaFFtTmczOFM1djJ6cm53SVJPaG94cE1DQ3ZVU2Qtb3p2SjJsRW5wTTc3RkwxU2tfTnRRY1lMR1YtWUdxMTAxeGJvZl9LRkE?oc=5",
-   "source": "Oskaloosa Herald",
-   "published": "2026-11-23T15:15:59Z",
    "snippet": "",
    "via": "google"
   },
