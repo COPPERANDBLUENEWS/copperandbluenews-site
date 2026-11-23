@@ -3,7 +3,7 @@
   "id": 2026020375,
   "startTimeUTC": "2026-11-23T00:00:00Z",
   "gameDate": "2026-11-22",
-  "state": "FINAL",
+  "state": "OFF",
   "home": false,
   "venue": "Enterprise Center",
   "opponent": {
@@ -286,7 +286,7 @@
    "num": 27,
    "pos": "G"
   },
-  "note": "Jarry will start Sunday in St. Louis. "
+  "note": null
  },
  "scratches": [
   {
@@ -484,8 +484,8 @@
     "num": 50,
     "pos": "G"
    },
-   "note": "Hofer will start Sunday vs. the Oilers. "
+   "note": null
   }
  },
- "updated": "2026-11-23T02:59:05Z"
+ "updated": "2026-11-23T03:35:54Z"
 }
