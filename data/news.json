@@ -1,13 +1,60 @@
 {
- "updated": "2026-11-23T03:35:54Z",
+ "updated": "2026-11-23T04:14:33Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (4)",
-  "Google News (79)"
+  "Google News (78)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers Blow 4-1 Lead, Fall 5-4 to Blues in a Head-Scratching Shootout",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTGRCM1NjUFR5TEFyQXg0VjYyUTRUMDVOdDNVd0hTeldlRGhjaFc4aE1iWkpvMWQ0V3Z2QkFvRjVWWndqejAySE1ETy1MREsyN1E2SDdyUWFpTGY5RUdSXzVOMEpMUzhIWUFrS2ZNamZkMFBseFNnLW9OSXBZcVBqZERDTXQzOXg4Zm1SYkcyLTBPUG1aVGwySmpUa0lWaHE3YTdPWDlUa1QwejFxT2VrUnpfeUtreFRLY08ySkNEWFZLU1BH?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-23T04:09:18Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Blues rally over Oilers in shootout for fourth straight win",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQnVqeHktX3Vqby0ySDNmaG44bVUxM3JhXzFYeThORHhzZDlPTVdMMFNZSllHbjFRa1ZzN1dOS2hBTDV6SnpvalpiREtNVFI3QzVPMXBUNzkyQ0xSOWxvdjY3YmxQUFlfWlozcHR0bWdqeEs3WmdxcXVIX01hT04td3lDcVAtQzk5dE9vMnhYeTVXZ3phSW1SSHlkLWpmQQ?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-23T04:05:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers blow three-goal lead, lose to Blues in shootout",
+   "url": "https://www.sportsnet.ca/nhl/article/blues-rally-over-oilers-in-shootout-for-fourth-straight-win/",
+   "source": "Sportsnet",
+   "published": "2026-11-23T04:04:15Z",
+   "snippet": "The surging St. Louis Blues overcame a three-goal deficit in the final 10 minutes of regulation for the first time in franchise history and then beat the Edmonton Oilers in a shootout for a…"
+  },
+  {
+   "title": "Blues rally from late 3-goal deficit and beat Oilers 5-4 in shootout for 4th straight win",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSjJEdTVaa1Rod2VlaW5Lb2FmVkMydjYxNXdIZmhOYTFFQjZJR0dyamQ3VlRpMUIzSFdSNm9tZlhzaHlDOVhOdTRhdGpXR2tRa1dxNEh0WG9ZV1NvbEVlRmJZcWxfZHY2S2xKR0NIMEtDNUhtcDU2dXBtUUNKTlNPZkVNVUZ3UEtYTTQ5czFNalpYU2d2OTdzUjNQdmhLVDNwajIzZ3NGS050M2JBNVVfU1d4Z084cGgwSDF5MzZEZ3RzQkdyd0dpTEtRdWxDNEVrU19hb0FfUkoyREZPY0p2WHFpQVVGYWZxNVZWclR3?oc=5",
+   "source": "Winnipeg Sun",
+   "published": "2026-11-23T03:54:08Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Blues rally from three down in third period, defeat Oilers in shootout",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPckVsdi1BZmdFeGpsSzhuSVNlRlZzUTJ5dFlCbldqT2hDMlNzRGZnTkR1NjBILXV6WGRiampBRTNRcV9Sc2YzTjlHZzJjWXFiaXFGMzh0d0lnWFhleHBZZGl1UGlRZVhTX29TdU5EOGRTc0lKTVAtWUV4cTMtZUJEWUdRS1NXWGhscWdz?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-23T03:33:45Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Tired Edmonton Oilers blow 4-1 lead, settle for single point in St. Louis- Cult of Hockey Player Grades",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPeVQ5RDI3ODJZaU9KMG1zVEVLbUNBdkl1ZTdnYTBNanNDT1dKNVh2SmFCWEFCanBBWFUxU1JsVHk5V0ZfdGRaWjlodzU0eUdEaFRQWFp0dldTSjRmbXBxdENtRjVQUWJ2ako5dDV2bkRiMnRWQ1pEVU5NOHJmZzI2NktrbjBMNWZDcTVaWVhTY1Nsc0ZndmZNT2xsSXJPU1EzUnRROXp2d0hGM3ZZYkxuU0Y0ZV90ZjNQRUkwVmtCcFFtTUdRVUFWdC1laDZ4d3ZiUUhhQkJMU1NOTDlpYmV6aVVSbHZjb2hiYzRFeC1BcEtkSGs?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-23T03:33:37Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "What just happened? Five-minute meltdown sends Oilers to shocking defeat",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVUQyT1V0WGgzQXVkTGVvajNLblFjMU9rVmpVWnc5OE5rV2tsdXdoc0IwaEd3RTVyZmV3V0pSMHQzQXRzSVZjTnpFMklvNm1MbXlBdjNtU001cUhHeGtQTERzQ21zNW95RGM2MTBKODduTkYxbXFIZFdVQ05qVGw0emQ2eHlDdw?oc=5",
@@ -17,17 +64,17 @@
    "via": "google"
   },
   {
-   "title": "Blues rally from three down in third period, defeat Oilers in shootout",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPckVsdi1BZmdFeGpsSzhuSVNlRlZzUTJ5dFlCbldqT2hDMlNzRGZnTkR1NjBILXV6WGRiampBRTNRcV9Sc2YzTjlHZzJjWXFiaXFGMzh0d0lnWFhleHBZZGl1UGlRZVhTX29TdU5EOGRTc0lKTVAtWUV4cTMtZUJEWUdRS1NXWGhscWdz?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-23T03:33:02Z",
+   "title": "The Detroit Red Wings are getting desperate, and that's good news for the Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdU05RFV6OTd3MDhzTk9jYWVDX0RBTzE0V0RQVnRGWHZTZlFIdW9yVEVmZldOemhLMVhoRFNkTHVocW9ya3ljSWh4YzBpbE5keExkS0ZZZkNVc1lQRW8tUzREeHhvZjFidDdBSTdPZ3BnZXdWNE9pSnJDeWZOeEdnaVpiQWUwM0pTQU51NEl5aG1Wb1h0VXJoN3NDS0F4Ri1rcG9xT0VHcjc3R0xpaDViMS10cHJYdWtsUW5GM0ZjRXgtQQ?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-23T03:20:00Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "The Detroit Red Wings are getting desperate, and that's good news for the Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdU05RFV6OTd3MDhzTk9jYWVDX0RBTzE0V0RQVnRGWHZTZlFIdW9yVEVmZldOemhLMVhoRFNkTHVocW9ya3ljSWh4YzBpbE5keExkS0ZZZkNVc1lQRW8tUzREeHhvZjFidDdBSTdPZ3BnZXdWNE9pSnJDeWZOeEdnaVpiQWUwM0pTQU51NEl5aG1Wb1h0VXJoN3NDS0F4Ri1rcG9xT0VHcjc3R0xpaDViMS10cHJYdWtsUW5GM0ZjRXgtQQ?oc=5",
-   "source": "Oil On Whyte",
+   "title": "Blues score 3 late goals, win 4th straight with rally past Oilers",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSzhtSUswVGJwbG1FbVVlV0F1TXVHVFNscG5zc3c3VzItS2xvS0VldWZYZmhPQjZ2OGp5em5pZXVQQm52NFVvQXFYNGpBT3RRdmNkQXBJSDlUclN6U0ZncXFLWTM2eFUySjI2WmdEc3ZkYzVndTY0a0ZXeXU0MzNqRjg2YW5FQ1VpdnV0dEZkcHQzSVV5dEdlNEdzcHpYNU5nekE2SDlFNE43M2RUUVp2UWEwVzRfQlk?oc=5",
+   "source": "Reuters",
    "published": "2026-11-23T03:20:00Z",
    "snippet": "",
    "via": "google"
@@ -67,6 +114,14 @@
   {
    "title": "Oilers at Blues (Nov. 22)",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mbThzRW1nczJYb3hJVzZiNkJTOV9HNlhkVVZUN3otSTRiWWs3ZTZUcEx3ME5udFllVExRYnY1LUNlVXZKenFqZG1DQWRkbTAxdlBrZFZCSm1tZlU0d3dpZFB5U0RKNHhES3NUSlpBV0FFeGozSDFVMnRB?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-23T02:00:46Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "HIGHLIGHTS | Draisaitl Goal",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV3AwNjVaaHlyeHg3WTdZbTVyQUU2VXZyb2dnbElDUm5qX2RfaDQzWktUM0kwR0lQM3BObjlVR05YTm9VNHQ0T3NLYUNQY1hIUDJkZGh6QW0zbnVyOHl1elNkNXJzejZqaUlxTUgwRzdFNVdsczlVc0VTZy1iUVpIcUZFVnRXeGJXRTR6cVZkejNJRkhVRDFVdzRKUTVoZThNUTNaMFZpdERpblB2TmtuMVN3?oc=5",
    "source": "NHL.com",
    "published": "2026-11-23T02:00:46Z",
    "snippet": "",
@@ -124,61 +179,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-23T00:10:32.365Z",
    "snippet": "ST. LOUIS, MO - Couldn't hold on to close out the road trip on a winning note. Despite holding a three-goal lead midway through the third period, the Edmonton Oilers couldn't protect their…"
-  },
-  {
-   "title": "The Vegas Golden Knights must stick to their strengths against the Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNME9TdElkTlZSSGFzMFJJVEE3V0w4WllUUW5LSjlLUHJOeXhhRWpaU2JBb2ZFUUpEcF9FOF80VkZ1QXBiaE0wRHBSUEJsckxvNWI4ZnVtYXlfb3R1eGpiMU04c3ZtZzJCRUtPSjBjcDdUemVIQlZ0TFhzME9oTnY4ZU1TUUNsRFJhZWJ2ODJQTjF4R0dDZ1NVVmpLVjdEakpOdElick1qa3BqTE1oUmJiOXJB?oc=5",
-   "source": "Vegas Hockey Knight",
-   "published": "2026-11-22T23:58:02Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers on Sportsnet: Edmonton vs. St. Louis",
-   "url": "https://www.sportsnet.ca/hockey/nhl/games/eb38e7f5-fca2-454f-b28a-d065347af882",
-   "source": "Sportsnet",
-   "published": "2026-11-22T23:48:36Z",
-   "snippet": "The Edmonton Oilers look for a win as they face the surging Blues in St. Louis on Sunday. Check out the action on Sportsnet, Sportsnet+ and our live tracker at 7 p.m. ET / 5 p.m. PCT."
-  },
-  {
-   "title": "Edmonton Oilers NHL Line Combinations",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
-   "source": "Daily Faceoff",
-   "published": "2026-11-22T23:28:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Watch NHL Mini: Edmonton Oilers vs Carolina Hurricanes | Disney+",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUkNOVnhObHU1ZFlZYlBNVk9aQVNOYjJBR2U1Qkl0ank0OHJjbHAzXzI1RFoweGwxekhJVjRVTEpGMmZFOWNQOThZM2VKc21yZlNYUVRvc0NXellkdFJZNlczbDhDLXJiZ1hSak92cHNiMFBDdFkzTks2RWM4ZkxkOXdqYjNYQ2FVMTBR?oc=5",
-   "source": "Disney Plus",
-   "published": "2026-11-22T22:21:11Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Hyman had concerning symptoms after leaving Edmonton Oilers loss",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdHJpalhZc0NEUWcxa2hSdDJiVEQ3RGZCOG1OU3E3VWkwaEJwekZhWGUxbHpxT0EwcExrbUJsbnhaekR5bDM5RHdIVVQ3bkhhZGxXTFNmRi1JNDVJNl9wVWI3T1ZPTGVmRnVVakN1R0VKWDh0RHFIdVdYY1l1eWtHQk5n?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-22T19:46:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "PROJECTED LINEUP: Oilers at Blues | Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xLWZQUHBleWRLalFMUHVySWlQR2hqNVVERGx2TEFQSU9mMTgxNGUxRVZrd0hnZzNHcjFMdzJHeF84OU5IaWRJeEVLZWF3ZzBTWVY4VklLaG92dnJ1azVFT1YzMzB2TTB4Wmg2aUV1N3BWMTNSaXBsUXBnX3BiUQ?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-22T18:59:38Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "GDB 26.0: Oilers’ depth concerns come to a head as road trip wraps up in St. Louis (6 PM, SNW)",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYU9FNEVFdkJQZ1VTZGxuMm1DX1ZmN1pweWtMOWpMb1NEbTlNMEpmVmpHbDN4MnUtNW9ZMzhFUkhkMFRacGUwOUtjMF9Jd2hFSEh6d2FpRHV4OHlaQlB5WHhsYnNTQlVyWW1sUmFaOVNFdmxfVjZjZ3U2QzBIOGdRNXk3ckxwWXlzMmdQcjMzVkJoNmdEU29RSE9VcHRRbVp6ZUdwdkpid1JPbWo2?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-22T18:17:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "PROJECTED LINEUP: Oilers at Blues",
