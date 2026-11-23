@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-23T18:31:41Z",
+ "updated": "2026-11-23T19:10:00Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (82)"
+  "Google News (80)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "The Day After 26.0: Fatigue sets in as Oilers squander late lead against Blues",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYnNmUHcwRFY0NlZQb2hxWTB1V3d3T1oxTG1QZTQtM2loc0FSemxWZnN1X1cwME9Malg3WlU2c2lIZlQ4WEoxZEhueHlqeHZYclpvOThOUExpN3Y4SGFVbVhLWmV3ZFZVMV9DNUJzWFBoT0ROSG9tX2plX2NfT2w1b2dNUDQ0NUJudEdTM0hoUFlGLUxGVDJnRk9xNUhyU2l1TGhoRnV1dGVHNGNu?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-23T18:57:03Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Edmonton Oilers GM Stan Bowman picks up another useful power forward off NHL junk heap",
    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORFdGeUZOSW03OFVxWnNhZkNCNDlzZVBGME9wWXdZRGdWQi0tNlhVQV9KYm9Ec2lFU0doSTM1RTRVMUM5WXVwWGZLVnU2bGxQU25GYnRjNW0xTWlvVkpqQkl5VW5VNi1QdDJsQUlOckdLNFY2TnFyVDc1d1hZeklYd2tmLUNOaEpjV1ZPR25Ic3QtT3cxSHZpaVdRTGNQQjIwT3U3NW9pMTFfMkdJYm11d0lvU3ZiZ0QzMFE5S202bzU2R09mM1NKRXVoVHdOcWtUUFVycVRHT0hHelEyaURDZA?oc=5",
@@ -45,14 +53,6 @@
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZUNmSk51SzBBQ0lxOUtlbDhZR1hHSnBmLXBBQ3hfMU1TZlNocnlVaFAxMmlMdThiYkdpbU1LUkJJUkxnWkswUVZuRExJRzl1Y3FPdkJvLUhTWUxFMDVXLXlGdkZ4Z3A5REMtUGpGU0RPYUpRSGNtUWh4U3BUY3lzZEpBNXFuQnhTZUJNT25XMllKS3UtT1hxWQ?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-23T17:17:47Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Day After 26.0: Fatigue sets in as Oilers squander late lead against Blues",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYnNmUHcwRFY0NlZQb2hxWTB1V3d3T1oxTG1QZTQtM2loc0FSemxWZnN1X1cwME9Malg3WlU2c2lIZlQ4WEoxZEhueHlqeHZYclpvOThOUExpN3Y4SGFVbVhLWmV3ZFZVMV9DNUJzWFBoT0ROSG9tX2plX2NfT2w1b2dNUDQ0NUJudEdTM0hoUFlGLUxGVDJnRk9xNUhyU2l1TGhoRnV1dGVHNGNu?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-23T17:00:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -113,14 +113,6 @@
    "via": "google"
   },
   {
-   "title": "Ex-Blues captain David Backes says record comeback win vs. Oilers will go ‘a long way’",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNndhaUxPWjhWYXpSajJnWF9jYmtzRWdSNzEwemxiS0lYU0s5b05PUW1mcE9zYmc0RUtMYW5SZkd4OTh3cDFxcEc4cUZyRTZRNU5VeHF4ZXd5bkFWdnM1UElxYmdabGotdUlNWHViTkVIX1N6YW04TGlSV0s2ZmdfUHVkQTdYQjZ2QVE?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-23T14:25:42Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers Reportedly Eyeing Simon Edvinsson Ahead of Signing Deadline",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOGxBcUxiS01tTHpPbUtZTEdyLWR4VUpJUWlWeUZJcmswZHlUUjJ3WHZKenBFTXY0ZTF5dTNZdjhLdDVvc2RTV0NBdWF1cXY4YXdYNXdEUjVyWmNDRjR5azVwX0I2ZzB6eWZnSU1sQ2Q3QmRWYXVHWTZhdC1pVDBHVVk3Y3pjcG9CYjJLMzhGblRzaldEMy1mVWpzQXY?oc=5",
    "source": "The Hockey Writers",
@@ -141,6 +133,14 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTk5KdUJsWkVqdHVOMlQ4NFgxS1FWMHg1Nl9ZcXFkMURMYXFaQUVDa3hUcnpKa1pIYkM5VnZnZVNzSWFzU0tiRUNleEJoWkNjMkcxaE1HN3pjN0VIZDkweE5yRVNGSnFLY1owVDUtYjliSUVlQjE1dWU5LWVSaVhCbUJoZWs3Vk96TTVhc08xRFRUT0p1aG9uNnlrNk4?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-23T13:55:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Ex-Blues captain David Backes says record comeback win vs. Oilers will go ‘a long way’ - The Athletic",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNndhaUxPWjhWYXpSajJnWF9jYmtzRWdSNzEwemxiS0lYU0s5b05PUW1mcE9zYmc0RUtMYW5SZkd4OTh3cDFxcEc4cUZyRTZRNU5VeHF4ZXd5bkFWdnM1UElxYmdabGotdUlNWHViTkVIX1N6YW04TGlSV0s2ZmdfUHVkQTdYQjZ2QVE?oc=5",
+   "source": "The New York Times",
+   "published": "2026-11-23T13:05:02Z",
    "snippet": "",
    "via": "google"
   },
