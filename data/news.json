@@ -1,13 +1,35 @@
 {
- "updated": "2026-11-22T23:23:59Z",
+ "updated": "2026-11-23T00:22:55Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (1)",
-  "Google News (83)"
+  "Sportsnet (2)",
+  "Google News (82)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "LIVE UPDATES: Oilers at Blues",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-blues-11-22-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-23T00:10:32.365Z",
+   "snippet": "The Edmonton Oilers complete their six-game road trip with the second of a back-to-back at Enterprise Center against the St. Louis Blues. Follow along for live updates, highlights, stats…"
+  },
+  {
+   "title": "The Vegas Golden Knights must stick to their strengths against the Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNME9TdElkTlZSSGFzMFJJVEE3V0w4WllUUW5LSjlLUHJOeXhhRWpaU2JBb2ZFUUpEcF9FOF80VkZ1QXBiaE0wRHBSUEJsckxvNWI4ZnVtYXlfb3R1eGpiMU04c3ZtZzJCRUtPSjBjcDdUemVIQlZ0TFhzME9oTnY4ZU1TUUNsRFJhZWJ2ODJQTjF4R0dDZ1NVVmpLVjdEakpOdElick1qa3BqTE1oUmJiOXJB?oc=5",
+   "source": "Vegas Hockey Knight",
+   "published": "2026-11-22T23:58:02Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers on Sportsnet: Edmonton vs. St. Louis",
+   "url": "https://www.sportsnet.ca/hockey/nhl/games/eb38e7f5-fca2-454f-b28a-d065347af882",
+   "source": "Sportsnet",
+   "published": "2026-11-22T23:48:36Z",
+   "snippet": "The Edmonton Oilers look for a win as they face the surging Blues in St. Louis on Sunday. Check out the action on Sportsnet, Sportsnet+ and our live tracker at 7 p.m. ET / 5 p.m. PCT."
+  },
   {
    "title": "Watch NHL Mini: Edmonton Oilers vs Carolina Hurricanes | Disney+",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUkNOVnhObHU1ZFlZYlBNVk9aQVNOYjJBR2U1Qkl0ank0OHJjbHAzXzI1RFoweGwxekhJVjRVTEpGMmZFOWNQOThZM2VKc21yZlNYUVRvc0NXellkdFJZNlczbDhDLXJiZ1hSak92cHNiMFBDdFkzTks2RWM4ZkxkOXdqYjNYQ2FVMTBR?oc=5",
@@ -152,14 +174,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers Week Ahead: Schedule & Storylines – Injury Updates, Fatigue Setting In, & More",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN3lZenZaeXA1YU1VNmFTUzJUdTcycklGenMxbHhGcHFjQ21Sbk9YYTF3NDdOVE5keW1scVdxLS1kQ3RiendLdHZDbUlmdXNwUmg0Z1RWWjFHWW5LeDFQQ2pGQzlITjVtOTJ3RERaQ3hidmdPWU9CNWJORUFXcWZHa01lWnR5LVRBbDhWSDhYWFphV1lBeUtfYXJCMWJaaERUVkx5QkpnS1Nidw?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-22T13:45:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Is a lack of sufficient depth starting to catch up to the Edmonton Oilers: 9 Things",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/is-a-lack-of-sufficient-depth-starting-to-catch-up-to-the-edmonton-oilers-9-things",
    "source": "Edmonton Journal",
@@ -263,20 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-20T05:09:00Z",
    "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
-  },
-  {
-   "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
-   "source": "NHL.com",
-   "published": "2026-11-20T05:00:00Z",
-   "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
-  },
-  {
-   "title": "McDavid, Oilers streaks snapped as Lightning beat Edmonton at its own game",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-tampa-bay-mcdavid-streak-ends",
-   "source": "Edmonton Journal",
-   "published": "2026-11-20T03:16:38Z",
-   "snippet": "The Oilers and Lightning waged a 60-minute chess match"
   }
  ]
 }
