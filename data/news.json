@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-23T15:42:33Z",
+ "updated": "2026-11-23T16:01:57Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (5)",
-  "Google News (78)"
+  "Google News (81)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Edmonton Oilers Stax",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTnhaMF9PVUZzdzRwZHRVclh6LW1FSTAzOWs5eVhxWFYxNldyRHlUOUdSZzlpX1FFeU93UjJOZ3NBcFdMWWViU1RSSmVyRWN1X2VZM0NGR01zVHltVlBkcFl2Wk0xZ2NVaFFtTmczOFM1djJ6cm53SVJPaG94cE1DQ3ZVU2Qtb3p2SjJsRW5wTTc3RkwxU2tfTnRRY1lMR1YtWUdxMTAxeGJvZl9LRkE?oc=5",
+   "source": "Oskaloosa Herald",
+   "published": "2026-11-23T15:15:59Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "The Edmonton Oilers must address their second-pairing problem",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZk9TTWE5WWhQaHZ4c0JYN0RrVXE4aEliR2s0N3FTb2tsbXhfZ093ZDZFM3pmb3BxY2pqdDk2c0EzOWVkOHpDdGtrZFlISno5MkwwRndndUE5MC1DUVBadjRlYUJ5YnpKYk5FeVJrSXFrWHpyemVNeVdEcV9OSVdvRWdINHdiN3dkTFpfNm9CNXh4d3VEa21pRmQtZGNKcndwU3VPZkM2Q0M?oc=5",
@@ -21,6 +29,14 @@
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWUhpQkNvTDF6WlMzUVBGMnM4SVNlSHZXRjFWNWRCdG1qRWJsc0pHRC1UVUVOOWhvRG5QcExYeFhjNDhIWkdDWktuOThnSjNnaFZZemRqUTFUQldOclRhb3d1MlE1ZmpsNEUxVDN1MzlEc2dOSVlaWTRDd1EwNFA2YjdRRXBGVEE?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-23T14:45:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Watch Edmonton Oilers at Chicago Blackhawks",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkYVRwVmhoWEU2TlBZVDBTVDd1ZGc2UDN1Y3VydFJPREctRHpXbnVQUkFhZ1p6RnJkWWQzamJRYmFTVHRZTkdlUGFpNk9JLW5Cc2h5NVpYTjVFQU5aRG9R?oc=5",
+   "source": "Fubo",
+   "published": "2026-11-23T14:17:56Z",
    "snippet": "",
    "via": "google"
   },
@@ -58,7 +74,7 @@
   },
   {
    "title": "NHL injury update: What happened to Zach Hyman as the Edmonton Oilers face fresh concerns after Hurricane",
-   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOZ0RJREVrZHBUMmdOLVQ4SUN3UkozRHNsNk5nQl8wdTlHcFdrRV8tTUhyWTFQR3Y1N3EwNEJHVkwzRTdGRkxvNHhaS0czenZRZnNmYmo4c1QyZmRHbWRQYXhPbHkzNHVHbEx5cW5oS3Nvb3I0c2FQTXlBRFNDNzN5V3pQUEJ6dnhzakxVOXRJQjBnbFdRakxVR28zTXNfaVQ4U1ZtQ1pUMHgxdmcxZjlnZk9OeExxMUx3QUhPTzZ1WGNneDlJRHFWcEd4dXdYRFR0M2VUSGIxSXA4LUplS0gySFQxclJCU0dVWUpDQzNWZmg0NTltbmMwUjE0el9Nb1lUZmxJZW5Cb0pEUnplcjhOVnA5U0paUmwxcG9HNU9Ja9IBnwJBVV95cUxOZ0RJREVrZHBUMmdOLVQ4SUN3UkozRHNsNk5nQl8wdTlHcFdrRV8tTUhyWTFQR3Y1N3EwNEJHVkwzRTdGRkxvNHhaS0czenZRZnNmYmo4c1QyZmRHbWRQYXhPbHkzNHVHbEx5cW5oS3Nvb3I0c2FQTXlBRFNDNzN5V3pQUEJ6dnhzakxVOXRJQjBnbFdRakxVR28zTXNfaVQ4U1ZtQ1pUMHgxdmcxZjlnZk9OeExxMUx3QUhPTzZ1WGNneDlJRHFWcEd4dXdYRFR0M2VUSGIxSXA4LUplS0gySFQxclJCU0dVWUpDQzNWZmg0NTltbmMwUjE0el9Nb1lUZmxJZW5Cb0pEUnplcjhOVnA5U0paUmwxcG9HNU9Jaw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOWHdZS0ktX21WQV9LTGg4YkFmbzB5ZVVTNnpZZG9kcFd6TDVIOTljdTFMUEtNNWo3X0YzRTlQWjFRQkdLVlFKTDJTUW5XWDdvYVphNFI0WGxtOElHQlQ4d043bkRWNExjTEgwOXItVXc1QVlRVERGVkFlek9PbXRnSHVXSXNnQmNnZFZleUJ1bk9idHNFc3V6cHRWdng3VWdPNXh5U2c3dXJudm5PV04xaFljY0FWT1cyZDFCbjdLRHZRdzlMZWJaNHU0dTE4QVlrZmdfSXNsNEIzaTM5SDhBSlhpMk03UmFNR0JMWWNpMUlSMjZyWU5oOUVIZlJlWnBvb0pDb0hSUzNCR1o3TnJXdHBZZGgwZDJwY1HSAZ8CQVVfeXFMTmdESURFa2RwVDJnTi1UOElDd1JKM0RzbDZOZ0JfMHU5R3BXa0VfLU1IclkxUEd2NTdxMDRCR1ZMM0U3RkZMbzR4WktHM3p2UWZzZmJqOHNUMmZkR21kUGF4T2x5MzR1R2xMeXFuaEtzb29yNHNhUE15QURTQzczeVd6UFBCenZ4c2pMVTl0SUIwZ2xXUWpMVUdvM01zX2lUOFNWbUNaVDB4MXZnMWY5Z2ZPTnhMcTFMd0FIT082dVhjZ3g5SURxVnBHeHV3WERUdDNlVEhiMUlwOC1KZUtIMkhUMXJSQlNHVVlKQ0MzVmZoNDU5bW5jMFIxNHpfTW9ZVGZsSWVuQm9KRFJ6ZXI4TlZwOVNKWlJsMXBvRzVPSWs?oc=5",
    "source": "The Times of India",
    "published": "2026-11-23T12:35:00Z",
    "snippet": "",
@@ -89,18 +105,18 @@
    "via": "google"
   },
   {
-   "title": "Oilers vs. Blues Game Recap, ‘City of Champions’ Nickname & Week Ahead",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5velI1aEVzX1BOcGZHcGRVWnU5WUpQcEZ2YTZBaHhOeVdXS3BqcVhpcjZOeEVSVTNUZzZGd3VaOVlOV3RjSjhEZkRwc3E0T0ZENnBHMUlWU19pUEVjV2JQWGtQVGh1M2tOWVFhU2JZdkJRWHZkcElpOXJGQnYxUjQ?oc=5",
-   "source": "Substack",
-   "published": "2026-11-23T11:35:32Z",
+   "title": "Blues complete latest 3-goal comeback in team history with shootout win vs. Oilers",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeXBQWTg4aXpYTWtRX05KSHp2N3YzRU9ndHp0Sy14QWVxdTRhaEV2XzMxSmlwc3Q3Qmd3cGFlRHR5SlVHWHVIUFNTcHhLTDZDRWlmR2xHMGJVLVk1ZEZrY2hPeFludERwZ2pidERkNUVhRmEtVHVxcVlWa0FNcUxvSUdDeGFQb1FXQ09DRnR2b1VVcmQxWGZpd3RLMXBpdlFBczgyeHBjYw?oc=5",
+   "source": "STLtoday.com",
+   "published": "2026-11-23T12:00:00Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "Watch NHL Mini: Edmonton Oilers vs Carolina Hurricanes",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRzJsYjRIcVl0cFU3THNDSDlQdFg2b1laTGVOeENmWXNjdUR3VFVSTEJ5TWVLSDF6Mk9XbWxkMUZ4eTRTclk5V0tKVWlGS19NRUhvWGREMWwtWUNVWjl4X0hqai10RmtscWQ0S3VpNWRzeXVVdDJYa3dwaTVUcjMzM2pITDFhZ3Zra1N3?oc=5",
-   "source": "Disney Plus",
-   "published": "2026-11-23T11:11:31Z",
+   "title": "Vegas Golden Knights - Edmonton Oilers - Nov 24, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53OV9IMHZhMzRTOUo0aHlpelA1N0pDY2JPTGFNem1KX0pZVndIdXFzdTNlckdDckxEOE5sVVctVHliQXREWkRocEZJbmdISmhLZEUwRERjSXJpVUFyOXRxbWVIZjVlelEwRlpEUHRWa1g?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-23T11:01:12Z",
    "snippet": "",
    "via": "google"
   },
@@ -109,14 +125,6 @@
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSUZ6UHRQa2FwMS1vM2E3NTJzRGt3SWpDdTlKMFVsNzlQd1FtcDRISHVUMmh2UW5TYjl0RTNCakdxZHU0VXVLXzlxQ255c1VYdGgzR2wxWmp0ZXNkanpENjV6d25HVnNhakZNb1FqQVFkaUJzQ0xZTnhTRHRjX0VTRjRDZGMyS3RIcktHczFibjhKdWVSWkhkU3BuV2JqbFNrQkV2Z2Zn?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-23T11:00:04Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers 2026-27 NHL Line Combo",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5yN3hxbDhUcWU5RUx3RTNPelRrRWRWYlBUSXMtemJwVEM5SFRocHZZVmNVY2UyZkJLMzR2c3Jjc0R1UG9tOGVuSXZpQ2JXSWJxeTM5TU9BaVhPaFR0Vlo2MEFyaGxIaVFzaE53Wk94TjlzUQ?oc=5",
-   "source": "ESPN India",
-   "published": "2026-11-23T08:19:06Z",
    "snippet": "",
    "via": "google"
   },
@@ -141,14 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPckVsdi1BZmdFeGpsSzhuSVNlRlZzUTJ5dFlCbldqT2hDMlNzRGZnTkR1NjBILXV6WGRiampBRTNRcV9Sc2YzTjlHZzJjWXFiaXFGMzh0d0lnWFhleHBZZGl1UGlRZVhTX29TdU5EOGRTc0lKTVAtWUV4cTMtZUJEWUdRS1NXWGhscWdz?oc=5",
    "source": "NHL.com",
    "published": "2026-11-23T06:49:50Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Instant Analysis: Blues Stun Oilers 5-4 In Shootout With Another Third Period Comeback",
-   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbjQ3WGVwQ3BzR0pzQmowdU9fZE9maVN2M2RVQ3JOdWd1VWNEdzhzajNjY09NeXB4eVpHVlk0bGRMdFUyTGducmpXekVaTlRuSXR0VVFmdzk4d0JsaXJtTWZtdWxwQnhsd2Uwbm5xWFBVOVJKUDRMXzl4bTVfdkptTjEycVNQOXVMWWhrZFdRNWhPTklyQzNMX1pFU3FnSG1qR1BMQllMRmJkY05HN2FyT0UzM1hfZ0E2el95cGxNcEhtSzU1UTM2WXlpMFVsemhTVDhZd3NVLVBLQQ?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-23T06:19:05Z",
    "snippet": "",
    "via": "google"
   },
