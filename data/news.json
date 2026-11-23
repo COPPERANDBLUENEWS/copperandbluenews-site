@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-23T08:59:14Z",
+ "updated": "2026-11-23T10:20:39Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (5)",
-  "Google News (82)"
+  "Google News (78)"
  ],
  "errors": [],
  "items": [
@@ -17,10 +17,18 @@
    "via": "google"
   },
   {
+   "title": "Oilers blow three-goal lead, lose to Blues in shootout",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQnVqeHktX3Vqby0ySDNmaG44bVUxM3JhXzFYeThORHhzZDlPTVdMMFNZSllHbjFRa1ZzN1dOS2hBTDV6SnpvalpiREtNVFI3QzVPMXBUNzkyQ0xSOWxvdjY3YmxQUFlfWlozcHR0bWdqeEs3WmdxcXVIX01hT04td3lDcVAtQzk5dE9vMnhYeTVXZ3phSW1SSHlkLWpmQQ?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-23T06:56:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Blues rally from three down in third period, defeat Oilers in shootout",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPckVsdi1BZmdFeGpsSzhuSVNlRlZzUTJ5dFlCbldqT2hDMlNzRGZnTkR1NjBILXV6WGRiampBRTNRcV9Sc2YzTjlHZzJjWXFiaXFGMzh0d0lnWFhleHBZZGl1UGlRZVhTX29TdU5EOGRTc0lKTVAtWUV4cTMtZUJEWUdRS1NXWGhscWdz?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-23T06:45:00Z",
+   "published": "2026-11-23T06:49:50Z",
    "snippet": "",
    "via": "google"
   },
@@ -57,17 +65,18 @@
    "via": "google"
   },
   {
-   "title": "Oilers blow three-goal lead, lose to Blues in shootout",
-   "url": "https://www.sportsnet.ca/nhl/article/blues-rally-over-oilers-in-shootout-for-fourth-straight-win/",
-   "source": "Sportsnet",
-   "published": "2026-11-23T04:04:15Z",
-   "snippet": "The surging St. Louis Blues overcame a three-goal deficit in the final 10 minutes of regulation for the first time in franchise history and then beat the Edmonton Oilers in a shootout for a…"
+   "title": "Blues rally from late 3-goal deficit and beat Oilers 5-4 in shootout for 4th straight win",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPSjJEdTVaa1Rod2VlaW5Lb2FmVkMydjYxNXdIZmhOYTFFQjZJR0dyamQ3VlRpMUIzSFdSNm9tZlhzaHlDOVhOdTRhdGpXR2tRa1dxNEh0WG9ZV1NvbEVlRmJZcWxfZHY2S2xKR0NIMEtDNUhtcDU2dXBtUUNKTlNPZkVNVUZ3UEtYTTQ5czFNalpYU2d2OTdzUjNQdmhLVDNwajIzZ3NGS050M2JBNVVfU1d4Z084cGgwSDF5MzZEZ3RzQkdyd0dpTEtRdWxDNEVrU19hb0FfUkoyREZPY0p2WHFpQVVGYWZxNVZWclR3?oc=5",
+   "source": "Winnipeg Sun",
+   "published": "2026-11-23T03:54:08Z",
+   "snippet": "",
+   "via": "google"
   },
   {
-   "title": "Blues rally from late three-goal deficit to beat Oilers in shootout for fourth straight win",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRThZV29oYVBGdnR2Z1RLSkxTdG83eUNqeWdDQzJ1TEJYT2FXc3BYTkkzekRVOUhoVGFtX0tfdDBLallZRnFXTG9BWXJydGFONGlFVnY3WW9RdmhJalB4TUYwa3NYaXNYRmQyZlJIYm5xZkRCLXhrWFdna1FHY2FRWHNfOVlQdjJuNFVVWUgxT285QUwwS29oR3BWbVJ6Q2hPdE52aWRXNkdlcWZELU01VkJiNkdyQzFoMnE2M0h2dWo?oc=5",
-   "source": "TSN",
-   "published": "2026-11-23T03:56:00Z",
+   "title": "Blues score 3 late goals, win 4th straight with rally past Oilers",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44VFNKQlMxZjFpMFhheXlfbVRwS2hpa0loY2ZDWUNFQ0dHejBIenJVelltZ2F6TlRHXzdBU3htM294Q1hzbXVNR0EwU0d4XzQzTFJnWjJBQU1hSERHajRpcGJ5eEd2VHFmcHlmd0o2Wng?oc=5",
+   "source": "Tri-City Herald",
+   "published": "2026-11-23T03:43:06Z",
    "snippet": "",
    "via": "google"
   },
@@ -95,10 +104,10 @@
    "via": "google"
   },
   {
-   "title": "Blues score 3 late goals, win 4th straight with rally past Oilers",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSzhtSUswVGJwbG1FbVVlV0F1TXVHVFNscG5zc3c3VzItS2xvS0VldWZYZmhPQjZ2OGp5em5pZXVQQm52NFVvQXFYNGpBT3RRdmNkQXBJSDlUclN6U0ZncXFLWTM2eFUySjI2WmdEc3ZkYzVndTY0a0ZXeXU0MzNqRjg2YW5FQ1VpdnV0dEZkcHQzSVV5dEdlNEdzcHpYNU5nekE2SDlFNE43M2RUUVp2UWEwVzRfQlk?oc=5",
-   "source": "Reuters",
-   "published": "2026-11-23T03:20:00Z",
+   "title": "Mason McTavish with a Shootout Winning Goal vs. Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeUJ0bmFOX3lfMi1jMHJaeGU5UHFSUFdUWVhYVm5RZmhoUlhzVXNjRjVFNUExaERmazc2aEFkb0gyN1hIZEVoWE1BU1ppQ1g1TGlNY3o1WGtBcmw0LXBKcHVhcUo2dGNLNXl3eU0tdUdMcGgtaUV6S2hRdjJDQ3RjMkZIeUtxbExxbFVJ?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-23T03:03:08Z",
    "snippet": "",
    "via": "google"
   },
@@ -119,10 +128,10 @@
    "via": "google"
   },
   {
-   "title": "Joel Hofer Leads Blues Goaltending Against Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1wUExiQ3dVVDlnd19oblE1QUwzMHVpYnJvVnc3MUhjelJFNUVhWWQ5UDlkVGRJak1FMmxfTHhnTWpsbW44MjlsRFN3dUVkNDg0cVQ4d1JvdkliN19hZGN4d2ZieHJpcmI1UFcw?oc=5",
-   "source": "cwibc.co.id",
-   "published": "2026-11-23T02:35:07Z",
+   "title": "Blues roar back in third period, beat Oilers 5-4 in shootout",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb3phTGcxQVNpYmhHTTUzUG13aDBoQnpfSXBmbUktaEFNaTgwNEQ0WDJublp1R0FUMC0xalh6dGRpSGgxREFWQVA2b2MtSUw2bUxzUmFJc3dpUGRWeHlSdnd0MVVFQVZVbHhOY09YZGRlWFk1aWJwZ21IcGtlWV9nU2kwRHNkcjBfMkY3aVNndkNRYl9Kd3AyakVpdzZCN1ZvLU1OZVhSRQ?oc=5",
+   "source": "STLtoday.com",
+   "published": "2026-11-23T02:58:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -151,27 +160,11 @@
    "via": "google"
   },
   {
-   "title": "Leon Draisaitl posts two points in Saturday's loss to Hurricanes",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUk5LUmpEekNpbDN4cms5TTI5eG5LQ1ZCSmtsVVM0enl2Q0xqQmlSMGVFMlFpR1JKZ3ljTEMza0JaVFpXdEdxbmpweUJIazNUZGcwb3N4NE5YWmdjR2FkTzRvaG4zTFRBUzBlNkFuS0JDVkNwbTJyTnZjeUNRRkR1b1owRGowdU44V3lXY1JPSFE3WVVBU1l1S2tmSXVTRW92aUVmTk9CSEMtMVE00gGyAUFVX3lxTE5JZENVSGZ0Z3hzbXRTSW9tMEd6ekpsazZaY0RtWkdkcDFVTFpMR20wanVXc1V4UWVwekFoMDZWNUwtSXVxLVVJN2wtZmtVS1gwNkpDWC1RNTY3a0Y2NnYwQ3YzM1JqLUpBaVR5eGs2cVhaM2NHMVd0b2NvWUxHZ3k2VmdEeDk5VTJpd25KdjRjeF9GN1c0b0JIOVRfdmVISXN0enNDdkk5N1NsUzQ5NjFmOVE?oc=5",
-   "source": "FantasyPros",
-   "published": "2026-11-23T01:52:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers’ Draisaitl reaches 1,100 career points with goal vs. Blues",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-draisaitl-reaches-1100-career-points-with-goal-vs-blues/",
    "source": "Sportsnet",
    "published": "2026-11-23T01:36:32Z",
    "snippet": "Leon Draisaitl reached the 1,100-point milestone in his NHL career with a goal against the St. Louis Blues, adding another memorable achievement to his illustrious career."
-  },
-  {
-   "title": "'The Guys Just Kept Playing': Sebastian Aho, Andrei Svechnikov, Rod Brind'Amour On Comeback Win Over Oilers",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOMkZNRzNVSU41TDVDNVV5anp3elJRdE5XR1JXWnk1UklGcWNpNF9CLXM1WW0wWjFzaUxSbm1NQ3did3A5MGFkQnFuTl83cnp0Rm85Z2RJTmVzazAwMm5HU1lYWk02WS14YWJEZDY5NC1Yc2FrbjA1YU0xYnE3TzhuN3ZBQVBUbHRXaWV3eExxNUNnbDRnTHFOSy1LSFhUVGFYSHoyVHdIbXFaUXRzMXV3S19FS1V2aFdPU1B1ZGQ0YXVkZlR5THZPZnFuVkVRTTU4VkZsNUpEaGNldXNoSVdvcXVUYmtXcTlWbVdlMGE5UHpkUQ?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-23T00:46:56Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "Oilers’ Kapanen redirects home opening goal against Blues",
@@ -277,6 +270,13 @@
    "source": "NHL.com",
    "published": "2026-11-20T21:56:00Z",
    "snippet": "Throw out the Xs and Os and join Short Shifts for our own weekly power rankings. What is our criteria? Whatever makes us smile, laugh, cry or any other wholesome feeling. This list is…"
+  },
+  {
+   "title": "Too soon to say Oilers and Hurricanes are a Stanley Cup Final preview, but still...",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-carolina-hurricanes-game-preview",
+   "source": "Edmonton Journal",
+   "published": "2026-11-20T20:59:25Z",
+   "snippet": "In the grand scheme of things it’s just another game in late November, meaning it will be forgotten about in a few days, but it’s going to be a very interesting look at where the Oilers are…"
   }
  ]
 }
