@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-23T21:29:17Z",
+ "updated": "2026-11-23T21:58:33Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (10)",
+  "Edmonton Journal (50)",
   "Sportsnet (1)",
-  "Google News (82)"
+  "Google News (80)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Blues Stun Oilers With Historic Third-Period Rally And Win",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXc2eGcyUC1sMFlDYk1HRnpQMWtOaEhYQ2h2bE01d0lzcndOcWd0UGg2RVNxSm9faTJBcHRORWt0TnZnME80UEtqdEI5Q2Rkb2xjdi1DVUNkM3ZIV3BqSVJLY3phTTBXMEFfUlZxckxzRHFBR3QyZDhGT3RtNGtOSVJjTzVmcXpp?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-23T21:22:16Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Do the Oilers Have Even A Remote Shot Of Acquiring Simon Edvinsson?",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbFJ2ODVFRHZrTy0zZ2lKYzljUWZmcUFfUk0zWVBUUnhXSUtsd3B2ZWpVa0RQaVR3N1c0dmFUcHBwTXF6ZUVNZF9BNzB1eWRpSW91c081VHhCSnRtYWNOTGt4SFNKeDZRd3c1bDRYUWpCVmVJNUN0U3dRNjlyNEVBRmI1Q2dkZjRfMFR1WHFlMmFyYUx0c1d5TnRqeC1NSmdXbFg1OEFvX19oR3dTSFBZWHI5NlFYcDUyYzRheHJnM1N2Zw?oc=5",
@@ -21,14 +29,6 @@
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNzd0dXM4ek9TSkIxd2F6VDRidERYRjZFczk2cDROUEtrdkY5Z1ZNTmNtUWdvY2tpaDh1bTVWazctQzhXWkFaa0t1Q2hBaGxzNWtMaEdtS2lOYnlfTmJsVlJpOEVtUXQ3M1hYRXJzNU8zdFpVdi1oZ3QzZC14NWJkdURjNTR0Zw?oc=5",
    "source": "Inside The Rink",
    "published": "2026-11-23T20:41:11Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Golden Knights vs. Oilers NHL Odds, Prediction and Picks: Edmonton Tries to Stop Three-Game Slide",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOb1JYaFZLbEVBUUJ5QlpXUXE3d3J5SERGVDZ6aS1JOFJFTHhFTTBNZWJEOFhKb1FHaGxGWXA4cVlWbWpPQjdkZnlsSFp3RkVfT0F4T1JMOHk5aHlxeVRmTVFLaUc2SWxtMjY3R3ZTZEVSX1FPRGNHNmh4X2JoSS1hUHVTNkNiMGc1aDJNNUp2LVBRWE5CQks3czhnY0pwb0Zv?oc=5",
-   "source": "Sports Interaction",
-   "published": "2026-11-23T20:04:32Z",
    "snippet": "",
    "via": "google"
   },
@@ -49,6 +49,14 @@
    "via": "google"
   },
   {
+   "title": "Watch NHL Mini: Edmonton Oilers vs St. Louis Blues",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVEFXcnUtYUt3MGFQS3Z0a0RvMkpLU0FKUDZfT01vSklBRGQ4Ni0xU0tUaDF0Zk16eWdXbW05QWFBdmlldkM0cE4yQV9oLXBMM24wamtuQmdadjMzTXFQUS16RFpheEk4dllWVGx1OHUyd2pTYkRsaThQSHNjOERFRVl1NGRpUjZzTFRN?oc=5",
+   "source": "Disney Plus",
+   "published": "2026-11-23T19:38:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "3 winners and a loser from the biggest Blues win of the 2026-27 season, 5-4 against Edmonton",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPazVDVjdqZHpSMFlQeUtxU0ptTFRVSDg2VkoyRjBpLW9hX1ZqcjA2X1dnZEVuU0pjeDh6VENXNVNPNG9YNzlJanBEdHEtZGllaHVLNXJURE5hcUhiVkRXZkxzOEJOZDZ4RFo3RmpTSzhDNVhPZ1o5aU54amwyRU92TEs0MHRjQVBzR2VsMlV0RmdDUjFHWGdHZHdfSjdYNzVQd1BSMi1XdGNPaFVoRVd3N1hPdmpEaV9mX1hxbVRiZUU0Z0NpeUk4?oc=5",
    "source": "Bleedin' Blue",
@@ -61,6 +69,22 @@
    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LanBJTTYtOC1IZ3d6eFdJb1RGSkRSTWhiVjJSeWVCSXBNQ0lRWFBmY1dqUTd1V1gtWVI1YlFxMDY4UmZ4cHdhN084YmZkSHhKYTdfdE5QUVBFYXk0SEtsbzNfOEVCNGRTb0E4MWxUZi0wekVQN2lV?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-23T19:30:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Report: Oilers interested in trading for Red Wings RFA Simon Edvinsson",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdnpJb1llWGd0RUtsY3NwUmpucmt6UHJHSmRvUEtHeVpHUnljbWRpa0tWQ1ZnWGRxTmdONjJTbmFqV3RjQV9GMElhdS1Bd2lITFFBbUJKbmhWWVZfVlk4d0V6Q1dnZUhYQko0VzR2X3FLdkpZeGk0Vkd1Rm1EU29icndRTC1VNkNBRUhIWVdUVGVsYnVFSjBOUg?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-23T19:27:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "The Day After 26.0: Fatigue sets in as Oilers squander late lead against Blues",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYnNmUHcwRFY0NlZQb2hxWTB1V3d3T1oxTG1QZTQtM2loc0FSemxWZnN1X1cwME9Malg3WlU2c2lIZlQ4WEoxZEhueHlqeHZYclpvOThOUExpN3Y4SGFVbVhLWmV3ZFZVMV9DNUJzWFBoT0ROSG9tX2plX2NfT2w1b2dNUDQ0NUJudEdTM0hoUFlGLUxGVDJnRk9xNUhyU2l1TGhoRnV1dGVHNGNu?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-23T18:57:03Z",
    "snippet": "",
    "via": "google"
   },
@@ -97,14 +121,6 @@
    "via": "google"
   },
   {
-   "title": "The Day After 26.0: Fatigue sets in as Oilers squander late lead against Blues",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYnNmUHcwRFY0NlZQb2hxWTB1V3d3T1oxTG1QZTQtM2loc0FSemxWZnN1X1cwME9Malg3WlU2c2lIZlQ4WEoxZEhueHlqeHZYclpvOThOUExpN3Y4SGFVbVhLWmV3ZFZVMV9DNUJzWFBoT0ROSG9tX2plX2NfT2w1b2dNUDQ0NUJudEdTM0hoUFlGLUxGVDJnRk9xNUhyU2l1TGhoRnV1dGVHNGNu?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-23T17:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Is there reason for concern after rocky finish to Edmonton Oilers road trip?",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAycjBWSjlHZGxTeE91eldWdm9sZnlDek1SNlhjYXpsbjlhcGwtNmV0c2Vna3otc05pOUg5MFVIWGo4UVdaSHdXZWRTMWVYRzRadTd0cWhUU25VMTBSZkVId0NOVEtaeUoxN3dJb2RVaTZRcUN6?oc=5",
    "source": "Edmonton Journal",
@@ -113,26 +129,10 @@
    "via": "google"
   },
   {
-   "title": "Report: Oilers interested in trading for Red Wings RFA Simon Edvinsson",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdnpJb1llWGd0RUtsY3NwUmpucmt6UHJHSmRvUEtHeVpHUnljbWRpa0tWQ1ZnWGRxTmdONjJTbmFqV3RjQV9GMElhdS1Bd2lITFFBbUJKbmhWWVZfVlk4d0V6Q1dnZUhYQko0VzR2X3FLdkpZeGk0Vkd1Rm1EU29icndRTC1VNkNBRUhIWVdUVGVsYnVFSjBOUg?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-23T16:39:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Amidst three-game slide, what has gone wrong for Oilers after blazing start?",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWUF6VDZFWHdDMzBvamw5bkdSNlpObWxjQ0JMaXpqeEJhdFB0ajhWOVhwZUV1OF82ZEtGbWdBSFJ3RjFYRHNaYVpRckMxdXFtQkg5ZFJmYnpVNlVtd2RMaUVwNWFWRmlsV2dCQVFLNGhwNXlrRzFOWUZnZGdiNmhqNks1MXNOZnl5NjE4MlpaTjNReS15VVNFX09rc0J5N0psSGJvcXNhbDJGdw?oc=5",
    "source": "TSN",
    "published": "2026-11-23T16:25:32Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers Stax",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTnhaMF9PVUZzdzRwZHRVclh6LW1FSTAzOWs5eVhxWFYxNldyRHlUOUdSZzlpX1FFeU93UjJOZ3NBcFdMWWViU1RSSmVyRWN1X2VZM0NGR01zVHltVlBkcFl2Wk0xZ2NVaFFtTmczOFM1djJ6cm53SVJPaG94cE1DQ3ZVU2Qtb3p2SjJsRW5wTTc3RkwxU2tfTnRRY1lMR1YtWUdxMTAxeGJvZl9LRkE?oc=5",
-   "source": "Oskaloosa Herald",
-   "published": "2026-11-23T15:15:59Z",
    "snippet": "",
    "via": "google"
   },
@@ -265,18 +265,18 @@
    "snippet": "Throw out the Xs and Os and join Short Shifts for our own weekly power rankings. What is our criteria? Whatever makes us smile, laugh, cry or any other wholesome feeling. This list is…"
   },
   {
-   "title": "State Your Case: Hurricanes or Oilers as top team",
-   "url": "https://www.nhl.com/news/state-your-case-carolina-hurricanes-or-edmonton-oilers-as-top-team-in-nhl",
-   "source": "NHL.com",
-   "published": "2026-11-20T15:24:13.238Z",
-   "snippet": "The defending Stanley Cup champion Carolina Hurricanes host the Edmonton Oilers at Lenovo Center on Saturday (1 p.m. ET; HHN, CARNHL, NHLN, SNP, SNW, SNO). It should be quite the tilt,…"
+   "title": "Too soon to say Oilers and Hurricanes are a Stanley Cup Final preview, but still...",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-carolina-hurricanes-game-preview",
+   "source": "Edmonton Journal",
+   "published": "2026-11-20T20:59:25Z",
+   "snippet": "In the grand scheme of things it’s just another game in late November, meaning it will be forgotten about in a few days, but it’s going to be a very interesting look at where the Oilers are…"
   },
   {
-   "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026-x6012",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-20T05:09:00Z",
-   "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
+   "title": "Edmonton Oilers head coach Mike Babcock had sit down with Tampa coach Jon Cooper",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-mike-babcock-jon-cooper-tampa-bay-lightning",
+   "source": "Edmonton Journal",
+   "published": "2026-11-20T20:27:04Z",
+   "snippet": "'I talk to him a lot during the Hockey Canada stuff. Any time you've had the opportunity to represent your country, they've decided you're the best coach in the world at that point. So,…"
   }
  ]
 }
