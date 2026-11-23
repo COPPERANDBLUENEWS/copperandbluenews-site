@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-23T16:01:57Z",
+ "updated": "2026-11-23T16:16:17Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (5)",
+  "Sportsnet (4)",
   "Google News (81)"
  ],
  "errors": [],
@@ -153,13 +153,6 @@
    "via": "google"
   },
   {
-   "title": "NHL Highlights: Blues 5, Oilers 4 (SO)",
-   "url": "https://www.sportsnet.ca/nhl/video/nhl-highlights-blues-5-oilers-4-so/",
-   "source": "Sportsnet",
-   "published": "2026-11-23T03:34:55Z",
-   "snippet": "Philip Broberg, Pavel Buchnevich and Jimmy Snuggerud scored three straight third-period goals to help the St. Louis Blues complete the comeback and defeat the Edmonton Oilers 5-4 in a…"
-  },
-  {
    "title": "Tired Edmonton Oilers blow 4-1 lead, settle for single point in St. Louis- Cult of Hockey Player Grades",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/tired-edmonton-oilers-blow-4-1-lead-settle-for-single-point-in-st-louis-cult-of-hockey-player-grades",
    "source": "Edmonton Journal",
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-20T21:58:43Z",
    "snippet": "'Obviously, with Ty growing up in St. Albert, watching our team, he’ll be proud pulling on our jersey'"
+  },
+  {
+   "title": "Short Shifts Power Rankings: November 20",
+   "url": "https://www.nhl.com/news/short-shifts-power-rankings-november-20-2026",
+   "source": "NHL.com",
+   "published": "2026-11-20T21:56:00Z",
+   "snippet": "Throw out the Xs and Os and join Short Shifts for our own weekly power rankings. What is our criteria? Whatever makes us smile, laugh, cry or any other wholesome feeling. This list is…"
   }
  ]
 }
