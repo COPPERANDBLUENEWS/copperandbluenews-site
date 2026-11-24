@@ -1,19 +1,60 @@
 {
- "updated": "2026-11-24T00:28:22Z",
+ "updated": "2026-11-24T01:17:58Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (80)"
+  "Google News (81)"
  ],
  "errors": [],
  "items": [
   {
-   "title": "RELEASE: Oilers acquire Austin Roest from Nashville",
-   "url": "https://www.nhl.com/oilers/news/release-oilers-acquire-austin-roest-from-nashville",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-24T00:26:57.813Z",
-   "snippet": "EDMONTON, AB - The Edmonton Oilers have acquired forward Austin Roest from the Nashville Predators in exchange for forward James Stefan. Roest (5’10”, 185 lbs, 22) has appeared in 15 games…"
+   "title": "Oilers, Predators Swap James Stefan, Austin Roest",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOamF6ZlR6SnlqSDhLdzJuX3VOQkxMTjF1YW9ERG4xa2tTT0YwcWFWb01qOVVUZEs5dnZfVGgxcU1tcE1xXzlVSEFSSDVBNW8xTXV5enhLTkJQaDVQNVRuNXhIcUVfaXB4OU1jN2JzNEU3T1IwRkdUcjRaR1lUUHEzaHpKOHRlUXRValZlSVMwRTR4Z1VmM2pN?oc=5",
+   "source": "Pro Hockey Rumors",
+   "published": "2026-11-24T01:06:07Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "PREVIEW: Oilers vs. Golden Knights",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5qYWliQ0JDX1VRZ0NtZEtfUlB2TXNCdGhXbUhFTXJNVWl4VlQ0cFdsaGxwWjZyeFlFcHlvMXdGOUFnTWxYM3hPaFRKZHhUdzBsNGlrUldCeDVPNGtXaGx1RURyN2tJNGQ1R1FwMU5YZ2x0U2pCZXpBZk5OblJuQQ?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-24T01:05:20Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Make Minor Trade: Add Austin Roest from the Nashville Predators",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSUVQckFKa19VMVlzamxaczYwaEx1T1VQUTg5ejhzbnpwQmkwaHVQYUk5d09kTF9mRnVGLXFXWnVLanVsa3RhUDhvMU9BM1ZPbkVrS2Vicm94MGFhbDY4TnlrbnpIcDM5RkstczQ1d0xfb0hBYXJhNDlFTVVPQmpOTlZR?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-24T00:54:01Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers acquire forward Austin Roest from Predators",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU0wyU0J3VEZsN01iamF4b0twQzlEWjNYb0NObzQ0RFRhVVZTQm5vNk8yazVtbWx0aXNjMm5lM0swUWVCcUhnQ3VGZlk0Zm40YlozMm1sWUZxS3RjSUpWS2NLY3hKeTRhbFpvUllDRXJGb2FHM1NCSHdrQUtKR2NqckExbmR1SEVzMFRueVlLSnp0UQ?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-24T00:48:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "RELEASE: Oilers acquire Austin Roest from Nashville | Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPU0JwY1BwWHdNLW1GZGF6aEZySmRrc1c1SGlJR2llN0l3U1M3WldXd0ZHREFYbTdDNWNjS09KQXdRRzhzeFNGSzdHbnhPWnNtQXg5WVJPa1BFRjg1UVJQSnB1ZzVDeXUwS0hqcGZKR0J4NUVud1h2UGtaWEctT0NmVExQZHBOZFV4eHc?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-24T00:30:16Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Blow 4-1 Lead to Blues: Slide or Speed Bump?",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMWNIUmRzN0xNcGVhQ1lDX0VPTXZCSnFaMm1BcGtBaUlONVhmNW1BcE5jTy1Oejhia2JKMjUwQWd1dTBDQ2FMZFRJeXZydDhkSC0tY1N2RjVzNjBISVY1UWdyalVqeE5QbG56NGl4dXFpMVJ4SkJtZDB1TmF2ZVRWSnpKcDZrS3BJclZwZjF5YmlXdlJqaHVBdmpZOXF2eDFGV2F2SFRkemVaM1ZNeFUyWS1tdWF4RFdhS1ZRbDlFanppRS0wbDdxU1hFVm1FMmJBTUVjYWhPOEFxSFJBczlXOTU2THFXT3FqTjgtTy1xWQ?oc=5",
+   "source": "WQAD",
+   "published": "2026-11-23T22:43:51Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Edmonton Oilers reportedly have trade interest in Edvinsson",
@@ -72,6 +113,14 @@
    "via": "google"
   },
   {
+   "title": "Watch NHL Mini: Edmonton Oilers vs St. Louis Blues",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVEFXcnUtYUt3MGFQS3Z0a0RvMkpLU0FKUDZfT01vSklBRGQ4Ni0xU0tUaDF0Zk16eWdXbW05QWFBdmlldkM0cE4yQV9oLXBMM24wamtuQmdadjMzTXFQUS16RFpheEk4dllWVGx1OHUyd2pTYkRsaThQSHNjOERFRVl1NGRpUjZzTFRN?oc=5",
+   "source": "Disney Plus",
+   "published": "2026-11-23T19:38:15Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "3 winners and a loser from the biggest Blues win of the 2026-27 season, 5-4 against Edmonton",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPazVDVjdqZHpSMFlQeUtxU0ptTFRVSDg2VkoyRjBpLW9hX1ZqcjA2X1dnZEVuU0pjeDh6VENXNVNPNG9YNzlJanBEdHEtZGllaHVLNXJURE5hcUhiVkRXZkxzOEJOZDZ4RFo3RmpTSzhDNVhPZ1o5aU54amwyRU92TEs0MHRjQVBzR2VsMlV0RmdDUjFHWGdHZHdfSjdYNzVQd1BSMi1XdGNPaFVoRVd3N1hPdmpEaV9mX1hxbVRiZUU0Z0NpeUk4?oc=5",
    "source": "Bleedin' Blue",
@@ -104,60 +153,11 @@
    "via": "google"
   },
   {
-   "title": "Ex-Edmonton Oilers player Puljujärvi just dropped a hilarious rap song",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcEZ5MHE2VEM4aE0tZGF3VEJqZU1pal9zcDk1NmxDaHFkajRZUGhId2JJQmh4ak0zRzN1THJTdzhTaDRXRmoySTNZclBLM0M4Y0FIaGJWcjZGRndCcndDaVc0OUdDbFA4RTJ0OTNTUGxSa1o0NjFOajlNWWh0RHZKS2FkZVA?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-23T17:51:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers 31-9 In First Periods: Is Edmonton's Fast Start Real?",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVzg1MGhtNmliSDJsbUp1N3FRNXQzXzUtOWpuMXNmWWFPRGM5dUNsQ0dJMjQxekxvajl6UmthWXliaFZCQUE4eXFCM2R5WlVSUTZIU2xQQnp3YzJ1WnMyRS1mdzVEYndnSFhzaDBEd0FvYm9laThxTVNFR19UOE9kMEdVQk9IallxS3UxN1hOZ3ZOYUluQ2VnNldKRTNscFBaYkE?oc=5",
-   "source": "RG.org",
-   "published": "2026-11-23T17:37:59Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Blues make franchise history with wild comeback win vs. Oilers",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWWt0TnAwZVhpWFJBN0ZKaDBHQ1dkSDFublpQY3V2U3B1enE1T1FMaVhVYXRFVXFvQmZ5UkF3WUdrTERGT0lpczg1X3F5SGFWVmhrTzQtdE9RY2ZXMmptcmdFSkFlYm13eUZIRmRDYmhRVEhsNlVKaGEtS3VjWThCMkc3LVkzV08xRjhkQ19xMA?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-23T17:24:53Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Has Oilers' Hot Start Come To An End?",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZUNmSk51SzBBQ0lxOUtlbDhZR1hHSnBmLXBBQ3hfMU1TZlNocnlVaFAxMmlMdThiYkdpbU1LUkJJUkxnWkswUVZuRExJRzl1Y3FPdkJvLUhTWUxFMDVXLXlGdkZ4Z3A5REMtUGpGU0RPYUpRSGNtUWh4U3BUY3lzZEpBNXFuQnhTZUJNT25XMllKS3UtT1hxWQ?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-23T17:17:47Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Day After 26.0: Fatigue sets in as Oilers squander late lead against Blues",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYnNmUHcwRFY0NlZQb2hxWTB1V3d3T1oxTG1QZTQtM2loc0FSemxWZnN1X1cwME9Malg3WlU2c2lIZlQ4WEoxZEhueHlqeHZYclpvOThOUExpN3Y4SGFVbVhLWmV3ZFZVMV9DNUJzWFBoT0ROSG9tX2plX2NfT2w1b2dNUDQ0NUJudEdTM0hoUFlGLUxGVDJnRk9xNUhyU2l1TGhoRnV1dGVHNGNu?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-23T17:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Is there reason for concern after rocky finish to Edmonton Oilers road trip?",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAycjBWSjlHZGxTeE91eldWdm9sZnlDek1SNlhjYXpsbjlhcGwtNmV0c2Vna3otc05pOUg5MFVIWGo4UVdaSHdXZWRTMWVYRzRadTd0cWhUU25VMTBSZkVId0NOVEtaeUoxN3dJb2RVaTZRcUN6?oc=5",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-rough-road-trip",
    "source": "Edmonton Journal",
-   "published": "2026-11-23T16:45:38Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Amidst three-game slide, what has gone wrong for Oilers after blazing start?",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWUF6VDZFWHdDMzBvamw5bkdSNlpObWxjQ0JMaXpqeEJhdFB0ajhWOVhwZUV1OF82ZEtGbWdBSFJ3RjFYRHNaYVpRckMxdXFtQkg5ZFJmYnpVNlVtd2RMaUVwNWFWRmlsV2dCQVFLNGhwNXlrRzFOWUZnZGdiNmhqNks1MXNOZnl5NjE4MlpaTjNReS15VVNFX09rc0J5N0psSGJvcXNhbDJGdw?oc=5",
-   "source": "TSN",
-   "published": "2026-11-23T16:25:32Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-23T16:41:40Z",
+   "snippet": "After giving up four goals in the first three games of their six-game (3-2-1) trip, the Oilers surrendered 14 in the last three"
   },
   {
    "title": "Blues rally from three down in third period, defeat Oilers in shootout",
