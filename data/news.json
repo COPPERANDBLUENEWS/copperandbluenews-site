@@ -1,26 +1,65 @@
 {
- "updated": "2026-11-24T16:19:15Z",
+ "updated": "2026-11-24T17:29:59Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (1)",
-  "Google News (85)"
+  "Sportsnet (2)",
+  "Google News (86)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "NHL Rumors: Oilers Concerned for Hyman, Canadiens Eye Kucherov, Matthews Move",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdU9HaXB4TjBhZ1RNdE5PSzQ5UVVBWFFYTDl2UjhMVWRmaDMyVk9US19WSkZiZDJ4NS1WYVJ0YTA2ZDVLeHJ5U2hpbjlmWUo2VnlWMV9lRGdUd2dZbnRPbTRHWmE2S0ZIZWQ5VGJIUU1vNE5RaTRobzNsSzhzeXB5YURtYnAyN2s0UzlJLXF1WG0zV25xQ0tzWk5xTXVudw?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-24T17:25:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ Nugent-Hopkins back in lineup, Hyman remains out vs. Golden Knights",
+   "url": "https://www.sportsnet.ca/nhl/article/oilers-nugent-hopkins-back-in-lineup-hyman-remains-out-vs-golden-knights/",
+   "source": "Sportsnet",
+   "published": "2026-11-24T17:14:12Z",
+   "snippet": "Ryan Nugent-Hopkins is back."
+  },
+  {
+   "title": "Nugent-Hopkins Returns, But Hyman Remains Out for Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ2drcl9BM0xzLWJYb0hDR0dreEg2eXptYkV5VG9KX2JUdHNBb29PU2FRR01hNVBXdGxUTUdDNWNmdVpuLTlnNllBa0dFRi1jUVpnSjFwdFplSVRnNDVTc19iSnh0dEFHaDVkYjF2SFVTYUtvTnhhdUQxOTJwOXN5NV9adTF4ZU1oRUY4dlB5Q0g2QklPMGxYY25ReEY1bHVVdXVDV0x3cTJTV1d3X3Z2d09kNA?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-24T16:57:06Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid vs. Eichel, Stone: Golden Knights Brace for Oilers Showdown",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcDFnNmUybm1qMW1Ta1cxaHFieTRQR0JZUnFGQmxGMFpkTTlPNlFja3pEZGd6Z2daMHR6ZEprcTgxeENHMzBLZlZUbDZQd2V5NFNiLWZPQm1ETTdVYkwtUzFEY1JKdVdJdzZ1UmwxZUMwNW1INWhCR0tMUlZCdmg0dVJPX00zYWxpT2Zaa1pvazlmbncwMm9aZnlPaFFBUXJmUEZ1ZEc1VVE4V3UzV0U5TnI1LUVrUFpEdVJyeWZra2RWY0dDY1E?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-24T16:47:06Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Two big guns return to ice for Edmonton Oilers today, one to play against Vegas",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMzFSYXliRC1GVVhuMkp6aWVLM0xlVUpLUnBWcjRNM2dBMkEtWnJtbXVGc1prY1owbVVLS2VHdGZzRXdsazJkS2lLemNxZVVwakFCRzVoWFllRHF1ZU90bFpQbS1HQzR6Q2dOR2RCdk5QVjNZbHVnRlp0M0ZGS0s0cS1INjZ3Undta2p3T2VrUWkzaF85YnV5TTBLbGI4Y2RKdWg1ZFFhd1M0Y3IxTU9TLVlpTm1wOEdvSDl6VzU4OVlpMXphbE4ydnk4eVY?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-24T16:40:09Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Could Be Facing a Zach Hyman Problem",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOHA5ejkzWFdRcFBGYlB4VzNpdUlMNU5hLXNBUEtBYUxOeEtIZnRPcmx0eVU1NXRRVDJkU3lxZEE2NGJZa3NkRmxQb0xSeXpQNHFvOG4xQ09xZnNKOEFmalZTaThVYVByVlhsQXZ2Si1ab0hxNVJxZEMxSzliVXZ0a05pNEdBUQ?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-24T16:30:19Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers’ Draisaitl Continues to Be Underappreciated",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT2xxVVBEWlFVUXhVbHZsNk1IeDBvdVZiWlJEc3B1WWxMajZTeUhVWjhLVnUzbDh2dllhaXhkakhEdGE5WlpFcFgtay1tZktaNnRhTHVjUDlnOHZDampUcWdUdF8xazVHVEg4WXJhWGE0UHpKUExPSld3R2xsazBUNGxGSlpuUQ?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-24T16:15:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Vegas Golden Knights vs. Edmonton Oilers - NHL Expert Picks - November 24, 2026",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZUFxTDhLWFhwbWpNS29BTDM2cVBlQm1NZElnZ0hoenF2ek5TN2xCclAtWnh5SGg0MzJxR0QyQmFQM3ppOEF2SFFmWVZoZnNFRlo5NXpmR29uci1xclBXOElaN2h2M1hmSVhSN19pSGh3RFYtaEF2cjdzLXU2ZW9ZdA?oc=5",
-   "source": "CBS Sports",
-   "published": "2026-11-24T16:03:26Z",
    "snippet": "",
    "via": "google"
   },
@@ -41,10 +80,26 @@
    "via": "google"
   },
   {
+   "title": "Connor McDavid’s wife Lauren offers glimpse into Toronto getaway as Edmonton Oilers captain’s NHL future",
+   "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNNEY4SEhOSjh3cmVnbllsZFNlZ2tFX2V2c0ZIM3VKaDdqT3VDZnFQWm1JUGJGc1RkRGsycDJlU0VvMkxfeVZUOUZneWR1ZU1XOEpXODdsTEpvOHFMZS1vWmFvNk1aUGxFMTk3TmkxQUp5TFlQV1BWUlZBNWt1WFBydHVidmxiaDdyaEpUT0h3YlozaDBXVWdWdkQwRmV0ekd2QTViZE82ZDB2NTBDYWxmV0EyQ1doX0t1eTFjY3dlYzJKTzJROUJJbzRZV0lhd2xtWVUzSTZFRm5rS1FGLXRxdzRwUWlKSy1haTBObkctMFBVcHlodWxqVFF5dExFTzBQeUo5OGpMWVI3bUtYTlBXZU9BX1RFcWhoUU16LUZoOFdzd0ZIak9TY3VTLU5GSUJ3LWfSAbICQVVfeXFMTTRGOEhITko4d3JlZ25ZbGRTZWdrRV9ldnNGSDN1Smg3ak91Q2ZxUFptSVBiRnNUZERrMnAyZVNFbzJMX3lWVDlGZ3lkdWVNVzhKVzg3bExKbzhxTGUtb1phbzZNWlBsRTE5N05pMUFKeUxZUFdQVlJWQTVrdVhQcnR1YnZsYmg3cmhKVE9Id2JaM2gwV1VnVnZEMEZldHpHdkE1YmRPNmQwdjUwQ2FsZldBMkNXaF9LdXkxY2N3ZWMySk8yUTlCSW80WVdJYXdsbVlVM0k2RUZua0tRRi10cXc0cFFpSkstYWkwTm5HLTBQVXB5aHVsalRReXRMRU8wUHlKOThqTFlSN21LWE5QV2VPQV9URXFoaFFNei1GaDhXc3dGSGpPU2N1Uy1ORklCdy1n?oc=5",
+   "source": "The Times of India",
+   "published": "2026-11-24T15:07:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "“Go baby !!!”: Leon Draisaitl's wife Celeste Desjardins celebrates Edmonton Oilers superstar's latest NHL",
-   "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQNGtnR3h4b0VpNmNKci11ZnJXUXRHLThMRUN4YzFISXpYVGRXazJxRENPVzlOZDhELVkxMG5VU2xXU2dkS18wYnJyQ0NURXZmdUJIeVJOMFdmUUU5dlc1RXNtMGlwc1laSmJCMGlBaHZ4a3JhUDVuZGZ1bUdhd2RGZ2FubnM5eFd4cEhpQWpJMlJncDdma0ZVX196dUZmTDZCRHdXOWZ3d0o2a3lpWERveEllLW1VZTdqWEdVSVdMNDAwLUdGVnZtbkhnSkdCNTJTLUw2eGpCQXVnWklLVDZaU3hMSnpyU2R2N0RoWE12Ri1oWGc3Qk9IbWlKZ1kyVjBlV3BzUUVnSGhBczBfd3Exb3RQR0JYa0M2eDhaeGpkV0lSNk3SAaMCQVVfeXFMUDRrZ0d4eG9FaTZjSnItdWZyV1F0Ry04TEVDeGMxSEl6WFRkV2sycURDT1c5TmQ4RC1ZMTBuVVNsV1NnZEtfMGJyckNDVEV2ZnVCSHlSTjBXZlFFOXZXNUVzbTBpcHNZWkpiQjBpQWh2eGtyYVA1bmRmdW1HYXdkRmdhbm5zOXhXeHBIaUFqSTJSZ3A3ZmtGVV9fenVGZkw2QkR3Vzlmd3dKNmt5aVhEb3hJZS1tVWU3alhHVUlXTDQwMC1HRlZ2bW5IZ0pHQjUyUy1MNnhqQkF1Z1pJS1Q2WlN4TEp6clNkdjdEaFhNdkYtaFhnN0JPSG1pSmdZMlYwZVdwc1FFZ0hoQXMwX3dxMW90UEdCWGtDNng4WnhqZFdJUjZN?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxORzVqa3A3Wmh1SmVGeV9ZdkwxRU1DS3dzUzdJS3FRR3ZMLWVUZ1p1cFMwQ2VOSjJic2lHUERBVVdlOGRzTDdpVENSYXphOGIzemZoaFJGazJkZ01ibkdmZW9xelE0NkZDMGJCeXk3bWloZVkwUFRJMXFITWtDam9fS1pmRnByempCZGJKSE1RelhQbnZRQ3V0eTBTalNsNEE0VTlqSDlSMXFkN1diVUg4dDBGRXpEZEcyYm5scW1fYnl1R1NHWWJTb0VEMXZud3RWRVQ0Y3YzUlJIQlJpWVBVZmI4Z1RMWUJKVzhxdEd2VXlDSlZ3d2pDLWVCck1xOVlzbGFJUDJnZE9YZG11NG16NGpQTy12YjV3RDctOWtEZFg5eDBYdmlFcFZNX0lyeUtXaEQwdG5LZ0I1Wk1hQ3FrcEp2UzM0SUN5VDFwQTZoZzUyUXF2bVdGNWxRM2JSNm9pUGozT1RnV2N5X0VWUmfSAaMCQVVfeXFMUDRrZ0d4eG9FaTZjSnItdWZyV1F0Ry04TEVDeGMxSEl6WFRkV2sycURDT1c5TmQ4RC1ZMTBuVVNsV1NnZEtfMGJyckNDVEV2ZnVCSHlSTjBXZlFFOXZXNUVzbTBpcHNZWkpiQjBpQWh2eGtyYVA1bmRmdW1HYXdkRmdhbm5zOXhXeHBIaUFqSTJSZ3A3ZmtGVV9fenVGZkw2QkR3Vzlmd3dKNmt5aVhEb3hJZS1tVWU3alhHVUlXTDQwMC1HRlZ2bW5IZ0pHQjUyUy1MNnhqQkF1Z1pJS1Q2WlN4TEp6clNkdjdEaFhNdkYtaFhnN0JPSG1pSmdZMlYwZVdwc1FFZ0hoQXMwX3dxMW90UEdCWGtDNng4WnhqZFdJUjZN?oc=5",
    "source": "The Times of India",
    "published": "2026-11-24T14:28:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers face their first serious reality check after 3 straight losses. What’s next?",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRTUyY2lRRS10OGZWWmsyWXlKSHhNM3hMY3ZabDNoNUJYSHVZaWpRZGNnSnh1VER3N3A4ZHQ2WGl3UlIydF9PNmFzVmQzREN6dENhLVFmYVVJSlhQT29KNlZYY3hvWGl1UC1NQnBTbTFrYlBlUVdGS3VzLW42YTM3OEhuQVY0THhrZlZ1STU2THI4MXBCTG1vei1oSnoxOUx6LTBxYzRiTE5xOFhIT1RZ?oc=5",
+   "source": "The New York Times",
+   "published": "2026-11-24T14:14:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -73,12 +128,11 @@
    "via": "google"
   },
   {
-   "title": "Oilers face their first serious reality check after 3 straight losses. What’s next?",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRTUyY2lRRS10OGZWWmsyWXlKSHhNM3hMY3ZabDNoNUJYSHVZaWpRZGNnSnh1VER3N3A4ZHQ2WGl3UlIydF9PNmFzVmQzREN6dENhLVFmYVVJSlhQT29KNlZYY3hvWGl1UC1NQnBTbTFrYlBlUVdGS3VzLW42YTM3OEhuQVY0THhrZlZ1STU2THI4MXBCTG1vei1oSnoxOUx6LTBxYzRiTE5xOFhIT1RZ?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-24T13:33:29Z",
-   "snippet": "",
-   "via": "google"
+   "title": "Canada's best team in 2026? Don't overlook Brad Jacobs and his curling crew",
+   "url": "http://edmontonjournal.com/sports/curling/canada-best-team-2026-brad-jacobs-curling-crew/wcm/74b2ce4b-7871-40b0-9510-9082765b9b7d",
+   "source": "Edmonton Journal",
+   "published": "2026-11-24T13:58:56Z",
+   "snippet": "Curling doesn't always get the mainstream attention it deserves, but that shouldn't diminish the accomplishments of the people playing it"
   },
   {
    "title": "Golden Knights vs Oilers, Prediction, Odds & Best Bets Today - NHL, Nov. 24",
@@ -113,51 +167,11 @@
    "via": "google"
   },
   {
-   "title": "Yesterday’s Scores, Canadiens Overpay for Dylan Larkin, Oilers Eyeing Simon Edvinsson & Maple Leafs Vets on Block",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNS2IxNHhCNnA4ekJkNlNYamxvLUJJSllINDQxMGs0bXFRRWQ2QmJkeWZFU3c4SENxOGI1MmNxaDV6OE9ZUGFKQWpabVBhenRWd01WenFxc2sxMDJySXp4ZU90UEhraEtsMllhVk9SV0ZUNXdobk5jRE5CWTlOZWFFMFZYMHpiQQ?oc=5",
-   "source": "Substack",
-   "published": "2026-11-24T11:31:33Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "OIlers' Austin Roest trade might be setting something else up",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSUhRS1hfcURaSGxfZWpURmJWOUhLWlBoQWtHNThxQnhxd1ptUlYxakxVZk1INlhDNnp6M0JJNS1TUENuNU9Oc3BvemU4RFFBU012dTJIdFE1bVVUcDAxb0VJQWFGbG1EaUU3a2lhQVdDc2dZb2hpNUVjRVpZc2JuZ1dKd0NTSmd4aV9XWml2NXdBZ05QeUVWYXZvQ3E?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-24T11:30:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Golden Knights-Oilers NHL Picks, Predictions & Odds for Tuesday, November 24, 2026",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbmNsQzBhM0Q0VHhyV0V5SVZMd1ZaRmNFcWZmamZjYVFoUTF3cUhjTl9yZGlVM3J4UXdTOXdQWFUyTTFzV2lDblZ1dXRtWXhSc1M5aE5CTGwwV0I2N0Y2RTVHclUyODdOQzdLYUNTdWxNdnNiN1p1T0hiWXdzRTltVTd3ZW00Y0MwY2czRUxyd2VacUV4QWx6N1VDNFYwa0g4Uk1Ic3ZUR1BJVUZaT1ZYTA?oc=5",
-   "source": "Lineups",
-   "published": "2026-11-24T11:01:22Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Signed Wayne Gretzky Warhol print expected to fetch $25-30K at auction",
    "url": "https://edmontonjournal.com/news/edmonton-oilers-wayne-gretzky-andy-warhol-art",
    "source": "Edmonton Journal",
    "published": "2026-11-24T11:00:30Z",
    "snippet": "\"It's a rare case: A Canadian figure chosen by the most famous post-war contemporary painter in the world\""
-  },
-  {
-   "title": "Multiple important Oilers prospects reportedly out for months",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUzB6NlpfWjRGU2RyYnB4YXRLZDdSTkNvemJTcWhIWmdzRVN5RnFpTWFwbjBLZGZVZmJQV1g2aldya2FBSGNzVVY0RFUxRnItMGVGYVFDWTFqSVl0bEM2VG5mQ0YzaFpOUzBYQTZfel9TczlJajhHOVlCNllOLU90WV9EdzZnaGN5d0U4RktuZ0VUWE5NSnhXZ094cVY3dw?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-24T11:00:02Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL Game Preview: Vegas Golden Knights at Edmonton Oilers with Line Combinations 11/24/2026",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVjU4Wm1XNEdLWXd4SHNSTnl2dlpsMlBKYXhpZWVESDZQRUl2NE0yd0hhTC1mUVAxSS1vcDhLa2x2aDlNdjhseU9WOTBSSjZkMHRRazlwZzVpMU1KZ0JQaVJNal9LYVR3RTd1bkVya0FLbnlPZU91RTV1VmtqV2I2Tkw1V3hwU3ZHZWFpZDlOMXZkMVJtaWd4M19XWXpnMHJNTldQWlVoUmRYbnhFUFpWVmVkSDBLZmRP?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-24T10:30:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "McDavid bid for 200-point season drawing raves from Gretzky, others",
@@ -230,13 +244,6 @@
    "snippet": ""
   },
   {
-   "title": "What just happened? Five-minute meltdown sends Oilers to shocking defeat",
-   "url": "https://edmontonjournal.com/sports/edmotnon-oilers-meltdown-loss-st-louis-blues",
-   "source": "Edmonton Journal",
-   "published": "2026-11-23T03:29:07Z",
-   "snippet": "'I actually thought we played good tonight, I thought we did some really good things. But in the end it didn't go our way'"
-  },
-  {
    "title": "QUICK RECAP: Blues 5, Oilers 4 (SO)",
    "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-blues-11-22-26",
    "source": "EdmontonOilers.com",
@@ -256,13 +263,6 @@
    "source": "NHL.com",
    "published": "2026-11-22T16:13:58.262Z",
    "snippet": "OILERS (17-5-3) at BLUES (12-9-2) 7 p.m. ET; BN+, STLNHL, SNW, SN1 Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Colton Dach -- Zach Hyman…"
-  },
-  {
-   "title": "Is a lack of sufficient depth starting to catch up to the Edmonton Oilers: 9 Things",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/is-a-lack-of-sufficient-depth-starting-to-catch-up-to-the-edmonton-oilers-9-things",
-   "source": "Edmonton Journal",
-   "published": "2026-11-22T07:00:57Z",
-   "snippet": ""
   },
   {
    "title": "Hurricanes score five in second period in win against Oilers",
