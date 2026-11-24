@@ -17,15 +17,35 @@
  "forwards": [
   [
    {
-    "id": 8480842,
-    "name": "Filip Hallander",
-    "num": 19,
+    "id": 8481617,
+    "name": "Vasily Podkolzin",
+    "num": 92,
     "pos": "LW"
    },
    {
     "id": 8478402,
     "name": "Connor McDavid",
     "num": 97,
+    "pos": "C"
+   },
+   {
+    "id": 8477934,
+    "name": "Leon Draisaitl",
+    "num": 29,
+    "pos": "RW"
+   }
+  ],
+  [
+   {
+    "id": 8482703,
+    "name": "Colton Dach",
+    "num": 34,
+    "pos": "LW"
+   },
+   {
+    "id": 8476454,
+    "name": "Ryan Nugent-Hopkins",
+    "num": 93,
     "pos": "C"
    },
    {
@@ -37,15 +57,15 @@
   ],
   [
    {
-    "id": 8481617,
-    "name": "Vasily Podkolzin",
-    "num": 92,
+    "id": 8480842,
+    "name": "Filip Hallander",
+    "num": 19,
     "pos": "LW"
    },
    {
-    "id": 8477934,
-    "name": "Leon Draisaitl",
-    "num": 29,
+    "id": 8477450,
+    "name": "Jason Dickinson",
+    "num": 16,
     "pos": "C"
    },
    {
@@ -60,26 +80,6 @@
     "id": 8480029,
     "name": "Alex Formenton",
     "num": 26,
-    "pos": "LW"
-   },
-   {
-    "id": 8477450,
-    "name": "Jason Dickinson",
-    "num": 16,
-    "pos": "C"
-   },
-   {
-    "id": 8482703,
-    "name": "Colton Dach",
-    "num": 34,
-    "pos": "RW"
-   }
-  ],
-  [
-   {
-    "id": 8479368,
-    "name": "Max Jones",
-    "num": 46,
     "pos": "LW"
    },
    {
@@ -149,10 +149,10 @@
     "pos": "R"
    },
    {
-    "id": 8481617,
-    "name": "Vasily Podkolzin",
-    "num": 92,
-    "pos": "R"
+    "id": 8476454,
+    "name": "Ryan Nugent-Hopkins",
+    "num": 93,
+    "pos": "C"
    },
    {
     "id": 8477934,
@@ -175,10 +175,10 @@
   ],
   [
    {
-    "id": 8479365,
-    "name": "Trent Frederic",
-    "num": 10,
-    "pos": "C"
+    "id": 8481617,
+    "name": "Vasily Podkolzin",
+    "num": 92,
+    "pos": "R"
    },
    {
     "id": 8482703,
@@ -187,9 +187,9 @@
     "pos": "C"
    },
    {
-    "id": 8480842,
-    "name": "Filip Hallander",
-    "num": 19,
+    "id": 8479365,
+    "name": "Trent Frederic",
+    "num": 10,
     "pos": "C"
    },
    {
@@ -250,16 +250,14 @@
    "status": "Day-to-day"
   }
  ],
- "notes": [
-  "Projection is based on the Last Game (2026-11-21) lineup until morning skate or practice updates."
- ],
+ "notes": [],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Last Game (2026-11-21)",
-   "updatedAt": "2026-11-23T15:46:25.444Z"
+   "basis": "Projected",
+   "updatedAt": "2026-11-24T13:12:32.298Z"
   },
   {
    "name": "DailyFaceoff",
@@ -284,6 +282,12 @@
   "note": null
  },
  "scratches": [
+  {
+   "id": 8479368,
+   "name": "Max Jones",
+   "num": 46,
+   "pos": "L"
+  },
   {
    "id": 8480834,
    "name": "Ty Emberson",
@@ -448,20 +452,20 @@
   ],
   "goalie": {
    "starter": {
-    "id": 8479394,
-    "name": "Carter Hart",
-    "num": 79,
-    "pos": "G"
-   },
-   "status": "Unconfirmed",
-   "backup": {
     "id": 8478499,
     "name": "Adin Hill",
     "num": 33,
     "pos": "G"
    },
+   "status": "Unconfirmed",
+   "backup": {
+    "id": 8479394,
+    "name": "Carter Hart",
+    "num": 79,
+    "pos": "G"
+   },
    "note": null
   }
  },
- "updated": "2026-11-23T16:01:58Z"
+ "updated": "2026-11-24T13:24:37Z"
 }
