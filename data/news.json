@@ -1,18 +1,57 @@
 {
- "updated": "2026-11-24T01:17:58Z",
+ "updated": "2026-11-24T01:55:53Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (81)"
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Predators acquire James Stefan from Oilers for Austin Roest",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUl9iOEo2VFdxWU1xM2NqTFNaZ1VUZzNmYVlVM0gwaUl4eDNNMHZKTHRFSXpiemRkRk1XUGl0N01MYkk2Uk1sWW1xc0dRcWFNenhFVmcyQ2JrSmVSZkt5cnM2enM4OVNvdE1zWENoVkpKdmNwQ1Z0US1NVG1vYlA5QnJHV3djd1ppYU55TDdTYXZacVZrLTFoQjExTjhHOE9mRGs0eEJQS0Q2RTV5T3p3eDlKelllejVocElqM29OTXdGUGVMQUE?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-24T01:43:34Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Good and bad news on health of Top 6 Oilers forwards -- and Edmonton out on Detroit d-man",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObTMwQWxxdmxEOWdPT1JhNmNvYlY0SkJBeXE0a3ozcExydWhWY3ZOSlBjSF94ZGhyNHhkaXJCUlRIbWxCMFFxMlB4YnJHZndLaml4UE5rZk9uTGp4N3g0RWdmR0RQMFRGR3R0RkJtVXRjdFpUZ3h3WXhRWXFFS3plTHd6Q1RQZGg1c29sWWg4WHB3eUZtcm5GRVpVREhXR293bjI4dER0bHp2STBsNkRxYkNUUUJ0WGtDOHpKQk5HWEkzS3dGVnItazQyVjhBZkltNEkza1E3c2hXa251?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-24T01:42:48Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers GM Stan Bowman picks up another useful power forward off NHL junk heap",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-gm-stan-bowman-picks-up-another-useful-power-forward-off-nhl-junk-heap",
+   "source": "Edmonton Journal",
+   "published": "2026-11-24T01:42:36Z",
+   "snippet": ""
+  },
+  {
+   "title": "Predators Acquire Stefan From Edmonton",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQUpzaG9YV3ZsekdEMVNTdldmNl82NUc3eEg5SkF0TFVDclNiWUZMbHVSYWc5MXBPWk96eHJpek1hcllTNWRSSURKSDB4UlkwdmQyUzdIdlRyYmxfZWFpMmNIbWkwSUJTQ1duRHAzSHdaOUxEdGFDME83RUh5MlgzTUZkRWxnUzR2WExOWW9LZmZXQ2JSc3FhRXhOZDNUNm5hTWc?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-24T01:17:18Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers, Predators Swap James Stefan, Austin Roest",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOamF6ZlR6SnlqSDhLdzJuX3VOQkxMTjF1YW9ERG4xa2tTT0YwcWFWb01qOVVUZEs5dnZfVGgxcU1tcE1xXzlVSEFSSDVBNW8xTXV5enhLTkJQaDVQNVRuNXhIcUVfaXB4OU1jN2JzNEU3T1IwRkdUcjRaR1lUUHEzaHpKOHRlUXRValZlSVMwRTR4Z1VmM2pN?oc=5",
    "source": "Pro Hockey Rumors",
    "published": "2026-11-24T01:06:07Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "RELEASE: Oilers acquire Austin Roest from Nashville | Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPU0JwY1BwWHdNLW1GZGF6aEZySmRrc1c1SGlJR2llN0l3U1M3WldXd0ZHREFYbTdDNWNjS09KQXdRRzhzeFNGSzdHbnhPWnNtQXg5WVJPa1BFRjg1UVJQSnB1ZzVDeXUwS0hqcGZKR0J4NUVud1h2UGtaWEctT0NmVExQZHBOZFV4eHc?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-24T01:06:02Z",
    "snippet": "",
    "via": "google"
   },
@@ -26,9 +65,17 @@
   },
   {
    "title": "Oilers Make Minor Trade: Add Austin Roest from the Nashville Predators",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSUVQckFKa19VMVlzamxaczYwaEx1T1VQUTg5ejhzbnpwQmkwaHVQYUk5d09kTF9mRnVGLXFXWnVLanVsa3RhUDhvMU9BM1ZPbkVrS2Vicm94MGFhbDY4TnlrbnpIcDM5RkstczQ1d0xfb0hBYXJhNDlFTVVPQmpOTlZR?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-24T00:54:01Z",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZU1mc1dGRkhPaHJMUExoWmROZTJybFRoaTJCbUxUeVpJWmVXOHB0aFJlanNseVY4RXZ6bjVpdHJZcGpmQ3V0Nl92S2VxQ3dLQjRVYjZ5bnduNzVhaTBOVkpLS3h3ejNock1rVjE1a1h1bUlYbVBlbEk5VTNhSWZYdk1LU2xmeXRpMDQyWFl2eXpvTjAySDRFTG8xV3VRak84RXRvaDN4azY5bkpDc0RPblJoNG1aaWZVSUFjeWxSdTZrUUN2akE?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-24T00:54:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ homecoming a divisional clash with Golden Knights",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQXprbVh0M21PVDdBZFdIWHNFVlZNRDhlVFdQdXpMV1I5Z0pHRFMtQ0dkeWpaaEFyZC1DNlJpdVNEaGVuTThVeTdUTElWSnNXOTJlQkx1RVBMT2hIWjdENFNBMmstcEo5Y0pwT2NOLUJfb000anJCU19oSWNXdTJpY3JqMFI3STFOSkd2RjJZUmdvS2RN?oc=5",
+   "source": "WJOX-FM",
+   "published": "2026-11-24T00:50:10Z",
    "snippet": "",
    "via": "google"
   },
@@ -37,22 +84,6 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU0wyU0J3VEZsN01iamF4b0twQzlEWjNYb0NObzQ0RFRhVVZTQm5vNk8yazVtbWx0aXNjMm5lM0swUWVCcUhnQ3VGZlk0Zm40YlozMm1sWUZxS3RjSUpWS2NLY3hKeTRhbFpvUllDRXJGb2FHM1NCSHdrQUtKR2NqckExbmR1SEVzMFRueVlLSnp0UQ?oc=5",
    "source": "Sportsnet.ca",
    "published": "2026-11-24T00:48:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "RELEASE: Oilers acquire Austin Roest from Nashville | Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPU0JwY1BwWHdNLW1GZGF6aEZySmRrc1c1SGlJR2llN0l3U1M3WldXd0ZHREFYbTdDNWNjS09KQXdRRzhzeFNGSzdHbnhPWnNtQXg5WVJPa1BFRjg1UVJQSnB1ZzVDeXUwS0hqcGZKR0J4NUVud1h2UGtaWEctT0NmVExQZHBOZFV4eHc?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-24T00:30:16Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Blow 4-1 Lead to Blues: Slide or Speed Bump?",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMWNIUmRzN0xNcGVhQ1lDX0VPTXZCSnFaMm1BcGtBaUlONVhmNW1BcE5jTy1Oejhia2JKMjUwQWd1dTBDQ2FMZFRJeXZydDhkSC0tY1N2RjVzNjBISVY1UWdyalVqeE5QbG56NGl4dXFpMVJ4SkJtZDB1TmF2ZVRWSnpKcDZrS3BJclZwZjF5YmlXdlJqaHVBdmpZOXF2eDFGV2F2SFRkemVaM1ZNeFUyWS1tdWF4RFdhS1ZRbDlFanppRS0wbDdxU1hFVm1FMmJBTUVjYWhPOEFxSFJBczlXOTU2THFXT3FqTjgtTy1xWQ?oc=5",
-   "source": "WQAD",
-   "published": "2026-11-23T22:43:51Z",
    "snippet": "",
    "via": "google"
   },
@@ -105,22 +136,6 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers GM Stan Bowman picks up another useful power forward off NHL junk heap",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORFdGeUZOSW03OFVxWnNhZkNCNDlzZVBGME9wWXdZRGdWQi0tNlhVQV9KYm9Ec2lFU0doSTM1RTRVMUM5WXVwWGZLVnU2bGxQU25GYnRjNW0xTWlvVkpqQkl5VW5VNi1QdDJsQUlOckdLNFY2TnFyVDc1d1hZeklYd2tmLUNOaEpjV1ZPR25Ic3QtT3cxSHZpaVdRTGNQQjIwT3U3NW9pMTFfMkdJYm11d0lvU3ZiZ0QzMFE5S202bzU2R09mM1NKRXVoVHdOcWtUUFVycVRHT0hHelEyaURDZA?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-23T19:46:52Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Watch NHL Mini: Edmonton Oilers vs St. Louis Blues",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVEFXcnUtYUt3MGFQS3Z0a0RvMkpLU0FKUDZfT01vSklBRGQ4Ni0xU0tUaDF0Zk16eWdXbW05QWFBdmlldkM0cE4yQV9oLXBMM24wamtuQmdadjMzTXFQUS16RFpheEk4dllWVGx1OHUyd2pTYkRsaThQSHNjOERFRVl1NGRpUjZzTFRN?oc=5",
-   "source": "Disney Plus",
-   "published": "2026-11-23T19:38:15Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "3 winners and a loser from the biggest Blues win of the 2026-27 season, 5-4 against Edmonton",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPazVDVjdqZHpSMFlQeUtxU0ptTFRVSDg2VkoyRjBpLW9hX1ZqcjA2X1dnZEVuU0pjeDh6VENXNVNPNG9YNzlJanBEdHEtZGllaHVLNXJURE5hcUhiVkRXZkxzOEJOZDZ4RFo3RmpTSzhDNVhPZ1o5aU54amwyRU92TEs0MHRjQVBzR2VsMlV0RmdDUjFHWGdHZHdfSjdYNzVQd1BSMi1XdGNPaFVoRVd3N1hPdmpEaV9mX1hxbVRiZUU0Z0NpeUk4?oc=5",
    "source": "Bleedin' Blue",
@@ -141,14 +156,6 @@
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdnpJb1llWGd0RUtsY3NwUmpucmt6UHJHSmRvUEtHeVpHUnljbWRpa0tWQ1ZnWGRxTmdONjJTbmFqV3RjQV9GMElhdS1Bd2lITFFBbUJKbmhWWVZfVlk4d0V6Q1dnZUhYQko0VzR2X3FLdkpZeGk0Vkd1Rm1EU29icndRTC1VNkNBRUhIWVdUVGVsYnVFSjBOUg?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-23T19:27:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Ex-Blues captain David Backes says record comeback win vs. Oilers will go ‘a long way’ - The Athletic",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNndhaUxPWjhWYXpSajJnWF9jYmtzRWdSNzEwemxiS0lYU0s5b05PUW1mcE9zYmc0RUtMYW5SZkd4OTh3cDFxcEc4cUZyRTZRNU5VeHF4ZXd5bkFWdnM1UElxYmdabGotdUlNWHViTkVIX1N6YW04TGlSV0s2ZmdfUHVkQTdYQjZ2QVE?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-23T17:59:37Z",
    "snippet": "",
    "via": "google"
   },
@@ -256,13 +263,6 @@
    "source": "NHL.com",
    "published": "2026-11-20T22:02:39.667Z",
    "snippet": "The Edmonton Oilers want what the Carolina Hurricanes have, and will get a chance to see where they stand against the defending Stanley Cup champions. The Oilers travel to face the…"
-  },
-  {
-   "title": "Edmonton Oil Kings acquire St. Albert-born Ty Meunier",
-   "url": "https://edmontonjournal.com/sports/hockey/oil-kings/edmonton-oil-kings-ty-meunier-st-albert",
-   "source": "Edmonton Journal",
-   "published": "2026-11-20T21:58:43Z",
-   "snippet": "'Obviously, with Ty growing up in St. Albert, watching our team, he’ll be proud pulling on our jersey'"
   },
   {
    "title": "Short Shifts Power Rankings: November 20",
