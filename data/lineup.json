@@ -17,9 +17,9 @@
  "forwards": [
   [
    {
-    "id": 8481617,
-    "name": "Vasily Podkolzin",
-    "num": 92,
+    "id": 8476454,
+    "name": "Ryan Nugent-Hopkins",
+    "num": 93,
     "pos": "LW"
    },
    {
@@ -29,29 +29,29 @@
     "pos": "C"
    },
    {
-    "id": 8477934,
-    "name": "Leon Draisaitl",
-    "num": 29,
+    "id": 8477953,
+    "name": "Kasperi Kapanen",
+    "num": 42,
     "pos": "RW"
    }
   ],
   [
    {
-    "id": 8482703,
-    "name": "Colton Dach",
-    "num": 34,
+    "id": 8481617,
+    "name": "Vasily Podkolzin",
+    "num": 92,
     "pos": "LW"
    },
    {
-    "id": 8476454,
-    "name": "Ryan Nugent-Hopkins",
-    "num": 93,
+    "id": 8477934,
+    "name": "Leon Draisaitl",
+    "num": 29,
     "pos": "C"
    },
    {
-    "id": 8477953,
-    "name": "Kasperi Kapanen",
-    "num": 42,
+    "id": 8478472,
+    "name": "Mathieu Joseph",
+    "num": 21,
     "pos": "RW"
    }
   ],
@@ -69,9 +69,9 @@
     "pos": "C"
    },
    {
-    "id": 8478472,
-    "name": "Mathieu Joseph",
-    "num": 21,
+    "id": 8482703,
+    "name": "Colton Dach",
+    "num": 34,
     "pos": "RW"
    }
   ],
@@ -236,13 +236,6 @@
    "status": "IR"
   },
   {
-   "id": 8476454,
-   "name": "Ryan Nugent-Hopkins",
-   "num": 93,
-   "pos": "C",
-   "status": "Day-to-day"
-  },
-  {
    "id": 8475786,
    "name": "Zach Hyman",
    "num": 18,
@@ -256,8 +249,8 @@
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Projected",
-   "updatedAt": "2026-11-24T13:12:32.298Z"
+   "basis": "Bob Stauffer",
+   "updatedAt": "2026-11-24T17:06:42.333Z"
   },
   {
    "name": "DailyFaceoff",
@@ -467,5 +460,5 @@
    "note": null
   }
  },
- "updated": "2026-11-24T16:57:30Z"
+ "updated": "2026-11-24T17:28:50Z"
 }
