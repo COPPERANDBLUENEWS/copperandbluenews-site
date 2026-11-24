@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-24T06:34:30Z",
+ "updated": "2026-11-24T07:26:28Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (84)"
+  "Google News (85)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Sabres vs. Oilers: Start Time, TV & Preview, Dec. 1, 2026",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYnZpdWU2UXJveS0xWkgyOW1Yd3psQ2s1MkVwVUd3TThveVFIOHRocXo0c1hGNkVCZmM2UDdoUHVlWFZNTndiQnlIVG85bDVyZmJGQjkxamtuQ0FSMGVDNkk2RzJFaXN0LVVFOTk2dThUcGdxaHFBbmIwcmN2OXhubnBBS2otT2po?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-24T06:36:39Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Real Reason To Oilers's Struggles",
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeDZiRjN6dlRsQS1WRndjTmE2TFo4Y3dlajg0eEJ4YzVHOTNLWVhaQWgtQmY1WUdjakhPMFBVanRBaUl4QWhkTThkbXdRa18xUFlNNUczN1N3bFI0MlBSNVMyRkRabmZjR1RaSVNpVFpObzcxMElwUHFBNFRNVldyUFZXRWZTX3NzU2NWM3Z3YjB0MWg1?oc=5",
@@ -38,6 +46,14 @@
    "source": "Edmonton Journal",
    "published": "2026-11-24T04:40:27Z",
    "snippet": ""
+  },
+  {
+   "title": "Vegas Golden Knights at Edmonton Oilers odds, picks and predictions",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYkctZDlzbWk0akVoMzhZY1dnQXlhNmsxRDZSOWdTcFI3UVo5TkVVTmo4dGJadjFjQ0RnUllxamlrRVlJc3hiT3g0b2pJc284X2hMU0lEaDliNWp5N1A2djV4eXdpUzkxcF92NlVuME5WZm1TM1RyckJVb3dYdlJ1VkhyUE56YnZpZXBGVmVsU3ZZUE1mYzRJOHlXT19jd0ltSnUtVDMyTWJVR0NlaXBVaGJfYlFMcE11aHhUWk8wck9XSDBuU1E?oc=5",
+   "source": "MetroWest Daily News",
+   "published": "2026-11-24T02:57:00Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "The Edmonton Oilers blew their chance to acquire Dylan Larkin",
@@ -104,9 +120,9 @@
   },
   {
    "title": "Oilers Make Minor Trade: Add Austin Roest from the Nashville Predators",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSUVQckFKa19VMVlzamxaczYwaEx1T1VQUTg5ejhzbnpwQmkwaHVQYUk5d09kTF9mRnVGLXFXWnVLanVsa3RhUDhvMU9BM1ZPbkVrS2Vicm94MGFhbDY4TnlrbnpIcDM5RkstczQ1d0xfb0hBYXJhNDlFTVVPQmpOTlZR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdUpoYjZkSlkwUnlYcjlGZjFHZ3BRcEpVckhfajNnVFZ1NTJkRWhuM2loZUhxbG9CUGwxVWtjTUdWVGF6Um9JMER0bXZYdXBIck5icGFjeEhwUmFMSTlhMkE3VVZNckw1aWtUX0hScG0xNFdjckdwLU1LRTVabm4yZkVCN1E?oc=5",
    "source": "Yahoo Sports",
-   "published": "2026-11-24T00:54:01Z",
+   "published": "2026-11-24T00:54:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -115,6 +131,14 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU0wyU0J3VEZsN01iamF4b0twQzlEWjNYb0NObzQ0RFRhVVZTQm5vNk8yazVtbWx0aXNjMm5lM0swUWVCcUhnQ3VGZlk0Zm40YlozMm1sWUZxS3RjSUpWS2NLY3hKeTRhbFpvUllDRXJGb2FHM1NCSHdrQUtKR2NqckExbmR1SEVzMFRueVlLSnp0UQ?oc=5",
    "source": "Sportsnet.ca",
    "published": "2026-11-24T00:48:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ homecoming a divisional clash with Golden Knights",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdkQ0SU11bG5pQ3lOTGltNDA1NjJBV2V0RElzX19kM3UtTTQtbW1jTUtOZHFFMjk2cU5JOXYtSVpCMmhoWGlwa054M0ZHTGtOdjhpX1ZnZGhOZDFZQWRELXVvQzcxeWxPQ1djZ2ZOd3BhRk1qb3lDY3lGUTV6NFowM0RYSzI5bENxVjhQNXRSOFdENWFi?oc=5",
+   "source": "Field Level Media",
+   "published": "2026-11-24T00:41:26Z",
    "snippet": "",
    "via": "google"
   },
@@ -135,14 +159,6 @@
    "via": "google"
   },
   {
-   "title": "Blues Stun Oilers With Historic Third-Period Rally And Win",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXc2eGcyUC1sMFlDYk1HRnpQMWtOaEhYQ2h2bE01d0lzcndOcWd0UGg2RVNxSm9faTJBcHRORWt0TnZnME80UEtqdEI5Q2Rkb2xjdi1DVUNkM3ZIV3BqSVJLY3phTTBXMEFfUlZxckxzRHFBR3QyZDhGT3RtNGtOSVJjTzVmcXpp?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-23T21:22:16Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Do the Oilers Have Even A Remote Shot Of Acquiring Simon Edvinsson?",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNbFJ2ODVFRHZrTy0zZ2lKYzljUWZmcUFfUk0zWVBUUnhXSUtsd3B2ZWpVa0RQaVR3N1c0dmFUcHBwTXF6ZUVNZF9BNzB1eWRpSW91c081VHhCSnRtYWNOTGt4SFNKeDZRd3c1bDRYUWpCVmVJNUN0U3dRNjlyNEVBRmI1Q2dkZjRfMFR1WHFlMmFyYUx0c1d5TnRqeC1NSmdXbFg1OEFvX19oR3dTSFBZWHI5NlFYcDUyYzRheHJnM1N2Zw?oc=5",
    "source": "The Hockey News",
@@ -151,20 +167,11 @@
    "via": "google"
   },
   {
-   "title": "Edmonton Oilers: The Good, the Bad and the Ugly – Week 8",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNzd0dXM4ek9TSkIxd2F6VDRidERYRjZFczk2cDROUEtrdkY5Z1ZNTmNtUWdvY2tpaDh1bTVWazctQzhXWkFaa0t1Q2hBaGxzNWtMaEdtS2lOYnlfTmJsVlJpOEVtUXQ3M1hYRXJzNU8zdFpVdi1oZ3QzZC14NWJkdURjNTR0Zw?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-23T20:41:11Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Uncovering three key concerns facing the Oilers",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWUZaeXFxNVNsY3dBWllrQnplMjNpTUNLVWN5R1RLRVVjLVZ6dUVfTlFrUXZJTHBBWWo1LXM3b3dHS2lzNEtmVENQblNfUlN4R0tFc21reWNQbHFKR2puTnFTN0FTSGZpbjRqQXdNZnJnUW1LQ2VJcXNwMnl2cnRNODkwR2RjUUh3SjZmNkpn?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-23T20:03:00Z",
-   "snippet": "",
-   "via": "google"
+   "url": "https://www.sportsnet.ca/nhl/article/uncovering-three-key-concerns-facing-the-oilers/",
+   "source": "Sportsnet",
+   "published": "2026-11-23T19:57:25Z",
+   "snippet": "There are always concerns, and we’re here to sleuth them out."
   },
   {
    "title": "Is there reason for concern after rocky finish to Edmonton Oilers road trip?",
@@ -270,13 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-20T22:02:39.667Z",
    "snippet": "The Edmonton Oilers want what the Carolina Hurricanes have, and will get a chance to see where they stand against the defending Stanley Cup champions. The Oilers travel to face the…"
-  },
-  {
-   "title": "Short Shifts Power Rankings: November 20",
-   "url": "https://www.nhl.com/news/short-shifts-power-rankings-november-20-2026",
-   "source": "NHL.com",
-   "published": "2026-11-20T21:56:00Z",
-   "snippet": "Throw out the Xs and Os and join Short Shifts for our own weekly power rankings. What is our criteria? Whatever makes us smile, laugh, cry or any other wholesome feeling. This list is…"
   }
  ]
 }
