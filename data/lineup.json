@@ -445,20 +445,20 @@
   ],
   "goalie": {
    "starter": {
-    "id": 8478499,
-    "name": "Adin Hill",
-    "num": 33,
-    "pos": "G"
-   },
-   "status": "Unconfirmed",
-   "backup": {
     "id": 8479394,
     "name": "Carter Hart",
     "num": 79,
     "pos": "G"
    },
-   "note": null
+   "status": "Likely",
+   "backup": {
+    "id": 8478499,
+    "name": "Adin Hill",
+    "num": 33,
+    "pos": "G"
+   },
+   "note": "Hart was the first goalie off the ice at Vegas' morning skate on Tuesday. "
   }
  },
- "updated": "2026-11-24T17:28:50Z"
+ "updated": "2026-11-24T18:28:38Z"
 }
