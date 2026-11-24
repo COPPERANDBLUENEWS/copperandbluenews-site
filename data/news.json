@@ -1,27 +1,146 @@
 {
- "updated": "2026-11-24T19:06:38Z",
+ "updated": "2026-11-24T19:40:57Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (1)"
+  "Sportsnet (3)",
+  "Google News (84)"
  ],
- "errors": [
-  "Google News: HTTP Error 429: Too Many Requests"
- ],
+ "errors": [],
  "items": [
   {
+   "title": "Oilers’ Ekholm on bouncing back after losing streak: ‘Have to learn’",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-ekholm-on-bouncing-back-after-losing-streak-have-to-learn/",
+   "source": "Sportsnet",
+   "published": "2026-11-24T19:27:00Z",
+   "snippet": "Edmonton Oilers defenceman Mattias Ekholm meets with the media and talks about his team’s recent road losing streak and learning from losses so that they can be better prepared for the…"
+  },
+  {
+   "title": "‘Get regrouped’: Oilers’ Babcock on Golden Knights matchup, lineup tweaks",
+   "url": "https://www.sportsnet.ca/nhl/video/get-regrouped-oilers-babcock-on-golden-knights-matchup-lineup-tweaks/",
+   "source": "Sportsnet",
+   "published": "2026-11-24T19:25:16Z",
+   "snippet": "Edmonton Oilers head coach Mike Babcock meets with the media and discusses his team’s need to bounce back vs. the Vegas Golden Knights after three consecutive losses and getting the second…"
+  },
+  {
+   "title": "Nugent-Hopkins back in Edmonton Oilers lineup following mystery injury",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU21Ma0RocWtnMTVKcS1fNnp3ZngtRXV0OUJPQTRab3dpSmg3aV9BOGY3enhVY1pIY28ySlJuMDNIT1BXWW9CQ2RYWDVEc0JvSzYwS1Q3LTVzSUtpS2JHc2JOblotNE5GQmJkNEw3U0FNbFVjU3p3SUxGamd0TDgzS253dDBuMTE3WVJnR3JR?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-24T19:13:35Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "PROJECTED LINEUP: Nugent-Hopkins to return on the wing against Golden Knights",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-to-return-on-the-wing-against-golden-knights-11-24-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-24T18:43:43.264Z",
-   "snippet": "EDMONTON, AB – Forward Ryan Nugent-Hopkins will be back in the lineup for the Edmonton Oilers when they welcome their Pacific Division rivals in the Vegas Golden Knights to Rogers Place on…"
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbFdyTm5vNHFCcTQyZDMwN01xbVY3ZmhZWGxIaFo1LTd1Tm43TFFpaFRBRFdUNnFsVEYyeGJRUEM0UnRiTEhRNEg4UkdxWnlYUWRPVTlYMjU3TEp4Rk93bUhxN1dXMjJpcmFTVFUzMXBObl9BSklEczFubUdGQS1lRDd2OHJ3cy1NSllkMFRya1dlRDZkNm1oUVRMUkFpV1R6bDJPazV1X2pKMW9OSGhpVG9INHBlSXZC?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-24T19:07:23Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ Ryan Nugent-Hopkins to return to lineup after five-game absence",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNT2o3VThGNmE1Zmg5RklYc1ZBZml5ZDlGWUN0QjFvVmlaLS1sVkpLTWRtOHozV1pVWW9YUmVoZ2Rfc3plQ004QTVUT3hRME1TSFZwRkp4ZkJrZm51R3JiRDdVNFltN0YxWVlUMTlfbGVlUUkwTEdHZkNNWkNLUXRSZ1BpcnFUWnZSTG1UUmdPUkdtTE1pUUpfTjhmYjFfY2lWODk5cnBlQQ?oc=5",
+   "source": "BVM Sports",
+   "published": "2026-11-24T19:03:29Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL Status Report: Nugent-Hopkins back for Oilers against Golden Knights",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qYm5qS0tQaEY5eTJJSzFKTFBya0U4bm41T25IWXRxWWExOHBPSzVMQkNCZUpQWkFjTlBFOWtDWTdfeC12U3UzNkJmSlR0LURiLWF2NFBKU0RCZlpuUE45c2gzX2Nob1VwNnZWc3ZKV3pmQV9hY2YxZmRDYXlrMFk?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-24T18:56:15Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Golden Knights at Oilers projected lineups",
-   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-preview-november-24-2026",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcE9EZTc2d0pNWjNSaHo3NVVTQ251Z1NlS3BrbWZRNjZHbGE4dkxyMWdlZUQ0VTJCNGoxTTlqSThhODllR2RZLVZpaFdOaFI1WlI4NXRPQ2owQU1mRHdqbW5tV19HVnRMQm1BWHRURVFMTlhUWUE3clltSk5mc2JZUE5BWVRnbGVqYmVIcHh5T1ByNERodmc?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-24T18:37:21.759Z",
-   "snippet": "GOLDEN KNIGHTS (14-6-5) at OILERS (17-5-4) 8 p.m. ET; TVAS, SN, TNT, HBO MAX Golden Knights projected lineup Brett Howden -- Jack Eichel -- Mark Stone Trevor Connelly -- William Karlsson --…"
+   "published": "2026-11-24T18:50:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "How to watch Golden Knights vs. Oilers: TV channel and streaming options for November 24",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRHNBYUl2U3F6b0p2bTlyU2lHSWNUQVB1UGxqVU8zZ3VuelFNRlpnalMyMGZoX0ZWWG1ieWFkMnlabVlnWTBETEpydjBFQmtTRUEtcUNuTEFKZHY2WWxCV2lGSjhDOXU2TW8zY3luR0hwR0JkS0hfRE4yY25sTGJFMDFYOFRQNW5GSk1wT2pxOVV5TlRwcVJQWTFyOGh5ZDViVFdkcG4xaw?oc=5",
+   "source": "The New York Times",
+   "published": "2026-11-24T18:44:21Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vegas Golden Knights vs Edmonton Oilers NHL Prediction, Pick, Odds, November 24",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQjRqS01Ra0hDODdUUXNXTmNValJjY1c5b1pGYzVRaFB1NHRMdkdlalZHRE5BZzZ1dmxzMGM4R2wwaXhBMW5BY28zdWctaUFZQjUxQWdzVjVFNWc0VVhqWFdlbmVrZ2VHN3FvcnZ5Zk5VaGNPNzJyd1MwazBJZnhjUnZ2cHRRZjlISFhFNnd5MWlBNVhHa0pmZlVfcjlXcFF3SFJ0aEd1enl5WEVBUllN?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-24T18:37:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "GDB 27.0: How the Oilers have dominated the Golden Knights (7 PM, SNW)",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONkF3MXR4cGppeGx6dG5vRlNKV1JaWHgybU9QN3ZMUVdpdXZ0Z3NiZzQ2WWxSS0FmYkFVNE40c0JmNC1FQUFiMUlmRU56eU40S3JNeExhOWdCS1kwV0dQNmhSRktpYU1wd01rUFhfLUdESXpPaS1XNEc0OFBPbGk1NnpNNV83Q1hXSS16NmxEcVhYQVlpcjFLdl9VeTBEMHBE?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-24T18:15:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Matt Savoie took a big step toward Edmonton Oilers return",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XUWxQRm9sUGRfMVZhTXFPSG5XWkIwZkc2SlZjNG01T1RWYWxHU0FuNjQwYXpuVTRsYUVXSFZ1S1hBMGxNNkVtSGVjQzN3YUFOUW5oQ085cUlrVm9vSWZBcTBJRjA2MU96VDJaRTU3a2tJN1k?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-24T18:14:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Nugent-Hopkins rejoins McDavid’s line for Oilers against Vegas",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMnhicXpoaGotWVpvd2RKYkhpVUtMWmowZUlxU0s5bTM5NkZoTFZwTUNLT2RGVGdVWXZVOGtpQmJ5Q0gtVzRDOEI1RmRlLUZfN19hQXBZUTJhb2NablczemlZUmpWdkROdE16LUstQTBIR3NHTTdkMks0U1F3UVBTUUxOTVpJN3NCUlJaTEEyR3ZKdjFDZ1hLUkZhWEY3Zw?oc=5",
+   "source": "Hockey.com",
+   "published": "2026-11-24T17:49:52Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Golden Knights Face Tougher Oilers Team With Key Weapon Returning",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxON0syalFnNmQtMk5jSXJnTWh3c1hyNEp2TGRnY3gxbHFIT0VKWGxEeGdkVFJzd25Sc0JuR2dMRFplWTUxeGZ5QUJKYlpNMm5qVFFzWGsyOVZTSmNqVEptOGNsQlBRa3cwVHp4RW1LMnVHRlgzS25kdVhibXloWlZoajdya2dXaE9iTVJkV2ZQaWtxRUhSSW8wd0loeW12U0J0b1JvTnhNOHF4TXg5VUpyaUhGYVVYVWNEZ3pEUWpNclM2eDBDbHRV?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-24T17:49:19Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "PRE-RAW | Ryan Nugent-Hopkins 11.24.26",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZmxjQ09hZmRFMF81NGRSVTR2NHotX2Z4TW1uWnJCTmIzYWh0QWRScDdld1NZRGk0UHVuX0h5c3VNWmdDNXJfOVBkTWZqMldkbGVGRTB0ZEQwY010TFUwRGNkSG9TRno1SDdCMWdFWFVhZVQ1SjQtZ2Fpckh1R3VWMDVQSnFBVFpfTlhMNWx5TEpqOUF5Nzl2NWR5N0ZMMDJTblE?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-24T17:48:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers shuffle forward lines with Nugent-Hopkins returning",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb0pXMlJXSjlZZ09KTV8ybTZ4bkZJTXBmLVl2Q0tFQm1sUmFoSTZDbWtjUm9UNW02MncxMGMzc2xsSGtzb0FmYk1oUDFYOTFPa0tlSkZ6Y2ZtZjRlVkUtNDNJekNKcXF6cGMycjVFeGcyTzIyMGplN1lDcDBhZU1UeG5B?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-24T17:47:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Two big guns return to ice for Edmonton Oilers, one to play against Vegas",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMzFSYXliRC1GVVhuMkp6aWVLM0xlVUpLUnBWcjRNM2dBMkEtWnJtbXVGc1prY1owbVVLS2VHdGZzRXdsazJkS2lLemNxZVVwakFCRzVoWFllRHF1ZU90bFpQbS1HQzR6Q2dOR2RCdk5QVjNZbHVnRlp0M0ZGS0s0cS1INjZ3Undta2p3T2VrUWkzaF85YnV5TTBLbGI4Y2RKdWg1ZFFhd1M0Y3IxTU9TLVlpTm1wOEdvSDl6VzU4OVlpMXphbE4ydnk4eVY?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-24T17:45:09Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Nugent-Hopkins Returns, But Hyman Remains Out for Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZ2drcl9BM0xzLWJYb0hDR0dreEg2eXptYkV5VG9KX2JUdHNBb29PU2FRR01hNVBXdGxUTUdDNWNmdVpuLTlnNllBa0dFRi1jUVpnSjFwdFplSVRnNDVTc19iSnh0dEFHaDVkYjF2SFVTYUtvTnhhdUQxOTJwOXN5NV9adTF4ZU1oRUY4dlB5Q0g2QklPMGxYY25ReEY1bHVVdXVDV0x3cTJTV1d3X3Z2d09kNA?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-24T17:43:52Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Oilers’ Nugent-Hopkins back in lineup, Hyman remains out vs. Golden Knights",
@@ -31,11 +150,28 @@
    "snippet": "Ryan Nugent-Hopkins is back."
   },
   {
-   "title": "Two big guns return to ice for Edmonton Oilers, one to play against Vegas",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-ryan-nugent-hopkins-matthew-savoie-vegas-golden-knights",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T16:30:19Z",
-   "snippet": ""
+   "title": "McDavid vs. Eichel, Stone: Golden Knights Brace for Oilers Showdown",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcDFnNmUybm1qMW1Ta1cxaHFieTRQR0JZUnFGQmxGMFpkTTlPNlFja3pEZGd6Z2daMHR6ZEprcTgxeENHMzBLZlZUbDZQd2V5NFNiLWZPQm1ETTdVYkwtUzFEY1JKdVdJdzZ1UmwxZUMwNW1INWhCR0tMUlZCdmg0dVJPX00zYWxpT2Zaa1pvazlmbncwMm9aZnlPaFFBUXJmUEZ1ZEc1VVE4V3UzV0U5TnI1LUVrUFpEdVJyeWZra2RWY0dDY1E?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-24T16:47:06Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Thoughts: Podkolzin catches fire on the road, Murphy’s recent struggles and more",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRU1vZzNzd1ZhaE1sYXI5RFBLRFdyc1lHMnFlWTY2UjNKUVdOQWhoMlI5NG1VVEhYMldqb1NVdi1XaXRyeXN2QTQ2UjNRdm9YTk02UUhVbjd6Rml5LXIyUnNDNXdtVFotd0tZRE5BbGp5UmZ3RXd6R0kxS1F4TnFiOWhwcHRIVGR5Rl9vRVJDbVYzdWEzU0VBRXB2VEZKQQ?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-24T16:44:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Pre-Scout: Oilers return home to face Vegas who’s been sitting there waiting for them",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONXpxeFVWX2EzZDlKM0tsQXhxWEpwSUJKMlFHZ09NQVJSWS0yNFZ1SFlEcFZFa1Q3aFRDTEFHTGxhSEF3ZWtMOV9YM3RzWUdPbkNRa3g4RUZBaWpkQ2tPeFlRZG9neEtseUVKWEg0WjZKU254Y0JmLWxzMHB0Ry1mNnpnRFV3TDY0dHdxaWhXVWI3SGVnREtZ?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-24T16:44:00Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Edmonton Oilers Power Rankings: Injuries jostling both lineup and list",
@@ -115,13 +251,6 @@
    "snippet": ""
   },
   {
-   "title": "What just happened? Five-minute meltdown sends Oilers to shocking defeat",
-   "url": "https://edmontonjournal.com/sports/edmotnon-oilers-meltdown-loss-st-louis-blues",
-   "source": "Edmonton Journal",
-   "published": "2026-11-23T03:29:07Z",
-   "snippet": "'I actually thought we played good tonight, I thought we did some really good things. But in the end it didn't go our way'"
-  },
-  {
    "title": "QUICK RECAP: Blues 5, Oilers 4 (SO)",
    "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-blues-11-22-26",
    "source": "EdmontonOilers.com",
@@ -148,90 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-21T23:05:00Z",
    "snippet": "RALEIGH, N.C. -- The Carolina Hurricanes scored five goals in the second period of a 7-4 win against the Edmonton Oilers at Lenovo Center on Saturday."
-  },
-  {
-   "title": "QUICK RECAP: Hurricanes 7, Oilers 4",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-hurricanes-11-21-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-21T21:10:00Z",
-   "snippet": "RALEIGH, NC \\- Couldn't contain the storm. In a game of many swings against the reigning Stanley Cup champions, the Edmonton Oilers couldn’t hold onto two separate two-goal leads in a wild…"
-  },
-  {
-   "title": "Player grades: Edmonton Oilers whooped in wild and woolly weirdo of a game",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-carolina-hurricanes-score-player-grades",
-   "source": "Edmonton Journal",
-   "published": "2026-11-21T19:03:28Z",
-   "snippet": ""
-  },
-  {
-   "title": "PRE-GAME REPORT: Oilers at Hurricanes",
-   "url": "https://www.nhl.com/oilers/news/pre-game-report-oilers-at-hurricanes-11-21-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-20T22:40:18.87Z",
-   "snippet": "The Edmonton Oilers start back-to-back games to close out their six-game road trip on Saturday afternoon at the Lenovo Center against the Carolina Hurricanes. You can watch the game live on…"
-  },
-  {
-   "title": "Oilers primed for 'measuring stick' vs. Hurricanes in division-leader matchup",
-   "url": "https://www.nhl.com/news/edmonton-oilers-carolina-hurricanes-measuring-stick-game-lookahead",
-   "source": "NHL.com",
-   "published": "2026-11-20T22:02:39.667Z",
-   "snippet": "The Edmonton Oilers want what the Carolina Hurricanes have, and will get a chance to see where they stand against the defending Stanley Cup champions. The Oilers travel to face the…"
-  },
-  {
-   "title": "Short Shifts Power Rankings: November 20",
-   "url": "https://www.nhl.com/news/short-shifts-power-rankings-november-20-2026",
-   "source": "NHL.com",
-   "published": "2026-11-20T21:56:00Z",
-   "snippet": "Throw out the Xs and Os and join Short Shifts for our own weekly power rankings. What is our criteria? Whatever makes us smile, laugh, cry or any other wholesome feeling. This list is…"
-  },
-  {
-   "title": "State Your Case: Hurricanes or Oilers as top team",
-   "url": "https://www.nhl.com/news/state-your-case-carolina-hurricanes-or-edmonton-oilers-as-top-team-in-nhl",
-   "source": "NHL.com",
-   "published": "2026-11-20T15:24:13.238Z",
-   "snippet": "The defending Stanley Cup champion Carolina Hurricanes host the Edmonton Oilers at Lenovo Center on Saturday (1 p.m. ET; HHN, CARNHL, NHLN, SNP, SNW, SNO). It should be quite the tilt,…"
-  },
-  {
-   "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://www.nhl.com/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026",
-   "source": "NHL.com",
-   "published": "2026-11-20T05:09:00Z",
-   "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
-  },
-  {
-   "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
-   "source": "NHL.com",
-   "published": "2026-11-20T05:00:00Z",
-   "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
-  },
-  {
-   "title": "McDavid, Draisaitl are works of art at Edmonton grocery",
-   "url": "https://www.nhl.com/news/connor-mcdavid-leon-draisaitl-works-of-art-at-edmonton-grocery",
-   "source": "NHL.com",
-   "published": "2026-11-20T01:19:37.256Z",
-   "snippet": "EDMONTON -- Eric Falkenberg grew up with a fondness for drawing and building LEGO sets and has turned it into a mastery of three-dimensional grocery store displays."
-  },
-  {
-   "title": "QUICK RECAP: Lightning 3, Oilers 1",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-lightning-11-19-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-20T00:41:38.161Z",
-   "snippet": "TAMPA, FL – The streaks conclude. The Edmonton Oilers had their six-game win streak snapped, along with Connor McDavid's historic season-opening point streak of 23 games, in a 3-1 defeat to…"
-  },
-  {
-   "title": "BLOG: Joseph found his 'Mojo' over two Stanley Cups with Tampa Bay",
-   "url": "https://www.nhl.com/oilers/news/blog-joseph-found-his-mojo-over-two-stanley-cups-with-tampa-bay",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-19T22:18:34.178Z",
-   "snippet": "TAMPA, FL – Mathieu Joseph will always feel at home any time he’s back in Tampa. Considering the memories 'Mojo' created here, it’s not hard to see why. It’s easy to fall in love with a…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Oilers vs. Lightning",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-vs-lightning-11-01-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-19T17:38:08.174Z",
-   "snippet": "TAMPA, FL – As per the lines at Thursday's morning skate, forward Colton Dach is expected to be elevated to the top line with Connor McDavid and Zach Hyman when the Edmonton Oilers face the…"
   }
  ]
 }
