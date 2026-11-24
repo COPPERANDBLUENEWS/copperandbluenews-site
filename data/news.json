@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T04:06:38Z",
+ "updated": "2026-11-24T04:42:27Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,21 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "McDavid bid for 200-point season drawing raves from Gretzky, others",
+   "url": "https://www.nhl.com/news/oilers-mcdavid-bid-for-200-point-season-drawing-raves-from-gretzky-and-rest-of-hockey-world",
+   "source": "NHL.com",
+   "published": "2026-11-24T05:00:00Z",
+   "snippet": "Connor McDavid has taken a high bar and set it at an unbelievable level this season. The Edmonton Oilers forward is on pace to challenge the 200-point plateau, which is something only Wayne…"
+  },
+  {
+   "title": "Stone 'epitome of being a Golden Knight' ahead of key division game at Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNODZ2Rmo5RlU1blpCc21DNHhVUWhiYUlnbDNtcVRfT2h0VDZraGdTYkZjUGNfMFh0ZDFWZEVWZk9TX2JhMzVwS0lvSFJHTzJyVnZBUEtPQm9aRFVfNlQtRjc5T3k0dnBxR1E4SHdRV2Zxa1QwQ3JiUXdBMXdPa1JDYUlXTThKQ0haR3Y0?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-24T04:34:43Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "The Edmonton Oilers blew their chance to acquire Dylan Larkin",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaE9XRG56alBDU3B0UVBNS1VXaTM0emFESkh2bzhHTnpxMlcxX2lTS21fUWhmbUdSQnduTUVNV2R1VEFaZTFGc2w1V0tXbk9DY1JhTVpPTmtCUW1FRWJCMUZDalJFU1o4WmtOUVBPdXVjWHdqZVNyMDF0c25FVkVmbkpDc21JSGF0NU9relowZzA5T3Mzanl1cWZvRzhpdw?oc=5",
@@ -56,6 +71,14 @@
    "via": "google"
   },
   {
+   "title": "RELEASE: Oilers acquire Austin Roest from Nashville | Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPU0JwY1BwWHdNLW1GZGF6aEZySmRrc1c1SGlJR2llN0l3U1M3WldXd0ZHREFYbTdDNWNjS09KQXdRRzhzeFNGSzdHbnhPWnNtQXg5WVJPa1BFRjg1UVJQSnB1ZzVDeXUwS0hqcGZKR0J4NUVud1h2UGtaWEctT0NmVExQZHBOZFV4eHc?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-24T01:10:50Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers, Predators Swap James Stefan, Austin Roest",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOamF6ZlR6SnlqSDhLdzJuX3VOQkxMTjF1YW9ERG4xa2tTT0YwcWFWb01qOVVUZEs5dnZfVGgxcU1tcE1xXzlVSEFSSDVBNW8xTXV5enhLTkJQaDVQNVRuNXhIcUVfaXB4OU1jN2JzNEU3T1IwRkdUcjRaR1lUUHEzaHpKOHRlUXRValZlSVMwRTR4Z1VmM2pN?oc=5",
    "source": "Pro Hockey Rumors",
@@ -72,26 +95,10 @@
    "via": "google"
   },
   {
-   "title": "RELEASE: Oilers acquire Austin Roest from Nashville | Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPU0JwY1BwWHdNLW1GZGF6aEZySmRrc1c1SGlJR2llN0l3U1M3WldXd0ZHREFYbTdDNWNjS09KQXdRRzhzeFNGSzdHbnhPWnNtQXg5WVJPa1BFRjg1UVJQSnB1ZzVDeXUwS0hqcGZKR0J4NUVud1h2UGtaWEctT0NmVExQZHBOZFV4eHc?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-24T00:56:15Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers Make Minor Trade: Add Austin Roest from the Nashville Predators",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdUpoYjZkSlkwUnlYcjlGZjFHZ3BRcEpVckhfajNnVFZ1NTJkRWhuM2loZUhxbG9CUGwxVWtjTUdWVGF6Um9JMER0bXZYdXBIck5icGFjeEhwUmFMSTlhMkE3VVZNckw1aWtUX0hScG0xNFdjckdwLU1LRTVabm4yZkVCN1E?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-24T00:54:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers’ homecoming a divisional clash with Golden Knights",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQXprbVh0M21PVDdBZFdIWHNFVlZNRDhlVFdQdXpMV1I5Z0pHRFMtQ0dkeWpaaEFyZC1DNlJpdVNEaGVuTThVeTdUTElWSnNXOTJlQkx1RVBMT2hIWjdENFNBMmstcEo5Y0pwT2NOLUJfb000anJCU19oSWNXdTJpY3JqMFI3STFOSkd2RjJZUmdvS2RN?oc=5",
-   "source": "WJOX-FM",
-   "published": "2026-11-24T00:50:10Z",
    "snippet": "",
    "via": "google"
   },
@@ -116,14 +123,6 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNXdqeFpaSHVOeWU1YUpZbm83MDdTTnVaWHNUM1Nwd0dCXzQzeEVKZDJtcnprQVFDOE1fTUd4dlZOU3gxM3pNWC0wTGtxeE1kSWlWc3JOSEplSEZJTkNkeXlPb0ZwdU16UHBDa1ljbEFQZGE5R3c1U3FOUEM5ZVR6QkVNWHhwMENJVi1RZ0JPdmNnemVCSm9rbjAwZzM1VXBOYzZuYnFxTUhMeGNRN3c?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-23T22:11:56Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Blues Stun Oilers With Historic Third-Period Rally And Win",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQXc2eGcyUC1sMFlDYk1HRnpQMWtOaEhYQ2h2bE01d0lzcndOcWd0UGg2RVNxSm9faTJBcHRORWt0TnZnME80UEtqdEI5Q2Rkb2xjdi1DVUNkM3ZIV3BqSVJLY3phTTBXMEFfUlZxckxzRHFBR3QyZDhGT3RtNGtOSVJjTzVmcXpp?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-23T21:22:16Z",
    "snippet": "",
    "via": "google"
   },
@@ -156,6 +155,14 @@
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPazVDVjdqZHpSMFlQeUtxU0ptTFRVSDg2VkoyRjBpLW9hX1ZqcjA2X1dnZEVuU0pjeDh6VENXNVNPNG9YNzlJanBEdHEtZGllaHVLNXJURE5hcUhiVkRXZkxzOEJOZDZ4RFo3RmpTSzhDNVhPZ1o5aU54amwyRU92TEs0MHRjQVBzR2VsMlV0RmdDUjFHWGdHZHdfSjdYNzVQd1BSMi1XdGNPaFVoRVd3N1hPdmpEaV9mX1hxbVRiZUU0Z0NpeUk4?oc=5",
    "source": "Bleedin' Blue",
    "published": "2026-11-23T19:31:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ Eastern Road Trip Reveals Flaws",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9LanBJTTYtOC1IZ3d6eFdJb1RGSkRSTWhiVjJSeWVCSXBNQ0lRWFBmY1dqUTd1V1gtWVI1YlFxMDY4UmZ4cHdhN084YmZkSHhKYTdfdE5QUVBFYXk0SEtsbzNfOEVCNGRTb0E4MWxUZi0wekVQN2lV?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-23T19:30:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -270,13 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-20T21:56:00Z",
    "snippet": "Throw out the Xs and Os and join Short Shifts for our own weekly power rankings. What is our criteria? Whatever makes us smile, laugh, cry or any other wholesome feeling. This list is…"
-  },
-  {
-   "title": "State Your Case: Hurricanes or Oilers as top team",
-   "url": "https://www.nhl.com/news/state-your-case-carolina-hurricanes-or-edmonton-oilers-as-top-team-in-nhl",
-   "source": "NHL.com",
-   "published": "2026-11-20T15:24:13.238Z",
-   "snippet": "The defending Stanley Cup champion Carolina Hurricanes host the Edmonton Oilers at Lenovo Center on Saturday (1 p.m. ET; HHN, CARNHL, NHLN, SNP, SNW, SNO). It should be quite the tilt,…"
   }
  ]
 }
