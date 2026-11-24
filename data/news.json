@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-24T03:33:44Z",
+ "updated": "2026-11-24T04:06:38Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (83)"
+  "Google News (84)"
  ],
  "errors": [],
  "items": [
@@ -81,9 +81,17 @@
   },
   {
    "title": "Oilers Make Minor Trade: Add Austin Roest from the Nashville Predators",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSUVQckFKa19VMVlzamxaczYwaEx1T1VQUTg5ejhzbnpwQmkwaHVQYUk5d09kTF9mRnVGLXFXWnVLanVsa3RhUDhvMU9BM1ZPbkVrS2Vicm94MGFhbDY4TnlrbnpIcDM5RkstczQ1d0xfb0hBYXJhNDlFTVVPQmpOTlZR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdUpoYjZkSlkwUnlYcjlGZjFHZ3BRcEpVckhfajNnVFZ1NTJkRWhuM2loZUhxbG9CUGwxVWtjTUdWVGF6Um9JMER0bXZYdXBIck5icGFjeEhwUmFMSTlhMkE3VVZNckw1aWtUX0hScG0xNFdjckdwLU1LRTVabm4yZkVCN1E?oc=5",
    "source": "Yahoo Sports",
-   "published": "2026-11-24T00:54:01Z",
+   "published": "2026-11-24T00:54:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ homecoming a divisional clash with Golden Knights",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQXprbVh0M21PVDdBZFdIWHNFVlZNRDhlVFdQdXpMV1I5Z0pHRFMtQ0dkeWpaaEFyZC1DNlJpdVNEaGVuTThVeTdUTElWSnNXOTJlQkx1RVBMT2hIWjdENFNBMmstcEo5Y0pwT2NOLUJfb000anJCU19oSWNXdTJpY3JqMFI3STFOSkd2RjJZUmdvS2RN?oc=5",
+   "source": "WJOX-FM",
+   "published": "2026-11-24T00:50:10Z",
    "snippet": "",
    "via": "google"
   },
@@ -92,14 +100,6 @@
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPU0wyU0J3VEZsN01iamF4b0twQzlEWjNYb0NObzQ0RFRhVVZTQm5vNk8yazVtbWx0aXNjMm5lM0swUWVCcUhnQ3VGZlk0Zm40YlozMm1sWUZxS3RjSUpWS2NLY3hKeTRhbFpvUllDRXJGb2FHM1NCSHdrQUtKR2NqckExbmR1SEVzMFRueVlLSnp0UQ?oc=5",
    "source": "Sportsnet.ca",
    "published": "2026-11-24T00:48:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Blow 4-1 Lead to Blues: Slide or Speed Bump?",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMWNIUmRzN0xNcGVhQ1lDX0VPTXZCSnFaMm1BcGtBaUlONVhmNW1BcE5jTy1Oejhia2JKMjUwQWd1dTBDQ2FMZFRJeXZydDhkSC0tY1N2RjVzNjBISVY1UWdyalVqeE5QbG56NGl4dXFpMVJ4SkJtZDB1TmF2ZVRWSnpKcDZrS3BJclZwZjF5YmlXdlJqaHVBdmpZOXF2eDFGV2F2SFRkemVaM1ZNeFUyWS1tdWF4RFdhS1ZRbDlFanppRS0wbDdxU1hFVm1FMmJBTUVjYWhPOEFxSFJBczlXOTU2THFXT3FqTjgtTy1xWQ?oc=5",
-   "source": "WQAD",
-   "published": "2026-11-23T22:43:51Z",
    "snippet": "",
    "via": "google"
   },
@@ -152,10 +152,10 @@
    "via": "google"
   },
   {
-   "title": "Watch NHL Mini: Edmonton Oilers vs St. Louis Blues",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVEFXcnUtYUt3MGFQS3Z0a0RvMkpLU0FKUDZfT01vSklBRGQ4Ni0xU0tUaDF0Zk16eWdXbW05QWFBdmlldkM0cE4yQV9oLXBMM24wamtuQmdadjMzTXFQUS16RFpheEk4dllWVGx1OHUyd2pTYkRsaThQSHNjOERFRVl1NGRpUjZzTFRN?oc=5",
-   "source": "Disney Plus",
-   "published": "2026-11-23T19:38:15Z",
+   "title": "3 winners and a loser from the biggest Blues win of the 2026-27 season, 5-4 against Edmonton",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPazVDVjdqZHpSMFlQeUtxU0ptTFRVSDg2VkoyRjBpLW9hX1ZqcjA2X1dnZEVuU0pjeDh6VENXNVNPNG9YNzlJanBEdHEtZGllaHVLNXJURE5hcUhiVkRXZkxzOEJOZDZ4RFo3RmpTSzhDNVhPZ1o5aU54amwyRU92TEs0MHRjQVBzR2VsMlV0RmdDUjFHWGdHZHdfSjdYNzVQd1BSMi1XdGNPaFVoRVd3N1hPdmpEaV9mX1hxbVRiZUU0Z0NpeUk4?oc=5",
+   "source": "Bleedin' Blue",
+   "published": "2026-11-23T19:31:00Z",
    "snippet": "",
    "via": "google"
   },
