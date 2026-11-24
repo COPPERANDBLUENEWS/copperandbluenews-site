@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-24T22:04:46Z",
+ "updated": "2026-11-24T22:35:29Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (4)",
-  "Google News (89)"
+  "Sportsnet (3)",
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Edmonton expecting big Ryan Nugent-Hopkins boost vs. Golden Knights after 5-game absence",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS01tTmx3YjdsSXRoaHVsa1NlSktSZ0NQTWctdlpqSkZSWDU5VmtCd3FVMnVXTHFPY2kzS1lnZkhtYWJKdEJBdHBJYk5mcWp2c2xRLWY1aHRCNFNhNGFYTy1iRHdVUzM2S3B5eW1ucF9ySV9Zb2hCT29IdDNaWjFjN1N6WjdOMTJaYzRBdEM1Mmg?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-24T21:41:28Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Most Popular Bets for Golden Knights vs. Oilers: Draisaitl Top Pick to Score",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSVZMdHhRSVZtQ2FFTDZadWpWa2FkSkxUdlZwdEVPbDVrVFQxSmdyc3lVRFp4WXcteFVkUkl5a0pkZktVWkVFSjNhLXA5dFNKcllLSzRRWXdpQnpOcE5oRW5wbGM5d09NNTBQaDRSb0NNSHc0a2VrTlFXelJDSVJ5dnVQME50R1ZmRTZ2VF81ejdsNmNXMHIzMjV5UEhNSnFzeWZrMmxKRQ?oc=5",
@@ -57,21 +65,6 @@
    "via": "google"
   },
   {
-   "title": "Golden Knights’ Mitch Marner on verge of joining Connor McDavid, Sidney Crosby in elite company",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdjZJWGNnTS10UUJqQ0Nra3luQ3NscjVBM0tHaUlJdloxaU4wWE5JSEZNRmJhVnZQbGdMM1Z3M2NLbWE4Y0VDS1hMMlp3V3NSY2RWRldiSk8weGhRZzJ2SWRiemlYT3pnVXZ3bmxsbGlQSnFCRnpSc0N0V0M3T3JYWFhfc1VJYnRnQVE?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-24T20:17:37Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "‘A lot of history’: Golden Knights’ Dowd, Craig on rivalry with Oilers",
-   "url": "https://www.sportsnet.ca/nhl/video/a-lot-of-history-golden-knights-dowd-craig-on-rivalry-with-oilers/",
-   "source": "Sportsnet",
-   "published": "2026-11-24T19:46:46Z",
-   "snippet": "Vegas Golden Knights centre Nick Dowd and head coach Ryan Craig meet with the media and discuss the rivalry between their team and the Edmonton Oilers and the opportunity ahead of them in…"
-  },
-  {
    "title": "Oilers’ Ekholm on bouncing back after losing streak: ‘Have to learn’",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-ekholm-on-bouncing-back-after-losing-streak-have-to-learn/",
    "source": "Sportsnet",
@@ -89,7 +82,7 @@
    "title": "Nugent-Hopkins back in Edmonton Oilers lineup following mystery injury",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU21Ma0RocWtnMTVKcS1fNnp3ZngtRXV0OUJPQTRab3dpSmg3aV9BOGY3enhVY1pIY28ySlJuMDNIT1BXWW9CQ2RYWDVEc0JvSzYwS1Q3LTVzSUtpS2JHc2JOblotNE5GQmJkNEw3U0FNbFVjU3p3SUxGamd0TDgzS253dDBuMTE3WVJnR3JR?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-24T19:13:35Z",
+   "published": "2026-11-24T19:17:11Z",
    "snippet": "",
    "via": "google"
   },
@@ -277,6 +270,13 @@
    "source": "NHL.com",
    "published": "2026-11-22T16:13:58.262Z",
    "snippet": "OILERS (17-5-3) at BLUES (12-9-2) 7 p.m. ET; BN+, STLNHL, SNW, SN1 Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Colton Dach -- Zach Hyman…"
+  },
+  {
+   "title": "Hurricanes score five in second period in win against Oilers",
+   "url": "https://www.nhl.com/news/edmonton-oilers-carolina-hurricanes-game-recap-november-21-2026",
+   "source": "NHL.com",
+   "published": "2026-11-21T23:05:00Z",
+   "snippet": "RALEIGH, N.C. -- The Carolina Hurricanes scored five goals in the second period of a 7-4 win against the Edmonton Oilers at Lenovo Center on Saturday."
   }
  ]
 }
