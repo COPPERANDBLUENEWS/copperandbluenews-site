@@ -1,14 +1,171 @@
 {
- "updated": "2026-11-25T16:42:32Z",
+ "updated": "2026-11-25T18:25:41Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (5)"
+  "Sportsnet (6)",
+  "Google News (90)"
  ],
- "errors": [
-  "Google News: HTTP Error 503: Service Unavailable"
- ],
+ "errors": [],
  "items": [
+  {
+   "title": "Edmonton to host the 115th CFL Grey Cup in 2028",
+   "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-2028-cfl-grey-cup",
+   "source": "Edmonton Journal",
+   "published": "2026-11-25T17:10:01Z",
+   "snippet": "“Deb Thompson and the Edmonton Elks showcased the resurgence of football in Edmonton and a vision worthy of the 115th Grey Cup in 2028\""
+  },
+  {
+   "title": "And Just Like That, The Bouchard Bullies Are Back",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzRS1qaWw5T2RXRko1bzZzUVg2ZEkwNkt2eUdXMkF1OTV6c3o2NWx0SFlvQldjMjlkQVdKdGVheUhIaU1RWFBqSkYzNzMyTlU5TGEtTGxQRWNpM0paZ2hLaEJQUVpxOUx1MHhWQlBUV3VGNmtvWWZjelFhdHJYM1k?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-25T17:06:56Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Golden Knights Close the Gap on Slumping Oilers in Pacific Division Race",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaTAtNHlZandINDZFVEVhRmdrdnJhcjU2U1N2UXJUOXVjSlBITF9BV25xRGlQVXRwMXZ4Mk1nNnl2NGtOaktVRm9hMF9RLWVtd2cxblVoYlFpYzZRanZtX1oyWmhrbzU2ZllieWJPekMta3daZTNNcEZiNnc0RnI0QURSQVdqUFZJcjEtS0R1bw?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-25T16:55:32Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "CFL awards 2028 Grey Cup to home of reigning champion Edmonton Elks",
+   "url": "https://www.sportsnet.ca/cfl/article/cfl-awards-2028-grey-cup-to-home-of-reigning-champion-edmonton-elks/",
+   "source": "Sportsnet",
+   "published": "2026-11-25T16:54:54Z",
+   "snippet": "The Canadian Football League awarded the 2028 Grey Cup to Edmonton on Thursday, marking the sixth time the city will host the championship game."
+  },
+  {
+   "title": "Oilers’ Four-Game Skid Exposes Fatigue And Turnover Woes",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR1hzMlN3MWpmSW82TVhldkZUQzlzbUkyUURsaVJjSnQzSWR3cEVTWHhoc05rVTBVd1oxNHdLLWNlRHdUaHFROHJXWURzUE5ULUVTN3MzNElqZm54ZkZ4djdhMWVPcm5wdE1ycEcyRXVoUGh1c3NDel81Q2V5V0dOMk5ZaFJvR1NiQWc?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-25T16:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "NHL broadcaster stops in Edmonton as part of her ’32 arenas in 35 days’ challenge",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNei1NRmZybEo4bzZwOHB5M01hWEFsM05XX0xJSjZXYVJHNVJjUU9sd3M3SDEyUDc0R01YRFlZMFdGZ3hMQW8zbnQ5MlJhM2pLLVNqWjdyMjRUUmtXWjVfTUV3VFd3OTdFS3laSUpxeG9Zb3BySnZMVkJRTmxZWk1YV3NnTUNhT3FKSkJR?oc=5",
+   "source": "CityNews Edmonton",
+   "published": "2026-11-25T15:56:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Golden Knights brimming with confidence after huge win over Oilers",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMm03cDhZYkxqWE5hcy1QcmVCcEhndU12NHBlVXNNRG1BWFlybE1vOEpNUV9ybkxoOWp5dVk3TVBYU0QyOTVPcVh0MnZHVnFBai1wbzNHSW5CbW1tb0UtWXhvak9tZDQ3a19zZEZZZmJFLUR0SEFqOWFycEpMWk5IbW9PaDQ5c3VvY1VtUDJxa2xHeXN5ZmFlMWlPam5NVHhpMTdfZQ?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-25T15:54:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ Evan Bouchard joins bonkers Bobby Orr, Paul Coffey club with huge milestone",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb1UyNmZfVmhUU2E2MUdjQUx4bENsbENKTlNCTXJlT1RKc0UxdmFTTlFBWlJDdFBuTGNGeWFkSmRBWXZadzlBZ1JGdXl5VUxPMC1HZ2FaYXZFZG83c2FaWlh2NjNldjFFQkQxcUZtdW9vVjJpTFJXN3B6ZTBlUlJ5QUNjQ2M3bDF5MHJIcmhJdjg?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-25T15:14:47Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers Lose Filip Hallander to Lower-Body Injury vs. Vegas",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV1BPRzlTWFpJeVNCamNWWnp3VVBOVjZUcXhteVoxcVJCbGlKSTJ6YVZWam1TeXFnRXVUY0FyWGZwUjE4YkJZeG5pS1I4TURnZUFQeGZhRHE5QjBXRi1QWGNwN2xleVk3VE15SzJpWmE2NEdYMUoxTGpVdkxSOXlYbzhPSFBCS3dhUHc?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-25T15:06:56Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers' losing streak extends to 4 games",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNclV2NS1tZ1RJU0ZnV0N1YUJIT2J6TlJ1N0Z4NjhkTFVvUW02ODJtNlc4X0RNNklOU3c3LWxSTE44dXRRbzRUUHdyWFBhMzR6SU92LXZraFBIM1J5TjRMRHNySlhJQjd6aE1qcUluRUVxWUdGMnF0cEtjUkNtZDhqZWJ1WVlybm8yb2FudkEwcXpMNGM?oc=5",
+   "source": "CTV News",
+   "published": "2026-11-25T14:44:23Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Need a New Shootout Approach",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE82YXdRbEpfUU5HRWpMbklaVWZlZUdoZUpPRmYyN0Q3d1dva05la1hqcG9BUjBmamNLZUE0eGYxSWNHc0Y5RXFRejFrZXo2QVpyOGdfWDNzaE82cE5ERjNvZHhUdFY4RmRILUdWdXdQODdOdWM?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-25T14:35:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Eichel And Connelly Lead Golden Knights Past Slumping Oilers: The Hockey News Morning Skate",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ0JMMXUybElWTGduOUh4MTc4Z3lsdlJVZzlnSklKQVB1TnI1NUNjZUo4NE1zcUJpZFpvVk9BekRtN3ZFa1BxMjJzS1UxZ2VHdkQzZHdKa1h0X3hKQUdNZXgtZENSV21xVms3NXpISy1ZcVU3a0RhSFNIUFRmdVZUaXYySTlsTDNvS1NadDFPZ3BXYmprQzhnNm1ZTXRNeV9seWQ0ejJob1N5WlV2WTRYQ1Z2TEhyVE5veVFqWVlYR3JDTWEtWHBNZVI0MUs3dw?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-25T14:00:59Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Breaking down the Oilers’ neutral-zone system: How Edmonton protects the blue line",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd0RBWEtXc3JEdzNUREN3dmNWcnRZS3dUUmxBOWZkUTQxYU1RaS1DbmdMY1FHU1JndVFRMFhkQ2hrMVFYQ3RmbjhXTlpYVXRaWTNzdm14S2l5RTFXeDRZdnYwSnhSSWhsMHZNZy1DeDdqdnd5cjBkcFZsRGZGSEJLRlFXaWdDdFc2NVFGRlR2QzlrMkE?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-25T14:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "3 Takeaways From Oilers’ 5-3 Loss to Golden Knights",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd1UzR25sdWtTM2NjTXFVamkwb2NqRWR6WjZmZGpFVmwwbF9LN3l5SlM5eGtOQ09vRmkzUkhrUk1tRlRUc1hFSXA1RFYzRmx2MzFNcUp3dHBMT3ZhMVlROXkwbVJ5OWNFSFc2RjJvSWIza0dGUkc0akVNam1JRkpuVlJSQlZzUFU?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-25T13:55:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid on slumping Oilers: ‘We’ve got to find a way to put a couple wins together here’",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVHI3RkVpSnAwZk1OZ252bFdVNmFvOU1IbG1VYWxQeTRvSGlxNDBUWVhJRHRmSTdwZDNzbXFlM3JPdHk5VXB1NzZ4SmVYdWN0Um9zcHRzVG1hNmZ3MEJueWdfWDRnY214dC1TMEhMazNrOFRJTE1EV3l6eUlwczhSYWRLbEM3UFkzUTZkS19Ubk1fbTlQTDVGRVNWY1ZjMXBHc2Z5Q3d4S3hTdXB2SUpMVTdveWVDaDA?oc=5",
+   "source": "TSN",
+   "published": "2026-11-25T13:29:43Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers’ skid extends to four in tired, error-strewn loss to Golden Knights: 10 observations",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSUMyNndJNk5YUUs2ZGhQaVJOMEVLVnNaZnhkRWpicld5LVBPMElEdDg2bHAtcHBnN2JVUnpEUnV5bUYzRmVPejdrQmFMWFRYQWs0M3E4eUh0RFlSaDBkQnhmYVJGZEpXMW53aVBLTUpyZFljRnBFZWt0Z3ZER2ZaTndfMEJSb3JxRVhGOFc5Nl9WRG8?oc=5",
+   "source": "The New York Times",
+   "published": "2026-11-25T12:00:13Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers NCAA prospects that have stood out so far",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQS0hCR2pmVTViay01RjZDMnZzbnE5MXJpTmttbzFzS2Z1UnFsczIzQ1UwMXVaVHVqaDJ0dEZlZ09ZbHdieF9NNElVbUVHQllSZHVVVnFpdFliN1JzQjJtLVRqTXRGd3RHYkJFV25Ud2dVdkJHNzFkYUxDQ0tTQ1BLaXRJQzJvNTlZTl8xWQ?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-25T12:00:01Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "What McDavid said after fourth straight Edmonton Oilers loss",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMVF2RnNzLVZMRzk4T3hjbDBVZExoSHUxTkJpX3Fad0tqd3Vta3ZRQVF2eTlVQVJSYks3UUNhODd2eGlYTjNxR052YWRNVzlUeTZ1ZjA3d2xIS2RzdjhhbV9welRxLURMTkVKQmd4TUVHWVBKOENobmhEWElUVGlRRDFR?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-25T12:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Bad start sets the tone, Oilers lose fourth straight game, and a Colton Dach silver lining",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUFUxaWtaeFBDTnltdWJvWjV5WWtkZjNRZFIyUmdTOS1hUVFXeUVQZnhZTG1QMHNhZzRYSmEzVHc1YWJqNmZBM0JaMTA3RFMyczRpVzA4QXZpb3hHaDgySm4zWk05R01LMnhhcmF3ZXpJT1R3c1A3TFlsUk9sendmSC14WGdqMDV1Sm9ZTjN1V2ZoZHZZbWtyR3dwc0lWSHRfVEo0OEFTb2dFZWpRdlcteQ?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-25T12:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Revisiting the Canadiens and Avalanche Patrick Roy Trade & Oilers’ All-Time Top 8 European Defencemen",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaXU5amhLUmI3eG9aYmRwN3A1cUdKVHFyb0lDNUR4OTROMHV5bDl5ZDJqTm1rdDRVUjgxbGpuTEVoQTdRZlBHRHJtR0J0cEtSVWRFdWZrY1BURWJiaDJVY29KeHNubng3LUg1bEpPRHJCN09fal9IU1A1eFhIaFZGQjlkVmZzcVpKdUE?oc=5",
+   "source": "Substack",
+   "published": "2026-11-25T11:32:03Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Babcock explains decision not to challenge possible Oilers goal vs. Vegas",
    "url": "https://www.sportsnet.ca/nhl/article/babcock-explains-decision-not-to-challenge-possible-oilers-goal-vs-vegas/",
@@ -32,10 +189,10 @@
   },
   {
    "title": "Eichel scores twice, Golden Knights hand Oilers fourth straight loss",
-   "url": "https://www.nhl.com/oilers/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026-x8132",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026",
+   "source": "NHL.com",
    "published": "2026-11-25T05:10:00Z",
-   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss, 5-3 at Rogers Place on Tuesday."
+   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss with a 5-3 win at Rogers Place on Tuesday."
   },
   {
    "title": "Oilers show natural signs of fatigue in loss to Vegas after taxing road trip",
@@ -120,146 +277,6 @@
    "source": "Edmonton Journal",
    "published": "2026-11-24T16:30:19Z",
    "snippet": ""
-  },
-  {
-   "title": "Edmonton Oilers Power Rankings: Injuries jostling both lineup and list",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-player-power-rankings-november",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T13:43:35Z",
-   "snippet": "It's no mistake the Oilers' best start in decades coincides with McDavid's best start to his career"
-  },
-  {
-   "title": "Signed Wayne Gretzky Warhol print expected to fetch $25-30K at auction",
-   "url": "https://edmontonjournal.com/news/edmonton-oilers-wayne-gretzky-andy-warhol-art",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T11:00:30Z",
-   "snippet": "\"It's a rare case: A Canadian figure chosen by the most famous post-war contemporary painter in the world\""
-  },
-  {
-   "title": "McDavid bid for 200-point season drawing raves from Gretzky, others",
-   "url": "https://www.nhl.com/news/oilers-mcdavid-bid-for-200-point-season-drawing-raves-from-gretzky-and-rest-of-hockey-world",
-   "source": "NHL.com",
-   "published": "2026-11-24T05:00:00Z",
-   "snippet": "Connor McDavid has taken a high bar and set it at an unbelievable level this season. The Edmonton Oilers forward is on pace to challenge the 200-point plateau, which is something only Wayne…"
-  },
-  {
-   "title": "Good and bad news on health of Top 6 Oilers forwards -- and Edmonton out on Detroit d-man",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-matt-savoie-zach-hyman-kirby-dach-simon-edvinsson-detroit-red-wings",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T04:40:27Z",
-   "snippet": ""
-  },
-  {
-   "title": "Edmonton Oilers GM Stan Bowman picks up another useful power forward off NHL junk heap",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-gm-stan-bowman-picks-up-another-useful-power-forward-off-nhl-junk-heap",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T01:42:36Z",
-   "snippet": ""
-  },
-  {
-   "title": "PREVIEW: Oilers vs. Golden Knights",
-   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-golden-knights-11-24-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-24T00:36:33.158Z",
-   "snippet": "The Edmonton Oilers host a Pacific Division rival in the Vegas Golden Knights at Rogers Place on Tuesday night. You can watch the game live on Sportsnet at 7:00 PM MT or listen on the…"
-  },
-  {
-   "title": "RELEASE: Oilers acquire Austin Roest from Nashville",
-   "url": "https://www.nhl.com/oilers/news/release-oilers-acquire-austin-roest-from-nashville",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-24T00:26:57.813Z",
-   "snippet": "EDMONTON, AB - The Edmonton Oilers have acquired forward Austin Roest from the Nashville Predators in exchange for forward James Stefan. Roest (5’10”, 185 lbs, 22) has appeared in 15 games…"
-  },
-  {
-   "title": "Oilers notebook: Mark Stone a staple in Oilers-Golden Knights rivalry",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/edmonton-oilers-vegas-golden-knights-mark-stone",
-   "source": "Edmonton Journal",
-   "published": "2026-11-23T22:10:51Z",
-   "snippet": "As usual, the Oilers and Golden Knights are fighting for top spot in the Pacific"
-  },
-  {
-   "title": "Blues rally from three down in third period, defeat Oilers in shootout",
-   "url": "https://www.nhl.com/news/edmonton-oilers-st-louis-blues-game-recap-november-22-2026",
-   "source": "NHL.com",
-   "published": "2026-11-23T04:54:00Z",
-   "snippet": "ST. LOUIS -- Jimmy Snuggerud had a goal and an assist for the St. Louis Blues, who rallied from a three-goal deficit in the third period for a 5-4 shootout win against the Edmonton Oilers…"
-  },
-  {
-   "title": "QUICK RECAP: Blues 5, Oilers 4 (SO)",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-blues-11-22-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-23T00:10:32.365Z",
-   "snippet": "ST. LOUIS, MO - Couldn't hold on to close out the road trip on a winning note. Despite holding a three-goal lead midway through the third period, the Edmonton Oilers couldn't protect their…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Oilers at Blues",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-at-blues-11-22-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-22T18:04:46.321Z",
-   "snippet": "ST. LOUIS, MO – Goalie Tristan Jarry will get the start, while defenceman Jake Walman is projected to draw back into the lineup for the Edmonton Oilers when they cap off a weekend…"
-  },
-  {
-   "title": "Oilers at Blues projected lineups",
-   "url": "https://www.nhl.com/news/edmonton-oilers-st-louis-blues-game-preview-november-22-2026",
-   "source": "NHL.com",
-   "published": "2026-11-22T16:13:58.262Z",
-   "snippet": "OILERS (17-5-3) at BLUES (12-9-2) 7 p.m. ET; BN+, STLNHL, SNW, SN1 Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Colton Dach -- Zach Hyman…"
-  },
-  {
-   "title": "Hurricanes score five in second period in win against Oilers",
-   "url": "https://www.nhl.com/news/edmonton-oilers-carolina-hurricanes-game-recap-november-21-2026",
-   "source": "NHL.com",
-   "published": "2026-11-21T23:05:00Z",
-   "snippet": "RALEIGH, N.C. -- The Carolina Hurricanes scored five goals in the second period of a 7-4 win against the Edmonton Oilers at Lenovo Center on Saturday."
-  },
-  {
-   "title": "QUICK RECAP: Hurricanes 7, Oilers 4",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-hurricanes-11-21-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-21T21:10:00Z",
-   "snippet": "RALEIGH, NC \\- Couldn't contain the storm. In a game of many swings against the reigning Stanley Cup champions, the Edmonton Oilers couldn’t hold onto two separate two-goal leads in a wild…"
-  },
-  {
-   "title": "PRE-GAME REPORT: Oilers at Hurricanes",
-   "url": "https://www.nhl.com/oilers/news/pre-game-report-oilers-at-hurricanes-11-21-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-20T22:40:18.87Z",
-   "snippet": "The Edmonton Oilers start back-to-back games to close out their six-game road trip on Saturday afternoon at the Lenovo Center against the Carolina Hurricanes. You can watch the game live on…"
-  },
-  {
-   "title": "Oilers primed for 'measuring stick' vs. Hurricanes in division-leader matchup",
-   "url": "https://www.nhl.com/news/edmonton-oilers-carolina-hurricanes-measuring-stick-game-lookahead",
-   "source": "NHL.com",
-   "published": "2026-11-20T22:02:39.667Z",
-   "snippet": "The Edmonton Oilers want what the Carolina Hurricanes have, and will get a chance to see where they stand against the defending Stanley Cup champions. The Oilers travel to face the…"
-  },
-  {
-   "title": "Short Shifts Power Rankings: November 20",
-   "url": "https://www.nhl.com/news/short-shifts-power-rankings-november-20-2026",
-   "source": "NHL.com",
-   "published": "2026-11-20T21:56:00Z",
-   "snippet": "Throw out the Xs and Os and join Short Shifts for our own weekly power rankings. What is our criteria? Whatever makes us smile, laugh, cry or any other wholesome feeling. This list is…"
-  },
-  {
-   "title": "State Your Case: Hurricanes or Oilers as top team",
-   "url": "https://www.nhl.com/news/state-your-case-carolina-hurricanes-or-edmonton-oilers-as-top-team-in-nhl",
-   "source": "NHL.com",
-   "published": "2026-11-20T15:24:13.238Z",
-   "snippet": "The defending Stanley Cup champion Carolina Hurricanes host the Edmonton Oilers at Lenovo Center on Saturday (1 p.m. ET; HHN, CARNHL, NHLN, SNP, SNW, SNO). It should be quite the tilt,…"
-  },
-  {
-   "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
-   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026-x6012",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-20T05:09:00Z",
-   "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
-  },
-  {
-   "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
-   "url": "https://www.nhl.com/oilers/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers-x2007",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-20T05:00:00Z",
-   "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
   }
  ]
 }
