@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T22:04:36+00:00",
+  "updated": "2026-11-25T01:24:09+00:00",
   "next": {
     "id": 2026020385,
     "gameType": 2,
@@ -8,20 +8,20 @@
     "timeMT": "7 PM MT",
     "timePT": "6 PM PT",
     "venue": "Rogers Place",
-    "state": "FUT",
+    "state": "LIVE",
     "scheduleState": "OK",
     "lastPeriod": null,
     "away": {
       "abbrev": "VGK",
       "name": "Golden Knights",
       "place": "Vegas",
-      "score": null
+      "score": 1
     },
     "home": {
       "abbrev": "EDM",
       "name": "Oilers",
       "place": "Edmonton",
-      "score": null
+      "score": 0
     }
   },
   "last": {
