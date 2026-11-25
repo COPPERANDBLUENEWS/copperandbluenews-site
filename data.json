@@ -1,6 +1,30 @@
 {
-  "updated": "2026-11-25T01:24:09+00:00",
+  "updated": "2026-11-25T04:14:22+00:00",
   "next": {
+    "id": 2026020414,
+    "gameType": 2,
+    "startTimeUTC": "2026-11-28T01:00:00Z",
+    "dateMT": "Fri Nov 27",
+    "timeMT": "7 PM MT",
+    "timePT": "6 PM PT",
+    "venue": "Rogers Place",
+    "state": "FUT",
+    "scheduleState": "OK",
+    "lastPeriod": null,
+    "away": {
+      "abbrev": "SEA",
+      "name": "Kraken",
+      "place": "Seattle",
+      "score": null
+    },
+    "home": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "place": "Edmonton",
+      "score": null
+    }
+  },
+  "last": {
     "id": 2026020385,
     "gameType": 2,
     "startTimeUTC": "2026-11-25T01:00:00Z",
@@ -8,55 +32,31 @@
     "timeMT": "7 PM MT",
     "timePT": "6 PM PT",
     "venue": "Rogers Place",
-    "state": "LIVE",
+    "state": "FINAL",
     "scheduleState": "OK",
-    "lastPeriod": null,
+    "lastPeriod": "REG",
     "away": {
       "abbrev": "VGK",
       "name": "Golden Knights",
       "place": "Vegas",
-      "score": 1
-    },
-    "home": {
-      "abbrev": "EDM",
-      "name": "Oilers",
-      "place": "Edmonton",
-      "score": 0
-    }
-  },
-  "last": {
-    "id": 2026020375,
-    "gameType": 2,
-    "startTimeUTC": "2026-11-23T00:00:00Z",
-    "dateMT": "Sun Nov 22",
-    "timeMT": "6 PM MT",
-    "timePT": "5 PM PT",
-    "venue": "Enterprise Center",
-    "state": "OFF",
-    "scheduleState": "OK",
-    "lastPeriod": "SO",
-    "away": {
-      "abbrev": "EDM",
-      "name": "Oilers",
-      "place": "Edmonton",
-      "score": 4
-    },
-    "home": {
-      "abbrev": "STL",
-      "name": "Blues",
-      "place": "St. Louis",
       "score": 5
+    },
+    "home": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "place": "Edmonton",
+      "score": 3
     }
   },
   "standings": {
     "wins": 17,
-    "losses": 5,
+    "losses": 6,
     "otLosses": 4,
     "points": 38,
-    "gamesPlayed": 26,
+    "gamesPlayed": 27,
     "divisionSequence": 1,
     "divisionName": "Pacific",
-    "streakCode": "OT",
+    "streakCode": "L",
     "streakCount": 1
   }
 }

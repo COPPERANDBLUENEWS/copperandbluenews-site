@@ -1,13 +1,106 @@
 {
- "updated": "2026-11-25T03:38:37Z",
+ "updated": "2026-11-25T04:14:28Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (5)",
-  "Google News (88)"
+  "Sportsnet (6)",
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Eichel scores twice, Golden Knights hand Oilers fourth straight loss",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdFBMNlAyaDh4WEZZRXBGWkRLX0ZjazVjc0VpRFdiM3p1MjliUy1LY1pEcWZqeF8xbFhzU3lQTVFDcHZDcENNeXIteHQ1eVhETXBPTE1KZDRhalBvajBwSjJUcFRMaGM0dHJ2eHFuVWJWNTRFTlFFblV3U0IxUjJpTkJMdWcyaExQckxqUXN1MFRlM3c?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-25T04:06:07Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Kypreos grades Oilers’ performance so far this season: ‘Should be an A’",
+   "url": "https://www.sportsnet.ca/nhl/video/kypreos-grades-oilers-performance-so-far-this-season-should-be-an-a/",
+   "source": "Sportsnet",
+   "published": "2026-11-25T04:05:55Z",
+   "snippet": "Nick Kypreos joins Sportsnet Central to discuss the Edmonton Oilers’ 4-3 loss to the Vegas Golden Knights, the grade he’d give the Oilers so far this season, and more."
+  },
+  {
+   "title": "Connelly, Eichel lead Golden Knights to 5-3 win over sluggish Oilers",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQVJxYnB1MzlCX09zMnZ6ODlvaFRkVkJvSnB4UnlWVnRlUFZMc1FXc0dqRU1nbEZRQS1NYXN6dDhSYUpIQ293VHQ1OWgxQWVDNElZNmNMc01yTHI5OVpuM1Q1RU52MW9zbHBxdDV1SGVJVFoxMUt4LWVtTHJMRmVPTmQ4bUZmZGowMFNSVHNILVVOa1J4R2ZuamxvMkFpTmlzdjFUV3JodWwtRzJPcE9sYQ?oc=5",
+   "source": "Castanet",
+   "published": "2026-11-25T04:04:50Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers fall to Golden Knights, suffer fourth straight loss",
+   "url": "https://www.sportsnet.ca/nhl/article/oilers-fall-to-golden-knights-suffer-fourth-straight-loss/",
+   "source": "Sportsnet",
+   "published": "2026-11-25T04:04:14Z",
+   "snippet": ""
+  },
+  {
+   "title": "Recap: Golden Knights at Oilers 11.24.26",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41Tk12S3FGMnA5UTVQQUMwbFVqLXAyX0NVQ2ozbTNnSy1KTmo5TWdwaGRjRDFQV2pHVWYxSlByYkJnLV9xZWVJNW8yemQyRkVmalNVa0U3YUFFa2J0bldDbTJjWG1kY28?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-25T04:01:20Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Vegas Golden Knights beat Edmonton Oilers 5-3 after third-period push",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUXJidDdCeUZyNGYtTm1ONXo4emlqVTFFZEtwdVBnbW56Q3FmbjZYbHpybUw3bzVZR3N3OTJCTHM2SWFPTTVUTWlnV0pSX1Uxc0prYWlVbms3ZllySGJZb01KbHdHa3RvQTJ6a3VyRFdiVWQ2TGtsbTBVZzV3aVE5Yjk0TzBpWDg2Wlh3Njdxb0dUcDczWlhvYTFhalFEbURDN1E?oc=5",
+   "source": "Sofascore",
+   "published": "2026-11-25T04:01:01Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Worn-down Oilers cannot summon a win at home to Vegas, lose 5-3: Cult of Hockey Player Grades",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOVBMQ2xIem52a1ZHSHc0a1BLMFluQmNBaVZxeTdXbVNNWlF4NzJwdHNZNWRTMllNN052bjdJa3NpM2YyVk9DVHBKempxaFN1elF4OExicHIwakVodUFUbUVHU1I5dFRhRkhsVlQ5TS1OYTFZX01nRFF0NG5waVI2UWNFOEI2emw0OG5hSHJTZndxV3EwWDdURFRZb0I3cTJkVXVjckNCSk5ITDlPbXlaRkVkaElyNjV5bXo4cXo4d2Y1WkZ5UU1haGNaWHhlbk9MUWVJYWVSay1IVk16TVpBbkVodnl3VEE?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-25T03:58:17Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Four On The Floor: Golden Knights hand sagging Oilers another loss",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNjJTOGVqOFl4U0RYeHpZSDVYYV9DNV9obVd5Zk16d0dVV2w1bENndmxxcHpucnZacDUzYU1NekZWMHNUbDFRTTN1SmdDb05oRmxMcHB0OFRMT1N0Sm0weE9COU8tbnlIX1YyOS1wMXpJbHhLMDFhVlZ6TlhELUdBZHhER1FYNzNTWkJsT3lYYTlxQQ?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-25T03:54:59Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Jack Eichel with a Powerplay Goal vs. Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNjNvNW54b21MYnMwMTNuZWpyZkdpUnJqcEFHd0w0TW5USG5tdWNSTWxVWlBGUTljYjJCWE1MWGNmMi1icmZwQW1jdk5icThNY1BlWHRlTENaMUI5ZjdpTGRLYkVrQWFXOVZCay1RX2M3WmZHRktRSUdUbUhGeXU0OVFTcVF5NmtKLXZhTw?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-25T03:50:14Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Edmonton Oilers vs. Vegas Golden Knights - Game Highlights",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTXk5WmdWOFNNMHVVV09qcFFYWFhzVDN1RU9tYnBPYWNYNThRakJxb3lfbjBKSU41U3pDd1YtbzBFUjJWeUdvMEFvWlRYQkt6eXdWV1djbmpDWHNhRV9UZEZweHZnckZaVXhwUmtMRXJ1bldtbTFnMEZGSWI3NF84aXc4RXlkVXgwUGhSWHZaZw?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-25T03:50:14Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Connelly, Eichel pace Knights to road win over Oilers",
+   "url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxNQ2M5SUtrTVVBYUVrOEVEY1pFVzRwTVB4RWt0cWFXdldSREVzczFDUzFrc0x6V0ROTWV1bm5NbFV6VkQwbVllb1Z6bFBaYjFURGtick5scm02U2V1UFgzQmNaXzdNbmdkVTd2RGxaXzFLSmQydlJSYjh2OFlvTkprUGdqU2h2Qk5GOV9Bd2lCTUwyRTlwNEpKWVd3SjZYeThqVEJoZ2xtenhySC15bUNfTGo2UktnT3daR19BM1ozbDRObFBMdS1GTkZScXVtaW5UaUN2ZnE5LWlxWkd5cEQwcGJnX19UN0tnMEFIMTZ1cmNSTWEyVHZlRmE3LWV4djJYOXIxTU1DaUc2UE52VUFBZURNNHBOLW5sU3Q2elpia0poSFVLM25wOXdMaXpLM1NiR0lVZFFRRVJBNDRMOVJ6enVLME11RF9FOUxTejBpT1RfNHp1TjUwTGFBbDQ2dkY2d3FZeUZ6S0JwcUMx?oc=5",
+   "source": "Las Vegas Review-Journal",
+   "published": "2026-11-25T03:42:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers and Golden Knights trade goals 16 seconds apart in third",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-and-golden-knights-trade-goals-16-seconds-apart-in-third/",
+   "source": "Sportsnet",
+   "published": "2026-11-25T03:28:38Z",
+   "snippet": "Watch as Vegas Golden Knights forward Jack Eichel scores to double the lead in the third period, but Vasily Podkolzin responds just 16 seconds later for the Oilers."
+  },
   {
    "title": "Edmonton Elks Celebrate Grey Cup Win at Rogers Place",
    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nclJiUE9yUzU1VDU4MllObHF4VGhxd2hUYmdxa1dWX19oZXRLOFpxczloQW81WlE3aTMzMGl4UWtvcUY1TGNOYTZZem9sU0YyV0tUMGNzNVJMMC1Ib2UxdDZDRExXU2ZZ?oc=5",
@@ -33,6 +126,14 @@
    "via": "google"
   },
   {
+   "title": "Instant Reaction: Oilers’ losing streak reaches four after 5-3 loss to Golden Knights",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeU1MdGttSVNHY2xlenRxVWMzbUcyWW1HMF8yT1dNZ3hCdWY3QnhXcXlkVjh2SzAxSHpBSVd2eTBiWXRCbGhOcXZaSXVnSF9mblZmTm1rZ3lUajlhTU1zZ19rV2JEMHoxQU5hVUk1Ul9PVmQwSF9id1A5VFVQa2pVSDd2SmdWRDRLV0dUTjRZRnptMDFpQlE?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-25T03:04:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers’ McDavid finishes off beautiful give-and-go with goal vs. Vegas",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-finishes-off-beautiful-give-and-go-with-goal-vs-vegas/",
    "source": "Sportsnet",
@@ -46,13 +147,6 @@
    "published": "2026-11-25T02:41:00Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "Oilers’ Dach tips Bouchard point shot to score vs. Golden Knights",
-   "url": "https://www.sportsnet.ca/nhl/video/oilers-dach-tips-bouchard-point-shot-to-score-vs-golden-knights/",
-   "source": "Sportsnet",
-   "published": "2026-11-25T02:39:04Z",
-   "snippet": "Watch as Colton Dach battles for the puck down low, gets to the front of the net, and tips Evan Bouchard’s point shot past Carter Hart."
   },
   {
    "title": "Oilers goal gets waved off due to goaltender interference",
@@ -70,7 +164,7 @@
    "via": "google"
   },
   {
-   "title": "LIVE UPDATES: Oilers vs. Golden Knights",
+   "title": "LIVE UPDATES: Oilers vs. Golden Knights | Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNc090NDJUQlQyZkJWT3JJbmtzVktTdDkxV3BfZVZLMHk4NUtZNWNvWENyZGxQYXVodEVNbW1TN1pHQVEyTGRpSHJRVUdJc2t5QmJXQ2Q5UzJuV3RXN0JTa21yTVRWeVpKdFlVeWpSSEp1NmV0ckRmajZxMW9iU0F2NG9PU3g?oc=5",
    "source": "NHL.com",
    "published": "2026-11-25T01:32:52Z",
@@ -85,11 +179,11 @@
    "snippet": "The Edmonton Oilers celebrated the Edmonton Elks Grey Cup win with a pre-game segment with Gene Principe and on-ice festivities before the Oilers’ clash with the Vegas Golden Knights."
   },
   {
-   "title": "Oilers on Sportsnet: Edmonton vs. Vegas",
-   "url": "https://www.sportsnet.ca/hockey/nhl/games/d1ff1e5e-e29c-4044-a666-1a8e82d44a11",
-   "source": "Sportsnet",
-   "published": "2026-11-25T00:46:04Z",
-   "snippet": ""
+   "title": "QUICK RECAP: Golden Knights 5, Oilers 3",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-golden-knights-11-24-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-25T01:02:28.481Z",
+   "snippet": "EDMONTON, AB - A 'Golden' opportunity capitalized on by the visitors. Colton Dach, Connor McDavid & Vasily Podkolzin all found the back of the net, while Evan Bouchard produced two assists,…"
   },
   {
    "title": "Reflection On Oilers Trade History After Larkin Move",
@@ -100,92 +194,26 @@
    "via": "google"
   },
   {
-   "title": "Why the Edmonton Oilers Valuation Has Grown Nearly 20 Times Since 2008",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVDQzNi1ud0VJOVJZeU1oeXFfSnVXRHBodHU3cFZ1Y1ZZNnFwX2llSWtpb3ZhWXFOdlRrVzZVeXk1TmdfUnM1bWRGTFZlRm41OXh6MnpKRDZ3MkhmT2tvMmJVNzVodlR6dWpUelROOGNETmxVWTlWOU9OanZySHJtWHNDYXZXZEhMR19Fal9XRVg4LVY4OUtlS05vTmF1MkZQdmc?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-24T23:18:57Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Minnesota Wild Risk Losing Ex-Oilers & Maple Leafs 13-Year NHL Veteran For Nothing",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVlpscDA4ZGg3dXFGWmgxcHRHdW9BOUJPa1JOR19Iem41alBrMmNDci1RVEdUd3h4ZFJ3RWJUT3QzREhwQktCd3dNaUhxbXVvY1laS2U2bFhoV21VZG90a2U4TGNyUjNBbGNyeGNRcTZZTE1ueFg5NGV1U0lKMGpSOTVsYWdTYzRLUFE?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-24T22:53:48Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers' Nugent-Hopkins back in lineup, Hyman remains out vs. Golden Knights",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdW8zSlhnZHNTajdEYjR0YWVkQXYwaDFDQllzQzhkNUZOQ1UwZWF2YUNLbVpZdFBUaGlTeWw2bXp1MGN4cTB2NDZsSk1aYWoyNEM3NTlSV1F5dDBPY0tPb1VJd0lEVjhXd2hSdDB0clcyWlgzRXBDeGxaOWU4djZQWGV3aFY2QmtNUEZDQ2FYREcxTkdqWXQxOVgxZ1dpUVpSNWxyTHAwcXJxcHFKYk9r?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-24T22:15:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton expecting big Ryan Nugent-Hopkins boost vs. Golden Knights after 5-game absence",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS01tTmx3YjdsSXRoaHVsa1NlSktSZ0NQTWctdlpqSkZSWDU5VmtCd3FVMnVXTHFPY2kzS1lnZkhtYWJKdEJBdHBJYk5mcWp2c2xRLWY1aHRCNFNhNGFYTy1iRHdVUzM2S3B5eW1ucF9ySV9Zb2hCT29IdDNaWjFjN1N6WjdOMTJaYzRBdEM1Mmg?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-24T21:41:28Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Most Popular Bets for Golden Knights vs. Oilers: Draisaitl Top Pick to Score",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSVZMdHhRSVZtQ2FFTDZadWpWa2FkSkxUdlZwdEVPbDVrVFQxSmdyc3lVRFp4WXcteFVkUkl5a0pkZktVWkVFSjNhLXA5dFNKcllLSzRRWXdpQnpOcE5oRW5wbGM5d09NNTBQaDRSb0NNSHc0a2VrTlFXelJDSVJ5dnVQME50R1ZmRTZ2VF81ejdsNmNXMHIzMjV5UEhNSnFzeWZrMmxKRQ?oc=5",
-   "source": "bet365",
-   "published": "2026-11-24T21:06:58Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers shrug off road-trip stumble with Vegas next up",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeVp2aEpqWEdBaVQ2cF9CeGxTemtKbHVad25fakNscU5KUk5nU2c4WDFoU00xUV9VUjA1UUVPX2FfU093OHNoQXU2RjlVLVIwbHVBYkpEWHFPMzNCQk1VbFRzNEJUa3hZVVVVM2ZITU01RVplMURJeFVhbHB2aU13QXUtSnNQT1ZPN0NGODc0TnBfRXp4cllwLWllMWlreVNOZGJj?oc=5",
-   "source": "CTV News",
-   "published": "2026-11-24T20:47:56Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Four takeaways from the Oilers’ six-game road trip",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM3FjMDFhSERYaldqcjdZMGlUcDIwZlpWQnpGcTkzaVlJLUhiMV8tYU1pSVROeV9kdE5GLTJHZzhXV182cy03MW1vWEd1cXZacUt6dVNmVVhlZ0kwUk9iNk9teWtuT18teVJ5djl3Szl4dWVSd0d3a3o0VHhqaTJvT2t4R1lvMW9WOUlVcnhUNTRfMHlYY0x0QTJ1ZmVhQ1k?oc=5",
+   "title": "‘Don’t sleep on the Oilers’: Why Edmonton could be in on RFA Simon Edvinsson",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN1MyNmxPby1iN0NIM2d5MFJvdVlEZnVtdmY4TEJIRFc4QVRScFFaRGktUnJTTUhSNFRLR0tPcHpwb2hMT0U0Q1FpRVF1SjVVUlBZQUl1S0lSUzlHUk1ULWRKUmFvazFtbWNaQWZ3YnBaTHNubldnXzhUT1Uwc3o0WC05emVDUG1FN2Jlbm1oRG9hdw?oc=5",
    "source": "Oilers Nation",
-   "published": "2026-11-24T20:37:00Z",
+   "published": "2026-11-24T23:28:00Z",
    "snippet": "",
    "via": "google"
   },
   {
    "title": "Matheson: Nugent-Hopkins' return forces Oilers to shuffle line combos against Golden Knights",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPd01yclFWeVdrX0F5WFZzbUlocVNQSUQtbkphbzFndjJPckZNb1ItZkJNRzRVaHcxTWlTUmZibVNNeEJ6TVJoZjVCMFViQkdDZVExamJXdmdib3RWTGNPN0ZyX2l6YUhVRjJIT0ItODViQkpfMDhSQjZrTWRMa0FiclFYLW5VcTZueG14T1I2WQ?oc=5",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-nugent-hopkins-return-babcock-hyman",
    "source": "Edmonton Journal",
-   "published": "2026-11-24T20:28:13Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "‘Don’t sleep on the Oilers’: Why Edmonton could be in on RFA Simon Edvinsson",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN1MyNmxPby1iN0NIM2d5MFJvdVlEZnVtdmY4TEJIRFc4QVRScFFaRGktUnJTTUhSNFRLR0tPcHpwb2hMT0U0Q1FpRVF1SjVVUlBZQUl1S0lSUzlHUk1ULWRKUmFvazFtbWNaQWZ3YnBaTHNubldnXzhUT1Uwc3o0WC05emVDUG1FN2Jlbm1oRG9hdw?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-24T20:28:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL Power Rankings: Minnesota Wild jump to No. 1; Oilers slide",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcFk1UUlMMklxQnR3T2k0dVd1NUhWU09sV29IdXNUT0pKRkxzTkV2U05ERWNRUmxTOUQ3bE1SRzNTSHhSU0RNNzlhRE1iN3c0VFN5V2JTcmU2el9nLUFWOTFKRkdYRVd2UEtZWTNuVmZURVpXeGRmWmtCRkhKQkxFeThIVGNRTnFmNXpMMmFqaUdadHpVSncwa1FOU2lfRnB1ZEFqdzB4ZVl5R2k5NWlzQkc2aEVMZHlPd3c?oc=5",
-   "source": "DAZN",
-   "published": "2026-11-24T20:21:55Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-24T20:26:38Z",
+   "snippet": ""
   },
   {
    "title": "Nugent-Hopkins back in Edmonton Oilers lineup following mystery injury",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNU21Ma0RocWtnMTVKcS1fNnp3ZngtRXV0OUJPQTRab3dpSmg3aV9BOGY3enhVY1pIY28ySlJuMDNIT1BXWW9CQ2RYWDVEc0JvSzYwS1Q3LTVzSUtpS2JHc2JOblotNE5GQmJkNEw3U0FNbFVjU3p3SUxGamd0TDgzS253dDBuMTE3WVJnR3JR?oc=5",
+   "url": "https://edmontonjournal.com/sports/ryan-nugent-hopkins-edmonton-oilers-mystery-injury",
    "source": "Edmonton Journal",
-   "published": "2026-11-24T19:17:11Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-24T19:09:39Z",
+   "snippet": "\"I think for the majority of the part we’ve been playing really good hockey, so I want to jump back in and be a part of that\""
   },
   {
    "title": "PROJECTED LINEUP: Nugent-Hopkins to return on the wing against Golden Knights",
@@ -249,34 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-24T00:36:33.158Z",
    "snippet": "The Edmonton Oilers host a Pacific Division rival in the Vegas Golden Knights at Rogers Place on Tuesday night. You can watch the game live on Sportsnet at 7:00 PM MT or listen on the…"
-  },
-  {
-   "title": "RELEASE: Oilers acquire Austin Roest from Nashville",
-   "url": "https://www.nhl.com/oilers/news/release-oilers-acquire-austin-roest-from-nashville",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-24T00:26:57.813Z",
-   "snippet": "EDMONTON, AB - The Edmonton Oilers have acquired forward Austin Roest from the Nashville Predators in exchange for forward James Stefan. Roest (5’10”, 185 lbs, 22) has appeared in 15 games…"
-  },
-  {
-   "title": "Oilers notebook: Mark Stone a staple in Oilers-Golden Knights rivalry",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/edmonton-oilers-vegas-golden-knights-mark-stone",
-   "source": "Edmonton Journal",
-   "published": "2026-11-23T22:10:51Z",
-   "snippet": "As usual, the Oilers and Golden Knights are fighting for top spot in the Pacific"
-  },
-  {
-   "title": "Is there reason for concern after rocky finish to Edmonton Oilers road trip?",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-rough-road-trip",
-   "source": "Edmonton Journal",
-   "published": "2026-11-23T16:41:40Z",
-   "snippet": "After giving up four goals in the first three games of their six-game (3-2-1) trip, the Oilers surrendered 14 in the last three"
-  },
-  {
-   "title": "Blues rally from three down in third period, defeat Oilers in shootout",
-   "url": "https://www.nhl.com/news/edmonton-oilers-st-louis-blues-game-recap-november-22-2026",
-   "source": "NHL.com",
-   "published": "2026-11-23T04:54:00Z",
-   "snippet": "ST. LOUIS -- Jimmy Snuggerud had a goal and an assist for the St. Louis Blues, who rallied from a three-goal deficit in the third period for a 5-4 shootout win against the Edmonton Oilers…"
   }
  ]
 }
