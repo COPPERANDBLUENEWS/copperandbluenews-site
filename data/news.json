@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-25T01:24:18Z",
+ "updated": "2026-11-25T01:59:24Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (4)",
-  "Google News (88)"
+  "Sportsnet (3)",
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "LIVE UPDATES: Oilers vs. Golden Knights",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNc090NDJUQlQyZkJWT3JJbmtzVktTdDkxV3BfZVZLMHk4NUtZNWNvWENyZGxQYXVodEVNbW1TN1pHQVEyTGRpSHJRVUdJc2t5QmJXQ2Q5UzJuV3RXN0JTa21yTVRWeVpKdFlVeWpSSEp1NmV0ckRmajZxMW9iU0F2NG9PU3g?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-25T01:32:52Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers celebrate Elks’ Grey Cup win before game vs. Golden Knights",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-celebrate-elks-grey-cup-win-before-game-vs-golden-knights/",
@@ -24,11 +32,12 @@
    "via": "google"
   },
   {
-   "title": "LIVE UPDATES: Oilers vs. Golden Knights",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-golden-knights-11-24-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-25T01:02:28.481Z",
-   "snippet": "The Edmonton Oilers play host to the Vegas Golden Knights at Rogers Place on Tuesday. Follow along for live updates, highlights, stats and more, then check back after the final buzzer for…"
+   "title": "Edmonton Oilers 2026-27 NHL Regular Season Skating Stats",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE14OElWVFM3SWtqYl9iME5peUxMNjBDUGtkbVFuSVU4WUZCOF94bENOR3J5dlU4ckZPVjAtNjJGVmxrOG5DXy0tSy13QXhYYWIzblpaWDRfM015VmEwdjgwUUZTN0Ewb0xEbHc?oc=5",
+   "source": "ESPN",
+   "published": "2026-11-25T01:05:47Z",
+   "snippet": "",
+   "via": "google"
   },
   {
    "title": "Oilers on Sportsnet: Edmonton vs. Vegas",
@@ -74,14 +83,6 @@
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSVZMdHhRSVZtQ2FFTDZadWpWa2FkSkxUdlZwdEVPbDVrVFQxSmdyc3lVRFp4WXcteFVkUkl5a0pkZktVWkVFSjNhLXA5dFNKcllLSzRRWXdpQnpOcE5oRW5wbGM5d09NNTBQaDRSb0NNSHc0a2VrTlFXelJDSVJ5dnVQME50R1ZmRTZ2VF81ejdsNmNXMHIzMjV5UEhNSnFzeWZrMmxKRQ?oc=5",
    "source": "bet365",
    "published": "2026-11-24T21:06:58Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers make a trade for the best reason possible",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOVJrcXB6U2x6ektUNFJUaXJUdm54QmZ6dTMtTWtCUk9yM1ZxZ3hxM2lNcmxRc0p2OC12Umo5OFBwaVNjWTd3Q2E2dHdxSmxZV0V3NGN6OGdUWEdacHl1b0dzYkJ1aFNsekFxd0xDQzVSUzg3bFNJUWRkSU42TW9FVExLYjNBSm0tTlAtVEgtMA?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-24T21:06:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -173,19 +174,18 @@
    "via": "google"
   },
   {
-   "title": "Pre-Scout: Oilers return home to face Vegas who’s been sitting there waiting for them",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONXpxeFVWX2EzZDlKM0tsQXhxWEpwSUJKMlFHZ09NQVJSWS0yNFZ1SFlEcFZFa1Q3aFRDTEFHTGxhSEF3ZWtMOV9YM3RzWUdPbkNRa3g4RUZBaWpkQ2tPeFlRZG9neEtseUVKWEg0WjZKU254Y0JmLWxzMHB0Ry1mNnpnRFV3TDY0dHdxaWhXVWI3SGVnREtZ?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-24T18:49:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Two big guns return to ice for Edmonton Oilers, one to play against Vegas",
    "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-ryan-nugent-hopkins-matthew-savoie-vegas-golden-knights",
    "source": "Edmonton Journal",
    "published": "2026-11-24T16:30:19Z",
    "snippet": ""
+  },
+  {
+   "title": "Canada's best team in 2026? Don't overlook Brad Jacobs and his curling crew",
+   "url": "http://edmontonjournal.com/sports/curling/canada-best-team-2026-brad-jacobs-curling-crew/wcm/74b2ce4b-7871-40b0-9510-9082765b9b7d",
+   "source": "Edmonton Journal",
+   "published": "2026-11-24T13:58:56Z",
+   "snippet": "Curling doesn't always get the mainstream attention it deserves, but that shouldn't diminish the accomplishments of the people playing it"
   },
   {
    "title": "Edmonton Oilers Power Rankings: Injuries jostling both lineup and list",
@@ -244,13 +244,6 @@
    "snippet": "As usual, the Oilers and Golden Knights are fighting for top spot in the Pacific"
   },
   {
-   "title": "Is there reason for concern after rocky finish to Edmonton Oilers road trip?",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-rough-road-trip",
-   "source": "Edmonton Journal",
-   "published": "2026-11-23T16:41:40Z",
-   "snippet": "After giving up four goals in the first three games of their six-game (3-2-1) trip, the Oilers surrendered 14 in the last three"
-  },
-  {
    "title": "Blues rally from three down in third period, defeat Oilers in shootout",
    "url": "https://www.nhl.com/news/edmonton-oilers-st-louis-blues-game-recap-november-22-2026",
    "source": "NHL.com",
@@ -277,6 +270,13 @@
    "source": "NHL.com",
    "published": "2026-11-22T16:13:58.262Z",
    "snippet": "OILERS (17-5-3) at BLUES (12-9-2) 7 p.m. ET; BN+, STLNHL, SNW, SN1 Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Colton Dach -- Zach Hyman…"
+  },
+  {
+   "title": "Hurricanes score five in second period in win against Oilers",
+   "url": "https://www.nhl.com/news/edmonton-oilers-carolina-hurricanes-game-recap-november-21-2026",
+   "source": "NHL.com",
+   "published": "2026-11-21T23:05:00Z",
+   "snippet": "RALEIGH, N.C. -- The Carolina Hurricanes scored five goals in the second period of a 7-4 win against the Edmonton Oilers at Lenovo Center on Saturday."
   }
  ]
 }
