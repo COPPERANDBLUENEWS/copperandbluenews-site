@@ -1,19 +1,19 @@
 {
  "game": {
-  "id": 2026020385,
-  "startTimeUTC": "2026-11-25T01:00:00Z",
-  "gameDate": "2026-11-24",
-  "state": "OFF",
+  "id": 2026020414,
+  "startTimeUTC": "2026-11-28T01:00:00Z",
+  "gameDate": "2026-11-27",
+  "state": "FUT",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
-   "abbrev": "VGK",
-   "name": "Golden Knights",
-   "place": "Vegas"
+   "abbrev": "SEA",
+   "name": "Kraken",
+   "place": "Seattle"
   },
-  "puckDropPT": "Tue Nov 24, 6 PM PT"
+  "puckDropPT": "Fri Nov 27, 6 PM PT"
  },
- "status": "Confirmed",
+ "status": "Projected",
  "forwards": [
   [
    {
@@ -243,15 +243,8 @@
    "status": "Day-to-day"
   }
  ],
- "notes": [
-  "Dressed players and starting goalie are official (NHL game sheet). Line combinations are DailyFaceoff's; the NHL doesn't publish lines."
- ],
+ "notes": [],
  "sources": [
-  {
-   "name": "NHL.com Gamecenter",
-   "url": "https://www.nhl.com/gamecenter/2026020385",
-   "what": "official dressed lineup"
-  },
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
@@ -261,7 +254,7 @@
   },
   {
    "name": "DailyFaceoff",
-   "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-24",
+   "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-27",
    "what": "starting goalie"
   }
  ],
@@ -272,7 +265,7 @@
    "num": 27,
    "pos": "G"
   },
-  "status": "Confirmed",
+  "status": "Unconfirmed",
   "backup": {
    "id": 8477465,
    "name": "Tristan Jarry",
@@ -296,88 +289,88 @@
   }
  ],
  "opponent": {
-  "abbrev": "VGK",
-  "name": "Golden Knights",
-  "place": "Vegas",
-  "status": "Confirmed",
+  "abbrev": "SEA",
+  "name": "Kraken",
+  "place": "Seattle",
+  "status": "Projected",
   "forwards": [
    [
     {
-     "id": 8479353,
-     "name": "Brett Howden",
-     "num": 21,
+     "id": 8482259,
+     "name": "Bobby McMann",
+     "num": 74,
      "pos": "LW"
     },
     {
-     "id": 8478403,
-     "name": "Jack Eichel",
-     "num": 9,
+     "id": 8484800,
+     "name": "Berkly Catton",
+     "num": 27,
      "pos": "C"
     },
     {
-     "id": 8475913,
-     "name": "Mark Stone",
-     "num": 61,
+     "id": 8474586,
+     "name": "Jordan Eberle",
+     "num": 7,
      "pos": "RW"
     }
    ],
    [
     {
-     "id": 8484803,
-     "name": "Trevor Connelly",
-     "num": 24,
+     "id": 8481554,
+     "name": "Kaapo Kakko",
+     "num": 84,
      "pos": "LW"
     },
     {
-     "id": 8476448,
-     "name": "William Karlsson",
+     "id": 8482665,
+     "name": "Matty Beniers",
+     "num": 10,
+     "pos": "C"
+    },
+    {
+     "id": 8482713,
+     "name": "Mackie Samoskevich",
+     "num": 11,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
+     "id": 8482751,
+     "name": "Ryan Winterton",
+     "num": 26,
+     "pos": "LW"
+    },
+    {
+     "id": 8477919,
+     "name": "Frederick Gaudreau",
+     "num": 89,
+     "pos": "C"
+    },
+    {
+     "id": 8476905,
+     "name": "Chandler Stephenson",
+     "num": 9,
+     "pos": "RW"
+    }
+   ],
+   [
+    {
+     "id": 8483570,
+     "name": "Ben Meyers",
+     "num": 59,
+     "pos": "LW"
+    },
+    {
+     "id": 8484241,
+     "name": "Matthew Wood",
      "num": 71,
      "pos": "C"
     },
     {
-     "id": 8478483,
-     "name": "Mitch Marner",
-     "num": 93,
-     "pos": "RW"
-    }
-   ],
-   [
-    {
-     "id": 8477964,
-     "name": "Ivan Barbashev",
-     "num": 49,
-     "pos": "LW"
-    },
-    {
-     "id": 8476881,
-     "name": "Tomas Hertl",
-     "num": 48,
-     "pos": "C"
-    },
-    {
-     "id": 8478109,
-     "name": "Victor Olofsson",
-     "num": 95,
-     "pos": "RW"
-    }
-   ],
-   [
-    {
-     "id": 8483890,
-     "name": "Braeden Bowman",
-     "num": 42,
-     "pos": "LW"
-    },
-    {
-     "id": 8475343,
-     "name": "Nic Dowd",
-     "num": 26,
-     "pos": "C"
-    },
-    {
-     "id": 8483553,
-     "name": "Marc Gatcomb",
-     "num": 17,
+     "id": 8482874,
+     "name": "Jacob Melanson",
+     "num": 63,
      "pos": "RW"
     }
    ]
@@ -385,92 +378,94 @@
   "defence": [
    [
     {
-     "id": 8475188,
-     "name": "Brayden McNabb",
-     "num": 3,
-     "pos": "LD"
-    },
-    {
-     "id": 8477447,
-     "name": "Shea Theodore",
-     "num": 27,
-     "pos": "RD"
-    }
-   ],
-   [
-    {
-     "id": 8478468,
-     "name": "Jeremy Lauzon",
-     "num": 5,
-     "pos": "LD"
-    },
-    {
-     "id": 8478397,
-     "name": "Rasmus Andersson",
-     "num": 4,
-     "pos": "RD"
-    }
-   ],
-   [
-    {
-     "id": 8478450,
-     "name": "Parker Wotherspoon",
+     "id": 8478407,
+     "name": "Vince Dunn",
      "num": 29,
      "pos": "LD"
     },
     {
-     "id": 8479639,
-     "name": "Dylan Coghlan",
-     "num": 52,
+     "id": 8476457,
+     "name": "Adam Larsson",
+     "num": 6,
+     "pos": "RD"
+    }
+   ],
+   [
+    {
+     "id": 8482858,
+     "name": "Ryker Evans",
+     "num": 41,
+     "pos": "LD"
+    },
+    {
+     "id": 8477986,
+     "name": "Brandon Montour",
+     "num": 62,
+     "pos": "RD"
+    }
+   ],
+   [
+    {
+     "id": 8479324,
+     "name": "Ryan Lindgren",
+     "num": 55,
+     "pos": "LD"
+    },
+    {
+     "id": 8479372,
+     "name": "Josh Mahura",
+     "num": 28,
      "pos": "RD"
     }
    ]
   ],
   "injured": [
    {
-    "id": 8478396,
-    "name": "Noah Hanifin",
-    "num": 15,
-    "pos": "D",
-    "status": "Out"
+    "id": 8477955,
+    "name": "Jared McCann",
+    "num": 19,
+    "pos": "LW",
+    "status": "IR"
+   },
+   {
+    "id": 8480876,
+    "name": "Curtis Douglas",
+    "num": 42,
+    "pos": "C",
+    "status": "IR"
    }
   ],
   "notes": [],
   "sources": [
    {
-    "name": "NHL.com Gamecenter",
-    "url": "https://www.nhl.com/gamecenter/2026020385",
-    "what": "official dressed lineup"
-   },
-   {
     "name": "DailyFaceoff",
-    "url": "https://www.dailyfaceoff.com/teams/vegas-golden-knights/line-combinations",
+    "url": "https://www.dailyfaceoff.com/teams/seattle-kraken/line-combinations",
     "what": "line combinations",
-    "basis": "Last Game (2026-11-21)",
-    "updatedAt": "2026-11-23T15:08:28.783Z"
+    "basis": "@sound_hockey",
+    "updatedAt": "2026-11-24T19:32:54.114Z"
    },
    {
     "name": "DailyFaceoff",
-    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-24",
+    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-27",
     "what": "starting goalie"
    }
   ],
   "goalie": {
    "starter": {
-    "id": 8479394,
-    "name": "Carter Hart",
-    "num": 79,
+    "id": 8478916,
+    "name": "Joey Daccord",
+    "num": 35,
     "pos": "G"
    },
-   "status": "Confirmed",
+   "status": "Unconfirmed",
    "backup": {
-    "id": 8478499,
-    "name": "Adin Hill",
-    "num": 33,
+    "id": 8475831,
+    "name": "Philipp Grubauer",
+    "num": 31,
     "pos": "G"
    },
    "note": null
   }
  },
- "updated": "2026-11-25T04:46:25Z"
+ "updated": "2026-11-25T07:29:59Z"
 }
