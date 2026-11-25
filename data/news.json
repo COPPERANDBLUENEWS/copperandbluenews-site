@@ -1,13 +1,53 @@
 {
- "updated": "2026-11-25T13:29:57Z",
+ "updated": "2026-11-25T14:46:14Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (7)",
-  "Google News (92)"
+  "Sportsnet (5)",
+  "Google News (94)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Golden Knights brimming with confidence after huge win over Oilers",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMm03cDhZYkxqWE5hcy1QcmVCcEhndU12NHBlVXNNRG1BWFlybE1vOEpNUV9ybkxoOWp5dVk3TVBYU0QyOTVPcVh0MnZHVnFBai1wbzNHSW5CbW1tb0UtWXhvak9tZDQ3a19zZEZZZmJFLUR0SEFqOWFycEpMWk5IbW9PaDQ5c3VvY1VtUDJxa2xHeXN5ZmFlMWlPam5NVHhpMTdfZQ?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-25T14:36:33Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Need a New Shootout Approach",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE82YXdRbEpfUU5HRWpMbklaVWZlZUdoZUpPRmYyN0Q3d1dva05la1hqcG9BUjBmamNLZUE0eGYxSWNHc0Y5RXFRejFrZXo2QVpyOGdfWDNzaE82cE5ERjNvZHhUdFY4RmRILUdWdXdQODdOdWM?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-25T14:35:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Eichel And Connelly Lead Golden Knights Past Slumping Oilers: The Hockey News Morning Skate",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ0JMMXUybElWTGduOUh4MTc4Z3lsdlJVZzlnSklKQVB1TnI1NUNjZUo4NE1zcUJpZFpvVk9BekRtN3ZFa1BxMjJzS1UxZ2VHdkQzZHdKa1h0X3hKQUdNZXgtZENSV21xVms3NXpISy1ZcVU3a0RhSFNIUFRmdVZUaXYySTlsTDNvS1NadDFPZ3BXYmprQzhnNm1ZTXRNeV9seWQ0ejJob1N5WlV2WTRYQ1Z2TEhyVE5veVFqWVlYR3JDTWEtWHBNZVI0MUs3dw?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-25T14:00:59Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "3 Takeaways From Oilers’ 5-3 Loss to Golden Knights",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPd1UzR25sdWtTM2NjTXFVamkwb2NqRWR6WjZmZGpFVmwwbF9LN3l5SlM5eGtOQ09vRmkzUkhrUk1tRlRUc1hFSXA1RFYzRmx2MzFNcUp3dHBMT3ZhMVlROXkwbVJ5OWNFSFc2RjJvSWIza0dGUkc0akVNam1JRkpuVlJSQlZzUFU?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-25T13:55:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "McDavid on slumping Oilers: ‘We’ve got to find a way to put a couple wins together here’",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVHI3RkVpSnAwZk1OZ252bFdVNmFvOU1IbG1VYWxQeTRvSGlxNDBUWVhJRHRmSTdwZDNzbXFlM3JPdHk5VXB1NzZ4SmVYdWN0Um9zcHRzVG1hNmZ3MEJueWdfWDRnY214dC1TMEhMazNrOFRJTE1EV3l6eUlwczhSYWRLbEM3UFkzUTZkS19Ubk1fbTlQTDVGRVNWY1ZjMXBHc2Z5Q3d4S3hTdXB2SUpMVTdveWVDaDA?oc=5",
+   "source": "TSN",
+   "published": "2026-11-25T13:29:43Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers’ skid extends to four in tired, error-strewn loss to Golden Knights: 10 observations",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSUMyNndJNk5YUUs2ZGhQaVJOMEVLVnNaZnhkRWpicld5LVBPMElEdDg2bHAtcHBnN2JVUnpEUnV5bUYzRmVPejdrQmFMWFRYQWs0M3E4eUh0RFlSaDBkQnhmYVJGZEpXMW53aVBLTUpyZFljRnBFZWt0Z3ZER2ZaTndfMEJSb3JxRVhGOFc5Nl9WRG8?oc=5",
@@ -89,14 +129,6 @@
    "via": "google"
   },
   {
-   "title": "Golden Knights' Wins and Sins: Connelly outshines McDavid in statement win over Oilers",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV2I4QWxna3FRb2p1d0RDNXVYWUFOSFA2cDlvOEJoc25LRHQwWTdkNU9oUnFuMGVKY2hQckk3ZEphTFNRVVI5TGRFR05IeUhMalBaMlZyN3dlbC1VRVRQRS14VXNFbjBQY0g1bEpsWWhZb2RCdUdEYUlkSmZkT2Z6ZkNfMzVQa09aR2xZUjVybFlyRmhsa3NUV3Y3dlhLM2pVaUZmVGJsVzVpNnNHVEtZSGRYM2c?oc=5",
-   "source": "Vegas Hockey Knight",
-   "published": "2026-11-25T07:23:22Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "QUICK RECAP: Golden Knights 5, Oilers 3",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNc090NDJUQlQyZkJWT3JJbmtzVktTdDkxV3BfZVZLMHk4NUtZNWNvWENyZGxQYXVodEVNbW1TN1pHQVEyTGRpSHJRVUdJc2t5QmJXQ2Q5UzJuV3RXN0JTa21yTVRWeVpKdFlVeWpSSEp1NmV0ckRmajZxMW9iU0F2NG9PU3g?oc=5",
    "source": "NHL.com",
@@ -121,36 +153,18 @@
    "via": "google"
   },
   {
-   "title": "Connelly, Eichel power the Golden Knights past the Oilers 5-3",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdzhvYUkxeHIwd2JFaWJCcGJSdFRjM0lZZVVyT2V5LTBaUlRNNmdKY29MalRoVTA3T0lkM3BPWm9IT0xPSXhNTi00ZEFicHozVEpzUVg3WWVkcnk0UUN4bmc0SWJDSm11YS0wY2t0cU9XWlJ1VTd3a3p3Rk5hd01YTEFrRndrejVsekU3NEE4NFFXQWQwUjh0bGlzYmVBZWVkM1ZLcVpR?oc=5",
-   "source": "KTNV Las Vegas",
-   "published": "2026-11-25T06:04:45Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Golden Knights get confidence boost with 'huge' 5-3 win over Oilers",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT1lqc2JwSFN5Z0hadkxQczZiVURrUG9LaDdkRjFKVjRBVlZmb05tZF92ZmJYZC04d0libEx3RV9KT3dHUEdhT2RxdHUxazJYQUNlWmw0TkRtT2xlZkJQeHRYc2FWN0xneHQzVUNrZlVDMlphOG1zVkhTcUFqSC12V1NXV1N5MGxWX01HZ0dRWkFSclptLVZJR3hTcWNfZjdxQXlsemdDR0FqYmxRV3c?oc=5",
-   "source": "Castanet",
-   "published": "2026-11-25T06:01:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Babcock explains decision not to challenge possible Oilers goal vs. Vegas",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLXR1QV9HZFJPODNucjZHNHFfY0pFVnFDNzVqSGhfalFUVktMVlpCdVNUenZ6WTYtZXk3bUxpNmVTMU5OWUkwVW80ZERHWGdXOEc3Rzh5TmV4V0taZDkzTms4dkNtdjhaREFZVmJNcVNzQ29xY0NlME8wc2tGSjk3WFc0QU1rOGxZMW9FcFdkWGdFUjlDc2NsVnJ0c2c0OFh5eFBsRHR4aHk1V2V2cHBJ?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-25T06:00:00Z",
-   "snippet": "",
-   "via": "google"
+   "url": "https://www.sportsnet.ca/nhl/article/babcock-explains-decision-not-to-challenge-possible-oilers-goal-vs-vegas/",
+   "source": "Sportsnet",
+   "published": "2026-11-25T05:59:52Z",
+   "snippet": "Head coach Mike Babcock ultimately chose not to challenge the play. The Oilers still rallied to tie the game 2-2 but unravelled in the third period to lose 5-3."
   },
   {
    "title": "Golden Knights topple Oilers in battle of best teams in Pacific Division",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUHhOY0Z6VWxrN20xR25oczllUVpnX3dVNl9UUnNvUHFjRkhSN0xrRkNOZDVvTjEzN2lpUjVnUkFfUTFPZElMYzZLQUpiQVRuT3ROQ2dkS1ZMX2JZbkZ0alpkTFdkT0h0RjlYN2lyT3hrS3Q5dU1WWkF2Z1VQRWdwU3BwRmRYVGR5X1JYRUlkaXhBR2RTTF9paDFCVndnbFM0NmlCNE9B?oc=5",
+   "url": "https://www.nhl.com/news/vegas-golden-knights-topple-edmonton-oilers-in-battle-of-pacific-division-best",
    "source": "NHL.com",
-   "published": "2026-11-25T05:57:50Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-25T05:54:36.619Z",
+   "snippet": "EDMONTON -- The battle between the top two teams in the Pacific Division lived up to its billing on Tuesday in what was the first encounter between the Vegas Golden Knights and Edmonton…"
   },
   {
    "title": "‘Pretty tough call’: Joseph, Babcock on Oilers’ disallowed goal",
@@ -188,13 +202,6 @@
    "snippet": ""
   },
   {
-   "title": "Oilers’ McDavid finishes off beautiful give-and-go with goal vs. Vegas",
-   "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-finishes-off-beautiful-give-and-go-with-goal-vs-vegas/",
-   "source": "Sportsnet",
-   "published": "2026-11-25T03:03:54Z",
-   "snippet": "Watch as Connor McDavid and Kasperi Kapanen connect on an incredible give-and-go to tie the game in the second period against the Vegas Golden Knights."
-  },
-  {
    "title": "BLOG: Elks welcomed onto the ice at Rogers Place as Grey Cup champions",
    "url": "https://www.nhl.com/oilers/news/blog-elks-welcomed-onto-the-ice-at-rogers-place-as-grey-cup-champions",
    "source": "EdmontonOilers.com",
@@ -207,13 +214,6 @@
    "source": "Sportsnet",
    "published": "2026-11-25T02:18:39Z",
    "snippet": "Watch as Vasily Podkolzin and the Edmonton Oilers think they get a goal back, but it gets called off for goaltender interference on Mathieu Joseph as the Vegas Golden Knights hold on to…"
-  },
-  {
-   "title": "Oilers celebrate Elks’ Grey Cup win before game vs. Golden Knights",
-   "url": "https://www.sportsnet.ca/nhl/video/oilers-celebrate-elks-grey-cup-win-before-game-vs-golden-knights/",
-   "source": "Sportsnet",
-   "published": "2026-11-25T01:16:49Z",
-   "snippet": "The Edmonton Oilers celebrated the Edmonton Elks Grey Cup win with a pre-game segment with Gene Principe and on-ice festivities before the Oilers’ clash with the Vegas Golden Knights."
   },
   {
    "title": "Matheson: Nugent-Hopkins' return forces Oilers to shuffle line combos against Golden Knights",
