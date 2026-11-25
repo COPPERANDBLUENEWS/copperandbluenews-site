@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-25T09:49:51Z",
+ "updated": "2026-11-25T10:18:42Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (7)",
-  "Google News (97)"
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
@@ -57,14 +57,6 @@
    "via": "google"
   },
   {
-   "title": "Trevor Connelly enters Calder conversation in Golden Knights’ win over Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWWJGMlhTcXhwanFhalVLNlMxZXlPcHRXd2Q1QVdyUkZFMnVNZzFlN2VNdlNWWm9kX3EtLWhlSW9HUE43ZUtoeEZVTk1xN0ZMUFFSeHByZXpESXlBTzVLRE9TV3JFanJpcVlNelFoSHFqNURneWQ2eXBySmR5b0dxakE5RWVqQ18zX2FIa1lIbm5yRm80ZnRlTVFvUGpiSUtKcTlwRjRhR0Zkc3Brck5nSWUtUXc0N2t6b1JON2xCa0Z0UQ?oc=5",
-   "source": "The Sporting Tribune",
-   "published": "2026-11-25T07:05:25Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers look ‘flat-out tired’ in loss to Golden Knights",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNb283SVpPS3Qtd1RubnZfYzRpeHY4UUJXUVBVUEhadlg5M0wtZFVqbVBqdFpVeG5MbUY0ejhJV3owV1ItOEtUU0NmWExHS1FmdDBTd1MtNFAyVFZNRDVGTXk1VERBdXAtQ1I2bnZfeUg0QlJFRWUxZXZQdjhieDF2UlRFZElzcW5RVlkxb2tGcG12dw?oc=5",
    "source": "Sportsnet.ca",
@@ -113,18 +105,10 @@
    "via": "google"
   },
   {
-   "title": "The Cult of Hockey's \"Bad mistakes, bad reffing dooms Oilers vs VGK\" podcast",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWHBncWtwTkJXdGlMZWV4RVlycXEtd0Q1UnRGTFFzZG1fVDhKRy02STdTczBZZHFkcDhGQzBkVlh0cDRTWWVON1FnamVCVjJuQzZFZ3dmS1FOdTNqZlRaYzlEcnVZNk5QWXVWdnVQV3RrV3ByMHFJNTZhUWFodWxkM21rSEdmSTRVNlRrcmhKRk43elRzd3k2Vnp3YjhSOXNfVHF2dngxc3lER0hkU2NlQlhEYWlfNDBYLUJQQk01dVJhLVFYeHBhNFdXLU5tUVhtcWhlQ2UxU2FOZFE?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-25T05:29:12Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Golden Knights get confidence boost with 'huge' 5-3 win over Oilers",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNekNuU0c3YjJoSTU0OVJ2VUFuTjBQVkY3SVhvLV9wTWE2RE5uV2U5VmhuNWl6eWZKSzBvTDRNQkpPWnVFZkNrQWU1SDVKUU8tOGhycUJYOHI0a1didEt4b2wwUlJvOFQwN2hKZUlHOWNka2FWLVlQUmNCZXIxNkd0ZmlIOTkxbEFKQV9ORHBjY0lQLXhDQlNzbGE5TS1KeGo3SWhQdU9seGdib3ZQRlE?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT1lqc2JwSFN5Z0hadkxQczZiVURrUG9LaDdkRjFKVjRBVlZmb05tZF92ZmJYZC04d0libEx3RV9KT3dHUEdhT2RxdHUxazJYQUNlWmw0TkRtT2xlZkJQeHRYc2FWN0xneHQzVUNrZlVDMlphOG1zVkhTcUFqSC12V1NXV1N5MGxWX01HZ0dRWkFSclptLVZJR3hTcWNfZjdxQXlsemdDR0FqYmxRV3c?oc=5",
    "source": "Castanet",
-   "published": "2026-11-25T05:22:07Z",
+   "published": "2026-11-25T05:31:14Z",
    "snippet": "",
    "via": "google"
   },
@@ -145,10 +129,26 @@
    "via": "google"
   },
   {
+   "title": "Connelly, Eichel lead Golden Knights to 5-3 win over sluggish Oilers",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQVJxYnB1MzlCX09zMnZ6ODlvaFRkVkJvSnB4UnlWVnRlUFZMc1FXc0dqRU1nbEZRQS1NYXN6dDhSYUpIQ293VHQ1OWgxQWVDNElZNmNMc01yTHI5OVpuM1Q1RU52MW9zbHBxdDV1SGVJVFoxMUt4LWVtTHJMRmVPTmQ4bUZmZGowMFNSVHNILVVOa1J4R2ZuamxvMkFpTmlzdjFUV3JodWwtRzJPcE9sYQ?oc=5",
+   "source": "Castanet",
+   "published": "2026-11-25T04:56:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers Drop Fourth Straight as Turnovers and Tired Legs Sink Them Against Vegas",
    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbUNMbDgxREZCelZ0SmRSR2VHNlpRalZ3cEdQdV9BajdTdlg0OXVQU3JPWW1UZWYydFMtMERLZmo5RVFUOGJUMW1FbVh0azZ3VzZpQkN2QXpyWDhHRTRjc1V4MXRSYi1reWZXV3lHQXdlR0hVUE5XSmxBMWRXTlJuNk9mV2h3TzBEektmU2xUSU56M1BtbVctaFVkTTZPeTJIMWtoWnUzenpGVXQ4SkdyUnNiUUhrOTZubmJ1MWpYbFU0RHFMalFkYzhNeWpKcjk3bjlN?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-25T04:52:34Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "POST-RAW |Evan Bouchard 11.24.26",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbWtubTZwakhaVEdjSDZOUVBBaWUtV0dXbTlsVGo2UTE1TjFScEp5MGFKamo5LU1aT1FCR0phcW9NaHF6dXcyNTcyQW1BTFpMOGRtdmFGTGFEOVRFd05qMXd0eUxTRG96TzJhVUtydWhOS3E3N2xvUmdhVlJlVU53M3NSN3V1VjU3LTlfTU5Jb19fblpuOXg3QkpLcw?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-25T04:43:18Z",
    "snippet": "",
    "via": "google"
   },
