@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-25T22:33:43Z",
+ "updated": "2026-11-25T23:28:18Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (10)",
-  "Sportsnet (6)",
-  "Google News (90)"
+  "Edmonton Journal (50)",
+  "Sportsnet (5)",
+  "Google News (89)"
  ],
  "errors": [],
  "items": [
@@ -12,7 +12,15 @@
    "title": "Oilers notebook: Savoie poised for conditioning stint in Bakersfield",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb0dxMDM0cUhzbzJFRlplcTRUa1FYeTZMckppeEtIbGE2U0dmbDl3NFJQTFd4RlRlUE1JZkQ0NF9KZUdDbXdpUENJdXBSQVg4Y1BqRXNSMzNiZmtaVm11Vk15MzI5NnJkaVBNbWVUZHE1cUk4VTRwX0dRVHRCRV96NHVuTEtrRV9YZk5SbEZnZ24?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-25T22:29:53Z",
+   "published": "2026-11-25T22:28:23Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Ten Thoughts: Why Oilers fans shouldn’t panic after four-game skid",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZndRcE9tdzJIV0dqMFE4NmZzQXRjeU5KbjY0blh0eXlqRXRIZXZONjFNWTJnMDRoZHk2MHJ6T0tfcHowQVRFVWRvQTFHVjNNZVJBREJUYmIxa1RrRUN3WUFiRmpYRUJYN0JjdVVMeXVheEk5TEpFYlF2ZEVMa3BTNEpwbXJaLWI1OEhCdHdMVU5PQ2Y0Nld1UVlmTkcyaUV5RHBfejJCZWRpVTQ4M2c?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-25T22:22:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -21,14 +29,6 @@
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNGFRcXNSRkZsaE9GeWk0dkxYVk5kWEJUS3RpZHZEalh2R3ZLbjJvWlhzZ1hoWEZCbzl5aVFHb2o3M2NsRDFoQldCVExSLVBUR2d1RmROeXgtMTRvZ0phZ1V2ZGwxUWYzWjJmR3pvSUVTdWxCY2NPRFhXRUhqQVY5anllVlY2TWRvRHVLb2pjRjJic3pBb3JITzk4R0JiYmpTWGZkcTRqb1FHM1Q3VXlFUFpsUThxV3dXSTlGXw?oc=5",
    "source": "Telegraph-Journal",
    "published": "2026-11-25T22:14:12Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers Searching for Answers After Four Straight Losses",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObjN6OHVEblNWQm9SYUw0WFRFUl8xbHBXLU5MNkwtWGhSRDJ0VUVuMkNBWVl3TjFYZm9wTzVoT1pCUXZvSXlBZWFvYnZuZ2VRTGhqeXNCTEVzdkRkeGFubUE0Z1BHLUY2YnR3UEx6aWRmVTNRQVNDekxVckM5VG80dUZyOW1xaW9FRG1KeXlvNkJrbDBxanc?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-25T21:49:02Z",
    "snippet": "",
    "via": "google"
   },
@@ -76,6 +76,14 @@
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVjJDMHQxNEJoRlZncnpla0MyRUN3WU1NdkhfTWZfb0JXRWhVMEZ1Z2NQWHVQdldlS2l2VzQyNDl6aUhNN0VsMnQtemJfNEVaWG1UWUFEVF8weVZOZElwU3lBUFVnMGVqSDR0OTVxN3lEVU9yRktSQjh6WUpCQzhzY19zdHJrdUZfRlRyclY4eWR5TGFwYk82ZWtxbDJxUF9UUjRLWHFB?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-25T20:04:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "RAW | Leon Draisaitl 11.25.26 | Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3NnBwWjJWcmFlQjFLYkFNck1BM1RGTkVXenZIbGFETHFEa2F2eGViajFVX3ljSEFIY0V3eVhRRE9qRjhlamQwRl9UaTl6bU5IRTFHTGhVdU5idEdGc1M3NlowLVlDRVh1U24xa1R1MUFuVW1QNXZ0Z0RLMTVraGs?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-25T19:19:47Z",
    "snippet": "",
    "via": "google"
   },
@@ -166,14 +174,6 @@
    "via": "google"
   },
   {
-   "title": "Golden Knights brimming with confidence after huge win over Oilers",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMm03cDhZYkxqWE5hcy1QcmVCcEhndU12NHBlVXNNRG1BWFlybE1vOEpNUV9ybkxoOWp5dVk3TVBYU0QyOTVPcVh0MnZHVnFBai1wbzNHSW5CbW1tb0UtWXhvak9tZDQ3a19zZEZZZmJFLUR0SEFqOWFycEpMWk5IbW9PaDQ5c3VvY1VtUDJxa2xHeXN5ZmFlMWlPam5NVHhpMTdfZQ?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-25T15:54:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Babcock explains decision not to challenge possible Oilers goal vs. Vegas",
    "url": "https://www.sportsnet.ca/nhl/article/babcock-explains-decision-not-to-challenge-possible-oilers-goal-vs-vegas/",
    "source": "Sportsnet",
@@ -196,17 +196,10 @@
   },
   {
    "title": "Eichel scores twice, Golden Knights hand Oilers fourth straight loss",
-   "url": "https://www.nhl.com/oilers/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026-x8132",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026",
+   "source": "NHL.com",
    "published": "2026-11-25T05:10:00Z",
-   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss, 5-3 at Rogers Place on Tuesday."
-  },
-  {
-   "title": "Oilers show natural signs of fatigue in loss to Vegas after taxing road trip",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-show-natural-signs-of-fatigue-in-loss-to-vegas-after-taxing-road-trip/",
-   "source": "Sportsnet",
-   "published": "2026-11-25T04:56:49Z",
-   "snippet": "The Oilers looked tired, performed tired, and made tired mistakes in a loss to the Golden Knights on Tuesday, It’s just not easy for a team to be at its best after a six-game Eastern road…"
+   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss with a 5-3 win at Rogers Place on Tuesday."
   },
   {
    "title": "Worn-down Oilers cannot summon a win at home to Vegas, lose 5-3: Cult of Hockey Player Grades",
@@ -277,6 +270,13 @@
    "source": "Edmonton Journal",
    "published": "2026-11-24T13:43:35Z",
    "snippet": "It's no mistake the Oilers' best start in decades coincides with McDavid's best start to his career"
+  },
+  {
+   "title": "Signed Wayne Gretzky Warhol print expected to fetch $25-30K at auction",
+   "url": "https://edmontonjournal.com/news/edmonton-oilers-wayne-gretzky-andy-warhol-art",
+   "source": "Edmonton Journal",
+   "published": "2026-11-24T11:00:30Z",
+   "snippet": "\"It's a rare case: A Canadian figure chosen by the most famous post-war contemporary painter in the world\""
   }
  ]
 }
