@@ -3,7 +3,7 @@
   "id": 2026020385,
   "startTimeUTC": "2026-11-25T01:00:00Z",
   "gameDate": "2026-11-24",
-  "state": "FINAL",
+  "state": "OFF",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -279,7 +279,7 @@
    "num": 35,
    "pos": "G"
   },
-  "note": "Levi will start vs. Vegas on Tuesday. "
+  "note": null
  },
  "scratches": [
   {
@@ -469,8 +469,8 @@
     "num": 33,
     "pos": "G"
    },
-   "note": "Hart led the Golden Knights onto the ice for warmups. "
+   "note": null
   }
  },
- "updated": "2026-11-25T04:08:57Z"
+ "updated": "2026-11-25T04:46:25Z"
 }
