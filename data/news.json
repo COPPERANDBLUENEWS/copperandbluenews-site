@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T19:36:28Z",
+ "updated": "2026-11-25T20:30:49Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -9,10 +9,25 @@
  "errors": [],
  "items": [
   {
+   "title": "Friendly stretch in schedule gives slumping Oilers time to regroup",
+   "url": "https://www.sportsnet.ca/nhl/article/friendly-stretch-in-schedule-gives-slumping-oilers-time-to-regroup/",
+   "source": "Sportsnet",
+   "published": "2026-11-25T20:17:05Z",
+   "snippet": "The Edmonton Oilers will have plenty of time to unwind over the next month. Mark Spector checks in ahead of a two-day break with some news and notes."
+  },
+  {
+   "title": "Devon Levi’s Recent Struggles a Big Concern for the Oilers",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUm9wbG9uclVvNVpzb3dCOGJyN0x0cDEwbnJMVEJGQklkOGVaNjlLWGdFVTRaT0REWXFlQmxMQ0d3WVJsSUJFRzhFRjQyaUI0TXhTLTVpVHpEcUVBZUxZY0N0Ulowc2ZZeC1ZRWQ4Uy1hZ0s5eVJUQ2Y1N2pOV012ZXljTVRxaDdUSFBVTE0ydE0?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-25T20:15:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers Having Nothing Of Tired Excuses",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOck5rTTZUNWI2dnFjT2NoMURKUFdvRGw5ZkpFR3M5b3BqcDQ3MGloOTNJZE9PWHlPc2stY1BZN01NX0dKWGU2SDB4WnFWd09XckM0RGVhVHR2VHFPT1VrMFZTT0xLemJOcmFWYVpFekQ5MTd2WENNWm1BMVJTSzVoMm1CckVGTERVNXBlclk1dFVUck9V?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-25T19:15:18Z",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVpUUU1ES3d5LWs1VkpKZjNyRE83STdFa0oxSGxQVjBab094T2lZNlEwZnhZN1hzekVuUTNFRGxVNG5fSHZCYWFKS1FZRmZ5OVdWWUFuRm52alJYcko5ZHhiLUxlWHYwRE5BVWgyREpnYnlBOGo1RzgxVlE4N0Vkbm9yTElwSTBhRXdaRnZJSGVvcDJveTQxaHlPYzI?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-25T19:16:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -20,7 +35,7 @@
    "title": "'That wasn't good news': I-bomb flattens Edmonton Oilers organization from top to bottom",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSGl2bXluT05NTW5PeVVlcng0ejJTTGRlVlZySUQ4TF94RGZaU3Fla0NaUlZCbHRkd2pJLTdWZ2tfV2NxVnVqWXMtbnZoejBVSmhRVGdQN0xtZ3NpZGtfVlRYYjE2TVM2ZlNjTTNiSWl2a05kakpTYlNiTTRfVm5pdkZRT2Y5Q2pleVZNU3BFNlBEX3VTV21leTFMVXdoRm5MSDBibzMyemVrTWJvaTdhMm54RVFVaEZ5dFI0RUtR?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-25T18:50:41Z",
+   "published": "2026-11-25T19:02:39Z",
    "snippet": "",
    "via": "google"
   },
@@ -65,7 +80,7 @@
   },
   {
    "title": "Golden Knights Close the Gap on Slumping Oilers in Pacific Division Race",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaTAtNHlZandINDZFVEVhRmdrdnJhcjU2U1N2UXJUOXVjSlBITF9BV25xRGlQVXRwMXZ4Mk1nNnl2NGtOaktVRm9hMF9RLWVtd2cxblVoYlFpYzZRanZtX1oyWmhrbzU2ZllieWJPekMta3daZTNNcEZiNnc0RnI0QURSQVdqUFZJcjEtS0R1bw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeFlDLWJtZ1F2SkhKa01kYktQalp6S0tOR2lOZVlHN0ZJLXpoU1FtTmM0SEpFMHV1M3BCclBYNHFlY19lbHJXS2lKVUhxcUp2MlhiakI1eEtaSmNFYnR5MjZ6RDRHYnlkZ3JyaURiYlRqYy1vd21Qa01rZ1R2S0EwZXZELVBHLVo3?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-25T16:55:32Z",
    "snippet": "",
@@ -159,14 +174,6 @@
    "via": "google"
   },
   {
-   "title": "Breaking down the Oilers’ neutral-zone system: How Edmonton protects the blue line",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd0RBWEtXc3JEdzNUREN3dmNWcnRZS3dUUmxBOWZkUTQxYU1RaS1DbmdMY1FHU1JndVFRMFhkQ2hrMVFYQ3RmbjhXTlpYVXRaWTNzdm14S2l5RTFXeDRZdnYwSnhSSWhsMHZNZy1DeDdqdnd5cjBkcFZsRGZGSEJLRlFXaWdDdFc2NVFGRlR2QzlrMkE?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-25T14:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Babcock explains decision not to challenge possible Oilers goal vs. Vegas",
    "url": "https://www.sportsnet.ca/nhl/article/babcock-explains-decision-not-to-challenge-possible-oilers-goal-vs-vegas/",
    "source": "Sportsnet",
@@ -200,13 +207,6 @@
    "source": "Sportsnet",
    "published": "2026-11-25T04:56:49Z",
    "snippet": "The Oilers looked tired, performed tired, and made tired mistakes in a loss to the Golden Knights on Tuesday, It’s just not easy for a team to be at its best after a six-game Eastern road…"
-  },
-  {
-   "title": "Kypreos grades Oilers’ performance so far this season: ‘Should be an A’",
-   "url": "https://www.sportsnet.ca/nhl/video/kypreos-grades-oilers-performance-so-far-this-season-should-be-an-a/",
-   "source": "Sportsnet",
-   "published": "2026-11-25T04:05:55Z",
-   "snippet": "Nick Kypreos joins Sportsnet Central to discuss the Edmonton Oilers’ 5-3 loss to the Vegas Golden Knights, the grade he’d give the Oilers so far this season, and more."
   },
   {
    "title": "Worn-down Oilers cannot summon a win at home to Vegas, lose 5-3: Cult of Hockey Player Grades",
