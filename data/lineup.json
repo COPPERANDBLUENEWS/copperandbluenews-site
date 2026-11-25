@@ -3,7 +3,7 @@
   "id": 2026020385,
   "startTimeUTC": "2026-11-25T01:00:00Z",
   "gameDate": "2026-11-24",
-  "state": "FUT",
+  "state": "LIVE",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -13,7 +13,7 @@
   },
   "puckDropPT": "Tue Nov 24, 6 PM PT"
  },
- "status": "Projected",
+ "status": "Confirmed",
  "forwards": [
   [
    {
@@ -243,8 +243,15 @@
    "status": "Day-to-day"
   }
  ],
- "notes": [],
+ "notes": [
+  "Dressed players and starting goalie are official (NHL game sheet). Line combinations are DailyFaceoff's; the NHL doesn't publish lines."
+ ],
  "sources": [
+  {
+   "name": "NHL.com Gamecenter",
+   "url": "https://www.nhl.com/gamecenter/2026020385",
+   "what": "official dressed lineup"
+  },
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
@@ -292,7 +299,7 @@
   "abbrev": "VGK",
   "name": "Golden Knights",
   "place": "Vegas",
-  "status": "Projected",
+  "status": "Confirmed",
   "forwards": [
    [
     {
@@ -431,6 +438,11 @@
   "notes": [],
   "sources": [
    {
+    "name": "NHL.com Gamecenter",
+    "url": "https://www.nhl.com/gamecenter/2026020385",
+    "what": "official dressed lineup"
+   },
+   {
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/vegas-golden-knights/line-combinations",
     "what": "line combinations",
@@ -450,15 +462,15 @@
     "num": 79,
     "pos": "G"
    },
-   "status": "Likely",
+   "status": "Confirmed",
    "backup": {
     "id": 8478499,
     "name": "Adin Hill",
     "num": 33,
     "pos": "G"
    },
-   "note": "Hart was the first goalie off the ice at Vegas' morning skate on Tuesday. "
+   "note": "Hart led the Golden Knights onto the ice for warmups. "
   }
  },
- "updated": "2026-11-24T18:28:38Z"
+ "updated": "2026-11-25T01:17:47Z"
 }
