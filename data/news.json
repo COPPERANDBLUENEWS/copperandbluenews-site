@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-25T16:04:25Z",
+ "updated": "2026-11-25T16:17:38Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (50)",
+  "Edmonton Journal (10)",
   "Sportsnet (5)",
-  "Google News (93)"
+  "Google News (94)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers’ Four-Game Skid Exposes Fatigue And Turnover Woes",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR1hzMlN3MWpmSW82TVhldkZUQzlzbUkyUURsaVJjSnQzSWR3cEVTWHhoc05rVTBVd1oxNHdLLWNlRHdUaHFROHJXWURzUE5ULUVTN3MzNElqZm54ZkZ4djdhMWVPcm5wdE1ycEcyRXVoUGh1c3NDel81Q2V5V0dOMk5ZaFJvR1NiQWc?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-25T16:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "NHL broadcaster stops in Edmonton as part of her ’32 arenas in 35 days’ challenge",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNei1NRmZybEo4bzZwOHB5M01hWEFsM05XX0xJSjZXYVJHNVJjUU9sd3M3SDEyUDc0R01YRFlZMFdGZ3hMQW8zbnQ5MlJhM2pLLVNqWjdyMjRUUmtXWjVfTUV3VFd3OTdFS3laSUpxeG9Zb3BySnZMVkJRTmxZWk1YV3NnTUNhT3FKSkJR?oc=5",
@@ -89,10 +97,10 @@
    "via": "google"
   },
   {
-   "title": "Oilers’ skid extends to four in tired, error-strewn loss to Golden Knights: 10 observations",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSUMyNndJNk5YUUs2ZGhQaVJOMEVLVnNaZnhkRWpicld5LVBPMElEdDg2bHAtcHBnN2JVUnpEUnV5bUYzRmVPejdrQmFMWFRYQWs0M3E4eUh0RFlSaDBkQnhmYVJGZEpXMW53aVBLTUpyZFljRnBFZWt0Z3ZER2ZaTndfMEJSb3JxRVhGOFc5Nl9WRG8?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-25T12:00:13Z",
+   "title": "Golden Knights get confidence boost with 'huge' 5-3 win over Oilers",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNENib0ppVnl4UEZzcUhibzRXMjQzNEVwVDAwYnBwWWd5bEZRNWtVejdGaTBrT1ZPV29qcG1WQkRmb3haLUItbVhncTB5MG96cG94RWFIRGd4NGZ5MUgyWlBuNmJhVGI3MUxpMDBCSnoxY2loak1FUWJzMllLTFJkTnJMU210RERyMHg3SUdvOXIxOG1JMVRyR2o4ZDd5SzNVdDJEeHlmRWNmQzVHYnJjbG14U3g?oc=5",
+   "source": "CTV News",
+   "published": "2026-11-25T12:42:45Z",
    "snippet": "",
    "via": "google"
   },
@@ -121,6 +129,14 @@
    "via": "google"
   },
   {
+   "title": "Oilers vs. Golden Knights Game Recap, Leon Draisaitl Underappreciated & Latest News and Rumours",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTi0xQUwzOTBmeVBwajZOODUyTWdHOU1uNVZyVTk4eC1wcGNnbnljQjljck00UGRvM0tpT0VUNk5pc0xmbVZaSG52OHluRWtILWo5dHRiZno4dHdqQjVCR1A5OGEzTmpWOEh1elhzUURBQW9YZEhsbjNPTWRHOFRHMA?oc=5",
+   "source": "Substack",
+   "published": "2026-11-25T11:36:05Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Revisiting the Canadiens and Avalanche Patrick Roy Trade & Oilers’ All-Time Top 8 European Defencemen",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaXU5amhLUmI3eG9aYmRwN3A1cUdKVHFyb0lDNUR4OTROMHV5bDl5ZDJqTm1rdDRVUjgxbGpuTEVoQTdRZlBHRHJtR0J0cEtSVWRFdWZrY1BURWJiaDJVY29KeHNubng3LUg1bEpPRHJCN09fal9IU1A1eFhIaFZGQjlkVmZzcVpKdUE?oc=5",
    "source": "Substack",
@@ -133,22 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEpXREc0eU5pRWdVUTN4bDdJS25LX1JwbWVDVEwtcU00VWFTTndkX2o4dGFkNzVFV0swdlpva1dIWXVrUExqSkZjSHFtSzhhUVVRUy12YS05S1Nra1ZJX1hlX2Z5NUJNMGduNzFnR1FfdlpxakVlS2I0OEpDZnN5MHJ4bHNBczh2WUptTzJEek81Vm50MVNKc0ln?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-25T11:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Edmonton Oilers dynasty of the 1980s",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaDBlWjRzZmswODJ4YmhFR1FValQ5bDc2RFJvMEFJU3g4LWdlcFljTnAyQUM4eklZcU9ucUdQYWVFaXBwcHF5WWZxWEk3NEdvS1NvUmdfbTJwSmszaml6V2t6dDU4N3NGcW1NVGNiNFRfVkwwV3pxRzZOdC1GdEdWbGUwazRENFRkQzBJRVdnWm9KWXFwMFFv?oc=5",
-   "source": "Premium Times Nigeria",
-   "published": "2026-11-25T08:27:42Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers vs. Golden Knights (Nov. 15)",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRXdfaFczeTRlczRIYmtsUXV3VW04M2Fhd01tbVlWXy0zM3p0VGZ2dnlHQndKQUNXUmZhZ0w4a09ma2Nxam1RSy1iZ0hyYUR1SG1nVl96a05kd2VVanhsZnVNR09MMnltcnk2RWpyY3FEMUlkYk43akJSTE5jd1lHZjN3aTJ4VEQ3SFpucA?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-25T07:41:57Z",
    "snippet": "",
    "via": "google"
   },
@@ -175,10 +175,10 @@
   },
   {
    "title": "Eichel scores twice, Golden Knights hand Oilers fourth straight loss",
-   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026-x8132",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-25T05:10:00Z",
-   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss with a 5-3 win at Rogers Place on Tuesday."
+   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss, 5-3 at Rogers Place on Tuesday."
   },
   {
    "title": "Oilers show natural signs of fatigue in loss to Vegas after taxing road trip",
