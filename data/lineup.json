@@ -3,7 +3,7 @@
   "id": 2026020385,
   "startTimeUTC": "2026-11-25T01:00:00Z",
   "gameDate": "2026-11-24",
-  "state": "LIVE",
+  "state": "CRIT",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -472,5 +472,5 @@
    "note": "Hart led the Golden Knights onto the ice for warmups. "
   }
  },
- "updated": "2026-11-25T01:17:47Z"
+ "updated": "2026-11-25T03:38:37Z"
 }
