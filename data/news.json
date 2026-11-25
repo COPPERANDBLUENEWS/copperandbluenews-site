@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-24T23:28:17Z",
+ "updated": "2026-11-25T00:28:15Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (3)",
-  "Google News (89)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Reflection On Oilers Trade History After Larkin Move",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcGRONjd6SlpPTFc4YV8wNDRtVVB0V2U0cXBmYmlCSlAxYXY1cWI5YU1TdHhaSXJjU1hZNWlKNVdWbGdJVGo4d2N1NHpIOWhrY0FCTHd5YlA2QzFNbHJOM1hRQnVNU3FzczctVjV2V0RKeXVUWks3RV9mUjlDSGVUR1VHaFBrQjFTT0RIR3lXTjAwTnFETzd5bHlwSlFzZEI0QnpiN1prdnpBMWNOdktV?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-25T00:01:55Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers' Nugent-Hopkins back in lineup, Hyman remains out vs. Golden Knights",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdW8zSlhnZHNTajdEYjR0YWVkQXYwaDFDQllzQzhkNUZOQ1UwZWF2YUNLbVpZdFBUaGlTeWw2bXp1MGN4cTB2NDZsSk1aYWoyNEM3NTlSV1F5dDBPY0tPb1VJd0lEVjhXd2hSdDB0clcyWlgzRXBDeGxaOWU4djZQWGV3aFY2QmtNUEZDQ2FYREcxTkdqWXQxOVgxZ1dpUVpSNWxyTHAwcXJxcHFKYk9r?oc=5",
@@ -81,14 +89,6 @@
    "via": "google"
   },
   {
-   "title": "Golden Knights’ Mitch Marner on verge of joining Connor McDavid, Sidney Crosby in elite company",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdjZJWGNnTS10UUJqQ0Nra3luQ3NscjVBM0tHaUlJdloxaU4wWE5JSEZNRmJhVnZQbGdMM1Z3M2NLbWE4Y0VDS1hMMlp3V3NSY2RWRldiSk8weGhRZzJ2SWRiemlYT3pnVXZ3bmxsbGlQSnFCRnpSc0N0V0M3T3JYWFhfc1VJYnRnQVE?oc=5",
-   "source": "Yahoo Sports",
-   "published": "2026-11-24T20:17:37Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers’ Ekholm on bouncing back after losing streak: ‘Have to learn’",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-ekholm-on-bouncing-back-after-losing-streak-have-to-learn/",
    "source": "Sportsnet",
@@ -130,7 +130,7 @@
    "title": "NHL Status Report: Nugent-Hopkins back for Oilers against Golden Knights",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qYm5qS0tQaEY5eTJJSzFKTFBya0U4bm41T25IWXRxWWExOHBPSzVMQkNCZUpQWkFjTlBFOWtDWTdfeC12U3UzNkJmSlR0LURiLWF2NFBKU0RCZlpuUE45c2gzX2Nob1VwNnZWc3ZKV3pmQV9hY2YxZmRDYXlrMFk?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-24T18:56:15Z",
+   "published": "2026-11-24T18:56:37Z",
    "snippet": "",
    "via": "google"
   },
