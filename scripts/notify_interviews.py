@@ -64,7 +64,7 @@ def load_current():
     data = json.loads(OUT.read_text())
     videos = []
     for v in data.get("videos") or []:
-        if not isinstance(v, dict) or v.get("type") not in ("Pre-Raw", "Post-Raw"):
+        if not isinstance(v, dict) or v.get("type") not in ("Pre-Raw", "Post-Raw", "Raw"):
             continue
         vid = v.get("id") if isinstance(v.get("id"), str) else ""
         if not YT.match(vid):

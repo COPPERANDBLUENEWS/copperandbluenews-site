@@ -11,7 +11,7 @@ export const BASELINE_CAP = 8;
 export const SEEN_CAP = 400;
 
 const YT_ID = /^[A-Za-z0-9_-]{11}$/;
-const RAW_PREFIX = /^(?:pre|post)[\s\-\u2010-\u2015]+raw\b\s*[:|\u2013\u2014-]?\s*/i;
+const RAW_PREFIX = /^(?:(?:pre|post)[\s\-\u2010-\u2015]+)?raw\b\s*[:|\u2013\u2014-]?\s*/i;
 const TITLE_DATE = /\b\d{1,2}\.\d{1,2}\.\d{2,4}\b/g;
 
 export function interviewName(title, full = false) {
@@ -29,7 +29,7 @@ export function normalizeVideos(raw) {
     if (!v || typeof v !== "object") continue;
     const id = typeof v.id === "string" ? v.id.trim() : "";
     if (!YT_ID.test(id) || seen.has(id)) continue;
-    if (v.type !== "Pre-Raw" && v.type !== "Post-Raw") continue;
+    if (v.type !== "Pre-Raw" && v.type !== "Post-Raw" && v.type !== "Raw") continue;
     const title = String(v.title || "").replace(/[\u0000-\u001f]/g, " ").replace(/\s+/g, " ").trim().slice(0, 180);
     if (!title) continue;
     seen.add(id);
@@ -90,7 +90,7 @@ function groupAlert(type, list) {
   const who = shown.join(", ") + (more > 0 ? ` +${more}` : "");
   const line = `${list.length} new ${type} interviews: ${who}`;
   const ids = list.map(v => v.id).sort();
-  const kind = type === "Pre-Raw" ? "pre" : "post";
+  const kind = type === "Pre-Raw" ? "pre" : type === "Post-Raw" ? "post" : "raw";
   return {
     id: `interview:${kind}:${list.length}:${fnv32(ids.join(","))}`,
     type: INTERVIEW_TYPE,

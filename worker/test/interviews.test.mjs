@@ -11,7 +11,7 @@ const recent = new Date(NOW - 2 * 3600 * 1000).toISOString();
 const old = new Date(NOW - 10 * 24 * 3600 * 1000).toISOString();
 
 function video(id, type, name, published = recent) {
-  const label = type === "Pre-Raw" ? "PRE-RAW" : "POST-RAW";
+  const label = type === "Pre-Raw" ? "PRE-RAW" : type === "Raw" ? "RAW" : "POST-RAW";
   return {id, type, title: `${label} | ${name} 11.24.26`, published, url: `https://www.youtube.com/watch?v=${id}`};
 }
 
@@ -23,6 +23,8 @@ const ekholm = video("GPvBSgKOrrI", "Pre-Raw", "Mattias Ekholm");
 assert.equal(interviews.interviewName(babcock.title), "Babcock");
 assert.equal(interviews.interviewName(mcdavid.title, true), "Connor McDavid");
 assert.equal(interviews.interviewName("PRE-RAW | Ryan Nugent-Hopkins 11.24.26"), "Nugent-Hopkins");
+assert.equal(interviews.interviewName("RAW | Mike Babcock 11.25.26"), "Babcock");
+assert.equal(interviews.interviewName("RAW | Leon Draisaitl 11.25.26", true), "Leon Draisaitl");
 
 const one = interviews.planInterviewAlerts([babcock], ["seeded"], {notifyIds: [babcock.id], now: NOW});
 assert.equal(one.alerts.length, 1);
@@ -36,6 +38,17 @@ assert.equal(batch.alerts.length, 1);
 assert.equal(batch.alerts[0].title, "3 new Post-Raw interviews: Babcock, McDavid, Bouchard");
 assert.equal(batch.alerts[0].url, "/news.html#raw");
 assert.equal(batch.alerts[0].body, "Babcock, McDavid, Bouchard");
+
+const savoie = video("rawSavoie11", "Raw", "Matt Savoie");
+const draisaitl = video("rawDrai1111", "Raw", "Leon Draisaitl");
+const scrum = interviews.planInterviewAlerts([savoie, draisaitl], ["seeded"], {notifyIds: [savoie.id, draisaitl.id], now: NOW});
+assert.equal(scrum.alerts.length, 1);
+assert.equal(scrum.alerts[0].title, "2 new Raw interviews: Savoie, Draisaitl");
+assert.equal(scrum.alerts[0].url, "/news.html#raw");
+assert.equal(scrum.alerts[0].detail.interviewType, "Raw");
+const oneRaw = interviews.planInterviewAlerts([savoie], ["seeded"], {notifyIds: [savoie.id], now: NOW});
+assert.equal(oneRaw.alerts[0].title, "Raw: Matt Savoie");
+assert.equal(oneRaw.alerts[0].url, "/news.html?v=rawSavoie11#raw-rawSavoie11");
 
 const mixed = interviews.planInterviewAlerts([babcock, mcdavid, bouchard, ekholm], ["seeded"], {
   notifyIds: [babcock.id, mcdavid.id, bouchard.id, ekholm.id], now: NOW,
@@ -153,7 +166,7 @@ assert.match(sw, /VERSION = "cbn-v56"/);
 assert.match(sw, /data\.type === "interviews"/);
 assert.match(sw, /\/notifications\.html\?id=/);
 const pwa = fs.readFileSync(new URL("../../js/pwa.js", import.meta.url), "utf8");
-assert.match(pwa, /"interviews", "Pre-Raw &amp; Post-Raw interviews", true/);
+assert.match(pwa, /"interviews", "Raw interviews \(Pre-Raw, Post-Raw, practice\)", true/);
 const page = fs.readFileSync(new URL("../../notifications.html", import.meta.url), "utf8");
 assert.match(page, /id="alertSettingsPage"/);
 assert.match(page, /Pre-Raw and Post-Raw interviews/);

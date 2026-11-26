@@ -61,7 +61,7 @@
     ["goal", "Goals (both teams)", true], ["period_end", "Period ends", true],
     ["close_game", "Close game (final 5 min)", true], ["special_teams", "Power play / penalty kill", true],
     ["final", "Final score", true],
-    ["interviews", "Pre-Raw &amp; Post-Raw interviews", true],
+    ["interviews", "Raw interviews (Pre-Raw, Post-Raw, practice)", true],
     ["odds", "Betting odds <small>(pre-game, 19+ · Play responsibly)</small>", false]];
   const STORE = "cbn-alerts";
   const saved = () => ls.get(STORE) || {};

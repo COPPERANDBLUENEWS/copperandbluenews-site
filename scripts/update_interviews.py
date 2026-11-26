@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Pre-Raw and Post-Raw interviews from the official Edmonton Oilers YouTube channel.
+"""Pre-Raw, Post-Raw, and Raw interviews from the official Edmonton Oilers YouTube channel.
 
 No YouTube API key. Two public sources, same channel:
 
@@ -14,7 +14,9 @@ The playlist page fills that gap. If its HTML changes, the RSS result and the
 last saved file are kept.
 
 Oilers+ (oilersplus.com) is the club's subscription stream, not a second
-YouTube channel. Public Pre-Raw and Post-Raw uploads are on this channel.
+YouTube channel. Public Pre-Raw, Post-Raw, and non-game-day Raw scrums
+(titles like "RAW | Mike Babcock") are on this channel. Highlights, Shorts,
+promos, and other series are not.
 
 Writes data/interviews.json. A failed fetch never wipes a previous good file.
 The file is rewritten only when the video list changes, so an hourly run with
@@ -28,7 +30,7 @@ from zoneinfo import ZoneInfo
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = DATA / "interviews.json"
-KEEP = 48
+KEEP = 64
 UA = {"User-Agent": "Mozilla/5.0 (compatible; copperandbluenews-site; +https://copperandbluenews.com/)"}
 # Browser UA: the uploads playlist is an HTML page, and YouTube often answers
 # the site UA with a consent wall that has no video list.
@@ -47,19 +49,23 @@ NS = {
     "yt": "http://www.youtube.com/xml/schemas/2015",
     "media": "http://search.yahoo.com/mrss/",
 }
-# Separator required, so "RAW | ..." and "Prepare raw" do not match.
-# Hyphen, space, and the common Unicode dashes all count.
-RAW_RE = re.compile(r"(?i)(?<![A-Za-z0-9])(pre|post)[\s\-\u2010-\u2015]+raw(?![A-Za-z0-9])")
+# Pre/Post need a separator, so "POSTRAW" and "Prepare raw" do not match.
+# A plain "RAW |" / "RAW:" / "RAW -" scrum is its own type. Highlights and
+# other series do not use that label. Hyphen, space, and Unicode dashes count.
+PREPOST_RE = re.compile(r"(?i)(?<![A-Za-z0-9])(pre|post)[\s\-\u2010-\u2015]+raw(?![A-Za-z0-9])")
+PLAIN_RAW_RE = re.compile(r"(?i)(?<![A-Za-z0-9])raw[\s]*[|:\-\u2010-\u2015]")
 TITLE_DATE = re.compile(r"\b(\d{1,2})\.(\d{1,2})\.(\d{2})\b")
 VID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
 EDM = ZoneInfo("America/Edmonton")
 
 
 def raw_type(title):
-    m = RAW_RE.search(title or "")
-    if not m:
-        return None
-    return "Pre-Raw" if m.group(1).lower() == "pre" else "Post-Raw"
+    m = PREPOST_RE.search(title or "")
+    if m:
+        return "Pre-Raw" if m.group(1).lower() == "pre" else "Post-Raw"
+    if PLAIN_RAW_RE.search(title or ""):
+        return "Raw"
+    return None
 
 
 def fetch(url, headers):
@@ -249,14 +255,14 @@ def update():
         return
     # RSS last so its timestamps win over the title-date estimate.
     videos = merge([prev, playlist, rss])
-    counts = {k: sum(v["type"] == k for v in videos) for k in ("Pre-Raw", "Post-Raw")}
+    counts = {k: sum(v["type"] == k for v in videos) for k in ("Pre-Raw", "Post-Raw", "Raw")}
     if signature(videos) == signature(prev):
         print("interviews unchanged", len(videos), counts, sources, errors)
         return
     doc = {
         "updated": iso(datetime.now(timezone.utc)),
         "channels": [CHANNEL],
-        "note": "Oilers+ (https://www.oilersplus.com) is the club subscription stream, not a separate YouTube channel. Public Pre-Raw and Post-Raw interviews are uploaded to the official Edmonton Oilers channel.",
+        "note": "Oilers+ (https://www.oilersplus.com) is the club subscription stream, not a separate YouTube channel. Public Pre-Raw, Post-Raw, and non-game-day Raw interviews are uploaded to the official Edmonton Oilers channel.",
         "sources": sources,
         "errors": errors,
         "videos": videos,

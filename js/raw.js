@@ -40,7 +40,7 @@
   }
 
   function cardHTML(v, link) {
-    const badge = v.type === "Pre-Raw" ? "pre-raw" : "post-raw";
+    const badge = v.type === "Pre-Raw" ? "pre-raw" : v.type === "Post-Raw" ? "post-raw" : "raw";
     const open = link
       ? `<a class="raw-hit" href="news.html?v=${v.id}#raw"><span class="raw-thumb"><img alt="" width="480" height="360" loading="lazy" src="${thumb(v.id)}">${playIcon}</span></a>`
       : thumbButton(v);
@@ -83,6 +83,7 @@
   function filterFromHash() {
     if (location.hash === "#pre-raw") return "Pre-Raw";
     if (location.hash === "#post-raw") return "Post-Raw";
+    if (location.hash === "#scrum") return "Raw";
     return "all";
   }
 
@@ -90,12 +91,13 @@
     const grid = $("rawGrid");
     const pre = videos.filter(v => v.type === "Pre-Raw").length;
     const post = videos.filter(v => v.type === "Post-Raw").length;
-    const buttons = {all: `All (${videos.length})`, "Pre-Raw": `Pre-Raw (${pre})`, "Post-Raw": `Post-Raw (${post})`};
+    const raw = videos.filter(v => v.type === "Raw").length;
+    const buttons = {all: `All (${videos.length})`, "Pre-Raw": `Pre-Raw (${pre})`, "Post-Raw": `Post-Raw (${post})`, "Raw": `Raw (${raw})`};
     document.querySelectorAll("#rawFilters button").forEach(btn => {
       const label = buttons[btn.dataset.filter];
       if (label) btn.textContent = label;
       btn.onclick = () => {
-        const next = btn.dataset.filter === "Pre-Raw" ? "#pre-raw" : btn.dataset.filter === "Post-Raw" ? "#post-raw" : "#raw";
+        const next = btn.dataset.filter === "Pre-Raw" ? "#pre-raw" : btn.dataset.filter === "Post-Raw" ? "#post-raw" : btn.dataset.filter === "Raw" ? "#scrum" : "#raw";
         if (location.hash !== next) location.hash = next;
         else applyFilter(btn.dataset.filter);
       };
@@ -123,10 +125,10 @@
 
   function rawOk(title, type) {
     const t = String(title || "");
-    const re = /(?:^|[^A-Za-z0-9])(pre|post)[\s\-\u2010-\u2015]+raw(?:[^A-Za-z0-9]|$)/i;
-    const m = re.exec(t);
-    if (!m) return false;
-    return (m[1].toLowerCase() === "pre" ? "Pre-Raw" : "Post-Raw") === type;
+    const prepost = /(?:^|[^A-Za-z0-9])(pre|post)[\s\-\u2010-\u2015]+raw(?:[^A-Za-z0-9]|$)/i.exec(t);
+    if (prepost) return (prepost[1].toLowerCase() === "pre" ? "Pre-Raw" : "Post-Raw") === type;
+    const plain = /(?:^|[^A-Za-z0-9])raw[\s]*[|:\-\u2010-\u2015]/i.test(t);
+    return plain && type === "Raw";
   }
 
   function renderHome(videos) {
@@ -142,7 +144,7 @@
     let d;
     try { d = await getJSON("data/interviews.json"); }
     catch { if (grid) grid.textContent = "Couldn't load interviews."; return; }
-    const videos = (d.videos || []).filter(v => v && YT_ID.test(v.id) && (v.type === "Pre-Raw" || v.type === "Post-Raw") && rawOk(v.title, v.type));
+    const videos = (d.videos || []).filter(v => v && YT_ID.test(v.id) && (v.type === "Pre-Raw" || v.type === "Post-Raw" || v.type === "Raw") && rawOk(v.title, v.type));
     if (grid) renderNews(videos);
     if (home) renderHome(videos.slice(0, 3));
   })();

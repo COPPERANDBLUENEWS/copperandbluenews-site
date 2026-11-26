@@ -39,7 +39,7 @@
     const show = () => {
       const hash = location.hash;
       const fantasyOn = hash === "#fantasy";
-      const rawOn = hash === "#raw" || hash === "#pre-raw" || hash === "#post-raw";
+      const rawOn = hash === "#raw" || hash === "#pre-raw" || hash === "#post-raw" || hash === "#scrum" || hash.startsWith("#raw-");
       $("tabTeam").hidden = fantasyOn; $("tabFantasy").hidden = !fantasyOn;
       bar.querySelector('a[href="#team"]')?.classList.toggle("on", !fantasyOn && !rawOn);
       bar.querySelector('a[href="#fantasy"]')?.classList.toggle("on", fantasyOn);

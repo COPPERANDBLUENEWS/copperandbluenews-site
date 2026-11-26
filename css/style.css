@@ -651,6 +651,7 @@ a.lg-chip:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
 .raw-yt:hover{color:var(--orange)}
 .badge.pre-raw{background:#1f3866;color:#ffd7b8;border:1px solid var(--copper)}
 .badge.post-raw{background:var(--copper);color:#fff}
+.badge.raw{background:#0f2142;color:#f4e1c1;border:1px solid #8ec6ff}
 .raw-embed{position:relative;aspect-ratio:16/9;background:#000}
 .raw-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .raw-empty{margin:8px 0;color:var(--muted)}
