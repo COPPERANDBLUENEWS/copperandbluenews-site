@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-26T21:29:36Z",
+ "updated": "2026-11-26T22:00:59Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (50)",
+  "Edmonton Journal (10)",
   "Sportsnet (0)",
   "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers notes: Defenceman Mattias Ekholm nine away from 1,000 games",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeDk4RUNwbUNIV01CRC04aUc0VGVaRkNBRXNFaTIwelRFT3pRRGQ5S1hJNWxjM2RYeXpsZ25KcEZJYVhoNG02b0ZmT2NkVE9aOUZoWmpGdEp0U3dfY2JlOUZPeVpQeVE5Wnh5UE9ITU5nVUZ3d3ZxR0FodDN6REhMYzZmb3ZvZE5HNEdsZFBJREpkOTMwWVRjNDBKV3cyczVK?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-26T21:35:43Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Nick Paul could have been the perfect Edmonton Oiler",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQam9ablRvSGltQi0zQWpSS2ZuOHdEYmNmN1FaX2V6NndXcVVwLXh5ZjJSUGU5Tk02bXdpRi1iZDNjckwyRFZrWjFyTWZMNnYzdzAzcHBON0RCbWM1WFQ1XzR3T1lST1MxTHB6eFoyMjl3bzRPQkdEVzdmSHFHclZfYXEzRUFIWVg2a3YtNHQ0c3RWdw?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-26T21:29:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "5 Edmonton Oilers prospects who could play in the World Juniors",
    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTWVhGeVBZamZKSEFrMExDUF9oWUpQbUJKMFFBb1JFOWZLYVdYU1Y4M01UX24yWS11Xy01NXUwRUNOdzhfSVl1dktDdDh6YUpFY2dwZTU5TUc0UU5mNGxUUVZ4R3FJUDB0cVJUMVZvX0QtYnFxcnhCOF9LdHo?oc=5",
@@ -137,22 +153,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers prospects playing across various European leagues",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMlRUSnEzWl81cnZBUzIxNXBiV0ZWSG1qTjdfSjdna25DUTV6bGZtb3Y4LUpmRDJrakZzSElHcGZLVVcwS3FIRVVITHpnWndxNUtFTkZKWFhUQzR3UmNBV0xFbWhXNVdCbGNWVXkxdEN6cjQ4c2R5QzVXZFVIU05LQXU5UnppMGFONGZMMEIyV1Uyakp3VWhV?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-26T13:00:03Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Connor Clattenburg Interview: Oilers Rookie on First Goal",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaHBiNS1FeF9XUHNRbnptZlRGVEl4TVRnekdsYzZ6NEIyWjJITE1Pc0trb3BhZWNjTmtMUlJvZjdVNmR5ZmdEWkpQelJzYkU5alZ4SHQtQ2M3Y0Fja3p6UWZ6N1ZrU0xFWTNzS25kRmpDcFYwaExtQW5zVWJSNndzZkVfU2N0YUFsVWlGVWVVTWlIQzJQaE9DRXNDcjg?oc=5",
-   "source": "RG.org",
-   "published": "2026-11-26T10:01:01Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers notebook: Savoie poised for conditioning stint in Bakersfield",
    "url": "https://edmontonjournal.com/sports/edmonton-oilers-matt-savoie-conditioning-bakersfield",
    "source": "Edmonton Journal",
@@ -189,10 +189,10 @@
   },
   {
    "title": "Eichel scores twice, Golden Knights hand Oilers fourth straight loss",
-   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026-x8132",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-25T05:10:00Z",
-   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss with a 5-3 win at Rogers Place on Tuesday."
+   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss, 5-3 at Rogers Place on Tuesday."
   },
   {
    "title": "Worn-down Oilers cannot summon a win at home to Vegas, lose 5-3: Cult of Hockey Player Grades",
@@ -251,32 +251,32 @@
    "snippet": "GOLDEN KNIGHTS (14-6-5) at OILERS (17-5-4) 8 p.m. ET; TVAS, SN, TNT, HBO MAX Golden Knights projected lineup Brett Howden -- Jack Eichel -- Mark Stone Trevor Connelly -- William Karlsson --…"
   },
   {
-   "title": "Two big guns return to ice for Edmonton Oilers, one to play against Vegas",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-ryan-nugent-hopkins-matthew-savoie-vegas-golden-knights",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T16:30:19Z",
-   "snippet": ""
-  },
-  {
-   "title": "Edmonton Oilers Power Rankings: Injuries jostling both lineup and list",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-player-power-rankings-november",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T13:43:35Z",
-   "snippet": "It's no mistake the Oilers' best start in decades coincides with McDavid's best start to his career"
-  },
-  {
-   "title": "Signed Wayne Gretzky Warhol print expected to fetch $25-30K at auction",
-   "url": "https://edmontonjournal.com/news/edmonton-oilers-wayne-gretzky-andy-warhol-art",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T11:00:30Z",
-   "snippet": "\"It's a rare case: A Canadian figure chosen by the most famous post-war contemporary painter in the world\""
-  },
-  {
    "title": "McDavid bid for 200-point season drawing raves from Gretzky, others",
    "url": "https://www.nhl.com/news/oilers-mcdavid-bid-for-200-point-season-drawing-raves-from-gretzky-and-rest-of-hockey-world",
    "source": "NHL.com",
    "published": "2026-11-24T05:00:00Z",
    "snippet": "Connor McDavid has taken a high bar and set it at an unbelievable level this season. The Edmonton Oilers forward is on pace to challenge the 200-point plateau, which is something only Wayne…"
+  },
+  {
+   "title": "PREVIEW: Oilers vs. Golden Knights",
+   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-golden-knights-11-24-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-24T00:36:33.158Z",
+   "snippet": "The Edmonton Oilers host a Pacific Division rival in the Vegas Golden Knights at Rogers Place on Tuesday night. You can watch the game live on Sportsnet at 7:00 PM MT or listen on the…"
+  },
+  {
+   "title": "RELEASE: Oilers acquire Austin Roest from Nashville",
+   "url": "https://www.nhl.com/oilers/news/release-oilers-acquire-austin-roest-from-nashville",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-24T00:26:57.813Z",
+   "snippet": "EDMONTON, AB - The Edmonton Oilers have acquired forward Austin Roest from the Nashville Predators in exchange for forward James Stefan. Roest (5’10”, 185 lbs, 22) has appeared in 15 games…"
+  },
+  {
+   "title": "Blues rally from three down in third period, defeat Oilers in shootout",
+   "url": "https://www.nhl.com/news/edmonton-oilers-st-louis-blues-game-recap-november-22-2026",
+   "source": "NHL.com",
+   "published": "2026-11-23T04:54:00Z",
+   "snippet": "ST. LOUIS -- Jimmy Snuggerud had a goal and an assist for the St. Louis Blues, who rallied from a three-goal deficit in the third period for a 5-4 shootout win against the Edmonton Oilers…"
   }
  ]
 }
