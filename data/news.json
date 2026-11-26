@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-26T04:10:18Z",
+ "updated": "2026-11-26T04:43:47Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (94)"
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
@@ -12,7 +12,7 @@
    "title": "Rogers Screen Break teams up with Edmonton Oilers to help high school students balance screen time",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUnoxaURmTUdiWGwwNDYxTDFnNExpZERtX2xDVXJabi1XdjM0NmVvQ002ZUp2bFhNbXNhd01XYjY4eFdfY0dUYUVUUWNzeWFyTUlTakJheE8yUmMzS0cxMzZPTDhnSENTNm4zRVk2NGUzYjBtWE5fU0MzZVNpWmZhSnBhekZGazd2NDk0N0VDaUl4blhyNVJiUHdzaERXbGZRQ0FMYW1SWWw?oc=5",
    "source": "CityNews Edmonton",
-   "published": "2026-11-26T03:49:44Z",
+   "published": "2026-11-26T04:03:50Z",
    "snippet": "",
    "via": "google"
   },
@@ -45,14 +45,6 @@
    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNci1CVUtOTWhWano1MVFwTWotTGF2TVFyY0UyS2ZHWG54ckRGNjZzSTdhM0RFczVIVTE0M3NuSXVUREFCQklEVHZyVmo5dUxxaXdBSVdOSV94MTROS0pCdzNHM0pKUi11TFpJTGpJUVRMcXN1TzNzOE5jX0ZvMmNyc0VPUEdTTko2RFJueVJ5OHU2eG9E?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-25T23:08:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Seattle Kraken - Edmonton Oilers - Nov 27, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1abDloeWVfNnF1Wk5PQnlLczA2LV91d3Q5bUtLdU4tbTFPSy1RWlhHQ3RfZzRnWktpVGxvZjB5Y0pVc1ZiR2ltRHJyTThxM2p0T3o5RnNBMF9zY0N3aE1CX21EV1Y3RFpHM0JsVU9zVVE?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-25T23:02:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -122,9 +114,9 @@
   },
   {
    "title": "Oilers Having Nothing Of Tired Excuses",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOTZGUWFsSXIxZ1p2SE0yVWNJNm5NWmFfNXdYRUFwYzZ5VHJXWjVQTmkzUWFJb1Z3SDMtUUZHcFEyREQ3TEViWmxRNm43S3dwRDVjN2tBS2xpX3IybEpwSWctWlhadngzZGo4UVhLOTlUaHdvVTY2VEc2NFJpV2E5WnQ1R0JHeFRtTGdV?oc=5",
-   "source": "Yahoo",
-   "published": "2026-11-25T19:15:18Z",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRVpUUU1ES3d5LWs1VkpKZjNyRE83STdFa0oxSGxQVjBab094T2lZNlEwZnhZN1hzekVuUTNFRGxVNG5fSHZCYWFKS1FZRmZ5OVdWWUFuRm52alJYcko5ZHhiLUxlWHYwRE5BVWgyREpnYnlBOGo1RzgxVlE4N0Vkbm9yTElwSTBhRXdaRnZJSGVvcDJveTQxaHlPYzI?oc=5",
+   "source": "The Hockey News",
+   "published": "2026-11-25T19:16:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -153,6 +145,14 @@
    "via": "google"
   },
   {
+   "title": "Could The Edmonton Oilers Pull Off A Trade For Simon Edvinsson Before December 1 Deadline?",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX1B0WTd3X0JwMzFXR1JtQ3BEQ3lBUUxXcmpEWTVKcDBnOWNjdUJONmFFcWVzcXdneE5XdzdnUWVScW9lcWZzVDU4YXVTTm91LW5PbldObmd3dUhlLU16TWJvT0pGaHZvdnJzRzhDZDR0SkNXS0JlT00weTlteS1TZFNIaW9CRm8wNG5ObUJaeUpvU0l0Vm1FVVFOdDJVeHEzclRJeTBaWmZDeXRYZlIyV3dIXzRZaE5aSTNUQTI3UXFacnNpRkdJSQ?oc=5",
+   "source": "NDTV Sports",
+   "published": "2026-11-25T18:24:14Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Edmonton to host the 115th CFL Grey Cup in 2028",
    "url": "https://edmontonjournal.com/sports/football/cfl/edmonton-elks/edmonton-elks-2028-cfl-grey-cup",
    "source": "Edmonton Journal",
@@ -168,10 +168,10 @@
   },
   {
    "title": "Eichel scores twice, Golden Knights hand Oilers fourth straight loss",
-   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026-x8132",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-25T05:10:00Z",
-   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss with a 5-3 win at Rogers Place on Tuesday."
+   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss, 5-3 at Rogers Place on Tuesday."
   },
   {
    "title": "Worn-down Oilers cannot summon a win at home to Vegas, lose 5-3: Cult of Hockey Player Grades",
