@@ -443,8 +443,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/seattle-kraken/line-combinations",
     "what": "line combinations",
-    "basis": "@sound_hockey",
-    "updatedAt": "2026-11-24T19:32:54.114Z"
+    "basis": "Last Game (2026-11-25)",
+    "updatedAt": "2026-11-26T15:10:31.025Z"
    },
    {
     "name": "DailyFaceoff",
@@ -469,5 +469,5 @@
    "note": null
   }
  },
- "updated": "2026-11-25T16:04:26Z"
+ "updated": "2026-11-26T15:59:58Z"
 }
