@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:27:57Z",
+ "updated": "2026-11-26T19:06:53Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -37,6 +37,14 @@
    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQTmF3LTdqTTI2MTNCMm5qcmI4V3pPOG1QM3ZDb0ttblU5ajNRX25hOC1zaFAzSURiQzUxcXVWQVJvb0sxM3ZicVZlSWhWNmNuakFUODNkbVpGdHVvaUtBOTA1czN4QnVCdHdCNmpENzB5Z2NMTXZjWVl5bXE2dUY4dlY3ZndDWUJTNXpPSnlwMUFidXExNGVYYWo2NXhBVVppa1RvYzVkSlpOaXJETVNLZ1hXcl9iUzBtNXl2cDZxN3lRejVnX205UEU2THFCUmc5aVJmb3ptbXhRTHJHcFI4SG1DbnZkMGJZX2l4d3lFbUlQemlQdEhaR19R?oc=5",
    "source": "Winnipeg Sun",
    "published": "2026-11-26T17:35:35Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Seattle Kraken - Edmonton Oilers - Nov 27, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1abDloeWVfNnF1Wk5PQnlLczA2LV91d3Q5bUtLdU4tbTFPSy1RWlhHQ3RfZzRnWktpVGxvZjB5Y0pVc1ZiR2ltRHJyTThxM2p0T3o5RnNBMF9zY0N3aE1CX21EV1Y3RFpHM0JsVU9zVVE?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-26T17:02:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -101,14 +109,6 @@
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMlRUSnEzWl81cnZBUzIxNXBiV0ZWSG1qTjdfSjdna25DUTV6bGZtb3Y4LUpmRDJrakZzSElHcGZLVVcwS3FIRVVITHpnWndxNUtFTkZKWFhUQzR3UmNBV0xFbWhXNVdCbGNWVXkxdEN6cjQ4c2R5QzVXZFVIU05LQXU5UnppMGFONGZMMEIyV1Uyakp3VWhV?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-26T13:00:03Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Seattle Kraken - Edmonton Oilers - Nov 27, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1abDloeWVfNnF1Wk5PQnlLczA2LV91d3Q5bUtLdU4tbTFPSy1RWlhHQ3RfZzRnWktpVGxvZjB5Y0pVc1ZiR2ltRHJyTThxM2p0T3o5RnNBMF9zY0N3aE1CX21EV1Y3RFpHM0JsVU9zVVE?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-26T11:02:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -189,10 +189,10 @@
   },
   {
    "title": "Eichel scores twice, Golden Knights hand Oilers fourth straight loss",
-   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026-x8132",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-25T05:10:00Z",
-   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss with a 5-3 win at Rogers Place on Tuesday."
+   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss, 5-3 at Rogers Place on Tuesday."
   },
   {
    "title": "Worn-down Oilers cannot summon a win at home to Vegas, lose 5-3: Cult of Hockey Player Grades",
