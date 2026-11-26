@@ -43,6 +43,13 @@ jobs:
           path: ~/.cbn-alerts
           key: cbn-alerts-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: cbn-alerts-
+      - name: Interview video alerts
+        id: interview_alerts
+        if: env.ALERTS_ON == 'true'
+        run: python3 scripts/notify_interviews.py || true
+        env:
+          WORKER_URL: ${{ secrets.WORKER_URL }}
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
       - name: Game alerts (game day morning backup)
         id: morning_alerts
         if: env.ALERTS_ON == 'true'
@@ -51,7 +58,7 @@ jobs:
           WORKER_URL: ${{ secrets.WORKER_URL }}
           NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
       - name: Save sent-alerts state
-        if: always() && env.ALERTS_ON == 'true' && steps.morning_alerts.outputs.changed == '1'
+        if: always() && env.ALERTS_ON == 'true' && (steps.morning_alerts.outputs.changed == '1' || steps.interview_alerts.outputs.changed == '1')
         uses: actions/cache/save@v4
         with:
           path: ~/.cbn-alerts

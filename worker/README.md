@@ -8,6 +8,7 @@ Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this f
 | `POST /subscribe` | the site (bell panel) | CORS: `https://copperandbluenews.com`, `https://www.copperandbluenews.com` | `{subscription, prefs, email?}` → upsert |
 | `POST /unsubscribe` | the site | same CORS | `{endpoint}` → row deleted |
 | `POST /notify` | GitHub Actions (`scripts/notify_alerts.py`) | `Authorization: Bearer NOTIFY_SECRET` | `{id?, type, title, body, url, to?, alt?}` → web push to everyone who opted into `type` (or only subscriber `to`, an id from `/export`, for a test). `alt: {pref, body}` swaps in `body` for subscribers who also opted into `pref` (used for the live moneyline on period ends, odds subscribers only) |
+| `POST /interviews` | GitHub Actions (`scripts/notify_interviews.py`, news.yml and site.yml) | `Authorization: Bearer NOTIFY_SECRET` | `{videos:[{id,type,title,published}], notify?:[id]}` → one push per new interview, or one push when several of the same type arrive together. Ids already in KV (`iv:seen`) are not sent. The first call, and any first call that lists 8 or more fresh ids, records the ids and sends nothing |
 | `GET /stats?hours=24` | Mac / morning report (`/workspace/cbn-deploy/site_report.py`) | `Authorization: Bearer ADMIN_SECRET` | → JSON: subscribers (total, new in the window, count per alert type) and alerts sent in the window (events by type, push attempts, delivered, failed, expired subscriptions removed) |
 | `GET /export` | Mac | `Authorization: Bearer ADMIN_SECRET` | all sign-ups as CSV |
 | `GET /live/pbp?id=GAMEID` | Live tracker | same site CORS; public read-only | NHL play-by-play in the exact slim JSON format of `scripts/update_data.py`, edge-cached 2 seconds |
@@ -17,9 +18,9 @@ Code only; nothing here is deployed by GitHub Actions. Pages deploys skip this f
 | `POST /fgs` | the home-page poll | same site CORS | `{game, voter, player}` → one pick per device until puck drop. `player` is an NHL id or `"other"` |
 | `GET /fgs?game=ID` | the home-page poll | same site CORS; public read-only | crowd totals, cached about 60 s before puck drop and 15 s after, plus the Oilers' first goal once the play-by-play has it |
 
-- `type` is one of `puck_drop`, `goal`, `period_end`, `final`, `lineup`, `odds`, `gameday`, `pregame_60`, `pregame_15`, `close_game`, `special_teams` (same keys as the panel's checkboxes).
-- Defaults when a sign-up leaves a key out: `odds` **off** (betting odds are opt-in, 19+), everything else on, including the 1 hour and 15 minute reminders, close-game alerts, and power play / penalty kill alerts.
-  Records saved before Nov 5, 2026 (no `v` field) read as `gameday` on and `odds` off. Records saved before the pre-game reminders (`v` 1 or 2) read those two as on. Records saved before close-game and special-teams alerts (`v` 3 or earlier) read those two as on. The next save rewrites the row as `v: 4`.
+- `type` is one of `puck_drop`, `goal`, `period_end`, `final`, `lineup`, `odds`, `gameday`, `pregame_60`, `pregame_15`, `close_game`, `special_teams`, `interviews` (same keys as the panel's checkboxes).
+- Defaults when a sign-up leaves a key out: `odds` **off** (betting odds are opt-in, 19+), everything else on, including the 1 hour and 15 minute reminders, close-game alerts, power play / penalty kill alerts, and Pre-Raw / Post-Raw interview videos.
+  Records saved before Nov 5, 2026 (no `v` field) read as `gameday` on and `odds` off. Records saved before the pre-game reminders (`v` 1 or 2) read those two as on. Records saved before close-game and special-teams alerts (`v` 3 or earlier) read those two as on. Records saved before interview alerts (`v` 4 or earlier) read `interviews` as on. The next save rewrites the row as `v: 5`.
 - `id` (e.g. `2026020260:goal:211`) is stored in KV as `evt:<id>` for 45 days; a repeated id returns `{"duplicate":true}`
   and nothing is sent. This suppresses sequential repeats; KV is not an atomic lock for concurrent producers.
 - Push: `src/webpush.js` implements RFC 8291 (aes128gcm) + RFC 8292 (VAPID, ES256) with WebCrypto only, no npm
@@ -65,6 +66,14 @@ Each alert that is actually handed to the push sender is also appended to KV. Ga
 - That is two KV writes per new alert, on top of the existing `evt:` / `snd:` writes. A game night stays inside the Free plan's 1,000 writes/day.
 - `GET /alerts/log` is public and read-only. CORS matches the rest of the site routes. It does not wake the Durable Object.
 - Deploy this Worker yourself (`npx wrangler deploy` from `worker/`). GitHub Pages does not deploy it. Nothing new to create: same KV namespace, same Durable Object, no new secrets. Alerts sent before the deploy are not backfilled. The inbox stays empty until the next one is sent. `notifications.html?sample=1` shows labeled examples.
+
+## Interview videos (Pre-Raw / Post-Raw)
+
+`scripts/notify_interviews.py` runs at the end of the News and the site-data jobs, after `update_news.py` (which is what refreshes `data/interviews.json` once that fetch is on `main`). It POSTs the full list to `POST /interviews` with the same `NOTIFY_SECRET` as `/notify`. No new secret, KV namespace, queue, or paid Cloudflare product. The Worker stays on `workers.dev`.
+
+Seen YouTube ids live in one KV key, `iv:seen`. While that key is missing, the call records every id and does not push. A first call that tries to notify 8 or more fresh videos is treated the same way, so the interviews already on the site are not blasted out on deploy. After that, one new video is one alert (`/news.html?v=<id>#raw-<id>`, which opens that card). Several new videos of one type in the same run are one alert (`/news.html#raw`, title like `3 new Post-Raw interviews: Babcock, McDavid, Bouchard`). A Pre-Raw and a Post-Raw batch in the same run are at most two alerts. Fans who saved preferences before this checkbox existed stay opted in until they save again. Odds stays off.
+
+Deploy this Worker yourself (`npx wrangler deploy` from `worker/`) or the new route 404s and the script logs a failure without failing the news job. GitHub Pages does not deploy `worker/`. Nothing new to create.
 
 ## Deploy (one time, about 10 minutes)
 
@@ -123,7 +132,7 @@ Domains & Routes), e.g. `alerts.copperandbluenews.com`, and use that as `WORKER_
 curl -H "Authorization: Bearer $ADMIN_SECRET" $W/export -o cbn-alerts-signups.csv
 ```
 
-Columns: `id, email, puck_drop, goal, period_end, final, lineup, odds, gameday, pregame_60, pregame_15, close_game, special_teams, created_at, updated_at, endpoint, p256dh, auth`
+Columns: `id, email, puck_drop, goal, period_end, final, lineup, odds, gameday, pregame_60, pregame_15, close_game, special_teams, interviews, created_at, updated_at, endpoint, p256dh, auth`
 (the last three let you move the subscriptions to another push sender with the same VAPID keys).
 
 ## Local testing

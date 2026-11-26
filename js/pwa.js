@@ -61,6 +61,7 @@
     ["goal", "Goals (both teams)", true], ["period_end", "Period ends", true],
     ["close_game", "Close game (final 5 min)", true], ["special_teams", "Power play / penalty kill", true],
     ["final", "Final score", true],
+    ["interviews", "Pre-Raw &amp; Post-Raw interviews", true],
     ["odds", "Betting odds <small>(pre-game, 19+ · Play responsibly)</small>", false]];
   const STORE = "cbn-alerts";
   const saved = () => ls.get(STORE) || {};
@@ -95,7 +96,7 @@
         </fieldset>
         <label class="cs-email">Name or email <small>(optional)</small>
           <input type="text" name="email" maxlength="120" autocomplete="email" placeholder="e.g. Connor or you@example.com" value="${(s.email || "").replace(/"/g, "&quot;")}"></label>
-        <p class="cs-consent">You'll get Oilers game alerts from The Copper &amp; Blue News. Turn off anytime. <a href="/privacy.html">Privacy</a></p>
+        <p class="cs-consent">You'll get Oilers alerts from The Copper &amp; Blue News, including game alerts and new Pre-Raw and Post-Raw interviews. Turn off anytime. <a href="/privacy.html">Privacy</a></p>
         <div class="cs-actions">
           <button type="button" class="btn cs-on">Turn on alerts</button>
           <button type="button" class="cs-off" hidden>Unsubscribe</button>
@@ -245,10 +246,34 @@
       location.href = "notifications.html";
     });
     document.querySelectorAll("[data-alerts]").forEach(x => x.addEventListener("click", e => { e.preventDefault(); openPanel(); }));
+    document.getElementById("alertSettingsPage")?.addEventListener("click", openPanel);
+    openInterviewHash();
+    addEventListener("hashchange", openInterviewHash);
     syncBell();
     refreshBadge();
     addEventListener("cbn-alerts-read", refreshBadge);
     if (location.hash === "#alerts") openPanel();
+  }
+  // #raw-<youtubeId> opens that Pre-Raw / Post-Raw card on news.html. The interviews
+  // section is filled in by js/raw.js after it loads, so wait for the card.
+  function openInterviewHash() {
+    const m = /^#raw-([A-Za-z0-9_-]{11})$/.exec(location.hash || "");
+    if (!m) return;
+    const id = m[1];
+    const open = () => {
+      const card = document.querySelector(`#rawGrid .raw-card[data-id="${id}"]`);
+      if (!card) return false;
+      card.hidden = false;
+      if (!card.querySelector("iframe")) card.querySelector("[data-play]")?.click();
+      card.scrollIntoView({block: "nearest"});
+      return true;
+    };
+    if (open()) return;
+    const grid = document.getElementById("rawGrid");
+    if (!grid || typeof MutationObserver !== "function") return;
+    const obs = new MutationObserver(() => { if (open()) obs.disconnect(); });
+    obs.observe(grid, {childList: true, subtree: true});
+    setTimeout(() => obs.disconnect(), 8000);
   }
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded", initBell) : initBell();
   window.CBN_PWA = {openPanel, showBanner, paintBadge, refreshBadge};

@@ -109,6 +109,7 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   `offline.html` fallback. Bump `VERSION` in `sw.js` when the precache list changes (old caches are deleted).
   Push + notificationclick handlers open the inbox at `/notifications.html?id=` when the payload has an alert id.
   The payload `url` is unchanged: lineup still points at `/players.html`, finals at `/game.html?id=`.
+  Interview alerts (`type: interviews`) open that url instead (`/news.html#raw` or `/news.html?v=<id>#raw-<id>`).
   Notifications with no id (ones sent before this) still open that url.
 - `js/pwa.js`: registers the SW, shows the "Install the app" banner (Android/desktop `beforeinstallprompt`; iOS one-time
   "Tap Share then Add to Home Screen" tip; dismissal is remembered in localStorage), and the bell / Game alerts panel.
@@ -119,6 +120,11 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   `scripts/notify_alerts.py` runs in `live.yml` (puck drop, goals, period ends, final) and `live.yml`/`lineup.yml`
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
+  `scripts/notify_interviews.py` runs in `news.yml` and `site.yml` after the news update and POSTs
+  `data/interviews.json` to `WORKER_URL/interviews`. The ids already committed, and the first list the Worker
+  stores, are not pushed. One new Pre-Raw or Post-Raw video is one alert (opens `news.html#raw-<video id>`).
+  Several of the same type in one run are one alert (opens `news.html#raw`). The checkbox is on by default
+  for current sign-ups. Deploy the Worker yourself after this change; Pages does not deploy `worker/`.
 - "Latest posts" on Home (`js/instagram.js`): the three newest @copperandbluenews posts in one compact row (image plus a short caption) under Next Game. Each card opens that post's article. "View all" goes to posts.html (News → Posts). The Posts page still has the full grid (up to 12) and Follow button. See **Instagram articles** below. The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests. `data/articles.json` stays network-first with the other data JSON.
 - Cache-bust: CSS/JS URLs use `?v=50`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 - **Standings and leaders** (Scores tab): `standings.html` and `leaders.html`. `update_data.py` writes `data/standings.json` and `data/leaders.json` from the public NHL API (`standings/now`, `skater-stats-leaders/current`, `goalie-stats-leaders/current`) on the same schedule as the other JSON. The browser still cannot call the NHL API. These are not on the live Worker relay: they change a few times a day, and the relay's request budget is for the rink.

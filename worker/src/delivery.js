@@ -17,7 +17,7 @@ export async function deliver(env, subs, payload, {afterEach} = {}) {
       try {
         const p = s.altBody ? {...payload, body: s.altBody} : payload;
         const ttl = payload.type === "pregame_60" || payload.type === "pregame_15" ? 120
-          : ["lineup", "gameday", "odds"].includes(payload.type) ? 3 * 3600 : 1800;
+          : ["lineup", "gameday", "odds", "interviews"].includes(payload.type) ? 3 * 3600 : 1800;
         const r = await sendPush(s, p, v, {ttl, urgency: "high", topic: payload.topic});
         result = r;
         if (r.ok) stats.sent++;
