@@ -65,6 +65,27 @@ storage = "sqlite"
 # AirHockeyMatch are new SQLite exports too. Deploy reconciles them (created)
 # without a migration tag and without touching GameAlerts.
 
+# Oilers Trivia accounts, solo runs, matchmaking, and one actor per duel.
+# Wrangler 4 rejects [[migrations]] while any Durable Object export exists.
+# GameAlerts is already an export and must stay that way, so TriviaLobby and
+# TriviaMatch are new SQLite exports too. Deploy reconciles them (created)
+# without a migration tag and without touching GameAlerts or AirHockey.
+[[durable_objects.bindings]]
+name = "TRIVIA_LOBBY"
+class_name = "TriviaLobby"
+
+[[durable_objects.bindings]]
+name = "TRIVIA_MATCH"
+class_name = "TriviaMatch"
+
+[exports.TriviaLobby]
+type = "durable-object"
+storage = "sqlite"
+
+[exports.TriviaMatch]
+type = "durable-object"
+storage = "sqlite"
+
 # Native, approximate per-IP newsletter throttling. Does not spend shared KV writes on counters.
 [[ratelimits]]
 name = "NEWSLETTER_RATE"

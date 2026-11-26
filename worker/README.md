@@ -250,6 +250,32 @@ Deploy from this folder with `npx wrangler deploy`. GitHub Pages does not deploy
 
 Local: `npx wrangler dev --port 8787`, then open `play.html?api=http://127.0.0.1:8787` from a local static server. `node test/airhockey.test.mjs` covers names, Elo, and physics. `node test/airhockey-net.test.mjs` runs two simulated clients through latency, jitter, packet loss, a forced disconnect, and a reconnect that keeps the score and the clock. `node test/airhockey-browser.mjs` plays a short match with two headless browsers (wrangler must already be running).
 
+## Oilers Trivia
+
+Head-to-head and solo trivia use two more SQLite Durable Objects, `TriviaLobby` and `TriviaMatch`. `GameAlerts` and the AirHockey classes are not migrated. Accounts follow the AirHockey pattern and are stored separately: a username, a hashed device token, and a hashed recovery code. Trivia points do not change an AirHockey rating.
+
+| Route | Who calls it | Result |
+|---|---|---|
+| `POST /trivia/signup` | the trivia page | `{username}` → user, device token, one-time recovery code |
+| `POST /trivia/login` | the trivia page | username + device token, or username + recovery code (recovery replaces the device token) |
+| `GET /trivia/me` | the trivia page | `Authorization: Bearer` device token |
+| `GET /trivia/leaderboard` | the trivia page | top 25 by points, duel wins, accuracy, or best streak, plus the caller’s rank |
+| `POST /trivia/solo` | the trivia page | starts a 10-question practice run |
+| `POST /trivia/solo/answer` and `POST /trivia/solo/next` | the trivia page | scores the current question, then starts the next clock |
+| `POST/GET/DELETE /trivia/quick` | the trivia page | duel queue. A player waits 8 seconds. Another player in that window is a human duel. After that the queue row is removed and the page starts a practice run. |
+| `POST/GET/DELETE /trivia/room` and `POST /trivia/join` | the trivia page | friend room code, `trivia.html?room=CODE` |
+| `GET /trivia/duel` and `POST /trivia/duel/answer` | the trivia page | the shared 10-question clock. Clients poll. The higher score wins. |
+
+`TriviaLobby` (one instance, `idFromName("trivia-lobby")`) holds accounts, the queue, room codes, solo runs, duel results, and the leaderboard. `TriviaMatch` is one object per duel (`idFromName(matchId)`). Both players see the same questions. The server keeps the 15-second clock and the answer key. A correct answer is 100 points, plus up to 50 for time remaining, plus 15 for each correct answer already on the streak (capped at five). A miss or a late answer is 0 and the streak resets. The reveal shows the split and a short fact. If one seat never checks in within 40 seconds, the other wins by forfeit and neither scores question points.
+
+Both classes are new SQLite Durable Object exports, the same declaration `GameAlerts` and the AirHockey classes already use. Wrangler 4 treats `[[migrations]]` and `exports` as mutually exclusive, so no migration tag is added. On `npx wrangler deploy`, exports reconciliation creates `TriviaLobby` and `TriviaMatch` and leaves `GameAlerts`, `AirHockeyLobby`, and `AirHockeyMatch` alone. No new KV namespace, no new secret, and no paid product. `AIRHOCKEY_REG_SEC` and `AIRHOCKEY_OT_SEC` are untouched.
+
+The question bank is `src/trivia-bank.js` (80+ checked items). A few “through Nov. 24, 2026” questions use the site’s McDavid Chase log in `data/mcdavid.json`. They name that date, so a later game does not make them false. Current-season totals that are still moving are not asked.
+
+Deploy from this folder with `npx wrangler deploy`. GitHub Pages does not deploy the Worker. Until that deploy, the page still loads and the buttons report that trivia is not set up. Sign-ups are capped at 6 per hour per network, new duels at 20 per 10 minutes, and practice runs at 30 per hour. Raw IP addresses are not stored.
+
+Local: `npx wrangler dev --port 8787`, then open `trivia.html?api=http://127.0.0.1:8787` from a local static server. `node test/trivia.test.mjs` covers the bank, scoring, a full solo run, quick match, a room, and a duel that lands on the leaderboard once.
+
 ## Send stats (KV)
 
 Each delivery batch (one queue message of up to 40 subscribers, or one inline send) writes one key
