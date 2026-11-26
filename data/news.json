@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-26T11:31:49Z",
+ "updated": "2026-11-26T12:42:42Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (1)",
-  "Google News (94)"
+  "Google News (93)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Connor Clattenburg Interview: Oilers Rookie on First Goal",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaHBiNS1FeF9XUHNRbnptZlRGVEl4TVRnekdsYzZ6NEIyWjJITE1Pc0trb3BhZWNjTmtMUlJvZjdVNmR5ZmdEWkpQelJzYkU5alZ4SHQtQ2M3Y0Fja3p6UWZ6N1ZrU0xFWTNzS25kRmpDcFYwaExtQW5zVWJSNndzZkVfU2N0YUFsVWlGVWVVTWlIQzJQaE9DRXNDcjg?oc=5",
+   "source": "RG.org",
+   "published": "2026-11-26T10:01:01Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers bring 4-game losing streak into matchup against the Kraken",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLXFUSmp6MllIRW1tM3ltdDc0V05iZmEteFFMWTNSOWZLSEZXTzVPQ21rNVlveEZ0Q0FiakRyQ2xFOUR0UHRxNlJFOHJFX3NGQjJ0U0dELVphdmJOOEdoQnFveWNlVFIzYlR1QXhlYjFyckphbWdQUjBobmtXVzhRd2xKM1BrLWxIN1paZEZiUUxmZFJucElWTWt6NnlNbnJtQWc1M3VB?oc=5",
@@ -19,6 +27,14 @@
   {
    "title": "Ten Thoughts: Why Oilers fans shouldn’t panic after four-game skid",
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZndRcE9tdzJIV0dqMFE4NmZzQXRjeU5KbjY0blh0eXlqRXRIZXZONjFNWTJnMDRoZHk2MHJ6T0tfcHowQVRFVWRvQTFHVjNNZVJBREJUYmIxa1RrRUN3WUFiRmpYRUJYN0JjdVVMeXVheEk5TEpFYlF2ZEVMa3BTNEpwbXJaLWI1OEhCdHdMVU5PQ2Y0Nld1UVlmTkcyaUV5RHBfejJCZWRpVTQ4M2c?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-26T08:42:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "WWYDW: What do the Oilers need to do to break their four-game losing streak?",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNci1CVUtOTWhWano1MVFwTWotTGF2TVFyY0UyS2ZHWG54ckRGNjZzSTdhM0RFczVIVTE0M3NuSXVUREFCQklEVHZyVmo5dUxxaXdBSVdOSV94MTROS0pCdzNHM0pKUi11TFpJTGpJUVRMcXN1TzNzOE5jX0ZvMmNyc0VPUEdTTko2RFJueVJ5OHU2eG9E?oc=5",
    "source": "Oilers Nation",
    "published": "2026-11-26T08:42:00Z",
    "snippet": "",
@@ -73,26 +89,10 @@
    "via": "google"
   },
   {
-   "title": "WWYDW: What do the Oilers need to do to break their four-game losing streak?",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNci1CVUtOTWhWano1MVFwTWotTGF2TVFyY0UyS2ZHWG54ckRGNjZzSTdhM0RFczVIVTE0M3NuSXVUREFCQklEVHZyVmo5dUxxaXdBSVdOSV94MTROS0pCdzNHM0pKUi11TFpJTGpJUVRMcXN1TzNzOE5jX0ZvMmNyc0VPUEdTTko2RFJueVJ5OHU2eG9E?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-25T23:08:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Oilers notebook: Savoie poised for conditioning stint in Bakersfield",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb0dxMDM0cUhzbzJFRlplcTRUa1FYeTZMckppeEtIbGE2U0dmbDl3NFJQTFd4RlRlUE1JZkQ0NF9KZUdDbXdpUENJdXBSQVg4Y1BqRXNSMzNiZmtaVm11Vk15MzI5NnJkaVBNbWVUZHE1cUk4VTRwX0dRVHRCRV96NHVuTEtrRV9YZk5SbEZnZ24?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-25T22:28:23Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers Searching for Answers After Four Straight Losses",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObjN6OHVEblNWQm9SYUw0WFRFUl8xbHBXLU5MNkwtWGhSRDJ0VUVuMkNBWVl3TjFYZm9wTzVoT1pCUXZvSXlBZWFvYnZuZ2VRTGhqeXNCTEVzdkRkeGFubUE0Z1BHLUY2YnR3UEx6aWRmVTNRQVNDekxVckM5VG80dUZyOW1xaW9FRG1KeXlvNkJrbDBxanc?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-25T21:49:02Z",
    "snippet": "",
    "via": "google"
   },
@@ -175,10 +175,10 @@
   },
   {
    "title": "Eichel scores twice, Golden Knights hand Oilers fourth straight loss",
-   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026-x8132",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-25T05:10:00Z",
-   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss with a 5-3 win at Rogers Place on Tuesday."
+   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss, 5-3 at Rogers Place on Tuesday."
   },
   {
    "title": "Worn-down Oilers cannot summon a win at home to Vegas, lose 5-3: Cult of Hockey Player Grades",
