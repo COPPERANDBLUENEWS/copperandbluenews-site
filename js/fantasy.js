@@ -36,9 +36,15 @@
   // ---------- News page: Team News | Fantasy
   function tabs() {
     const bar = $("newsTabs"); if (!bar) return false;
-    const show = () => { const f = location.hash === "#fantasy";
-      $("tabTeam").hidden = f; $("tabFantasy").hidden = !f;
-      bar.querySelectorAll('a[href^="#"]').forEach(a => a.classList.toggle("on", (a.getAttribute("href") === "#fantasy") === f)); };
+    const show = () => {
+      const hash = location.hash;
+      const fantasyOn = hash === "#fantasy";
+      const rawOn = hash === "#raw" || hash === "#pre-raw" || hash === "#post-raw";
+      $("tabTeam").hidden = fantasyOn; $("tabFantasy").hidden = !fantasyOn;
+      bar.querySelector('a[href="#team"]')?.classList.toggle("on", !fantasyOn && !rawOn);
+      bar.querySelector('a[href="#fantasy"]')?.classList.toggle("on", fantasyOn);
+      bar.querySelector('a[href="#raw"]')?.classList.toggle("on", rawOn);
+    };
     window.addEventListener("hashchange", show); show(); return true;
   }
   async function fantasy() {

@@ -206,6 +206,7 @@ Live URL: https://copperandbluenews.com/
 - **Injuries** (`data/injuries.json`): who is injured and the injury come from the "Injured:" line of the latest NHL.com projected-lineups preview
   (auto). IR/LTIR status, expected return and extra sources come from `data/injuries_manual.json`, entered by hand from cited reports;
   a manual entry only shows while NHL.com still lists that player. Remove stale entries when a player returns.
+- **Pre-Raw / Post-Raw** (`data/interviews.json`, shown on `news.html#raw` and as a short row on the home page): player and coach interviews from the official Edmonton Oilers YouTube channel (`@edmontonoilers`, channel id `UCyfbxrAcT9w7pHvDeYCtc0Q`). No YouTube API key. The public RSS feed (`https://www.youtube.com/feeds/videos.xml?channel_id=UCyfbxrAcT9w7pHvDeYCtc0Q`) is the stable source and only lists the newest 15 uploads, so the script also reads the channel's public uploads playlist page to keep interviews that Shorts and highlights have already pushed out of that window. Titles must match Pre-Raw or Post-Raw (any case, with a space, hyphen, or dash between the words). A title that only says RAW, without Pre or Post, is left out. Oilers+ (`oilersplus.com`) is the club's paid stream, not a second YouTube channel. The file is rewritten only when the list changes. A failed fetch keeps the previous file and does not fail the news job.
 
 ## Instagram articles
 

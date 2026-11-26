@@ -141,3 +141,8 @@ if __name__ == "__main__":
         print("injuries", [(p["name"], p["status"]) for p in i["players"]])
     except Exception as e:
         print("injuries failed, kept previous:", e)
+    try:
+        import update_interviews
+        update_interviews.update()
+    except Exception as e:
+        print("interviews failed, kept previous:", e)

@@ -1,4 +1,5 @@
 # Hourly: Oilers news (data/news.json) + injury report (data/injuries.json) from public feeds,
+# Pre-Raw / Post-Raw interviews (data/interviews.json, via scripts/update_news.py),
 # fantasy news + Fantasy Outlook (data/fantasy.json, scripts/update_fantasy.py),
 # plus the game-day lineup (data/lineup.json, scripts/update_lineup.py; see also lineup.yml).
 # The 15:05 UTC run (~8 AM PT) is the "daily" injury refresh; every hourly run refreshes it too.
@@ -65,11 +66,11 @@ jobs:
           key: cbn-alerts-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Commit if changed
         run: |
-          git add data/news.json data/injuries.json data/lineup.json data/fantasy.json data/articles.json articles
+          git add data/news.json data/injuries.json data/lineup.json data/fantasy.json data/interviews.json data/articles.json articles
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update news, injuries, lineup and Instagram articles"
+          git commit -m "Update news, injuries, lineup, interviews and Instagram articles"
           git pull --rebase -X theirs origin main || true
           git push
       - name: Refresh live game data before deploying
@@ -83,6 +84,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
       # deploy-pages sometimes runs before GitHub lists the artifact uploaded a moment ago
       # ("No artifacts named github-pages were found"), so wait and retry once.
+      # A Pages HTTP 500 can still fail both attempts after the artifact exists
+      # (2026-11-25 run 45650798735). That is a GitHub Pages outage, not this job's data step.
       - id: deploy
         uses: actions/deploy-pages@v4
         continue-on-error: true
