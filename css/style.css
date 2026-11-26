@@ -625,3 +625,41 @@ a.lg-chip:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
 .hcard{scroll-margin-top:calc(110px + var(--lg-h, 0px))}
 .fgs{scroll-margin-top:calc(74px + var(--lg-h, 0px))}
 .nl-card{scroll-margin-top:calc(82px + var(--lg-h, 0px))}
+
+/* Oilers Trivia. Same navy and copper as the rest of the site. No club marks. */
+.trivia-intro{max-width:680px}
+.trivia-rules{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 auto 18px;max-width:440px;text-align:left}
+.trivia-rules div{background:var(--navy2);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.trivia-rules b{display:block;color:#f4b37c;font-size:.95rem}
+.trivia-rules span{color:var(--muted);font-size:.72rem}
+.trivia-play{max-width:440px;margin:0 auto 18px;text-align:left;scroll-margin-top:calc(128px + env(safe-area-inset-top,0px))}
+#triviaHero[hidden],.trivia-scores[hidden],.trivia-play[hidden],#qReveal[hidden],#qFinal[hidden],#timerWrap[hidden],#timerLabel[hidden],#duelScores[hidden]{display:none !important}
+.trivia-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:8px}
+.trivia-top b{color:#f4b37c;font:700 1.35rem/1 Oswald,sans-serif}
+.trivia-kicker{margin:0;color:#f4b37c;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.trivia-round{color:var(--muted);font-size:.78rem;font-weight:700}
+.trivia-scores{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:center;margin:0 0 10px}
+.trivia-scores span{font-size:.82rem}
+.trivia-scores .opp{text-align:right}
+.trivia-scores strong{display:block;font:700 1.4rem/1 Oswald,sans-serif;color:#f4b37c}
+.trivia-vs{color:var(--muted);font-size:.72rem;font-weight:800}
+.trivia-timer{height:10px;background:#1f3866;border-radius:99px;overflow:hidden;margin:0 0 6px}
+.trivia-timer span{display:block;height:100%;width:100%;background:linear-gradient(90deg,#c8763a,#ff4c00);border-radius:99px}
+.trivia-clock{margin:0 0 12px;color:#f4b37c;font:700 .85rem Oswald,sans-serif;letter-spacing:.04em}
+.trivia-q{font-size:1.12rem;line-height:1.35;margin:0 0 12px}
+.trivia-choices{display:flex;flex-direction:column;gap:8px}
+.trivia-choice{display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:var(--navy);color:var(--text);border:1px solid #62789e;border-radius:10px;padding:12px;min-height:48px;font:600 16px/1.3 Inter,system-ui,sans-serif;cursor:pointer}
+.trivia-choice i{flex:0 0 auto;width:1.6em;height:1.6em;border-radius:50%;display:grid;place-items:center;background:#1f3866;color:#f4b37c;font-style:normal;font-size:.8rem}
+.trivia-choice:disabled{cursor:default;opacity:.85}
+.trivia-choice.right{border-color:#4ade80;background:#123226}
+.trivia-choice.wrong{border-color:#f87171;background:#3a1a22}
+.trivia-choice:focus-visible{outline:2px solid #f4b37c;outline-offset:2px}
+.trivia-reveal{margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
+.trivia-reveal h2{margin:0 0 4px;font-size:1.25rem;color:#f4b37c}
+.trivia-split{margin:0 0 8px;color:#d6deeb;font-size:.85rem}
+.trivia-fact{margin:0;color:#d6deeb}
+.trivia-final{text-align:center}
+.trivia-final h2{color:#f4b37c;margin:0 0 6px}
+.play-home-actions .play-trivia{grid-column:1/-1}
+@media(max-width:420px){.trivia-rules{grid-template-columns:1fr}.trivia-q{font-size:1.05rem}}
+@media(prefers-reduced-motion:reduce){.trivia-timer span{transition:none}}

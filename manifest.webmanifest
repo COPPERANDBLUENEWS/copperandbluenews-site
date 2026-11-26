@@ -21,6 +21,7 @@
   "shortcuts": [
     {"name": "Live tracker", "short_name": "Live", "url": "/tracker.html", "icons": [{"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png"}]},
     {"name": "Scores", "url": "/scores.html", "icons": [{"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png"}]},
-    {"name": "Schedule", "url": "/schedule.html", "icons": [{"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png"}]}
+    {"name": "Schedule", "url": "/schedule.html", "icons": [{"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png"}]},
+    {"name": "Oilers Trivia", "short_name": "Trivia", "url": "/trivia.html", "icons": [{"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png"}]}
   ]
 }
