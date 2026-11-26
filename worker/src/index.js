@@ -2,6 +2,8 @@
 //   POST /subscribe    {subscription, prefs, email?}            (browser, CORS: copperandbluenews.com + www)
 //   POST /unsubscribe  {endpoint}                               (browser, CORS)
 //   POST /notify       {id?, type, title, body, url, to?, alt?}       Authorization: Bearer NOTIFY_SECRET (GitHub Actions; to = one subscriber id)
+//   POST /interviews   {videos:[{id,type,title,published}], notify?:[id]}  Authorization: Bearer NOTIFY_SECRET
+//                      New Pre-Raw / Post-Raw videos only. The first call records ids already on the site and sends nothing.
 //   GET  /export       sign-up list as CSV                      Authorization: Bearer ADMIN_SECRET (Mac)
 //   GET  /stats?hours=24  subscriber counts + alerts sent (JSON)  Authorization: Bearer ADMIN_SECRET (morning report)
 //   POST /pickem {game, voter, edm, opp} / GET /pickem?game=ID   score predictions (browser, CORS), see pickem.js
@@ -37,8 +39,9 @@ import * as pickem from "./pickem.js";
 import * as fgs from "./fgs.js";
 import * as live from "./live.js";
 import * as newsletter from "./newsletter.js";
+import * as interviews from "./interviews.js";
 
-const TYPES = store.TYPES; // puck_drop, goal, period_end, final, lineup, odds, gameday, pregame_60, pregame_15, close_game, special_teams
+const TYPES = store.TYPES; // puck_drop, goal, period_end, final, lineup, odds, gameday, pregame_60, pregame_15, close_game, special_teams, interviews
 const ORIGINS = ["https://copperandbluenews.com", "https://www.copperandbluenews.com"];
 // Known browser push services. Anything else is refused so the Worker can't be used to POST to arbitrary URLs.
 const PUSH_HOSTS = [/(^|\.)fcm\.googleapis\.com$/, /(^|\.)android\.googleapis\.com$/, /(^|\.)push\.services\.mozilla\.com$/,
@@ -145,6 +148,27 @@ async function notify(req, env, ctx) {
     away: typeof b.away === "string" ? b.away : "", home: typeof b.home === "string" ? b.home : "",
     detail: b.detail || null, game: /^\d{10}/.test(id) ? id.split(":")[0] : null}).catch(e => console.log("alert log failed", String(e))));
   return out;
+}
+
+async function notifyInterviews(req, env, ctx) {
+  if (!(await safeEqual(bearer(req), env.NOTIFY_SECRET))) throw new HttpError(401, "unauthorized");
+  const b = await readJson(req, 65536);
+  const videos = interviews.normalizeVideos(b.videos);
+  if (!videos.length) return {ok: true, ignored: true, reason: "no videos"};
+  const seen = await store.getInterviewSeen(env);
+  const notifyIds = Array.isArray(b.notify) ? b.notify.filter(x => typeof x === "string").slice(0, 80) : null;
+  const plan = interviews.planInterviewAlerts(videos, seen, {notifyIds});
+  if (!interviews.sameIds(seen, plan.nextSeen)) await store.putInterviewSeen(env, plan.nextSeen);
+  const alerts = [];
+  for (const alert of plan.alerts) {
+    const one = new Request("https://worker.internal/notify", {
+      method: "POST",
+      headers: {Authorization: req.headers.get("Authorization") || "", "Content-Type": "application/json"},
+      body: JSON.stringify(alert),
+    });
+    alerts.push(await notify(one, env, ctx));
+  }
+  return {ok: true, bootstrapped: plan.bootstrap, suppressed: plan.suppressed, new: plan.fresh.length, seen: plan.nextSeen.length, alerts};
 }
 
 async function recordAlert(env, entry) {
@@ -275,6 +299,7 @@ export default {
         const out = pathname === "/subscribe" ? await subscribe(req, env) : await unsubscribe(req, env);
         return json(out, 200, c);
       }
+      if (pathname === "/interviews" && req.method === "POST") return json(await notifyInterviews(req, env, ctx));
       if (pathname === "/notify" && req.method === "POST") return json(await notify(req, env, ctx));
       if (pathname === "/export" && req.method === "GET") return await exportCsv(req, env);
       if (pathname === "/stats" && req.method === "GET") return json(await stats(req, env), 200, {"Cache-Control": "no-store"});

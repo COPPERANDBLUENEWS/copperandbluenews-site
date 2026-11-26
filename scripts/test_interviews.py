@@ -12,9 +12,16 @@ CASES = [
     ("pre-raw", "Pre-Raw"),
     ("  Post  -  Raw interview", "Post-Raw"),
     ("Something PRE-RAW extra", "Pre-Raw"),
-    ("RAW | Mike Babcock 11.25.26", None),
-    ("RAW | Leon Draisaitl 11.25.26", None),
+    ("RAW | Mike Babcock 11.25.26", "Raw"),
+    ("RAW | Leon Draisaitl 11.25.26", "Raw"),
+    ("RAW | Matt Savoie 11.25.26", "Raw"),
+    ("raw: practice availability", "Raw"),
+    ("RAW - media scrum", "Raw"),
     ("OILERS MIC'D UP | Episode 53 Trailer", None),
+    ("OILERS TODAY | Post-Game vs VGK 11.24.26", None),
+    ("On The Bench | Evan Bouchard", None),
+    ("Keys to the Game vs Golden Knights 11.24.26", None),
+    ("Middle of the Work Week", None),
     ("Prepare raw footage", None),
     ("POSTRAW without a separator", None),
     ("postraw", None),
@@ -40,9 +47,9 @@ def main():
     other = iv.video("GPvBSgKOrrI", "PRE-RAW | x", None, "title", "UCsomeoneelse")
     if other is not None:
         raise SystemExit("other channel was accepted")
-    plain = iv.video("GPvBSgKOrrI", "RAW | Mike Babcock 11.25.26", None, "rss", iv.CHANNEL["id"])
-    if plain is not None:
-        raise SystemExit("plain RAW was accepted")
+    plain = iv.video("aaaaaaaaaaa", "RAW | Mike Babcock 11.25.26", "2026-11-25T18:00:00Z", "rss", iv.CHANNEL["id"])
+    if not plain or plain["type"] != "Raw" or plain["url"] != "https://www.youtube.com/watch?v=aaaaaaaaaaa":
+        raise SystemExit(f"plain RAW: {plain}")
     good = iv.video("GPvBSgKOrrI", "PRE-RAW | Mattias Ekholm 11.24.26", "2026-11-24T20:00:00Z", "rss", iv.CHANNEL["id"])
     if not good or good["type"] != "Pre-Raw" or "youtube-nocookie.com/embed/GPvBSgKOrrI" not in good["embed"]:
         raise SystemExit(f"good video: {good}")

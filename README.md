@@ -109,6 +109,7 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   `offline.html` fallback. Bump `VERSION` in `sw.js` when the precache list changes (old caches are deleted).
   Push + notificationclick handlers open the inbox at `/notifications.html?id=` when the payload has an alert id.
   The payload `url` is unchanged: lineup still points at `/players.html`, finals at `/game.html?id=`.
+  Interview alerts (`type: interviews`) open that url instead (`/news.html#raw` or `/news.html?v=<id>#raw-<id>`).
   Notifications with no id (ones sent before this) still open that url.
 - `js/pwa.js`: registers the SW, shows the "Install the app" banner (Android/desktop `beforeinstallprompt`; iOS one-time
   "Tap Share then Add to Home Screen" tip; dismissal is remembered in localStorage), and the bell / Game alerts panel.
@@ -119,6 +120,11 @@ giveaways, plus a scorebug (score, SOG, period, clock, live/intermission/final) 
   `scripts/notify_alerts.py` runs in `live.yml` (puck drop, goals, period ends, final) and `live.yml`/`lineup.yml`
   (lineup confirmed) and POSTs new events to `WORKER_URL/notify`. It is skipped until the `WORKER_URL` and
   `NOTIFY_SECRET` repo secrets exist; sent ids persist in the Actions cache and in KV, so nothing is sent twice.
+  `scripts/notify_interviews.py` runs in `news.yml` and `site.yml` after the news update and POSTs
+  `data/interviews.json` to `WORKER_URL/interviews`. The ids already committed, and the first list the Worker
+  stores, are not pushed. One new Pre-Raw, Post-Raw, or Raw video is one alert (opens `news.html#raw-<video id>`).
+  Several of the same type in one run are one alert (opens `news.html#raw`). The checkbox is on by default
+  for current sign-ups. Deploy the Worker yourself after this change; Pages does not deploy `worker/`.
 - "Latest posts" on Home (`js/instagram.js`): the three newest @copperandbluenews posts in one compact row (image plus a short caption) under Next Game. Each card opens that post's article. "View all" goes to posts.html (News → Posts). The Posts page still has the full grid (up to 12) and Follow button. See **Instagram articles** below. The service worker never handles feeds.behold.so / behold.pictures / cdninstagram requests. `data/articles.json` stays network-first with the other data JSON.
 - Cache-bust: CSS/JS URLs use `?v=50`. Bump it in every HTML page and the `PRECACHE` list in `sw.js` together.
 - **Standings and leaders** (Scores tab): `standings.html` and `leaders.html`. `update_data.py` writes `data/standings.json` and `data/leaders.json` from the public NHL API (`standings/now`, `skater-stats-leaders/current`, `goalie-stats-leaders/current`) on the same schedule as the other JSON. The browser still cannot call the NHL API. These are not on the live Worker relay: they change a few times a day, and the relay's request budget is for the rink.
@@ -200,7 +206,7 @@ Live URL: https://copperandbluenews.com/
 - **Injuries** (`data/injuries.json`): who is injured and the injury come from the "Injured:" line of the latest NHL.com projected-lineups preview
   (auto). IR/LTIR status, expected return and extra sources come from `data/injuries_manual.json`, entered by hand from cited reports;
   a manual entry only shows while NHL.com still lists that player. Remove stale entries when a player returns.
-- **Pre-Raw / Post-Raw** (`data/interviews.json`, shown on `news.html#raw` and as a short row on the home page): player and coach interviews from the official Edmonton Oilers YouTube channel (`@edmontonoilers`, channel id `UCyfbxrAcT9w7pHvDeYCtc0Q`). No YouTube API key. The public RSS feed (`https://www.youtube.com/feeds/videos.xml?channel_id=UCyfbxrAcT9w7pHvDeYCtc0Q`) is the stable source and only lists the newest 15 uploads, so the script also reads the channel's public uploads playlist page to keep interviews that Shorts and highlights have already pushed out of that window. Titles must match Pre-Raw or Post-Raw (any case, with a space, hyphen, or dash between the words). A title that only says RAW, without Pre or Post, is left out. Oilers+ (`oilersplus.com`) is the club's paid stream, not a second YouTube channel. The file is rewritten only when the list changes. A failed fetch keeps the previous file and does not fail the news job.
+- **Pre-Raw / Post-Raw** (`data/interviews.json`, shown on `news.html#raw` and as a short row on the home page): player and coach interviews from the official Edmonton Oilers YouTube channel (`@edmontonoilers`, channel id `UCyfbxrAcT9w7pHvDeYCtc0Q`). No YouTube API key. The public RSS feed (`https://www.youtube.com/feeds/videos.xml?channel_id=UCyfbxrAcT9w7pHvDeYCtc0Q`) is the stable source and only lists the newest 15 uploads, so the script also reads the channel's public uploads playlist page to keep interviews that Shorts and highlights have already pushed out of that window. Titles must match Pre-Raw, Post-Raw, or a plain Raw scrum (`RAW |`, `RAW:`, or `RAW -`, any case). Highlights, Shorts, Mic'd Up, Oilers Today, and other series are left out. A title that only contains the word "raw" with no label, such as "Prepare raw", is left out. Oilers+ (`oilersplus.com`) is the club's paid stream, not a second YouTube channel. The file is rewritten only when the list changes. A failed fetch keeps the previous file and does not fail the news job.
 
 ## Instagram articles
 

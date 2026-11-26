@@ -18,6 +18,8 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      ALERTS_ON: ${{ secrets.WORKER_URL != '' && secrets.NOTIFY_SECRET != '' }}
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url || steps.deploy_retry.outputs.page_url }}
@@ -30,6 +32,26 @@ jobs:
       - run: python3 scripts/update_lineup.py || true
       - run: python3 scripts/update_fantasy.py || true
       - run: node scripts/build_articles.cjs || true
+      - name: Restore sent-alerts state
+        if: env.ALERTS_ON == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cbn-alerts
+          key: cbn-alerts-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: cbn-alerts-
+      - name: Interview video alerts
+        id: interview_alerts
+        if: env.ALERTS_ON == 'true'
+        run: python3 scripts/notify_interviews.py || true
+        env:
+          WORKER_URL: ${{ secrets.WORKER_URL }}
+          NOTIFY_SECRET: ${{ secrets.NOTIFY_SECRET }}
+      - name: Save sent-alerts state
+        if: always() && env.ALERTS_ON == 'true' && steps.interview_alerts.outputs.changed == '1'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/.cbn-alerts
+          key: cbn-alerts-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Commit data if changed
         run: |
           git add data.json data articles

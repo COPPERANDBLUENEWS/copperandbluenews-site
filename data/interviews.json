@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T06:11:46Z",
+ "updated": "2026-11-26T06:51:07Z",
  "channels": [
   {
    "name": "Edmonton Oilers",
@@ -10,13 +10,49 @@
    "uploads": "UUyfbxrAcT9w7pHvDeYCtc0Q"
   }
  ],
- "note": "Oilers+ (https://www.oilersplus.com) is the club subscription stream, not a separate YouTube channel. Public Pre-Raw and Post-Raw interviews are uploaded to the official Edmonton Oilers channel.",
+ "note": "Oilers+ (https://www.oilersplus.com) is the club subscription stream, not a separate YouTube channel. Public Pre-Raw, Post-Raw, and non-game-day Raw interviews are uploaded to the official Edmonton Oilers channel.",
  "sources": [
-  "rss (4)",
-  "uploads playlist (40)"
+  "rss (7)",
+  "uploads playlist (49)"
  ],
  "errors": [],
  "videos": [
+  {
+   "id": "FpfKQWZ9BXM",
+   "type": "Raw",
+   "title": "RAW | Matt Savoie 11.25.26",
+   "published": "2026-11-25T18:58:39Z",
+   "publishedSource": "rss",
+   "thumbnail": "https://i.ytimg.com/vi/FpfKQWZ9BXM/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=FpfKQWZ9BXM",
+   "embed": "https://www.youtube-nocookie.com/embed/FpfKQWZ9BXM",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
+  {
+   "id": "vkBFyVewxtg",
+   "type": "Raw",
+   "title": "RAW | Leon Draisaitl 11.25.26",
+   "published": "2026-11-25T18:58:04Z",
+   "publishedSource": "rss",
+   "thumbnail": "https://i.ytimg.com/vi/vkBFyVewxtg/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=vkBFyVewxtg",
+   "embed": "https://www.youtube-nocookie.com/embed/vkBFyVewxtg",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
+  {
+   "id": "mJkA_HfcAQY",
+   "type": "Raw",
+   "title": "RAW | Mike Babcock 11.25.26",
+   "published": "2026-11-25T18:57:33Z",
+   "publishedSource": "rss",
+   "thumbnail": "https://i.ytimg.com/vi/mJkA_HfcAQY/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=mJkA_HfcAQY",
+   "embed": "https://www.youtube-nocookie.com/embed/mJkA_HfcAQY",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
   {
    "id": "nhzv2CqF0HA",
    "type": "Post-Raw",
@@ -158,6 +194,30 @@
    "thumbnail": "https://i.ytimg.com/vi/GF2aBux41eo/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=GF2aBux41eo",
    "embed": "https://www.youtube-nocookie.com/embed/GF2aBux41eo",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
+  {
+   "id": "DYZzfLjCw2Y",
+   "type": "Raw",
+   "title": "RAW | Filip Hallander 11.20.26",
+   "published": "2026-11-20T18:00:00Z",
+   "publishedSource": "title",
+   "thumbnail": "https://i.ytimg.com/vi/DYZzfLjCw2Y/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=DYZzfLjCw2Y",
+   "embed": "https://www.youtube-nocookie.com/embed/DYZzfLjCw2Y",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
+  {
+   "id": "dAaNtGByq5U",
+   "type": "Raw",
+   "title": "RAW | Mike Babcock 11.20.26",
+   "published": "2026-11-20T18:00:00Z",
+   "publishedSource": "title",
+   "thumbnail": "https://i.ytimg.com/vi/dAaNtGByq5U/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=dAaNtGByq5U",
+   "embed": "https://www.youtube-nocookie.com/embed/dAaNtGByq5U",
    "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
    "channel": "Edmonton Oilers"
   },
@@ -354,6 +414,42 @@
    "channel": "Edmonton Oilers"
   },
   {
+   "id": "kEUARzaM9Pg",
+   "type": "Raw",
+   "title": "RAW | Connor McDavid 11.13.26",
+   "published": "2026-11-13T18:00:00Z",
+   "publishedSource": "title",
+   "thumbnail": "https://i.ytimg.com/vi/kEUARzaM9Pg/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=kEUARzaM9Pg",
+   "embed": "https://www.youtube-nocookie.com/embed/kEUARzaM9Pg",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
+  {
+   "id": "d0hNXQ4ouuA",
+   "type": "Raw",
+   "title": "RAW | Zach Hyman 11.13.26",
+   "published": "2026-11-13T18:00:00Z",
+   "publishedSource": "title",
+   "thumbnail": "https://i.ytimg.com/vi/d0hNXQ4ouuA/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=d0hNXQ4ouuA",
+   "embed": "https://www.youtube-nocookie.com/embed/d0hNXQ4ouuA",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
+  {
+   "id": "Gt61AixcfiA",
+   "type": "Raw",
+   "title": "RAW | Mike Babcock 11.13.26",
+   "published": "2026-11-13T18:00:00Z",
+   "publishedSource": "title",
+   "thumbnail": "https://i.ytimg.com/vi/Gt61AixcfiA/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=Gt61AixcfiA",
+   "embed": "https://www.youtube-nocookie.com/embed/Gt61AixcfiA",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
+  {
    "id": "693p66EprBk",
    "type": "Post-Raw",
    "title": "POST-RAW | Mike Babcock 11.11.26",
@@ -422,6 +518,18 @@
    "thumbnail": "https://i.ytimg.com/vi/v02px5azaIM/hqdefault.jpg",
    "url": "https://www.youtube.com/watch?v=v02px5azaIM",
    "embed": "https://www.youtube-nocookie.com/embed/v02px5azaIM",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
+  {
+   "id": "S67QxSeZ3-c",
+   "type": "Raw",
+   "title": "RAW | Mike Babcock 11.10.26",
+   "published": "2026-11-10T18:00:00Z",
+   "publishedSource": "title",
+   "thumbnail": "https://i.ytimg.com/vi/S67QxSeZ3-c/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=S67QxSeZ3-c",
+   "embed": "https://www.youtube-nocookie.com/embed/S67QxSeZ3-c",
    "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
    "channel": "Edmonton Oilers"
   },

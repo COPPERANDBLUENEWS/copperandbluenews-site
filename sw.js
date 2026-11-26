@@ -6,14 +6,15 @@
 // - Offline: navigations fall back to the cached page, then offline.html.
 // - Web push: shows Game alerts. A click opens that alert in the notifications inbox when the
 //   payload has an id. The notification's own url is unchanged (lineup stays /players.html,
-//   final stays /game.html?id=). Older notifications with no id still open their url.
-const VERSION = "cbn-v55";
+//   final stays /game.html?id=). Interview alerts open their news.html url instead, so a tap
+//   plays that Pre-Raw or Post-Raw video. Older notifications with no id still open their url.
+const VERSION = "cbn-v56";
 const STATIC = `${VERSION}-static`, PAGES = `${VERSION}-pages`, DATA = `${VERSION}-data`;
 const PRECACHE = [
   "/offline.html", "/play.html", "/trivia.html", "/notifications.html", "/standings.html", "/leaders.html", "/mcdavid.html", "/article.html",
   "/js/mcdavid.js?v=50",
-  "/js/play.js?v=50", "/js/airhockey-net.js?v=50", "/js/airhockey-online.js?v=50", "/js/home-play.js?v=50", "/js/trivia.js?v=55", "/js/config.js?v=50", "/copper.svg?v=50", "/css/style.css?v=55", "/css/style.css?v=53", "/js/main.js?v=51", "/js/pwa.js?v=53", "/js/newsletter.js?v=50",
-  "/js/standings.js?v=50", "/js/leaders.js?v=50", "/js/inbox.js?v=53",
+  "/js/play.js?v=50", "/js/airhockey-net.js?v=50", "/js/airhockey-online.js?v=50", "/js/home-play.js?v=50", "/js/trivia.js?v=55", "/js/config.js?v=50", "/copper.svg?v=50", "/css/style.css?v=55", "/css/style.css?v=53", "/js/main.js?v=51", "/js/pwa.js?v=56", "/js/newsletter.js?v=50",
+  "/js/standings.js?v=50", "/js/leaders.js?v=50", "/js/inbox.js?v=56",
   "/js/article.js?v=50", "/js/article-render.js?v=50", "/js/instagram.js?v=54",
   "/audio/goal-horn.wav?v=50", "/audio/copper-aww.wav?v=50", "/audio/puck-clack.wav?v=50", "/audio/board-thud.wav?v=50",
   "/logo.jpg", "/icons/icon-192.png", "/icons/badge-96.png", "/favicon-32.png"
@@ -112,14 +113,18 @@ self.addEventListener("notificationclick", event => {
   event.notification.close();
   const data = event.notification.data || {};
   const id = typeof data.id === "string" ? data.id : "";
-  // Deep link to the inbox entry. data.url (lineup / final / live) is left as the alert sent it.
-  const url = id
-    ? new URL("/notifications.html?id=" + encodeURIComponent(id), self.location.origin).href
-    : (data.url || new URL("/tracker.html", self.location.origin).href);
+  // Interview taps open the video on news.html. Every other alert still opens the inbox.
+  // data.url for lineup / final / live is left as the alert sent it.
+  const interview = data.type === "interviews" && data.url;
+  const url = interview
+    ? data.url
+    : id
+      ? new URL("/notifications.html?id=" + encodeURIComponent(id), self.location.origin).href
+      : (data.url || new URL("/tracker.html", self.location.origin).href);
   event.waitUntil((async () => {
     const wins = await self.clients.matchAll({type: "window", includeUncontrolled: true});
     for (const w of wins) {
-      if (id && "postMessage" in w) w.postMessage({type: "cbn-open-alert", id});
+      if (!interview && id && "postMessage" in w) w.postMessage({type: "cbn-open-alert", id});
       if (new URL(w.url).pathname === new URL(url).pathname && "focus" in w) { if ("navigate" in w && w.url !== url) await w.navigate(url).catch(() => {}); return w.focus(); }
     }
     for (const w of wins) if ("focus" in w && "navigate" in w) { await w.navigate(url).catch(() => {}); return w.focus(); }

@@ -3,6 +3,7 @@
 //             so fan-out and /export only need list() calls (1000 keys per call, paged with a cursor)
 //             instead of one read per subscriber. Oversized records fall back to reading the value.
 //   evt:<id>  an event id that was already fanned out (dedupe), kept 45 days. Metadata {t, at, r} feeds /stats.
+//   iv:seen   YouTube ids already considered for interview alerts. Missing key = not seeded yet.
 //   snd:<ms>:<rand>  send stats for one delivery batch (one queue message or one inline send): metadata
 //             {i: event id, t: type, n: attempts, s: sent, g: gone, f: failed}, kept 8 days. One KV write per
 //             batch of up to 40 subscribers, so a game night stays far under the Free plan's 1,000 writes/day.
@@ -12,25 +13,26 @@
 //                    still makes sure that id is in the array, so a crash between the two puts can heal.
 // KV is eventually consistent (a write can take up to ~60 s to show everywhere). Dedupe retries from
 // GitHub Actions come minutes apart, and the pipeline keeps its own sent-id state too.
-export const TYPES = ["puck_drop", "goal", "period_end", "final", "lineup", "odds", "gameday", "pregame_60", "pregame_15", "close_game", "special_teams"];
+export const TYPES = ["puck_drop", "goal", "period_end", "final", "lineup", "odds", "gameday", "pregame_60", "pregame_15", "close_game", "special_teams", "interviews"];
 // Defaults when a sign-up doesn't say: betting odds are opt-in (off), everything else on.
-export const DEFAULTS = {puck_drop: true, goal: true, period_end: true, final: true, lineup: true, odds: false, gameday: true, pregame_60: true, pregame_15: true, close_game: true, special_teams: true};
-const SUB = "sub:", EVT = "evt:", SND = "snd:", ALOG = "alog:", ALERTS = "alerts:log";
+export const DEFAULTS = {puck_drop: true, goal: true, period_end: true, final: true, lineup: true, odds: false, gameday: true, pregame_60: true, pregame_15: true, close_game: true, special_teams: true, interviews: true};
+const SUB = "sub:", EVT = "evt:", SND = "snd:", ALOG = "alog:", ALERTS = "alerts:log", SEEN = "iv:seen";
 const LOG_MAX = 400;
 const META_MAX = 1000;
 // Added after a given mask version. Older masks have no bits for them, so those sign-ups stay opted in until they save again.
-const ADDED_ON = {pregame_60: 3, pregame_15: 3, close_game: 4, special_teams: 4};
+const ADDED_ON = {pregame_60: 3, pregame_15: 3, close_game: 4, special_teams: 4, interviews: 5};
 
 const toMask = prefs => TYPES.reduce((m, t, i) => m | (prefs[t] ? 1 << i : 0), 0);
 // v1 records (before Nov 5, 2026) only had the first 5 bits: they get gameday ON (core game alert) and odds OFF.
 // v2 records predate the pre-game reminders: those two default ON. v3 predates close-game and special-teams
-// alerts: those two default ON. v4 stores the checkbox the fan saved.
+// alerts: those two default ON. v4 predates Pre-Raw / Post-Raw interview alerts: those default ON.
+// v5 stores the checkbox the fan saved.
 const fromMask = (m, v) => Object.fromEntries(TYPES.map((t, i) => {
   if (!v && t === "gameday") return [t, true];
   if ((v || 0) < (ADDED_ON[t] || 0)) return [t, true];
   return [t, !!(m & (1 << i))];
 }));
-const compact = r => ({v: 4, e: r.endpoint, k: r.p256dh, a: r.auth, m: toMask(r.prefs), n: r.email || "", c: r.created_at, u: r.updated_at});
+const compact = r => ({v: 5, e: r.endpoint, k: r.p256dh, a: r.auth, m: toMask(r.prefs), n: r.email || "", c: r.created_at, u: r.updated_at});
 const expand = (id, x) => ({id, endpoint: x.e, p256dh: x.k, auth: x.a, prefs: fromMask(x.m, x.v), email: x.n || null, created_at: x.c, updated_at: x.u});
 
 export async function putSub(env, id, rec, now) {
@@ -45,6 +47,13 @@ export async function getSub(env, id) {
   return v ? expand(id, v) : null;
 }
 export const deleteSub = (env, id) => env.ALERTS_KV.delete(SUB + id);
+
+/** null when interview ids have never been stored. An array (possibly empty) means the library was seeded. */
+export async function getInterviewSeen(env) {
+  const v = await env.ALERTS_KV.get(SEEN, "json");
+  return Array.isArray(v) ? v.filter(x => typeof x === "string") : null;
+}
+export const putInterviewSeen = (env, ids) => env.ALERTS_KV.put(SEEN, JSON.stringify(ids));
 
 /** Every subscriber, paging list() with its cursor. */
 export async function listSubs(env) {

@@ -17,6 +17,7 @@
     {id: "sample:pp", type: "special_teams", title: "Oilers power play", body: "Power play: VAN #43 Hughes, 2 min tripping, 12:34 2nd", url: "/tracker.html?id=2026020276", at: "2026-11-08T03:48:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "power_play", team: "VAN", player: "Hughes", number: 43, infraction: "tripping", duration: 2, time: "12:34", period: "2nd", fiveOnThree: false, awayAbbrev: "VAN", homeAbbrev: "EDM"}},
     {id: "sample:pk", type: "special_teams", title: "Penalty kill", body: "Penalty kill: EDM #2 Bouchard, 2 min hooking, 3:50 1st", url: "/tracker.html?id=2026020276", at: "2026-11-08T03:12:00.000Z", game: "2026020276", matchup: "Canucks @ Oilers", away: "VAN", home: "EDM", detail: {kind: "penalty_kill", team: "EDM", player: "Bouchard", number: 2, infraction: "hooking", duration: 2, time: "3:50", period: "1st", fiveOnThree: false, awayAbbrev: "VAN", homeAbbrev: "EDM"}},
     {id: "sample:final", type: "final", title: "FINAL: EDM 4, ANA 5", body: "Oilers fall 4-5 vs the Ducks. Box score and every goal on the site.", url: "/game.html?id=2026020260", at: "2026-11-06T03:45:00.000Z", game: "2026020260", matchup: "Ducks @ Oilers", away: "ANA", home: "EDM", detail: {kind: "final", result: "Oilers fall", awayAbbrev: "ANA", homeAbbrev: "EDM", awayScore: 5, homeScore: 4, extra: ""}},
+    {id: "sample:interview", type: "interviews", title: "Post-Raw: Connor McDavid", body: "POST-RAW | Connor McDavid 11.24.26", url: "/news.html?v=D5sQV9mA8uc#raw-D5sQV9mA8uc", at: "2026-11-25T04:13:03.000Z", matchup: "Interviews", detail: {kind: "interview", interviewType: "Post-Raw", videoId: "D5sQV9mA8uc", name: "Connor McDavid", youtube: "https://www.youtube.com/watch?v=D5sQV9mA8uc", count: 1}},
   ];
 
   const readIds = () => {
@@ -43,6 +44,7 @@
     if (a.type === "lineup" && (a.detail?.kind === "starter" || String(a.id).endsWith(":goalie"))) return "Starting goalie";
     if (a.type === "lineup") return "Lineup";
     if (a.type === "special_teams") return a.detail?.kind === "penalty_kill" ? "Penalty kill" : "Power play";
+    if (a.type === "interviews") return a.detail?.interviewType || "Interview";
     return {puck_drop: "Puck drop", goal: "Goal", period_end: "Period", close_game: "Close game", final: "Final", odds: "Odds", gameday: "Game day", pregame_60: "1 hour", pregame_15: "15 min"}[a.type] || "Alert";
   }
   function gameHref(a) {
@@ -51,6 +53,7 @@
     return `tracker.html?id=${a.game}`;
   }
   function gameLabel(a) {
+    if (a.type === "interviews") return a.detail?.count > 1 ? "All interviews" : "Watch interview";
     return a.type === "final" ? "Box score" : "Live rink";
   }
   function extraHref(a) {
@@ -93,6 +96,11 @@
       return facts([["Game", d.matchup || a.matchup], ["Venue", d.venue], ["Puck drop", d.when], [goalieLabel, d.starter]]);
     }
     if (d.kind === "close_game") return facts([["Score", score(d)], ["Time left", d.timeRemaining ? d.timeRemaining + " left in the " + (d.period || "3rd") : ""], ["Game", a.matchup]]);
+    if (d.kind === "interview" || d.kind === "interview_batch") {
+      const who = d.kind === "interview" ? d.name : (d.names || []).join(", ");
+      const yt = d.youtube ? `<p class="alert-links"><a class="btn btn-ghost" href="${esc(d.youtube)}" target="_blank" rel="noopener noreferrer">Watch on YouTube</a></p>` : "";
+      return facts([["Who", who], ["Type", d.interviewType]]) + yt;
+    }
     if (d.kind === "power_play" || d.kind === "penalty_kill") {
       const who = [d.number != null ? "#" + d.number : "", d.player].filter(Boolean).join(" ") || d.team;
       const dur = d.duration != null ? d.duration + " min" : "";
@@ -148,7 +156,7 @@
       root.innerHTML = `${banner}<p>Couldn't load notifications. Try again in a minute.</p><button type="button" class="btn" id="inboxRetry">Retry</button>${settings}`;
       $("inboxRetry").onclick = () => load(true);
     } else if (!alerts.length) {
-      root.innerHTML = `${banner}<p class="inbox-empty">No alerts yet. 1 hour and 15 minute reminders, puck drop, goals, period ends, close games, power plays, penalty kills, finals, confirmed starting goalies and lineup alerts show up here after they're sent.</p>${settings}`;
+      root.innerHTML = `${banner}<p class="inbox-empty">No alerts yet. 1 hour and 15 minute reminders, puck drop, goals, period ends, close games, power plays, penalty kills, finals, confirmed starting goalies, lineups, and new Pre-Raw and Post-Raw interviews show up here after they're sent.</p>${settings}`;
     } else {
       const seen = readIds();
       root.innerHTML = `${banner}<p class="meta inbox-lead">Newest first, grouped by game. Tap one for the details.</p>` + groups(alerts).map(([, items]) => {
