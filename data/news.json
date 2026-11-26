@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-26T22:00:59Z",
+ "updated": "2026-11-26T22:33:15Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (87)"
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Matt Savoie makes revealing admission about Oilers pressure",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUk1rLW1YcXRIR0t4cXQ0UF9aOFNULXYtazRhZGQyLWQyMmt2VUdwS0taUFMzeWZvNUJOTWJBeUktRkhwQ1dQYm52bzlOeGUyQm9Hc3EzaFozMHlQYzBRbnJNdFdEa1l5eDFMOWJjWmZjRDZJZlI4TWlLQUpsSGIteld2SnkwMlpHREd5RXBLLVB1Y0FtaEM5cTh3aw?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-26T22:19:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "5 Factors: Hot-shot Edmonton Oilers trip into one-third mark of season",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVG9YSzFVUWNldHNkQmR0TkEtMjB5NEdiNU14Y0s1YTE4UnA1bHdrTVVsQ0QzUzBNNk15dGE1YVFfTzdpZWJEbzZ5M3pIU2s3TTNZUUFSZ01mcWZJb2w1Y2hlRHh5ZHlUb050YUNQbkNBOFRpY1A5VHRXbEd5YlV5Nkw3cmh2UmVrY3c5RlZGSTNGY1ZBV0lVQmxoSEY1WGhxWnpPQjdvSQ?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-26T22:15:27Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers notes: Defenceman Mattias Ekholm nine away from 1,000 games",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeDk4RUNwbUNIV01CRC04aUc0VGVaRkNBRXNFaTIwelRFT3pRRGQ5S1hJNWxjM2RYeXpsZ25KcEZJYVhoNG02b0ZmT2NkVE9aOUZoWmpGdEp0U3dfY2JlOUZPeVpQeVE5Wnh5UE9ITU5nVUZ3d3ZxR0FodDN6REhMYzZmb3ZvZE5HNEdsZFBJREpkOTMwWVRjNDBKV3cyczVK?oc=5",
@@ -37,14 +53,6 @@
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObGhYZVZQRzZlV0pFODFWYTBJRkRvVUJQM3hfbHlvTzZib1ZmZ3ZvODRhOWwxSFA0UjZycHBHVFR1YTVLQjlEeUFPb3pCeFdpWmtvZTdkMlJxZmFPQlFmYVhocmtQdW5Zcml3Tk9jZ3FtU0d5c21JejlkWFUwVVkwOEVONThBMzEzMUN2QmVFOWo2dVphWi1RY1RqRVVrM2hNNFU0a0I1dlJCdw?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-26T20:23:11Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Watch NHL Mini: Vegas Golden Knights vs Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS3dlNW9uZ2p6QkJuaFk0QTlFclI1allhY25hRkNLUHZkNjFmN1VER096WktSTFRXVnV2S3FfRE1vSkdpVVJSa2ZZQ0hOZ3lhOTVpczRFR2hOeldWR2llMlZ1LWNfamM0VmNERGltbXBjUE9BMDA0cWVMbWhXVTQ5WDZXNHAwa1Q0NHFr?oc=5",
-   "source": "Disney Plus",
-   "published": "2026-11-26T18:40:39Z",
    "snippet": "",
    "via": "google"
   },
@@ -81,6 +89,14 @@
    "via": "google"
   },
   {
+   "title": "Seattle Kraken - Edmonton Oilers - Nov 27, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1abDloeWVfNnF1Wk5PQnlLczA2LV91d3Q5bUtLdU4tbTFPSy1RWlhHQ3RfZzRnWktpVGxvZjB5Y0pVc1ZiR2ltRHJyTThxM2p0T3o5RnNBMF9zY0N3aE1CX21EV1Y3RFpHM0JsVU9zVVE?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-26T17:02:04Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "What Edmonton Oilers lines could look like when Savoie and Hyman return",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQzJUaFVVaVJHQVE5NFp1UXB3dUxRb1V4YzZueGYweXUyY2h1bWtfZHlVZGtHeW4wb01WalN4WS0yTXh4WkdZR2FuRTNpaXR2UDNjcGZjaDhnbUJ6MlVxRVV1RExNWjVfOWkteW1tMzFRZTNUbkdTZEtNdDgtYTVZZmNDeFJPUXRjQ1pxcA?oc=5",
    "source": "Daily Hive",
@@ -107,7 +123,7 @@
   {
    "title": "Is McDavid Getting Robbed As He Goes For Record-Breaking Points Season?",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUDVBdHhza3VsaFJIZVppRG1zOTVmNkFiTE80VnB6NlQ3RW1aQVdwT3JWTko2UUZ1NW0zRUJDVTBLZktmamlwcDI0RkNEQWUtRVpjM28tdmdIUlBXb2xYbHRRZUU3V0JOclB4MnZNNUpEcC0wZG9FZkJXdTZxakNIY1NUOFU5bmRRaEE?oc=5",
-   "source": "Yahoo Sports",
+   "source": "Yahoo",
    "published": "2026-11-26T15:52:34Z",
    "snippet": "",
    "via": "google"
@@ -133,22 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbWg3aGJrdkZsa1hoMlItSU4tUFg1SXVIWnNtd2lCMmlqVFNtUk10M3hZZ08xNnVpbjZIaVphV0JZSGh3V2lQSzN4cmNpUVFqVWpWdWFZeDZ4dWxtWXdyVHZqelRLdXVqbGExd2hZOTBGalFDSnpONE42YlFVcVEwWnRFdDNJeHp4RHlQNEpPbThJNTdsSWNR?oc=5",
    "source": "The New York Times",
    "published": "2026-11-26T13:10:47Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Paul Coffey Trade: Edmonton’s 1987 Thanksgiving Week Deal",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTEdCc1J2QzhZTnNOMmd1V1JHWlBrVUxLX3hRaXFrUjB0LXplbElEaEZSazZmdVpsNlZJcmxadHJGYXFxOU1jU0ZlRHlleHlHeE5ob0ZONDJMQXR1UExJSkJHek94bURUX2FqQU5Qd1VvcUlCNXNOcHZ5WkUzb3FHbENiR3FiMDV5V1E?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-26T13:07:18Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Kraken vs. Oilers Prediction & Picks - Nov. 27",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSDgwWTlvZmtLazJXTTJMNDNHN0NCZVpZZS00MDQ4QlJUZi1sbkFOUVZUaWRlYUV2VzBobExqTmRmVEpnZ3RKQW10bWlpRmphSkdtakFBMjlkYnlJMTNjeGxncWVieGhhVTJTQV9KYUVYOW9ya29hSkgzZE0zSXBlb2l5SGZ6WFlvZXlnYW93VQ?oc=5",
-   "source": "Sports Radio 93.3 KJR",
-   "published": "2026-11-26T13:05:20Z",
    "snippet": "",
    "via": "google"
   },
@@ -230,13 +230,6 @@
    "snippet": ""
   },
   {
-   "title": "Nugent-Hopkins back in Edmonton Oilers lineup following mystery injury",
-   "url": "https://edmontonjournal.com/sports/ryan-nugent-hopkins-edmonton-oilers-mystery-injury",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T19:09:39Z",
-   "snippet": "\"I think for the majority of the part we’ve been playing really good hockey, so I want to jump back in and be a part of that\""
-  },
-  {
    "title": "PROJECTED LINEUP: Nugent-Hopkins to return on the wing against Golden Knights",
    "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-to-return-on-the-wing-against-golden-knights-11-24-26",
    "source": "EdmontonOilers.com",
@@ -277,6 +270,13 @@
    "source": "NHL.com",
    "published": "2026-11-23T04:54:00Z",
    "snippet": "ST. LOUIS -- Jimmy Snuggerud had a goal and an assist for the St. Louis Blues, who rallied from a three-goal deficit in the third period for a 5-4 shootout win against the Edmonton Oilers…"
+  },
+  {
+   "title": "QUICK RECAP: Blues 5, Oilers 4 (SO)",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-blues-11-22-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-23T00:10:32.365Z",
+   "snippet": "ST. LOUIS, MO - Couldn't hold on to close out the road trip on a winning note. Despite holding a three-goal lead midway through the third period, the Edmonton Oilers couldn't protect their…"
   }
  ]
 }
