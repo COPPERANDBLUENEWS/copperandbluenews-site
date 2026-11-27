@@ -297,9 +297,9 @@
   "forwards": [
    [
     {
-     "id": 8482259,
-     "name": "Bobby McMann",
-     "num": 74,
+     "id": 8476905,
+     "name": "Chandler Stephenson",
+     "num": 9,
      "pos": "LW"
     },
     {
@@ -337,9 +337,9 @@
    ],
    [
     {
-     "id": 8476905,
-     "name": "Chandler Stephenson",
-     "num": 9,
+     "id": 8482259,
+     "name": "Bobby McMann",
+     "num": 74,
      "pos": "LW"
     },
     {
@@ -349,23 +349,23 @@
      "pos": "C"
     },
     {
-     "id": 8482751,
-     "name": "Ryan Winterton",
-     "num": 26,
+     "id": 8484241,
+     "name": "Matthew Wood",
+     "num": 71,
      "pos": "RW"
     }
    ],
    [
     {
-     "id": 8483570,
-     "name": "Ben Meyers",
-     "num": 59,
+     "id": 8482751,
+     "name": "Ryan Winterton",
+     "num": 26,
      "pos": "LW"
     },
     {
-     "id": 8484241,
-     "name": "Matthew Wood",
-     "num": 71,
+     "id": 8483570,
+     "name": "Ben Meyers",
+     "num": 59,
      "pos": "C"
     },
     {
@@ -442,8 +442,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/seattle-kraken/line-combinations",
     "what": "line combinations",
-    "basis": "Geoff Baker",
-    "updatedAt": "2026-11-27T13:39:19.367Z"
+    "basis": "Mike Benton",
+    "updatedAt": "2026-11-27T18:20:56.636Z"
    },
    {
     "name": "DailyFaceoff",
@@ -468,5 +468,5 @@
    "note": null
   }
  },
- "updated": "2026-11-27T16:57:58Z"
+ "updated": "2026-11-27T18:25:29Z"
 }
