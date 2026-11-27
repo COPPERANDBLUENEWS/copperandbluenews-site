@@ -241,6 +241,13 @@
    "num": 18,
    "pos": "L",
    "status": "Day-to-day"
+  },
+  {
+   "id": 8480842,
+   "name": "Filip Hallander",
+   "num": 19,
+   "pos": "C",
+   "status": "Out"
   }
  ],
  "notes": [],
@@ -250,7 +257,7 @@
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
    "basis": "Bob Stauffer",
-   "updatedAt": "2026-11-27T16:36:38.011Z"
+   "updatedAt": "2026-11-27T16:51:24.813Z"
   },
   {
    "name": "DailyFaceoff",
@@ -265,22 +272,16 @@
    "num": 35,
    "pos": "G"
   },
-  "status": "Unconfirmed",
+  "status": "Confirmed",
   "backup": {
    "id": 8482221,
    "name": "Devon Levi",
    "num": 27,
    "pos": "G"
   },
-  "note": null
+  "note": "Jarry will start vs. Seattle on Friday. "
  },
  "scratches": [
-  {
-   "id": 8480842,
-   "name": "Filip Hallander",
-   "num": 19,
-   "pos": "C"
-  },
   {
    "id": 8482166,
    "name": "Shakir Mukhamadullin",
@@ -467,5 +468,5 @@
    "note": null
   }
  },
- "updated": "2026-11-27T16:44:31Z"
+ "updated": "2026-11-27T16:57:58Z"
 }
