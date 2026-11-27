@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-27T11:30:19Z",
+ "updated": "2026-11-27T12:39:49Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (50)",
+  "Edmonton Journal (10)",
   "Sportsnet (0)",
   "Google News (94)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Seattle Kraken - Edmonton Oilers - Nov 27, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1abDloeWVfNnF1Wk5PQnlLczA2LV91d3Q5bUtLdU4tbTFPSy1RWlhHQ3RfZzRnWktpVGxvZjB5Y0pVc1ZiR2ltRHJyTThxM2p0T3o5RnNBMF9zY0N3aE1CX21EV1Y3RFpHM0JsVU9zVVE?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-27T11:02:04Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Edmonton Oilers vs Seattle Kraken - Where to Watch, Stream Info, TV Channel, and Live Updates (November 27, 2026)",
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaWotd3FQdFhWek9VY3F2bnpsc2poQkdqaVpkRDZQbVVzOVVNSHB3X1ZOeFhHZm1paTBSYUpCOTcyUDZ1WEZaaDh1SkRhcG1mZ0Z3MmlWVTJyU0xCZGVuejFMUzgxNzU0cGMyZ1dhTVBTS2lmS2tUeEdjUXlMblN6dFR4eWxUYnFURDM5N2ZrZE5ZcHZiSmdjWWJmRTJWeU9CazU5bVJHd1k5cDN2MGFmc1FHOEZnUlpXcXBOVmlGTVFWb2dSaExCQm9ramJEZVJW?oc=5",
@@ -53,14 +61,6 @@
    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPanBIZEJRR3hyNHNuLV9mbzh6NEFpaVppWnRfQzlDd0NBbll5cWxiUWVqUWRrUkNjX2wyYW8zblhZQ1V6Q2dTbkZkbnZIdF9fZ19qOVV2MWRCaGp3bzBrdWtiWjRqZFI5T2J2ODBHQ3Vmajl6R2lwNFpMTnB5WmJmSWhIajhERXh0V2pWc1p4N2NVaDlkekU3NUIyNkRNR0pOTmdOY0h2RHpyMlhnQU1xLWRZUnNpUVdtMjFwYlZVNlR3NkktMTc1SndzaDZZbGla?oc=5",
    "source": "NDTV Sports",
    "published": "2026-11-27T06:10:44Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Seattle Kraken - Edmonton Oilers - Nov 27, 2026",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1abDloeWVfNnF1Wk5PQnlLczA2LV91d3Q5bUtLdU4tbTFPSy1RWlhHQ3RfZzRnWktpVGxvZjB5Y0pVc1ZiR2ltRHJyTThxM2p0T3o5RnNBMF9zY0N3aE1CX21EV1Y3RFpHM0JsVU9zVVE?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-27T05:02:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -237,13 +237,6 @@
    "snippet": ""
   },
   {
-   "title": "Nugent-Hopkins back in Edmonton Oilers lineup following mystery injury",
-   "url": "https://edmontonjournal.com/sports/ryan-nugent-hopkins-edmonton-oilers-mystery-injury",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T19:09:39Z",
-   "snippet": "\"I think for the majority of the part we’ve been playing really good hockey, so I want to jump back in and be a part of that\""
-  },
-  {
    "title": "PROJECTED LINEUP: Nugent-Hopkins to return on the wing against Golden Knights",
    "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-to-return-on-the-wing-against-golden-knights-11-24-26",
    "source": "EdmontonOilers.com",
@@ -258,25 +251,32 @@
    "snippet": "GOLDEN KNIGHTS (14-6-5) at OILERS (17-5-4) 8 p.m. ET; TVAS, SN, TNT, HBO MAX Golden Knights projected lineup Brett Howden -- Jack Eichel -- Mark Stone Trevor Connelly -- William Karlsson --…"
   },
   {
-   "title": "Two big guns return to ice for Edmonton Oilers, one to play against Vegas",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-ryan-nugent-hopkins-matthew-savoie-vegas-golden-knights",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T16:30:19Z",
-   "snippet": ""
+   "title": "McDavid bid for 200-point season drawing raves from Gretzky, others",
+   "url": "https://www.nhl.com/news/oilers-mcdavid-bid-for-200-point-season-drawing-raves-from-gretzky-and-rest-of-hockey-world",
+   "source": "NHL.com",
+   "published": "2026-11-24T05:00:00Z",
+   "snippet": "Connor McDavid has taken a high bar and set it at an unbelievable level this season. The Edmonton Oilers forward is on pace to challenge the 200-point plateau, which is something only Wayne…"
   },
   {
-   "title": "Edmonton Oilers Power Rankings: Injuries jostling both lineup and list",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-player-power-rankings-november",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T13:43:35Z",
-   "snippet": "It's no mistake the Oilers' best start in decades coincides with McDavid's best start to his career"
+   "title": "PREVIEW: Oilers vs. Golden Knights",
+   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-golden-knights-11-24-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-24T00:36:33.158Z",
+   "snippet": "The Edmonton Oilers host a Pacific Division rival in the Vegas Golden Knights at Rogers Place on Tuesday night. You can watch the game live on Sportsnet at 7:00 PM MT or listen on the…"
   },
   {
-   "title": "Signed Wayne Gretzky Warhol print expected to fetch $25-30K at auction",
-   "url": "https://edmontonjournal.com/news/edmonton-oilers-wayne-gretzky-andy-warhol-art",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T11:00:30Z",
-   "snippet": "\"It's a rare case: A Canadian figure chosen by the most famous post-war contemporary painter in the world\""
+   "title": "RELEASE: Oilers acquire Austin Roest from Nashville",
+   "url": "https://www.nhl.com/oilers/news/release-oilers-acquire-austin-roest-from-nashville",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-24T00:26:57.813Z",
+   "snippet": "EDMONTON, AB - The Edmonton Oilers have acquired forward Austin Roest from the Nashville Predators in exchange for forward James Stefan. Roest (5’10”, 185 lbs, 22) has appeared in 15 games…"
+  },
+  {
+   "title": "Blues rally from three down in third period, defeat Oilers in shootout",
+   "url": "https://www.nhl.com/news/edmonton-oilers-st-louis-blues-game-recap-november-22-2026",
+   "source": "NHL.com",
+   "published": "2026-11-23T04:54:00Z",
+   "snippet": "ST. LOUIS -- Jimmy Snuggerud had a goal and an assist for the St. Louis Blues, who rallied from a three-goal deficit in the third period for a 5-4 shootout win against the Edmonton Oilers…"
   }
  ]
 }
