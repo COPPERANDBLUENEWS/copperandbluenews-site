@@ -1,18 +1,33 @@
 {
- "updated": "2026-11-27T20:34:41Z",
+ "updated": "2026-11-27T21:33:31Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (2)",
+  "Sportsnet (1)",
   "Google News (91)"
  ],
  "errors": [],
  "items": [
   {
+   "title": "Edmonton Oilers reassemble top line of McDavid, Draisaitl, Podkolzin",
+   "url": "https://edmontonjournal.com/sports/edmonton-oilers-reassemble-top-line-of-mcdavid-draisaitl-podkolzin",
+   "source": "Edmonton Journal",
+   "published": "2026-11-27T21:29:29Z",
+   "snippet": "Split up after the loss to the Tampa Bay Lightning earlier this month, Oilers head coach Mike Babcock is reuniting the line of Connor McDavid, Leon Draisaitl and Vasily Podkolzin."
+  },
+  {
    "title": "Oilers hope 2-day break helps end 4-game losing skid",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOa0pueGM1Yl9fdVJuVmhKTzlOemxVSkxHZUVDNjZFYXQ5c29ZeEVBQkIyXzZNQmJNeVl3a0p6WUtfWkw0YndTNGhsMmx0R1RxRUpXNzFRQmxxRDNsWnFFT3FYZGFHTlA2TXgzTnBuRG96SktHcFVDLS1nWUduNm0wSW1jR2hKUWVlSTkyclVVSEtPS0JfUGdqeUFIMUk4d2hrVVE?oc=5",
    "source": "CTV News",
    "published": "2026-11-27T19:40:38Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "GDB 28.0: Seattle is a great matchup for the Oilers (7 PM, SNW)",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVVduajRXTVJnWmo0U3Jwak4yVFlEaldYU0tGRHgwT0NqLUI3TUk5eUk2NUV2SWxiRkwxUGV2R0NiRVIwZnoxRFI5dnZ2ZldHeU11SnlNejNDdER3SFBRZzA2dXhKdWlFby12VThBa3lrNU1RblNSQW8tM2h0SjZXQVFlUy1NT2ZLZXRCaXY5UDI?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-27T19:31:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -41,27 +56,12 @@
    "via": "google"
   },
   {
-   "title": "GDB 28.0: Seattle is a great matchup for the Oilers (7 PM, SNW)",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVVduajRXTVJnWmo0U3Jwak4yVFlEaldYU0tGRHgwT0NqLUI3TUk5eUk2NUV2SWxiRkwxUGV2R0NiRVIwZnoxRFI5dnZ2ZldHeU11SnlNejNDdER3SFBRZzA2dXhKdWlFby12VThBa3lrNU1RblNSQW8tM2h0SjZXQVFlUy1NT2ZLZXRCaXY5UDI?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-27T18:44:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "The Injury News On Zach Hyman Takes a Scary Turn",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQTBlZWRnekxuQ3kwUDlhM2xaT1JUbWxEaWduejVTT1pXV19Ecm9GZTNSTWIxcFFIN2dyb1hWeUZqbG11U08zOW10UnZjVG5mUXdGRWxtTXBRZVVEWWMzN05ReUJtcWY1OWNSeGJ6ZXA1UkljbW5XUFFYbXpKZFJDRF9Bd0dCWGt3R0laQVFOYmZkLUlhRy1Ybjg0TURhQ2NJQkJDS2owLU84Zw?oc=5",
    "source": "The Hockey News",
    "published": "2026-11-27T18:30:12Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "‘Get back to it’: Oilers’ Dickinson on wanting to beat Kraken, end skid",
-   "url": "https://www.sportsnet.ca/nhl/video/get-back-to-it-oilers-dickinson-on-wanting-to-beat-kraken-end-skid/",
-   "source": "Sportsnet",
-   "published": "2026-11-27T18:29:20Z",
-   "snippet": "Edmonton Oilers centre Jason Dickinson meets with the media and discusses the short break that the team had, wanting to end their current four-game losing streak, and the team’s mindset in…"
   },
   {
    "title": "NHL Rumors: Maple Leafs Edvinsson Offer, Oilers Lose Hyman, Kucherov Hurdle with Canadiens",
@@ -251,13 +251,6 @@
    "snippet": ""
   },
   {
-   "title": "Four On The Floor: Golden Knights hand sagging Oilers another loss",
-   "url": "https://edmontonjournal.com/sports/hockey/nhl/edmonton-oilers/oliers-lose-golden-knights",
-   "source": "Edmonton Journal",
-   "published": "2026-11-25T03:53:45Z",
-   "snippet": ""
-  },
-  {
    "title": "BLOG: Elks welcomed onto the ice at Rogers Place as Grey Cup champions",
    "url": "https://www.nhl.com/oilers/news/blog-elks-welcomed-onto-the-ice-at-rogers-place-as-grey-cup-champions",
    "source": "EdmontonOilers.com",
@@ -277,6 +270,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-24T18:43:43.264Z",
    "snippet": "EDMONTON, AB – Forward Ryan Nugent-Hopkins will be back in the lineup for the Edmonton Oilers when they welcome their Pacific Division rivals in the Vegas Golden Knights to Rogers Place on…"
+  },
+  {
+   "title": "Golden Knights at Oilers projected lineups",
+   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-preview-november-24-2026",
+   "source": "NHL.com",
+   "published": "2026-11-24T18:37:21.759Z",
+   "snippet": "GOLDEN KNIGHTS (14-6-5) at OILERS (17-5-4) 8 p.m. ET; TVAS, SN, TNT, HBO MAX Golden Knights projected lineup Brett Howden -- Jack Eichel -- Mark Stone Trevor Connelly -- William Karlsson --…"
   }
  ]
 }
