@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T06:51:07Z",
+ "updated": "2026-11-27T18:27:15Z",
  "channels": [
   {
    "name": "Edmonton Oilers",
@@ -12,11 +12,47 @@
  ],
  "note": "Oilers+ (https://www.oilersplus.com) is the club subscription stream, not a separate YouTube channel. Public Pre-Raw, Post-Raw, and non-game-day Raw interviews are uploaded to the official Edmonton Oilers channel.",
  "sources": [
-  "rss (7)",
-  "uploads playlist (49)"
+  "rss (10)",
+  "uploads playlist (52)"
  ],
  "errors": [],
  "videos": [
+  {
+   "id": "IKEVftc18hU",
+   "type": "Pre-Raw",
+   "title": "PRE-RAW | Colton Dach 11.27.26",
+   "published": "2026-11-27T17:17:18Z",
+   "publishedSource": "rss",
+   "thumbnail": "https://i.ytimg.com/vi/IKEVftc18hU/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=IKEVftc18hU",
+   "embed": "https://www.youtube-nocookie.com/embed/IKEVftc18hU",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
+  {
+   "id": "C_ZAsvxv_t8",
+   "type": "Pre-Raw",
+   "title": "PRE-RAW | Jason Dickinson 11.27.26",
+   "published": "2026-11-27T17:14:55Z",
+   "publishedSource": "rss",
+   "thumbnail": "https://i.ytimg.com/vi/C_ZAsvxv_t8/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=C_ZAsvxv_t8",
+   "embed": "https://www.youtube-nocookie.com/embed/C_ZAsvxv_t8",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
+  {
+   "id": "luA-uWawMc8",
+   "type": "Pre-Raw",
+   "title": "PRE-RAW | Mike Babcock 11.27.26",
+   "published": "2026-11-27T17:12:47Z",
+   "publishedSource": "rss",
+   "thumbnail": "https://i.ytimg.com/vi/luA-uWawMc8/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=luA-uWawMc8",
+   "embed": "https://www.youtube-nocookie.com/embed/luA-uWawMc8",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
   {
    "id": "FpfKQWZ9BXM",
    "type": "Raw",
