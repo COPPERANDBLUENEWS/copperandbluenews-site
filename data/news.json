@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-27T19:39:06Z",
+ "updated": "2026-11-27T20:34:41Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (90)"
+  "Google News (91)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers hope 2-day break helps end 4-game losing skid",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOa0pueGM1Yl9fdVJuVmhKTzlOemxVSkxHZUVDNjZFYXQ5c29ZeEVBQkIyXzZNQmJNeVl3a0p6WUtfWkw0YndTNGhsMmx0R1RxRUpXNzFRQmxxRDNsWnFFT3FYZGFHTlA2TXgzTnBuRG96SktHcFVDLS1nWUduNm0wSW1jR2hKUWVlSTkyclVVSEtPS0JfUGdqeUFIMUk4d2hrVVE?oc=5",
+   "source": "CTV News",
+   "published": "2026-11-27T19:40:38Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Edmonton Oilers reveal concerning injury update on Zach Hyman",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZlY1R0xZcG9JMlpKQjN0ZERTMVM0ZVdMdkU0U2hCVXMySlFtMldlbUNINzBMR1FlSF84QzU4emNXUzRyYXRYU2hCS0hZTmNMcEFKSVRKYmVTQm1uYjF3c25YUnBoMWpZa0lOUmFjLTBJMExNTVhvWmRuNWdURUZqZnF3?oc=5",
@@ -29,6 +37,14 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSjRtbWlVWjlzX1NBV3FlYXFRbjdJVExBQm9NOG1tMlJiRzllMXJzZnNiYmpOcFo3b193OUxQdEFESmtxN1VRaVlKZE9MblRYVk56OS1UUWFQWlJTY1hodzJfTW5pY016VkUtN2s3Mkpwdy1NN1F5VHZXYWJYb2JqVHlGQl9UczA0cGJvVVNXZVAxZlFsRS05UGh6QWc?oc=5",
    "source": "The New York Times",
    "published": "2026-11-27T18:45:22Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "GDB 28.0: Seattle is a great matchup for the Oilers (7 PM, SNW)",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVVduajRXTVJnWmo0U3Jwak4yVFlEaldYU0tGRHgwT0NqLUI3TUk5eUk2NUV2SWxiRkwxUGV2R0NiRVIwZnoxRFI5dnZ2ZldHeU11SnlNejNDdER3SFBRZzA2dXhKdWlFby12VThBa3lrNU1RblNSQW8tM2h0SjZXQVFlUy1NT2ZLZXRCaXY5UDI?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-27T18:44:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -67,7 +83,7 @@
    "title": "Oilers injury update: Hyman dealing with migraines affecting eye; Hallander suffers MCL sprain",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd0hnQkxGU3hXS3dXYkRyNkxsQU9zYlhUdWVrVHY5STBSdG9Vbk9HQzlfOFBiSmxVRy01Q2M3TFR2YTFYNXBtZk1zSVpEbXZ3cncxT2FZX2xKS2VRLV9zeDhOSUZNWjVDa2NDbVN3bEliQ2Vud21jZDF3dU1xQUNuSWhOYkFEQmhTajNHMlVzRHJrYld1ME5wSFVWVFdLQkZ3b2dwZnVDOFVGQXVSVl82OGhmdFE4d3FMTV9TbmM3WQ?oc=5",
    "source": "Oilers Nation",
-   "published": "2026-11-27T18:14:00Z",
+   "published": "2026-11-27T18:18:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -154,22 +170,6 @@
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOc1FLb091cE1lVS1XaDRmNFhLNjV0REk2bUtEQTZXRFNfOTdSODU4QUJrMmtwbGFBUWdHNTlvRVRTdVdHY09CaUJNdklDWkYtNDVjdEhQclE2Ni1YeGs5UHVDdkpQNlljZ3JoUWVJVHFRdllqaWROQm1hNmtRYVBmbV9zNmYtSHdTZmstMFJxSmZBa0tYbm1KNks4YkYwWG80eG9CbVJiQQ?oc=5",
    "source": "Davy Jones' Locker Room",
    "published": "2026-11-27T15:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Prove That Accountability Only Applies to Some Players",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUF9kb09LZ3hGYmdWLVhEYUZ4elZmT0QyLWpBS2ZIYlgyVnh0V0s2VF81UjgyTmxsMzdzb1N5QkxNSFBQcHRLejBLWThXdVk3cGh2UnlfUEJIQ0w5a1JwYkI3T3RPc2VXS1F2QkJ5WGFkZGpUS3M3cEpZMU5ZQWtIX2JLTkpEc1J2cEdVazc2aGx6VTU3LWc?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-27T14:35:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Connor McDavid’s Chances of a 200-Point Season Are Growing Slim",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkRiVGxZeHZmOGtIZk1Oa0FDQThKVjVueE02aG5SdEliZTFBMEQ1emU4ckswYzIzeHAtY2NUWkZneVk4dG4tT0xQRzNSZDdINjNRZU1wMHN2YV9EQ0R3VFI3NFo2Z1JSQXhoV0otVldsX2F0c3VXWkxRVjF3QllDaHBuU1h0M2pmeWh3WWhQdXN1NThCNzJr?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-27T14:05:00Z",
    "snippet": "",
    "via": "google"
   },
