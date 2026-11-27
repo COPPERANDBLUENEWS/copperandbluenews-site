@@ -1,13 +1,21 @@
 {
- "updated": "2026-11-27T19:05:26Z",
+ "updated": "2026-11-27T19:39:06Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
-  "Edmonton Journal (50)",
+  "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (87)"
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Edmonton Oilers reveal concerning injury update on Zach Hyman",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZlY1R0xZcG9JMlpKQjN0ZERTMVM0ZVdMdkU0U2hCVXMySlFtMldlbUNINzBMR1FlSF84QzU4emNXUzRyYXRYU2hCS0hZTmNMcEFKSVRKYmVTQm1uYjF3c25YUnBoMWpZa0lOUmFjLTBJMExNTVhvWmRuNWdURUZqZnF3?oc=5",
+   "source": "Daily Hive",
+   "published": "2026-11-27T19:20:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Kraken at Oilers projected lineups",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeDVjS2YtaTZCOFI5OGhkU1VpTzNXdEVNVng0bGI5UXYtcV92TUhDd3FrYmVsQXRDeUpzdzR0SlVsb2o1VXI0ZUFiMVJvZ1pkdGlPYXYwUmpPRm15alR5NXBHNWxHbnM1ejItMm5kZHRRakFUNmYwM3J2YXBIOXNfRWNHc3doOWtwa2hOU1NB?oc=5",
@@ -56,10 +64,18 @@
    "via": "google"
   },
   {
+   "title": "Oilers injury update: Hyman dealing with migraines affecting eye; Hallander suffers MCL sprain",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOd0hnQkxGU3hXS3dXYkRyNkxsQU9zYlhUdWVrVHY5STBSdG9Vbk9HQzlfOFBiSmxVRy01Q2M3TFR2YTFYNXBtZk1zSVpEbXZ3cncxT2FZX2xKS2VRLV9zeDhOSUZNWjVDa2NDbVN3bEliQ2Vud21jZDF3dU1xQUNuSWhOYkFEQmhTajNHMlVzRHJrYld1ME5wSFVWVFdLQkZ3b2dwZnVDOFVGQXVSVl82OGhmdFE4d3FMTV9TbmM3WQ?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-27T18:14:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Mike Babcock just put together best possible line combos for Edmonton Oilers -- at least on paper",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPN0pIUE5oMlZkZTVyT3pGMFVOVWVtZG9TNV9JdThhbFBPMnNaYnlXaVkzVkVHaEVqbFlQVU91ZndJZzZjYk9uTENsWVh5bUNUaUhoRHdMOHBpamc1TTFGY2Vsc1lxc0U4dXVXc2J1TUNNclVtaFBveWtoNTFINmp1b2FETjU0RUl3cy1GOTZxSTNxRWZOZXozSTNKMmRlQm8zZ1hqNF9hY2kwdWdvVjhlZTFfSWZ0V0t5UWc3NVM0bmdqdmg3MmZYTU04MGg?oc=5",
    "source": "Edmonton Journal",
-   "published": "2026-11-27T18:00:00Z",
+   "published": "2026-11-27T18:06:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -75,6 +91,14 @@
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTU5TaGI1ZndvdmtSRWFjRmRPOFBBVWJaNWMzXzJUMTJzUUMtSHdJQmVxaHRHME12QmZrQW1lQzRhUklIS3FFdFdQWWwxaHJfSnY2d29xbXAzS2h2WnphdDM0cjhCMC1qdHd3SGhsY1YyZUJ6bERHbmhPZ2R3QVdTb19MaG1TSEZNZjloS2lB?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-27T17:46:34Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Watch Edmonton Oilers at Buffalo Sabres",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5jZ09RSm4yYnFReFdqZ1doSGcxU1BwQ2hjYk0xblpLbTdnM0hJMFU3YUxtekpOYTVLRzFrNl9zamJYOFlIaGtlVHhrSV9KSUhVbXAydWUwamMwN0c5QTBv?oc=5",
+   "source": "Fubo",
+   "published": "2026-11-27T17:38:16Z",
    "snippet": "",
    "via": "google"
   },
@@ -95,6 +119,14 @@
    "via": "google"
   },
   {
+   "title": "Edmonton Oilers NHL Line Combinations",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94aGNZeWNjSU9oV1hyQklGUmIwVS1NcVQ3b2s3aFR2eHlCUXplMDJvdU1HU3JBVExUWWVFcjFFS0tvNTZ3Z0p1aDFYME5qNDcyWDlsSmJmdEwtd0RnT2V4bVJMQm1OenFDd0FuUmg1OWM4M3NINThJeg?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-27T16:51:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Podkolzin Interview: Babcock, McDavid, Career-Best Start",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYTdLbWRNZzh2dXY1R3pQZmMxQmc5MGFXaE9qSUh5NDhhbVg2cm9Sck1CZ1RST3lIbU5kaHBYRnZ3TWotLVh1MWRIdGRpbnBXaVdtOTZ1TU1FX0pvWW11bElPZUx5RDVpRzd1R0JhTW1ENW9ROVZpZWd1aEkybEY1eXdhTm1ZRnJ4?oc=5",
    "source": "RG.org",
@@ -107,14 +139,6 @@
    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQckhXdnV6aGtXQmVlOTE5SUMtbmU0LU9hbmhHX3JHZEhmUkJnalBzSld2d2NaOGNyTC1Nck0wM0NJMEtkUzEtdm5YMzlZVldZZDZyREFOVE54YXhWenZIX3lCdGdsRzdNSzY2dGRGMlBlbEZfaVVnRHdUelRKMkdjZktqSHh3Z2l6NTNnSnFraVI0UG5uVFJpbW5QLXk4MGZBLWE1R280YUVMbmpvZXU3WDF2alBuQQ?oc=5",
    "source": "About Rogers",
    "published": "2026-11-27T16:12:08Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdjVrRTVfV3BvYUdYZEN6LVhLaVpYeVNrVUQ4WVJodGxUTFQxcUoyOWlUb25QWm55cWRDS2RYdkVqQktSRVA1YTV4LVMtT3Z2ek95MzV0Q0ROZWJBVnpVbTdsT0p4WDJXM0VyeXVxN2RVN1V6N0cyWXNDNWpnYkx4NHBXZWFLcWF5X0plbXBveVpLbHJKR2IxS0tPOXVXZkNMOEh4VDZkdGNHVTM5cXExMU5UaEdmcS1wTS1V?oc=5",
-   "source": "Bluefield Daily Telegraph",
-   "published": "2026-11-27T15:15:57Z",
    "snippet": "",
    "via": "google"
   },
@@ -146,30 +170,6 @@
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkRiVGxZeHZmOGtIZk1Oa0FDQThKVjVueE02aG5SdEliZTFBMEQ1emU4ckswYzIzeHAtY2NUWkZneVk4dG4tT0xQRzNSZDdINjNRZU1wMHN2YV9EQ0R3VFI3NFo2Z1JSQXhoV0otVldsX2F0c3VXWkxRVjF3QllDaHBuU1h0M2pmeWh3WWhQdXN1NThCNzJr?oc=5",
    "source": "The Hockey Writers",
    "published": "2026-11-27T14:05:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Kraken vs Oilers, Prediction, Odds & Best Bets Today - NHL, Nov. 27",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPczFSa2NYVXdGM3BpRlF3ZmNoTmpsdlFGbS1uSmpBTkVXaS11dlRnWjhyc3dnY0dxRkE2eFQxclNpVTNCaFdDdXhBSjFOUVhsbFNUamdGbTROS2tUUDFrbWlWYmREaVhXS2trODV1MzlWLUhSVzB6TWtQVlotcWhzUVZIMllWcW9Fbk95U0dLTUdkU1Mz?oc=5",
-   "source": "sports.betmgm.com",
-   "published": "2026-11-27T13:20:47Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL Game Preview: Seattle Kraken at Edmonton Oilers with Line Combinations 11/27/2026",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUFdHMVVaRFVJSXdzbldsMEpvZWhFV1NjaFI2eDBvZGUzTDZNNTU5TTBjZTFCLXg2Z29nenNmc0ZJc0hodVRZTFd6eFBXbVpXR01FUzVqbFVWcDdYMFdwbzQxbHRZczEtM3pKWjNsUVNmWktyUVViWUMtNTlQOEJXNFlyZkdhWV9jYTJ0SnA4QVhlS0J5NmdQcGZPakFzdWFmTTh4U0VqNVFNdnduZGhid0J3Zw?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-27T12:53:58Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "How much of a concern are the Edmonton Oilers’ injuries at forward?",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHlxcW9SODZ1U3gxVE1zUHZ5NnlOTWpWR1hzUjdBOFcySFFFWjZzbklEbDZkS1Q2NWJyQjktd0tkbW1mcWJNM0ZRcWh1SElkTG81dHo4Y3dxYnliUnQ1LVdIeWZlOWtYcUdGZmd1OVNPNVNJd1NEVm92bHVjWlRwTjFQMWVtTVJuUmZibVNmMTZKYnFJNGdGNVVkck5Fa216?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-27T12:13:27Z",
    "snippet": "",
    "via": "google"
   },
@@ -272,11 +272,11 @@
    "snippet": "EDMONTON, AB - A 'Golden' opportunity capitalized on by the visitors. Colton Dach, Connor McDavid & Vasily Podkolzin all found the back of the net, while Evan Bouchard produced two assists,…"
   },
   {
-   "title": "Matheson: Nugent-Hopkins' return forces Oilers to shuffle line combos against Golden Knights",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-nugent-hopkins-return-babcock-hyman",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T20:26:38Z",
-   "snippet": ""
+   "title": "PROJECTED LINEUP: Nugent-Hopkins to return on the wing against Golden Knights",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-to-return-on-the-wing-against-golden-knights-11-24-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-24T18:43:43.264Z",
+   "snippet": "EDMONTON, AB – Forward Ryan Nugent-Hopkins will be back in the lineup for the Edmonton Oilers when they welcome their Pacific Division rivals in the Vegas Golden Knights to Rogers Place on…"
   }
  ]
 }
