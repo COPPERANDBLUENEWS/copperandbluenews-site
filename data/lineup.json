@@ -336,9 +336,9 @@
    ],
    [
     {
-     "id": 8482751,
-     "name": "Ryan Winterton",
-     "num": 26,
+     "id": 8476905,
+     "name": "Chandler Stephenson",
+     "num": 9,
      "pos": "LW"
     },
     {
@@ -348,9 +348,9 @@
      "pos": "C"
     },
     {
-     "id": 8476905,
-     "name": "Chandler Stephenson",
-     "num": 9,
+     "id": 8482751,
+     "name": "Ryan Winterton",
+     "num": 26,
      "pos": "RW"
     }
    ],
@@ -441,8 +441,8 @@
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/seattle-kraken/line-combinations",
     "what": "line combinations",
-    "basis": "Last Game (2026-11-25)",
-    "updatedAt": "2026-11-26T15:10:31.025Z"
+    "basis": "Geoff Baker",
+    "updatedAt": "2026-11-27T13:39:19.367Z"
    },
    {
     "name": "DailyFaceoff",
@@ -467,5 +467,5 @@
    "note": null
   }
  },
- "updated": "2026-11-27T03:38:40Z"
+ "updated": "2026-11-27T13:59:35Z"
 }

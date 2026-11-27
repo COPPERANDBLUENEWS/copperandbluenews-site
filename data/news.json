@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-27T13:24:22Z",
+ "updated": "2026-11-27T13:59:32Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (93)"
+  "Google News (92)"
  ],
  "errors": [],
  "items": [
@@ -25,10 +25,10 @@
    "via": "google"
   },
   {
-   "title": "Watch Seattle Kraken vs Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4wUDBjZkpzZFdvY0NHT3lPRTN1eGRJcGpZdE0ySnBncXM0enRBb1NZWmJQUjc0VVRmUUdzbzBnajVhS292aF9yeWNKVnJZUHV0MGxSeXhVNS00TWVrWVk2QWJXWXc1dGxWZXpNRUZqU1lMbjQtZDVsQ2hGYmE?oc=5",
-   "source": "Fubo",
-   "published": "2026-11-27T12:42:17Z",
+   "title": "How much of a concern are the Edmonton Oilers’ injuries at forward?",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHlxcW9SODZ1U3gxVE1zUHZ5NnlOTWpWR1hzUjdBOFcySFFFWjZzbklEbDZkS1Q2NWJyQjktd0tkbW1mcWJNM0ZRcWh1SElkTG81dHo4Y3dxYnliUnQ1LVdIeWZlOWtYcUdGZmd1OVNPNVNJd1NEVm92bHVjWlRwTjFQMWVtTVJuUmZibVNmMTZKYnFJNGdGNVVkck5Fa216?oc=5",
+   "source": "The New York Times",
+   "published": "2026-11-27T12:13:27Z",
    "snippet": "",
    "via": "google"
   },
@@ -196,10 +196,10 @@
   },
   {
    "title": "Eichel scores twice, Golden Knights hand Oilers fourth straight loss",
-   "url": "https://www.nhl.com/oilers/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026-x8132",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026",
+   "source": "NHL.com",
    "published": "2026-11-25T05:10:00Z",
-   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss, 5-3 at Rogers Place on Tuesday."
+   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss with a 5-3 win at Rogers Place on Tuesday."
   },
   {
    "title": "Worn-down Oilers cannot summon a win at home to Vegas, lose 5-3: Cult of Hockey Player Grades",
@@ -252,8 +252,8 @@
   },
   {
    "title": "McDavid bid for 200-point season drawing raves from Gretzky, others",
-   "url": "https://www.nhl.com/oilers/news/oilers-mcdavid-bid-for-200-point-season-drawing-raves-from-gretzky-and-rest-of-hockey-world-x7856",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/oilers-mcdavid-bid-for-200-point-season-drawing-raves-from-gretzky-and-rest-of-hockey-world",
+   "source": "NHL.com",
    "published": "2026-11-24T05:00:00Z",
    "snippet": "Connor McDavid has taken a high bar and set it at an unbelievable level this season. The Edmonton Oilers forward is on pace to challenge the 200-point plateau, which is something only Wayne…"
   },
