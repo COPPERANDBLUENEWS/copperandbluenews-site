@@ -453,20 +453,20 @@
   ],
   "goalie": {
    "starter": {
-    "id": 8478916,
-    "name": "Joey Daccord",
-    "num": 35,
-    "pos": "G"
-   },
-   "status": "Unconfirmed",
-   "backup": {
     "id": 8475831,
     "name": "Philipp Grubauer",
     "num": 31,
     "pos": "G"
    },
-   "note": null
+   "status": "Likely",
+   "backup": {
+    "id": 8478916,
+    "name": "Joey Daccord",
+    "num": 35,
+    "pos": "G"
+   },
+   "note": "Grubauer was the first goalie off the ice at Seattle's morning skate on Friday. "
   }
  },
- "updated": "2026-11-27T18:25:29Z"
+ "updated": "2026-11-27T19:05:31Z"
 }
