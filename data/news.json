@@ -1,18 +1,42 @@
 {
- "updated": "2026-11-27T01:59:18Z",
+ "updated": "2026-11-27T03:38:39Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (87)"
+  "Google News (91)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Facing first rough patch, Oilers seek remedy against Kraken",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbjZkbDktRXZtVGwxLVBabWRxMXVQUUtlM2ZuSGg5WXBYV05oZjljQS1YRTJza2xHUzFsWHdldHhsdmYyQVBER0dHZTJ2M2tzRGNka05fdm8tMHpYVmtEamEyQzktV1Yzb1dTYjJQRDhwQVRGQ1g5Yi1GZFlHNUM4WlI2X0RmcGFxUjVZQjZsbEZyUUc1Tmw0?oc=5",
+   "source": "WJOX-FM",
+   "published": "2026-11-27T03:25:25Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "At American Thanksgiving the Oilers path to the Conference Finals remains favourable",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRDUyRzBGeEd3SjBDaWlyMGN1a1Ytc0l0Ry0yTklwYzFmLTFVWHQzMW53dzItNkhnYlVCYXZ4RkVIa2kxZm5vZkxwcHdEdzJtQ3lMQl9TdGpVRE5hQXNHQTJpZFRkTmdnai1hMGhjLWZ5MFlEYlg5M2VsZWloT2F0ZG0tcFBJdjl5dFc2bGdEYkUtcHVWNXNzSEhiVXZ4VW51MVdmYW9FV3FTZmpjU1RjTUVBMGJlMG9nb2RKYQ?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-27T02:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers should kick tires on a Malkin trade",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbVFldFQzVV85dmJEQ3BFak9HME1RX2tsZ0RRTWpWQXpmc2lodUdQOUNsUE5NbUJCY19QeW5KV09zTFpJdFZpQWNONWJoSG5kUUtDWGc3VWdoSkVuank5STdER1A3azN4MjhyZEJ3SVY1R09reERWWlpMNm9NQVBGVmZiVF8?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-27T01:22:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Seattle Kraken - Edmonton Oilers - Nov 27, 2026",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1abDloeWVfNnF1Wk5PQnlLczA2LV91d3Q5bUtLdU4tbTFPSy1RWlhHQ3RfZzRnWktpVGxvZjB5Y0pVc1ZiR2ltRHJyTThxM2p0T3o5RnNBMF9zY0N3aE1CX21EV1Y3RFpHM0JsVU9zVVE?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-26T23:02:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -73,14 +97,6 @@
    "via": "google"
   },
   {
-   "title": "Watch NHL Mini: Vegas Golden Knights vs Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS3dlNW9uZ2p6QkJuaFk0QTlFclI1allhY25hRkNLUHZkNjFmN1VER096WktSTFRXVnV2S3FfRE1vSkdpVVJSa2ZZQ0hOZ3lhOTVpczRFR2hOeldWR2llMlZ1LWNfamM0VmNERGltbXBjUE9BMDA0cWVMbWhXVTQ5WDZXNHAwa1Q0NHFr?oc=5",
-   "source": "Disney Plus",
-   "published": "2026-11-26T18:40:39Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Babcock lets Oilers rest after gruelling stretch ends on three-game losing streak",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOVZtZEtWLTdpSmtMbHBicS1VVTlzdGNwVGhENWFKNzZBcmZycWRFakhnTGFaU1NicU1SZFZQS18yaHpMbmVqTThhSkJIYUdscmpwX1RQMnB3WWR0eDRRZjc5ZUpNZWl4WS1LdEtDUlZGZVNVajhaRDljSVVhdzNEWTlvaTJkY3NSQUtzY3hleTN0ZjA5aUtYQ1Y1LWJKU0JSR3B1TmJHMkJuZXI1WE9CU0NnZFIzUlMzVXJMT0w4OWYxNXM?oc=5",
    "source": "Castanet",
@@ -133,22 +149,6 @@
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUDVBdHhza3VsaFJIZVppRG1zOTVmNkFiTE80VnB6NlQ3RW1aQVdwT3JWTko2UUZ1NW0zRUJDVTBLZktmamlwcDI0RkNEQWUtRVpjM28tdmdIUlBXb2xYbHRRZUU3V0JOclB4MnZNNUpEcC0wZG9FZkJXdTZxakNIY1NUOFU5bmRRaEE?oc=5",
    "source": "Yahoo",
    "published": "2026-11-26T15:52:34Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Former Oilers, Canadiens D Petry announces retirement from NHL",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV2xkUGpFekZlS0VVdUVheWVrNUNQRGJrampRbVpOYncxZFAtVFNHSXNnc2xJQ3hqYzViallEMk5CZjIxZUNBRzlhckk3OVBBQmp3bFpEa0FSWWFCNWExaEd0RnUzYk1OVXN4V0N0RG1QMnkwTFlOWUNFWFY0dDdYMFlzWWc1TFNHZlJGMnk3MHU3bFpJNHVvQQ?oc=5",
-   "source": "TSN",
-   "published": "2026-11-26T15:52:15Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Which Oilers Prospects Are Likely to Play at the World Juniors?",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMUQ4V0JDLTJkUC1ObGdiSlBoZDFNNnI0UVF3YXdXRWtYR0d5QTlfYU1wNFNaMk42bjZabGQ2Smk0cHc0S3BlS2dBaHZsclN4RUtzZU56TDI1Sm5tTms5YTk5clVmTlpzUGxKWVg0a044cnJTQjhUV2xDUXFNTUkzb0RxbmJJaFdUUUxCd1l0VlZtTW9Y?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-26T15:15:00Z",
    "snippet": "",
    "via": "google"
   },

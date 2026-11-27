@@ -17,9 +17,9 @@
  "forwards": [
   [
    {
-    "id": 8476454,
-    "name": "Ryan Nugent-Hopkins",
-    "num": 93,
+    "id": 8481617,
+    "name": "Vasily Podkolzin",
+    "num": 92,
     "pos": "LW"
    },
    {
@@ -29,29 +29,29 @@
     "pos": "C"
    },
    {
-    "id": 8477953,
-    "name": "Kasperi Kapanen",
-    "num": 42,
+    "id": 8477934,
+    "name": "Leon Draisaitl",
+    "num": 29,
     "pos": "RW"
    }
   ],
   [
    {
-    "id": 8481617,
-    "name": "Vasily Podkolzin",
-    "num": 92,
+    "id": 8482703,
+    "name": "Colton Dach",
+    "num": 34,
     "pos": "LW"
    },
    {
-    "id": 8477934,
-    "name": "Leon Draisaitl",
-    "num": 29,
+    "id": 8476454,
+    "name": "Ryan Nugent-Hopkins",
+    "num": 93,
     "pos": "C"
    },
    {
-    "id": 8478472,
-    "name": "Mathieu Joseph",
-    "num": 21,
+    "id": 8477953,
+    "name": "Kasperi Kapanen",
+    "num": 42,
     "pos": "RW"
    }
   ],
@@ -69,17 +69,17 @@
     "pos": "C"
    },
    {
-    "id": 8482703,
-    "name": "Colton Dach",
-    "num": 34,
+    "id": 8478472,
+    "name": "Mathieu Joseph",
+    "num": 21,
     "pos": "RW"
    }
   ],
   [
    {
-    "id": 8480842,
-    "name": "Filip Hallander",
-    "num": 19,
+    "id": 8479368,
+    "name": "Max Jones",
+    "num": 46,
     "pos": "LW"
    },
    {
@@ -243,16 +243,14 @@
    "status": "Day-to-day"
   }
  ],
- "notes": [
-  "Projection is based on the Last Game (2026-11-24) lineup until morning skate or practice updates."
- ],
+ "notes": [],
  "sources": [
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
-   "basis": "Last Game (2026-11-24)",
-   "updatedAt": "2026-11-25T15:38:05.236Z"
+   "basis": "Bob Stauffer",
+   "updatedAt": "2026-11-27T02:02:21.422Z"
   },
   {
    "name": "DailyFaceoff",
@@ -278,10 +276,10 @@
  },
  "scratches": [
   {
-   "id": 8479368,
-   "name": "Max Jones",
-   "num": 46,
-   "pos": "L"
+   "id": 8480842,
+   "name": "Filip Hallander",
+   "num": 19,
+   "pos": "C"
   },
   {
    "id": 8480834,
@@ -469,5 +467,5 @@
    "note": null
   }
  },
- "updated": "2026-11-26T15:59:58Z"
+ "updated": "2026-11-27T03:38:40Z"
 }
