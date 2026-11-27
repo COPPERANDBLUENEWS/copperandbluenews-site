@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T04:43:55Z",
+ "updated": "2026-11-27T06:37:03Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
@@ -8,6 +8,22 @@
  ],
  "errors": [],
  "items": [
+  {
+   "title": "PREVIEW: Oilers vs. Kraken",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QYWdJaDFTQllQOU9oX1BPdTRJbHdfcWN2WkhfalE1YjhIWFE5SVYtVm9KUjk2ejdxZF9yZ3QwQzJoQ2pId2p2TlczdzhQcWtHWDA5eENFSXpoNGlsUXRvQUVpaDRGSDFWTG9KOFZldWJkSWc?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-27T06:12:56Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Carolina Hurricanes Have A Chance To Achieve What Detroit Red Wings and Edmonton Oilers Couldn't",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPanBIZEJRR3hyNHNuLV9mbzh6NEFpaVppWnRfQzlDd0NBbll5cWxiUWVqUWRrUkNjX2wyYW8zblhZQ1V6Q2dTbkZkbnZIdF9fZ19qOVV2MWRCaGp3bzBrdWtiWjRqZFI5T2J2ODBHQ3Vmajl6R2lwNFpMTnB5WmJmSWhIajhERXh0V2pWc1p4N2NVaDlkekU3NUIyNkRNR0pOTmdOY0h2RHpyMlhnQU1xLWRZUnNpUVdtMjFwYlZVNlR3NkktMTc1SndzaDZZbGla?oc=5",
+   "source": "NDTV Sports",
+   "published": "2026-11-27T06:10:44Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Facing first rough patch, Oilers seek remedy against Kraken",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54TG5IQ3VnNFZaM1hOSGdpMG0yalA2WnRiUzlrUUNJZVVtSnBTNmlpdU9kVmR4c3JPOWFTQkdnd0VGUk51LUl0b2hQZkhzZ3l3N01nQjZYZ1UwSGZ5V2dCaHUyZFdfUQ?oc=5",
@@ -18,9 +34,9 @@
   },
   {
    "title": "Oilers Blues Hockey",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWVNCQlZMdE13TFJaNE5IVWdmNm5ZTHM1OHBiRjR6UDI4TEhwQ0lacnN5UU1Sc2VaT0J3S2dCQ3RKYjdEU1hibGp5cjdhdVZvTzFrOTJfR0JZVThIQXI2cm9WcG94RG9vR2RQbURwSlRlWk5sc3RUQWRFRkhOSm1tbGNXVFA0aEpVeVh2N05RM0ZidFFQZmh2ZzYyNjJ5eUlDTjVPTjJTSHFLX0RsRlF1WHo0UmZUZE0?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOd21VMDl2THhaQkgwbmhPWTl1MUhzZXZ4UnM4VE9mZnE4dzFKYTZkb2FsSi16VnlnRFU2NHFwMjhPZHpCQ0lIRFhFeVJURHVVaURMdVZjd2VvOEUyMDAxWFVheXpnaTB3WHNrdWg4UUYzOXByal9TVUlXaGxHR19LNTk1cGZFbUlKQlRZaWFxOG5iOWNHcVkwUmFkR21WY0RLR1doc0I2OFlXTFdpVmZRZ3Jkbzcza0U?oc=5",
    "source": "Bluefield Daily Telegraph",
-   "published": "2026-11-27T03:13:51Z",
+   "published": "2026-11-27T03:18:43Z",
    "snippet": "",
    "via": "google"
   },
@@ -129,26 +145,10 @@
    "via": "google"
   },
   {
-   "title": "Former Oilers Defenseman Hilariously Announces His Retirement",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWkRHY1h2SU5XT2xDT2xNWlJUc0pDWFh5bUluWnpWaEJKNmRqY044NUJYbm5XenU3NWdRbDVCdGlERXZtNFJlR050a0pobUpLb2tqT2l0ZVRQSjhnVUFKcUd1SkJjMlo1ajVub3ZHdURuY2V2WjM3bmsxZHBvMVRlMnJ3dWszVjNoSE1OTlI2clRnaGtmcl81ZUxITzNnVHZpNVRwcjcydDhLVzdp?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-26T17:41:49Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "Babcock prescribes rest for battle-weary Oilers",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMGlOWG1LYjlHSTduZTRrS09XWnhOZjFvbElic21FSm9GQS1ybjhQcXFKUWF0VTl2OG93bVY3YmdtYkd6ZGkyT0g4RTBjc2N1aVlFcjVfMlg3eV9iQ05KQXJxYUM4VTl5dTM2cTRpTFdzSzhuTFlkYmNQekYxOHlPVUh3LUdzSmhIbTM5Rg?oc=5",
    "source": "Global News",
    "published": "2026-11-26T17:36:38Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "What Edmonton Oilers lines could look like when Savoie and Hyman return",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQzJUaFVVaVJHQVE5NFp1UXB3dUxRb1V4YzZueGYweXUyY2h1bWtfZHlVZGtHeW4wb01WalN4WS0yTXh4WkdZR2FuRTNpaXR2UDNjcGZjaDhnbUJ6MlVxRVV1RExNWjVfOWkteW1tMzFRZTNUbkdTZEtNdDgtYTVZZmNDeFJPUXRjQ1pxcA?oc=5",
-   "source": "Daily Hive",
-   "published": "2026-11-26T16:59:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -196,10 +196,10 @@
   },
   {
    "title": "Eichel scores twice, Golden Knights hand Oilers fourth straight loss",
-   "url": "https://www.nhl.com/oilers/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026-x8132",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026",
+   "source": "NHL.com",
    "published": "2026-11-25T05:10:00Z",
-   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss, 5-3 at Rogers Place on Tuesday."
+   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss with a 5-3 win at Rogers Place on Tuesday."
   },
   {
    "title": "Worn-down Oilers cannot summon a win at home to Vegas, lose 5-3: Cult of Hockey Player Grades",
