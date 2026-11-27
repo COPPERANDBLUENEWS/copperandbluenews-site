@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-27T04:14:09Z",
+ "updated": "2026-11-27T04:43:55Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (0)",
-  "Google News (86)"
+  "Google News (88)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Facing first rough patch, Oilers seek remedy against Kraken",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54TG5IQ3VnNFZaM1hOSGdpMG0yalA2WnRiUzlrUUNJZVVtSnBTNmlpdU9kVmR4c3JPOWFTQkdnd0VGUk51LUl0b2hQZkhzZ3l3N01nQjZYZ1UwSGZ5V2dCaHUyZFdfUQ?oc=5",
+   "source": "Wichita Eagle",
+   "published": "2026-11-27T03:33:06Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers Blues Hockey",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWVNCQlZMdE13TFJaNE5IVWdmNm5ZTHM1OHBiRjR6UDI4TEhwQ0lacnN5UU1Sc2VaT0J3S2dCQ3RKYjdEU1hibGp5cjdhdVZvTzFrOTJfR0JZVThIQXI2cm9WcG94RG9vR2RQbURwSlRlWk5sc3RUQWRFRkhOSm1tbGNXVFA0aEpVeVh2N05RM0ZidFFQZmh2ZzYyNjJ5eUlDTjVPTjJTSHFLX0RsRlF1WHo0UmZUZE0?oc=5",
+   "source": "Bluefield Daily Telegraph",
+   "published": "2026-11-27T03:13:51Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "At American Thanksgiving the Oilers path to the Conference Finals remains favourable",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRDUyRzBGeEd3SjBDaWlyMGN1a1Ytc0l0Ry0yTklwYzFmLTFVWHQzMW53dzItNkhnYlVCYXZ4RkVIa2kxZm5vZkxwcHdEdzJtQ3lMQl9TdGpVRE5hQXNHQTJpZFRkTmdnai1hMGhjLWZ5MFlEYlg5M2VsZWloT2F0ZG0tcFBJdjl5dFc2bGdEYkUtcHVWNXNzSEhiVXZ4VW51MVdmYW9FV3FTZmpjU1RjTUVBMGJlMG9nb2RKYQ?oc=5",
@@ -138,19 +154,10 @@
   },
   {
    "title": "Hot rumour: Edmonton Oilers likely to add two forwards, insider says. But not another d-man?",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYmstZ3p4Z0dfWS00SE5IdVlvRmtOelZRS0dsdUJxWlJOTDdJWWJ4eVl5bjVtQm1ULVpmVG1IZWtHUEtQM2lxZDBfUFNRMjB1NHdHRmctVUZsaGxyOEhDbENOZ3RpbFpvVWlYR3I5NElIcDNIeHJhYXpxcWc1U0RQMDV4YkZCVFBSN0xYZ2JsLXZjQ0ZkS3NwTG9rajlmRlVTQTdGMUlrTzdoM0ZNNnVBdVQ3Yld2WDctSjRUTGNSTzZBb3o5eHBjMHdoM3hLQTRubzMxeQ?oc=5",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-trade-rumours-stauffer-kirby-dach-colton-scissons-jake-walman",
    "source": "Edmonton Journal",
-   "published": "2026-11-26T15:55:19Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Is McDavid Getting Robbed As He Goes For Record-Breaking Points Season?",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPUDVBdHhza3VsaFJIZVppRG1zOTVmNkFiTE80VnB6NlQ3RW1aQVdwT3JWTko2UUZ1NW0zRUJDVTBLZktmamlwcDI0RkNEQWUtRVpjM28tdmdIUlBXb2xYbHRRZUU3V0JOclB4MnZNNUpEcC0wZG9FZkJXdTZxakNIY1NUOFU5bmRRaEE?oc=5",
-   "source": "Yahoo",
-   "published": "2026-11-26T15:52:34Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-26T15:44:50Z",
+   "snippet": ""
   },
   {
    "title": "Oilers notebook: Savoie poised for conditioning stint in Bakersfield",
@@ -270,13 +277,6 @@
    "source": "NHL.com",
    "published": "2026-11-23T04:54:00Z",
    "snippet": "ST. LOUIS -- Jimmy Snuggerud had a goal and an assist for the St. Louis Blues, who rallied from a three-goal deficit in the third period for a 5-4 shootout win against the Edmonton Oilers…"
-  },
-  {
-   "title": "QUICK RECAP: Blues 5, Oilers 4 (SO)",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-blues-11-22-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-23T00:10:32.365Z",
-   "snippet": "ST. LOUIS, MO - Couldn't hold on to close out the road trip on a winning note. Despite holding a three-goal lead midway through the third period, the Edmonton Oilers couldn't protect their…"
   }
  ]
 }
