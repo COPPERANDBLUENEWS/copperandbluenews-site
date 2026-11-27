@@ -127,15 +127,15 @@
   ],
   [
    {
-    "id": 8482166,
-    "name": "Shakir Mukhamadullin",
-    "num": 85,
-    "pos": "LD"
-   },
-   {
     "id": 8478013,
     "name": "Jake Walman",
     "num": 96,
+    "pos": "LD"
+   },
+   {
+    "id": 8480834,
+    "name": "Ty Emberson",
+    "num": 49,
     "pos": "RD"
    }
   ]
@@ -250,7 +250,7 @@
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
    "what": "line combinations & PP units",
    "basis": "Bob Stauffer",
-   "updatedAt": "2026-11-27T02:02:21.422Z"
+   "updatedAt": "2026-11-27T16:36:38.011Z"
   },
   {
    "name": "DailyFaceoff",
@@ -282,9 +282,9 @@
    "pos": "C"
   },
   {
-   "id": 8480834,
-   "name": "Ty Emberson",
-   "num": 49,
+   "id": 8482166,
+   "name": "Shakir Mukhamadullin",
+   "num": 85,
    "pos": "D"
   }
  ],
@@ -467,5 +467,5 @@
    "note": null
   }
  },
- "updated": "2026-11-27T15:37:53Z"
+ "updated": "2026-11-27T16:44:31Z"
 }

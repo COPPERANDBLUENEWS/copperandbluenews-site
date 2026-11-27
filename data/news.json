@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-27T16:12:06Z",
+ "updated": "2026-11-27T16:44:27Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (0)",
-  "Google News (90)"
+  "Sportsnet (0)"
  ],
- "errors": [],
+ "errors": [
+  "Google News: HTTP Error 503: Service Unavailable"
+ ],
  "items": [
   {
-   "title": "Oilers vs. Kraken Preview: Edmonton Looks to End Four-Game Skid",
-   "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE51Vkp1bXVGT3FhbmdLeXJocWdQTUt1WGdaZE1EOXRDYml3eHYzWkRJazNFNUpFOW1uZVNr?oc=5",
-   "source": "Howl.Link",
-   "published": "2026-11-27T15:56:31Z",
-   "snippet": "",
-   "via": "google"
+   "title": "Mike Babcock just put together best possible line combos for Edmonton Oilers -- at least on paper",
+   "url": "https://edmontonjournal.com/sports/hockey/nhl/cult-of-hockey/edmonton-oilers-mike-babcock-seattle-kraken-mcdavid-draisailt-podkolzin",
+   "source": "Edmonton Journal",
+   "published": "2026-11-27T16:36:08Z",
+   "snippet": ""
   },
   {
    "title": "Petry retires from NHL after 16 seasons",
@@ -24,147 +24,11 @@
    "snippet": "Jeff Petry announced his retirement from the NHL after 16 seasons on Thursday. The 38-year-old defenseman had nine assists in 67 games with the Florida Panthers and Minnesota Wild last…"
   },
   {
-   "title": "Kraken PREVIEW: Seattle faces major post-Turkey Day test in Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOc1FLb091cE1lVS1XaDRmNFhLNjV0REk2bUtEQTZXRFNfOTdSODU4QUJrMmtwbGFBUWdHNTlvRVRTdVdHY09CaUJNdklDWkYtNDVjdEhQclE2Ni1YeGs5UHVDdkpQNlljZ3JoUWVJVHFRdllqaWROQm1hNmtRYVBmbV9zNmYtSHdTZmstMFJxSmZBa0tYbm1KNks4YkYwWG80eG9CbVJiQQ?oc=5",
-   "source": "Davy Jones' Locker Room",
-   "published": "2026-11-27T15:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers Prove That Accountability Only Applies to Some Players",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUF9kb09LZ3hGYmdWLVhEYUZ4elZmT0QyLWpBS2ZIYlgyVnh0V0s2VF81UjgyTmxsMzdzb1N5QkxNSFBQcHRLejBLWThXdVk3cGh2UnlfUEJIQ0w5a1JwYkI3T3RPc2VXS1F2QkJ5WGFkZGpUS3M3cEpZMU5ZQWtIX2JLTkpEc1J2cEdVazc2aGx6VTU3LWc?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-27T14:35:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Connor McDavid’s Chances of a 200-Point Season Are Growing Slim",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMkRiVGxZeHZmOGtIZk1Oa0FDQThKVjVueE02aG5SdEliZTFBMEQ1emU4ckswYzIzeHAtY2NUWkZneVk4dG4tT0xQRzNSZDdINjNRZU1wMHN2YV9EQ0R3VFI3NFo2Z1JSQXhoV0otVldsX2F0c3VXWkxRVjF3QllDaHBuU1h0M2pmeWh3WWhQdXN1NThCNzJr?oc=5",
-   "source": "The Hockey Writers",
-   "published": "2026-11-27T14:05:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Kraken vs Oilers, Prediction, Odds & Best Bets Today - NHL, Nov. 27",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPczFSa2NYVXdGM3BpRlF3ZmNoTmpsdlFGbS1uSmpBTkVXaS11dlRnWjhyc3dnY0dxRkE2eFQxclNpVTNCaFdDdXhBSjFOUVhsbFNUamdGbTROS2tUUDFrbWlWYmREaVhXS2trODV1MzlWLUhSVzB6TWtQVlotcWhzUVZIMllWcW9Fbk95U0dLTUdkU1Mz?oc=5",
-   "source": "sports.betmgm.com",
-   "published": "2026-11-27T13:20:47Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "NHL Game Preview: Seattle Kraken at Edmonton Oilers with Line Combinations 11/27/2026",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUFdHMVVaRFVJSXdzbldsMEpvZWhFV1NjaFI2eDBvZGUzTDZNNTU5TTBjZTFCLXg2Z29nenNmc0ZJc0hodVRZTFd6eFBXbVpXR01FUzVqbFVWcDdYMFdwbzQxbHRZczEtM3pKWjNsUVNmWktyUVViWUMtNTlQOEJXNFlyZkdhWV9jYTJ0SnA4QVhlS0J5NmdQcGZPakFzdWFmTTh4U0VqNVFNdnduZGhid0J3Zw?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-27T12:53:58Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "How much of a concern are the Edmonton Oilers’ injuries at forward?",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHlxcW9SODZ1U3gxVE1zUHZ5NnlOTWpWR1hzUjdBOFcySFFFWjZzbklEbDZkS1Q2NWJyQjktd0tkbW1mcWJNM0ZRcWh1SElkTG81dHo4Y3dxYnliUnQ1LVdIeWZlOWtYcUdGZmd1OVNPNVNJd1NEVm92bHVjWlRwTjFQMWVtTVJuUmZibVNmMTZKYnFJNGdGNVVkck5Fa216?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-27T12:13:27Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Pre-Scout: Facing the Kraken might be just what the doctor ordered for Oilers",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRXU4TWJJM1l2ZlNlRDdwZXFYaVBqSll6T0JZOG1HUFE3NjVicU1STFY2b0RDbEtVb1BxRmxSbHNzenVQVXplZUtmSnJuV1hpOUR4dTFDeVZFeElickZhd1RLbzhCb1F6QzRqNDFWeTlCRmpNY3o5ZnVXTk9hcE53SHh5cE9IekJXWkRTaDN3?oc=5",
-   "source": "Oilers Nation",
-   "published": "2026-11-27T12:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers’ Likely Prospects to Play at World Juniors & Latest News and Rumours",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00LURmZFRlQ2VXa1JCVXhZQ1NOX3ZtMEV0NVE0MFpvaTJVQ2k1Nm5OcTVCQUNfME40V0FkQnd3cVl2Yzc3Z05QcmNDMmp2S1h4aUlZUE5YTVIySEgxWTRfR1lGQXFBbFdtUldPeGZydW1XS1BXV05CdnI1YmxLZUU?oc=5",
-   "source": "Substack",
-   "published": "2026-11-27T11:35:28Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Edmonton Oilers vs Seattle Kraken - Where to Watch, Stream Info, TV Channel, and Live Updates (November 27, 2026)",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaWotd3FQdFhWek9VY3F2bnpsc2poQkdqaVpkRDZQbVVzOVVNSHB3X1ZOeFhHZm1paTBSYUpCOTcyUDZ1WEZaaDh1SkRhcG1mZ0Z3MmlWVTJyU0xCZGVuejFMUzgxNzU0cGMyZ1dhTVBTS2lmS2tUeEdjUXlMblN6dFR4eWxUYnFURDM5N2ZrZE5ZcHZiSmdjWWJmRTJWeU9CazU5bVJHd1k5cDN2MGFmc1FHOEZnUlpXcXBOVmlGTVFWb2dSaExCQm9ramJEZVJW?oc=5",
-   "source": "Fubo",
-   "published": "2026-11-27T10:50:33Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Kraken (11-10-1) at Oilers (17-6-4) | 5:00 p.m.",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOWhwWEVVN1d3MDlTOVlQUWhXUlpyV010T2ZzU1ZmNzY4cXpLWXp4c05XWTc4X2o2aUVaalRVSTJzd29iMzZxaEFrMldGN2xRdV9lNExYS2N5QzZ6RE1zbjhlaUpGcW1meThudF9ybWp5eW9nSzE3S1FtYXZOV3BCbXBmX1BEbk8wc2pOMlVCXzZjakVQclBHMUduUlZpRWR2NlRR?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-27T08:06:28Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers try to snap four-game skid against Kraken",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPekNxTHNhYVNuaHc0bmFkSHh1TlBsSTZMeWxnNEQwZmdhRjBOSS1GaWY1dVdqZE9vTjhIZDVkTWs2dElxOTdRQ21xQTV6cDVldENuYi1oWkJSeHQ2WFBZN3k3TEM0eF9oNElsV0NWU3Q5TWUwZFJTdjI2T2d4bFF2SUkwU2ZEd1J4R293?oc=5",
-   "source": "Hockey.com",
-   "published": "2026-11-27T06:35:17Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "PREVIEW: Oilers vs. Kraken | Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QYWdJaDFTQllQOU9oX1BPdTRJbHdfcWN2WkhfalE1YjhIWFE5SVYtVm9KUjk2ejdxZF9yZ3QwQzJoQ2pId2p2TlczdzhQcWtHWDA5eENFSXpoNGlsUXRvQUVpaDRGSDFWTG9KOFZldWJkSWc?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-27T06:17:27Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Carolina Hurricanes Have A Chance To Achieve What Detroit Red Wings and Edmonton Oilers Couldn't",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPanBIZEJRR3hyNHNuLV9mbzh6NEFpaVppWnRfQzlDd0NBbll5cWxiUWVqUWRrUkNjX2wyYW8zblhZQ1V6Q2dTbkZkbnZIdF9fZ19qOVV2MWRCaGp3bzBrdWtiWjRqZFI5T2J2ODBHQ3Vmajl6R2lwNFpMTnB5WmJmSWhIajhERXh0V2pWc1p4N2NVaDlkekU3NUIyNkRNR0pOTmdOY0h2RHpyMlhnQU1xLWRZUnNpUVdtMjFwYlZVNlR3NkktMTc1SndzaDZZbGla?oc=5",
-   "source": "NDTV Sports",
-   "published": "2026-11-27T06:10:44Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "PREVIEW: Oilers vs. Kraken",
    "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-kraken-11-27-26",
    "source": "EdmontonOilers.com",
    "published": "2026-11-27T05:51:21.457Z",
    "snippet": "The Edmonton Oilers begin a home-and-away back-to-back against the Seattle Kraken on Friday night at Rogers Place. You can watch the game live on Sportsnet at 7:00 PM MT or listen on the…"
-  },
-  {
-   "title": "Facing first rough patch, Oilers seek remedy against Kraken",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE54TG5IQ3VnNFZaM1hOSGdpMG0yalA2WnRiUzlrUUNJZVVtSnBTNmlpdU9kVmR4c3JPOWFTQkdnd0VGUk51LUl0b2hQZkhzZ3l3N01nQjZYZ1UwSGZ5V2dCaHUyZFdfUQ?oc=5",
-   "source": "Wichita Eagle",
-   "published": "2026-11-27T03:33:06Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "At American Thanksgiving the Oilers path to the Conference Finals remains favourable",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRDUyRzBGeEd3SjBDaWlyMGN1a1Ytc0l0Ry0yTklwYzFmLTFVWHQzMW53dzItNkhnYlVCYXZ4RkVIa2kxZm5vZkxwcHdEdzJtQ3lMQl9TdGpVRE5hQXNHQTJpZFRkTmdnai1hMGhjLWZ5MFlEYlg5M2VsZWloT2F0ZG0tcFBJdjl5dFc2bGdEYkUtcHVWNXNzSEhiVXZ4VW51MVdmYW9FV3FTZmpjU1RjTUVBMGJlMG9nb2RKYQ?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-27T02:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers should kick tires on a Malkin trade",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbVFldFQzVV85dmJEQ3BFak9HME1RX2tsZ0RRTWpWQXpmc2lodUdQOUNsUE5NbUJCY19QeW5KV09zTFpJdFZpQWNONWJoSG5kUUtDWGc3VWdoSkVuank5STdER1A3azN4MjhyZEJ3SVY1R09reERWWlpMNm9NQVBGVmZiVF8?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-27T01:22:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Matt Savoie makes revealing admission about Oilers pressure",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUk1rLW1YcXRIR0t4cXQ0UF9aOFNULXYtazRhZGQyLWQyMmt2VUdwS0taUFMzeWZvNUJOTWJBeUktRkhwQ1dQYm52bzlOeGUyQm9Hc3EzaFozMHlQYzBRbnJNdFdEa1l5eDFMOWJjWmZjRDZJZlI4TWlLQUpsSGIteld2SnkwMlpHREd5RXBLLVB1Y0FtaEM5cTh3aw?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-26T22:19:00Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "5 Factors: Hot-shot Edmonton Oilers trip into one-third mark of season",
@@ -258,13 +122,6 @@
    "snippet": "EDMONTON, AB - A 'Golden' opportunity capitalized on by the visitors. Colton Dach, Connor McDavid & Vasily Podkolzin all found the back of the net, while Evan Bouchard produced two assists,…"
   },
   {
-   "title": "Matheson: Nugent-Hopkins' return forces Oilers to shuffle line combos against Golden Knights",
-   "url": "https://edmontonjournal.com/sports/edmonton-oilers-nugent-hopkins-return-babcock-hyman",
-   "source": "Edmonton Journal",
-   "published": "2026-11-24T20:26:38Z",
-   "snippet": ""
-  },
-  {
    "title": "PROJECTED LINEUP: Nugent-Hopkins to return on the wing against Golden Knights",
    "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-to-return-on-the-wing-against-golden-knights-11-24-26",
    "source": "EdmontonOilers.com",
@@ -277,6 +134,111 @@
    "source": "NHL.com",
    "published": "2026-11-24T18:37:21.759Z",
    "snippet": "GOLDEN KNIGHTS (14-6-5) at OILERS (17-5-4) 8 p.m. ET; TVAS, SN, TNT, HBO MAX Golden Knights projected lineup Brett Howden -- Jack Eichel -- Mark Stone Trevor Connelly -- William Karlsson --…"
+  },
+  {
+   "title": "McDavid bid for 200-point season drawing raves from Gretzky, others",
+   "url": "https://www.nhl.com/news/oilers-mcdavid-bid-for-200-point-season-drawing-raves-from-gretzky-and-rest-of-hockey-world",
+   "source": "NHL.com",
+   "published": "2026-11-24T05:00:00Z",
+   "snippet": "Connor McDavid has taken a high bar and set it at an unbelievable level this season. The Edmonton Oilers forward is on pace to challenge the 200-point plateau, which is something only Wayne…"
+  },
+  {
+   "title": "PREVIEW: Oilers vs. Golden Knights",
+   "url": "https://www.nhl.com/oilers/news/preview-oilers-vs-golden-knights-11-24-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-24T00:36:33.158Z",
+   "snippet": "The Edmonton Oilers host a Pacific Division rival in the Vegas Golden Knights at Rogers Place on Tuesday night. You can watch the game live on Sportsnet at 7:00 PM MT or listen on the…"
+  },
+  {
+   "title": "RELEASE: Oilers acquire Austin Roest from Nashville",
+   "url": "https://www.nhl.com/oilers/news/release-oilers-acquire-austin-roest-from-nashville",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-24T00:26:57.813Z",
+   "snippet": "EDMONTON, AB - The Edmonton Oilers have acquired forward Austin Roest from the Nashville Predators in exchange for forward James Stefan. Roest (5’10”, 185 lbs, 22) has appeared in 15 games…"
+  },
+  {
+   "title": "Blues rally from three down in third period, defeat Oilers in shootout",
+   "url": "https://www.nhl.com/news/edmonton-oilers-st-louis-blues-game-recap-november-22-2026",
+   "source": "NHL.com",
+   "published": "2026-11-23T04:54:00Z",
+   "snippet": "ST. LOUIS -- Jimmy Snuggerud had a goal and an assist for the St. Louis Blues, who rallied from a three-goal deficit in the third period for a 5-4 shootout win against the Edmonton Oilers…"
+  },
+  {
+   "title": "QUICK RECAP: Blues 5, Oilers 4 (SO)",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-blues-11-22-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-23T00:10:32.365Z",
+   "snippet": "ST. LOUIS, MO - Couldn't hold on to close out the road trip on a winning note. Despite holding a three-goal lead midway through the third period, the Edmonton Oilers couldn't protect their…"
+  },
+  {
+   "title": "PROJECTED LINEUP: Oilers at Blues",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-at-blues-11-22-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-22T18:04:46.321Z",
+   "snippet": "ST. LOUIS, MO – Goalie Tristan Jarry will get the start, while defenceman Jake Walman is projected to draw back into the lineup for the Edmonton Oilers when they cap off a weekend…"
+  },
+  {
+   "title": "Oilers at Blues projected lineups",
+   "url": "https://www.nhl.com/news/edmonton-oilers-st-louis-blues-game-preview-november-22-2026",
+   "source": "NHL.com",
+   "published": "2026-11-22T16:13:58.262Z",
+   "snippet": "OILERS (17-5-3) at BLUES (12-9-2) 7 p.m. ET; BN+, STLNHL, SNW, SN1 Oilers projected lineup Vasily Podkolzin -- Connor McDavid -- Leon Draisaitl Kasperi Kapanen -- Colton Dach -- Zach Hyman…"
+  },
+  {
+   "title": "Hurricanes score five in second period in win against Oilers",
+   "url": "https://www.nhl.com/news/edmonton-oilers-carolina-hurricanes-game-recap-november-21-2026",
+   "source": "NHL.com",
+   "published": "2026-11-21T23:05:00Z",
+   "snippet": "RALEIGH, N.C. -- The Carolina Hurricanes scored five goals in the second period of a 7-4 win against the Edmonton Oilers at Lenovo Center on Saturday."
+  },
+  {
+   "title": "QUICK RECAP: Hurricanes 7, Oilers 4",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-hurricanes-11-21-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-21T21:10:00Z",
+   "snippet": "RALEIGH, NC \\- Couldn't contain the storm. In a game of many swings against the reigning Stanley Cup champions, the Edmonton Oilers couldn’t hold onto two separate two-goal leads in a wild…"
+  },
+  {
+   "title": "PRE-GAME REPORT: Oilers at Hurricanes",
+   "url": "https://www.nhl.com/oilers/news/pre-game-report-oilers-at-hurricanes-11-21-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-20T22:40:18.87Z",
+   "snippet": "The Edmonton Oilers start back-to-back games to close out their six-game road trip on Saturday afternoon at the Lenovo Center against the Carolina Hurricanes. You can watch the game live on…"
+  },
+  {
+   "title": "Oilers primed for 'measuring stick' vs. Hurricanes in division-leader matchup",
+   "url": "https://www.nhl.com/news/edmonton-oilers-carolina-hurricanes-measuring-stick-game-lookahead",
+   "source": "NHL.com",
+   "published": "2026-11-20T22:02:39.667Z",
+   "snippet": "The Edmonton Oilers want what the Carolina Hurricanes have, and will get a chance to see where they stand against the defending Stanley Cup champions. The Oilers travel to face the…"
+  },
+  {
+   "title": "Short Shifts Power Rankings: November 20",
+   "url": "https://www.nhl.com/news/short-shifts-power-rankings-november-20-2026",
+   "source": "NHL.com",
+   "published": "2026-11-20T21:56:00Z",
+   "snippet": "Throw out the Xs and Os and join Short Shifts for our own weekly power rankings. What is our criteria? Whatever makes us smile, laugh, cry or any other wholesome feeling. This list is…"
+  },
+  {
+   "title": "State Your Case: Hurricanes or Oilers as top team",
+   "url": "https://www.nhl.com/news/state-your-case-carolina-hurricanes-or-edmonton-oilers-as-top-team-in-nhl",
+   "source": "NHL.com",
+   "published": "2026-11-20T15:24:13.238Z",
+   "snippet": "The defending Stanley Cup champion Carolina Hurricanes host the Edmonton Oilers at Lenovo Center on Saturday (1 p.m. ET; HHN, CARNHL, NHLN, SNP, SNW, SNO). It should be quite the tilt,…"
+  },
+  {
+   "title": "McDavid’s point streak ends at 23 in Oilers loss to Lightning",
+   "url": "https://www.nhl.com/oilers/news/edmonton-oilers-tampa-bay-lightning-game-recap-november-19-2026-x6012",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-20T05:09:00Z",
+   "snippet": "TAMPA -- Connor McDavid's season-opening point streak ended at 23 games, and the Edmonton Oilers had their six-game winning streak snapped in a 3-1 loss to the Tampa Bay Lightning at…"
+  },
+  {
+   "title": "Trophy Tracker: McDavid unanimous Hart pick as League MVP with Oilers",
+   "url": "https://www.nhl.com/news/hart-trophy-tracker-connor-mcdavid-unanimous-pick-as-league-mvp-with-edmonton-oilers",
+   "source": "NHL.com",
+   "published": "2026-11-20T05:00:00Z",
+   "snippet": "To mark the first quarter of the 2026-27 regular season, NHL.com is running its second installment of the Trophy Tracker series this week. Today, we look at the race for the Hart Trophy,…"
   }
  ]
 }
