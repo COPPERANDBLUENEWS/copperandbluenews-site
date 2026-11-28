@@ -1,13 +1,20 @@
 {
- "updated": "2026-11-28T01:56:38Z",
+ "updated": "2026-11-28T03:01:41Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (1)",
+  "Sportsnet (2)",
   "Google News (89)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Oilers’ McDavid snipes top corner for power-play goal vs. Kraken",
+   "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-snipes-top-corner-for-power-play-goal-vs-kraken/",
+   "source": "Sportsnet",
+   "published": "2026-11-28T02:25:42Z",
+   "snippet": "Watch as Edmonton Oilers captain Connor McDavid perfectly places his shot int the top corner to score a power-play goal against the Seattle Kraken."
+  },
   {
    "title": "Seattle Kraken at Edmonton Oilers - NHL Game Summary - Nov 27, 2026",
    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPOGcwcTRheENpWWJERUJlM2h5eVdWM1l2bjJjWWJlZVU5QlhDbmRKUkd6UVp5alpoWERPSVVUR3pEcHlGczlwRUYzeWJTaEZqdmRZQUk3REIxME9YYWdNdUdYQS1kRi1iRUJ1djk2aEpYNUdMQlJaMEM0dkdVOFNSMmxqR0dEb3NNOFhqVmNVTWtLa1ZyaTluZmVpZmllcEExUmJrVzlZTmJBM3pQVGxrX1VxeUFnejZiaW5DR2ZwT29BMVBFVXJfNDhZb2lQaTE3d0ZZcHBDVFZRb3hNanYxOXY4OUJneXJjVUNrYkl3?oc=5",
@@ -35,6 +42,14 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZzBObWZWNWNTME13M05xTWlOcVZ3eFN0V2dRRlpIanM4YnAxYXdBSjZpdm5VTklaYUFxNmtzbnBjZGdtVENWWmhoMEV5Y0xoeG1tY0hEOVFFN0ZabXJYa3MxTXVRMnJFejJJX0lHdzdfZmNDUWdFeEh6aG1xZjhhSnFLLTJ5TUNiOHFBWmcyQ3NnTlF2ZFNOZDhIb0dlenRSN0ZGX2U0bkt4VjBGcGc?oc=5",
    "source": "knup.com",
    "published": "2026-11-28T00:25:55Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers vs. Kraken: Why Edmonton Needs 3 of 4 Points",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQT0Frd3pmd0hVb3V5cGZfV0tBeHNtWURJRS14OE00RloyMG9sa3I4MTJrZG9VT0taODVzeFFJdl9oQXVKWW56Vmo2QnFnUlRQRVZJeHJZVWlJckZHZ25hS2djaHlZakRVNUk3cGkwemRrT3FfNUNUdExzRThybVo1NkYwTlZ6UnljMDdwZ2pHOWJ5dFZheVpLN2t6OHIyTHZTY0xRR1FtSTQzMk1Va252aVFkVkF5cWpJWTl1dFpDTVI5aGJNa0pEZUxteFhWVGJoY0kyZGhWZDZmQ3k4QVZtZVFkQnBXOTREVGY5OVExbw?oc=5",
+   "source": "wtsp.com",
+   "published": "2026-11-28T00:19:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -110,6 +125,14 @@
    "snippet": "Sexsmith Sabres take undefeated record into Alberta Bowl weekend"
   },
   {
+   "title": "Did the 1988 Wayne Gretzky Trade Pay off for the Edmonton Oilers?",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWUJfUFAtblVNNGxNNTlQR1VDd3BTZUtjLWFiWDItTmtPeXJMQi1NNTFFVldxVUk2SVk5WVloTkJCUGxQZU1zLUR3QlBMYS10TUxuRmJOR1dwVDJsSXRXT25GZ3N1Y21sU3lVR2Q1dTJDOGl3MFUteWJnVGI3c3pvZ21oWnQ1OWFK?oc=5",
+   "source": "Yahoo Sports",
+   "published": "2026-11-27T21:41:37Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Edmonton Oilers reassemble top line of McDavid, Draisaitl, Podkolzin",
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcF9XTUVOakFzekc4MHlKdXdQbnRBRlJlTUYtQzdTNzdTQmFHT0JiV1N6ZjhabnlQQkxtYWUwTE9ONjlpanhFeEMtbDFQckVuZDd3X3YtdU5aSUpsN2RMamVoa3dRelBIemladWtTa0QzN1FPMTdJRFpGOE5xU3k4SnhxaGJib2s5eTRad2dSSGxZSENMTk1WRlByaWctRkhoRlV3?oc=5",
    "source": "Edmonton Journal",
@@ -154,22 +177,6 @@
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeDVjS2YtaTZCOFI5OGhkU1VpTzNXdEVNVng0bGI5UXYtcV92TUhDd3FrYmVsQXRDeUpzdzR0SlVsb2o1VXI0ZUFiMVJvZ1pkdGlPYXYwUmpPRm15alR5NXBHNWxHbnM1ejItMm5kZHRRakFUNmYwM3J2YXBIOXNfRWNHc3doOWtwa2hOU1NB?oc=5",
    "source": "NHL.com",
    "published": "2026-11-27T18:56:40Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "How to watch Kraken vs. Oilers: TV channel and streaming options for November 27",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSjRtbWlVWjlzX1NBV3FlYXFRbjdJVExBQm9NOG1tMlJiRzllMXJzZnNiYmpOcFo3b193OUxQdEFESmtxN1VRaVlKZE9MblRYVk56OS1UUWFQWlJTY1hodzJfTW5pY016VkUtN2s3Mkpwdy1NN1F5VHZXYWJYb2JqVHlGQl9UczA0cGJvVVNXZVAxZlFsRS05UGh6QWc?oc=5",
-   "source": "The New York Times",
-   "published": "2026-11-27T18:45:22Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Injury News On Zach Hyman Takes a Scary Turn",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQTBlZWRnekxuQ3kwUDlhM2xaT1JUbWxEaWduejVTT1pXV19Ecm9GZTNSTWIxcFFIN2dyb1hWeUZqbG11U08zOW10UnZjVG5mUXdGRWxtTXBRZVVEWWMzN05ReUJtcWY1OWNSeGJ6ZXA1UkljbW5XUFFYbXpKZFJDRF9Bd0dCWGt3R0laQVFOYmZkLUlhRy1Ybjg0TURhQ2NJQkJDS2owLU84Zw?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-27T18:30:12Z",
    "snippet": "",
    "via": "google"
   },
@@ -252,10 +259,10 @@
   },
   {
    "title": "Eichel scores twice, Golden Knights hand Oilers fourth straight loss",
-   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026",
-   "source": "NHL.com",
+   "url": "https://www.nhl.com/oilers/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026-x8132",
+   "source": "EdmontonOilers.com",
    "published": "2026-11-25T05:10:00Z",
-   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss with a 5-3 win at Rogers Place on Tuesday."
+   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss, 5-3 at Rogers Place on Tuesday."
   },
   {
    "title": "BLOG: Elks welcomed onto the ice at Rogers Place as Grey Cup champions",
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-25T01:02:28.481Z",
    "snippet": "EDMONTON, AB - A 'Golden' opportunity capitalized on by the visitors. Colton Dach, Connor McDavid & Vasily Podkolzin all found the back of the net, while Evan Bouchard produced two assists,…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Nugent-Hopkins to return on the wing against Golden Knights",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-nugent-hopkins-to-return-on-the-wing-against-golden-knights-11-24-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-24T18:43:43.264Z",
-   "snippet": "EDMONTON, AB – Forward Ryan Nugent-Hopkins will be back in the lineup for the Edmonton Oilers when they welcome their Pacific Division rivals in the Vegas Golden Knights to Rogers Place on…"
   }
  ]
 }
