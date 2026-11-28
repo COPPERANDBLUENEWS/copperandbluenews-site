@@ -681,9 +681,10 @@ a.lg-chip:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
 .trivia-timer{height:10px;background:#1f3866;border-radius:99px;overflow:hidden;margin:0 0 6px}
 .trivia-timer span{display:block;height:100%;width:100%;background:linear-gradient(90deg,#c8763a,#ff4c00);border-radius:99px}
 .trivia-clock{margin:0 0 12px;color:#f4b37c;font:700 .85rem Oswald,sans-serif;letter-spacing:.04em}
-.trivia-q{font-size:1.12rem;line-height:1.35;margin:0 0 12px}
+.trivia-q,.card h2.trivia-q{font-family:Inter,system-ui,sans-serif;font-weight:800;font-size:clamp(1.5rem,1.2rem + 1vw,1.85rem);line-height:1.35;letter-spacing:0;text-transform:none;color:var(--text);margin:2px 0 16px;overflow-wrap:anywhere}
 .trivia-choices{display:flex;flex-direction:column;gap:8px}
 .trivia-choice{display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:var(--navy);color:var(--text);border:1px solid #62789e;border-radius:10px;padding:12px;min-height:48px;font:600 16px/1.3 Inter,system-ui,sans-serif;cursor:pointer}
+.trivia-choice span{flex:1;min-width:0;overflow-wrap:anywhere}
 .trivia-choice i{flex:0 0 auto;width:1.6em;height:1.6em;border-radius:50%;display:grid;place-items:center;background:#1f3866;color:#f4b37c;font-style:normal;font-size:.8rem}
 .trivia-choice:disabled{cursor:default;opacity:.85}
 .trivia-choice.right{border-color:#4ade80;background:#123226}
@@ -696,7 +697,7 @@ a.lg-chip:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
 .trivia-final{text-align:center}
 .trivia-final h2{color:#f4b37c;margin:0 0 6px}
 .play-home-actions .play-trivia{grid-column:1/-1}
-@media(max-width:420px){.trivia-rules{grid-template-columns:1fr}.trivia-q{font-size:1.05rem}}
+@media(max-width:420px){.trivia-rules{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.trivia-timer span{transition:none}}
 /* Home link into the games page, and one heading per game on that page. */
 .home-games{margin:16px 0 0}
