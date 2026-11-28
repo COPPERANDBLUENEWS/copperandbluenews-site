@@ -1,19 +1,19 @@
 {
  "game": {
-  "id": 2026020414,
-  "startTimeUTC": "2026-11-28T01:00:00Z",
-  "gameDate": "2026-11-27",
-  "state": "OFF",
-  "home": true,
-  "venue": "Rogers Place",
+  "id": 2026020427,
+  "startTimeUTC": "2026-11-29T03:00:00Z",
+  "gameDate": "2026-11-28",
+  "state": "FUT",
+  "home": false,
+  "venue": "Climate Pledge Arena",
   "opponent": {
    "abbrev": "SEA",
    "name": "Kraken",
    "place": "Seattle"
   },
-  "puckDropPT": "Fri Nov 27, 6 PM PT"
+  "puckDropPT": "Sat Nov 28, 8 PM PT"
  },
- "status": "Confirmed",
+ "status": "Projected",
  "forwards": [
   [
    {
@@ -250,15 +250,8 @@
    "status": "Out"
   }
  ],
- "notes": [
-  "Dressed players and starting goalie are official (NHL game sheet). Line combinations are DailyFaceoff's; the NHL doesn't publish lines."
- ],
+ "notes": [],
  "sources": [
-  {
-   "name": "NHL.com Gamecenter",
-   "url": "https://www.nhl.com/gamecenter/2026020414",
-   "what": "official dressed lineup"
-  },
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
@@ -268,7 +261,7 @@
   },
   {
    "name": "DailyFaceoff",
-   "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-27",
+   "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-28",
    "what": "starting goalie"
   }
  ],
@@ -279,7 +272,7 @@
    "num": 35,
    "pos": "G"
   },
-  "status": "Confirmed",
+  "status": "Unconfirmed",
   "backup": {
    "id": 8482221,
    "name": "Devon Levi",
@@ -300,7 +293,7 @@
   "abbrev": "SEA",
   "name": "Kraken",
   "place": "Seattle",
-  "status": "Confirmed",
+  "status": "Projected",
   "forwards": [
    [
     {
@@ -453,11 +446,6 @@
   "notes": [],
   "sources": [
    {
-    "name": "NHL.com Gamecenter",
-    "url": "https://www.nhl.com/gamecenter/2026020414",
-    "what": "official dressed lineup"
-   },
-   {
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/seattle-kraken/line-combinations",
     "what": "line combinations",
@@ -466,26 +454,26 @@
    },
    {
     "name": "DailyFaceoff",
-    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-27",
+    "url": "https://www.dailyfaceoff.com/starting-goalies/2026-11-28",
     "what": "starting goalie"
    }
   ],
   "goalie": {
    "starter": {
-    "id": 8475831,
-    "name": "Philipp Grubauer",
-    "num": 31,
-    "pos": "G"
-   },
-   "status": "Confirmed",
-   "backup": {
     "id": 8478916,
     "name": "Joey Daccord",
     "num": 35,
     "pos": "G"
    },
+   "status": "Unconfirmed",
+   "backup": {
+    "id": 8475831,
+    "name": "Philipp Grubauer",
+    "num": 31,
+    "pos": "G"
+   },
    "note": null
   }
  },
- "updated": "2026-11-28T04:39:58Z"
+ "updated": "2026-11-28T07:22:52Z"
 }
