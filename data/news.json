@@ -1,13 +1,29 @@
 {
- "updated": "2026-11-28T05:38:44Z",
+ "updated": "2026-11-28T06:39:21Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (3)",
-  "Google News (89)"
+  "Google News (87)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Kakko scores two in third, Kraken rally to hand Oilers fifth straight loss",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX2xUcXdHLUh3ZXNPMmtYTV9BQmN3X1JValdJUElIeVNaekxTTTdJZVNBXzh4bUZWTDhjQzYtcTM5N09vbDRzRlJuOEZ6b0tFSG5mT1Njal9DT04yNElZc2F2a2tIQklCc0RqYS1qQWcxdVQzbHFfUndySFFKOTU0TFg1Sk9WanBFbEFQSTNGRUtxY19vTDBRZGY1cTI?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-28T06:22:22Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "How to watch the Seattle Kraken vs. the Edmonton Oilers",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMUhfRUtzRnp0STBBWW4yWmh3MjBWQ2lvZHJubzBGLWwzMnIta1hMMzZUWGtIRzlBNDB2am5LM1htaFY5eFNONTVTWWdHcW01QmlxQk91c3VjNEZIal84MXhSa1hlWWowaUxBLW1mOHAweDUzLVVZVjVYU0JUVnRJMmxrMTQ2VTNPZl85RW81THNKMl82eWY3dTlNZFVxTlRLTUx4LXpHTk5TQVpxanV1aGhYNHlENUZUTXpjOVhubG9YYUk4ZE5xZnlwWjI?oc=5",
+   "source": "KING5.com",
+   "published": "2026-11-28T05:52:00Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Wow: Well-rested Edmonton Oilers put back to sleep by the Seattle Kraken",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQUI0N0RfMW9QOE9HeVFpR3RfVTV1bVBzelFMZlpfcC1QWTUweUMzazE3YndnXzN0dzlBZUZPX0RlX1MzdTVmcWpHc0RtNjlkbzd2ZWdDYWpLVjdVdDJMOGJ6MHEtYnphNlZBRDV1WUNONkhqZmpRbWpUZEh0Yksxb3plRlBTWV83MXpZMHllUHRuQWI3eFVmUVZGTzFpazlMMmo4RDR2RlZSZw?oc=5",
@@ -15,13 +31,6 @@
    "published": "2026-11-28T05:26:15Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "Kakko scores two in third, Kraken rally to hand Oilers fifth straight loss",
-   "url": "https://www.nhl.com/news/seattle-kraken-edmonton-oilers-game-recap-november-27-2026",
-   "source": "NHL.com",
-   "published": "2026-11-28T05:23:00Z",
-   "snippet": "EDMONTON -- Kaapo Kakko scored twice in the third period, and the Seattle Kraken rallied to hand the Edmonton Oilers their season-high fifth straight loss with a 4-2 win at Rogers Place on…"
   },
   {
    "title": "Kraken lean on special teams to beat Oilers",
@@ -68,14 +77,6 @@
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV0NxdVFPcDByaUt6cXowYTBDNGM3LWhpSXQ0eFFDaE5kbk1WYmw0ZGZlT3I2Tnlva0ZRYmxob3l0SGdKejA5ZGRaRjJSVzBMNXA4N0FodEpkSm14bUU1RmFYN1JQNHZXMEU5Q0xkQ0d1NW1YbWozS2JTRVZVMk9oX3V1V3FZUTJLb19pQ293cVh1VHBvWEkwVXlVMA?oc=5",
    "source": "Hockey.com",
    "published": "2026-11-28T04:35:30Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "POST-RAW | Ryan Nugent-Hopkins 11.27.26",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01MmwyQXNwUVNnRnNLQ2djWGpPQndTVU5DRG02M3N5c1U0YWZwZVpzbGdpZUdNeUY2UXpva3Jqd0lHMC1vSmNNVzhybzBzUlRzemZ2MV83QThhN1VlSktKSUoyUDJ5Q0p2VWRxdkJwbXBrTVdZR0p1MWYxNA?oc=5",
-   "source": "BVM Sports",
-   "published": "2026-11-28T04:29:46Z",
    "snippet": "",
    "via": "google"
   },
@@ -146,7 +147,7 @@
    "title": "Jordan Eberle with a Goal vs. Edmonton Oilers",
    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLUZEa3J3bERUMVdRTlN3QkxaWlJwcVFGaHJfNS1WNURrUVo0bWtxWHU1c3JxUHppUVpERDdRNlpMNFdyc0RrYmJYalktM05QemFoUDdrai1QZkN0a2ZQRF9TLWdGQ1pwc2VuaVU4UEhCMWF0YzJIaG1UejZ1cHduWnhYN2dXYVJyVGIxTzd3?oc=5",
    "source": "Yahoo Sports",
-   "published": "2026-11-28T03:53:01Z",
+   "published": "2026-11-28T03:53:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -155,14 +156,6 @@
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNHdsUjlIa0RrZzBqUy1MNjRxTXI1UDlmWlBha1cwTzhSdkJrTFh3NGd0RmxQODJMVjRNNURTRmdfSC1FQTRqUlI3VGxmb3V0Q3JnNUxYQW5VajU1RW5vSDVsb1F2cWJhOTZsUzZudEpoc3BISGFJU3lHeG54SHplaU1OWlFEbmU1MnhsMUt2SQ?oc=5",
    "source": "Yahoo Sports",
    "published": "2026-11-28T03:52:38Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Kraken's Philipp Grubauer exits vs. Oilers with upper-body injury",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSHpHN2szZGRMY1RPQ2pnWXk4dzZycHl3X1ZRR3RpdnBUcERqemxNcUIxNkNmMzZSMUtQR3VqY19CQVYtbGlLSnJWZkRmM1ppWUZybFRkeENKbEJzRGJYWWJXX0lFM05idXFXTlJDaXhfckpfNW82QXg5RmVndzNwU1F4TjRQOEZVTU8tUTZiTWZIeTlsTms4T21feXA1bjlxZHdZ?oc=5",
-   "source": "Sportsnet.ca",
-   "published": "2026-11-28T03:32:00Z",
    "snippet": "",
    "via": "google"
   },
@@ -277,6 +270,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-25T02:51:19.658Z",
    "snippet": "EDMONTON, AB - The Champs are here. Decked in green & gold and with the Grey Cup in tow, the Edmonton Elks were welcomed to Rogers Place and brought onto the ice prior to puck drop against…"
+  },
+  {
+   "title": "QUICK RECAP: Golden Knights 5, Oilers 3",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-golden-knights-11-24-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-25T01:02:28.481Z",
+   "snippet": "EDMONTON, AB - A 'Golden' opportunity capitalized on by the visitors. Colton Dach, Connor McDavid & Vasily Podkolzin all found the back of the net, while Evan Bouchard produced two assists,…"
   }
  ]
 }
