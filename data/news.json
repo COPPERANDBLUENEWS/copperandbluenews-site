@@ -1,27 +1,59 @@
 {
- "updated": "2026-11-28T13:45:07Z",
+ "updated": "2026-11-28T15:25:49Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Sportsnet (3)",
-  "Google News (85)"
+  "Google News (90)"
  ],
  "errors": [
   "Edmonton Journal: syntax error: line 1, column 0"
  ],
  "items": [
   {
-   "title": "Defensive zone issues push the Edmonton Oilers' losing streak to five games",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUVZ1ZjI4b3pMWnBZV254RDRqLW43T2FtS0E0d3h3QXE5R1FCZ0dwdkVjREN4SkppZ3V6N1UtRFdJMTdDRXBGMlowTl82a3drczRFQ1pVYkJKNUNCdGhuaXh4X3VEem9jLVNXTTNqd3pSTHR6SnNHR1hqV004Y2xVbTVpR0JjcHV0b1ZidkhjWXVuVjUtREpYU19POGI0aks3Yy1vZkZqMkRrb29KV2FR?oc=5",
-   "source": "Oil On Whyte",
-   "published": "2026-11-28T13:00:01Z",
+   "title": "3 Takeaways From Oilers’ Embarrassing 4-2 Loss to Kraken",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS005Zk5rME9IYVBOQzRVUHNkN1RvbjgtWDhreGoxdm5sMWY5cEZsV2N3NnR5T1BmVW5QRlRaZGdLcW8zMElJWVNPNnIxTG5Yd004Y3BzR3JFSXZ3ek5vMkVlZmFGQ3dLRFpIQVBsdG9hcFNOV1hQYjJpbk41Nmo1cm9odHNaUWFkdHMyZnQ2SEowN05kMnRpdGhR?oc=5",
+   "source": "The Hockey Writers",
+   "published": "2026-11-28T14:25:00Z",
    "snippet": "",
    "via": "google"
   },
   {
-   "title": "NHL Game Preview: Edmonton Oilers at Seattle Kraken with Line Combinations 11/28/2026",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmE5YVV2c3lHS0V5cUthUE5KdEF6WDFXUmtUanZ5WXVjMjhjczlodEhlLWVJY29GUlJBQ25EeW93azh6QXBjRHp4aWJFU1hRVEZxWnh4UTZ2XzVzSVhtV3BTTUxhUzlhZlp6blltenRuUXZqZ08yRFh6VHZZdVRYNjdyaGdTczF0eFhsSTA3YnQzXzZtNU5fTHZCVlVUeDdydmIxNTdlMUl0UUd5MzVlUA?oc=5",
-   "source": "Inside The Rink",
-   "published": "2026-11-28T12:11:50Z",
+   "title": "How the new Oilers acquisitions are performing so far this season",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWDlDd3phQmx6Zl9GM3MwMUt3aFFybl82MVY2WkE1RXlyZVFhcEoxV2M5Z1FBdHI2aW1EcUdycEtqM29HdVFnZ3lsVWxxaEg5MC1udmVNVGpIOHNJSkZ0NHVVZXQ2cjNmWmhwT3lVNHlEa0ZDdG14U3hPNGsyYjRyVk5rOE1KYjVZS0pvUkFPQTlPbjY1UEtaMlFSWFFDNEN0Z3dV?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-28T14:00:02Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers' top power-play unit 'not good enough' in fifth straight loss",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOT0lBQms3c1hzVGVXSlVkXzltUzlYN24wT1NoU1ZDbkN5cENXQUpXamtKZGFRRXZfb3Z2OVlrd3NDTXpnT3JWaS1aWXprNlVvMmpFcU1TRXk3Z1hma3BMQWhUcHNhOHZDWWZEWWhlaGxVQmE5MjBfNzBKREY0UjJxWVl0Y01QdDByU0RMajNXWi1JMjZWRFh0bVBfM2wwdmN5ZE81Q0dR?oc=5",
+   "source": "Sportsnet.ca",
+   "published": "2026-11-28T14:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers start and finish poorly, the power play has problems, and the five game losing streak",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVWNQYTJJdnVfUzh0UF9TV0JCRkMtalZ5Y25xekd4SUM0SC15WFdxM0o5aDlEVXFPZ29MRFRQNjFoRjdLbXczMldVNTEya2U4ZXBkNG9naWJYb3Y3QW13QVFNNXFKYUVIVFVSR3BtZUQ5WlRQSndTbGlYSGJTb3o0dDlsUHpmb2R0NTU4bGE5UGs5eTVXN3JtY1lNdXp3Yl9hVHdza3MtZ2RrMTJ0VWc?oc=5",
+   "source": "Oilers Nation",
+   "published": "2026-11-28T14:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "How high has Connor McDavid climbed in the all-time player rankings?",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcFJKMFdoekloTWpIQVJEY1dXdERCMmg3NFBKbFYtUWRDUXdiaUxDem5zRUVTbXRudVQyQWx2Tkk2empfWWlRY2pwcC10VmE5WnNYMTZndXJtY2JRX294Wm1BNC1BZk5XZUNQNEVGLTBidmNWekR5LWUtSXMzVnVqeXJpS3FhbEEzNGFBNm44LW9OLWwtd2dnYnp6UWhXYy1xbnhPbkd5ZGs4cGpmTGROX0hFRWdva3pObHFGV2pmNHhrZ1U?oc=5",
+   "source": "Daily Faceoff",
+   "published": "2026-11-28T14:00:00Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Defensive zone issues push the Edmonton Oilers' losing streak to five games",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUVZ1ZjI4b3pMWnBZV254RDRqLW43T2FtS0E0d3h3QXE5R1FCZ0dwdkVjREN4SkppZ3V6N1UtRFdJMTdDRXBGMlowTl82a3drczRFQ1pVYkJKNUNCdGhuaXh4X3VEem9jLVNXTTNqd3pSTHR6SnNHR1hqV004Y2xVbTVpR0JjcHV0b1ZidkhjWXVuVjUtREpYU19POGI0aks3Yy1vZkZqMkRrb29KV2FR?oc=5",
+   "source": "Oil On Whyte",
+   "published": "2026-11-28T13:00:01Z",
    "snippet": "",
    "via": "google"
   },
@@ -46,6 +78,14 @@
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3RwSldNRFVmSGNMTXhFWWstQnNCdUNLcEtPbFExaHh1bzdGYWZyV1BtZjBIaElSaWpWbWJWUktkS0FvVzc0R25BT21wWUJOTVZYdURpYkxtZ0ZZd0NieTNFVFN3NlhhcGhrV015TFFYZkxYYlZJLUY2ZDJLTXJBa1NldWlEOTdtUXc?oc=5",
    "source": "Substack",
    "published": "2026-11-28T11:35:28Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Will Jordan Eberle Score a Goal vs. the Edmonton Oilers on November 28?",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNVh6RkxldmxvbXVFSTNWS202T0hEVW8zZXNRTUVINHA3RnA1TXhrTU1NSTJxMGlROHh1ajRjcnFQQ3NEQUoxZ0xIQjhqZkVaTGhheXREQlpBcndXOHRPbXN5c2hIYzk3QzY0eXcxd2tYWTBjZkczejgyTDBmU1VxVVpMbm05MFdEdHZtaTVYZVNESUtFU3Q1Mk5rNGloWlZqU0FzOFdoOWZib0RESmpKdXdZcDU2QWJjRHc?oc=5",
+   "source": "Bleacher Nation",
+   "published": "2026-11-28T11:13:13Z",
    "snippet": "",
    "via": "google"
   },
@@ -90,14 +130,6 @@
    "via": "google"
   },
   {
-   "title": "Oilers vs. Kraken Time, TV & Live Stream – 11/28/2026",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT2s4Ujdqa0MtYWliM01jbVR0QWZUNXptZXRTOWFfcXZ6OTVfZkdNeXJzRDFtelkzOXpvWnlmRGdSZjduWVhEVGNwcnZFTG9fQzlXMUk0SG92Mml2Qk1paEV5MUdvRlljaVVmcTZiX0dMenJRek9LdWdnVGR3Z1c2VEt3LVlJa1A1UmRWNkd6Umkyb1JBS3l4ZF93WWVJUQ?oc=5",
-   "source": "Rip City Radio 620 Portland",
-   "published": "2026-11-28T07:40:23Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "QUICK RECAP: Kraken 4, Oilers 2",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GbnpPbGhpUnJSWFU2X0dVdU1DLXZfQzVxeFc4cXpxR0ljZGZKeW4zdDhTV3pBc3BuWXctUUZrWmhtTjNCc3o5Uk5iZjZjZWF2dHNsZWI5akxuRVBvcTZpbnhsQlh6aVowUkJwWTlqTE9SaXFxeDJETFJR?oc=5",
    "source": "NHL.com",
@@ -120,45 +152,6 @@
    "published": "2026-11-28T06:55:42Z",
    "snippet": "",
    "via": "google"
-  },
-  {
-   "title": "Oilers vs, Kraken (Nov. 27)",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTDJiNHBac19WSXVwejFXcFdLYkJNUHdkS3hGTmRDMERfaTQzRzRpZHRjQm9ic2x0YTNTTXNnVWdXcl9JVFczWkZDN3I4UWdNai1NLVdCNVJuclJzOFZXY296d1RwY1BkZG4td2hqTFlMYnJKTG1Bc1o4VE5XOUtQNWhR?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-28T06:21:59Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Cult of Hockey's \"Rancid call by ref dooms Oilers\" podcast",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeDk1ZC00OEkxdUFtWG14YW9CZVlicWFGSE1FN1dXMmdjaklyQzNYeF9yNHJTLTlFeXpqYVNVcDNmNkJMZDR0cDU5cWxsRHVrb0ktaTNCWktONDV5TUZ5OVlwWW50Uk5lR1c3SUtHOWlwbDJVZlNMQ3pwdTNHX3dtNUNqQTFuVnB3NFdTemtrVTM5QlFycHVHSV93VV8ta0VtLUZJX3p2Ti1maEpjbnAwV2l2V0N2ZlRLNFFLWlNTM2dDSVlxZC05bURn?oc=5",
-   "source": "Edmonton Journal",
-   "published": "2026-11-28T06:16:06Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "How to watch the Seattle Kraken vs. the Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMUhfRUtzRnp0STBBWW4yWmh3MjBWQ2lvZHJubzBGLWwzMnIta1hMMzZUWGtIRzlBNDB2am5LM1htaFY5eFNONTVTWWdHcW01QmlxQk91c3VjNEZIal84MXhSa1hlWWowaUxBLW1mOHAweDUzLVVZVjVYU0JUVnRJMmxrMTQ2VTNPZl85RW81THNKMl82eWY3dTlNZFVxTlRLTUx4LXpHTk5TQVpxanV1aGhYNHlENUZUTXpjOVhubG9YYUk4ZE5xZnlwWjI?oc=5",
-   "source": "KING5.com",
-   "published": "2026-11-28T05:52:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Kraken lean on special teams to beat Oilers",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLTRmWFVVSjM0Z2xpbWZpYkZ5TGd5c29iVFFQb1lSTW1UZllNM2w4TVlZYjA1NS1fcHRuVkhZWllCMUk3eWFmWkhPbWxGeUlDaEtVMGR6c0dKX1RuSHdSN2hnbDBlLUlGNUpjM2lwbTYtYmllRGRRR01VcTEyLWl1OU9oN2VoczA?oc=5",
-   "source": "Global News",
-   "published": "2026-11-28T05:05:47Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers’ top power-play unit ‘not good enough’ in fifth straight loss",
-   "url": "https://www.sportsnet.ca/nhl/article/oilers-top-power-play-unit-not-good-enough-in-fifth-straight-loss/",
-   "source": "Sportsnet",
-   "published": "2026-11-28T05:02:10Z",
-   "snippet": "The Oilers felt like the game should have been out of reach by the third period. Hockey’s best power play simply didn’t produce — that unit owns this loss."
   },
   {
    "title": "NHL Highlights: Kraken 4, Oilers 2",
@@ -278,6 +271,13 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-23T00:10:32.365Z",
    "snippet": "ST. LOUIS, MO - Couldn't hold on to close out the road trip on a winning note. Despite holding a three-goal lead midway through the third period, the Edmonton Oilers couldn't protect their…"
+  },
+  {
+   "title": "PROJECTED LINEUP: Oilers at Blues",
+   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-at-blues-11-22-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-22T18:04:46.321Z",
+   "snippet": "ST. LOUIS, MO – Goalie Tristan Jarry will get the start, while defenceman Jake Walman is projected to draw back into the lineup for the Edmonton Oilers when they cap off a weekend…"
   }
  ]
 }
