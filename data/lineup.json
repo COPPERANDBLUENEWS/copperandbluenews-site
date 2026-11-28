@@ -3,7 +3,7 @@
   "id": 2026020414,
   "startTimeUTC": "2026-11-28T01:00:00Z",
   "gameDate": "2026-11-27",
-  "state": "LIVE",
+  "state": "FINAL",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -487,5 +487,5 @@
    "note": "Grubauer will start in Edmonton on Friday. "
   }
  },
- "updated": "2026-11-28T03:31:59Z"
+ "updated": "2026-11-28T03:59:22Z"
 }
