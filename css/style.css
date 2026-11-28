@@ -31,7 +31,7 @@ main{max-width:1100px;margin:0 auto;padding:0 16px 32px}
 .about{max-width:680px}.notice{border-left:4px solid var(--orange);padding:10px 14px;background:var(--navy2);font-weight:600}
 footer{border-top:1px solid var(--line);text-align:center;padding:24px 16px 40px;font-size:.9rem}
 .disc{color:var(--muted);font-size:.8rem;margin:.3em 0}
-@media(min-width:760px){.cards{grid-template-columns:repeat(2,1fr)}.feed{grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}.hero{padding:56px 0 40px}.hero-logo{width:190px;height:190px}}
+@media(min-width:760px){.cards{grid-template-columns:repeat(3,1fr)}.feed{grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}.hero{padding:56px 0 40px}.hero-logo{width:190px;height:190px}}
 @media(max-width:380px){.brand span{display:none}}
 body{min-height:100vh;display:flex;flex-direction:column}main{flex:1;width:100%}
 .nav{flex-wrap:wrap}.nav nav{flex-wrap:wrap;gap:12px}.nav nav a.on{color:var(--orange)}
@@ -699,17 +699,12 @@ a.lg-chip:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
 .play-home-actions .play-trivia{grid-column:1/-1}
 @media(max-width:420px){.trivia-rules{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.trivia-timer span{transition:none}}
-/* Home link into the games page, and one heading per game on that page. */
-.home-games{margin:16px 0 0}
+/* Small homepage link into the fan-games hub. */
+.home-games{text-align:center;margin:4px 0 18px}
 .home-games a{display:inline-block;font:700 14px Inter,sans-serif;color:#f4b37c;text-decoration:none;border:1px solid var(--copper);border-radius:999px;padding:8px 16px;background:#12264a}
 .home-games a:hover{background:var(--copper);color:#fff}
-.games-lede{color:var(--muted);margin:-8px 0 18px}
-.games-sec{font:700 1.05rem Oswald,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:var(--copper);margin:26px 0 10px}
-.game-list{display:grid;gap:12px}
-.game-card h2{font-size:clamp(1.35rem,4.2vw,1.75rem);color:var(--text);margin:0 0 8px}
-.game-card.is-live{border-top-color:var(--orange)}
-.game-card.is-next{box-shadow:0 0 18px rgba(255,76,0,.28)}
-.game-kicker{margin:0 0 8px;font:700 .75rem Inter,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--orange)}
-.game-kicker.live{color:#ff6b6b}
-.games-links{margin:18px 0 0;color:var(--muted)}
-.games-links a{font-weight:600;text-decoration:none}
+.games-lede{color:var(--muted);margin:-6px 0 18px}
+.game-hubs{display:grid;gap:14px;max-width:560px}
+.card.game-hub h2{font-size:clamp(1.6rem,4vw,2rem);margin-bottom:8px}
+.game-hub p{margin:0 0 14px;color:#d6deeb}
+.game-hub .btn{color:#fff}
