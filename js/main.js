@@ -58,6 +58,11 @@ CBN.liveNow = async () => {
   return lastLive = d;
 };
 
+function gameTitle(g) {
+  const m = matchup(g);
+  const when = g.dateMT || fmtDate(g.startTimeUTC).replace(/,/g, "");
+  return `Oilers ${m.home ? "vs" : "@"} ${m.oppName}, ${when}`;
+}
 function renderNext(g) {
   const el = $("next")?.querySelector(".body"); if (!el) return;
   if (!g) { el.textContent = "No upcoming games scheduled."; return; }
@@ -79,13 +84,12 @@ function renderStandings(s) {
   el.innerHTML = `<div class="big">${s.wins}-${s.losses}-${s.otLosses}</div>
     <div class="meta">${s.points} PTS in ${s.gamesPlayed} GP · ${ordinal(s.divisionSequence)} in ${esc(s.divisionName)}${s.streakCode ? ` · Streak ${s.streakCode}${s.streakCount}` : ""}</div>`;
 }
-// Live card on the home page (shown from 30 min before puck drop to the final).
-async function renderLive() {
-  const el = $("live"); if (!el) return;
-  let live; try { live = await CBN.liveNow(); } catch { return; }
-  const g = live.game;
-  if (!g || isFinal(g.state)) { el.hidden = true; return false; }
-  const m = matchup(g); let goals = "";
+// Live block (shown from 90 min before puck drop until the final). Shared by the
+// games page and any page that still has a #live card.
+async function liveInner(live) {
+  const g = live && live.game;
+  if (!g || isFinal(g.state)) return "";
+  let goals = "";
   if (live.__relay) {
     goals = (live.goals || []).map(x => `<li><b>${esc(x.team)}</b> ${esc(x.name)} · ${periodName(x.period)} ${esc(x.time)}</li>`).join("");
   } else try {
@@ -93,23 +97,38 @@ async function renderLive() {
     goals = (d.summary.scoring || []).flatMap(p => p.goals.map(x => `<li><b>${esc(x.teamAbbrev.default)}</b> ${esc(x.name.default)} · ${periodName(p.periodDescriptor)} ${x.timeInPeriod}</li>`)).join("");
   } catch {}
   const status = isLive(g.state) ? `<span class="pulse"></span>LIVE · ${periodName(g.period)} ${g.clock?.inIntermission ? "INT " : ""}${esc(g.clock?.timeRemaining || "")}` : `Puck drop ${bothTimes(g.startTimeUTC)}`;
-  el.hidden = false;
-  el.innerHTML = `<h2>${status}</h2>
+  return `<p class="game-kicker live">${status}</p>
     <div class="live-score"><div><span>${esc(g.away.abbrev)}</span><b>${g.away.score ?? 0}</b><small>SOG ${g.away.sog ?? 0}</small></div>
     <div class="dash">–</div><div><span>${esc(g.home.abbrev)}</span><b>${g.home.score ?? 0}</b><small>SOG ${g.home.sog ?? 0}</small></div></div>
     ${goals ? `<ul class="goals">${goals}</ul>` : ""}
     <div class="meta">Updated ${new Date(live.updated).toLocaleTimeString("en-US", {timeZone: "America/Edmonton", hour: "numeric", minute: "2-digit"})} MT · ${live.__relay ? "checks every 3 s · roughly 10–30 s behind the NHL feed (feed delay varies)" : "backup feed · updates may be delayed 2–4 min"}</div>
     <a class="more" href="game.html?id=${g.id}">Full game page →</a>`;
+}
+async function renderLive() {
+  const el = $("live"); if (!el) return;
+  let live; try { live = await CBN.liveNow(); } catch { return; }
+  const html = await liveInner(live);
+  if (!html) { el.hidden = true; return false; }
+  el.hidden = false;
+  el.innerHTML = `<h2>${esc(gameTitle(live.game))}</h2>${html}`;
   return true;
 }
+CBN.gameTitle = gameTitle;
+CBN.liveInner = liveInner;
 async function loadGames() {
-  if (!$("next")) return;
-  try {
-    const d = await getJSON("data.json");
-    renderNext(d.next); renderLast(d.last); renderStandings(d.standings);
-    if (d.updated) $("updated").textContent = "Updated " + new Date(d.updated).toLocaleString("en-US", {timeZone: "America/Edmonton", dateStyle: "medium", timeStyle: "short"}) + " MT";
-  } catch (e) { ["next", "last", "standings"].forEach(id => $(id).querySelector(".body").textContent = "Couldn't load game data."); }
-  CBN.pollVisible(async () => (await renderLive()) ? 3000 : 300000);
+  const ids = ["next", "last", "standings"].filter(id => $(id));
+  if (ids.length) {
+    try {
+      const d = await getJSON("data.json");
+      if ($("next")) renderNext(d.next);
+      if ($("last")) renderLast(d.last);
+      if ($("standings")) renderStandings(d.standings);
+      if (d.updated && $("updated")) $("updated").textContent = "Updated " + new Date(d.updated).toLocaleString("en-US", {timeZone: "America/Edmonton", dateStyle: "medium", timeStyle: "short"}) + " MT";
+    } catch (e) {
+      ids.forEach(id => { const body = $(id).querySelector(".body"); if (body) body.textContent = "Couldn't load game data."; });
+    }
+  }
+  if ($("live")) CBN.pollVisible(async () => (await renderLive()) ? 3000 : 300000);
 }
 async function loadPosts() {
   const feed = $("feed"); if (!feed) return;
@@ -129,6 +148,15 @@ $("yr").textContent = new Date().getFullYear();
   const newsTab = here === "posts.html" || here === "article.html" || nested;
   let cur = here === "index.html" ? "./" : (here === "game.html" || here === "stats.html" || here === "standings.html" || here === "leaders.html" || here === "mcdavid.html") ? "scores.html" : here === "player.html" ? "players.html" : newsTab ? "news.html" : here;
   if (nested) cur = cur === "./" ? "../" : "../" + cur;
+  // Games lives in More: the top bar and phone tabs are already full.
+  const panel = document.querySelector("#more-menu .more-panel");
+  if (panel && !panel.querySelector('a[href$="games.html"]')) {
+    const a = document.createElement("a");
+    a.href = `${nested ? "../" : ""}games.html`;
+    a.textContent = "Games";
+    const head = panel.querySelector(".more-h");
+    head ? head.after(a) : panel.prepend(a);
+  }
   document.querySelectorAll(".topnav a, .tabbar a, .more-menu a").forEach(a => { if (a.getAttribute("href") === cur) a.classList.add("on"); });
   const menu = document.getElementById("more-menu"); if (!menu) return;
   const inMore = (sel) => !!menu.querySelector(`a.on${sel}`);
