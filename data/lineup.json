@@ -3,7 +3,7 @@
   "id": 2026020414,
   "startTimeUTC": "2026-11-28T01:00:00Z",
   "gameDate": "2026-11-27",
-  "state": "FUT",
+  "state": "LIVE",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -13,7 +13,7 @@
   },
   "puckDropPT": "Fri Nov 27, 6 PM PT"
  },
- "status": "Projected",
+ "status": "Confirmed",
  "forwards": [
   [
    {
@@ -250,8 +250,15 @@
    "status": "Out"
   }
  ],
- "notes": [],
+ "notes": [
+  "Dressed players and starting goalie are official (NHL game sheet). Line combinations are DailyFaceoff's; the NHL doesn't publish lines."
+ ],
  "sources": [
+  {
+   "name": "NHL.com Gamecenter",
+   "url": "https://www.nhl.com/gamecenter/2026020414",
+   "what": "official dressed lineup"
+  },
   {
    "name": "DailyFaceoff",
    "url": "https://www.dailyfaceoff.com/teams/edmonton-oilers/line-combinations",
@@ -293,7 +300,7 @@
   "abbrev": "SEA",
   "name": "Kraken",
   "place": "Seattle",
-  "status": "Projected",
+  "status": "Confirmed",
   "forwards": [
    [
     {
@@ -439,11 +446,16 @@
   "notes": [],
   "sources": [
    {
+    "name": "NHL.com Gamecenter",
+    "url": "https://www.nhl.com/gamecenter/2026020414",
+    "what": "official dressed lineup"
+   },
+   {
     "name": "DailyFaceoff",
     "url": "https://www.dailyfaceoff.com/teams/seattle-kraken/line-combinations",
     "what": "line combinations",
-    "basis": "Mike Benton",
-    "updatedAt": "2026-11-27T18:20:56.636Z"
+    "basis": "Seattle Kraken",
+    "updatedAt": "2026-11-28T00:54:13.432Z"
    },
    {
     "name": "DailyFaceoff",
@@ -458,15 +470,15 @@
     "num": 31,
     "pos": "G"
    },
-   "status": "Likely",
+   "status": "Confirmed",
    "backup": {
     "id": 8478916,
     "name": "Joey Daccord",
     "num": 35,
     "pos": "G"
    },
-   "note": "Grubauer was the first goalie off the ice at Seattle's morning skate on Friday. "
+   "note": "Grubauer will start in Edmonton on Friday. "
   }
  },
- "updated": "2026-11-27T19:05:31Z"
+ "updated": "2026-11-28T01:17:39Z"
 }
