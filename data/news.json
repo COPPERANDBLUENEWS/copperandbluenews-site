@@ -1,13 +1,35 @@
 {
- "updated": "2026-11-28T00:29:02Z",
+ "updated": "2026-11-28T01:22:54Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
-  "Sportsnet (0)",
-  "Google News (89)"
+  "Sportsnet (1)",
+  "Google News (90)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "LIVE UPDATES: Oilers vs. Kraken",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-kraken-11-27-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-28T01:01:23.762Z",
+   "snippet": "The Edmonton Oilers play host to the Seattle Kraken on Friday at Rogers Place. Follow along for live updates, highlights, stats and more, then check back after the final buzzer for the…"
+  },
+  {
+   "title": "Oilers on Sportsnet: Edmonton vs. Seattle",
+   "url": "https://www.sportsnet.ca/hockey/nhl/games/e5991309-2ea6-4c67-a65d-354ba4b4bb2d",
+   "source": "Sportsnet",
+   "published": "2026-11-28T00:54:58Z",
+   "snippet": "The Edmonton Oilers look to right the ship and snap a four-game losing streak against the Seattle Kraken on Friday. Catch all the action on Sportsnet, Sportsnet+ and our NHL live tracker at…"
+  },
+  {
+   "title": "Oilers vs. Kraken: Why Edmonton Needs 3 of 4 Points",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRUd0Zk5fZ1RtNXViUnBNOEtaVDFqdi1wdmJySkhKZHk2OGozdEtOdm9tWHcxNWlnTEM5VjF0Vlg1SU9CYVFVc2YzemItdXpVNldqX3I4R1BPRHJTelNtMWkwV3pqUjFuUHNla29jVnRXTjRNWUlCQmxjWFNkcmtLd3BkVWRFOHVXWHpjSVdEeXZDeVl4T0R3R0lYX0VaOHZ5VXdwcU1hN1ppU0ZnWk5sem9OZFNHVzNrWjFwV29aYW1IVFNTTnY5VTdERGZzcEZqUk1ESFFCOG9wQUpaQWJUQmZmeld2dHozWk9JaU9uZS1OZWVBWkE?oc=5",
+   "source": "myfoxzone.com",
+   "published": "2026-11-28T00:29:20Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Connor McDavid lights lamp in Tuesday's loss to Golden Knights",
    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYUlFVXdsV2ZRMmFXaGh4T29mV3laeWRFbW5PT0xoMVlJT0dfTkI4d1FOMXVQUC1ZR0E2a0p3UnliR2d5Ri1TNUQ0TXRRSi1JNWRrZElQUDlBYXpmQWRTU0YySjdsc21jeWl6YU8yb3FnR1UzbXhoV3FUT1ctYy1vSDhUejAwNlpRWTdKMm9aMGJkNFdCOFl0cEYwUm44TlVnYmY5Y25xTG9GQdIBrwFBVV95cUxQSjc0S3JCTGhRZWtGQjlvU0JCbGJxN3NXc2ZBYS00amk3YmZuSEIwU3ZwWGViS3lBbHZiN3VYWVlBVHNHM1FhQmNvTVJKQjlrZDl6VzFvb1B1NDlkMXNTOEdZclJXUnFjdmpQa2NMYTR4TDlfUFlXV1BPVVprREpfbTExVjRpUEpNQXdmMHVILWJPRmNXUG1uOWJtbV9OZXZGRDB5N0JSaktFdEdNVlBj?oc=5",
@@ -58,9 +80,9 @@
   },
   {
    "title": "It's Lock-In Time For The Edmonton Oilers",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcmJiUTN6RjE1SlQtYnMxX2ZWYzBONzFrREl0dVVLcktfUHZzN0FQWWtkbFN2NTFpM24wRjN0ZkM1SFJ4WmM0cm1rMGQ4WHdORVQ2eVF1QjJ3cmFyR3VTci1uUHJPUEgwb3o0T0Vzdzlxc19wcGExSWpBcjFMZDFrYUlkcnZVcTlLMzFmZmphal8xdWh5R1NIZ3d5UEFlMUE?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-27T22:41:52Z",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42YVM4ZmI2eGk0Sjl4NHVxY2lJbldJcWlfTmJHd3YyRDREN0Vzcmo3Z2Q5MnpqSVY2MTJCRmV2Tm0yTWVva0JPTnFFb2YyQWRWMVd0LVZrNHJRM1paZERIbW1LMDhSM2FiUUFsVmpmQW9waVQ1bHJSeUR5RzRJQQ?oc=5",
+   "source": "Yahoo",
+   "published": "2026-11-27T22:39:33Z",
    "snippet": "",
    "via": "google"
   },
@@ -148,14 +170,6 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSjRtbWlVWjlzX1NBV3FlYXFRbjdJVExBQm9NOG1tMlJiRzllMXJzZnNiYmpOcFo3b193OUxQdEFESmtxN1VRaVlKZE9MblRYVk56OS1UUWFQWlJTY1hodzJfTW5pY016VkUtN2s3Mkpwdy1NN1F5VHZXYWJYb2JqVHlGQl9UczA0cGJvVVNXZVAxZlFsRS05UGh6QWc?oc=5",
    "source": "The New York Times",
    "published": "2026-11-27T18:45:22Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "The Injury News On Zach Hyman Takes a Scary Turn",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQTBlZWRnekxuQ3kwUDlhM2xaT1JUbWxEaWduejVTT1pXV19Ecm9GZTNSTWIxcFFIN2dyb1hWeUZqbG11U08zOW10UnZjVG5mUXdGRWxtTXBRZVVEWWMzN05ReUJtcWY1OWNSeGJ6ZXA1UkljbW5XUFFYbXpKZFJDRF9Bd0dCWGt3R0laQVFOYmZkLUlhRy1Ybjg0TURhQ2NJQkJDS2owLU84Zw?oc=5",
-   "source": "The Hockey News",
-   "published": "2026-11-27T18:30:12Z",
    "snippet": "",
    "via": "google"
   },
@@ -263,20 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-24T18:43:43.264Z",
    "snippet": "EDMONTON, AB – Forward Ryan Nugent-Hopkins will be back in the lineup for the Edmonton Oilers when they welcome their Pacific Division rivals in the Vegas Golden Knights to Rogers Place on…"
-  },
-  {
-   "title": "Golden Knights at Oilers projected lineups",
-   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-preview-november-24-2026",
-   "source": "NHL.com",
-   "published": "2026-11-24T18:37:21.759Z",
-   "snippet": "GOLDEN KNIGHTS (14-6-5) at OILERS (17-5-4) 8 p.m. ET; TVAS, SN, TNT, HBO MAX Golden Knights projected lineup Brett Howden -- Jack Eichel -- Mark Stone Trevor Connelly -- William Karlsson --…"
-  },
-  {
-   "title": "McDavid bid for 200-point season drawing raves from Gretzky, others",
-   "url": "https://www.nhl.com/news/oilers-mcdavid-bid-for-200-point-season-drawing-raves-from-gretzky-and-rest-of-hockey-world",
-   "source": "NHL.com",
-   "published": "2026-11-24T05:00:00Z",
-   "snippet": "Connor McDavid has taken a high bar and set it at an unbelievable level this season. The Edmonton Oilers forward is on pace to challenge the 200-point plateau, which is something only Wayne…"
   }
  ]
 }
