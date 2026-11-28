@@ -1,19 +1,35 @@
 {
- "updated": "2026-11-28T15:54:55Z",
+ "updated": "2026-11-28T16:27:33Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Sportsnet (3)",
-  "Google News (85)"
+  "Google News (83)"
  ],
  "errors": [
   "Edmonton Journal: syntax error: line 1, column 0"
  ],
  "items": [
   {
+   "title": "Oilers (17-7-4) vs Kraken (12-10-1) | 7:00 p.m.",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONGx1VGpmN19YbjFRQzhYeW8wOWdwcGdFZDZBeV9DZW5vN1BwcEF3V0kyelVROU5BNlA0dWR5QjhYRUdKR3J3cy1peXFWcEpPZXo4SGp0b3NFd1h5NVRCV1dLa0t2R0FjRld5NlkzYlp0M2NyWS1hX2tlUXZKWkxpeDBwM2ZKSU9Qcm8wYTJvOTJRemJLc2szblVydXNTS2VqSld3?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-28T16:16:02Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "McDavid and Bouchard Make History as Oilers Struggle",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMHdPQmNXZmd3VnNreFdjTjJESlJYelN4RGNrRkJnc1ZueEhWTm5Dd2RyeTRPXzVRZnk5U3gtTnN6bXZXd0RLaEF1aTNDbmRaeVNfX3ZZM3JvRGdSRE9qWmpvamdhNzJhT1d5QkdoMzdLSkQwSUlHUXhuZFNaR3hKT1N5UXZTQQ?oc=5",
    "source": "Inside The Rink",
    "published": "2026-11-28T15:29:29Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Player grades: Edmonton Oilers again steal defeat from jaws of victory, losing to Seattle Kraken",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOOW5WckgwTE9rVHZmUU9YU3dRUzBNMWxybmM0dTVsdFN5a3BEblZidDdleEtIREVSa1V3Q2FaeUtxNGJuOEZfbWxhdWJDQXN3MXFIMHpfU3paZXBQY1JLQ18yWllvRi16MXlUaHFoaWhrNzFvVFE5NFF6b3ZvOVhVOVFFNzI0blVHd19za1VpZXNJWTMwSWlYSjN1TGZwa1ViTldJZ0JraTdaYkdsZkM4WVMzWXNjeTM5aHBOLWQ5S2R0a2dWc1kyZ1NrWEhabWRJclM2QTlGZWtESTd0N29NUnJBYWhlUQ?oc=5",
+   "source": "Edmonton Journal",
+   "published": "2026-11-28T15:04:16Z",
    "snippet": "",
    "via": "google"
   },
@@ -58,6 +74,14 @@
    "via": "google"
   },
   {
+   "title": "Kraken lean on special teams, timely goals to beat Oilers 4-2",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTDNQeXpnTjQ3MHBUYnhULWpQLXNxcGsyWVZfRHkyaW5VVjNfZlMwdEdvOTc0N2hmVndfMGRQNkpNekNuTHhXc1hEWEI2cjU2ZlZQN05HdEU2aWtnS04wdzdud0pSVjZsWjJjZ29NX1RiN01va3FvSmlPcXpOeFVEbzNMS3ZNMHI5VjRpU3dzN2lCQ1VvekJsR1k1V052Vlc0a21xVlpsYU4?oc=5",
+   "source": "CTV News",
+   "published": "2026-11-28T13:51:04Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Matthew Samoskevich November 28 Preview vs. the Oilers",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZndlMFhPSGNkQnJFQndvajBDOFBVNkxUMkFvZFVOczRVSFNnTlY3bURaSE9jNUhiZHdPTlhjc24zQ1c4TXQ2QlFHVmFSc2pmMlI3TDVYSmpkUGhUQ0FucGVVR0M5RGs5ZkxhRDEyMDFZN19BeDBlS2RZbGQzMDZDM3FxOUd5NEw5eVR0dHFXTjhmdlhxN2p5V1hFQ1g0Wnl3ZmZhdmstSzI?oc=5",
    "source": "Rip City Radio 620 Portland",
@@ -82,6 +106,14 @@
    "via": "google"
   },
   {
+   "title": "NHL Game Preview: Edmonton Oilers at Seattle Kraken with Line Combinations 11/28/2026",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcmE5YVV2c3lHS0V5cUthUE5KdEF6WDFXUmtUanZ5WXVjMjhjczlodEhlLWVJY29GUlJBQ25EeW93azh6QXBjRHp4aWJFU1hRVEZxWnh4UTZ2XzVzSVhtV3BTTUxhUzlhZlp6blltenRuUXZqZ08yRFh6VHZZdVRYNjdyaGdTczF0eFhsSTA3YnQzXzZtNU5fTHZCVlVUeDdydmIxNTdlMUl0UUd5MzVlUA?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-28T12:11:50Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Oilers are out of excuses after late collapse vs. Kraken: ‘It was terrible’",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSldSWkVZN240VzlOQURFVGpjMmxRVXVsNFdkV25sRzYxZWJ0MXdGTENtQjhxMW9venBOWTExdzJoc29TOHRhWGFyQk5GUVlIMHJtTGl5Ni1iUUY4cVo0T0RpMW5iRmtfOXpXNXBSTFU3cWp6Z0tPT1FUcEt5azVXeGJPZGpTdld5bTJNcHlzTksxVzg?oc=5",
    "source": "The New York Times",
@@ -94,14 +126,6 @@
    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbEE4b3JLc0tsUldVeDhYZnJhWnNQY0pnMWJrMjJTblNNX2pmeGo5c2oxTlVzYi1GUko1M0I3YmNYdElTdmp4Vjd6aEJzQnFNSVJQZ0JlRXhQVWlJa3ZxZW1qckdrQUs5UkgybS11elAyS21uSjN3bWRZUzBXOUtpRDZNRXk3cmlZUkVjbTgyNTBuWW1jaUNlbVFvdldnYWp4Q2NzWUNvdHRtcldWZ2MwN1E3X3VJZEV2LTBhZXZZaUVPWDR6clZITVNR?oc=5",
    "source": "Edmonton Journal",
    "published": "2026-11-28T11:42:09Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Oilers vs. Kraken Game Recap, Accountability Only Applies to Some Players & Latest News and Rumours",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3RwSldNRFVmSGNMTXhFWWstQnNCdUNLcEtPbFExaHh1bzdGYWZyV1BtZjBIaElSaWpWbWJWUktkS0FvVzc0R25BT21wWUJOTVZYdURpYkxtZ0ZZd0NieTNFVFN3NlhhcGhrV015TFFYZkxYYlZJLUY2ZDJLTXJBa1NldWlEOTdtUXc?oc=5",
-   "source": "Substack",
-   "published": "2026-11-28T11:35:28Z",
    "snippet": "",
    "via": "google"
   },
@@ -125,31 +149,7 @@
    "title": "Post-Game Instant Analysis: Seattle at Edmonton",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOU9aTjVxcmh3Si1pZzdRaDF0N0F6YjZNWGVBVUgxajdBeUw3MGdxYUFIYklBaDZmWGNGQVkzWmVHSnpzaWRCZ1IwMTlUNWQ3NndacDY3TkdlOU5TcGdQOHpFQWVxTDJkczg0bkRhc1lDbGJKZkhzRS0tM1FIOUYzVE5UWFA0WDZ3QmR6OVYySW05SG92ZFg0MW54cw?oc=5",
    "source": "NHL.com",
-   "published": "2026-11-28T10:07:30Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Kraken take on the Oilers following Kakko's 2-goal showing",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeTJreWtfcjlocDZBOEZpTVI5akVMTnRKX0FUb3dJUlIyYnlfbWNranNwc1dySEdyaXhHQ0lrTFVTUXlfZ2hMRkRlZUpMYzZxY3hPajVFVU5PYXNyVEFGb0ZnVGhJYnpVakVTMFdjd0E5MXhqamozYWpXQ1Vqd1o3RmpuSXJPYThHUkFJT2hzS2otRTNaM2FZeGJjOA?oc=5",
-   "source": "FOX Sports",
-   "published": "2026-11-28T09:00:24Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Three Takeaways – Kraken overcome eight penalty kills, Grubauer injury to beat Oilers",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTkRidUk0eFpBOTY2V0tEdTJrNjRRZ0pJbWhENWVVQWFBNzMzeVJpZC1xZ21lSlg2UWRQa3pBUHZzY181amxHNFhPZEl0RUo1clR1eUpmUXEzWHJBWW9nMVNHOEhsWk42Ql9KMklsOE1XSzR2bEF0ZEZCLVF3VUtoSlVNZmhJYVXSAYwBQVVfeXFMTkFMcUpfa1RGYkp0c2pKem50RVJVaFB2WDRiZmFKWjRpWFJ4MHcxa2ViakNvaW9tYkRhcGNPUE5NdlVzS0Y0aVEzVThNaGx6SHJ5cmh6bFdUQ3NmVXpjRkhzMHZDVGxvTmNqSmpGemhzRDM3cWNXX3pEZWZDSXFjd2JpSUdCX2RtbVNQTHg?oc=5",
-   "source": "Sound Of Hockey",
-   "published": "2026-11-28T07:25:50Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "QUICK RECAP: Kraken 4, Oilers 2",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GbnpPbGhpUnJSWFU2X0dVdU1DLXZfQzVxeFc4cXpxR0ljZGZKeW4zdDhTV3pBc3BuWXctUUZrWmhtTjNCc3o5Uk5iZjZjZWF2dHNsZWI5akxuRVBvcTZpbnhsQlh6aVowUkJwWTlqTE9SaXFxeDJETFJR?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-28T07:19:52Z",
+   "published": "2026-11-28T10:09:17Z",
    "snippet": "",
    "via": "google"
   },
@@ -173,6 +173,13 @@
    "source": "Sportsnet",
    "published": "2026-11-28T02:25:42Z",
    "snippet": "Watch as Edmonton Oilers captain Connor McDavid perfectly places his shot int the top corner to score a power-play goal against the Seattle Kraken."
+  },
+  {
+   "title": "QUICK RECAP: Kraken 4, Oilers 2",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-kraken-11-27-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-28T01:01:23.762Z",
+   "snippet": "EDMONTON, AB – Another Krack at 'em tomorrow. Forward Kaapo Kakko scored a pair of late goals just two minutes apart for the Seattle Kraken, who rallied to hand the Edmonton Oilers their…"
   },
   {
    "title": "Kraken at Oilers projected lineups",
@@ -271,13 +278,6 @@
    "source": "NHL.com",
    "published": "2026-11-23T04:54:00Z",
    "snippet": "ST. LOUIS -- Jimmy Snuggerud had a goal and an assist for the St. Louis Blues, who rallied from a three-goal deficit in the third period for a 5-4 shootout win against the Edmonton Oilers…"
-  },
-  {
-   "title": "QUICK RECAP: Blues 5, Oilers 4 (SO)",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-blues-11-22-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-23T00:10:32.365Z",
-   "snippet": "ST. LOUIS, MO - Couldn't hold on to close out the road trip on a winning note. Despite holding a three-goal lead midway through the third period, the Edmonton Oilers couldn't protect their…"
   }
  ]
 }
