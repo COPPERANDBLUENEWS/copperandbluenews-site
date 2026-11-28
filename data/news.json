@@ -1,14 +1,22 @@
 {
- "updated": "2026-11-28T15:25:49Z",
+ "updated": "2026-11-28T15:45:25Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Sportsnet (3)",
-  "Google News (90)"
+  "Google News (85)"
  ],
  "errors": [
   "Edmonton Journal: syntax error: line 1, column 0"
  ],
  "items": [
+  {
+   "title": "McDavid and Bouchard Make History as Oilers Struggle",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMHdPQmNXZmd3VnNreFdjTjJESlJYelN4RGNrRkJnc1ZueEhWTm5Dd2RyeTRPXzVRZnk5U3gtTnN6bXZXd0RLaEF1aTNDbmRaeVNfX3ZZM3JvRGdSRE9qWmpvamdhNzJhT1d5QkdoMzdLSkQwSUlHUXhuZFNaR3hKT1N5UXZTQQ?oc=5",
+   "source": "Inside The Rink",
+   "published": "2026-11-28T15:29:29Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "3 Takeaways From Oilers’ Embarrassing 4-2 Loss to Kraken",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS005Zk5rME9IYVBOQzRVUHNkN1RvbjgtWDhreGoxdm5sMWY5cEZsV2N3NnR5T1BmVW5QRlRaZGdLcW8zMElJWVNPNnIxTG5Yd004Y3BzR3JFSXZ3ek5vMkVlZmFGQ3dLRFpIQVBsdG9hcFNOV1hQYjJpbk41Nmo1cm9odHNaUWFkdHMyZnQ2SEowN05kMnRpdGhR?oc=5",
@@ -50,6 +58,22 @@
    "via": "google"
   },
   {
+   "title": "Matthew Beniers November 28 Preview vs. the Oilers",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORV9qbFhkT1hISzdYY0hUZnJOOU10Y3pSVWFvbkNndTd1Y1dqaXZaNGdZUkxVQ04yR29xQ1lYRWdIRmlJeXNnVmtYSUM5dS1FOEFVUW1iZlFxVHFlMG4ybVBQcUdiX2RyOWMyZ2dWNVExLWJKWkRIaVZmakZEV0Q5RW1QNTVPaUd5UmM1NnR3dHdjWEZDdWQ1eTltMEx3SzJtakhV?oc=5",
+   "source": "Rip City Radio 620 Portland",
+   "published": "2026-11-28T13:16:09Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Oilers vs Kraken, Prediction, Odds & Best Bets Today - NHL, Nov. 28",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeGViX19FM1MwOU82djJXRk8wQ1dNTlpsU3h4bUU2MkF2VUF4YnFXYlUwaGNhUEMtM1V4Z3pxYkRHOWEzaDJrcVlvNnNuZ0hCcWFaUEZBbnVPbWJPMHhVV1J1QVpySF9YYnRxRXpyWG9mU28wc1JXY3pTbVFnYUthOWZIb1Z1X1VncEJqaTRJS29GR0ww?oc=5",
+   "source": "sports.betmgm.com",
+   "published": "2026-11-28T13:05:20Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
    "title": "Defensive zone issues push the Edmonton Oilers' losing streak to five games",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUVZ1ZjI4b3pMWnBZV254RDRqLW43T2FtS0E0d3h3QXE5R1FCZ0dwdkVjREN4SkppZ3V6N1UtRFdJMTdDRXBGMlowTl82a3drczRFQ1pVYkJKNUNCdGhuaXh4X3VEem9jLVNXTTNqd3pSTHR6SnNHR1hqV004Y2xVbTVpR0JjcHV0b1ZidkhjWXVuVjUtREpYU19POGI0aks3Yy1vZkZqMkRrb29KV2FR?oc=5",
    "source": "Oil On Whyte",
@@ -82,26 +106,10 @@
    "via": "google"
   },
   {
-   "title": "Will Jordan Eberle Score a Goal vs. the Edmonton Oilers on November 28?",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNVh6RkxldmxvbXVFSTNWS202T0hEVW8zZXNRTUVINHA3RnA1TXhrTU1NSTJxMGlROHh1ajRjcnFQQ3NEQUoxZ0xIQjhqZkVaTGhheXREQlpBcndXOHRPbXN5c2hIYzk3QzY0eXcxd2tYWTBjZkczejgyTDBmU1VxVVpMbm05MFdEdHZtaTVYZVNESUtFU3Q1Mk5rNGloWlZqU0FzOFdoOWZib0RESmpKdXdZcDU2QWJjRHc?oc=5",
-   "source": "Bleacher Nation",
-   "published": "2026-11-28T11:13:13Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
    "title": "The Edmonton Oilers are not the only team to have avoided a shutout to start the season",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdVJjNmk1QVJkRkZjY01abHg3cHJpcUZuTmlYUG0tcGtsQWQ1Nmo5Q0FlWXhQV1RoOWxFY3I4dVFyYTVUUzZaSG9kbjIyOUZzRUZ2SGU5TXhUc3IzRllzSW1UQ2hDUEFQd29JcDFPMHZZR2tDS3Izb29QM1dRaEJoVXU4bjJPVzgzYU95N2ZNWGdtcy02LXNidFJDNHJMbnowWWY1RDRsb1Y3UlM1NFNRVE5kazJCNzFaQm9SeUgtSTE?oc=5",
    "source": "Oil On Whyte",
    "published": "2026-11-28T11:00:00Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "Seattle Kraken vs Edmonton Oilers - Where to Watch, Stream Info, TV Channel, and Live Updates (November 28, 2026)",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPODNqU1RXQnlHeFBydWlTMEVuMUFZWEMxT3VDQTlTSXB2dFBkQ1NlaG1lc0hnSnkyWEVabG1teGRzR29MS0pDMy1UTVlIT3hOLVgwRHZkazdHcVcyMW91ZUVpa1dpSlgtRTBIRlpSbjdkLWdVRUI4bXFOWm5MTmFhME5BdWlxN2dTOEQzaWluSThWaVRsOWt0MGhJbnh1Z1dIXzVDenRhOERWZV9BLUc4aW0wNHVSY0JubHlWNFdfelBmTmJOT09pSXJycGRNeTNf?oc=5",
-   "source": "Fubo",
-   "published": "2026-11-28T10:58:04Z",
    "snippet": "",
    "via": "google"
   },
@@ -130,28 +138,27 @@
    "via": "google"
   },
   {
-   "title": "QUICK RECAP: Kraken 4, Oilers 2",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GbnpPbGhpUnJSWFU2X0dVdU1DLXZfQzVxeFc4cXpxR0ljZGZKeW4zdDhTV3pBc3BuWXctUUZrWmhtTjNCc3o5Uk5iZjZjZWF2dHNsZWI5akxuRVBvcTZpbnhsQlh6aVowUkJwWTlqTE9SaXFxeDJETFJR?oc=5",
-   "source": "NHL.com",
-   "published": "2026-11-28T07:19:52Z",
+   "title": "Oilers vs. Kraken Time, TV & Live Stream – 11/28/2026",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT2s4Ujdqa0MtYWliM01jbVR0QWZUNXptZXRTOWFfcXZ6OTVfZkdNeXJzRDFtelkzOXpvWnlmRGdSZjduWVhEVGNwcnZFTG9fQzlXMUk0SG92Mml2Qk1paEV5MUdvRlljaVVmcTZiX0dMenJRek9LdWdnVGR3Z1c2VEt3LVlJa1A1UmRWNkd6Umkyb1JBS3l4ZF93WWVJUQ?oc=5",
+   "source": "Rip City Radio 620 Portland",
+   "published": "2026-11-28T07:40:23Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "Three Takeaways – Kraken overcome eight penalty kills, Grubauer injury to beat Oilers",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTkRidUk0eFpBOTY2V0tEdTJrNjRRZ0pJbWhENWVVQWFBNzMzeVJpZC1xZ21lSlg2UWRQa3pBUHZzY181amxHNFhPZEl0RUo1clR1eUpmUXEzWHJBWW9nMVNHOEhsWk42Ql9KMklsOE1XSzR2bEF0ZEZCLVF3VUtoSlVNZmhJYVXSAYwBQVVfeXFMTkFMcUpfa1RGYkp0c2pKem50RVJVaFB2WDRiZmFKWjRpWFJ4MHcxa2ViakNvaW9tYkRhcGNPUE5NdlVzS0Y0aVEzVThNaGx6SHJ5cmh6bFdUQ3NmVXpjRkhzMHZDVGxvTmNqSmpGemhzRDM3cWNXX3pEZWZDSXFjd2JpSUdCX2RtbVNQTHg?oc=5",
+   "source": "Sound Of Hockey",
+   "published": "2026-11-28T07:25:50Z",
    "snippet": "",
    "via": "google"
   },
   {
    "title": "Kakko scores two in third, Kraken rally to hand Oilers fifth straight loss",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ2FmdVdmSF9oQ0FoTU5HX1J4M00zdXR4M01zaDQ5S1BkbHhOeGhTZkxlaFlPMDFraU1UWXJyWFpFcW00TmpFWkpxOG1Eb2ctTm9wZmd2WmVtR1dqc0RyZmZOZHdhaDJncHVHeTl6X1RfZE9pazVCVlNrM2tXUHZrRzVWTG5iNTZHZHBn?oc=5",
+   "url": "https://www.nhl.com/news/seattle-kraken-edmonton-oilers-game-recap-november-27-2026",
    "source": "NHL.com",
-   "published": "2026-11-28T07:16:26Z",
-   "snippet": "",
-   "via": "google"
-  },
-  {
-   "title": "\"More Killing Than I've Ever Done\": Kraken Go 7-for-8 on PK, Stun Oilers in Edmonton",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTEV0MUlIdGpjVzBQV04wZUVoX1preHBLSDJKdlhnRFktZVJZcGRxeE96RTZpVXlHSkdsS2NpVENidTNaRGliT0RWek9aaW1Cb0VyR2hIcW5oMXp3UEgzTWhhTjRXY0RSdEdWdFg2YVZ5SFNNa18tbkFIWWdPd1AyVkkxLW1taXJTVW9MM2ZHTzhDY0FfdnNob3pfWkFIRmNReFF1cC12dw?oc=5",
-   "source": "Emerald City Spectrum",
-   "published": "2026-11-28T06:55:42Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-28T05:23:00Z",
+   "snippet": "EDMONTON -- Kaapo Kakko scored twice in the third period, and the Seattle Kraken rallied to hand the Edmonton Oilers their season-high fifth straight loss with a 4-2 win at Rogers Place on…"
   },
   {
    "title": "NHL Highlights: Kraken 4, Oilers 2",
@@ -166,6 +173,13 @@
    "source": "Sportsnet",
    "published": "2026-11-28T02:25:42Z",
    "snippet": "Watch as Edmonton Oilers captain Connor McDavid perfectly places his shot int the top corner to score a power-play goal against the Seattle Kraken."
+  },
+  {
+   "title": "QUICK RECAP: Kraken 4, Oilers 2",
+   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-kraken-11-27-26",
+   "source": "EdmontonOilers.com",
+   "published": "2026-11-28T01:01:23.762Z",
+   "snippet": "EDMONTON, AB – Another Krack at 'em tomorrow. Forward Kaapo Kakko scored a pair of late goals just two minutes apart for the Seattle Kraken, who rallied to hand the Edmonton Oilers their…"
   },
   {
    "title": "Kraken at Oilers projected lineups",
@@ -264,20 +278,6 @@
    "source": "NHL.com",
    "published": "2026-11-23T04:54:00Z",
    "snippet": "ST. LOUIS -- Jimmy Snuggerud had a goal and an assist for the St. Louis Blues, who rallied from a three-goal deficit in the third period for a 5-4 shootout win against the Edmonton Oilers…"
-  },
-  {
-   "title": "QUICK RECAP: Blues 5, Oilers 4 (SO)",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-at-blues-11-22-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-23T00:10:32.365Z",
-   "snippet": "ST. LOUIS, MO - Couldn't hold on to close out the road trip on a winning note. Despite holding a three-goal lead midway through the third period, the Edmonton Oilers couldn't protect their…"
-  },
-  {
-   "title": "PROJECTED LINEUP: Oilers at Blues",
-   "url": "https://www.nhl.com/oilers/news/projected-lineup-oilers-at-blues-11-22-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-22T18:04:46.321Z",
-   "snippet": "ST. LOUIS, MO – Goalie Tristan Jarry will get the start, while defenceman Jake Walman is projected to draw back into the lineup for the Edmonton Oilers when they cap off a weekend…"
   }
  ]
 }
