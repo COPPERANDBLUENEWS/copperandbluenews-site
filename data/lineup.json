@@ -3,7 +3,7 @@
   "id": 2026020414,
   "startTimeUTC": "2026-11-28T01:00:00Z",
   "gameDate": "2026-11-27",
-  "state": "FINAL",
+  "state": "OFF",
   "home": true,
   "venue": "Rogers Place",
   "opponent": {
@@ -286,7 +286,7 @@
    "num": 27,
    "pos": "G"
   },
-  "note": "Jarry will start vs. Seattle on Friday. "
+  "note": null
  },
  "scratches": [
   {
@@ -484,8 +484,8 @@
     "num": 35,
     "pos": "G"
    },
-   "note": "Grubauer will start in Edmonton on Friday. "
+   "note": null
   }
  },
- "updated": "2026-11-28T03:59:22Z"
+ "updated": "2026-11-28T04:39:58Z"
 }

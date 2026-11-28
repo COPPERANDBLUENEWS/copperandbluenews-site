@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:27:15Z",
+ "updated": "2026-11-28T04:39:58Z",
  "channels": [
   {
    "name": "Edmonton Oilers",
@@ -12,11 +12,47 @@
  ],
  "note": "Oilers+ (https://www.oilersplus.com) is the club subscription stream, not a separate YouTube channel. Public Pre-Raw, Post-Raw, and non-game-day Raw interviews are uploaded to the official Edmonton Oilers channel.",
  "sources": [
-  "rss (10)",
-  "uploads playlist (52)"
+  "rss (9)",
+  "uploads playlist (53)"
  ],
  "errors": [],
  "videos": [
+  {
+   "id": "Rl99WfrOSZg",
+   "type": "Post-Raw",
+   "title": "POST-RAW | Mike Babcock 11.27.26",
+   "published": "2026-11-28T04:12:46Z",
+   "publishedSource": "rss",
+   "thumbnail": "https://i.ytimg.com/vi/Rl99WfrOSZg/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=Rl99WfrOSZg",
+   "embed": "https://www.youtube-nocookie.com/embed/Rl99WfrOSZg",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
+  {
+   "id": "-yoiMp-4NEA",
+   "type": "Post-Raw",
+   "title": "POST-RAW | Ryan Nugent-Hopkins 11.27.26",
+   "published": "2026-11-28T04:12:11Z",
+   "publishedSource": "rss",
+   "thumbnail": "https://i.ytimg.com/vi/-yoiMp-4NEA/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=-yoiMp-4NEA",
+   "embed": "https://www.youtube-nocookie.com/embed/-yoiMp-4NEA",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
+  {
+   "id": "16ERQ3zMS38",
+   "type": "Post-Raw",
+   "title": "POST-RAW | Leon Draisaitl 11.27.26",
+   "published": "2026-11-28T04:11:21Z",
+   "publishedSource": "rss",
+   "thumbnail": "https://i.ytimg.com/vi/16ERQ3zMS38/hqdefault.jpg",
+   "url": "https://www.youtube.com/watch?v=16ERQ3zMS38",
+   "embed": "https://www.youtube-nocookie.com/embed/16ERQ3zMS38",
+   "channelId": "UCyfbxrAcT9w7pHvDeYCtc0Q",
+   "channel": "Edmonton Oilers"
+  },
   {
    "id": "IKEVftc18hU",
    "type": "Pre-Raw",
