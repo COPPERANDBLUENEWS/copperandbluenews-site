@@ -1,27 +1,35 @@
 {
- "updated": "2026-11-28T03:01:41Z",
+ "updated": "2026-11-28T03:31:58Z",
  "sources": [
   "NHL.com / EdmontonOilers.com (30)",
   "Edmonton Journal (10)",
   "Sportsnet (2)",
-  "Google News (89)"
+  "Google News (91)"
  ],
  "errors": [],
  "items": [
+  {
+   "title": "Seattle Kraken at Edmonton Oilers - NHL Game Summary - Nov 27, 2026",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUWlBdmhRTEFyMEp0YmRSSXFhV21OTkxBanp5UjlzS1VzSkRzNGdXSnh0RkZOTHFRVWpvcUdMejI1dlgwcVk4LWlpbkxUaUVIVVU4R2FzVHdodGhBWHFILWNURmExTHBYYVZlbnRmTWZ2b3ZfOXBkb09DMGVPcWJQeThLQ1ZXVmF4VGZpM2RnOS1ZOE45WEVsdUtLTHRJeVgwZGlQYmMzakphZFFMMGs1djcwT0UwR25rWlVIcXZsenFtTXpjWFJzeEN0RnFxYVpSN01yb24zQ2hvcmwyWTgyWHJvWkFLYXhPS2JwWXhB?oc=5",
+   "source": "USA Today",
+   "published": "2026-11-28T03:27:02Z",
+   "snippet": "",
+   "via": "google"
+  },
+  {
+   "title": "SEA@EDM: McDavid scores PPG against Philipp Grubauer",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQakhqREZxaG94dlk5Nnd0SjZFMlJEZHU0NVE2ekdlRFhULXZMZzdjOU1tQ2Q5X0szZkVqN3V5UWUteHFpcjMwbTZVSEdneTJ5TVNQWmZPaHBDcjZCVGdJSUhxeF9Udk5PY2hPa09GU0MxLVRhX2RuRDFuOFlsRkJya0RLRjlxc3Fwbkc3MzZJLVY5clFhTHFHbUIzWXBvWVE?oc=5",
+   "source": "NHL.com",
+   "published": "2026-11-28T02:57:20Z",
+   "snippet": "",
+   "via": "google"
+  },
   {
    "title": "Oilers’ McDavid snipes top corner for power-play goal vs. Kraken",
    "url": "https://www.sportsnet.ca/nhl/video/oilers-mcdavid-snipes-top-corner-for-power-play-goal-vs-kraken/",
    "source": "Sportsnet",
    "published": "2026-11-28T02:25:42Z",
    "snippet": "Watch as Edmonton Oilers captain Connor McDavid perfectly places his shot int the top corner to score a power-play goal against the Seattle Kraken."
-  },
-  {
-   "title": "Seattle Kraken at Edmonton Oilers - NHL Game Summary - Nov 27, 2026",
-   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPOGcwcTRheENpWWJERUJlM2h5eVdWM1l2bjJjWWJlZVU5QlhDbmRKUkd6UVp5alpoWERPSVVUR3pEcHlGczlwRUYzeWJTaEZqdmRZQUk3REIxME9YYWdNdUdYQS1kRi1iRUJ1djk2aEpYNUdMQlJaMEM0dkdVOFNSMmxqR0dEb3NNOFhqVmNVTWtLa1ZyaTluZmVpZmllcEExUmJrVzlZTmJBM3pQVGxrX1VxeUFnejZiaW5DR2ZwT29BMVBFVXJfNDhZb2lQaTE3d0ZZcHBDVFZRb3hNanYxOXY4OUJneXJjVUNrYkl3?oc=5",
-   "source": "USA Today",
-   "published": "2026-11-28T01:26:21Z",
-   "snippet": "",
-   "via": "google"
   },
   {
    "title": "LIVE UPDATES: Oilers vs. Kraken",
@@ -47,8 +55,8 @@
   },
   {
    "title": "Oilers vs. Kraken: Why Edmonton Needs 3 of 4 Points",
-   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQT0Frd3pmd0hVb3V5cGZfV0tBeHNtWURJRS14OE00RloyMG9sa3I4MTJrZG9VT0taODVzeFFJdl9oQXVKWW56Vmo2QnFnUlRQRVZJeHJZVWlJckZHZ25hS2djaHlZakRVNUk3cGkwemRrT3FfNUNUdExzRThybVo1NkYwTlZ6UnljMDdwZ2pHOWJ5dFZheVpLN2t6OHIyTHZTY0xRR1FtSTQzMk1Va252aVFkVkF5cWpJWTl1dFpDTVI5aGJNa0pEZUxteFhWVGJoY0kyZGhWZDZmQ3k4QVZtZVFkQnBXOTREVGY5OVExbw?oc=5",
-   "source": "wtsp.com",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOdzlDZ2F5eG5lZG44MFk5U0pMZGVNUVFmWmpQSjI1M3JJMDRUb1VtSzNNS18xYTAzWmV3UUJyaEJ2bDhsNGtiRFlERWhkZzFBaGdQeFhsX0dTV1h3aFViczdETVJDUlVvMThrUnI0OF96TkdjSWkzSEtrX1FSXzhhMURETFJfUWtDWHJLaUxnZ0k0OFhCT1lITW1LZGQybWNKNzFYakxyWkdKQWh3eTR1YzFPSllxSmlTenlaaUhLS29HOGJxTHhBWlF0c1ViRjdneVIwcG1jSVNoUFBTMFdaZ1lZX1psajgteHBpVGIxVmM?oc=5",
+   "source": "9News",
    "published": "2026-11-28T00:19:00Z",
    "snippet": "",
    "via": "google"
@@ -174,11 +182,10 @@
   },
   {
    "title": "Kraken at Oilers projected lineups",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeDVjS2YtaTZCOFI5OGhkU1VpTzNXdEVNVng0bGI5UXYtcV92TUhDd3FrYmVsQXRDeUpzdzR0SlVsb2o1VXI0ZUFiMVJvZ1pkdGlPYXYwUmpPRm15alR5NXBHNWxHbnM1ejItMm5kZHRRakFUNmYwM3J2YXBIOXNfRWNHc3doOWtwa2hOU1NB?oc=5",
+   "url": "https://www.nhl.com/news/seattle-kraken-edmonton-oilers-game-preview-november-27-2026",
    "source": "NHL.com",
-   "published": "2026-11-27T18:56:40Z",
-   "snippet": "",
-   "via": "google"
+   "published": "2026-11-27T18:41:00Z",
+   "snippet": "KRAKEN (11-10-1) at OILERS (17-6-4) 8 p.m. ET; SN, KONG, Prime Video Kraken projected lineup Chandler Stephenson -- Berkly Catton -- Jordan Eberle Kaapo Kakko -- Matty Beniers -- Mackie…"
   },
   {
    "title": "PROJECTED LINEUP: Oilers vs. Kraken",
@@ -259,10 +266,10 @@
   },
   {
    "title": "Eichel scores twice, Golden Knights hand Oilers fourth straight loss",
-   "url": "https://www.nhl.com/oilers/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026-x8132",
-   "source": "EdmontonOilers.com",
+   "url": "https://www.nhl.com/news/vegas-golden-knights-edmonton-oilers-game-recap-november-24-2026",
+   "source": "NHL.com",
    "published": "2026-11-25T05:10:00Z",
-   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss, 5-3 at Rogers Place on Tuesday."
+   "snippet": "EDMONTON – Jack Eichel scored twice, and the Vegas Golden Knights handed the Edmonton Oilers their fourth straight loss with a 5-3 win at Rogers Place on Tuesday."
   },
   {
    "title": "BLOG: Elks welcomed onto the ice at Rogers Place as Grey Cup champions",
@@ -270,13 +277,6 @@
    "source": "EdmontonOilers.com",
    "published": "2026-11-25T02:51:19.658Z",
    "snippet": "EDMONTON, AB - The Champs are here. Decked in green & gold and with the Grey Cup in tow, the Edmonton Elks were welcomed to Rogers Place and brought onto the ice prior to puck drop against…"
-  },
-  {
-   "title": "QUICK RECAP: Golden Knights 5, Oilers 3",
-   "url": "https://www.nhl.com/oilers/news/live-updates-oilers-vs-golden-knights-11-24-26",
-   "source": "EdmontonOilers.com",
-   "published": "2026-11-25T01:02:28.481Z",
-   "snippet": "EDMONTON, AB - A 'Golden' opportunity capitalized on by the visitors. Colton Dach, Connor McDavid & Vasily Podkolzin all found the back of the net, while Evan Bouchard produced two assists,…"
   }
  ]
 }

@@ -441,6 +441,13 @@
     "num": 42,
     "pos": "C",
     "status": "IR"
+   },
+   {
+    "id": 8475831,
+    "name": "Philipp Grubauer",
+    "num": 31,
+    "pos": "G",
+    "status": "Day-to-day"
    }
   ],
   "notes": [],
@@ -455,7 +462,7 @@
     "url": "https://www.dailyfaceoff.com/teams/seattle-kraken/line-combinations",
     "what": "line combinations",
     "basis": "Seattle Kraken",
-    "updatedAt": "2026-11-28T00:54:13.432Z"
+    "updatedAt": "2026-11-28T03:13:39.733Z"
    },
    {
     "name": "DailyFaceoff",
@@ -480,5 +487,5 @@
    "note": "Grubauer will start in Edmonton on Friday. "
   }
  },
- "updated": "2026-11-28T01:17:39Z"
+ "updated": "2026-11-28T03:31:59Z"
 }
