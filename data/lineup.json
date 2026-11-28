@@ -442,7 +442,7 @@
     "name": "Philipp Grubauer",
     "num": 31,
     "pos": "G",
-    "status": "Day-to-day"
+    "status": "IR"
    }
   ],
   "notes": [],
@@ -452,7 +452,7 @@
     "url": "https://www.dailyfaceoff.com/teams/seattle-kraken/line-combinations",
     "what": "line combinations",
     "basis": "Last Game (2026-11-27)",
-    "updatedAt": "2026-11-28T16:49:07.360Z"
+    "updatedAt": "2026-11-28T17:04:02.286Z"
    },
    {
     "name": "DailyFaceoff",
@@ -469,13 +469,13 @@
    },
    "status": "Unconfirmed",
    "backup": {
-    "id": 8475831,
-    "name": "Philipp Grubauer",
-    "num": 31,
+    "id": 8483668,
+    "name": "Nikke Kokko",
+    "num": 39,
     "pos": "G"
    },
    "note": null
   }
  },
- "updated": "2026-11-28T16:53:17Z"
+ "updated": "2026-11-28T17:26:39Z"
 }
