@@ -1,6 +1,30 @@
 {
-  "updated": "2026-11-28T03:01:32+00:00",
+  "updated": "2026-11-28T04:02:16+00:00",
   "next": {
+    "id": 2026020427,
+    "gameType": 2,
+    "startTimeUTC": "2026-11-29T03:00:00Z",
+    "dateMT": "Sat Nov 28",
+    "timeMT": "9 PM MT",
+    "timePT": "8 PM PT",
+    "venue": "Climate Pledge Arena",
+    "state": "FUT",
+    "scheduleState": "OK",
+    "lastPeriod": null,
+    "away": {
+      "abbrev": "EDM",
+      "name": "Oilers",
+      "place": "Edmonton",
+      "score": null
+    },
+    "home": {
+      "abbrev": "SEA",
+      "name": "Kraken",
+      "place": "Seattle",
+      "score": null
+    }
+  },
+  "last": {
     "id": 2026020414,
     "gameType": 2,
     "startTimeUTC": "2026-11-28T01:00:00Z",
@@ -8,14 +32,14 @@
     "timeMT": "7 PM MT",
     "timePT": "6 PM PT",
     "venue": "Rogers Place",
-    "state": "LIVE",
+    "state": "FINAL",
     "scheduleState": "OK",
-    "lastPeriod": null,
+    "lastPeriod": "REG",
     "away": {
       "abbrev": "SEA",
       "name": "Kraken",
       "place": "Seattle",
-      "score": 1
+      "score": 4
     },
     "home": {
       "abbrev": "EDM",
@@ -24,39 +48,15 @@
       "score": 2
     }
   },
-  "last": {
-    "id": 2026020385,
-    "gameType": 2,
-    "startTimeUTC": "2026-11-25T01:00:00Z",
-    "dateMT": "Tue Nov 24",
-    "timeMT": "7 PM MT",
-    "timePT": "6 PM PT",
-    "venue": "Rogers Place",
-    "state": "OFF",
-    "scheduleState": "OK",
-    "lastPeriod": "REG",
-    "away": {
-      "abbrev": "VGK",
-      "name": "Golden Knights",
-      "place": "Vegas",
-      "score": 5
-    },
-    "home": {
-      "abbrev": "EDM",
-      "name": "Oilers",
-      "place": "Edmonton",
-      "score": 3
-    }
-  },
   "standings": {
     "wins": 17,
-    "losses": 6,
+    "losses": 7,
     "otLosses": 4,
     "points": 38,
-    "gamesPlayed": 27,
+    "gamesPlayed": 28,
     "divisionSequence": 1,
     "divisionName": "Pacific",
     "streakCode": "L",
-    "streakCount": 1
+    "streakCount": 2
   }
 }
